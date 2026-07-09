@@ -1,11 +1,65 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+// src/pages/index.astro
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// 1. Set your current live rulebook version numbers here
+const CRAZY_8s_VERSION = "13.0.0";
+
+// 2. Build the path pointing to your public folder file
+const game1Path = `/rulebooks/master-guide-v${CRAZY_8s_VERSION}.pdf`;
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rulebooks Vault</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            background: #13151a;
+            color: #fff;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background: #23262d;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 1px solid #343844;
+        }
+        .btn {
+            display: inline-block;
+            background: #fff;
+            color: #13151a;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            background: #dae0e8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Core Game Archive</h1>
+    <p>Select a game variant below to open its live, interactive rulebook.</p>
+
+    <div class="card">
+        <h2>Primary Game Rules</h2>
+        <p>Current Active Meta: <strong>v{GAME_1_VERSION}</strong></p>
+        
+        <!-- This button links directly to your PDF file -->
+        <a href={game1Path} target="_blank" class="btn">
+            📖 Open Rulebook (iOS Friendly)
+        </a>
+    </div>
+
+</body>
+</html>
