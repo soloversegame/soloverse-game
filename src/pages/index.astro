@@ -1,4 +1,4 @@
-astro---
+---
 // src/pages/index.astro
 
 // Define all your games and their specific rulebook links in one clean array
@@ -12,7 +12,7 @@ const gamesList = [
       { name: "🃏 Chaos Card Definitions", file: "[01-B] Soloverse - Crazy 8's [Definitions Rulebook]" },
       { name: "🕹️ Solo Mode Rules", file: "[01-C] Soloverse - Crazy 8's [Solo Mode x Bot Player Rulebook]" },
       { name: "🏆 Achievements List", file: "[01-D] Soloverse - Crazy 8's [Achievements List]" }
-	  ]
+    ]
   },
   {
     title: "[02] Crazy 8's [Utter Chaos]",
@@ -30,7 +30,7 @@ const gamesList = [
     files: [
       { name: "📖 Game Rulebook", file: "[03-A] Soloverse - Karma [Game Rulebook]" },
       { name: "🃏 Chaos Card Definitions", file: "[03-A] Soloverse - Karma [Definitions Rulebook]" }
-	  ]
+    ]
   },
   {
     title: "[04] Cheat",
@@ -39,7 +39,7 @@ const gamesList = [
     files: [
       { name: "📖 Game Rulebook", file: "[04-A] Soloverse - Cheat [Game Rulebook]" },
       { name: "🃏 Chaos Card Definitions", file: "[04-A] Soloverse - Cheat [Definitions Rulebook]" }
-	  ]
+    ]
   },
   {
     title: "[05] Battle Solitaire",
@@ -48,7 +48,7 @@ const gamesList = [
     files: [
       { name: "📖 Game Rulebook", file: "[05-A] Soloverse - Battle Solitaire [Game Rulebook]" },
       { name: "🃏 Chaos Card Definitions", file: "[05-A] Soloverse - Battle Solitaire [Definitions Rulebook]" }
-	  ]
+    ]
   },
   {
     title: "[06] Deck-Builder Variant",
@@ -57,7 +57,7 @@ const gamesList = [
     files: [
       { name: "📖 Game Rulebook", file: "[06-A] Soloverse - Deck-Builder [Game Rulebook]" },
       { name: "🃏 Chaos Card Definitions", file: "[03-A] Soloverse - Deck-Builder [Definitions Rulebook]" }
-	  ]
+    ]
   },
   {
     title: "[07] Nominations",
@@ -66,17 +66,9 @@ const gamesList = [
     files: [
       { name: "📖 Game Rulebook", file: "[07-A] Soloverse - Nominations [Game Rulebook]" },
       { name: "🃏 Chaos Card Definitions", file: "[07-A] Soloverse - Nominations [Definitions Rulebook]" }
-	  ]
-  },
+    ]
+  }
 ];
----
-// src/pages/index.astro
-
-// 1. Set your current live rulebook version numbers here
-const CRAZY_8s = "13.0.0";
-
-// 2. Build the path pointing to your public folder file
-const game1Path = `/rulebooks/master-guide-v${CRAZY_8s}.pdf`;
 ---
 
 <!DOCTYPE html>
