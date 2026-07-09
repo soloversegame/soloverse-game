@@ -2,10 +2,10 @@
 // src/pages/index.astro
 
 // 1. Set your current live rulebook version numbers here
-const CRAZY_8s_VERSION = "13.0.0";
+const CRAZY_8s = "13.0.0";
 
 // 2. Build the path pointing to your public folder file
-const game1Path = `/rulebooks/master-guide-v${CRAZY_8s_VERSION}.pdf`;
+const game1Path = `/rulebooks/master-guide-v${CRAZY_8s}.pdf`;
 ---
 
 <!DOCTYPE html>
@@ -53,7 +53,7 @@ const game1Path = `/rulebooks/master-guide-v${CRAZY_8s_VERSION}.pdf`;
 
     <div class="card">
         <h2>Primary Game Rules</h2>
-        <p>Current Active Meta: <strong>v{GAME_1_VERSION}</strong></p>
+        <p>Current Active Meta: <strong>v{CRAZY_8s}</strong></p>
         
         <!-- This button links directly to your PDF file -->
         <a href={game1Path} target="_blank" class="btn">
