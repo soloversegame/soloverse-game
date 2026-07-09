@@ -1,3 +1,74 @@
+astro---
+// src/pages/index.astro
+
+// Define all your games and their specific rulebook links in one clean array
+const gamesList = [
+  {
+    title: "[01] Crazy 8's",
+    version: "13.0.0",
+    folder: "[01] Soloverse - Crazy 8's",
+    files: [
+      { name: "📖 Game Rulebook", file: "[01-A] Soloverse - Crazy 8's [Game Rulebook]" },
+      { name: "🃏 Chaos Card Definitions", file: "[01-B] Soloverse - Crazy 8's [Definitions Rulebook]" },
+      { name: "🕹️ Solo Mode Rules", file: "[01-C] Soloverse - Crazy 8's [Solo Mode x Bot Player Rulebook]" },
+      { name: "🏆 Achievements List", file: "[01-D] Soloverse - Crazy 8's [Achievements List]" }
+	  ]
+  },
+  {
+    title: "[02] Crazy 8's [Utter Chaos]",
+    version: "2.0.0",
+    folder: "[02] Soloverse - Crazy 8's [Utter Chaos]",
+    files: [
+      { name: "📖 Core Rulebook", file: "[02-A] Soloverse - Crazy 8's [Utter Chaos] [Game Rulebook]" },
+      { name: "🃏 Chaos Card Definitions", file: "[02-B] Soloverse - Crazy 8's [Utter Chaos] [Definitions Rulebook]" }
+    ]
+  },
+  {
+    title: "[03] Karma",
+    version: "2.0.0",
+    folder: "[03] Soloverse - Karma",
+    files: [
+      { name: "📖 Game Rulebook", file: "[03-A] Soloverse - Karma [Game Rulebook]" },
+      { name: "🃏 Chaos Card Definitions", file: "[03-A] Soloverse - Karma [Definitions Rulebook]" }
+	  ]
+  },
+  {
+    title: "[04] Cheat",
+    version: "2.0.0",
+    folder: "[04] Soloverse - Cheat",
+    files: [
+      { name: "📖 Game Rulebook", file: "[04-A] Soloverse - Cheat [Game Rulebook]" },
+      { name: "🃏 Chaos Card Definitions", file: "[04-A] Soloverse - Cheat [Definitions Rulebook]" }
+	  ]
+  },
+  {
+    title: "[05] Battle Solitaire",
+    version: "2.0.0",
+    folder: "[05] Soloverse - Battle Solitaire",
+    files: [
+      { name: "📖 Game Rulebook", file: "[05-A] Soloverse - Battle Solitaire [Game Rulebook]" },
+      { name: "🃏 Chaos Card Definitions", file: "[05-A] Soloverse - Battle Solitaire [Definitions Rulebook]" }
+	  ]
+  },
+  {
+    title: "[06] Deck-Builder Variant",
+    version: "2.0.0",
+    folder: "[06] Soloverse - Deck-Builder",
+    files: [
+      { name: "📖 Game Rulebook", file: "[06-A] Soloverse - Deck-Builder [Game Rulebook]" },
+      { name: "🃏 Chaos Card Definitions", file: "[03-A] Soloverse - Deck-Builder [Definitions Rulebook]" }
+	  ]
+  },
+  {
+    title: "[07] Nominations",
+    version: "2.0.0",
+    folder: "[07] Soloverse - Nominations",
+    files: [
+      { name: "📖 Game Rulebook", file: "[07-A] Soloverse - Nominations [Game Rulebook]" },
+      { name: "🃏 Chaos Card Definitions", file: "[07-A] Soloverse - Nominations [Definitions Rulebook]" }
+	  ]
+  },
+];
 ---
 // src/pages/index.astro
 
@@ -13,52 +84,112 @@ const game1Path = `/rulebooks/master-guide-v${CRAZY_8s}.pdf`;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Rulebooks Vault</title>
+    <title>Game Rulebook Vault</title>
     <style>
         body {
-            font-family: system-ui, sans-serif;
-            background: #13151a;
-            color: #fff;
-            max-width: 600px;
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #111216;
+            color: #f3f4f6;
+            max-width: 800px;
             margin: 40px auto;
             padding: 20px;
+        }
+        h1 {
             text-align: center;
+            color: #ffffff;
+            margin-bottom: 5px;
         }
-        .card {
-            background: #23262d;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-            border: 1px solid #343844;
+        .subtitle {
+            text-align: center;
+            color: #9ca3af;
+            margin-bottom: 40px;
         }
-        .btn {
-            display: inline-block;
-            background: #fff;
-            color: #13151a;
-            padding: 10px 20px;
-            border-radius: 4px;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .game-card {
+            background: #1c1e24;
+            border: 1px solid #2d3139;
+            border-radius: 12px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+        }
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #2d3139;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+        .game-title {
+            margin: 0;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+        .version-badge {
+            background: #2563eb;
+            color: white;
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            border-radius: 9999px;
+            font-weight: 600;
+        }
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .rule-link {
+            display: flex;
+            align-items: center;
+            background: #262930;
+            color: #e5e7eb;
             text-decoration: none;
-            font-weight: bold;
-            margin-top: 15px;
+            padding: 12px;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background 0.2s, transform 0.1s;
         }
-        .btn:hover {
-            background: #dae0e8;
+        .rule-link:hover {
+            background: #31353f;
+            color: #ffffff;
+            transform: translateY(-1px);
         }
     </style>
 </head>
 <body>
 
-    <h1>Core Game Archive</h1>
-    <p>Select a game variant below to open its live, interactive rulebook.</p>
+    <h1>Game Rulebook Vault</h1>
+    <p class="subtitle">Select a variant blueprint below to stream live, iOS-friendly interactive document layers.</p>
 
-    <div class="card">
-        <h2>Primary Game Rules</h2>
-        <p>Current Active Meta: <strong>v{CRAZY_8s}</strong></p>
-        
-        <!-- This button links directly to your PDF file -->
-        <a href={game1Path} target="_blank" class="btn">
-            📖 Open Rulebook (iOS Friendly)
-        </a>
+    <div class="grid">
+        {gamesList.map((game) => (
+            <div class="game-card">
+                <div class="game-header">
+                    <h2 class="game-title">{game.title}</h2>
+                    <span class="version-badge">v{game.version}</span>
+                </div>
+                
+                <nav class="links-list">
+                    {game.files.map((item) => {
+                        // Dynamically compile the clean path string matching your version names
+                        const fullPath = `/rulebooks/${game.folder}/${item.file}-v${game.version}.pdf`;
+                        return (
+                            <a href={fullPath} target="_blank" class="rule-link">
+                                {item.name}
+                            </a>
+                        );
+                    })}
+                </nav>
+            </div>
+        ))}
     </div>
 
 </body>
