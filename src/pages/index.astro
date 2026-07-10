@@ -140,7 +140,6 @@ const upcomingGames = [
             padding: 24px 20px;
             position: relative;
         }
-        /* Cardboard texture gradient filter layer */
         .game-header::after {
             content: '';
             position: absolute;
@@ -190,51 +189,49 @@ const upcomingGames = [
             background: #2c303f;
             color: #ffffff;
         }
-		/* The Upcoming section wrapper title */
-		.section-divider {
-			grid-column: 1 / -1;
-			margin-top: 60px;
-			margin-bottom: 20px;
-			border-bottom: 1px dashed #2d3139;
-			padding-bottom: 15px;
-			color: #6b7280;
-			font-size: 1.25rem;
-			font-weight: 700;
-			text-transform: uppercase;
-			letter-spacing: 0.05em;
-		}
-		/* Blueprint Prototype Box look */
-		.blueprint-card {
-			background: rgba(23, 25, 34, 0.4);
-			border: 2px dashed #2d3139;
-			border-radius: 16px;
-			padding: 24px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			min-height: 120px;
-			position: relative;
-			overflow: hidden;
-		}
-		.blueprint-title {
-			margin: 0;
-			font-size: 1rem;
-			font-weight: 700;
-			color: #4b5563; /* Muted grey layout text */
-		}
-		.status-badge {
-			align-self: flex-start;
-			background: #1e293b;
-			color: #94a3b8;
-			font-size: 0.7rem;
-			font-weight: 700;
-			padding: 4px 8px;
-			border-radius: 4px;
-			text-transform: uppercase;
-			letter-spacing: 0.05em;
-			margin-top: 15px;
-		}
-	</style>
+        .section-divider {
+            grid-column: 1 / -1;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            border-bottom: 1px dashed #2d3139;
+            padding-bottom: 15px;
+            color: #6b7280;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .blueprint-card {
+            background: rgba(23, 25, 34, 0.4);
+            border: 2px dashed #2d3139;
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 120px;
+            position: relative;
+            overflow: hidden;
+        }
+        .blueprint-title {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #4b5563;
+        }
+        .status-badge {
+            align-self: flex-start;
+            background: #1e293b;
+            color: #94a3b8;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 4px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
 
@@ -243,7 +240,6 @@ const upcomingGames = [
 
     <div class="grid">
         {gamesList.map((game) => {
-            // Dynamic text shadowing contrast logic (Makes text legible on your bright yellow 'Stinger' layout card)
             const titleColor = game.boxColor === "#fff200" ? "#111216" : "#ffffff";
             const textShadowRule = game.boxColor === "#fff200" ? "none" : "0 2px 4px rgba(0,0,0,0.6)";
 
@@ -258,18 +254,24 @@ const upcomingGames = [
                     <div class="box-contents">
                         <nav class="links-list">
                             {game.files.map((item) => {
-                                // 1. Construct the path to your server file
+                                // 1. Construct relative asset path
                                 const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
                                 
-                                // 2. Your actual production domain layout string
+                                // 2. Assemble clean absolute production string
                                 const liveDomain = "https://soloverse-game.vercel.app";
-                                const fileUrl = liveDomain + rawPdfPath;
+                                const absoluteUrl = liveDomain + rawPdfPath;
 
-                                // 3. The verified, official Google document viewing bridge path
-                                const webViewStream = "https://google.com" + encodeURIComponent(fileUrl) + "&embedded=true";
-            
+                                // 3. Build verified sandboxed Google stream target URL
+                                const safeGoogleViewer = "https://google.com" + encodeURIComponent(absoluteUrl) + "&embedded=true";
+                                
                                 return (
-                                    <a href={webViewStream} target="_blank" class="rule-link" style={`border-left: 3px solid ${game.boxColor};`}>
+                                    <a 
+                                        href={rawPdfPath} 
+                                        data-android-href={safeGoogleViewer}
+                                        target="_blank" 
+                                        class="rule-link game-download-trigger" 
+                                        style={`border-left: 3px solid ${game.boxColor};`}
+                                    >
                                         {item.name} 
                                         <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal;">
                                             v{item.version}
@@ -282,19 +284,32 @@ const upcomingGames = [
                 </div>
             );
         })}
-    <!-- This sits inside your main <div class="grid"> right under your active games loop -->
     
-    <div class="section-divider">
-        🛠️ In Development Blueprint Stack ({upcomingGames.length} Variants Pipeline)
+        <div class="section-divider">
+            🛠️ In Development Blueprint Stack ({upcomingGames.length} Variants Pipeline)
+        </div>
+
+        {upcomingGames.map((upcoming) => (
+            <div class="blueprint-card">
+                <h2 class="blueprint-title">{upcoming.title}</h2>
+                <div class="status-badge">📦 Under Construction</div>
+            </div>
+        ))}
     </div>
 
-    {upcomingGames.map((upcoming) => (
-        <div class="blueprint-card">
-            <h2 class="blueprint-title">{upcoming.title}</h2>
-            <div class="status-badge">📦 Under Construction</div>
-        </div>
-    ))}
-    </div>
+    <!-- The missing runtime engine script that intercepts Android browser clicks -->
+    <script>
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        if (isAndroid) {
+            const triggers = document.querySelectorAll('.game-download-trigger');
+            triggers.forEach(link => {
+                const androidLink = link.getAttribute('data-android-href');
+                if (androidLink) {
+                    link.setAttribute('href', androidLink);
+                }
+            });
+        }
+    </script>
 
 </body>
 </html>
