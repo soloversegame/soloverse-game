@@ -251,23 +251,44 @@ const upcomingGames = [
                         </h2>
                     </div>
                     
+                    {/* RESTORED: Vital container hooks to stop compiler errors */}
+                    <div class="box-contents">
+                        <nav class="links-list">
                             {game.files.map((item) => {
-                                // 1. Construct the ultra-clean hyphenated file path
-                                const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "-v" + item.version + ".pdf";
+                                // 1. We safely hide all forward slashes from the Astro compiler using an array join rule
+                                const folderPathArray = ["", "rulebooks", game.folder, item.file + "-v" + item.version + ".pdf"];
+                                const rawPdfPath = folderPathArray.join('/');
                                 
+                                // 2. Hardcode your exact active production domain text string
+                                const liveDomain = "https://soloverse-game.vercel.app";
+                                const absoluteUrl = liveDomain + rawPdfPath;
+                                
+                                // 3. The computer safely builds and handles your encoded mobile streaming parameters
+                                const googleEngineUrl = new URL("https://google.com");
+                                googleEngineUrl.searchParams.append("embedded", "true");
+                                googleEngineUrl.searchParams.append("url", absoluteUrl);
+                                const googlePreviewUrl = googleEngineUrl.toString();
+                            
                                 return (
-                                    <div class="link-button-wrapper" style="width: 100%;">
-                                        {/* ONE UNIFIED BUTTON: Works perfectly across all platforms */}
-                                        <a 
-                                            href={rawPdfPath} 
-                                            target="_blank" 
-                                            class="rule-link universal-pdf-trigger" 
-                                            style={`border-left: 3px solid ${game.boxColor}; display: flex; width: 100%;`}
-                                        >
+                                    <div class="link-button-wrapper" style="display: flex; gap: 6px; width: 100%;">
+                                        {/* ACTION A: Direct file link for Desktop PC, Mac, and Apple iPads */}
+                                        <a href={rawPdfPath} target="_blank" class="rule-link" style={`border-left: 3px solid ${game.boxColor}; flex-grow: 1;`}>
                                             {item.name} 
                                             <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal; margin-right: 10px;">
                                                 v{item.version.replaceAll('-', '.')}
                                             </span>
+                                        </a>
+
+                                        {/* ACTION B: Dedicated sandbox streaming viewer link built specifically to bypass mobile Android/Opera GX firewalls */}
+                                        <a 
+                                            href={googlePreviewUrl} 
+                                            target="_blank" 
+                                            title="Stream In-App (Android / Opera GX Fix)"
+                                            style={`display: flex; align-items: center; justify-content: center; background: #242732; color: ${game.boxColor}; border: 1px solid #2d313f; padding: 0 14px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 1rem; transition: background 0.15s;`}
+                                            onmouseover="this.style.background='#2c303f'"
+                                            onmouseout="this.style.background='#242732'"
+                                        >
+                                            📱
                                         </a>
                                     </div>
                                 );
@@ -291,26 +312,4 @@ const upcomingGames = [
     </div>
 
 </body>
-
-    <!-- This engineering script unblocks Android Opera GX streaming and bypasses Astro compiler slash checks -->
-    <script>
-        const isAndroid = /Android/i.test(navigator.userAgent);
-        
-        if (isAndroid) {
-            document.querySelectorAll('.universal-pdf-trigger').forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    
-                    const fileUrl = link.getAttribute('href');
-                    if (fileUrl) {
-                        // We safely hide the slashes from the Astro compiler using an array join rule
-                        const viewerBase = ["https:", "", "mozilla.github.io", "pdf.js", "web", "viewer.html?file="].join('/');
-                        const nativeStreamUrl = viewerBase + encodeURIComponent(window.location.origin + fileUrl);
-                        
-                        window.open(nativeStreamUrl, '_blank');
-                    }
-                });
-            });
-        }
-    </script>
 </html>
