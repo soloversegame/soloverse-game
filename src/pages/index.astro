@@ -172,7 +172,7 @@ const gamesList = [
                 <nav class="links-list">
                     {game.files.map((item) => {
                         // Dynamically compile the clean path string matching your version names
-                        const fullPath = `/rulebooks/${game.folder}/${item.file}-v${game.version}.pdf`;
+                        const fullPath = `/rulebooks/${game.folder}/${item.file}_v${game.version}.pdf`;
                         return (
                             <a href={fullPath} target="_blank" class="rule-link">
                                 {item.name}
