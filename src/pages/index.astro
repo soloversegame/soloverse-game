@@ -254,25 +254,41 @@ const upcomingGames = [
                     <div class="box-contents">
                         <nav class="links-list">
                             {game.files.map((item) => {
-                                // 1. Construct relative path to the physical file asset
+                                // 1. Construct relative asset path pointing to your rulebook file
                                 const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
                                 
-                                // 2. Hardcode your live production URL
+                                // 2. Cleanly encode your Vercel site parameters for mobile streams
                                 const liveDomain = "https://soloverse-game.vercel.app/";
                                 const absoluteUrl = liveDomain + rawPdfPath;
-
+                                const googlePreviewUrl = "https://google.com" + encodeURIComponent(absoluteUrl);
+            
                                 return (
-                                    <a 
-                                        href={absoluteUrl} 
-                                        target="_blank" 
-                                        class="rule-link" 
-                                        style={`border-left: 3px solid ${game.boxColor};`}
-                                    >
-                                        {item.name} 
-                                        <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal;">
-                                            v{item.version}
-                                        </span>
-                                    </a>
+                                    <div class="link-button-wrapper" style="display: flex; gap: 6px; width: 100%;">
+                                        {/* ACTION 1: The standard direct button for PC, Mac, and iOS iPad devices */}
+                                        <a 
+                                            href={rawPdfPath} 
+                                            target="_blank" 
+                                            class="rule-link" 
+                                            style={`border-left: 3px solid ${game.boxColor}; flex-grow: 1;`}
+                                        >
+                                            {item.name} 
+                                            <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal; margin-right: 10px;">
+                                                v{item.version}
+                                            </span>
+                                        </a>
+
+                                        {/* ACTION 2: The explicit mobile viewer button built specifically for Android Opera GX */}
+                                        <a 
+                                            href={googlePreviewUrl} 
+                                            target="_blank" 
+                                            title="Stream In-App (Android / Opera GX Fix)"
+                                            style={`display: flex; align-items: center; justify-content: center; background: #242732; color: ${game.boxColor}; border: 1px solid #2d313f; padding: 0 14px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 1rem; transition: background 0.15s;`}
+                                            onmouseover="this.style.background='#2c303f'"
+                                            onmouseout="this.style.background='#242732'"
+                                        >
+                                            📱
+                                        </a>
+                                    </div>
                                 );
                             })}
                         </nav>
