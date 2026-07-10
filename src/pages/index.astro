@@ -258,21 +258,24 @@ const upcomingGames = [
                     <div class="box-contents">
                         <nav class="links-list">
                             {game.files.map((item) => {
-								// 1. This is your original clean path to the file
-								const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
-    
-								// 2. We route it through a secure web viewer to force Android Chrome to stream it
-								const androidFriendlyPath = `https://github.io{encodeURIComponent(Astro.site + rawPdfPath)}`;
-
-								return (
-									<a href={androidFriendlyPath} target="_blank" class="rule-link" style={`border-left: 3px solid ${game.boxColor};`}>
-										{item.name} 
-										<span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal;">
-											v{item.version}
-										</span>
-									</a>
-								);
-							})}
+                                // 1. Build the clean relative path to your file
+                                const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
+                                
+                                // 2. Hardcode your live Vercel domain to create an absolute URL string
+                                const absolutePdfUrl = "https://soloverse-game.vercel.app/" + rawPdfPath;
+                            
+                                // 3. Wrap that URL cleanly into Google's public streaming gateway
+                                const universalStreamingPath = "https://google.com" + encodeURIComponent(absolutePdfUrl);
+            
+                                return (
+                                    <a href={universalStreamingPath} target="_blank" class="rule-link" style={`border-left: 3px solid ${game.boxColor};`}>
+                                        {item.name} 
+                                        <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal;">
+                                            v{item.version}
+                                        </span>
+                                    </a>
+                                );
+                            })}
                         </nav>
                     </div>
                 </div>
