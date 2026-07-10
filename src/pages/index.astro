@@ -261,13 +261,11 @@ const upcomingGames = [
                                 // 1. Construct the path to your server file
                                 const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
                                 
-                                // 2. Hardcode your live production URL (Replace with your actual active project domain!)
-                                const liveDomain = "https://soloverse-game.vercel.app/";
-                                
-                                // 3. Target link routing path strings
+                                // 2. Your actual production domain layout string
+                                const liveDomain = "https://soloverse-game.vercel.app";
                                 const fileUrl = liveDomain + rawPdfPath;
 
-                                // 4. Secure cloud viewing bridge for mobile systems
+                                // 3. The verified, official Google document viewing bridge path
                                 const webViewStream = "https://google.com" + encodeURIComponent(fileUrl) + "&embedded=true";
             
                                 return (
