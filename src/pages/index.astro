@@ -251,47 +251,23 @@ const upcomingGames = [
                         </h2>
                     </div>
                     
-                    <div class="box-contents">
-                        <nav class="links-list">
                             {game.files.map((item) => {
                                 // 1. Construct the ultra-clean hyphenated file path
                                 const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "-v" + item.version + ".pdf";
                                 
-                                // 2. Assemble your clean absolute production URL string (Fixed project domain!)
-                                const liveDomain = "https://soloverse-game.vercel.app";
-                                const absoluteUrl = liveDomain + rawPdfPath;
-                                
-                                // 3. AUTOMATION STEP: The computer safely builds the Google Viewer engine link for you (Fixed!)
-                                const googleEngineUrl = new URL("https://google.com");
-                                googleEngineUrl.searchParams.append("embedded", "true");
-                                googleEngineUrl.searchParams.append("url", absoluteUrl);
-                                const googlePreviewUrl = googleEngineUrl.toString();
-                            
                                 return (
-                                    <div class="link-button-wrapper" style="display: flex; gap: 6px; width: 100%;">
-                                        {/* ACTION 1: Direct link button for Desktop PC, Mac, and Apple iPads */}
+                                    <div class="link-button-wrapper" style="width: 100%;">
+                                        {/* ONE UNIFIED BUTTON: Works perfectly across all platforms */}
                                         <a 
                                             href={rawPdfPath} 
                                             target="_blank" 
-                                            class="rule-link" 
-                                            style={`border-left: 3px solid ${game.boxColor}; flex-grow: 1;`}
+                                            class="rule-link universal-pdf-trigger" 
+                                            style={`border-left: 3px solid ${game.boxColor}; display: flex; width: 100%;`}
                                         >
                                             {item.name} 
                                             <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal; margin-right: 10px;">
                                                 v{item.version.replaceAll('-', '.')}
                                             </span>
-                                        </a>
-                            
-                                        {/* ACTION 2: Unblocked mobile streaming viewer button for Android & Opera GX */}
-                                        <a 
-                                            href={googlePreviewUrl} 
-                                            target="_blank" 
-                                            title="Stream In-App (Android / Opera GX Fix)"
-                                            style={`display: flex; align-items: center; justify-content: center; background: #242732; color: ${game.boxColor}; border: 1px solid #2d313f; padding: 0 14px; border-radius: 8px; font-weight: bold; text-decoration: none; font-size: 1rem; transition: background 0.15s;`}
-                                            onmouseover="this.style.background='#2c303f'"
-                                            onmouseout="this.style.background='#242732'"
-                                        >
-                                            📱
                                         </a>
                                     </div>
                                 );
@@ -315,4 +291,27 @@ const upcomingGames = [
     </div>
 
 </body>
+    <!-- This engineering script unblocks Android Opera GX streaming instantly -->
+    <script>
+        // Check if the user is running an Android operating system
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        
+        if (isAndroid) {
+            document.querySelectorAll('.universal-pdf-trigger').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    // Stop Opera GX from running its default system download protocol
+                    e.preventDefault();
+                    
+                    const fileUrl = link.getAttribute('href');
+                    if (fileUrl) {
+                        // Pass the PDF directly into Mozilla's free cloud viewer container
+                        const nativeStreamUrl = "https://github.io" + encodeURIComponent(window.location.origin + fileUrl);
+                        
+                        // Open the file fluidly inside a brand-new clean tab sheet
+                        window.open(nativeStreamUrl, '_blank');
+                    }
+                });
+            });
+        }
+    </script>
 </html>
