@@ -258,17 +258,20 @@ const upcomingGames = [
                     <div class="box-contents">
                         <nav class="links-list">
                             {game.files.map((item) => {
-                                // 1. Build the clean relative path to your file
+                                // 1. Construct the path to your server file
                                 const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
                                 
-                                // 2. Hardcode your live Vercel domain to create an absolute URL string
-                                const absolutePdfUrl = "https://soloverse-game.vercel.app/" + rawPdfPath;
-                            
-                                // 3. Wrap that URL cleanly into Google's public streaming gateway
-                                const universalStreamingPath = "https://google.com" + encodeURIComponent(absolutePdfUrl);
+                                // 2. Hardcode your live production URL (Replace with your actual active project domain!)
+                                const liveDomain = "https://soloverse-game.vercel.app/";
+                                
+                                // 3. Target link routing path strings
+                                const fileUrl = liveDomain + rawPdfPath;
+
+                                // 4. Secure cloud viewing bridge for mobile systems
+                                const webViewStream = "https://google.com" + encodeURIComponent(fileUrl) + "&embedded=true";
             
                                 return (
-                                    <a href={universalStreamingPath} target="_blank" class="rule-link" style={`border-left: 3px solid ${game.boxColor};`}>
+                                    <a href={webViewStream} target="_blank" class="rule-link" style={`border-left: 3px solid ${game.boxColor};`}>
                                         {item.name} 
                                         <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal;">
                                             v{item.version}
