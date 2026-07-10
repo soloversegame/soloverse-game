@@ -28,13 +28,20 @@
     <iframe id="pdf-viewer" src=""></iframe>
 
     <script>
-        // Read the target rulebook path from the URL bar
+        // Read the target rulebook path from the browser URL bar
         const urlParams = new URLSearchParams(window.location.search);
         const file = urlParams.get('file');
         
         if (file) {
-            // Force the internal browser tab window to stream the file inline
-            document.getElementById('pdf-viewer').src = file;
+            // 1. Build the absolute production path pointing to your rulebook file
+            const liveDomain = "https://vercel.app";
+            const absolutePdfUrl = liveDomain + file;
+
+            // 2. Wrap it inside Google's next-gen viewer engine to force fluid mobile streaming
+            const forcedMobileStreamUrl = "https://google.com" + encodeURIComponent(absolutePdfUrl);
+
+            // 3. Inject the clean streaming path directly into your page frame
+            document.getElementById('pdf-viewer').src = forcedMobileStreamUrl;
         }
     </script>
 </body>
