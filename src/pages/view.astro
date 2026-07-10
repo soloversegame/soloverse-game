@@ -1,0 +1,41 @@
+---
+// src/pages/view.astro
+// This is a universal cloud reader page that forces all mobile and PC browsers to stream files inline
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soloverse Document Stream</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #0f1015;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- The frame pulls the target rulebook parameter from the button link and streams it securely -->
+    <iframe id="pdf-viewer" src=""></iframe>
+
+    <script>
+        // Read the target rulebook path from the URL bar
+        const urlParams = new URLSearchParams(window.location.search);
+        const file = urlParams.get('file');
+        
+        if (file) {
+            // Force the internal browser tab window to stream the file inline
+            document.getElementById('pdf-viewer').src = file;
+        }
+    </script>
+</body>
+</html>

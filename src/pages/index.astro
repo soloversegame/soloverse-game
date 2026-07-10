@@ -254,22 +254,17 @@ const upcomingGames = [
                     <div class="box-contents">
                         <nav class="links-list">
                             {game.files.map((item) => {
-                                // 1. Construct relative asset path
+                                // 1. Construct relative path to the physical file asset
                                 const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
                                 
-                                // 2. Assemble clean absolute production string
-                                const liveDomain = "https://soloverse-game.vercel.app";
-                                const absoluteUrl = liveDomain + rawPdfPath;
-
-                                // 3. Build verified sandboxed Google stream target URL
-                                const safeGoogleViewer = "https://google.com" + encodeURIComponent(absoluteUrl) + "&embedded=true";
-                                
+                                // 2. Route the player through your own internal viewer page instead of Google
+                                const universalReaderLink = "/view?file=" + encodeURIComponent(rawPdfPath);
+            
                                 return (
                                     <a 
-                                        href={rawPdfPath} 
-                                        data-android-href={safeGoogleViewer}
+                                        href={universalReaderLink} 
                                         target="_blank" 
-                                        class="rule-link game-download-trigger" 
+                                        class="rule-link" 
                                         style={`border-left: 3px solid ${game.boxColor};`}
                                     >
                                         {item.name} 
@@ -296,20 +291,6 @@ const upcomingGames = [
             </div>
         ))}
     </div>
-
-    <!-- The missing runtime engine script that intercepts Android browser clicks -->
-    <script>
-        const isAndroid = /Android/i.test(navigator.userAgent);
-        if (isAndroid) {
-            const triggers = document.querySelectorAll('.game-download-trigger');
-            triggers.forEach(link => {
-                const androidLink = link.getAttribute('data-android-href');
-                if (androidLink) {
-                    link.setAttribute('href', androidLink);
-                }
-            });
-        }
-    </script>
 
 </body>
 </html>
