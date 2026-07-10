@@ -94,6 +94,13 @@ const upcomingGames = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soloverse Rulebook Hub</title>
+
+    <!-- 1. Tell the phone browser exactly where your live app blueprint sits -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- 2. Force the mobile address bar and theme layers to adapt to your dark game profile -->
+    <meta name="theme-color" content="#0f1015" />
+
     <style>
         body {
             font-family: system-ui, -apple-system, sans-serif;
@@ -236,7 +243,7 @@ const upcomingGames = [
 <body>
 
     <h1>Soloverse Rulebook Hub</h1>
-    <p class="subtitle">Select a variant blueprint below to stream live, iOS-friendly interactive document layers.</p>
+    <p class="subtitle">Select a Game Variant below to stream live, iOS-friendly interactive document layers.</p>
 
     <div class="grid">
         {gamesList.map((game) => {
@@ -294,7 +301,8 @@ const upcomingGames = [
         ))}
     </div>
 
-</body>
     <!-- This registers the offline background engine application worker on boot -->
     <script src="/src/pwa.ts"></script>
+
+</body>
 </html>
