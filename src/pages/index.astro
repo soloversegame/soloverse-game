@@ -301,8 +301,13 @@ const upcomingGames = [
         ))}
     </div>
 
-    <!-- This registers the offline background engine application worker on boot -->
-    <script src="/src/pwa.ts"></script>
+    <script is:inline>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
 
 </body>
 </html>
