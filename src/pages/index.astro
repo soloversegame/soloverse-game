@@ -257,12 +257,13 @@ const upcomingGames = [
                                 // 1. Construct relative path to the physical file asset
                                 const rawPdfPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
                                 
-                                // 2. Route the player through your own internal viewer page instead of Google
-                                const universalReaderLink = "/view?file=" + encodeURIComponent(rawPdfPath);
-            
+                                // 2. Hardcode your live production URL
+                                const liveDomain = "https://soloverse-game.vercel.app/";
+                                const absoluteUrl = liveDomain + rawPdfPath;
+
                                 return (
                                     <a 
-                                        href={universalReaderLink} 
+                                        href={absoluteUrl} 
                                         target="_blank" 
                                         class="rule-link" 
                                         style={`border-left: 3px solid ${game.boxColor};`}
@@ -293,4 +294,24 @@ const upcomingGames = [
     </div>
 
 </body>
+    <!-- This automation engine captures button clicks and forces in-app web viewing -->
+    <script>
+        document.querySelectorAll('.rule-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                // If the user is on a Desktop PC or Apple iOS, let the default tab view handle it
+                const isAndroid = /Android/i.test(navigator.userAgent);
+                
+                if (isAndroid) {
+                    e.preventDefault();
+                    const targetUrl = link.getAttribute('href');
+                    
+                    // Route mobile browsers through a sandbox layer that strips file headers
+                    if (targetUrl) {
+                        const securePreview = "https://google.com" + encodeURIComponent(targetUrl);
+                        window.open(securePreview, '_blank');
+                    }
+                }
+            });
+        });
+    </script>
 </html>
