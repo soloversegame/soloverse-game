@@ -291,23 +291,21 @@ const upcomingGames = [
     </div>
 
 </body>
-    <!-- This engineering script unblocks Android Opera GX streaming instantly -->
+    <!-- This engineering script unblocks Android Opera GX streaming and bypasses Astro compiler slash checks -->
     <script>
-        // Check if the user is running an Android operating system
         const isAndroid = /Android/i.test(navigator.userAgent);
         
         if (isAndroid) {
             document.querySelectorAll('.universal-pdf-trigger').forEach(link => {
                 link.addEventListener('click', (e) => {
-                    // Stop Opera GX from running its default system download protocol
                     e.preventDefault();
                     
                     const fileUrl = link.getAttribute('href');
                     if (fileUrl) {
-                        // Pass the PDF directly into Mozilla's free cloud viewer container
-                        const nativeStreamUrl = "https://github.io" + encodeURIComponent(window.location.origin + fileUrl);
+                        // We safely hide the slashes from the Astro compiler using an array join rule
+                        const viewerBase = ["https:", "", "mozilla.github.io", "pdf.js", "web", "viewer.html?file="].join('/');
+                        const nativeStreamUrl = viewerBase + encodeURIComponent(window.location.origin + fileUrl);
                         
-                        // Open the file fluidly inside a brand-new clean tab sheet
                         window.open(nativeStreamUrl, '_blank');
                     }
                 });
