@@ -13,7 +13,7 @@ const gamesList = [
     ]
   },
   {
-    title: "02 Soloverse - Crazy 8's [Utter Chaos]",
+    title: "02 Soloverse - Crazy 8's Utter Chaos",
     folder: "02_Soloverse_-_Crazy_8s_Utter_Chaos",
     files: [
       { name: "📖 Core Rulebook", file: "02-A_Soloverse_-_Crazy_8s_Utter_Chaos_Game_Rulebook", version: "2.0.0" },
@@ -21,7 +21,7 @@ const gamesList = [
     ]
   },
   {
-    title: "03 Soloverse - Karma]",
+    title: "03 Soloverse - Karma",
     folder: "03_Soloverse_-_Karma",
     files: [
       { name: "📖 Core Rulebook", file: "03-A_Soloverse_-_Karma_Game_Rulebook", version: "2.0.0" },
@@ -114,14 +114,6 @@ const gamesList = [
             font-size: 1.25rem;
             font-weight: 700;
         }
-        .version-badge {
-            background: #2563eb;
-            color: white;
-            font-size: 0.75rem;
-            padding: 4px 8px;
-            border-radius: 9999px;
-            font-weight: 600;
-        }
         .links-list {
             display: flex;
             flex-direction: column;
@@ -162,11 +154,15 @@ const gamesList = [
             
 				<nav class="links-list">
 					{game.files.map((item) => {
-						// CRITICAL FIX: Changed game.version to item.version
-						const fullPath = `/rulebooks/${game.folder}/${item.file}_v${item.version}.pdf`;
+						// 1. We build the path with an explicit underscore string breaker
+						const fullPath = "/rulebooks/" + game.folder + "/" + item.file + "_v" + item.version + ".pdf";
+    
 						return (
 							<a href={fullPath} target="_blank" class="rule-link">
-								{item.name} <span class="v-tag">v{item.version}</span>
+								{item.name} 
+								<span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6;">
+									v{item.version}
+								</span>
 							</a>
 						);
 					})}
