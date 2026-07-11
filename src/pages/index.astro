@@ -102,17 +102,46 @@ const upcomingGames = [
     <meta name="theme-color" content="#0f1015" />
 
     <style>
+        /* 1. DEFINE YOUR REACTIVE COLOR MAP ARCHITECTURE */
+        :root {
+            --bg-main: #0f1015;
+            --bg-card: #171922;
+            --bg-contents: #1c1e27;
+            --bg-link: #242732;
+            --bg-link-hover: #2c303f;
+            --text-primary: #ffffff;
+            --text-secondary: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-divider: #2d3139;
+            --shadow-card: rgba(0, 0, 0, 0.5);
+        }
+
+        /* 2. AUTOMATIC LIGHT MODE OVERRIDE DATA VALUES */
+        :root[data-theme="light"] {
+            --bg-main: #f4f5f7;
+            --bg-card: #ffffff;
+            --bg-contents: #f9fafb;
+            --bg-link: #f3f4f6;
+            --bg-link-hover: #e5e7eb;
+            --text-primary: #111216;
+            --text-secondary: #1f2937;
+            --text-muted: #4b5563;
+            --text-divider: #d1d5db;
+            --shadow-card: rgba(0, 0, 0, 0.1);
+        }
+
         body {
             font-family: system-ui, -apple-system, sans-serif;
-            background: #0f1015;
-            color: #f3f4f6;
+            background: var(--bg-main);
+            color: var(--text-secondary);
             max-width: 900px;
             margin: 40px auto;
             padding: 20px;
+            transition: background 0.3s, color 0.3s;
         }
         h1 {
             text-align: center;
-            color: #ffffff;
+            color: var(--text-primary);
             font-size: 2.5rem;
             margin-bottom: 5px;
             font-weight: 800;
@@ -120,28 +149,47 @@ const upcomingGames = [
         }
         .subtitle {
             text-align: center;
-            color: #9ca3af;
+            color: var(--text-muted);
             margin-bottom: 50px;
         }
+        
+        /* Premium Layout Control Button Interface Switch */
+        .theme-toggle-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+        .theme-btn {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--text-divider);
+            padding: 10px 16px;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 6px -1px var(--shadow-card);
+            transition: background 0.2s, color 0.2s, transform 0.1s;
+        }
+        .theme-btn:active { transform: scale(0.97); }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 30px;
         }
         .game-card {
-            background: #171922;
+            background: var(--bg-card);
             border-radius: 16px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 
-                        0 8px 10px -6px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 25px -5px var(--shadow-card), 0 8px 10px -6px var(--shadow-card);
             transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s;
         }
         .game-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.7), 
-                        0 10px 10px -5px rgba(0, 0, 0, 0.7);
+            box-shadow: 0 20px 25px -5px var(--shadow-card), 0 10px 10px -5px var(--shadow-card);
         }
         .game-header {
             padding: 24px 20px;
@@ -164,12 +212,12 @@ const upcomingGames = [
         }
         .box-contents {
             padding: 20px;
-            background: #1c1e27;
+            background: var(--bg-contents);
             flex-grow: 1;
             display: flex;
             flex-direction: column;
             gap: 12px;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-top: 1px solid var(--text-divider);
         }
         .links-list {
             display: flex;
@@ -182,35 +230,36 @@ const upcomingGames = [
         .rule-link {
             display: flex;
             align-items: center;
-            background: #242732;
-            color: #d1d5db;
+            background: var(--bg-link);
+            color: var(--text-muted);
             text-decoration: none;
             padding: 12px 14px;
             border-radius: 8px;
             font-weight: 600;
             font-size: 0.9rem;
-            border: 1px solid #2d313f;
+            border: 1px solid var(--text-divider);
             transition: background 0.15s, color 0.15s, border-color 0.15s;
         }
         .rule-link:hover {
-            background: #2c303f;
-            color: #ffffff;
+            background: var(--bg-link-hover);
+            color: var(--text-primary);
         }
         .section-divider {
             grid-column: 1 / -1;
             margin-top: 60px;
             margin-bottom: 20px;
-            border-bottom: 1px dashed #2d3139;
+            border-bottom: 1px dashed var(--text-divider);
             padding-bottom: 15px;
-            color: #6b7280;
+            color: var(--text-muted);
             font-size: 1.25rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
         .blueprint-card {
-            background: rgba(23, 25, 34, 0.4);
-            border: 2px dashed #2d3139;
+            background: var(--bg-card);
+            opacity: 0.7;
+            border: 2px dashed var(--text-divider);
             border-radius: 16px;
             padding: 24px;
             display: flex;
@@ -224,12 +273,12 @@ const upcomingGames = [
             margin: 0;
             font-size: 1rem;
             font-weight: 700;
-            color: #4b5563;
+            color: var(--text-muted);
         }
         .status-badge {
             align-self: flex-start;
-            background: #1e293b;
-            color: #94a3b8;
+            background: var(--bg-link);
+            color: var(--text-muted);
             font-size: 0.7rem;
             font-weight: 700;
             padding: 4px 8px;
@@ -239,8 +288,14 @@ const upcomingGames = [
             margin-top: 15px;
         }
     </style>
+
 </head>
 <body>
+
+    <!-- THE REACTIVE THEME OPTION INTERFACE CONTROLLER BUTTON -->
+    <div class="theme-toggle-container">
+        <button id="theme-toggle-btn" class="theme-btn">☀️ Light Mode</button>
+    </div>
 
     <h1>Soloverse Rulebook Hub</h1>
     <p class="subtitle">Select a Game Variant below to stream live, iOS-friendly interactive document layers.</p>
@@ -310,6 +365,30 @@ const upcomingGames = [
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('/sw.js');
             });
+        }
+    </script>
+
+    <!-- Script engine layer to monitor theme mutations and save user local state preferences -->
+    <script is:inline>
+        const themeBtn = document.getElementById('theme-toggle-btn');
+        
+        // 1. Check local device memory for an active existing selection setting configuration
+        const savedTheme = localStorage.getItem('soloverse-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        updateButtonUI(savedTheme);
+
+        themeBtn.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            // 2. Commit the structural change state mutation live on screen
+            document.documentElement.setAttribute('data-theme', targetTheme);
+            localStorage.setItem('soloverse-theme', targetTheme);
+            updateButtonUI(targetTheme);
+        });
+
+        function updateButtonUI(theme) {
+            themeBtn.innerText = theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
         }
     </script>
 
