@@ -189,7 +189,43 @@
     <div class="patch-card">
         <div class="patch-date">2024/07/18</div>
         <p style="margin: 0 0 4px 0; font-weight: 700; color: var(--text-primary);">Major Changes:</p>
-        <ul style="list-style-type: disc;">
+        <ul style="list-style-type: disc; margin-bottom: 12px;">
             <li>Added the Contents Page for the Core Game/Extension to the Definitions Rulebook.
-                <ul style="padding-left: 20px;">
+                <ul style="padding-left: 20px; list-style-type: circle; margin-top: 4px;">
                     <li>Due to showing the game to a new player personally, we found an issue with the split rulebook where the Action Card Rules felt more natural to be in the Wild Card Definitions not in the Game Rules</li>
+                    <li>Due to the order of use of some expansions over others, i have moved the location of the Devastation and Catastrophe Rules to just after (Apocalypse and) Warzone - so Wild Draw 2, 3, 4, 5 &amp; 10 are all grouped together</li>
+                </ul>
+            </li>
+            <li>Clarified the 2 Player Game Note for both Slap and Snap Wild Cards</li>
+            <li>Removed some smaller tips and variation notes due to not really needed</li>
+            <li>Minor formatting</li>
+        </ul>
+    </div>
+
+    <!-- 2024/07/10 -->
+    <div class="patch-card">
+        <div class="patch-date">2024/07/10</div>
+        <ul style="list-style-type: disc;">
+            <li>Updated Core Extension’s Genetic Manipulation Wild Card Rules to balance for more Expansion options [Finally, Wild Draw +10’s are allowed!! You’ve Won the Draw Stack, but at What Cost?]</li>
+            <li>Refined the Crisis Expansion Rules [Finally I feel they work how I wanted them to]</li>
+            <li>Formatting Fixes</li>
+            <li>Spelling and Grammar Fixes</li>
+        </ul>
+    </div>
+
+    <!-- 2024/07/07 -->
+    <div class="patch-card" style="margin-bottom: 40px;">
+        <div class="patch-date">2024/07/07</div>
+        <p style="margin: 0 0 8px 0; font-weight: 700; color: var(--text-primary);">NEW GAME MODE: LAST PLAYER STANDING [See WINNING THE GAME: OPTION 3 in the “GAME RULES.pdf”]</p>
+        <ul style="list-style-type: disc;">
+            <li>Minor Formatting Fixes</li>
+        </ul>
+    </div>
+
+    <!-- Silent local theme persistence tracking layout -->
+    <script is:inline>
+        const activeTheme = localStorage.getItem('soloverse-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', activeTheme);
+    </script>
+</body>
+</html>
