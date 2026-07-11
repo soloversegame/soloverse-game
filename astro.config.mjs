@@ -3,6 +3,7 @@ import AstroPWA from '@vite-pwa/astro';
 
 export default defineConfig({
   site: 'https://vercel.app',
+  trailingSlash: 'never',
   integrations: [
     AstroPWA({
       registerType: 'autoUpdate',
