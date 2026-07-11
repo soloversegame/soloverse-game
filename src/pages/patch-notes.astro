@@ -1,0 +1,195 @@
+---
+// src/pages/patch-notes.astro
+// Premium, native web text Soloverse Patch Notes configuration
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soloverse Rulebook Patch Notes</title>
+    <style>
+        :root {
+            --bg-main: #0f1015;
+            --bg-card: #171922;
+            --bg-main-box: #1c1e27;
+            --text-primary: #ffffff;
+            --text-secondary: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-divider: #2d313f;
+            --color-accent: #3b82f6;
+        }
+
+        :root[data-theme="light"] {
+            --bg-main: #f4f5f7;
+            --bg-card: #ffffff;
+            --bg-main-box: #f9fafb;
+            --text-primary: #111216;
+            --text-secondary: #1f2937;
+            --text-muted: #4b5563;
+            --text-divider: #d1d5db;
+            --color-accent: #1d4ed8;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg-main);
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.7;
+            transition: background 0.3s, color 0.3s;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 700;
+            margin-bottom: 25px;
+            transition: color 0.15s;
+        }
+        .back-link:hover { color: var(--text-primary); }
+        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
+        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        /* Timeline Log Cards */
+        .patch-card {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+        .patch-date {
+            display: inline-block;
+            background: var(--bg-main-box);
+            color: var(--text-primary);
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            border: 1px solid var(--text-divider);
+        }
+        ul { margin: 0; padding-left: 20px; color: var(--text-secondary); }
+        li { margin-bottom: 8px; }
+        ul ul { margin-top: 8px; margin-bottom: 0; list-style-type: circle; }
+    </style>
+</head>
+<body id="top">
+
+    <a href="/" class="back-link">📂 Return to Shelf Deck</a>
+
+    <h1>SOLOVERSE - RULEBOOK PATCH NOTES</h1>
+    <div class="meta-tag">📜 Balancing Timeline &amp; Architecture Logs</div>
+
+    <!-- 2026-07-12 -->
+    <div class="patch-card" style="border-left: 4px solid var(--color-accent);">
+        <div class="patch-date">2026-07-12</div>
+        <ul style="list-style-type: disc;">
+            <li>Full HTML Website redevelopment in progress</li>
+        </ul>
+        <p style="margin: 12px 0 4px 20px; font-weight: 700; color: var(--text-primary);">The Rulebook is now split into 3:</p>
+        <ul style="list-style-type: circle; padding-left: 40px;">
+            <li>Universal Game Notes for all Game Versions</li>
+            <li>Individual Games’ Rulebooks</li>
+            <li>Individual Games’ Chaos Card Definition Rulebooks</li>
+        </ul>
+    </div>
+
+    <!-- 2026-05-30 -->
+    <div class="patch-card">
+        <div class="patch-date">2026-05-30</div>
+        <ul style="list-style-type: disc;">
+            <li>Small Patch for most current Definition Rulebooks, changing the Contingency I &amp; II Expansion’s Description from All Players in play to All Players in Play Order</li>
+            <li>Small Patch for all current Definition Rulebooks, changing the grammar of the term “play order” to “Play Order”</li>
+        </ul>
+    </div>
+
+    <!-- 2026-05-21 -->
+    <div class="patch-card">
+        <div class="patch-date">2026-05-21</div>
+        <ul style="list-style-type: disc;">
+            <li>A lot of Balancing to the [06-A] Soloverse – The Deck-Building Variant.
+                <ul style="padding-left: 20px;">
+                    <li>Reverse Effects has priority over Skip Effects.</li>
+                    <li>Steal Turn now MUST be activated BEFORE any other Player Plays Their first Card.</li>
+                    <li>Steal Turn, Reverse Stun, Stun, Discard Chaos Cards all MUST be placed in the Targeted Player’s Discards when finalised.</li>
+                    <li>Steal Turn, Reverse Stun and Stun all force the Targeted Player to Discard Their Hand when the Card Effect Finalises and Draw a new Hand.</li>
+                    <li>All Chaos Cards with Skip and Reverse Effects [Pure Chaos &amp; Chaos Draw], now also preserve Their Reverse and Skip Effects on top of Their already powerful abilities.</li>
+                    <li>Elegant Generosity now allows all Players to Draw 3 Cards each.</li>
+                    <li>United We Fall now allows all Players to Draw 2 Cards, then Discard 2 Cards.</li>
+                    <li>Double Edged now allows you to Target any Player and Steal a Card from Their Discards and add it to Your Hand. However, They then Steal a Card from Yours.</li>
+                    <li>Scavenger now lets You Choose 1 Effect from the following:
+                        <ul style="padding-left: 20px; list-style-type: lower-alpha;">
+                            <li>Recover any Card from the Scrap Pile and place it in Your Discards.</li>
+                            <li>Recover any Card from Your Discards and Gain it to Your Hand.</li>
+                            <li>Recover any Card from any other Player’s Discards and place it in Your Discards.</li>
+                            <li>Alternatively, “Revive” the Recycle Chaos Card.</li>
+                        </ul>
+                    </li>
+                    <li>2 Game Modes: Short Game [First to their Random Chaos Draw +5] or Long Game [First to the Chaos Draw +10 Specific Targeted.</li>
+                    <li>Amongst others…</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 2026-05-18 -->
+    <div class="patch-card">
+        <div class="patch-date">2026-05-18</div>
+        <ul style="list-style-type: disc;">
+            <li>Universal Formatting across all Rulebooks is slowly being rolled out.</li>
+            <li>Changed How to View and Universal Game Notes Files to PDF.</li>
+            <li>New Definition clarifications for some Chaos Cards and outright new Effects for others [e.g.: [01-B] Soloverse – Crazy 8’s [Definitions Rulebook] listing for Roulette].</li>
+            <li>Introducing: [01-E] Soloverse – Crazy 8’s [Achievements List] ! While still in Development, as you play the game, keep track of certain Card Effects and Combos designed to help you learn the game easier.</li>
+            <li>Also Introducing: [06-A] Soloverse – The Deck-Building Variant!</li>
+            <li>Almost Ready for Playtesting: [07-A] Soloverse – Nominations [and (due to their game rule similarities) when Nominations is ready, [0?-A] Soloverse – 500 and [0?-A] Soloverse – Poker won’t be far away]</li>
+        </ul>
+    </div>
+
+    <!-- 2025-06-29 -->
+    <div class="patch-card">
+        <div class="patch-date">2025-06-29</div>
+        <p style="margin: 0 0 8px 0; font-weight: 700; color: var(--text-primary);">New Game Variant: Battle Solitaire!</p>
+        <ul style="list-style-type: disc;">
+            <li>Playtesting Required, but Game Rules should be good to go</li>
+            <li>Definitions may Require Editing…</li>
+        </ul>
+    </div>
+
+    <!-- 2025-06-21 -->
+    <div class="patch-card">
+        <div class="patch-date">2025-06-21</div>
+        <p style="margin: 0 0 4px 0; font-weight: 700; color: var(--text-primary);">New Game Variant: Crazy 8’s Utter Chaos!</p>
+        <p style="margin: 0 0 8px 0; font-weight: 700; color: var(--text-primary);">New Game Variant: Karma!</p>
+        <ul style="list-style-type: disc;">
+            <li>Playtesting Required, but Game Rules and Definitions should be good to go</li>
+        </ul>
+        <p style="margin: 12px 0 4px 0; font-weight: 700; color: var(--text-primary);">Major Changes:</p>
+        <ul style="list-style-type: circle;">
+            <li>Wild Cards are now Called Chaos Cards!</li>
+            <li>Updated the How to View and Patch Notes Files to DOCX instead of GDOC for ease of editing</li>
+        </ul>
+    </div>
+
+    <!-- 2025-06-03 -->
+    <div class="patch-card">
+        <div class="patch-date">2025-06-03</div>
+        <p style="margin: 0 0 4px 0; font-weight: 700; color: var(--text-primary);">Major Changes:</p>
+        <ul style="list-style-type: disc;">
+            <li>Split Game Rulebook into 2, Game Notes for all Game Variants and a Rulebook for each individual Game Variant</li>
+            <li>An Edited Definitions Rulebook for each Game Variant.</li>
+        </ul>
+    </div>
+
+    <!-- 2024/07/18 -->
+    <div class="patch-card">
+        <div class="patch-date">2024/07/18</div>
+        <p style="margin: 0 0 4px 0; font-weight: 700; color: var(--text-primary);">Major Changes:</p>
+        <ul style="list-style-type: disc;">
+            <li>Added the Contents Page for the Core Game/Extension to the Definitions Rulebook.
+                <ul style="padding-left: 20px;">
+                    <li>Due to showing the game to a new player personally, we found an issue with the split rulebook where the Action Card Rules felt more natural to be in the Wild Card Definitions not in the Game Rules</li>
