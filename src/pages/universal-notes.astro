@@ -1,0 +1,193 @@
+---
+// src/pages/universal-notes.astro
+// Premium, native web text universal game notes configuration
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soloverse Universal Game Notes</title>
+    <style>
+        :root {
+            --bg-main: #0f1015;
+            --bg-card: #171922;
+            --text-primary: #ffffff;
+            --text-secondary: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-divider: #2d313f;
+            --color-accent: #3b82f6;
+        }
+
+        :root[data-theme="light"] {
+            --bg-main: #f4f5f7;
+            --bg-card: #ffffff;
+            --text-primary: #111216;
+            --text-secondary: #1f2937;
+            --text-muted: #4b5563;
+            --text-divider: #d1d5db;
+            --color-accent: #1d4ed8;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg-main);
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.7;
+            transition: background 0.3s, color 0.3s;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 700;
+            margin-bottom: 25px;
+            transition: color 0.15s;
+        }
+        .back-link:hover { color: var(--text-primary); }
+        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
+        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        /* Index Jump Matrix */
+        .toc-box { 
+            background: var(--bg-card); 
+            border: 1px solid var(--text-divider); 
+            padding: 24px; 
+            border-radius: 12px; 
+            margin: 30px 0; 
+        }
+        .toc-title { margin: 0 0 15px 0; color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
+        .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+        .toc-link { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.15s; }
+        .toc-link:hover { color: var(--color-accent); }
+
+        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 50px; border-bottom: 1px solid var(--text-divider); padding-bottom: 8px; font-weight: 700; }
+        h3 { font-size: 1.15rem; color: var(--text-primary); margin-top: 25px; font-weight: 700; }
+        p { color: var(--text-secondary); margin: 16px 0; }
+        
+        /* Game Grid Contents styling */
+        .expansion-grid { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+        .expansion-row { background: var(--bg-card); border: 1px solid var(--text-divider); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+        .expansion-name { font-weight: 700; color: var(--text-primary); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.02em; }
+        .expansion-desc { font-weight: 500; color: var(--text-muted); font-size: 0.9rem; text-align: right; }
+    </style>
+</head>
+<body>
+
+    <a href="/" class="back-link">📂 Return to Shelf Deck</a>
+
+    <h1>SOLOVERSE [GAME NOTES]</h1>
+    <div class="meta-tag">👥 Ages 7+, 3-10 Players • v1.0.1</div>
+
+    <!-- INDEX JUMP MATRIX -->
+    <div class="toc-box">
+        <div class="toc-title">📋 Index Jump Matrix</div>
+        <ul class="toc-list">
+            <li><a href="#contents" class="toc-link">1. Complete Game Contents</a></li>
+            <li><a href="#recommendations" class="toc-link">2. First Play Recommendations</a></li>
+            <li><a href="#notes" class="toc-link">3. Important Notes</a></li>
+            <li><a href="#definitions" class="toc-link">4. Turn Overview Definitions</a></li>
+        </ul>
+    </div>
+
+    <!-- SECTION 1: GAME CONTENTS -->
+    <h2 id="contents">1. Complete Game Contents</h2>
+    <p>The total asset vault of the Soloverse tabletop landscape consists of the following baseline card divisions and functional modules:</p>
+    
+    <div class="expansion-grid">
+        <div class="expansion-row">
+            <span class="expansion-name">📦 Core Game</span>
+            <span class="expansion-desc">[5 x Colours & Basic Chaos Cards]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">📦 Core Extension</span>
+            <span class="expansion-desc">[1 x Colour & Moderate Chaos Cards]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🚀 Core Booster Pack</span>
+            <span class="expansion-desc">[Extra Copy of Most Core/Extension Chaos Cards]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">💥 Apocalypse Expansion</span>
+            <span class="expansion-desc">[Chaos Draw +2 & +3]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">⚔️ Warzone Expansion</span>
+            <span class="expansion-desc">[Chaos Draw +2/+3/+4 Specific Targeted]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🌋 Devastation Expansion</span>
+            <span class="expansion-desc">[Chaos Draw +5/+10]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🎯 Catastrophe Expansion</span>
+            <span class="expansion-desc">[Chaos Draw +5/+10 Specific Targeted]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🛡️ Oblivion Expansion</span>
+            <span class="expansion-desc">[Royal Knights]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🌀 Singularity Expansion</span>
+            <span class="expansion-desc">[SOL / OVE / RSE]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">⚠️ Crisis Expansion</span>
+            <span class="expansion-desc">[Crisis]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">☣️ Contagion Expansion</span>
+            <span class="expansion-desc">[Super Poison]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🕊️ Containment Expansion</span>
+            <span class="expansion-desc">[Super Mercy]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🛡️ Contingency I Expansion</span>
+            <span class="expansion-desc">[Discard Specific Colour]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🎨 Coloured Extensions</span>
+            <span class="expansion-desc">[7 x Colour Sets]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🔄 Contingency II Expansion</span>
+            <span class="expansion-desc">[Discard New Specific Colours]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">💀 Doomsday Expansion</span>
+            <span class="expansion-desc">[Assassination & Regeneration]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">📜 Cataclysm Expansion</span>
+            <span class="expansion-desc">[Ancient Stones]</span>
+        </div>
+        <div class="expansion-row">
+            <span class="expansion-name">🏟️ Field Deck</span>
+            <span class="expansion-desc">[Rule Changes]</span>
+        </div>
+    </div>
+
+    <!-- SECTION 2: RECOMMENDATIONS -->
+    <h2 id="recommendations">2. First Play Recommendations</h2>
+    <p><em>Pasting layout placeholder. Drop your Word M365 first play parameters directly inside here when you have the energy!</em></p>
+
+    <!-- SECTION 3: IMPORTANT NOTES -->
+    <h2 id="notes">3. Important Notes</h2>
+    <p><em>Pasting layout placeholder. Drop your essential tactical rule notes directly inside here when you have the energy!</em></p>
+
+    <!-- SECTION 4: DEFINITIONS -->
+    <h2 id="definitions">4. Turn Overview Definitions</h2>
+    <p><em>Pasting layout placeholder. Drop your player action phase metrics directly inside here when you have the energy!</em></p>
+
+    <!-- Silent local theme persistence tracking layout -->
+    <script is:inline>
+        const activeTheme = localStorage.getItem('soloverse-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', activeTheme);
+    </script>
+</body>
+</html>
