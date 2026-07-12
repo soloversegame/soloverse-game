@@ -1,0 +1,397 @@
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[04-A] SOLOVERSE - CHEAT [GAME RULEBOOK]</title>
+    <style>
+        :root {
+            --bg-main: #0f1015;
+            --bg-card: #171922;
+            --bg-main-box: #1c1e27;
+            --text-primary: #ffffff;
+            --text-secondary: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-divider: #2d313f;
+            --color-accent: #0000ff; /* Base Blue Theme for Crazy 8's Card */
+            --color-link: #3b82f6;
+        }
+
+        :root[data-theme="light"] {
+            --bg-main: #f4f5f7;
+            --bg-card: #ffffff;
+            --bg-main-box: #f9fafb;
+            --text-primary: #111216;
+            --text-secondary: #1f2937;
+            --text-muted: #4b5563;
+            --text-divider: #d1d5db;
+            --color-accent: #0000ff;
+            --color-link: #1d4ed8;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg-main);
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.7;
+            transition: background 0.3s, color 0.3s;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--color-link);
+            text-decoration: none;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
+        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        .toc-box { 
+            background: var(--bg-card); 
+            border: 1px solid var(--text-divider); 
+            padding: 24px; 
+            border-radius: 12px; 
+            margin: 30px 0; 
+        }
+        .toc-title { margin: 0 0 15px 0; color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
+        .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+        .toc-link { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.15s; }
+        .toc-link:hover { color: var(--color-link); }
+
+        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 50px; border-bottom: 2px solid var(--color-accent); padding-bottom: 8px; font-weight: 700; }
+        p { color: var(--text-secondary); margin: 16px 0; }
+        ul { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        ol { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        li { margin-bottom: 8px; }
+
+        .rules-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .note-box {
+            font-size: 0.92rem;
+            background: rgba(255, 242, 0, 0.03);
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 3px solid #fff200;
+            color: var(--text-secondary);
+        }
+        .shortcut-link {
+            text-align: right;
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: var(--color-link);
+            text-decoration: none;
+        }
+        .shortcut-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <a href="/" class="back-link">← Return to Shelf</a>
+
+    <h1>[04-A] SOLOVERSE - CHEAT</h1>
+    <div class="meta-tag">[Game Rulebook] • Ages 7+ • 3-12 Players • v3.0.0</div>
+
+    <!-- INDEX JUMP MATRIX -->
+    <div class="toc-box">
+        <div class="toc-title">📋 Contents Index Matrix</div>
+        <ul class="toc-list">
+            <li><a href="#object" class="toc-link">• OBJECT</a></li>
+            <li><a href="#setup" class="toc-link">• SETUP</a></li>
+            <li><a href="#how-to-play" class="toc-link">• HOW TO PLAY</a></li>
+            <li><a href="#going-out" class="toc-link">• GOING OUT</a></li>
+            <li><a href="#victory-conditions" class="toc-link">• VICTORY CONDITIONS</a></li>
+            <li><a href="#team-gameplay" class="toc-link">• TEAM GAMEPLAY</a></li>
+            <li><a href="#team-trading" class="toc-link">• TEAM GAMEPLAY: TRADING</a></li>
+            <li><a href="#team-victory-changes" class="toc-link">• TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS</a></li>
+            <li><a href="#scoring" class="toc-link">• SCORING</a></li>
+            <li><a href="#scoring-winning" class="toc-link">• SCORING: WINNING THE GAME</a></li>
+        </ul>
+    </div>
+
+    <!-- OBJECT SECTION -->
+    <div id="object">
+        <h2>OBJECT:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>This game follows and enhances Cheat’s style of “Card Shedding” Play, therefore be the First Player to gid rid of their Cards.</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- SETUP SECTION -->
+    <div id="setup">
+        <h2>SETUP:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>As a group choose whether to use the Core Game Extension and any Optional Expansion or Coloured Extension Packs [compare Soloverse Game Notes: First Play Recommendations].
+                    <div class="note-box">
+                        <strong>NOTE:</strong> If you have added any Optional Expansions, check if they have any Additional Setup Rules.
+                    </div>
+                </li>
+                <li>Choose who Deals first [alternate the Dealer clockwise after each game].</li>
+                <li>Shuffle the Deck and Deal 15 Cards to all Players.</li>
+                <li>Then place the Deck in the middle of the Table, leaving room for the Discards to go beside it.</li>
+                <li>Place the Direction Of Play [Blue/Clockwise Side] and the Play To The Side Of The Discards Chaos Cards Face-Up on either side of the Discards, where everyone can see them [Remember to Flip the Direction Of Play Chaos Card it every time a Reverse Effect Activates].</li>
+                <li>If using the Core Extension, place Recycle Chaos Card Face-Up next to the Deck and Discards, where all Players can reach it.</li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+	
+    <!-- HOW TO PLAY SECTION -->
+    <div id="how-to-play">
+        <h2>HOW TO PLAY:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>On your turn, place Face-Down on the Discards [or beside them as the need arises] any of the following:
+                    <div class="note-box">
+                        <strong>NOTE:</strong> You do not have to tell the truth about Your Cards or Their Value.
+                    </div>
+                    <ol type="a">
+                        <li>One or more Same Valued Coloured Number Cards; then call out Their value and how many.
+                            <br><br><strong>IMPORTANT:</strong> The value of each set of declared Coloured Number Cards Played must be equal to, or sequentially higher than the last [i.e.: three 0’s, three 0’s, one 1’s, five 2’s, two 3’s].
+                        </li>
+                        <li>Or an Action Class Card.
+                            <ol type="i">
+                                <li>Reverse.</li>
+                                <li>Skip.</li>
+                                <li>Draw +2.</li>
+                            </ol>
+                        </li>
+                        <li>Or a Powerful Chaos Card [according to its Entry in the Definitions Rulebook].</li>
+                    </ol>
+                </li>
+                <li>At any point, You can Challenge another Player by calling out “Cheat!”
+                    <br>At which point that Player who put down must reveal their Card/s:
+                    <ol type="a">
+                        <li>If the Challenged Player was in fact Cheating, They must now pick up the entire Discards.</li>
+                        <li>If the Challenged Player was indeed telling the truth, the Challenging Player must pick up the entire Discards instead!</li>
+                    </ol>
+                    <div class="note-box">
+                        <strong>NOTE:</strong> If anyone Plays an Action Class Card or Chaos Card unchallenged, follow its Effects.
+                    </div>
+                </li>
+                <li>Cheating is allowed. But you will be penalised for getting caught.</li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- GOING OUT SECTION -->
+    <div id="going-out">
+        <h2>GOING OUT:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>The first Player to get rid of all their Cards is the Winner!</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- VICTORY CONDITIONS SECTION -->
+    <div id="victory-conditions">
+        <h2>VICTORY CONDITIONS:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>Possessing no cards at the end of Your turn.
+                    <ul>
+                        <li>If at the end of Your turn You still have no Cards, the game ends and You are out of the Game.</li>
+                        <li>Points can be scored if desired [see: Scoring – Winning The Game], and Play can restart if desired.</li>
+                    </ul>
+                </li>
+                <li>If the last card Played in a round has a Draw Effect, continue Play until someone is forced to Draw cards.
+                    <ul>
+                        <li>Someone must Draw from the last Draw Effect Card. Until that happens, Your Win is not guaranteed...</li>
+                        <li>If You Play a Draw or Deal Effect Card as Your last Card and a Player/s Respond in Kind, and in doing so, brings the Draw or Deal Effect back to You, with nothing to defend Yourself with You must bear the consequences of the Draw or Deal Effect You initiated, cancelling Your Win.</li>
+                    </ul>
+                    <div class="note-box">
+                        <strong>NOTE:</strong> There is also the possibility of the Drawer obtaining Anti-Fun for example, that can still be used to negate Your win.
+                    </div>
+                </li>
+                <li>Special Victory Conditions.
+                    <ul>
+                        <li>Some Expansions have Special Victory Conditions that exceed the normal means of Winning. For example:
+                            <ul>
+                                <li>The Singularity Expansion allows you to collect all 3 Unification Class Chaos Cards.</li>
+                                <li>While the Crisis Expansion Crisis Class Chaos Cards allow for many different Special Victory Conditions.</li>
+                                <li>Finally, the Cataclysm Expansion allows you to collect all 6 Ancient Stone Class Chaos Cards.</li>
+                            </ul>
+                        </li>
+                        <li>In any of these situations, doing so automatically, and instantly, Wins you the game!</li>
+                    </ul>
+                </li>
+                <li>The game ends Without a Clear Winner.
+                    <ol type="a">
+                        <li>As stated in Universal Game Notes: Important Notes: Rule 1, the Deck could run out of Drawable Cards.</li>
+                        <li>The Doomsday Expansion has the Soloversal Destruction Chaos Card that can cause Everyone to lose.</li>
+                        <li>In any situation without a clear Winner:
+                            <ul>
+                                <li><strong>The Player with the least number of Cards Wins.</strong><br>If Scoring, do so normally [but do not count your own Cards].</li>
+                                <li><strong>If more than one Player has equal Cards to Win, They Draw.</strong><br>If Scoring, count the other winning Player’s Cards as well [but not your own].</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- TEAM GAMEPLAY SECTION -->
+    <div id="team-gameplay">
+        <h2>TEAM GAMEPLAY:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>Make Teams with an even number of Members.</li>
+                <li>Choose the Turn Order for Teams & Members [alternating Teams/Members between turns (e.g.: Team 1: Member 1, Team 2: Member 1, Team 1: Member 2, Team 2: Member 2, etc) ].</li>
+                <li>Reorganise Seating arrangements to Match Team & Member Turns.</li>
+                <li>Next, Choose which Victory Condition to use before beginning Play:
+                    <br><br>
+                    <strong>OPTION 1: Relaxed:</strong>
+                    <ul>
+                        <li>The First Member to get rid of all Their Cards wins for Their Team.</li>
+                    </ul>
+                    <strong>OPTION 2: Competitive:</strong>
+                    <ul>
+                        <li>The first Team with All Members to get rid of all Their Cards Wins. Team Members with no Cards left can only be Group Targeted [e.g.: Untied We Fall]. Otherwise, Team Members with no Cards are Removed from the Game and have Their Turns Automatically Skipped. If They receive Cards again, They are Re-added to the Game.</li>
+                    </ul>
+                </li>
+                <li>Follow all other Game Rules.</li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- TEAM GAMEPLAY: TRADING SECTION -->
+    <div id="team-trading">
+        <h2>TEAM GAMEPLAY: TRADING:</h2>
+        <div class="rules-box">
+            <div class="note-box">
+                <strong>NOTE:</strong> No team trading rules are specified in the core text for this ruleset, but formatting is preserved to maintain site-wide architectural parity.
+            </div>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS SECTION -->
+    <div id="team-victory-changes">
+        <h2>TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS:</h2>
+        <div class="rules-box">
+            <p><strong>Singularity Expansion:</strong></p>
+            <ul>
+                <li>A Team wins if they possess all 3 Unification Class Chaos Cards between any of their Team Members.</li>
+            </ul>
+            <p><strong>Crisis Expansion:</strong></p>
+            <ul>
+                <li>Crisis Trap Class Chaos Cards are totalled for the Team.</li>
+            </ul>
+            <p><strong>Cataclysm Expansion:</strong></p>
+            <ul>
+                <li>The Bulk Possession Notes and Special Victory Condition are not shared across Team Members. However, on any Team Member’s Playable Turn, 1 Ancient Stone CAN be given to any other Team Member if all Team Members agree to Deal 5 Cards to themselves each [in play order]. Discussion of which Ancient Stone is given and who gets it is allowed by Team Members if it is kept brief.</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- SCORING SECTION -->
+    <div id="scoring">
+        <h2>SCORING:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>If you feel up to it, mix things up by tracking your progress by accumulating your score as rounds progress. [01.4]</li>
+                <li>The first Player to get rid of all their Cards in a round receives points for all Cards left in their opponent’s Hands as follows: [01.4]</li>
+            </ul>
+
+            <table style="width: 100%; border-collapse: collapse; margin: 10px 0; border: 1px solid var(--text-divider);">
+                <thead>
+                    <tr style="background: var(--bg-main-box); border-bottom: 2px solid var(--text-divider);">
+                        <th style="padding: 12px; text-align: left; color: var(--text-primary);">Card Type</th>
+                        <th style="padding: 12px; text-align: left; color: var(--text-primary);">Point Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid var(--text-divider);">
+                        <td style="padding: 12px;">Number [0-9]</td>
+                        <td style="padding: 12px;">10 Points</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--text-divider);">
+                        <td style="padding: 12px;">Action Class Cards</td>
+                        <td style="padding: 12px;">20 Points</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--text-divider);">
+                        <td style="padding: 12px;">Standard Chaos Cards & Chaos Draw +4’s</td>
+                        <td style="padding: 12px;">50 Points</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--text-divider);">
+                        <td style="padding: 12px;">Core Game & Core Game Extension Chaos Cards</td>
+                        <td style="padding: 12px;">100 Points</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--text-divider);">
+                        <td style="padding: 12px;">Expansion Chaos Cards</td>
+                        <td style="padding: 12px;">150 Points</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid var(--text-divider);">
+                        <td style="padding: 12px;">Singularity Expansion Chaos Cards</td>
+                        <td style="padding: 12px;">200 Points</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- SCORING: WINNING THE GAME SECTION -->
+    <div id="scoring-winning">
+        <h2>SCORING: WINNING THE GAME:</h2>
+        <div class="rules-box">
+            <p><strong>OPTION 1: Standard Game:</strong> The winner is the first Player to reach 3,000 points. [01.4]</p>
+            <ul>
+                <li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. So, keeping a set Score Target allows for faster “Scoring Wins” the more Players you have, speeding up total play time. [01.4]</li>
+            </ul>
+
+            <p><strong>OPTION 2: Extended Game:</strong> The winner is the first Player to reach 3,000-7,000 points depending on the number of Players]. [01.4]</p>
+            <ul>
+                <li>Starting at 3,000 for 3 Players, increase the Victory Points required by 500 for every additional player [e.g.: 4 Players will be 3,500, 5 Players will be 4,000, 6 Players will be 4,500, etc... but keep a Maximum of 7,000 even if playing with more than the recommended maximum of 10 Players]. [01.4]</li>
+                <li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. However, for a serious game, increasing the Score Target allows for incrementally slower “Scoring Wins” the more Players you have, extending total play time. [01.4]</li>
+            </ul>
+
+            <p><strong>OPTION 3: Last Player Standing:</strong> There is no winner for Rounds. As play continues and Players Go Out, they are permanently exited from the game [as opposed to Remove from Game Effects of Expansion Chaos Cards (e.g.: Assassin from the Doomsday Expansion) ], until the last Player is left. [01.4]</p>
+            <ul>
+                <li>A Point is given for every Player left in the game when you go out. [01.4]</li>
+                <li>The Last Player Standing has Points deducted based on the Number of other Players in the Game. [01.4]</li>
+            </ul>
+            <div class="note-box">
+                <strong>NOTE:</strong> Players cannot obtain a Negative Score. [01.4]
+            </div>
+            <ul>
+                <li>Play continues until a Player Scores the Required Total [the recommendation is 3 x the Number of Players in the game]. [01.4]</li>
+            </ul>
+
+            <p><strong>TOURNAMENT:</strong> The first Player to reach one of the above Point requirements earns 1 Credit. Rounds progress until one Player earns a total of 3 Credits [for the truly devoted, you could always agree to a larger figure ahead of playing]. [01.4]</p>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <script is:inline>
+        const activeTheme = localStorage.getItem('soloverse-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', activeTheme);
+    </script>
+</body>
+</html>
