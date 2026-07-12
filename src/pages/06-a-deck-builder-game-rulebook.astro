@@ -15,50 +15,57 @@
 
     <title>[09-A] SOLOVERSE - DECK-BUILDER [GAME RULEBOOK]</title>
     <style>
-		/* ==========================================================================
-		MANUAL PIVOT OVERRIDE STYLES (Keep .rotate-toggle-btn as it is)
-		========================================================================== */
+        /* ==========================================
+           ISOLATED VIEWPORT OVERRIDE ENGINE
+           ========================================== */
 
-		.rotate-toggle-btn {
-			background: var(--bg-card);
-			border: 1px solid var(--text-divider);
-			color: var(--text-secondary);
-			padding: 8px 16px;
-			border-radius: 6px;
-			font-weight: 600;
-			cursor: pointer;
-			font-size: 0.85rem;
-			margin-bottom: 20px;
-			display: inline-flex;
-			align-items: center;
-			gap: 8px;
-		}
+        /* 1. When portrait, the rotation container acts completely transparently */
+        .rotation-viewport-wrapper {
+            width: 100%;
+            height: auto;
+        }
 
-		/* Perfected Clockwise Pivot and Width Auto-Scaler */
-		html[data-rotate-override="landscape"] body {
-			transform: rotate(90deg); /* Flips clockwise to the right */
-			transform-origin: top left;
-			position: absolute;
-			top: 0;
-			left: 100vw; /* Perfectly realigns the coordinate center mapping */
-			width: 100vh; /* Uses device height as text row width bounds */
-			height: 100vw; /* Uses device width as the vertical scroll box */
-			overflow-x: hidden;
-			overflow-y: scroll;
-			max-width: none;
-			margin: 0;
-			padding: 24px 32px 60px 32px; /* Uniform, balanced screen padding margins */
-			box-sizing: border-box; /* Halts code/text layout clip leaks */
-		}
-	
-		/* Force container rules, notes, and tables to recalculate space fluidly */
-		html[data-rotate-override="landscape"] .rules-box,
-		html[data-rotate-override="landscape"] .note-box,
-		html[data-rotate-override="landscape"] table {
-			width: 100% !important;
-			max-width: 100% !important;
-			box-sizing: border-box !important;
-		}
+        /* 2. When rotated, we lock the HTML frame and let the inner wrapper handle smooth touch scrolling */
+        html[data-rotate-override="landscape"] {
+            overflow: hidden !important;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        html[data-rotate-override="landscape"] body {
+            margin: 0 !important;
+            padding: 0 !important;
+            max-width: none !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            overflow: hidden !important;
+        }
+
+        html[data-rotate-override="landscape"] .rotation-viewport-wrapper {
+            transform: rotate(90deg);
+            transform-origin: top left;
+            position: absolute;
+            top: 0;
+            left: 100vw;
+            width: 100vh !important;  /* Maps text layout width to use physical phone height */
+            height: 100vw !important; /* Maps the scrolling viewport boundary to use physical phone width */
+            overflow-x: hidden !important;
+            overflow-y: scroll !important; /* Unlocks hardware-accelerated touch physics */
+            -webkit-overflow-scrolling: touch; /* Essential iOS Safari / WebKit kinetic touch physics hook */
+            padding: 24px 32px 80px 32px;
+            box-sizing: border-box;
+        }
+
+        /* Force container components to recalculate space fluidly inside the active viewport wrapper */
+        html[data-rotate-override="landscape"] .rules-box,
+        html[data-rotate-override="landscape"] .note-box,
+        html[data-rotate-override="landscape"] table,
+        html[data-rotate-override="landscape"] .toc-box {
+            width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box !important;
+        }
 		
 		.image-container {
 			margin: 20px auto;
