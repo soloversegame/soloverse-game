@@ -1,0 +1,354 @@
+---
+// src/pages/09-a-soloverse-deck-builder-game-rulebook.astro
+// Premium, native web text 09-a deck-builder game rulebook
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[09-A] SOLOVERSE - DECK-BUILDER [GAME RULEBOOK]</title>
+    <style>
+        :root {
+            --bg-main: #0f1015;
+            --bg-card: #171922;
+            --bg-main-box: #1c1e27;
+            --text-primary: #ffffff;
+            --text-secondary: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-divider: #2d313f;
+            --color-accent: #0000ff; /* Base Blue Theme for Crazy 8's Card */
+            --color-link: #3b82f6;
+        }
+
+        :root[data-theme="light"] {
+            --bg-main: #f4f5f7;
+            --bg-card: #ffffff;
+            --bg-main-box: #f9fafb;
+            --text-primary: #111216;
+            --text-secondary: #1f2937;
+            --text-muted: #4b5563;
+            --text-divider: #d1d5db;
+            --color-accent: #0000ff;
+            --color-link: #1d4ed8;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg-main);
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.7;
+            transition: background 0.3s, color 0.3s;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--color-link);
+            text-decoration: none;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
+        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        .toc-box { 
+            background: var(--bg-card); 
+            border: 1px solid var(--text-divider); 
+            padding: 24px; 
+            border-radius: 12px; 
+            margin: 30px 0; 
+        }
+        .toc-title { margin: 0 0 15px 0; color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
+        .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+        .toc-link { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.15s; }
+        .toc-link:hover { color: var(--color-link); }
+
+        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 50px; border-bottom: 2px solid var(--color-accent); padding-bottom: 8px; font-weight: 700; }
+        p { color: var(--text-secondary); margin: 16px 0; }
+        ul { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        ol { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        li { margin-bottom: 8px; }
+
+        .rules-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .note-box {
+            font-size: 0.92rem;
+            background: rgba(255, 242, 0, 0.03);
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 3px solid #fff200;
+            color: var(--text-secondary);
+        }
+        .shortcut-link {
+            text-align: right;
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: var(--color-link);
+            text-decoration: none;
+        }
+        .shortcut-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <a href="/" class="back-link">📂 Return to Shelf Deck</a>
+
+    <h1>[09-A] SOLOVERSE - DECK-BUILDER</h1>
+    <div class="meta-tag">[Game Rulebook] • Ages 7+ • 2-6 Players</div>
+
+    <!-- INDEX JUMP MATRIX -->
+    <div class="toc-box">
+        <div class="toc-title">📋 Contents Index Matrix</div>
+        <ul class="toc-list">
+            <li><a href="#object" class="toc-link">• OBJECT</a></li>
+            <li><a href="#setup" class="toc-link">• SETUP</a></li>
+            <li><a href="#how-to-play" class="toc-link">• HOW TO PLAY</a></li>
+            <li><a href="#victory-conditions" class="toc-link">• VICTORY CONDITIONS</a></li>
+        </ul>
+    </div>
+
+    <!-- OBJECT -->
+    <div id="object">
+        <h2>OBJECT:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>This new Rulebook allows you to convert your Soloverse Game into a Deck-Builder Style Game. [01.6]</li>
+                <li>For the uninitiated Deck-Builders have Players: [01.6]
+                    <ul>
+                        <li>Start the Game with identical copies of a Personal Deck of usually around 10 Cards, comprising of Currency and either Attack or Victory Point Cards [depending on the Deck-Building Game’s winning condition]. [01.6]</li>
+                        <li>You then use your Personal Deck to upgrade it by buying higher grade Currency and Attack/Victory Point Cards. [01.6]</li>
+                    </ul>
+                </li>
+                <li>This is a 2-6 Player Game Mode, where You will each Setup a Level Up Deck [comprised of Chaos Draw Cards] & take a Personal Coloured Half-Deck, while racing each other to reach either: the Chaos Draw +5 [Level 5] or Optionally, the Chaos Draw +10 Specific Targeted [Level 7]! Do so and Win!! [01.6]</li>
+                <li>As such this Game Mode is for those wanting even more of a challenge from Soloverse, with an extended Game Setup… [01.6]</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- SETUP -->
+    <div id="setup">
+        <h2>SETUP:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>To begin with, Decide on the Victory Condition, either: [01.6]
+                    <ol type="a">
+                        <li><strong>SHORTER GAME:</strong> The First to reach Their Random Chaos Draw +5. [01.6]</li>
+                        <li><strong>LONGER GAME:</strong> Or the First to reach the Chaos Draw +10 Specific Targeted. [01.6]</li>
+                    </ol>
+                </li>
+                <li>Then choose which Optional Expansions will be used in the Game [compare Universal Game Notes: First Play Recommendations]. [01.6]
+                    <div class="note-box">
+                        <strong>NOTE:</strong> If you have added any Optional Expansions, check if they have any Additional Setup Rules. [01.6]
+                    </div>
+                </li>
+                <li>As a group, help separate from the Deck: [01.6]
+                    <ol type="a">
+                        <li>Each Coloured Set of Cards [separately from each other]. [01.6]</li>
+                        <li>All Chaos Draw Effect Cards, further separating them into Their values [+2, +3, +4 and +5], combining all versions of said values together [Normal, Skip, Reverse and Specific Targeted]. [01.6]</li>
+                        <li>All other Chaos Cards. [01.6]</li>
+                    </ol>
+                </li>
+                <li>Now Shuffle each Pile of Chaos Draw Effect Value Cards individually, and setup each Player’s Level Up Deck, Dealing these Cards Face-Down to all Players: [01.7]
+                    <ol type="a">
+                        <li>Deal a Random Chaos Draw +5 Chaos Card. [01.7]</li>
+                        <li>On top of that Card, Deal a Random Chaos Draw +4 Chaos Card. [01.7]</li>
+                        <li>On top of that Card, Deal a Random Chaos Draw +3 Chaos Card. [01.7]</li>
+                        <li>On top of that Card, Deal a Random Chaos Draw +2 Chaos Card. [01.7]</li>
+                    </ol>
+                    <div class="note-box">
+                        <strong>NOTE:</strong> This Deck will be accessed in order from top to bottom as You Gain Them and Level Up Your Deck. [01.7]
+                    </div>
+                </li>
+                <li>Now each Player chooses a Colour for themselves, and further separates it into 2 Coloured Half-Decks [so 2 Piles with 1 copy of each Coloured Card (0-9, Reverse, Skip and Draw +2) ]: [01.7]
+                    <ol type="a">
+                        <li>One Pile becomes the Player’s Personal Deck. [01.7]
+                            <ol type="i">
+                                <li>Separate and keep the <span style="color: var(--color-link);">Coloured Draw +2</span> and place Face-Down to start Your Personal Deck. [01.7]</li>
+                                <li>Then Shuffle the rest of Your Personal Deck and place it Face-Down on top of the <span style="color: var(--color-link);">Coloured Draw +2</span>. [01.7]</li>
+                                <li>Now leave room for 3 Piles in front of You: [01.7]
+                                    <ol>
+                                        <li>Your Level Up Deck. [01.7]</li>
+                                        <li>Your Personal Deck. [01.7]</li>
+                                        <li>Your Discards [to be added]. [01.7]</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>Now take Your Spare Coloured Half-Deck and Remove the following Action Class Cards: <span style="color: var(--color-link);">Draw +2</span>, <span style="color: var(--color-link);">Reverse</span> and <span style="color: var(--color-link);">Skip</span>, and add the Numbered Cards left [0-9] to the Tier 1 Trade Deck together with all the other Players’ spare Coloured Half-Decks and Shuffle it thoroughly; placing it at the bottom Right of the Play Area. [01.7]</li>
+                    </ol>
+                </li>
+                <li><strong>IMPORTANT:</strong> ONLY add 1 Copy of <span style="color: var(--color-link);">Stun</span>, <span style="color: var(--color-link);">Reverse Stun</span> and <span style="color: var(--color-link);">Steal Turn</span> for every 2 Players in the Game. This prevents Players never having Turns due to Stacked Effects. [01.7]</li>
+                <li>From the Remaining Colours in Your Game Box, add 1 spare Coloured Half-Deck’s Number Cards [0-9] to the remaining Chaos Cards left and form a Deck. [01.7]</li>
+                <li>Shuffle this Deck, then Separate it into 3 Piles [as equally sized as possible], creating 3 separate Tiered Trade Decks; and place each Deck in a column above the Tier 1 Trade Deck. [01.7]
+                    <ul>
+                        <li>Now the Trade Decks will be Tiered 1-4 from the Bottom to the Top of the column. [01.7]</li>
+                        <li>These Tiered Trade Decks will have Randomised Contents, but Their Costs will be Preset [for better or worse!]. [01.7]</li>
+                    </ul>
+                </li>
+                <li>Reveal 4 Cards from each Trade Deck from Tiers 2-4 to create 3 Trade Rows, one above each other on the Left of each Tiered Trade Deck. [01.7]</li>
+                <li>Shuffle and place the 3 Random Chaos Draw +10’s Face-Down separately on the Right of the 1-3 Tiered Trade Decks. And finally, on the Right of the Tier 4 Trade Deck, place the Chaos Draw +10 Specific Targeted Face-Up. [01.7]</li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- HOW TO PLAY -->
+    <div id="how-to-play">
+        <h2>HOW TO PLAY:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>Determine who goes First, then each Player Draws 5 Cards. [01.8]</li>
+                <li>Next, reveal 1 Card from the Tier 1 Trade Deck for each Player in the Game, forming the last, Tier 1 Trade Row. [01.8]
+                    <div class="note-box">
+                        <strong>NOTE:</strong> Now from Left to Right-Top to Bottom, Your setup should have a Grid of 4 Trade Rows, then 4 Tiered Trade Decks, then the Chaos Draw +10ST Face-Up with the 3 Random Chaos Draw +10’s Face-Down underneath it. [01.8]
+                    </div>
+                </li>
+                <li>On Your Turn, play Cards from your Hand in front of you. Once this is done, you cannot put it back in your Hand. [01.8]
+                    <ol type="a">
+                        <li><strong>0-9 Coloured Number Cards [XP]</strong> allows you to Buy Cards in the various Tiered Trade Rows based on the following Costs: [01.8]
+                            <ol type="i">
+                                <li><strong>Tier 1:</strong> A minimum XP of the Face Value of the Numbered Card shown. [01.8]
+                                    <br><br><strong>ADVANCED OPTIONAL RULES:</strong> Use just one of these or both for an increased challenge. [01.8]
+                                    <ul>
+                                        <li>Tier 1 Trade Row XP Cards that match Your chosen Personal Deck’s Colour are 2XP cheaper for Yourself. [01.8]</li>
+                                        <li>Tier 1 Trade Row XP Cards that do NOT match Your chosen Personal Deck’s Colour are 2XP more expensive for Yourself. [01.8]</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Tier 2:</strong> 3XP. [01.8]</li>
+                                <li><strong>Tier 3:</strong> 5XP + Discard Any 1 Chaos Card. [01.8]</li>
+                                <li><strong>Tier 4:</strong> 7XP + Discard Any 2 Chaos Cards. [01.8]</li>
+                            </ol>
+                            <p><strong>NOTES:</strong></p>
+                            <ul>
+                                <li>Unless otherwise stated, any Cards Purchased [including if Purchased for Free], must be placed in your Discards. [01.8]</li>
+                                <li>If, after Purchasing a Card from Tier 1-3 Trade Decks, you reveal a Trap Class Chaos Card, resolve its Effects then Scrap it. [01.8]</li>
+                            </ul>
+                            <strong>IMPORTANT COST RESTRICTION:</strong> There are no Refunds. Once an XP Card is used to Buy a Card from any Trade Row, that Card can no longer be used that Turn. [01.8]
+                            <br><br><strong>EXAMPLE:</strong> You Play 3 & 4 XP Cards and buy a Card worth 5 XP. Those XP Cards are now considered Used and Cannot be used towards other Purchases. [01.8]
+                        </li>
+                        <li><strong>0 XP Card:</strong> Allows you to Scrap any Card in Your Discards. Potentially Strengthening Your Personal Deck, making it easier to Draw the Cards You need. [01.8]</li>
+                        <li><strong>Reverse Action Class Card:</strong> Reverses Play. Then Forces all other Players to Discard 1 Card [Hand and/or Table] immediately. [01.8]
+                            <br><br><strong>PLAY TESTING NOTE:</strong> Reverse and similar Effects always activate before Effects similar to Skip. [01.8]
+                        </li>
+                        <li><strong>Skip Action Class Card:</strong> Skips the next Player’s Turn. They Discard Their Hand and Redraw. Then allows You to Draw 1 Card and set it aside until the Start of Your next Turn. [01.8]
+                            <br><br><strong>PLAY TESTING NOTE:</strong> If playing more than 1 Skip Effect, They do not Stack on that Target but continues to Skip each subsequent Player instead. [01.8]
+                            <br><br><strong>EXAMPLE:</strong> You Play 2 Skip Effect Cards, Skipping the next 2 Players’ Turns. [01.8]
+                        </li>
+                        <li><strong>Draw +2 Action Class Card:</strong> Allows you to Draw 2 Cards this Turn. [01.9]</li>
+                        <li><strong>Chaos Cards:</strong> Follow their Effects based on the (09-A) Soloverse - Deck-Builder (Definitions Rulebook). [01.9]</li>
+                    </ol>
+                </li>
+                <li>You will also need to Level Up Your Personal Deck to Win: [01.9]
+                    <br><br>
+                    <strong>LV1:</strong> You Start on LV1 with your Coloured Draw +2. [01.9]
+                    <br><br>
+                    <strong>LV2:</strong> On any Turn You have in Your Hand: [01.9]
+                    <ul>
+                        <li>Your Coloured Draw +2 to Play.</li>
+                        <li>A minimum of 4XP to Play.</li>
+                        <li>Plus, any 1 Chaos Card to Discard.</li>
+                    </ul>
+                    You may Purchase Your Random Chaos Draw +2 and add it to Your Discards. [01.9]
+                    <br><br>
+                    <strong>LV3:</strong> On any Turn You have in Your Hand: [01.9]
+                    <ul>
+                        <li>Your Random Draw +2 to Play.</li>
+                        <li>A minimum of 6XP to Play.</li>
+                        <li>Plus, any 1 Chaos Card to Discard.</li>
+                    </ul>
+                    You may Purchase Your Random Chaos Draw +3 and add it to Your Discards. [01.9]
+                    <br><br>
+                    <strong>LV4:</strong> On any Turn You have in Your Hand: [01.9]
+                    <ul>
+                        <li>Your Random Draw +3 to Play.</li>
+                        <li>A minimum of 8XP to Play.</li>
+                        <li>Plus, any 1 Chaos Card to Discard.</li>
+                    </ul>
+                    You may Purchase Your Random Chaos Draw +4 and add it to Your Discards. [01.9]
+                    <br><br>
+                    <strong>LV5:</strong> On any Turn You have in Your Hand: [01.9]
+                    <ul>
+                        <li>Your Random Draw +4 to Play.</li>
+                        <li>A minimum of 10XP to Play.</li>
+                        <li>Plus, any 1 Chaos Card to Discard.</li>
+                    </ul>
+                    You may Purchase Your Random Chaos Draw +5 and add it to Your Discards. This CAN Win You the Game if this Victory Condition was chosen at the Start of the Game. If NOT, Continue with the following: [01.9]
+                    <br><br>
+                    <strong>LV6:</strong> On any Turn You have in Your Hand: [01.9]
+                    <ul>
+                        <li>Your Random Draw +5 to Play.</li>
+                        <li>A minimum of 20XP to Play.</li>
+                        <li>Plus, any 1 Chaos Card to Discard.</li>
+                    </ul>
+                    You may Purchase a Random Chaos Draw +10 from the Table and add it to Your Discards. [01.9]
+                    <div class="note-box">
+                        <strong>NOTE:</strong> If Playing with more than 3 Players, once the last Random Chaos Draw +10 is Gained, all other Players instantly Lose. [01.9]
+                    </div>
+                    <strong>LV7:</strong> On any Turn You have in Your Hand: [01.9]
+                    <ul>
+                        <li>Your Random Draw +10 to Play.</li>
+                        <li>A minimum of 20XP to Play.</li>
+                        <li>Plus, any 2 Chaos Cards to Discard.</li>
+                    </ul>
+                    You may Purchase the Winning Chaos Draw +10 Specific Targeted and add it to Your Discards. [01.9]
+                </li>
+                <li>Once any chosen Cards have been Played and their Effects finalised, placed any Cards left in your Hand and those you Played into your Discards and Draw 5 more Cards [01.10]</li>
+                <li>When You need to continue Drawing and Your Personal Deck is empty, Shuffle Your Discards to re-form your Personal Deck. [01.10]</li>
+                <li>Then end your Turn. [01.10]</li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- VICTORY CONDITIONS -->
+    <div id="victory-conditions">
+        <h2>VICTORY CONDITIONS:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>Obtaining either the Chaos Draw +5 or the Chaos Draw +10 Specific Targeted [depending on Your choice at the Start of the Game] Wins You the Game! [01.10]</li>
+                <li>Special Victory Conditions. [01.10]
+                    <ol type="a">
+                        <li>Some Expansions have Special Victory Conditions that exceed the normal means of Winning. For example: [01.10]
+                            <ul>
+                                <li>The Singularity Expansion allows you to collect all 3 Unification Class Chaos Cards. [01.10]</li>
+                                <li>While the Crisis Expansion “Crisis Class” Chaos Cards allow for many different Special Victory Conditions. [01.10]</li>
+                            </ul>
+                            In any of these situations, doing so automatically, and instantly, Wins you the game! [01.10]
+                        </li>
+                        <li>The game ends Without a Clear Winner [such as all Tiered Trade Rows run out of Gainable Cards]. In any situation without a clear Winner: [01.10]
+                            <ol type="i">
+                                <li>The Player with the Highest Levelled Personal Deck Wins. [01.10]</li>
+                                <li>If Players have an Equal Personal Deck Level, the Player with the Highest Total of Chaos Cards in Their Personal Deck Wins. [01.10]</li>
+                                <li>If Players have an Equal amount of Chaos Cards in Their Personal Deck, the Player with the Highest Total XP in Their Personal Deck Wins. [01.10]</li>
+                                <li>If Players have an Equal Total XP left in Their Personal Decks, Congrats! It must have been a Great Game!! All remaining Players separate Their Level Up Deck [Coloured Draw +2 to Random Chaos Draw +5], Shuffle them and reveal the Top Card at the same time. The Player with the Highest Value Draw Card Wins! [01.10]</li>
+                                <li>If that’s still not enough, repeat the process until you find a Winner [I mean, at this point, you must be desperate]. [01.10]</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <script is:inline>
+        const activeTheme = localStorage.getItem('soloverse-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', activeTheme);
+    </script>
+</body>
+</html>
