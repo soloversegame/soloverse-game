@@ -434,9 +434,35 @@
         <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
     </div>
 
+    <!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->
     <script is:inline>
-        const activeTheme = localStorage.getItem('soloverse-theme') || 'dark';
-        document.documentElement.setAttribute('data-theme', activeTheme);
+        (function() {
+            // 1. SERVICE WORKER REVALIDATION
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                    for (let registration of registrations) {
+                        registration.update(); 
+                    }
+                });
+            }
+
+            // 2. AUTOMATED THEME EVALUATION (User Override vs System Preference)
+            const savedTheme = localStorage.getItem('soloverse-theme');
+            const devicePrefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            
+            let activeTheme = 'dark'; // Base anchor default fallback
+
+            if (savedTheme) {
+                // Priority 1: Respect explicit button clicks from the main bookshelf hub
+                activeTheme = savedTheme;
+            } else {
+                // Priority 2: Auto-adopt the tablet/device's native operating system mode
+                activeTheme = devicePrefersDarkMode ? 'dark' : 'light';
+            }
+
+            // Mount theme instantly to root document element
+            document.documentElement.setAttribute('data-theme', activeTheme);
+        })();
     </script>
 </body>
 </html>
