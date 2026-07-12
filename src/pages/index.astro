@@ -108,6 +108,36 @@ const upcomingGames = [
     <meta name="theme-color" content="#0f1015" />
 
     <style>
+		/* Core Layout Pivot System */
+		html[data-rotate-override="landscape"] body {
+			transform: rotate(-90deg);
+			transform-origin: top left;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			width: 100vh;
+			height: 100vw;
+			overflow-y: scroll;
+			max-width: none;
+			margin: 0;
+			padding: 40px;
+		}
+
+		.rotate-toggle-btn {
+			background: var(--bg-card);
+			border: 1px solid var(--text-divider);
+			color: var(--text-secondary);
+			padding: 8px 16px;
+			border-radius: 6px;
+			font-weight: 600;
+			cursor: pointer;
+			font-size: 0.85rem;
+			margin-bottom: 20px;
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+		}
+		
 		/* PWA Installation Overlay Banner Layout */
 		.pwa-install-banner {
 			position: fixed;
@@ -248,25 +278,42 @@ const upcomingGames = [
             margin-bottom: 50px;
         }
         
-        /* Premium Layout Control Button Interface Switch */
+        /* 1. BUTTON HOVER CONTAINER FLEXBOX LAYOUT (Add this above your button code) */
         .theme-toggle-container {
             display: flex;
-            justify-content: flex-end;
-            margin-bottom: 20px;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
         }
+
+        /* 2. THE CORE BUTTON DESIGN (Keep your custom pill configurations) */
         .theme-btn {
             background: var(--bg-card);
             color: var(--text-primary);
             border: 1px solid var(--text-divider);
             padding: 10px 16px;
-            border-radius: 50px;
+            border-radius: 50px; /* Keeps your premium pill design */
             font-weight: 700;
             cursor: pointer;
             font-size: 0.9rem;
             box-shadow: 0 4px 6px -1px var(--shadow-card);
-            transition: background 0.2s, color 0.2s, transform 0.1s;
+            display: inline-flex; /* Ensures text and emojis center perfectly together */
+            align-items: center;
+            gap: 8px;
+            transition: background 0.2s, color 0.2s, transform 0.1s, border-color 0.2s;
         }
-        .theme-btn:active { transform: scale(0.97); }
+
+        /* Adds a subtle layout response highlight when hovering over buttons */
+        .theme-btn:hover {
+            border-color: var(--color-link);
+            background: var(--bg-main-box);
+        }
+
+        /* 3. ACTIVE CLICK SPRING ANIMATION (Keep this completely intact!) */
+        .theme-btn:active { 
+            transform: scale(0.97); /* Keeps your tactile push spring effect on click */
+        }
 
         .grid {
             display: grid;
@@ -387,11 +434,12 @@ const upcomingGames = [
 </head>
 <body>
 
-    <!-- THE REACTIVE THEME OPTION INTERFACE CONTROLLER BUTTON -->
+    <!-- THE REACTIVE THEME & ROTATION OPTION INTERFACE CONTROLLER BUTTONS -->
     <div class="theme-toggle-container">
         <button id="theme-toggle-btn" class="theme-btn">☀️ Light Mode</button>
+        <button id="rotate-view-btn" class="theme-btn" style="margin-left: 10px;">🔄 Flip View</button>
     </div>
-
+	
     <h1>Soloverse Rulebook Hub</h1>
     <p class="subtitle">Select a Game Variant below to stream live, iOS-friendly interactive document layers.</p>
 
@@ -597,6 +645,26 @@ const upcomingGames = [
                     deferredPrompt = null;
                 });
             });
+
+            // ==========================================
+            // 5. MANUAL CANVAS ROTATION OVERRIDE CONTROLS
+            // ==========================================
+            window.addEventListener('DOMContentLoaded', () => {
+                const rotateBtn = document.getElementById('rotate-view-btn');
+                if (!rotateBtn) return; // Operational guard to stop console errors if button is absent
+
+                let currentRotateState = localStorage.getItem('soloverse-rotate-lock') || 'portrait';
+                document.documentElement.setAttribute('data-rotate-override', currentRotateState);
+
+                rotateBtn.addEventListener('click', () => {
+                    const activeState = document.documentElement.getAttribute('data-rotate-override');
+                    const targetState = activeState === 'landscape' ? 'portrait' : 'landscape';
+                    
+                    document.documentElement.setAttribute('data-rotate-override', targetState);
+                    localStorage.setItem('soloverse-rotate-lock', targetState);
+                });
+            });
+
         })();
     </script>
 

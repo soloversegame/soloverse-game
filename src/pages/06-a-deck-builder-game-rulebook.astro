@@ -15,6 +15,36 @@
 
     <title>[09-A] SOLOVERSE - DECK-BUILDER [GAME RULEBOOK]</title>
     <style>
+		/* Core Layout Pivot System */
+		html[data-rotate-override="landscape"] body {
+			transform: rotate(-90deg);
+			transform-origin: top left;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			width: 100vh;
+			height: 100vw;
+			overflow-y: scroll;
+			max-width: none;
+			margin: 0;
+			padding: 40px;
+		}
+
+		.rotate-toggle-btn {
+			background: var(--bg-card);
+			border: 1px solid var(--text-divider);
+			color: var(--text-secondary);
+			padding: 8px 16px;
+			border-radius: 6px;
+			font-weight: 600;
+			cursor: pointer;
+			font-size: 0.85rem;
+			margin-bottom: 20px;
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+		}
+		
 		.image-container {
 			margin: 20px auto;
 			padding: 12px;
@@ -129,7 +159,8 @@
 </head>
 <body id="top">
 
-    <a href="/" class="back-link">📂 Return to Shelf Deck</a>
+ 	<a href="/" class="back-link">📂 Return to Shelf Deck</a>
+	<button id="rotate-view-btn" class="rotate-toggle-btn" style="margin-left: 15px;">🔄 Flip View</button>
 
     <h1>[09-A] SOLOVERSE - DECK-BUILDER</h1>
     <div class="meta-tag">[Game Rulebook] • Ages 7+ • 2-6 Players • v3.0.0</div>
@@ -407,6 +438,23 @@
 
             // Mount theme instantly to root document element
             document.documentElement.setAttribute('data-theme', activeTheme);
+
+			// 3. MANUAL CANVAS ROTATION OVERRIDE CONTROLS
+            window.addEventListener('DOMContentLoaded', () => {
+                const rotateBtn = document.getElementById('rotate-view-btn');
+                if (!rotateBtn) return;
+
+                let currentRotateState = localStorage.getItem('soloverse-rotate-lock') || 'portrait';
+                document.documentElement.setAttribute('data-rotate-override', currentRotateState);
+
+                rotateBtn.addEventListener('click', () => {
+                    const activeState = document.documentElement.getAttribute('data-rotate-override');
+                    const targetState = activeState === 'landscape' ? 'portrait' : 'landscape';
+                    
+                    document.documentElement.setAttribute('data-rotate-override', targetState);
+                    localStorage.setItem('soloverse-rotate-lock', targetState);
+                });
+            });
         })();
     </script>
 </body>
