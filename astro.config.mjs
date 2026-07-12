@@ -14,7 +14,7 @@ export default defineConfig({
         theme_color: '#0f1015',
         background_color: '#0f1015',
         display: 'standalone', // Hides all mobile browser address bars!
-        orientation: 'portrait',
+        orientation: 'any',
         icons: [
           {
             src: '/icon-192.png',
