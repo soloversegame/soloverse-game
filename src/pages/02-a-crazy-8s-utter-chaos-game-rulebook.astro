@@ -9,6 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[02-A] SOLOVERSE - CRAZY 8’s “UTTER CHAOS” [GAME RULEBOOK]</title>
     <style>
+		.image-container {
+			margin: 20px auto;
+			padding: 12px;
+			background: var(--bg-main-box);
+			border: 1px solid var(--text-divider);
+			border-radius: 8px;
+			text-align: center;
+			max-width: 100%;
+		}
+
+		.image-container img {
+			max-width: 100%;
+			max-height: 450px; /* Essential fallback: stops tall diagrams from getting massive */
+			width: auto;       /* Vital pairing: ensures width scales down when height hits 450px */
+			height: auto;      
+			object-fit: contain; /* Double safety check: keeps your text/graphics crisp and un-stretched */
+			border-radius: 6px;
+			display: block;
+			margin: 0 auto;
+			border: 1px solid var(--text-divider);
+		}
+
+		.image-caption {
+			font-size: 0.85rem;
+			color: var(--text-muted);
+			margin-top: 10px;
+			font-weight: 500;
+			line-height: 1.4;
+		}
+
         :root {
             --bg-main: #0f1015;
             --bg-card: #171922;

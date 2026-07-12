@@ -21,7 +21,10 @@
 
 		.image-container img {
 			max-width: 100%;
-			height: auto;
+			max-height: 450px; /* Essential fallback: stops tall diagrams from getting massive */
+			width: auto;       /* Vital pairing: ensures width scales down when height hits 450px */
+			height: auto;      
+			object-fit: contain; /* Double safety check: keeps your text/graphics crisp and un-stretched */
 			border-radius: 6px;
 			display: block;
 			margin: 0 auto;
