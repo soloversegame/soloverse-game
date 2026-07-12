@@ -15,56 +15,29 @@
 
     <title>[04-A] SOLOVERSE - CHEAT [GAME RULEBOOK]</title>
     <style>
-        /* ==========================================
-           ISOLATED VIEWPORT OVERRIDE ENGINE
-           ========================================== */
+        /* ==========================================================================
+           AUTOMATED TABLET & WIDESCREEN RESPONSIVE ENGINE
+           ========================================================================== */
 
-        /* 1. When portrait, the rotation container acts completely transparently */
-        .rotation-viewport-wrapper {
-            width: 100%;
-            height: auto;
+        /* Automatically expands text spreads when tablets are flipped horizontally */
+        @media screen and (min-width: 768px) and (orientation: landscape) {
+            body {
+                max-width: 960px; /* Expands reading column limits for a comfortable landscape view */
+                margin: 40px auto;
+                padding: 0 30px;
+            }
+
+            .rules-box {
+                padding: 32px;
+                margin: 24px 0;
+            }
         }
 
-        /* 2. When rotated, we lock the HTML frame and let the inner wrapper handle smooth touch scrolling */
-        html[data-rotate-override="landscape"] {
-            overflow: hidden !important;
-            position: fixed;
-            width: 100vw;
-            height: 100vh;
-        }
-
-        html[data-rotate-override="landscape"] body {
-            margin: 0 !important;
-            padding: 0 !important;
-            max-width: none !important;
-            width: 100vw !important;
-            height: 100vh !important;
-            overflow: hidden !important;
-        }
-
-        html[data-rotate-override="landscape"] .rotation-viewport-wrapper {
-            transform: rotate(90deg);
-            transform-origin: top left;
-            position: absolute;
-            top: 0;
-            left: 100vw;
-            width: 100vh !important;  /* Maps text layout width to use physical phone height */
-            height: 100vw !important; /* Maps the scrolling viewport boundary to use physical phone width */
-            overflow-x: hidden !important;
-            overflow-y: scroll !important; /* Unlocks hardware-accelerated touch physics */
-            -webkit-overflow-scrolling: touch; /* Essential iOS Safari / WebKit kinetic touch physics hook */
-            padding: 24px 32px 80px 32px;
-            box-sizing: border-box;
-        }
-
-        /* Force container components to recalculate space fluidly inside the active viewport wrapper */
-        html[data-rotate-override="landscape"] .rules-box,
-        html[data-rotate-override="landscape"] .note-box,
-        html[data-rotate-override="landscape"] table,
-        html[data-rotate-override="landscape"] .toc-box {
-            width: 100% !important;
-            max-width: 100% !important;
-            box-sizing: border-box !important;
+        /* Large Screen Optimizations (Large Tablets, Monitors, and Laptops) */
+        @media screen and (min-width: 1024px) {
+            body {
+                max-width: 1050px; /* Sweeps columns out nicely on large display panels */
+            }
         }
 		
 		.image-container {
@@ -194,7 +167,6 @@
 <body id="top">
 
 	<a href="/" class="back-link">📂 Return to Shelf Deck</a>
-	<button id="rotate-view-btn" class="rotate-toggle-btn" style="margin-left: 15px;">🔄 Flip View</button>
 
     <h1>[04-A] SOLOVERSE - CHEAT</h1>
     <div class="meta-tag">[Game Rulebook] • Ages 7+ • 3-12 Players • v3.0.0</div>
@@ -509,32 +481,13 @@
             let activeTheme = 'dark'; // Base anchor default fallback
 
             if (savedTheme) {
-                // Priority 1: Respect explicit button clicks from the main bookshelf hub
                 activeTheme = savedTheme;
             } else {
-                // Priority 2: Auto-adopt the tablet/device's native operating system mode
                 activeTheme = devicePrefersDarkMode ? 'dark' : 'light';
             }
 
             // Mount theme instantly to root document element
             document.documentElement.setAttribute('data-theme', activeTheme);
-
-			// 3. MANUAL CANVAS ROTATION OVERRIDE CONTROLS
-            window.addEventListener('DOMContentLoaded', () => {
-                const rotateBtn = document.getElementById('rotate-view-btn');
-                if (!rotateBtn) return;
-
-                let currentRotateState = localStorage.getItem('soloverse-rotate-lock') || 'portrait';
-                document.documentElement.setAttribute('data-rotate-override', currentRotateState);
-
-                rotateBtn.addEventListener('click', () => {
-                    const activeState = document.documentElement.getAttribute('data-rotate-override');
-                    const targetState = activeState === 'landscape' ? 'portrait' : 'landscape';
-                    
-                    document.documentElement.setAttribute('data-rotate-override', targetState);
-                    localStorage.setItem('soloverse-rotate-lock', targetState);
-                });
-            });
         })();
     </script>
 </body>
