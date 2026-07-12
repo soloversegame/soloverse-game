@@ -1,0 +1,361 @@
+---
+// src/pages/07-a-soloverse-nominations-game-rulebook.astro
+// Premium, native web text 07-a nominations game rulebook
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[07-A] SOLOVERSE - NOMINATIONS [GAME RULEBOOK]</title>
+    <style>
+        .image-container {
+            margin: 20px auto;
+            padding: 12px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 100%;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 450px; /* Essential fallback: stops tall diagrams from getting massive */
+            width: auto;       /* Vital pairing: ensures width scales down when height hits 450px */
+            height: auto;      
+            object-fit: contain; /* Double safety check: keeps your text/graphics crisp and un-stretched */
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid var(--text-divider);
+        }
+
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        :root {
+            --bg-main: #0f1015;
+            --bg-card: #171922;
+            --bg-main-box: #1c1e27;
+            --text-primary: #ffffff;
+            --text-secondary: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-divider: #2d313f;
+            --color-accent: #0000ff; /* Base Blue Theme for Crazy 8's Card */
+            --color-link: #3b82f6;
+        }
+
+        :root[data-theme="light"] {
+            --bg-main: #f4f5f7;
+            --bg-card: #ffffff;
+            --bg-main-box: #f9fafb;
+            --text-primary: #111216;
+            --text-secondary: #1f2937;
+            --text-muted: #4b5563;
+            --text-divider: #d1d5db;
+            --color-accent: #0000ff;
+            --color-link: #1d4ed8;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg-main);
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.7;
+            transition: background 0.3s, color 0.3s;
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--color-link);
+            text-decoration: none;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
+        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        .toc-box { 
+            background: var(--bg-card); 
+            border: 1px solid var(--text-divider); 
+            padding: 24px; 
+            border-radius: 12px; 
+            margin: 30px 0; 
+        }
+        .toc-title { margin: 0 0 15px 0; color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
+        .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+        .toc-link { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.15s; }
+        .toc-link:hover { color: var(--color-link); }
+
+        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 50px; border-bottom: 2px solid var(--color-accent); padding-bottom: 8px; font-weight: 700; }
+        p { color: var(--text-secondary); margin: 16px 0; }
+        ul { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        ol { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        li { margin-bottom: 8px; }
+
+        .rules-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .note-box {
+            font-size: 0.92rem;
+            background: rgba(255, 242, 0, 0.03);
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 3px solid #fff200;
+            color: var(--text-secondary);
+        }
+        .shortcut-link {
+            text-align: right;
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: var(--color-link);
+            text-decoration: none;
+        }
+        .shortcut-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <a href="/" class="back-link">📂 Return to Shelf Deck</a>
+
+    <h1>[07-A] SOLOVERSE - NOMINATIONS</h1>
+    <div class="meta-tag">[Game Rulebook] • Ages 7+ • 3-12 Players • v3.0.0</div>
+
+    <!-- INDEX JUMP MATRIX -->
+    <div class="toc-box">
+        <div class="toc-title">📋 Contents Index Matrix</div>
+        <ul class="toc-list">
+            <li><a href="#object" class="toc-link">• OBJECT</a></li>
+            <li><a href="#setup" class="toc-link">• SETUP</a></li>
+            <li><a href="#card-values" class="toc-link">• VALUE OF THE CARDS</a></li>
+            <li><a href="#how-to-play" class="toc-link">• HOW TO PLAY</a></li>
+            <li><a href="#victory-conditions" class="toc-link">• VICTORY CONDITIONS</a></li>
+            <li><a href="#team-gameplay" class="toc-link">• TEAM GAMEPLAY</a></li>
+            <li><a href="#team-victory-changes" class="toc-link">• TEAM SPECIAL VICTORY CONDITIONS CHANGES</a></li>
+            <li><a href="#scoring" class="toc-link">• SCORING</a></li>
+            <li><a href="#winning-game" class="toc-link">• WINNING THE GAME</a></li>
+        </ul>
+    </div>
+
+    <!-- OBJECT SECTION -->
+    <div id="object">
+        <h2>OBJECT:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>This Game Variant enhances Nominations’ Gameplay [also known as up to 10 and Back], therefore, each Player should aim to Bid the number of Points They think They can Win from each Round.</li>
+                <li>Players should also aim to Win exactly the number of Points They Bid as Bonus Points are up for grabs.</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- SETUP SECTION -->
+    <div id="setup">
+        <h2>SETUP:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>As a group choose whether to use the Core Game Extension and any Optional Expansion or Coloured Extension Packs [compare Universal Game Notes: First Play Recommendations].
+                    <div class="note-box">
+                        <strong>NOTE:</strong> If you have added any optional Expansions, check if they have any Additional Setup Rules.
+                    </div>
+                </li>
+                <li>Choose who Deals first [alternate the Dealer clockwise after each game].</li>
+                <li>Go through the Deck and separate the Coloured Cards, then give each Player their Own “Coloured Deck” to further separate into a “Coloured Half-Deck” by removing all duplicate copies of all Cards.
+                    <br><br><strong>IMPORTANT:</strong> This leaves just 1 Copy of every Coloured Card.
+                </li>
+                <li>Then Combine each “Coloured Half-Deck” per Player and the chosen Expansions and Shuffle the Deck.</li>
+                <li>Place the Deck in the middle of the Table, leaving room for the Discards to go beside it.</li>
+                <li>Place the Direction Of Play [Blue/Clockwise Side] and the Play To The Side Of The Discards Chaos Cards Face-Up on either side of the Discards, where everyone can see them [Remember to Flip the Direction Of Play Chaos Card it every time a Reverse Effect Activates].</li>
+                <li>If using the Core Extension, place Recycle Chaos Card Face-Up next to the Deck and Discards, where all Players can reach it.</li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- VALUE OF THE CARDS SECTION -->
+    <div id="card-values">
+        <h2>VALUE OF THE CARDS:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>In this Game Variant the Action Class Cards have no Effect and represent the Highest Valued Coloured Cards.</li>
+                <li>Furthermore, 0 is considered the Very Highest Valued Coloured Card with Pure Chaos, Pure Chaos Reverse, Pure Chaos Skip then Anti-Fun at the very top.</li>
+                <li>Therefore, the Order of Value of Coloured Cards from Lowest to Highest is:
+                    <ul>
+                        <li>1 up to 9, then Reverse, Skip, Draw +2, then 0 with Pure Chaos, Pure Chaos Reverse, Pure Chaos Skip then Anti-Fun at the very top.
+                            <div class="note-box">
+                                <strong>NOTE:</strong> In the case of multiple instances of Pure Chaos Variants and Anti-Fun, the last one placed beats all others.
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>Finally, the Colours themselves have no bearing on the Game, except for the Colour being Led and the Super-Colour.</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- HOW TO PLAY SECTION -->
+    <div id="how-to-play">
+        <h2>HOW TO PLAY:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>First, Deal Cards to all Players according to the Round you are up to, one Card at a time to form Player’s Hands. [01.2]
+                    <div class="note-box">
+                        <strong>NOTE:</strong> When playing the minimum and maximum number of Points to be played, those Rounds are Played without a Super-Colour or "No Super-Colours". [01.2]
+                    </div>
+                    <strong>DEFFINITION: ROUND:</strong> The game consists of a series of Rounds. The first Round is played with just 1 Card dealt to each Player. Then each successive Round is played with 1 Card more, up to the maximum amount [usually 10 although this can be changed as needed], then back down again to just 1. [01.2]
+                    <br><br><strong>DEFFINITION: SUPER-COLOUR:</strong> The Super-Colour designates the Highest Valued Colour that beats all others for that Round and will change throughout the Game. [01.2]
+                </li>
+                <li><strong>THE CHAOS PHASE:</strong> During this Section of the Game, Players in Turn Order, starting Clockwise from the Dealer’s Left, can use any Chaos Card and resolve it. The CHAOS PHASE Continues until all Players have exhausted all Chaos Cards [Skipping Player’s Turns who do not have one]. This means the MAIN PHASE will be Played with Only Coloured Cards. [01.2]</li>
+                <li><strong>THE BALANCE PHASE:</strong> After Chaos Card use, if any Players have more than the amount of Cards in the Round, They must Discard back down to the appropriate amount. They CAN, however, choose which Cards to Discard. Any Players with less than the amount of Cards in the Round, They must, in Turn Order, Draw until they have the appropriate amount. [01.2]
+                    <div class="note-box">
+                        <strong>NOTES:</strong> All Chaos Cards Drawn during this phase are Discarded, Face-Down, and replaced. All Trap Class Chaos Card Effects are ignored. [01.2]
+                    </div>
+                </li>
+                <li><strong>THE MAIN PHASE:</strong>
+                    <ol type="a">
+                        <li>The Top Card on the Deck is now Flipped over into the Discards until a Coloured Card is Revealed. The Colour of this Card becomes the Super-Colour for that Round. [01.2]</li>
+                        <li>The Bidding in each Round now begins with the Player to the left of the Dealer, then continues clockwise, back around to the Dealer; who Bids last. [01.2]
+                            <br><br><strong>DEFFINITION: BID:</strong> How many Points Players hope to Win based on the Cards They have to Play the Round with. [01.2]
+                            <br><br><strong>DEFFINITION: POINT:</strong> The Highest Card Played that Round Wins all Cards Played. These are collected into a Pile called a Point. [01.2]
+                            <br><br><strong>IMPORTANT NOTES:</strong>
+                            <ol type="i">
+                                <li>Everyone must Bid, it is not possible to pass [01.3]</li>
+                                <li>You can Bid zero, in which case your object is to lose every Point. [01.3]</li>
+                                <li>A Bid may only be changed only if the next Player has not yet Bid. [01.3]</li>
+                            </ol>
+                        </li>
+                        <li>Play now begins with the Player to the Dealer's left, who leads the first Card. The lead Card may be any Colour [including the Super-Colour if wanted]. [01.3]</li>
+                        <li>Each Player in Turn Order now chooses and Plays 1 Card from Their Hand. [01.3]
+                            <br><br><strong>IMPORTANT NOTES:</strong>
+                            <ol type="i">
+                                <li>Each Player MUST follow the Colour led, if they CAN. Only if they CANNOT, may They Play any other card in their Hand, including the Super-Colour or Anti-Fun. [01.3]</li>
+                                <li>The only Colours that can Win the Point being Played are the Colour Led or the Super-Colour or Anti-Fun. [01.3]</li>
+                            </ol>
+                        </li>
+                        <li>Once Everyone has Played 1 Card, the Player who Played the Highest Valued Card of the Colour led [or highest Super-Colour or the last Anti-Fun, if Played] Wins the Point and the Cards are collected into a Pile for the Winner, who then Leads the next Round with a Card of Their choice. [01.3]</li>
+                        <li>Continue until all Points have been Won for that Round. [01.3]</li>
+                        <li>Then Continue to the next Round. [01.3]</li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- VICTORY CONDITIONS SECTION -->
+    <div id="victory-conditions">
+        <h2>VICTORY CONDITIONS:</h2>
+        <div class="rules-box">
+            <ol>
+                <li><strong>Point System:</strong>
+                    <ul>
+                        <li>Each Point you earn during Gameplay will be added to Your Total at the End of the Round. [01.3]</li>
+                        <li>If you earn the Exact number of Points you Bided at the start of the Round, You win earn 10 Bonus Points. [01.3]</li>
+                        <li>The Player with the Highest number of Points at the end of the Game, Wins! [01.3]</li>
+                    </ul>
+                </li>
+                <li><strong>Special Victory Conditions:</strong>
+                    <ul>
+                        <li>Some Expansions have Special Victory Conditions that exceed the normal means of Winning the Round. For example: [01.3]
+                            <ul>
+                                <li>The Singularity Expansion allows you to collect all Unification Class Chaos Cards during the Chaos Phase. [01.3]</li>
+                                <li>While the Crisis Expansion Crisis Class Chaos Cards allow for many different Special Victory Conditions, which Activate at the End of the Chaos Phase. [01.3]</li>
+                            </ul>
+                        </li>
+                        <li>In any of these situations, doing so automatically, and instantly, Wins you the Round! [01.3]</li>
+                    </ul>
+                </li>
+                <li><strong>The game ends Without a Clear Winner:</strong>
+                    <ol type="a">
+                        <li>As stated in Universal Game Notes: Important Notes: Rule 1, the Deck could run out of Drawable Cards. [01.3]</li>
+                        <li>In any situation without a clear Winner: [01.3]
+                            <ul>
+                                <li><strong>Everyone Loses the Round.</strong><br>No Points are Scored for that Round. Start the next Round. [01.3]</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- TEAM GAMEPLAY SECTION -->
+    <div id="team-gameplay">
+        <h2>TEAM GAMEPLAY:</h2>
+        <div class="rules-box">
+            <ol>
+                <li>Make Teams with an even number of Members. [01.4]</li>
+                <li>Choose the Turn Order for Teams & Members [alternating Teams/Members between turns (e.g.: Team 1: Member 1, Team 2: Member 1, Team 1: Member 2, Team 2: Member 2, etc) ]. [01.4]</li>
+                <li>Reorganise Seating arrangements to Match Team & Member Turns. [01.4]</li>
+                <li>Follow all other Game Rules. [01.4]</li>
+            </ol>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- TEAM SPECIAL VICTORY CONDITIONS CHANGES SECTION -->
+    <div id="team-victory-changes">
+        <h2>TEAM SPECIAL VICTORY CONDITIONS CHANGES:</h2>
+        <div class="rules-box">
+            <p><strong>Singularity Expansion:</strong></p>
+            <ul>
+                <li>A Team wins if they possess all 3 Unification Class Chaos Cards between any of their Team Members. [01.4]</li>
+            </ul>
+            <p><strong>Crisis Expansion:</strong></p>
+            <ul>
+                <li>Crisis Trap Class Chaos Cards are totalled for the Team. [01.4]</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- SCORING SECTION -->
+    <div id="scoring">
+        <h2>SCORING:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>1 Point is given for each Point a player wins, plus a bonus of 10 Points if they win exactly the number of Points they Bided [This gives a player whose Bid fails a slight incentive to win as many Points as possible; including if that Player Bids 0 Points]. [01.4]</li>
+            </ul>
+            <p><strong>EXAMPLE:</strong> A player who has Bid 2 would score 12 points for winning exactly 2 Points, but only 1 for 1 Point and 3 for 3 Points, and so on... [01.4]</p>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <!-- WINNING THE GAME SECTION -->
+    <div id="winning-game">
+        <h2>WINNING THE GAME:</h2>
+        <div class="rules-box">
+            <ul>
+                <li>The Highest final accumulated Score after all Rounds determines the winner. [01.4]</li>
+            </ul>
+        </div>
+        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
+    </div>
+
+    <script is:inline>
+        const activeTheme = localStorage.getItem('soloverse-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', activeTheme);
+    </script>
+</body>
+</html>
