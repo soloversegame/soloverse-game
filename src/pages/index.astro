@@ -108,20 +108,9 @@ const upcomingGames = [
     <meta name="theme-color" content="#0f1015" />
 
     <style>
-		/* Core Layout Pivot System */
-		html[data-rotate-override="landscape"] body {
-			transform: rotate(-90deg);
-			transform-origin: top left;
-			position: absolute;
-			top: 100%;
-			left: 0;
-			width: 100vh;
-			height: 100vw;
-			overflow-y: scroll;
-			max-width: none;
-			margin: 0;
-			padding: 40px;
-		}
+		/* ==========================================================================
+		MANUAL PIVOT OVERRIDE STYLES (Keep .rotate-toggle-btn as it is)
+		========================================================================== */
 
 		.rotate-toggle-btn {
 			background: var(--bg-card);
@@ -136,6 +125,32 @@ const upcomingGames = [
 			display: inline-flex;
 			align-items: center;
 			gap: 8px;
+		}
+
+		/* Perfected Clockwise Pivot and Width Auto-Scaler */
+		html[data-rotate-override="landscape"] body {
+			transform: rotate(90deg); /* Flips clockwise to the right */
+			transform-origin: top left;
+			position: absolute;
+			top: 0;
+			left: 100vw; /* Perfectly realigns the coordinate center mapping */
+			width: 100vh; /* Uses device height as text row width bounds */
+			height: 100vw; /* Uses device width as the vertical scroll box */
+			overflow-x: hidden;
+			overflow-y: scroll;
+			max-width: none;
+			margin: 0;
+			padding: 24px 32px 60px 32px; /* Uniform, balanced screen padding margins */
+			box-sizing: border-box; /* Halts code/text layout clip leaks */
+		}
+	
+		/* Force container rules, notes, and tables to recalculate space fluidly */
+		html[data-rotate-override="landscape"] .rules-box,
+		html[data-rotate-override="landscape"] .note-box,
+		html[data-rotate-override="landscape"] table {
+			width: 100% !important;
+			max-width: 100% !important;
+			box-sizing: border-box !important;
 		}
 		
 		/* PWA Installation Overlay Banner Layout */
