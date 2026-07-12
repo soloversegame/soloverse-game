@@ -93,6 +93,12 @@ const upcomingGames = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Permanent Cache-Busting Network Headers -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
     <title>Soloverse Rulebook Hub</title>
 
     <!-- 1. Tell the phone browser exactly where your live app blueprint sits -->
@@ -390,6 +396,22 @@ const upcomingGames = [
             themeBtn.innerText = theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
         }
     </script>
+
+	<script is:inline>
+		// Force immediate update check on all active background service workers
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.getRegistrations().then(function(registrations) {
+				for (let registration of registrations) {
+					// Tells the worker to check Vercel edge networks immediately for new builds
+					registration.update(); 
+				}
+			});
+		}
+
+		// Keep your active theme preference running alongside the update check
+		const activeTheme = localStorage.getItem('soloverse-theme') || 'dark';
+		document.documentElement.setAttribute('data-theme', activeTheme);
+	</script>
 
 </body>
 </html>
