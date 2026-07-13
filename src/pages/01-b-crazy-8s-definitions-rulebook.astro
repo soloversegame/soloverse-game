@@ -9,6 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Core Game: Action Class Cards</title>
     <style>
+		/* Flexbox row layout for side-by-side preview images */
+		.image-row-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 15px;
+			justify-content: center;
+			margin: 20px 0;
+			width: 100%;
+		}
+		/* Overrides standard margins when images sit inside a row grid */
+		.image-row-container .image-container {
+			flex: 1 1 calc(33.333% - 15px); /* Displays 3 per row on desktop */
+			min-width: 220px; /* Forces stack drop on smaller screens */
+			margin: 0; 
+		}
+		
         :root {
             --bg-main: #0f1015;
             --bg-card: #171922;
@@ -167,19 +183,31 @@
         </div>
     </div>
 
+</head>
+<body>
+
+    <div id="top"></div>
+
     <!-- FUNCTIONS OF THE CORE GAME’S ACTION CLASS CARDS -->
+    <div id="action-class-framework">
+        <div class="rules-box">
+            <h2>FUNCTIONS OF THE CORE GAME’S ACTION CLASS CARDS:</h2>
+        </div>
+    </div>
+
+    <!-- DRAW +2 -->
     <div id="draw-two">
         <div class="rules-box">
-            <h2>DRAW +2 [x 12]</h2>
-            <div><strong>Attributes:</strong> Action Class | Single Targeting | Stackable | 2 x each: Steel, Poison, Venom, Carbon, Stinger & Toxin [01.1]</div>
+            <h2>DRAW +2 [x 12]:</h2>
+            <div>Action Class | Single Targeting | Stackable | 2 x each: Steel, Poison, Venom, Carbon, Stinger &amp; Toxin [01.1]</div>
             
             <div class="image-container">
-                <img src="/assets/images/cards/000-1-steel-draw-2.png" alt="Draw +2 Card Illustration" />
+                <img src="/assets/images/cards/000-1-steel-draw-2.png" alt="Draw +2" />
                 <div class="image-caption">Draw +2 Card Blueprint Component</div>
             </div>
 
             <ul>
-                <li>When played, the next Player MUST Draw 2 Cards and Skip Their Turn OR Respond in Kind [passing Stacked Effects onto the next Player] [01.1].</li>
+                <li>• When played, the next Player MUST Draw 2 Cards and Skip Their Turn OR Respond in Kind [passing Stacked Effects onto the next Player] [01.1].</li>
             </ul>
 
             <div class="note-box">
@@ -191,18 +219,19 @@
         </div>
     </div>
 
+    <!-- REVERSE -->
     <div id="reverse">
         <div class="rules-box">
-            <h2>REVERSE [x 12]</h2>
-            <div><strong>Attributes:</strong> Action Class | Group Targeting | 2 x each: Steel, Poison, Venom, Carbon, Stinger & Toxin [01.2]</div>
+            <h2>REVERSE [x 12]:</h2>
+            <div>Action Class | Group Targeting | 2 x each: Steel, Poison, Venom, Carbon, Stinger &amp; Toxin [01.2]</div>
 
             <div class="image-container">
-                <img src="/assets/images/cards/000-9-venom-reverse.png" alt="Reverse Card Illustration" />
+                <img src="/assets/images/cards/000-4-toxin-reverse.png" alt="Reverse" />
                 <div class="image-caption">Reverse Card Blueprint Component</div>
             </div>
 
             <ul>
-                <li>When played, the Direction of Play Reverses [01.2].</li>
+                <li>• When played, the Direction of Play Reverses [01.2].</li>
             </ul>
 
             <div class="note-box">
@@ -218,18 +247,19 @@
         </div>
     </div>
 
+    <!-- SKIP -->
     <div id="skip">
         <div class="rules-box">
-            <h2>SKIP [x 12]</h2>
-            <div><strong>Attributes:</strong> Action Class | Single Targeting | 2 x each: Steel, Poison, Venom, Carbon, Stinger & Toxin [01.2]</div>
+            <h2>SKIP [x 12]:</h2>
+            <div>Action Class | Single Targeting | 2 x each: Steel, Poison, Venom, Carbon, Stinger &amp; Toxin [01.2]</div>
 
             <div class="image-container">
-                <img src="/assets/images/cards/000-4-toxin-skip.png" alt="Skip Card Illustration" />
+                <img src="/assets/images/cards/000-9-venom-skip.png" alt="Skip" />
                 <div class="image-caption">Skip Card Blueprint Component</div>
             </div>
 
             <ul>
-                <li>When played, the next Player Skips Their Turn [01.2].</li>
+                <li>• When played, the next Player Skips Their Turn [01.2].</li>
             </ul>
 
             <div class="note-box">
@@ -237,7 +267,7 @@
             </div>
 
             <div class="note-box">
-                <strong>NOTE:</strong> Just because I got creative with the Colour Names, doesn’t mean You have to use them... Dark Blue, Dark Purple, Red, Orange, Yellow & Dark Green are fine... [compare: Coloured Extensions] [01.2].
+                <strong>NOTE:</strong> Just because I got creative with the Colour Names, doesn’t mean You have to use them... Dark Blue, Dark Purple, Red, Orange, Yellow &amp; Dark Green are fine... [compare: Coloured Extensions] [01.2].
             </div>
         </div>
         <div class="return-link-wrapper">
