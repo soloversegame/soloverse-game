@@ -1,14 +1,23 @@
 ---
-// src/pages/core-action-class.astro
-// Premium, native web text core-action-class game rulebook
+// src/pages/01-b-crazy-8s-definitions-rulebook.astro
+// Premium, native web text 01-b-crazy-8s-definitions-rulebook game rulebook
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Core Game: Action Class Cards</title>
+
+    <!-- Permanent Cache-Busting Network Headers for Clean Vercel Deployments -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>01-B Soloverse - Crazy 8's Definitions Rulebook</title>
     <style>
+        /* ==========================================================================
+           GLOBAL DESIGN VARIABLES & THEME ENGINE TOKENS
+           ========================================================================== */
         :root {
             --bg-main: #0f1015;
             --bg-card: #171922;
@@ -17,9 +26,10 @@
             --text-secondary: #f3f4f6;
             --text-muted: #9ca3af;
             --text-divider: #2d313f;
-            --color-accent: #0000ff;
+            --color-accent: #0000ff; /* Base Blue Accent */
             --color-link: #3b82f6;
         }
+
         :root[data-theme="light"] {
             --bg-main: #f4f5f7;
             --bg-card: #ffffff;
@@ -28,31 +38,47 @@
             --text-secondary: #1f2937;
             --text-muted: #4b5563;
             --text-divider: #d1d5db;
+            --color-accent: #0000ff;
             --color-link: #1d4ed8;
         }
 
-        .back-link {
-            display: inline-block;
-            color: var(--color-accent);
-            text-decoration: none;
-            font-weight: 700;
-            margin-bottom: 25px;
-            transition: color 0.15s;
-        }
-
-        .back-link:hover { color: var(--text-primary); }
-        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
-        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-
+        /* ==========================================================================
+           BASE LAYOUT & ENGINE BODY RESET
+           ========================================================================== */
         body {
-            background-color: var(--bg-main);
-            color: var(--text-primary);
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-secondary);
             margin: 0;
             padding: 20px;
-            line-height: 1.6;
+            line-height: 1.7;
+            transition: background 0.3s, color 0.3s;
         }
 
+        /* ==========================================================================
+           AUTOMATED BREAKPOINT ENGINE (TABLETS & WIDESCREENS)
+           ========================================================================== */
+        @media screen and (min-width: 768px) and (orientation: landscape) {
+            body {
+                max-width: 960px; /* Expands reading column limits for landscape view */
+                margin: 40px auto;
+                padding: 0 30px;
+            }
+            .rules-box {
+                padding: 32px;
+                margin: 24px 0;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                max-width: 1050px; /* Sweeps reading layout grid columns out fully on monitors */
+            }
+        }
+
+        /* ==========================================================================
+           DECOUPLED BOX ARCHITECTURE PLATFORM STYLES
+           ========================================================================== */
         .rules-box {
             background: var(--bg-card);
             border: 1px solid var(--text-divider);
@@ -63,6 +89,7 @@
             flex-direction: column;
             gap: 15px;
         }
+
         .note-box {
             font-size: 0.92rem;
             background: rgba(255, 242, 0, 0.03);
@@ -71,21 +98,28 @@
             border-left: 3px solid #fff200;
             color: var(--text-secondary);
         }
+
         .return-link-wrapper {
             text-align: right;
             margin-top: -10px;
             margin-bottom: 30px;
         }
-        .return-link {
+
+        .return-link, .back-link {
             color: var(--color-link);
             text-decoration: none;
             font-size: 0.9rem;
-            font-weight: 500;
+            font-weight: 600;
+            transition: color 0.15s;
         }
-        .return-link:hover {
+
+        .return-link:hover, .back-link:hover {
             text-decoration: underline;
         }
 
+        /* ==========================================================================
+           UNIFIED MEDIA ENGINE & FLEX HORIZONTAL GRID
+           ========================================================================== */
         .image-container {
             margin: 20px auto;
             padding: 12px;
@@ -95,17 +129,19 @@
             text-align: center;
             max-width: 100%;
         }
+
         .image-container img {
             max-width: 100%;
-            max-height: 450px;
-            width: auto;
-            height: auto;
-            object-fit: contain;
+            max-height: 450px; /* Essential fallback clamp */
+            width: auto;       /* Balanced width downscaling pairing */
+            height: auto;      
+			object-fit: contain;
             border-radius: 6px;
             display: block;
             margin: 0 auto;
             border: 1px solid var(--text-divider);
         }
+
         .image-caption {
             font-size: 0.85rem;
             color: var(--text-muted);
@@ -114,7 +150,7 @@
             line-height: 1.4;
         }
 
-        /* Flexbox row layout for side-by-side preview images */
+        /* Horizontal Layout Row Wrapper */
         .image-row-container {
             display: flex;
             flex-wrap: wrap;
@@ -123,14 +159,35 @@
             margin: 20px 0;
             width: 100%;
         }
-        /* Overrides standard margins when images sit inside a row grid */
+
+        /* Row Image Card Override Layout Modifier */
         .image-row-container .image-container {
-            flex: 1 1 calc(33.333% - 15px); /* Displays 3 per row on desktop */
-            min-width: 220px; /* Forces stack drop on smaller screens */
+            flex: 1 1 calc(33.333% - 15px); /* Displays 3 per row neatly on widescreen views */
+            min-width: 220px; /* Responsive drop stack protection threshold */
             margin: 0; 
         }
 
-        /* Core Game Custom Border Skins */
+		/* ==========================================================================
+		IMPORTANT NOTES & RESTRICTION ALERTS (RED CALLOUT BOX SYSTEM)
+		========================================================================== */
+		.alert-box {
+			font-size: 0.92rem;
+			background: rgba(220, 38, 38, 0.04); /* Subtle transparent red tint */
+			padding: 12px;
+			border-radius: 8px;
+			border-left: 3px solid #dc2626; /* Deep crimson structural accent */
+			color: var(--text-secondary);
+			margin: 10px 0;
+			font-weight: 500;
+		}
+		:root[data-theme="light"] .alert-box {
+			background: rgba(220, 38, 38, 0.06); /* Slightly higher visibility for light mode backgrounds */
+		}
+
+        /* ==========================================================================
+           CARD BLUEPRINT SECTOR DESIGN BORDER COATINGS
+           ========================================================================== */
+        /* Core Base Deck Sets indicators */
         .image-container.border-steel { border: 3px solid #1d4ed8; box-shadow: 0 0 12px rgba(29, 78, 216, 0.2); }
         .image-container.border-poison-core { border: 3px solid #6b21a8; box-shadow: 0 0 12px rgba(107, 33, 168, 0.2); }
         .image-container.border-venom-core { border: 3px solid #dc2626; box-shadow: 0 0 12px rgba(220, 38, 38, 0.2); }
@@ -138,7 +195,7 @@
         .image-container.border-stinger-core { border: 3px solid #eab308; box-shadow: 0 0 12px rgba(234, 179, 8, 0.2); }
         .image-container.border-toxin-core { border: 3px solid #16a34a; box-shadow: 0 0 12px rgba(22, 163, 74, 0.2); }
 
-        /* Coloured Extensions Custom Border Skins */
+        /* Advanced Extension Deck indicators */
         .image-container.border-diamond { border: 3px solid #3b82f6; box-shadow: 0 0 12px rgba(59, 130, 246, 0.2); }
         .image-container.border-emerald { border: 3px solid #10b981; box-shadow: 0 0 12px rgba(16, 185, 129, 0.2); }
         .image-container.border-redwood { border: 3px solid #5c4033; box-shadow: 0 0 12px rgba(92, 64, 51, 0.2); }
@@ -147,21 +204,15 @@
         .image-container.border-amethyst { border: 3px solid #8b5cf6; box-shadow: 0 0 12px rgba(139, 92, 246, 0.2); }
         .image-container.border-stone { border: 3px solid #6b7280; box-shadow: 0 0 12px rgba(107, 114, 128, 0.2); }
 
-        h2 { margin: 0; color: var(--text-primary); }
-        ul { margin: 0; padding-left: 20px; }
+        /* ==========================================================================
+           TYPOGRAPHY MODIFIERS
+           ========================================================================== */
+        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
+        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 30px; border-bottom: 2px solid var(--color-accent); padding-bottom: 8px; font-weight: 700; }
+        p { color: var(--text-secondary); margin: 16px 0; }
+        ul { margin: 0; padding-left: 20px; color: var(--text-secondary); }
         li { margin-bottom: 8px; }
-
-        @media screen and (min-width: 768px) and (orientation: landscape) {
-            body {
-                max-width: 960px;
-                margin: 40px auto;
-                padding: 0 30px;
-            }
-            .rules-box { padding: 32px; margin: 24px 0; }
-        }
-        @media screen and (min-width: 1024px) {
-            body { max-width: 1050px; }
-        }
+        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
     </style>
 </head>
 <body id="top">
@@ -309,9 +360,15 @@
             <ul>
                 <li>• 3 PLAYERS REQUIRED FOR MINIMUM USE:</li>
                 <li>• 5 PLAYERS RECOMMENDED FOR EFFECTIVE USE.</li>
-                <li>RESTRICTION: You CANNOT activate Additional Chaos Cards [i.e.: Counter Class Chaos Cards] in response to Your own Card, on Your own Turn.</li>
-                <li>ALTERNATE USE: These Chaos Cards CAN be used as a Pure Chaos Card instead, if chosen – Unless otherwise specified.</li>
-                <li>COUNTERING: These Chaos Cards CAN be Countered – Unless otherwise specified. The Trap Class Chaos Cards CANNOT be Countered.</li>
+                <div class="alert-box">
+					<strong>RESTRICTION:</strong> You CANNOT activate Additional Chaos Cards [i.e.: Counter Class Chaos Cards] in response to Your own Card, on Your own Turn.
+				</div>
+				<div class="alert-box">
+					<strong>ALTERNATE USE:</strong> These Chaos Cards CAN be used as a Pure Chaos Card instead, if chosen – Unless otherwise specified.
+				</div>
+                <div class="note-box">
+					<strong>COUNTERING NOTE:</strong> These Chaos Cards CAN be Countered – Unless otherwise specified. The Trap Class Chaos Cards CANNOT be Countered.
+				</div>
             </ul>
             <div class="note-box">
                 NOTE: All Chaos Cards with an Asterisk [*] are from the Core Extension.
