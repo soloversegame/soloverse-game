@@ -9,22 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Core Game: Action Class Cards</title>
     <style>
-		/* Flexbox row layout for side-by-side preview images */
-		.image-row-container {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 15px;
-			justify-content: center;
-			margin: 20px 0;
-			width: 100%;
-		}
-		/* Overrides standard margins when images sit inside a row grid */
-		.image-row-container .image-container {
-			flex: 1 1 calc(33.333% - 15px); /* Displays 3 per row on desktop */
-			min-width: 220px; /* Forces stack drop on smaller screens */
-			margin: 0; 
-		}
-		
         :root {
             --bg-main: #0f1015;
             --bg-card: #171922;
@@ -116,6 +100,39 @@
             font-weight: 500;
             line-height: 1.4;
         }
+
+        /* Flexbox row layout for side-by-side preview images */
+        .image-row-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        /* Overrides standard margins when images sit inside a row grid */
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px); /* Displays 3 per row on desktop */
+            min-width: 220px; /* Forces stack drop on smaller screens */
+            margin: 0; 
+        }
+
+        /* Core Game Custom Border Skins */
+        .image-container.border-steel { border: 3px solid #1d4ed8; box-shadow: 0 0 12px rgba(29, 78, 216, 0.2); }
+        .image-container.border-poison-core { border: 3px solid #6b21a8; box-shadow: 0 0 12px rgba(107, 33, 168, 0.2); }
+        .image-container.border-venom-core { border: 3px solid #dc2626; box-shadow: 0 0 12px rgba(220, 38, 38, 0.2); }
+        .image-container.border-carbon { border: 3px solid #ea580c; box-shadow: 0 0 12px rgba(234, 88, 12, 0.2); }
+        .image-container.border-stinger-core { border: 3px solid #eab308; box-shadow: 0 0 12px rgba(234, 179, 8, 0.2); }
+        .image-container.border-toxin-core { border: 3px solid #16a34a; box-shadow: 0 0 12px rgba(22, 163, 74, 0.2); }
+
+        /* Coloured Extensions Custom Border Skins */
+        .image-container.border-diamond { border: 3px solid #3b82f6; box-shadow: 0 0 12px rgba(59, 130, 246, 0.2); }
+        .image-container.border-emerald { border: 3px solid #10b981; box-shadow: 0 0 12px rgba(16, 185, 129, 0.2); }
+        .image-container.border-redwood { border: 3px solid #5c4033; box-shadow: 0 0 12px rgba(92, 64, 51, 0.2); }
+        .image-container.border-oak { border: 3px solid #b58900; box-shadow: 0 0 12px rgba(181, 137, 0, 0.2); }
+        .image-container.border-rose { border: 3px solid #ec4899; box-shadow: 0 0 12px rgba(236, 72, 153, 0.2); }
+        .image-container.border-amethyst { border: 3px solid #8b5cf6; box-shadow: 0 0 12px rgba(139, 92, 246, 0.2); }
+        .image-container.border-stone { border: 3px solid #6b7280; box-shadow: 0 0 12px rgba(107, 114, 128, 0.2); }
 
         h2 { margin: 0; color: var(--text-primary); }
         ul { margin: 0; padding-left: 20px; }
