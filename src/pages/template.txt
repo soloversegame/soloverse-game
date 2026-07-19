@@ -14,7 +14,7 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>RULEBOOK TITLE | SOLOVERSE PLATFORM</title>
+    <title>[00-A] SOLOVERSE [UNIVERSAL GAME NOTES]</title>
     <style>
         /* ==========================================================================
            1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
@@ -341,12 +341,14 @@
         .platform-hub-nav {
             margin-bottom: 25px;
         }
-        .hub-link-button {
+        .hub-link-button,
+        .hub-link-button:visited,
+        .hub-link-button:link {
             display: inline-flex;
             align-items: center;
             background: var(--bg-main-box);
             border: 1px solid var(--text-divider);
-            color: var(--color-card-title);
+            color: var(--color-link) !important;
             padding: 10px 18px;
             border-radius: 8px;
             text-decoration: none;
@@ -406,14 +408,27 @@
             margin-top: -5px;
             margin-bottom: 35px;
         }
-        .return-link {
-            color: var(--color-link);
+        .return-link,
+        .return-link:visited,
+        .return-link:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important; /* Forces your exact brand link colour */
+            padding: 8px 14px; /* Clean, slightly tighter padding for the bottom link */
+            border-radius: 8px;
             text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 600;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease-in-out;
         }
+
         .return-link:hover {
-            text-decoration: underline;
+            background: var(--text-divider);
+            color: var(--text-primary) !important;
+            transform: translateY(-1px);
+            text-decoration: none;
         }
 
         /* ==========================================================================
@@ -476,12 +491,55 @@
         .image-container.border-rose { border: 3px solid #ec4899; }
         .image-container.border-amethyst { border: 3px solid #8b5cf6; }
         .image-container.border-stone { border: 3px solid #6b7280; }
+		
+		/* ==========================================================================
+           10. EXPANSION CONTENT GRID ARCHITECTURE
+           ========================================================================== */
+        .expansion-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        .expansion-row {
+            display: flex;
+            flex-direction: column; /* Stacks name and description cleanly on mobile screens */
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            gap: 4px;
+        }
+
+        .expansion-name {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+        }
+
+        .expansion-desc {
+            font-weight: 500;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Side-by-Side Split Modifier for Widescreen Monitors */
+        @media screen and (min-width: 600px) {
+            .expansion-row {
+                flex-direction: row; /* Converts back to a horizontal split line once space allows */
+                align-items: center;
+                gap: 15px;
+            }
+        }
     </style>
 </head>
-<body>
+<body id="top">
 
     <nav class="platform-hub-nav" aria-label="Platform Navigation">
-        <a href="/rulebook-hub" class="hub-link-button">⏮ Return to Rulebook Hub</a>
+        <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
     </nav>
 
     <header class="page-title-header">
