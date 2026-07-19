@@ -1,0 +1,551 @@
+---
+// src/pages/template-rulebook-slug.astro
+// Soloverse Premium Native Web Rulebook Component Template v2.0
+// Host Target: Vercel | Theme Architecture: Dynamic Decoupled Token Grid
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Permanent Cache-Busting Network Headers for Clean Vercel Deployments -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>RULEBOOK TITLE | SOLOVERSE PLATFORM</title>
+    <style>
+        /* ==========================================================================
+           1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
+           ========================================================================== */
+        :root {
+            /* Base Platform Architecture Tokens */
+            --bg-main: #0f1015;
+            --bg-card: #171922;
+            --bg-main-box: #1c1e27;
+            --text-primary: #ffffff;
+            --text-secondary: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-divider: #2d313f;
+            --color-link: #3b82f6;
+
+            /* --- DARK MODE ELEMENT THEME TOKENS --- */
+            /* Typography Accents */
+            --color-card-title: #3b82f6;     /* Calibrated Blue for typography on dark */
+            --color-card-class: #8cfffb;     /* Neon Light Blue */
+
+            /* Callout Boxes (Background Opacities & Solid Structural Borders) */
+            --border-tip: #aded8f;           /* Light Green */
+            --bg-tip: rgba(173, 237, 143, 0.04);
+
+            --border-note: #0ed145;          /* Green */
+            --bg-note: rgba(14, 209, 69, 0.04);
+
+            --border-example: #fff200;       /* Yellow */
+            --bg-example: rgba(255, 242, 0, 0.04);
+
+            --border-discards: #ff7f27;      /* Orange (Side & Top actions) */
+            --bg-discards: rgba(255, 127, 39, 0.04);
+
+            --border-challenge: #b97a56;     /* Light Brown */
+            --bg-challenge: rgba(185, 122, 86, 0.04);
+
+            --border-important: #a75e28;     /* Calibrated brighter Dark Brown for visibility */
+            --bg-important: rgba(167, 94, 40, 0.04);
+
+            --border-restriction: #ec1c24;   /* Red (Restriction & Penalty) */
+            --bg-restriction: rgba(236, 28, 36, 0.04);
+
+            --border-compatibility: #ffaec8; /* Pink */
+            --bg-compatibility: rgba(255, 174, 200, 0.04);
+
+            --border-victory: #b497ef;       /* Light Purple */
+            --bg-victory: rgba(180, 151, 239, 0.04);
+
+            --border-two-player: #9d00ff;    /* Purple */
+            --bg-two-player: rgba(157, 0, 255, 0.04);
+
+            --border-advanced: #b2b2b2;      /* Grey */
+            --bg-advanced: rgba(178, 178, 178, 0.04);
+        }
+
+        :root[data-theme="light"] {
+            /* Base Platform Architecture Overrides */
+            --bg-main: #f4f5f7;
+            --bg-card: #ffffff;
+            --bg-main-box: #f9fafb;
+            --text-primary: #111216;
+            --text-secondary: #1f2937;
+            --text-muted: #4b5563;
+            --text-divider: #d1d5db;
+            --color-link: #1d4ed8;
+
+            /* --- LIGHT MODE ACCESSIBILITY CONTRAST OVERRIDES --- */
+            /* Typography Overrides (Deepened values to ensure AAA text contrast on white panels) */
+            --color-card-title: #0000ff;     /* Solid True Blue */
+            --color-card-class: #00807b;     /* Deepened Cyan-Teal for text legibility */
+
+            /* Callout Box Overrides (Enhanced background presence, darkened border text-hues) */
+            --border-tip: #2c7a00;           /* Forest Green contrast anchor */
+            --bg-tip: rgba(44, 122, 0, 0.06);
+
+            --border-note: #058225;          /* Rich Foliage Green */
+            --bg-note: rgba(5, 130, 37, 0.06);
+
+            --border-example: #b58900;       /* High-contrast Amber instead of blinding neon yellow */
+            --bg-example: rgba(181, 137, 0, 0.06);
+
+            --border-discards: #c2410c;      /* Rust Orange */
+            --bg-discards: rgba(194, 65, 12, 0.06);
+
+            --border-challenge: #7c4623;     /* Earth Brown */
+            --bg-challenge: rgba(124, 70, 35, 0.06);
+
+            --border-important: #5c300f;     /* Deep Mahogany Brown */
+            --bg-important: rgba(92, 48, 15, 0.06);
+
+            --border-restriction: #b91c1c;   /* Deep Crimson Red */
+            --bg-restriction: rgba(185, 28, 28, 0.06);
+
+            --border-compatibility: #db2777; /* Deep Rose Pink for text validation readability */
+            --bg-compatibility: rgba(219, 39, 119, 0.06);
+
+            --border-victory: #6d28d9;       /* Deep Royal Purple */
+            --bg-victory: rgba(109, 40, 217, 0.06);
+
+            --border-two-player: #580096;    /* Dark Orchid Purple */
+            --bg-two-player: rgba(88, 0, 150, 0.06);
+
+            --border-advanced: #4b5563;      /* Dark Slate Slate Grey */
+            --bg-advanced: rgba(75, 85, 99, 0.06);
+        }
+		
+        /* ==========================================================================
+           2. BASE LAYOUT CONFIGURATION & RESETS
+           ========================================================================== */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-secondary);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.7;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* ==========================================================================
+           3. AUTOMATED BREAKPOINT SENSOR ENGINE (TABLETS & WIDESCREENS)
+           ========================================================================== */
+        @media screen and (min-width: 768px) and (orientation: landscape) {
+            body {
+                max-width: 960px;
+                margin: 40px auto;
+                padding: 0 30px;
+            }
+            .rules-box {
+                padding: 32px;
+                margin: 24px 0;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                max-width: 1050px;
+            }
+        }
+
+        /* ==========================================================================
+           4. UNIFIED STRUCTURAL TYPOGRAPHY BLOCKS
+           ========================================================================== */
+        /* Main Page Header Component */
+        .page-title-header {
+            border-bottom: 3px double var(--text-divider);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        h1.page-title {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin: 0 0 5px 0;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+        .meta-tag {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 0;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Expansion/Chapter Level Headings */
+        h2.rulebook-heading {
+            font-size: 1.6rem;
+            color: var(--text-primary);
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-heading);
+            padding-bottom: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        /* Operational Subheaders */
+        h3.rulebook-subheading {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--accent-subheading);
+            padding-left: 12px;
+            font-weight: 600;
+        }
+
+        /* Individual Card Entries Header Block */
+        .card-header-block {
+            border-bottom: 1px dashed var(--text-divider);
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+        }
+        h4.card-title {
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .card-class-info {
+            font-size: 0.88rem;
+            color: var(--accent-card-title);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            margin-top: 2px;
+        }
+
+        /* Paragraphs and Core List Formats */
+        p { color: var(--text-secondary); margin: 16px 0; }
+        ul, ol { margin: 0; padding-left: 20px; color: var(--text-secondary); }
+        li { margin-bottom: 8px; }
+
+        /* ==========================================================================
+           5. DECOUPLED STRUCTURAL BLOCKS & BOX ARCHITECTURE
+           ========================================================================== */
+        .rules-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* Uniform Spacing Flow Override Module for Inside Elements */
+        .rules-box > * {
+            margin: 10px 0;
+        }
+        .rules-box > ul, .rules-box > ol {
+            margin: 10px 0 10px 20px;
+        }
+
+        /* ==========================================================================
+           6. MULTI-COLORED SEMANTIC CALLOUT ENGINE
+           ========================================================================== */
+        /* Shared Callout Box Core Parameters */
+        .note-box, .alert-box, .player-note-box, .example-box {
+            font-size: 0.92rem;
+            padding: 14px 16px;
+            border-radius: 8px;
+            color: var(--text-secondary);
+            margin: 10px 0;
+            font-weight: 500;
+        }
+
+        /* A. General Notes Container (Yellow) */
+        .note-box {
+            background: rgba(255, 242, 0, 0.03);
+            border-left: 4px solid #fff200;
+        }
+
+        /* B. Restrictions & Critical Warnings Container (Red) */
+        .alert-box {
+            background: rgba(220, 38, 38, 0.04);
+            border-left: 4px solid #dc2626;
+        }
+        :root[data-theme="light"] .alert-box { background: rgba(220, 38, 38, 0.06); }
+
+        /* C. 2 Player Special Configurations Container (Orange) */
+        .player-note-box {
+            background: rgba(234, 88, 12, 0.04);
+            border-left: 4px solid #ea580c;
+        }
+        :root[data-theme="light"] .player-note-box { background: rgba(234, 88, 12, 0.06); }
+
+        /* D. Metagame Rules Examples Container (Green) */
+        .example-box {
+            background: rgba(22, 163, 74, 0.03);
+            border-left: 4px solid #16a34a;
+            font-style: italic;
+        }
+        :root[data-theme="light"] .example-box { background: rgba(22, 163, 74, 0.05); }
+
+        /* ==========================================================================
+           7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+           ========================================================================== */
+        /* Global Navigation Control Elements */
+        .platform-hub-nav {
+            margin-bottom: 25px;
+        }
+        .hub-link-button {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link);
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-in-out;
+        }
+        .hub-link-button:hover {
+            background: var(--text-divider);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        /* Index Jump Matrix Table Container */
+        .matrix-toc-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        .matrix-toc-title {
+            margin: 0 0 15px 0;
+            color: var(--text-primary);
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .matrix-toc-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+		
+		/* Hierarchical Indentation Modifiers inside the Matrix Grid */
+        .matrix-item-heading { padding-left: 0px; font-weight: 700; }
+        .matrix-item-subheading { padding-left: 15px; font-weight: 600; }
+        .matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
+
+        .matrix-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        /* Bottom Step Jump Elements */
+        .return-link-wrapper {
+            text-align: right;
+            margin-top: -5px;
+            margin-bottom: 35px;
+        }
+        .return-link {
+            color: var(--color-link);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .return-link:hover {
+            text-decoration: underline;
+        }
+
+        /* ==========================================================================
+           8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS
+           ========================================================================== */
+        .image-container {
+            margin: 20px auto;
+            padding: 12px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 100%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 450px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid var(--text-divider);
+        }
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
+        .image-row-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px);
+            min-width: 220px;
+            margin: 0;
+        }
+
+        /* Border Color Coatings for Core and Extension Cards */
+        .image-container.border-steel { border: 3px solid #1d4ed8; }
+        .image-container.border-poison-core { border: 3px solid #6b21a8; }
+        .image-container.border-venom-core { border: 3px solid #dc2626; }
+        .image-container.border-carbon { border: 3px solid #ea580c; }
+        .image-container.border-stinger-core { border: 3px solid #eab308; }
+        .image-container.border-toxin-core { border: 3px solid #16a34a; }
+        .image-container.border-diamond { border: 3px solid #3b82f6; }
+        .image-container.border-emerald { border: 3px solid #10b981; }
+        .image-container.border-redwood { border: 3px solid #5c4033; }
+        .image-container.border-oak { border: 3px solid #b58900; }
+        .image-container.border-rose { border: 3px solid #ec4899; }
+        .image-container.border-amethyst { border: 3px solid #8b5cf6; }
+        .image-container.border-stone { border: 3px solid #6b7280; }
+    </style>
+</head>
+<body>
+
+    <nav class="platform-hub-nav" aria-label="Platform Navigation">
+        <a href="/rulebook-hub" class="hub-link-button">⏮ Return to Rulebook Hub</a>
+    </nav>
+
+    <header class="page-title-header">
+        <h1 class="page-title">01-B SOLOVERSE - CRAZY 8'S DEFINITIONS</h1>
+        <p class="meta-tag">Premium Core Expansion Rulebook Documentation</p>
+    </header>
+
+    <!-- THE INDEX JUMP MATRIX CONTAINER -->
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
+        <h2 class="matrix-toc-title">Index Jump Matrix</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+                <a href="#heading-id-placeholder" class="matrix-link">1.0 CORE EXPANSION CATEGORY</a>
+            </li>
+            <li class="matrix-item-subheading">
+                <a href="#subheading-id-placeholder" class="matrix-link">○ 1.1 Structural System Rules</a>
+            </li>
+            <li class="matrix-item-card">
+                <a href="#card-id-placeholder" class="matrix-link">■ Card Component Entry Name</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- SKELETON BLOCK A: MAIN CHAPTER / CATEGORY HEADING -->
+    <div id="heading-id-placeholder">
+        <h2 class="rulebook-heading">1.0 CORE EXPANSION CATEGORY</h2>
+        <div class="rules-box">
+            <p>Insert raw text definitions for master rule categories directly inside this decoupled wrapper container.</p>
+        </div>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </div>
+
+    <!-- SKELETON BLOCK B: FRAMEWORK SUBHEADING -->
+    <div id="subheading-id-placeholder">
+        <h3 class="rulebook-subheading">○ 1.1 Structural System Rules</h3>
+        <div class="rules-box">
+            <p>Insert sub-tier details, setup guidelines, or phase-by-phase framework instructions here.</p>
+        </div>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </div>
+
+    <!-- SKELETON BLOCK C: INDIVIDUAL CARD CLASS COMPONENT ENTRY -->
+    <div id="card-id-placeholder">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">CARD COMPONENT ENTRY NAME [x Quantity]:</h4>
+                <div class="card-class-info">Card Class Tier | Targeting Properties | Core Multipliers</div>
+            </div>
+
+            <!-- Single Card Image Component (Swap to .image-row-container for multiple images inline) -->
+            <div class="image-container border-steel">
+                <img src="/assets/images/cards/card-filename-placeholder.png" alt="Card Technical Blueprint Preview" />
+                <div class="image-caption">Card Component Blueprint Grid Specification Slot</div>
+            </div>
+
+            <ol>
+                <li>1. Action item number one verbatim text statement.</li>
+                <li>2. Action item number two verbatim text statement.</li>
+            </ol>
+
+            <div class="note-box">
+                <strong>NOTE:</strong> General helpful metagame hint or design insight goes here.
+            </div>
+
+            <div class="alert-box">
+                <strong>RESTRICTION:</strong> Critical limitation condition or illegal play protection warning goes here.
+            </div>
+
+            <div class="player-note-box">
+                <strong>2 PLAYER GAME NOTE:</strong> Special execution variation modifications for dual formatting goes here.
+            </div>
+
+            <div class="example-box">
+                <strong>EXAMPLE:</strong> Complete step-by-step combat loop simulation mapping description goes here.
+            </div>
+        </div>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </div>
+
+    <!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->
+    <script is:inline>
+        (function() {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                    for (let registration of registrations) {
+                        registration.update(); 
+                    }
+                });
+            }
+            const savedTheme = localStorage.getItem('soloverse-theme');
+            const devicePrefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            let activeTheme = 'dark';
+            if (savedTheme) {
+                activeTheme = savedTheme;
+            } else {
+                activeTheme = devicePrefersDarkMode ? 'dark' : 'light';
+            }
+            document.documentElement.setAttribute('data-theme', activeTheme);
+        })();
+    </script>
+</body>
+</html>
