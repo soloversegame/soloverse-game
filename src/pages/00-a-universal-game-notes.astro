@@ -360,20 +360,22 @@
         }
 
         /* Bottom Step Jump Elements */
-        .return-link-wrapper {
+        .back-link-wrapper {
             text-align: right;
             margin-top: -5px;
             margin-bottom: 35px;
         }
-        .return-link {
-            color: var(--color-link);
+        .back-link {
+            display: inline-block;
+            color: var(--color-accent);
             text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 600;
+            font-weight: 700;
+            margin-bottom: 25px;
+            transition: color 0.15s;
         }
-        .return-link:hover {
-            text-decoration: underline;
-        }
+        .back-link:hover { color: var(--text-primary); }
+        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
+        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
 
         /* ==========================================================================
            8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS
@@ -482,13 +484,11 @@
 </head>
 <body id="top">
 
-    <nav class="platform-hub-nav" aria-label="Platform Navigation">
-        <a href="/rulebook-hub" class="hub-link-button">⏮ Return to Rulebook Hub</a>
-    </nav>
+	<a href="/" class="back-link">📂 Return to Shelf Deck</a>
 
     <header class="page-title-header">
         <h1 class="page-title">[00-A] SOLOVERSE [UNIVERSAL GAME NOTES]</h1>
-        <p class="meta-tag">Premium Core Expansion Rulebook Documentation</p>
+		<div class="meta-tag">v3.0.0</div>>
     </header>
 
     <!-- RULEBOOK CONTENTS LIST (JUMP MATRIX) -->
@@ -580,8 +580,8 @@
             <span class="expansion-name">🏟️ Field Deck</span>
             <span class="expansion-desc">[Rule Changes]</span>
         </div>
-        <div class="return-link-wrapper">
-            <a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+        <div class="back-link-wrapper">
+            <a href="#top" class="back-link">🔝 Return to Rulebook Contents</a>
         </div>
     </div>
 
@@ -613,8 +613,8 @@
                 <li>Then the next step as you get accustomed to the game play is going all out with a couple of Expansions. Speaking of which, the first one I would especially recommend adding is the Fan Favourite: Apocalypse Expansion. </li>
             </ol>
         </div>
-        <div class="return-link-wrapper">
-            <a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+        <div class="back-link-wrapper">
+            <a href="#top" class="back-link">🔝 Return to Rulebook Contents List</a>
         </div>
     </div>
 
@@ -762,8 +762,8 @@
                 <strong>EXAMPLE:</strong> Anti-Fun [a Level 1 Counter Class Chaos Card from the Core Game]. Despite all other Counter Class Chaos Cards having a higher Level, only Nou can Counter Anti-Fun if played as your last Card. 
             </div>
         </div>
-        <div class="return-link-wrapper">
-            <a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+        <div class="back-link-wrapper">
+            <a href="#top" class="back-link">🔝 Return to Rulebook Contents List</a>
         </div>
     </div>
 
@@ -844,8 +844,8 @@
                 <li>Carry Over Effects: Many Effects are forwarded onto the next Player’s Opening Phase [see: Opening Phase above]. </li>
             </ol>
         </div>
-        <div class="return-link-wrapper">
-            <a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+        <div class="back-link-wrapper">
+            <a href="#top" class="back-link">🔝 Return to Rulebook Contents List</a>
         </div>
     </div>
 
