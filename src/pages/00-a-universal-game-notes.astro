@@ -300,14 +300,16 @@
         .platform-hub-nav {
             margin-bottom: 25px;
         }
-        .hub-link-button {
+        .hub-link-button,
+        .hub-link-button:visited,
+        .hub-link-button:link {
             display: inline-flex;
             align-items: center;
             background: var(--bg-main-box);
             border: 1px solid var(--text-divider);
-            color: var(--color-link);
+            color: var(--color-link) !important;
             padding: 10px 18px;
-            border-radius: 8px;v
+            border-radius: 8px;
             text-decoration: none;
             font-weight: 700;
             font-size: 0.9rem;
@@ -483,7 +485,7 @@
 <body id="top">
 
     <nav class="platform-hub-nav" aria-label="Platform Navigation">
-        <a href="/rulebook-hub" class="hub-link-button">📂 Return to Rulebook Hub</a>
+        <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
     </nav>
 
     <header class="page-title-header">
