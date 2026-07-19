@@ -256,42 +256,83 @@
            6. MULTI-COLORED SEMANTIC CALLOUT ENGINE
            ========================================================================== */
         /* Shared Callout Box Core Parameters */
-        .note-box, .alert-box, .player-note-box, .example-box {
+        .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
+        .important-box, .alert-box, .compatibility-box, .victory-box, 
+        .player-note-box, .advanced-box {
             font-size: 0.92rem;
             padding: 14px 16px;
             border-radius: 8px;
             color: var(--text-secondary);
-            margin: 10px 0;
+            margin: 0; /* Keeps box alignment snug inside the parent flex gaps */
             font-weight: 500;
         }
 
-        /* A. General Notes Container (Yellow) */
+        /* 🟢 1. TIPS CONTAINER (Light Green) */
+        .tip-box {
+            background: var(--bg-tip);
+            border-left: 4px solid var(--border-tip);
+        }
+
+        /* 🟢 2. GENERAL NOTES CONTAINER (Green) */
         .note-box {
-            background: rgba(255, 242, 0, 0.03);
-            border-left: 4px solid #fff200;
+            background: var(--bg-note);
+            border-left: 4px solid var(--border-note);
         }
 
-        /* B. Restrictions & Critical Warnings Container (Red) */
-        .alert-box {
-            background: rgba(220, 38, 38, 0.04);
-            border-left: 4px solid #dc2626;
-        }
-        :root[data-theme="light"] .alert-box { background: rgba(220, 38, 38, 0.06); }
-
-        /* C. 2 Player Special Configurations Container (Orange) */
-        .player-note-box {
-            background: rgba(234, 88, 12, 0.04);
-            border-left: 4px solid #ea580c;
-        }
-        :root[data-theme="light"] .player-note-box { background: rgba(234, 88, 12, 0.06); }
-
-        /* D. Metagame Rules Examples Container (Green) */
+        /* 🟢 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
         .example-box {
-            background: rgba(22, 163, 74, 0.03);
-            border-left: 4px solid #16a34a;
+            background: var(--bg-example);
+            border-left: 4px solid var(--border-example);
             font-style: italic;
         }
-        :root[data-theme="light"] .example-box { background: rgba(22, 163, 74, 0.05); }
+
+        /* 🟢 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
+        .discards-box {
+            background: var(--bg-discards);
+            border-left: 4px solid var(--border-discards);
+        }
+
+        /* 🟢 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
+        .challenge-box {
+            background: var(--bg-challenge);
+            border-left: 4px solid var(--border-challenge);
+        }
+
+        /* 🟢 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
+        .important-box {
+            background: var(--bg-important);
+            border-left: 4px solid var(--border-important);
+        }
+
+        /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
+        .alert-box {
+            background: var(--bg-restriction);
+            border-left: 4px solid var(--border-restriction);
+        }
+
+        /* 🟢 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
+        .compatibility-box {
+            background: var(--bg-compatibility);
+            border-left: 4px solid var(--border-compatibility);
+        }
+
+        /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
+        .victory-box {
+            background: var(--bg-victory);
+            border-left: 4px solid var(--border-victory);
+        }
+
+        /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
+        .player-note-box {
+            background: var(--bg-two-player);
+            border-left: 4px solid var(--border-two-player);
+        }
+
+        /* 🟢 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
+        .advanced-box {
+            background: var(--bg-advanced);
+            border-left: 4px solid var(--border-advanced);
+        }
 
         /* ==========================================================================
            7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
