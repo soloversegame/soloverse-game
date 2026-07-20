@@ -1,46 +1,26 @@
 ---
-// src/pages/variations.astro
-// Premium, native web text Soloverse Variations Rulebook configuration
+// src/pages/template-rulebook-slug.astro
+// Soloverse Premium Native Web Rulebook Component Template v2.0
+// Host Target: Vercel | Theme Architecture: Dynamic Decoupled Token Grid
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Permanent Cache-Busting Network Headers -->
+    <!-- Permanent Cache-Busting Network Headers for Clean Vercel Deployments -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>Soloverse Variations Rulebook</title>
+    <title>[00-A] SOLOVERSE [UNIVERSAL GAME NOTES]</title>
     <style>
         /* ==========================================================================
-           AUTOMATED TABLET & WIDESCREEN RESPONSIVE ENGINE
+           1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
            ========================================================================== */
-
-        /* Automatically expands text spreads when tablets are flipped horizontally */
-        @media screen and (min-width: 768px) and (orientation: landscape) {
-            body {
-                max-width: 960px; /* Expands reading column limits for a comfortable landscape view */
-                margin: 40px auto;
-                padding: 0 30px;
-            }
-
-            .rules-box {
-                padding: 32px;
-                margin: 24px 0;
-            }
-        }
-
-        /* Large Screen Optimizations (Large Tablets, Monitors, and Laptops) */
-        @media screen and (min-width: 1024px) {
-            body {
-                max-width: 1050px; /* Sweeps columns out nicely on large display panels */
-            }
-        }
-		
-		:root {
+        :root {
+            /* Base Platform Architecture Tokens */
             --bg-main: #0f1015;
             --bg-card: #171922;
             --bg-main-box: #1c1e27;
@@ -48,10 +28,50 @@
             --text-secondary: #f3f4f6;
             --text-muted: #9ca3af;
             --text-divider: #2d313f;
-            --color-accent: #3b82f6;
+            --color-link: #3b82f6;
+
+            /* --- DARK MODE ELEMENT THEME TOKENS --- */
+            /* Typography Accents */
+            --color-card-title: #3b82f6;     /* Calibrated Blue for typography on dark */
+            --color-card-class: #8cfffb;     /* Neon Light Blue */
+
+            /* Callout Boxes (Background Opacities & Solid Structural Borders) */
+            --border-tip: #aded8f;           /* Light Green */
+            --bg-tip: rgba(173, 237, 143, 0.04);
+
+            --border-note: #0ed145;          /* Green */
+            --bg-note: rgba(14, 209, 69, 0.04);
+
+            --border-example: #fff200;       /* Yellow */
+            --bg-example: rgba(255, 242, 0, 0.04);
+
+            --border-discards: #ff7f27;      /* Orange (Side & Top actions) */
+            --bg-discards: rgba(255, 127, 39, 0.04);
+
+            --border-challenge: #b97a56;     /* Light Brown */
+            --bg-challenge: rgba(185, 122, 86, 0.04);
+
+            --border-important: #a75e28;     /* Calibrated brighter Dark Brown for visibility */
+            --bg-important: rgba(167, 94, 40, 0.04);
+
+            --border-restriction: #ec1c24;   /* Red (Restriction & Penalty) */
+            --bg-restriction: rgba(236, 28, 36, 0.04);
+
+            --border-compatibility: #ffaec8; /* Pink */
+            --bg-compatibility: rgba(255, 174, 200, 0.04);
+
+            --border-victory: #b497ef;       /* Light Purple */
+            --bg-victory: rgba(180, 151, 239, 0.04);
+
+            --border-two-player: #9d00ff;    /* Purple */
+            --bg-two-player: rgba(157, 0, 255, 0.04);
+
+            --border-advanced: #b2b2b2;      /* Grey */
+            --bg-advanced: rgba(178, 178, 178, 0.04);
         }
 
         :root[data-theme="light"] {
+            /* Base Platform Architecture Overrides */
             --bg-main: #f4f5f7;
             --bg-card: #ffffff;
             --bg-main-box: #f9fafb;
@@ -59,50 +79,161 @@
             --text-secondary: #1f2937;
             --text-muted: #4b5563;
             --text-divider: #d1d5db;
-            --color-accent: #1d4ed8;
-        }
+            --color-link: #1d4ed8;
 
+            /* --- LIGHT MODE ACCESSIBILITY CONTRAST OVERRIDES --- */
+            /* Typography Overrides (Deepened values to ensure AAA text contrast on white panels) */
+            --color-card-title: #0000ff;     /* Solid True Blue */
+            --color-card-class: #00807b;     /* Deepened Cyan-Teal for text legibility */
+
+            /* Callout Box Overrides (Enhanced background presence, darkened border text-hues) */
+            --border-tip: #2c7a00;           /* Forest Green contrast anchor */
+            --bg-tip: rgba(44, 122, 0, 0.06);
+
+            --border-note: #058225;          /* Rich Foliage Green */
+            --bg-note: rgba(5, 130, 37, 0.06);
+
+            --border-example: #b58900;       /* High-contrast Amber instead of blinding neon yellow */
+            --bg-example: rgba(181, 137, 0, 0.06);
+
+            --border-discards: #c2410c;      /* Rust Orange */
+            --bg-discards: rgba(194, 65, 12, 0.06);
+
+            --border-challenge: #7c4623;     /* Earth Brown */
+            --bg-challenge: rgba(124, 70, 35, 0.06);
+
+            --border-important: #5c300f;     /* Deep Mahogany Brown */
+            --bg-important: rgba(92, 48, 15, 0.06);
+
+            --border-restriction: #b91c1c;   /* Deep Crimson Red */
+            --bg-restriction: rgba(185, 28, 28, 0.06);
+
+            --border-compatibility: #db2777; /* Deep Rose Pink for text validation readability */
+            --bg-compatibility: rgba(219, 39, 119, 0.06);
+
+            --border-victory: #6d28d9;       /* Deep Royal Purple */
+            --bg-victory: rgba(109, 40, 217, 0.06);
+
+            --border-two-player: #580096;    /* Dark Orchid Purple */
+            --bg-two-player: rgba(88, 0, 150, 0.06);
+
+            --border-advanced: #4b5563;      /* Dark Slate Slate Grey */
+            --bg-advanced: rgba(75, 85, 99, 0.06);
+        }
+		
+        /* ==========================================================================
+           2. BASE LAYOUT CONFIGURATION & RESETS
+           ========================================================================== */
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background: var(--bg-main);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-main);
             color: var(--text-secondary);
-            max-width: 750px;
-            margin: 40px auto;
+            margin: 0;
             padding: 20px;
             line-height: 1.7;
             transition: background 0.3s, color 0.3s;
         }
-        .back-link {
-            display: inline-block;
-            color: var(--color-accent);
-            text-decoration: none;
-            font-weight: 700;
-            margin-bottom: 25px;
-            transition: color 0.15s;
-        }
-        .back-link:hover { color: var(--text-primary); }
-        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
-        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-        
-        /* Index Jump Matrix */
-        .toc-box { 
-            background: var(--bg-card); 
-            border: 1px solid var(--text-divider); 
-            padding: 24px; 
-            border-radius: 12px; 
-            margin: 30px 0; 
-        }
-        .toc-title { margin: 0 0 15px 0; color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
-        .toc-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
-        .toc-link { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.15s; }
-        .toc-link:hover { color: var(--color-accent); }
 
-        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 50px; border-bottom: 1px solid var(--text-divider); padding-bottom: 8px; font-weight: 700; }
+        /* ==========================================================================
+           3. AUTOMATED BREAKPOINT SENSOR ENGINE (TABLETS & WIDESCREENS)
+           ========================================================================== */
+        @media screen and (min-width: 768px) and (orientation: landscape) {
+            body {
+                max-width: 960px;
+                margin: 40px auto;
+                padding: 0 30px;
+            }
+            .rules-box {
+                padding: 32px;
+                margin: 24px 0;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                max-width: 1050px;
+            }
+        }
+
+        /* ==========================================================================
+           4. UNIFIED STRUCTURAL TYPOGRAPHY BLOCKS
+           ========================================================================== */
+        /* Main Page Header Component */
+        .page-title-header {
+            border-bottom: 3px double var(--text-divider);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        h1.page-title {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin: 0 0 5px 0;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+        .meta-tag {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 0;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Expansion/Chapter Level Headings */
+        h2.rulebook-heading {
+            font-size: 1.6rem;
+            color: var(--text-primary);
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-heading);
+            padding-bottom: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        /* Operational Subheaders */
+        h3.rulebook-subheading {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--accent-subheading);
+            padding-left: 12px;
+            font-weight: 600;
+        }
+
+        /* Individual Card Entries Header Block */
+        .card-header-block {
+            border-bottom: 1px dashed var(--text-divider);
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+        }
+        h4.card-title {
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .card-class-info {
+            font-size: 0.88rem;
+            color: var(--accent-card-title);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            margin-top: 2px;
+        }
+
+        /* Paragraphs and Core List Formats */
         p { color: var(--text-secondary); margin: 16px 0; }
-        ul { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        ul, ol { margin: 0; padding-left: 20px; color: var(--text-secondary); }
         li { margin-bottom: 8px; }
 
-        .variation-box {
+        /* ==========================================================================
+           5. DECOUPLED STRUCTURAL BLOCKS & BOX ARCHITECTURE
+           ========================================================================== */
+        .rules-box {
             background: var(--bg-card);
             border: 1px solid var(--text-divider);
             padding: 24px;
@@ -112,197 +243,485 @@
             flex-direction: column;
             gap: 15px;
         }
-        .example-box {
-            font-size: 0.92rem;
-            background: var(--bg-main-box);
-            padding: 12px;
-            border-radius: 8px;
-            border-left: 3px solid var(--color-accent);
-            color: var(--text-secondary);
+
+        /* Uniform Spacing Flow Override Module for Inside Elements */
+        .rules-box > * {
+            margin: 10px 0;
         }
-        .note-box {
+        .rules-box > ul, .rules-box > ol {
+            margin: 10px 0 10px 20px;
+        }
+
+        /* ==========================================================================
+           6. MULTI-COLORED SEMANTIC CALLOUT ENGINE
+           ========================================================================== */
+        /* Shared Callout Box Core Parameters */
+        .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
+        .important-box, .alert-box, .compatibility-box, .victory-box, 
+        .player-note-box, .advanced-box {
             font-size: 0.92rem;
-            background: rgba(255, 242, 0, 0.03);
-            padding: 12px;
+            padding: 14px 16px;
             border-radius: 8px;
-            border-left: 3px solid #fff200;
             color: var(--text-secondary);
+            margin: 0; /* Keeps box alignment snug inside the parent flex gaps */
+            font-weight: 500;
+        }
+
+        /* 🟢 1. TIPS CONTAINER (Light Green) */
+        .tip-box {
+            background: var(--bg-tip);
+            border-left: 4px solid var(--border-tip);
+        }
+
+        /* 🟢 2. GENERAL NOTES CONTAINER (Green) */
+        .note-box {
+            background: var(--bg-note);
+            border-left: 4px solid var(--border-note);
+        }
+
+        /* 🟢 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
+        .example-box {
+            background: var(--bg-example);
+            border-left: 4px solid var(--border-example);
+            font-style: italic;
+        }
+
+        /* 🟢 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
+        .discards-box {
+            background: var(--bg-discards);
+            border-left: 4px solid var(--border-discards);
+        }
+
+        /* 🟢 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
+        .challenge-box {
+            background: var(--bg-challenge);
+            border-left: 4px solid var(--border-challenge);
+        }
+
+        /* 🟢 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
+        .important-box {
+            background: var(--bg-important);
+            border-left: 4px solid var(--border-important);
+        }
+
+        /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
+        .alert-box {
+            background: var(--bg-restriction);
+            border-left: 4px solid var(--border-restriction);
+        }
+
+        /* 🟢 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
+        .compatibility-box {
+            background: var(--bg-compatibility);
+            border-left: 4px solid var(--border-compatibility);
+        }
+
+        /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
+        .victory-box {
+            background: var(--bg-victory);
+            border-left: 4px solid var(--border-victory);
+        }
+
+        /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
+        .player-note-box {
+            background: var(--bg-two-player);
+            border-left: 4px solid var(--border-two-player);
+        }
+
+        /* 🟢 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
+        .advanced-box {
+            background: var(--bg-advanced);
+            border-left: 4px solid var(--border-advanced);
+        }
+
+        /* ==========================================================================
+           7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+           ========================================================================== */
+        /* Global Navigation Control Elements */
+        .platform-hub-nav {
+            margin-bottom: 25px;
+        }
+        .hub-link-button,
+        .hub-link-button:visited,
+        .hub-link-button:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-in-out;
+        }
+        .hub-link-button:hover {
+            background: var(--text-divider);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        /* Index Jump Matrix Table Container */
+        .matrix-toc-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        .matrix-toc-title {
+            margin: 0 0 15px 0;
+            color: var(--text-primary);
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .matrix-toc-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+		
+		/* Hierarchical Indentation Modifiers inside the Matrix Grid */
+        .matrix-item-heading { padding-left: 0px; font-weight: 700; }
+        .matrix-item-subheading { padding-left: 15px; font-weight: 600; }
+        .matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
+
+        .matrix-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        /* Bottom Step Jump Elements */
+        .return-link-wrapper {
+            text-align: right;
+            margin-top: -5px;
+            margin-bottom: 35px;
+        }
+        .return-link,
+        .return-link:visited,
+        .return-link:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important; /* Forces your exact brand link colour */
+            padding: 8px 14px; /* Clean, slightly tighter padding for the bottom link */
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .return-link:hover {
+            background: var(--text-divider);
+            color: var(--text-primary) !important;
+            transform: translateY(-1px);
+            text-decoration: none;
+        }
+
+        /* ==========================================================================
+           8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS
+           ========================================================================== */
+        .image-container {
+            margin: 20px auto;
+            padding: 12px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 100%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 450px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid var(--text-divider);
+        }
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
+        .image-row-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px);
+            min-width: 220px;
+            margin: 0;
+        }
+
+        /* Border Color Coatings for Core and Extension Cards */
+        .image-container.border-steel { border: 3px solid #1d4ed8; }
+        .image-container.border-poison-core { border: 3px solid #6b21a8; }
+        .image-container.border-venom-core { border: 3px solid #dc2626; }
+        .image-container.border-carbon { border: 3px solid #ea580c; }
+        .image-container.border-stinger-core { border: 3px solid #eab308; }
+        .image-container.border-toxin-core { border: 3px solid #16a34a; }
+        .image-container.border-diamond { border: 3px solid #3b82f6; }
+        .image-container.border-emerald { border: 3px solid #10b981; }
+        .image-container.border-redwood { border: 3px solid #5c4033; }
+        .image-container.border-oak { border: 3px solid #b58900; }
+        .image-container.border-rose { border: 3px solid #ec4899; }
+        .image-container.border-amethyst { border: 3px solid #8b5cf6; }
+        .image-container.border-stone { border: 3px solid #6b7280; }
+		
+		/* ==========================================================================
+           10. EXPANSION CONTENT GRID ARCHITECTURE
+           ========================================================================== */
+        .expansion-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        .expansion-row {
+            display: flex;
+            flex-direction: column; /* Stacks name and description cleanly on mobile screens */
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            gap: 4px;
+        }
+
+        .expansion-name {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+        }
+
+        .expansion-desc {
+            font-weight: 500;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Side-by-Side Split Modifier for Widescreen Monitors */
+        @media screen and (min-width: 600px) {
+            .expansion-row {
+                flex-direction: row; /* Converts back to a horizontal split line once space allows */
+                align-items: center;
+                gap: 15px;
+            }
         }
     </style>
 </head>
 <body id="top">
 
-	<a href="/" class="back-link">📂 Return to Shelf Deck</a>
+    <nav class="platform-hub-nav" aria-label="Platform Navigation">
+        <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
+    </nav>
 
-    <h1>[00-B] SOLOVERSE [VARIATIONS RULEBOOK]</h1>
-    <div class="meta-tag">⚙️ Universal Deck Modification Suite • v2.0.0</div>
+	<header id="top">
+		<h1>[01-C] SOLOVERSE: CRAZY 8'S [VARIATIONS RULEBOOK]</h1>
+        <p class="meta-tag">Premium Core Expansion Rulebook Documentation</p>
+	</header>
 
-    <!-- USAGE NOTES SECTION -->
-    <div style="background: var(--bg-card); border: 1px solid var(--text-divider); padding: 20px; border-radius: 12px; border-left: 4px solid var(--color-accent); margin-bottom: 30px;">
-        <strong style="color: var(--text-primary); display: block; font-size: 1.05rem; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.03em;">USAGE NOTES:</strong>
-        <ul style="margin: 0; padding-left: 20px; font-size: 0.95rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 6px; list-style-type: disc;">
-            <li>These Variation Rules are also represented in the Field Deck Expansion [e.g.: Field of Replication &amp; Field of Normalisation].</li>
-            <li>Either Choose one Variation Rule here compatible with Your Game Mode or use the Field Deck and it’s Trap Class Chaos Cards to Dynamically change the Variation Rules during the Game.</li>
-            <li>Follow the Compatible Games listed in each Rule Variation while using the Field Deck Expansion.</li>
-        </ul>
-    </div>
+	<nav class="matrix-toc-box">
+		<p>RULEBOOK CONTENTS:</p>
+		<ul>
+		<li><a href="#addition">ADDITION</a></li>
+		<li><a href="#subtraction">SUBTRACTION</a></li>
+		<li><a href="#escalation">ESCALATION</a></li>
+		<li><a href="#reduction">REDUCTION</a></li>
+		<li><a href="#succession">SUCCESSION</a></li>
+		<li><a href="#replication">REPLICATION</a></li>
+		<li><a href="#deception">DECEPTION</a></li>
+		<li><a href="#normalisation">NORMALISATION</a></li>
+		</ul>
+	</nav>
 
-    <!-- INDEX JUMP MATRIX -->
-    <div class="toc-box">
-        <div class="toc-title">📋 Index Jump Matrix</div>
-        <ul class="toc-list">
-            <li><a href="#v01" class="toc-link">[01: ADDITION]</a></li>
-            <li><a href="#v02" class="toc-link">[02: SUBTRACTION]</a></li>
-            <li><a href="#v03" class="toc-link">[03: ESCALATION]</a></li>
-            <li><a href="#v04" class="toc-link">[04: REDUCTION]</a></li>
-            <li><a href="#v05" class="toc-link">[05: SUCCESSION]</a></li>
-            <li><a href="#v06" class="toc-link">[06: REPLICATION]</a></li>
-            <li><a href="#v07" class="toc-link">[07: DECEPTION]</a></li>
-            <li><a href="#v08" class="toc-link">[08: NORMALISATION]</a></li>
-        </ul>
-    </div>
+	<!-- Section 01: ADDITION -->
+	<div id="addition">
+		<div class="rules-box">
+			<h4>[01: ADDITION]</h4>
+			<ol>
+				<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+				<li>The Main Changes are as Follows:
+					<ol type="a">
+						<li>Every Number Card Played must be Higher than the Previous one Played.</li>
+						<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
-    <!-- [01: ADDITION] -->
-    <h2 id="v01">[01: ADDITION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Compatible with Soloverse [Crazy 8’s], [Crazy 8’s Utter Chaos], [Karma] &amp; [Cheat].</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. The Main Changes are as Follows:</p>
-        <ul style="margin: 0; padding-left: 20px; list-style-type: lower-alpha;">
-            <li>Every Number Card Played MUST be Higher than the Previous one Played.</li>
-            <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-        </ul>
-    </div>
-    <div style="text-align: right; margin-top: 10px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
+	<!-- Section 02: SUBTRACTION -->
+	<div id="subtraction">
+		<div class="rules-box">
+			<h4>[02: SUBTRACTION]</h4>
+			<ol>
+				<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+				<li>The Main Changes are as Follows:
+					<ol type="a">
+						<li>Every Number Card Played must be Lower than the Previous one Played.</li>
+						<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
-    <!-- [02: SUBTRACTION] -->
-    <h2 id="v02">[02: SUBTRACTION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Compatible with Soloverse [Crazy 8’s], [Crazy 8’s Utter Chaos], [Karma] &amp; [Cheat].</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. The Main Changes are as Follows:</p>
-        <ul style="margin: 0; padding-left: 20px; list-style-type: lower-alpha;">
-            <li>Every Number Card Played MUST be Lower than the Previous one Played.</li>
-            <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-        </ul>
-    </div>
-    <div style="text-align: right; margin-top: 10px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
+	<!-- Section 03: ESCALATION -->
+	<div id="escalation">
+		<div class="rules-box">
+			<h4>[03: ESCALATION]</h4>
+			<ol>
+				<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+				<li>The Main Changes are as Follows:
+					<ol type="a">
+						<li>Every Number Card Played must be Sequentially Higher than the Previous one Played.
+							<div class="example-box">EXAMPLE: 0, 1, 2, 3, 4…</div>
+						</li>
+						<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
-    <!-- [03: ESCALATION] -->
-    <h2 id="v03">[03: ESCALATION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Compatible with Soloverse [Crazy 8’s], [Crazy 8’s Utter Chaos], [Karma] &amp; [Cheat].</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. The Main Changes are as Follows:</p>
-        <ul style="margin: 0 0 5px 0; padding-left: 20px; list-style-type: lower-alpha;">
-            <li>Every Number Card Played MUST be Sequentially Higher than the Previous one Played.</li>
-        </ul>
-        <div class="example-box">
-            <strong>EXAMPLE:</strong> 0, 1, 2, 3, 4…
-        </div>
-        <ul style="margin: 0; padding-left: 20px; list-style-type: lower-alpha; start: 2;">
-            <li style="list-style-type: none; margin-left: -20px;">b. Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-        </ul>
-    </div>
-    <div style="text-align: right; margin-top: 10px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
+	<!-- Section 04: REDUCTION -->
+	<div id="reduction">
+		<div class="rules-box">
+		<h4>[04: REDUCTION]</h4>
+			<ol>
+				<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+				<li>The Main Changes are as Follows:
+					<ol type="a">
+						<li>Every Number Card Played must be Sequentially Lower than the Previous one Played.
+							<div class="example-box">EXAMPLE: 9, 8, 7, 6…</div>
+						</li>
+						<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
-    <!-- [04: REDUCTION] -->
-    <h2 id="v04">[04: REDUCTION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Compatible with Soloverse [Crazy 8’s], [Crazy 8’s Utter Chaos], [Karma] &amp; [Cheat].</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. The Main Changes are as Follows:</p>
-        <ul style="margin: 0 0 5px 0; padding-left: 20px; list-style-type: lower-alpha;">
-            <li>Every Number Card Played MUST be Sequentially Lower than the Previous one Played.</li>
-        </ul>
-        <div class="example-box">
-            <strong>EXAMPLE:</strong> 9, 8, 7, 6…
-        </div>
-        <ul style="margin: 5px 0 0 0; padding-left: 20px; list-style-type: none;">
-            <li style="margin-left: -20px;">b. Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-        </ul>
-    </div>
-    <div style="text-align: right; margin-top: 10px; margin-bottom: 30px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
+	<!-- Section 05: SUCCESSION -->
+	<div id="succession">
+		<div class="rules-box">
+		<h4>[05: SUCCESSION]</h4>
+			<ol>
+				<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+				<li>The Main Changes are as Follows:
+					<ol type="a">
+						<li>Every Number Card Played must be Sequentially Higher or Lower than the Previous one Played.
+							<div class="example-box">EXAMPLE: 5, 4, 5, 6, 7, 6…</div>
+						</li>
+						<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
-    <!-- [05: SUCCESSION] -->
-    <h2 id="v05">[05: SUCCESSION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Compatible with Soloverse [Crazy 8’s], [Crazy 8’s Utter Chaos], [Karma] &amp; [Cheat].</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. The Main Changes are as Follows:</p>
-        <ul style="margin: 0 0 5px 0; padding-left: 20px; list-style-type: lower-alpha;">
-            <li>Every Number Card Played MUST be Sequentially Higher or Lower than the Previous one Played.</li>
-        </ul>
-        <div class="example-box">
-            <strong>EXAMPLE:</strong> 5, 4, 5, 6, 7, 6…
-        </div>
-        <ul style="margin: 5px 0 0 0; padding-left: 20px; list-style-type: none;">
-            <li style="margin-left: -20px;">b. Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-        </ul>
-    </div>
-    <div style="text-align: right; margin-top: 10px; margin-bottom: 30px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
+	<!-- Section 06: REPLICATION -->
+	<div id="replication">
+		<div class="rules-box">
+		<h4>[06: REPLICATION]</h4>
+			<ol>
+				<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+				<li>The Main Changes are as Follows:
+					<ol type="a">
+						<li>Multiple Copies of Number Cards can be Played if they are of Equal Value.</li>
+							<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
-    <!-- [06: REPLICATION] -->
-    <h2 id="v06">[06: REPLICATION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Compatible with Soloverse [Crazy 8’s] &amp; [Crazy 8’s Utter Chaos].</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. The Main Changes are as Follows:</p>
-        <ul style="margin: 0; padding-left: 20px; list-style-type: lower-alpha;">
-            <li>Multiple Copies of Number Cards can be Played if they are of Equal Value.</li>
-            <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-        </ul>
-    </div>
-    <div style="text-align: right; margin-top: 10px; margin-bottom: 30px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
+	<!-- Section 07: DECEPTION -->
+	<div id="deception">
+		<div class="rules-box">
+		<h4>[07: DECEPTION]</h4>
+			<ol>
+				<li>Follow all Rules for [02-A] Soloverse [Karma].</li>
+				<li>The Main Changes are that on your turn, you place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.
+					<div class="note-box">NOTE: You do not have to tell the truth about the number of cards or their value.</div>
+				</li>
+				<li>Cheating is allowed. But you will be penalised for getting caught.</li>
+				<li>Play continues likewise, with the next Player doing the same.
+					<div class="note-box">NOTE: At any point, any other Player can call “Cheat!” At which point the last Player who put down must reveal their cards.</div>
+					<ol type="a">
+						<li>If the Player was in fact cheating, They must now pick up the entire Discards.</li>
+						<li>If the Player was indeed telling the truth, the Challenging Player must pick up the entire Discards instead!</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
-    <!-- [07: DECEPTION] -->
-    <h2 id="v07">[07: DECEPTION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Compatible with Soloverse [Crazy 8’s], [Crazy 8’s Utter Chaos] &amp; [Karma].</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. The Main Changes are as follows:</p>
-        <ul style="margin: 0 0 10px 0; padding-left: 20px; list-style-type: lower-alpha;">
-            <li>On your turn, you place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.</li>
-        </ul>
-        <div class="note-box" style="margin-top: -5px; margin-bottom: 15px;">
-            <strong>NOTE:</strong> You do not have to tell the truth about the number of cards or their value.
-        </div>
-        <ul style="margin: 0; padding-left: 20px; list-style-type: none;">
-            <li style="margin-left: -20px; margin-bottom: 8px;">b. Cheating is allowed. But you will be penalised for getting caught.</li>
-            <li style="margin-left: -20px; margin-bottom: 8px;">c. Play continues likewise, with the next Player doing the same.</li>
-        </ul>
-        <div class="note-box" style="margin-top: 5px; margin-bottom: 15px;">
-            <strong>NOTE:</strong> At any point, any other Player can call “Cheat!” At which point the last Player who put down MUST reveal their cards.
-        </div>
-        <ul style="margin: 0; padding-left: 40px; list-style-type: lower-roman;">
-            <li style="margin-bottom: 6px;">If the Player was in fact cheating, They MUST now pick up the entire Discards.</li>
-            <li>If the Player was indeed telling the truth, the Challenging Player MUST pick up the entire Discards instead!</li>
-        </ul>
-    </div>
-    <div style="text-align: right; margin-top: 10px; margin-bottom: 30px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- [08: NORMALISATION] -->
-    <h2 id="v08">[08: NORMALISATION]</h2>
-    <div class="variation-box">
-        <p style="margin: 0; font-weight: 600;">1. Follow all Rules for the Soloverse Rulebook being Played.</p>
-        <p style="margin: 0; font-weight: 600; color: var(--text-primary);">2. There are no Changes.</p>
-    </div>
-    
-    <div style="text-align: right; margin-top: 15px; margin-bottom: 40px;">
-        <a href="#top" style="color: var(--color-accent); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
-    </div>
+	<!-- Section 08: NORMALISATION -->
+	<div id="normalisation">
+		<div class="rules-box">
+		<h4>[08: NORMALISATION]</h4>
+			<ol>
+				<li>Follow all Rules for the Soloverse Rulebook being Played.</li>
+				<li>There are no Changes.</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+			</div>
+		</div>
+	</div>
 
     <!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->
     <script is:inline>
         (function() {
-            // 1. SERVICE WORKER REVALIDATION
             if ('serviceWorker' in navigator) {
                 navigator.serviceWorker.getRegistrations().then(function(registrations) {
                     for (let registration of registrations) {
@@ -310,20 +729,14 @@
                     }
                 });
             }
-
-            // 2. AUTOMATED THEME EVALUATION (User Override vs System Preference)
             const savedTheme = localStorage.getItem('soloverse-theme');
             const devicePrefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            
-            let activeTheme = 'dark'; // Base anchor default fallback
-
+            let activeTheme = 'dark';
             if (savedTheme) {
                 activeTheme = savedTheme;
             } else {
                 activeTheme = devicePrefersDarkMode ? 'dark' : 'light';
             }
-
-            // Mount theme instantly to root document element
             document.documentElement.setAttribute('data-theme', activeTheme);
         })();
     </script>
