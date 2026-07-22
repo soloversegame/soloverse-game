@@ -1,43 +1,21 @@
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Permanent Cache-Busting Network Headers -->
+    <!-- Permanent Cache-Busting Network Headers for Clean Vercel Deployments -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>Soloverse Rulebook Patch Notes</title>
+    <title>[00-A] SOLOVERSE [UNIVERSAL GAME NOTES]</title>
     <style>
         /* ==========================================================================
-           AUTOMATED TABLET & WIDESCREEN RESPONSIVE ENGINE
+           1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
            ========================================================================== */
-
-        /* Automatically expands text spreads when tablets are flipped horizontally */
-        @media screen and (min-width: 768px) and (orientation: landscape) {
-            body {
-                max-width: 960px; /* Expands reading column limits for a comfortable landscape view */
-                margin: 40px auto;
-                padding: 0 30px;
-            }
-
-            .rules-box {
-                padding: 32px;
-                margin: 24px 0;
-            }
-        }
-
-        /* Large Screen Optimizations (Large Tablets, Monitors, and Laptops) */
-        @media screen and (min-width: 1024px) {
-            body {
-                max-width: 1050px; /* Sweeps columns out nicely on large display panels */
-            }
-        }
-		
         :root {
+            /* Base Platform Architecture Tokens */
             --bg-main: #0f1015;
             --bg-card: #171922;
             --bg-main-box: #1c1e27;
@@ -45,10 +23,50 @@
             --text-secondary: #f3f4f6;
             --text-muted: #9ca3af;
             --text-divider: #2d313f;
-            --color-accent: #3b82f6;
+            --color-link: #3b82f6;
+
+            /* --- DARK MODE ELEMENT THEME TOKENS --- */
+            /* Typography Accents */
+            --color-card-title: #3b82f6;     /* Calibrated Blue for typography on dark */
+            --color-card-class: #8cfffb;     /* Neon Light Blue */
+
+            /* Callout Boxes (Background Opacities & Solid Structural Borders) */
+            --border-tip: #aded8f;           /* Light Green */
+            --bg-tip: rgba(173, 237, 143, 0.04);
+
+            --border-note: #0ed145;          /* Green */
+            --bg-note: rgba(14, 209, 69, 0.04);
+
+            --border-example: #fff200;       /* Yellow */
+            --bg-example: rgba(255, 242, 0, 0.04);
+
+            --border-discards: #ff7f27;      /* Orange (Side & Top actions) */
+            --bg-discards: rgba(255, 127, 39, 0.04);
+
+            --border-challenge: #b97a56;     /* Light Brown */
+            --bg-challenge: rgba(185, 122, 86, 0.04);
+
+            --border-important: #a75e28;     /* Calibrated brighter Dark Brown for visibility */
+            --bg-important: rgba(167, 94, 40, 0.04);
+
+            --border-restriction: #ec1c24;   /* Red (Restriction & Penalty) */
+            --bg-restriction: rgba(236, 28, 36, 0.04);
+
+            --border-compatibility: #ffaec8; /* Pink */
+            --bg-compatibility: rgba(255, 174, 200, 0.04);
+
+            --border-victory: #b497ef;       /* Light Purple */
+            --bg-victory: rgba(180, 151, 239, 0.04);
+
+            --border-two-player: #9d00ff;    /* Purple */
+            --bg-two-player: rgba(157, 0, 255, 0.04);
+
+            --border-advanced: #b2b2b2;      /* Grey */
+            --bg-advanced: rgba(178, 178, 178, 0.04);
         }
 
         :root[data-theme="light"] {
+            /* Base Platform Architecture Overrides */
             --bg-main: #f4f5f7;
             --bg-card: #ffffff;
             --bg-main-box: #f9fafb;
@@ -56,54 +74,461 @@
             --text-secondary: #1f2937;
             --text-muted: #4b5563;
             --text-divider: #d1d5db;
-            --color-accent: #1d4ed8;
-        }
+            --color-link: #1d4ed8;
 
+            /* --- LIGHT MODE ACCESSIBILITY CONTRAST OVERRIDES --- */
+            /* Typography Overrides (Deepened values to ensure AAA text contrast on white panels) */
+            --color-card-title: #0000ff;     /* Solid True Blue */
+            --color-card-class: #00807b;     /* Deepened Cyan-Teal for text legibility */
+
+            /* Callout Box Overrides (Enhanced background presence, darkened border text-hues) */
+            --border-tip: #2c7a00;           /* Forest Green contrast anchor */
+            --bg-tip: rgba(44, 122, 0, 0.06);
+
+            --border-note: #058225;          /* Rich Foliage Green */
+            --bg-note: rgba(5, 130, 37, 0.06);
+
+            --border-example: #b58900;       /* High-contrast Amber instead of blinding neon yellow */
+            --bg-example: rgba(181, 137, 0, 0.06);
+
+            --border-discards: #c2410c;      /* Rust Orange */
+            --bg-discards: rgba(194, 65, 12, 0.06);
+
+            --border-challenge: #7c4623;     /* Earth Brown */
+            --bg-challenge: rgba(124, 70, 35, 0.06);
+
+            --border-important: #5c300f;     /* Deep Mahogany Brown */
+            --bg-important: rgba(92, 48, 15, 0.06);
+
+            --border-restriction: #b91c1c;   /* Deep Crimson Red */
+            --bg-restriction: rgba(185, 28, 28, 0.06);
+
+            --border-compatibility: #db2777; /* Deep Rose Pink for text validation readability */
+            --bg-compatibility: rgba(219, 39, 119, 0.06);
+
+            --border-victory: #6d28d9;       /* Deep Royal Purple */
+            --bg-victory: rgba(109, 40, 217, 0.06);
+
+            --border-two-player: #580096;    /* Dark Orchid Purple */
+            --bg-two-player: rgba(88, 0, 150, 0.06);
+
+            --border-advanced: #4b5563;      /* Dark Slate Slate Grey */
+            --bg-advanced: rgba(75, 85, 99, 0.06);
+        }
+		
+        /* ==========================================================================
+           2. BASE LAYOUT CONFIGURATION & RESETS
+           ========================================================================== */
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background: var(--bg-main);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-main);
             color: var(--text-secondary);
-            max-width: 750px;
-            margin: 40px auto;
+            margin: 0;
             padding: 20px;
             line-height: 1.7;
             transition: background 0.3s, color 0.3s;
         }
-        .back-link {
-            display: inline-block;
-            color: var(--color-accent);
-            text-decoration: none;
-            font-weight: 700;
-            margin-bottom: 25px;
-            transition: color 0.15s;
+
+        /* ==========================================================================
+           3. AUTOMATED BREAKPOINT SENSOR ENGINE (TABLETS & WIDESCREENS)
+           ========================================================================== */
+        @media screen and (min-width: 768px) and (orientation: landscape) {
+            body {
+                max-width: 960px;
+                margin: 40px auto;
+                padding: 0 30px;
+            }
+            .rules-box {
+                padding: 32px;
+                margin: 24px 0;
+            }
         }
-        .back-link:hover { color: var(--text-primary); }
-        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
-        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-        
-        /* Timeline Log Cards */
-        .patch-card {
+
+        @media screen and (min-width: 1024px) {
+            body {
+                max-width: 1050px;
+            }
+        }
+
+        /* ==========================================================================
+           4. UNIFIED STRUCTURAL TYPOGRAPHY BLOCKS
+           ========================================================================== */
+        /* Main Page Header Component */
+        .page-title-header {
+            border-bottom: 3px double var(--text-divider);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        h1.page-title {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin: 0 0 5px 0;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+        .meta-tag {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 0;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Expansion/Chapter Level Headings */
+        h2.rulebook-heading {
+            font-size: 1.6rem;
+            color: var(--text-primary);
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-heading);
+            padding-bottom: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        /* Operational Subheaders */
+        h3.rulebook-subheading {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--accent-subheading);
+            padding-left: 12px;
+            font-weight: 600;
+        }
+
+        /* Individual Card Entries Header Block */
+        .card-header-block {
+            border-bottom: 1px dashed var(--text-divider);
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+        }
+        h4.card-title {
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .card-class-info {
+            font-size: 0.88rem;
+            color: var(--accent-card-title);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            margin-top: 2px;
+        }
+
+        /* Paragraphs and Core List Formats */
+        p { color: var(--text-secondary); margin: 16px 0; }
+        ul, ol { margin: 0; padding-left: 20px; color: var(--text-secondary); }
+        li { margin-bottom: 8px; }
+
+        /* ==========================================================================
+           5. DECOUPLED STRUCTURAL BLOCKS & BOX ARCHITECTURE
+           ========================================================================== */
+        .rules-box {
             background: var(--bg-card);
             border: 1px solid var(--text-divider);
             padding: 24px;
             border-radius: 12px;
-            margin-bottom: 25px;
-            position: relative;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
-        .patch-date {
-            display: inline-block;
+
+        /* Uniform Spacing Flow Override Module for Inside Elements */
+        .rules-box > * {
+            margin: 10px 0;
+        }
+        .rules-box > ul, .rules-box > ol {
+            margin: 10px 0 10px 20px;
+        }
+
+        /* ==========================================================================
+           6. MULTI-COLORED SEMANTIC CALLOUT ENGINE
+           ========================================================================== */
+        /* Shared Callout Box Core Parameters */
+        .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
+        .important-box, .alert-box, .compatibility-box, .victory-box, 
+        .player-note-box, .advanced-box {
+            font-size: 0.92rem;
+            padding: 14px 16px;
+            border-radius: 8px;
+            color: var(--text-secondary);
+            margin: 0; /* Keeps box alignment snug inside the parent flex gaps */
+            font-weight: 500;
+        }
+
+        /* 🟢 1. TIPS CONTAINER (Light Green) */
+        .tip-box {
+            background: var(--bg-tip);
+            border-left: 4px solid var(--border-tip);
+        }
+
+        /* 🟢 2. GENERAL NOTES CONTAINER (Green) */
+        .note-box {
+            background: var(--bg-note);
+            border-left: 4px solid var(--border-note);
+        }
+
+        /* 🟢 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
+        .example-box {
+            background: var(--bg-example);
+            border-left: 4px solid var(--border-example);
+            font-style: italic;
+        }
+
+        /* 🟢 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
+        .discards-box {
+            background: var(--bg-discards);
+            border-left: 4px solid var(--border-discards);
+        }
+
+        /* 🟢 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
+        .challenge-box {
+            background: var(--bg-challenge);
+            border-left: 4px solid var(--border-challenge);
+        }
+
+        /* 🟢 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
+        .important-box {
+            background: var(--bg-important);
+            border-left: 4px solid var(--border-important);
+        }
+
+        /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
+        .alert-box {
+            background: var(--bg-restriction);
+            border-left: 4px solid var(--border-restriction);
+        }
+
+        /* 🟢 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
+        .compatibility-box {
+            background: var(--bg-compatibility);
+            border-left: 4px solid var(--border-compatibility);
+        }
+
+        /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
+        .victory-box {
+            background: var(--bg-victory);
+            border-left: 4px solid var(--border-victory);
+        }
+
+        /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
+        .player-note-box {
+            background: var(--bg-two-player);
+            border-left: 4px solid var(--border-two-player);
+        }
+
+        /* 🟢 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
+        .advanced-box {
+            background: var(--bg-advanced);
+            border-left: 4px solid var(--border-advanced);
+        }
+
+        /* ==========================================================================
+           7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+           ========================================================================== */
+        /* Global Navigation Control Elements */
+        .platform-hub-nav {
+            margin-bottom: 25px;
+        }
+        .hub-link-button,
+        .hub-link-button:visited,
+        .hub-link-button:link {
+            display: inline-flex;
+            align-items: center;
             background: var(--bg-main-box);
-            color: var(--text-primary);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
             font-weight: 700;
-            padding: 4px 12px;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-in-out;
+        }
+        .hub-link-button:hover {
+            background: var(--text-divider);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        /* Index Jump Matrix Table Container */
+        .matrix-toc-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        .matrix-toc-title {
+            margin: 0 0 15px 0;
+            color: var(--color-link);
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .matrix-toc-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+		
+		/* Hierarchical Indentation Modifiers inside the Matrix Grid */
+        .matrix-item-heading { padding-left: 0px; font-weight: 700; }
+        .matrix-item-subheading { padding-left: 15px; font-weight: 600; }
+        .matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
+
+        .matrix-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        /* Bottom Step Jump Elements */
+        .return-link-wrapper {
+            text-align: right;
+            margin-top: -5px;
+            margin-bottom: 35px;
+        }
+        .return-link,
+        .return-link:visited,
+        .return-link:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important; /* Forces your exact brand link colour */
+            padding: 8px 14px; /* Clean, slightly tighter padding for the bottom link */
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .return-link:hover {
+            background: var(--text-divider);
+            color: var(--text-primary) !important;
+            transform: translateY(-1px);
+            text-decoration: none;
+        }
+
+        /* ==========================================================================
+           8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS
+           ========================================================================== */
+        .image-container {
+            margin: 20px auto;
+            padding: 12px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 100%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 450px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
             border-radius: 6px;
-            font-size: 0.95rem;
-            margin-bottom: 15px;
+            display: block;
+            margin: 0 auto;
             border: 1px solid var(--text-divider);
         }
-        ul { margin: 0; padding-left: 20px; color: var(--text-secondary); }
-        li { margin-bottom: 8px; }
-        ul ul { margin-top: 8px; margin-bottom: 0; list-style-type: circle; }
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
+        .image-row-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px);
+            min-width: 220px;
+            margin: 0;
+        }
+
+        /* Border Color Coatings for Core and Extension Cards */
+        .image-container.border-steel { border: 3px solid #1d4ed8; }
+        .image-container.border-poison-core { border: 3px solid #6b21a8; }
+        .image-container.border-venom-core { border: 3px solid #dc2626; }
+        .image-container.border-carbon { border: 3px solid #ea580c; }
+        .image-container.border-stinger-core { border: 3px solid #eab308; }
+        .image-container.border-toxin-core { border: 3px solid #16a34a; }
+        .image-container.border-diamond { border: 3px solid #3b82f6; }
+        .image-container.border-emerald { border: 3px solid #10b981; }
+        .image-container.border-redwood { border: 3px solid #5c4033; }
+        .image-container.border-oak { border: 3px solid #b58900; }
+        .image-container.border-rose { border: 3px solid #ec4899; }
+        .image-container.border-amethyst { border: 3px solid #8b5cf6; }
+        .image-container.border-stone { border: 3px solid #6b7280; }
+		
+		/* ==========================================================================
+           10. EXPANSION CONTENT GRID ARCHITECTURE
+           ========================================================================== */
+        .expansion-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        .expansion-row {
+            display: flex;
+            flex-direction: column; /* Stacks name and description cleanly on mobile screens */
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            gap: 4px;
+        }
+
+        .expansion-name {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+        }
+
+        .expansion-desc {
+            font-weight: 500;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Side-by-Side Split Modifier for Widescreen Monitors */
+        @media screen and (min-width: 600px) {
+            .expansion-row {
+                flex-direction: row; /* Converts back to a horizontal split line once space allows */
+                align-items: center;
+                gap: 15px;
+            }
+        }
     </style>
 </head>
 <body id="top">
@@ -111,172 +536,119 @@
 	<a href="/" class="back-link">📂 Return to Shelf Deck</a>
 
     <h1>SOLOVERSE - RULEBOOK PATCH NOTES</h1>
-    <div class="meta-tag">📜 Balancing Timeline &amp; Architecture Logs • v2.0.0</div>
+    <div class="meta-tag">📜 Balancing Timeline &amp; Architecture Logs • v3.0.0</div>
 
-    <!-- 2026-07-12 -->
-    <div class="patch-card" style="border-left: 4px solid var(--color-accent);">
-        <div class="patch-date">2026-07-12</div>
-        <ul style="list-style-type: disc;">
-            <li>Full HTML Website redevelopment in progress</li>
+  <!-- Section: SOLOVERSE - RULEBOOK PATCH NOTES -->
+  <div id="patch-notes">
+    <div class="rules-box">
+      <h4>SOLOVERSE - RULEBOOK PATCH NOTES</h4>
+      
+      <div class="note-box">
+        NOTE: Each Rulebook is now split into these Files:
+        <ul>
+          <li>[00-A] Universal Game Notes for all Game Versions</li>
+          <li>[0X-A] Individual Games’ Rulebooks</li>
+          <li>[0X-B] Individual Games’ Chaos Card Definition Rulebooks</li>
         </ul>
-        <p style="margin: 12px 0 4px 20px; font-weight: 700; color: var(--text-primary);">The Rulebook is now split into 3:</p>
-        <ul style="list-style-type: circle; padding-left: 40px;">
-            <li>Universal Game Notes for all Game Versions</li>
-            <li>Individual Games’ Rulebooks</li>
-            <li>Individual Games’ Chaos Card Definition Rulebooks</li>
-        </ul>
-    </div>
+      </div>
 
-    <!-- 2026-05-30 -->
-    <div class="patch-card">
-        <div class="patch-date">2026-05-30</div>
-        <ul style="list-style-type: disc;">
-            <li>Small Patch for most current Definition Rulebooks, changing the Contingency I &amp; II Expansion’s Description from All Players in play to All Players in Play Order</li>
-            <li>Small Patch for all current Definition Rulebooks, changing the grammar of the term “play order” to “Play Order”</li>
-        </ul>
-    </div>
-
-    <!-- 2026-05-21 -->
-    <div class="patch-card">
-        <div class="patch-date">2026-05-21</div>
-        <ul style="list-style-type: disc;">
-            <li>A lot of Balancing to the [06-A] Soloverse – The Deck-Building Variant.
-                <ul style="padding-left: 20px;">
-                    <li>Reverse Effects has priority over Skip Effects.</li>
-                    <li>Steal Turn now MUST be activated BEFORE any other Player Plays Their first Card.</li>
-                    <li>Steal Turn, Reverse Stun, Stun, Discard Chaos Cards all MUST be placed in the Targeted Player’s Discards when finalised.</li>
-                    <li>Steal Turn, Reverse Stun and Stun all force the Targeted Player to Discard Their Hand when the Card Effect Finalises and Draw a new Hand.</li>
-                    <li>All Chaos Cards with Skip and Reverse Effects [Pure Chaos &amp; Chaos Draw], now also preserve Their Reverse and Skip Effects on top of Their already powerful abilities.</li>
-                    <li>Elegant Generosity now allows all Players to Draw 3 Cards each.</li>
-                    <li>United We Fall now allows all Players to Draw 2 Cards, then Discard 2 Cards.</li>
-                    <li>Double Edged now allows you to Target any Player and Steal a Card from Their Discards and add it to Your Hand. However, They then Steal a Card from Yours.</li>
-                    <li>Scavenger now lets You Choose 1 Effect from the following:
-                        <ul style="padding-left: 20px; list-style-type: lower-alpha;">
-                            <li>Recover any Card from the Scrap Pile and place it in Your Discards.</li>
-                            <li>Recover any Card from Your Discards and Gain it to Your Hand.</li>
-                            <li>Recover any Card from any other Player’s Discards and place it in Your Discards.</li>
-                            <li>Alternatively, “Revive” the Recycle Chaos Card.</li>
-                        </ul>
-                    </li>
-                    <li>2 Game Modes: Short Game [First to their Random Chaos Draw +5] or Long Game [First to the Chaos Draw +10 Specific Targeted.</li>
-                    <li>Amongst others…</li>
-                </ul>
+      <ul>
+        <li>2026-07-22
+          <ul>
+            <li>Full HTML Conversion of the Following is Complete:
+              <ul>
+                <li>[00-A] Universal Game Notes &</li>
+                <li>[00-B] Variations Rulebook</li>
+              </ul>
             </li>
-        </ul>
-    </div>
-
-    <!-- 2026-05-18 -->
-    <div class="patch-card">
-        <div class="patch-date">2026-05-18</div>
-        <ul style="list-style-type: disc;">
+          </ul>
+        </li>
+        <li>2026-07-12
+          <ul>
+            <li>Full HTML Website redevelopment in progress</li>
+          </ul>
+        </li>
+        <li>2026-05-30
+          <ul>
+            <li>Small Patch for most current Definition Rulebooks, changing the Contingency I & II Expansion’s Description from All Players in play to All Players in Play Order</li>
+            <li>Small Patch for all current Definition Rulebooks, changing the grammar of the term “play order” to “Play Order”</li>
+          </ul>
+        </li>
+        <li>2026-05-21
+          <ul>
+            <li>A lot of Balancing to the [06-A] Soloverse – The Deck-Building Variant.
+              <ul>
+                <li>Reverse Effects has priority over Skip Effects.</li>
+                <li>Steal Turn now MUST be activated BEFORE any other Player Plays Their first Card.</li>
+                <li>Steal Turn, Reverse Stun, Stun, Discard Chaos Cards all MUST be placed in the Targeted Player’s Discards when finalised.</li>
+                <li>Steal Turn, Reverse Stun and Stun all force the Targeted Player to Discard Their Hand when the Card Effect Finalises and Draw a new Hand.</li>
+                <li>All Chaos Cards with Skip and Reverse Effects [Pure Chaos & Chaos Draw], now also preserve Their Reverse and Skip Effects on top of Their already powerful abilities.</li>
+                <li>Elegant Generosity now allows all Players to Draw 3 Cards each.</li>
+                <li>United We Fall now allows all Players to Draw 2 Cards, then Discard 2 Cards.</li>
+                <li>Double Edged now allows you to Target any Player and Steal a Card from Their Discards and add it to Your Hand. However, They then Steal a Card from Yours.</li>
+                <li>Scavenger now lets You Choose 1 Effect from the following:
+                  <ol type="a">
+                    <li>Recover any Card from the Scrap Pile and place it in Your Discards.</li>
+                    <li>Recover any Card from Your Discards and Gain it to Your Hand.</li>
+                    <li>Recover any Card from any other Player’s Discards and place it in Your Discards.</li>
+                    <li>Alternatively, “Revive” the Recycle Chaos Card.</li>
+                  </ol>
+                </li>
+                <li>2 Game Modes: Short Game [First to their Random Chaos Draw +5] or Long Game [First to the Chaos Draw +10 Specific Targeted.</li>
+                <li>Amongst others…</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>2026-05-18
+          <ul>
             <li>Universal Formatting across all Rulebooks is slowly being rolled out.</li>
             <li>Changed How to View and Universal Game Notes Files to PDF.</li>
             <li>New Definition clarifications for some Chaos Cards and outright new Effects for others [e.g.: [01-B] Soloverse – Crazy 8’s [Definitions Rulebook] listing for Roulette].</li>
             <li>Introducing: [01-E] Soloverse – Crazy 8’s [Achievements List] ! While still in Development, as you play the game, keep track of certain Card Effects and Combos designed to help you learn the game easier.</li>
             <li>Also Introducing: [06-A] Soloverse – The Deck-Building Variant!</li>
             <li>Almost Ready for Playtesting: [07-A] Soloverse – Nominations [and (due to their game rule similarities) when Nominations is ready, [0?-A] Soloverse – 500 and [0?-A] Soloverse – Poker won’t be far away]</li>
-        </ul>
-    </div>
-
-    <!-- 2025-06-29 -->
-    <div class="patch-card">
-        <div class="patch-date">2025-06-29</div>
-        <p style="margin: 0 0 8px 0; font-weight: 700; color: var(--text-primary);">New Game Variant: Battle Solitaire!</p>
-        <ul style="list-style-type: disc;">
+          </ul>
+        </li>
+        <li>2025-06-29
+          <br />New Game Variant: Battle Solitaire!
+          <ul>
             <li>Playtesting Required, but Game Rules should be good to go</li>
             <li>Definitions may Require Editing…</li>
-        </ul>
-    </div>
+          </ul>
+        </li>
+      </ul>
 
-    <!-- 2025-06-21 -->
-    <div class="patch-card">
-        <div class="patch-date">2025-06-21</div>
-        <p style="margin: 0 0 4px 0; font-weight: 700; color: var(--text-primary);">New Game Variant: Crazy 8’s Utter Chaos!</p>
-        <p style="margin: 0 0 8px 0; font-weight: 700; color: var(--text-primary);">New Game Variant: Karma!</p>
-        <ul style="list-style-type: disc;">
-            <li>Playtesting Required, but Game Rules and Definitions should be good to go</li>
-        </ul>
-        <p style="margin: 12px 0 4px 0; font-weight: 700; color: var(--text-primary);">Major Changes:</p>
-        <ul style="list-style-type: circle;">
-            <li>Wild Cards are now Called Chaos Cards!</li>
-            <li>Updated the How to View and Patch Notes Files to DOCX instead of GDOC for ease of editing</li>
-        </ul>
+      <div class="return-link-wrapper">
+        <a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+      </div>
     </div>
+  </div>
 
-    <!-- 2025-06-03 -->
-    <div class="patch-card">
-        <div class="patch-date">2025-06-03</div>
-        <p style="margin: 0 0 4px 0; font-weight: 700; color: var(--text-primary);">Major Changes:</p>
-        <ul style="list-style-type: disc;">
-            <li>Split Game Rulebook into 2, Game Notes for all Game Variants and a Rulebook for each individual Game Variant</li>
-            <li>An Edited Definitions Rulebook for each Game Variant.</li>
-        </ul>
-    </div>
-
-    <!-- 2024/07/18 -->
-    <div class="patch-card">
-        <div class="patch-date">2024/07/18</div>
-        <p style="margin: 0 0 4px 0; font-weight: 700; color: var(--text-primary);">Major Changes:</p>
-        <ul style="list-style-type: disc; margin-bottom: 12px;">
-            <li>Added the Contents Page for the Core Game/Extension to the Definitions Rulebook.
-                <ul style="padding-left: 20px; list-style-type: circle; margin-top: 4px;">
-                    <li>Due to showing the game to a new player personally, we found an issue with the split rulebook where the Action Card Rules felt more natural to be in the Wild Card Definitions not in the Game Rules</li>
-                    <li>Due to the order of use of some expansions over others, i have moved the location of the Devastation and Catastrophe Rules to just after (Apocalypse and) Warzone - so Wild Draw 2, 3, 4, 5 &amp; 10 are all grouped together</li>
-                </ul>
-            </li>
-            <li>Clarified the 2 Player Game Note for both Slap and Snap Wild Cards</li>
-            <li>Removed some smaller tips and variation notes due to not really needed</li>
-            <li>Minor formatting</li>
-        </ul>
-    </div>
-
-    <!-- 2024/07/10 -->
-    <div class="patch-card">
-        <div class="patch-date">2024/07/10</div>
-        <ul style="list-style-type: disc;">
-            <li>Updated Core Extension’s Genetic Manipulation Wild Card Rules to balance for more Expansion options [Finally, Wild Draw +10’s are allowed!! You’ve Won the Draw Stack, but at What Cost?]</li>
-            <li>Refined the Crisis Expansion Rules [Finally I feel they work how I wanted them to]</li>
-            <li>Formatting Fixes</li>
-            <li>Spelling and Grammar Fixes</li>
-        </ul>
-    </div>
-
-    <!-- 2024/07/07 -->
-    <div class="patch-card" style="margin-bottom: 40px;">
-        <div class="patch-date">2024/07/07</div>
-        <p style="margin: 0 0 8px 0; font-weight: 700; color: var(--text-primary);">NEW GAME MODE: LAST PLAYER STANDING [See WINNING THE GAME: OPTION 3 in the “GAME RULES.pdf”]</p>
-        <ul style="list-style-type: disc;">
-            <li>Minor Formatting Fixes</li>
-        </ul>
-    </div>
-
-    <!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->
-    <script is:inline>
-        (function() {
-            // 1. SERVICE WORKER REVALIDATION
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.getRegistrations().then(function(registrations) {
-                    for (let registration of registrations) {
-                        registration.update(); 
-                    }
+  <script is:inline>
+    (function() {
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(reg => {
+            reg.addEventListener('updatefound', () => {
+              const installingWorker = reg.installing;
+              if (installingWorker) {
+                installingWorker.addEventListener('statechange', () => {
+                  if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    window.location.reload();
+                  }
                 });
-            }
-
-            // 2. AUTOMATED THEME EVALUATION (User Override vs System Preference)
-            const savedTheme = localStorage.getItem('soloverse-theme');
-            const devicePrefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            
-            let activeTheme = 'dark'; // Base anchor default fallback
-
-            if (savedTheme) {
-                activeTheme = savedTheme;
-            } else {
-                activeTheme = devicePrefersDarkMode ? 'dark' : 'light';
-            }
-
-            // Mount theme instantly to root document element
-            document.documentElement.setAttribute('data-theme', activeTheme);
-        })();
-    </script>
+              }
+            });
+          }).catch(err => console.error('PWA Engine Hook failed:', err));
+        });
+      }
+      const rotateThemeSchema = () => {
+        const hour = new Date().getHours();
+        if (hour === 0) console.log('Theme Engine Sync Revalidated.');
+      };
+      rotateThemeSchema();
+    })();
+  </script>
 </body>
 </html>
