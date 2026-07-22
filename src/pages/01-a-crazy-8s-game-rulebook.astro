@@ -1,76 +1,26 @@
 ---
 // src/pages/01-a-crazy-8s-game-rulebook.astro
-// Premium, native web text 01-a crazy 8s game rulebook
+// Soloverse Premium Native Web Rulebook Component Template v2.0
+// Host Target: Vercel | Theme Architecture: Dynamic Decoupled Token Grid
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Permanent Cache-Busting Network Headers -->
+    <!-- Permanent Cache-Busting Network Headers for Clean Vercel Deployments -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>01-A Soloverse - Crazy 8's Game Rulebook</title>
+    <title>[00-A] SOLOVERSE [UNIVERSAL GAME NOTES]</title>
     <style>
         /* ==========================================================================
-           AUTOMATED TABLET & WIDESCREEN RESPONSIVE ENGINE
+           1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
            ========================================================================== */
-
-        /* Automatically expands text spreads when tablets are flipped horizontally */
-        @media screen and (min-width: 768px) and (orientation: landscape) {
-            body {
-                max-width: 960px; /* Expands reading column limits for a comfortable landscape view */
-                margin: 40px auto;
-                padding: 0 30px;
-            }
-
-            .rules-box {
-                padding: 32px;
-                margin: 24px 0;
-            }
-        }
-
-        /* Large Screen Optimizations (Large Tablets, Monitors, and Laptops) */
-        @media screen and (min-width: 1024px) {
-            body {
-                max-width: 1050px; /* Sweeps columns out nicely on large display panels */
-            }
-        }
-		
-		.image-container {
-			margin: 20px auto;
-			padding: 12px;
-			background: var(--bg-main-box);
-			border: 1px solid var(--text-divider);
-			border-radius: 8px;
-			text-align: center;
-			max-width: 100%;
-		}
-
-		.image-container img {
-			max-width: 100%;
-			max-height: 450px; /* Essential fallback: stops tall diagrams from getting massive */
-			width: auto;       /* Vital pairing: ensures width scales down when height hits 450px */
-			height: auto;      
-			object-fit: contain; /* Double safety check: keeps your text/graphics crisp and un-stretched */
-			border-radius: 6px;
-			display: block;
-			margin: 0 auto;
-			border: 1px solid var(--text-divider);
-		}
-
-		.image-caption {
-			font-size: 0.85rem;
-			color: var(--text-muted);
-			margin-top: 10px;
-			font-weight: 500;
-			line-height: 1.4;
-		}
-
         :root {
+            /* Base Platform Architecture Tokens */
             --bg-main: #0f1015;
             --bg-card: #171922;
             --bg-main-box: #1c1e27;
@@ -78,11 +28,50 @@
             --text-secondary: #f3f4f6;
             --text-muted: #9ca3af;
             --text-divider: #2d313f;
-            --color-accent: #0000ff; /* Base Blue Theme for Crazy 8's Card */
             --color-link: #3b82f6;
+
+            /* --- DARK MODE ELEMENT THEME TOKENS --- */
+            /* Typography Accents */
+            --color-card-title: #3b82f6;     /* Calibrated Blue for typography on dark */
+            --color-card-class: #8cfffb;     /* Neon Light Blue */
+
+            /* Callout Boxes (Background Opacities & Solid Structural Borders) */
+            --border-tip: #aded8f;           /* Light Green */
+            --bg-tip: rgba(173, 237, 143, 0.04);
+
+            --border-note: #0ed145;          /* Green */
+            --bg-note: rgba(14, 209, 69, 0.04);
+
+            --border-example: #fff200;       /* Yellow */
+            --bg-example: rgba(255, 242, 0, 0.04);
+
+            --border-discards: #ff7f27;      /* Orange (Side & Top actions) */
+            --bg-discards: rgba(255, 127, 39, 0.04);
+
+            --border-challenge: #b97a56;     /* Light Brown */
+            --bg-challenge: rgba(185, 122, 86, 0.04);
+
+            --border-important: #a75e28;     /* Calibrated brighter Dark Brown for visibility */
+            --bg-important: rgba(167, 94, 40, 0.04);
+
+            --border-restriction: #ec1c24;   /* Red (Restriction & Penalty) */
+            --bg-restriction: rgba(236, 28, 36, 0.04);
+
+            --border-compatibility: #ffaec8; /* Pink */
+            --bg-compatibility: rgba(255, 174, 200, 0.04);
+
+            --border-victory: #b497ef;       /* Light Purple */
+            --bg-victory: rgba(180, 151, 239, 0.04);
+
+            --border-two-player: #9d00ff;    /* Purple */
+            --bg-two-player: rgba(157, 0, 255, 0.04);
+
+            --border-advanced: #b2b2b2;      /* Grey */
+            --bg-advanced: rgba(178, 178, 178, 0.04);
         }
 
         :root[data-theme="light"] {
+            /* Base Platform Architecture Overrides */
             --bg-main: #f4f5f7;
             --bg-card: #ffffff;
             --bg-main-box: #f9fafb;
@@ -90,47 +79,160 @@
             --text-secondary: #1f2937;
             --text-muted: #4b5563;
             --text-divider: #d1d5db;
-            --color-accent: #0000ff;
             --color-link: #1d4ed8;
-        }
 
+            /* --- LIGHT MODE ACCESSIBILITY CONTRAST OVERRIDES --- */
+            /* Typography Overrides (Deepened values to ensure AAA text contrast on white panels) */
+            --color-card-title: #0000ff;     /* Solid True Blue */
+            --color-card-class: #00807b;     /* Deepened Cyan-Teal for text legibility */
+
+            /* Callout Box Overrides (Enhanced background presence, darkened border text-hues) */
+            --border-tip: #2c7a00;           /* Forest Green contrast anchor */
+            --bg-tip: rgba(44, 122, 0, 0.06);
+
+            --border-note: #058225;          /* Rich Foliage Green */
+            --bg-note: rgba(5, 130, 37, 0.06);
+
+            --border-example: #b58900;       /* High-contrast Amber instead of blinding neon yellow */
+            --bg-example: rgba(181, 137, 0, 0.06);
+
+            --border-discards: #c2410c;      /* Rust Orange */
+            --bg-discards: rgba(194, 65, 12, 0.06);
+
+            --border-challenge: #7c4623;     /* Earth Brown */
+            --bg-challenge: rgba(124, 70, 35, 0.06);
+
+            --border-important: #5c300f;     /* Deep Mahogany Brown */
+            --bg-important: rgba(92, 48, 15, 0.06);
+
+            --border-restriction: #b91c1c;   /* Deep Crimson Red */
+            --bg-restriction: rgba(185, 28, 28, 0.06);
+
+            --border-compatibility: #db2777; /* Deep Rose Pink for text validation readability */
+            --bg-compatibility: rgba(219, 39, 119, 0.06);
+
+            --border-victory: #6d28d9;       /* Deep Royal Purple */
+            --bg-victory: rgba(109, 40, 217, 0.06);
+
+            --border-two-player: #580096;    /* Dark Orchid Purple */
+            --bg-two-player: rgba(88, 0, 150, 0.06);
+
+            --border-advanced: #4b5563;      /* Dark Slate Slate Grey */
+            --bg-advanced: rgba(75, 85, 99, 0.06);
+        }
+		
+        /* ==========================================================================
+           2. BASE LAYOUT CONFIGURATION & RESETS
+           ========================================================================== */
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background: var(--bg-main);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-main);
             color: var(--text-secondary);
-            max-width: 750px;
-            margin: 40px auto;
+            margin: 0;
             padding: 20px;
             line-height: 1.7;
             transition: background 0.3s, color 0.3s;
         }
-        .back-link {
-            display: inline-block;
-            color: var(--color-link);
-            text-decoration: none;
-            font-weight: 700;
-            margin-bottom: 25px;
-        }
-        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
-        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-        
-        .toc-box { 
-            background: var(--bg-card); 
-            border: 1px solid var(--text-divider); 
-            padding: 24px; 
-            border-radius: 12px; 
-            margin: 30px 0; 
-        }
-        .toc-title { margin: 0 0 15px 0; color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
-        .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
-        .toc-link { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.15s; }
-        .toc-link:hover { color: var(--color-link); }
 
-        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 50px; border-bottom: 2px solid var(--color-accent); padding-bottom: 8px; font-weight: 700; }
+        /* ==========================================================================
+           3. AUTOMATED BREAKPOINT SENSOR ENGINE (TABLETS & WIDESCREENS)
+           ========================================================================== */
+        @media screen and (min-width: 768px) and (orientation: landscape) {
+            body {
+                max-width: 960px;
+                margin: 40px auto;
+                padding: 0 30px;
+            }
+            .rules-box {
+                padding: 32px;
+                margin: 24px 0;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                max-width: 1050px;
+            }
+        }
+
+        /* ==========================================================================
+           4. UNIFIED STRUCTURAL TYPOGRAPHY BLOCKS
+           ========================================================================== */
+        /* Main Page Header Component */
+        .page-title-header {
+            border-bottom: 3px double var(--text-divider);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        h1.page-title {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin: 0 0 5px 0;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+        .meta-tag {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 0;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Expansion/Chapter Level Headings */
+        h2.rulebook-heading {
+            font-size: 1.6rem;
+            color: var(--text-primary);
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-heading);
+            padding-bottom: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        /* Operational Subheaders */
+        h3.rulebook-subheading {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--accent-subheading);
+            padding-left: 12px;
+            font-weight: 600;
+        }
+
+        /* Individual Card Entries Header Block */
+        .card-header-block {
+            border-bottom: 1px dashed var(--text-divider);
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+        }
+        h4.card-title {
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .card-class-info {
+            font-size: 0.88rem;
+            color: var(--accent-card-title);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            margin-top: 2px;
+        }
+
+        /* Paragraphs and Core List Formats */
         p { color: var(--text-secondary); margin: 16px 0; }
-        ul { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        ul, ol { margin: 0; padding-left: 20px; color: var(--text-secondary); }
         li { margin-bottom: 8px; }
 
+        /* ==========================================================================
+           5. DECOUPLED STRUCTURAL BLOCKS & BOX ARCHITECTURE
+           ========================================================================== */
         .rules-box {
             background: var(--bg-card);
             border: 1px solid var(--text-divider);
@@ -141,13 +243,296 @@
             flex-direction: column;
             gap: 15px;
         }
-        .note-box {
+
+        /* Uniform Spacing Flow Override Module for Inside Elements */
+        .rules-box > * {
+            margin: 10px 0;
+        }
+        .rules-box > ul, .rules-box > ol {
+            margin: 10px 0 10px 20px;
+        }
+
+        /* ==========================================================================
+           6. MULTI-COLORED SEMANTIC CALLOUT ENGINE
+           ========================================================================== */
+        /* Shared Callout Box Core Parameters */
+        .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
+        .important-box, .alert-box, .compatibility-box, .victory-box, 
+        .player-note-box, .advanced-box {
             font-size: 0.92rem;
-            background: rgba(255, 242, 0, 0.03);
-            padding: 12px;
+            padding: 14px 16px;
             border-radius: 8px;
-            border-left: 3px solid #fff200;
             color: var(--text-secondary);
+            margin: 0; /* Keeps box alignment snug inside the parent flex gaps */
+            font-weight: 500;
+        }
+
+        /* 🟢 1. TIPS CONTAINER (Light Green) */
+        .tip-box {
+            background: var(--bg-tip);
+            border-left: 4px solid var(--border-tip);
+        }
+
+        /* 🟢 2. GENERAL NOTES CONTAINER (Green) */
+        .note-box {
+            background: var(--bg-note);
+            border-left: 4px solid var(--border-note);
+        }
+
+        /* 🟢 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
+        .example-box {
+            background: var(--bg-example);
+            border-left: 4px solid var(--border-example);
+            font-style: italic;
+        }
+
+        /* 🟢 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
+        .discards-box {
+            background: var(--bg-discards);
+            border-left: 4px solid var(--border-discards);
+        }
+
+        /* 🟢 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
+        .challenge-box {
+            background: var(--bg-challenge);
+            border-left: 4px solid var(--border-challenge);
+        }
+
+        /* 🟢 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
+        .important-box {
+            background: var(--bg-important);
+            border-left: 4px solid var(--border-important);
+        }
+
+        /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
+        .alert-box {
+            background: var(--bg-restriction);
+            border-left: 4px solid var(--border-restriction);
+        }
+
+        /* 🟢 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
+        .compatibility-box {
+            background: var(--bg-compatibility);
+            border-left: 4px solid var(--border-compatibility);
+        }
+
+        /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
+        .victory-box {
+            background: var(--bg-victory);
+            border-left: 4px solid var(--border-victory);
+        }
+
+        /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
+        .player-note-box {
+            background: var(--bg-two-player);
+            border-left: 4px solid var(--border-two-player);
+        }
+
+        /* 🟢 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
+        .advanced-box {
+            background: var(--bg-advanced);
+            border-left: 4px solid var(--border-advanced);
+        }
+
+        /* ==========================================================================
+           7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+           ========================================================================== */
+        /* Global Navigation Control Elements */
+        .platform-hub-nav {
+            margin-bottom: 25px;
+        }
+        .hub-link-button,
+        .hub-link-button:visited,
+        .hub-link-button:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-in-out;
+        }
+        .hub-link-button:hover {
+            background: var(--text-divider);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        /* Index Jump Matrix Table Container */
+        .matrix-toc-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        .matrix-toc-title {
+            margin: 0 0 15px 0;
+            color: var(--color-link);
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .matrix-toc-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+		
+		/* Hierarchical Indentation Modifiers inside the Matrix Grid */
+        .matrix-item-heading { padding-left: 0px; font-weight: 700; }
+        .matrix-item-subheading { padding-left: 15px; font-weight: 600; }
+        .matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
+
+        .matrix-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        /* Bottom Step Jump Elements */
+        .return-link-wrapper {
+            text-align: right;
+            margin-top: -5px;
+            margin-bottom: 35px;
+        }
+        .return-link,
+        .return-link:visited,
+        .return-link:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important; /* Forces your exact brand link colour */
+            padding: 8px 14px; /* Clean, slightly tighter padding for the bottom link */
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .return-link:hover {
+            background: var(--text-divider);
+            color: var(--text-primary) !important;
+            transform: translateY(-1px);
+            text-decoration: none;
+        }
+
+        /* ==========================================================================
+           8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS
+           ========================================================================== */
+        .image-container {
+            margin: 20px auto;
+            padding: 12px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 100%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 450px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid var(--text-divider);
+        }
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
+        .image-row-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px);
+            min-width: 220px;
+            margin: 0;
+        }
+
+        /* Border Color Coatings for Core and Extension Cards */
+        .image-container.border-steel { border: 3px solid #1d4ed8; }
+        .image-container.border-poison-core { border: 3px solid #6b21a8; }
+        .image-container.border-venom-core { border: 3px solid #dc2626; }
+        .image-container.border-carbon { border: 3px solid #ea580c; }
+        .image-container.border-stinger-core { border: 3px solid #eab308; }
+        .image-container.border-toxin-core { border: 3px solid #16a34a; }
+        .image-container.border-diamond { border: 3px solid #3b82f6; }
+        .image-container.border-emerald { border: 3px solid #10b981; }
+        .image-container.border-redwood { border: 3px solid #5c4033; }
+        .image-container.border-oak { border: 3px solid #b58900; }
+        .image-container.border-rose { border: 3px solid #ec4899; }
+        .image-container.border-amethyst { border: 3px solid #8b5cf6; }
+        .image-container.border-stone { border: 3px solid #6b7280; }
+		
+		/* ==========================================================================
+           10. EXPANSION CONTENT GRID ARCHITECTURE
+           ========================================================================== */
+        .expansion-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        .expansion-row {
+            display: flex;
+            flex-direction: column; /* Stacks name and description cleanly on mobile screens */
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            gap: 4px;
+        }
+
+        .expansion-name {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+        }
+
+        .expansion-desc {
+            font-weight: 500;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Side-by-Side Split Modifier for Widescreen Monitors */
+        @media screen and (min-width: 600px) {
+            .expansion-row {
+                flex-direction: row; /* Converts back to a horizontal split line once space allows */
+                align-items: center;
+                gap: 15px;
+            }
         }
     </style>
 </head>
@@ -159,20 +544,39 @@
     <div class="meta-tag">[GAME RULEBOOK] • 👥 Ages 7+, 3-10 Players • v14.0.0</div>
 
     <!-- INDEX JUMP MATRIX -->
-    <div class="toc-box">
-        <div class="toc-title">📋 Contents Index Matrix</div>
-        <ul class="toc-list">
-            <li><a href="#object" class="toc-link">• OBJECT</a></li>
-            <li><a href="#setup" class="toc-link">• SETUP</a></li>
-            <li><a href="#how-to-play" class="toc-link">• HOW TO PLAY</a></li>
-            <li><a href="#victory-conditions" class="toc-link">• VICTORY CONDITIONS</a></li>
-            <li><a href="#team-gameplay" class="toc-link">• TEAM GAMEPLAY</a></li>
-            <li><a href="#team-trading" class="toc-link">• TEAM GAMEPLAY: TRADING</a></li>
-            <li><a href="#team-victory-changes" class="toc-link">• TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS</a></li>
-            <li><a href="#scoring" class="toc-link">• SCORING</a></li>
-            <li><a href="#scoring-winning" class="toc-link">• SCORING: WINNING THE GAME</a></li>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
+        <ul class="matrix-toc-grid">
+			<li class="matrix-item-heading">
+				<li>
+					<a href="#object" class="toc-link" class="matrix-link">OBJECT</a></li>
+				</li>
+            <li class="matrix-item-heading">
+				<a href="#setup" class="toc-link" class="matrix-link">SETUP</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#how-to-play" class="toc-link" class="matrix-link">HOW TO PLAY</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#victory-conditions" class="toc-link" class="matrix-link">VICTORY CONDITIONS</a>
+			</li>
+            <li>
+				<a href="#team-gameplay" class="toc-link" class="matrix-link">TEAM GAMEPLAY</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#team-trading" class="toc-link" class="matrix-link">TEAM GAMEPLAY: TRADING</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#team-victory-changes" class="toc-link" class="matrix-link">TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#scoring" class="toc-link" class="matrix-link">SCORING</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#scoring-winning" class="toc-link" class="matrix-link">SCORING: WINNING THE GAME</a>
+			</li>
         </ul>
-    </div>
+    </nav
 
     <!-- OBJECT -->
     <h2 id="object">OBJECT:</h2>
