@@ -1,46 +1,26 @@
 ---
-// src/pages/05-a-soloverse-battle-solitaire-game-rulebook.astro
-// Premium, native web text 05-a battle solitaire game rulebook
+// src/pages/05-a-battle-solitaire-game-rulebook.astro
+// Soloverse Premium Native Web Rulebook Component Template v2.0
+// Host Target: Vercel | Theme Architecture: Dynamic Decoupled Token Grid
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Permanent Cache-Busting Network Headers -->
+    <!-- Permanent Cache-Busting Network Headers for Clean Vercel Deployments -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>[05-A] SOLOVERSE - BATTLE SOLITAIRE [GAME RULEBOOK]</title>
+    <title>[01-A] SOLOVERSE [BATTLE SOLITAIRE GAME RULEBOOK]</title>
     <style>
         /* ==========================================================================
-           AUTOMATED TABLET & WIDESCREEN RESPONSIVE ENGINE
+           1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
            ========================================================================== */
-
-        /* Automatically expands text spreads when tablets are flipped horizontally */
-        @media screen and (min-width: 768px) and (orientation: landscape) {
-            body {
-                max-width: 960px; /* Expands reading column limits for a comfortable landscape view */
-                margin: 40px auto;
-                padding: 0 30px;
-            }
-
-            .rules-box {
-                padding: 32px;
-                margin: 24px 0;
-            }
-        }
-
-        /* Large Screen Optimizations (Large Tablets, Monitors, and Laptops) */
-        @media screen and (min-width: 1024px) {
-            body {
-                max-width: 1050px; /* Sweeps columns out nicely on large display panels */
-            }
-        }
-		
         :root {
+            /* Base Platform Architecture Tokens */
             --bg-main: #0f1015;
             --bg-card: #171922;
             --bg-main-box: #1c1e27;
@@ -48,11 +28,50 @@
             --text-secondary: #f3f4f6;
             --text-muted: #9ca3af;
             --text-divider: #2d313f;
-            --color-accent: #0000ff; /* Base Blue Theme for Crazy 8's Card */
             --color-link: #3b82f6;
+
+            /* --- DARK MODE ELEMENT THEME TOKENS --- */
+            /* Typography Accents */
+            --color-card-title: #3b82f6;     /* Calibrated Blue for typography on dark */
+            --color-card-class: #8cfffb;     /* Neon Light Blue */
+
+            /* Callout Boxes (Background Opacities & Solid Structural Borders) */
+            --border-tip: #aded8f;           /* Light Green */
+            --bg-tip: rgba(173, 237, 143, 0.04);
+
+            --border-note: #0ed145;          /* Green */
+            --bg-note: rgba(14, 209, 69, 0.04);
+
+            --border-example: #fff200;       /* Yellow */
+            --bg-example: rgba(255, 242, 0, 0.04);
+
+            --border-discards: #ff7f27;      /* Orange (Side & Top actions) */
+            --bg-discards: rgba(255, 127, 39, 0.04);
+
+            --border-challenge: #b97a56;     /* Light Brown */
+            --bg-challenge: rgba(185, 122, 86, 0.04);
+
+            --border-important: #a75e28;     /* Calibrated brighter Dark Brown for visibility */
+            --bg-important: rgba(167, 94, 40, 0.04);
+
+            --border-restriction: #ec1c24;   /* Red (Restriction & Penalty) */
+            --bg-restriction: rgba(236, 28, 36, 0.04);
+
+            --border-compatibility: #ffaec8; /* Pink */
+            --bg-compatibility: rgba(255, 174, 200, 0.04);
+
+            --border-victory: #b497ef;       /* Light Purple */
+            --bg-victory: rgba(180, 151, 239, 0.04);
+
+            --border-two-player: #9d00ff;    /* Purple */
+            --bg-two-player: rgba(157, 0, 255, 0.04);
+
+            --border-advanced: #b2b2b2;      /* Grey */
+            --bg-advanced: rgba(178, 178, 178, 0.04);
         }
 
         :root[data-theme="light"] {
+            /* Base Platform Architecture Overrides */
             --bg-main: #f4f5f7;
             --bg-card: #ffffff;
             --bg-main-box: #f9fafb;
@@ -60,48 +79,160 @@
             --text-secondary: #1f2937;
             --text-muted: #4b5563;
             --text-divider: #d1d5db;
-            --color-accent: #0000ff;
             --color-link: #1d4ed8;
-        }
 
+            /* --- LIGHT MODE ACCESSIBILITY CONTRAST OVERRIDES --- */
+            /* Typography Overrides (Deepened values to ensure AAA text contrast on white panels) */
+            --color-card-title: #0000ff;     /* Solid True Blue */
+            --color-card-class: #00807b;     /* Deepened Cyan-Teal for text legibility */
+
+            /* Callout Box Overrides (Enhanced background presence, darkened border text-hues) */
+            --border-tip: #2c7a00;           /* Forest Green contrast anchor */
+            --bg-tip: rgba(44, 122, 0, 0.06);
+
+            --border-note: #058225;          /* Rich Foliage Green */
+            --bg-note: rgba(5, 130, 37, 0.06);
+
+            --border-example: #b58900;       /* High-contrast Amber instead of blinding neon yellow */
+            --bg-example: rgba(181, 137, 0, 0.06);
+
+            --border-discards: #c2410c;      /* Rust Orange */
+            --bg-discards: rgba(194, 65, 12, 0.06);
+
+            --border-challenge: #7c4623;     /* Earth Brown */
+            --bg-challenge: rgba(124, 70, 35, 0.06);
+
+            --border-important: #5c300f;     /* Deep Mahogany Brown */
+            --bg-important: rgba(92, 48, 15, 0.06);
+
+            --border-restriction: #b91c1c;   /* Deep Crimson Red */
+            --bg-restriction: rgba(185, 28, 28, 0.06);
+
+            --border-compatibility: #db2777; /* Deep Rose Pink for text validation readability */
+            --bg-compatibility: rgba(219, 39, 119, 0.06);
+
+            --border-victory: #6d28d9;       /* Deep Royal Purple */
+            --bg-victory: rgba(109, 40, 217, 0.06);
+
+            --border-two-player: #580096;    /* Dark Orchid Purple */
+            --bg-two-player: rgba(88, 0, 150, 0.06);
+
+            --border-advanced: #4b5563;      /* Dark Slate Slate Grey */
+            --bg-advanced: rgba(75, 85, 99, 0.06);
+        }
+		
+        /* ==========================================================================
+           2. BASE LAYOUT CONFIGURATION & RESETS
+           ========================================================================== */
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background: var(--bg-main);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-main);
             color: var(--text-secondary);
-            max-width: 750px;
-            margin: 40px auto;
+            margin: 0;
             padding: 20px;
             line-height: 1.7;
             transition: background 0.3s, color 0.3s;
         }
-        .back-link {
-            display: inline-block;
-            color: var(--color-link);
-            text-decoration: none;
-            font-weight: 700;
-            margin-bottom: 25px;
-        }
-        h1 { font-size: 2.3rem; color: var(--text-primary); margin-bottom: 5px; font-weight: 800; letter-spacing: -0.03em; }
-        .meta-tag { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 40px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-        
-        .toc-box { 
-            background: var(--bg-card); 
-            border: 1px solid var(--text-divider); 
-            padding: 24px; 
-            border-radius: 12px; 
-            margin: 30px 0; 
-        }
-        .toc-title { margin: 0 0 15px 0; color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
-        .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
-        .toc-link { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.15s; }
-        .toc-link:hover { color: var(--color-link); }
 
-        h2 { font-size: 1.5rem; color: var(--text-primary); margin-top: 50px; border-bottom: 2px solid var(--color-accent); padding-bottom: 8px; font-weight: 700; }
+        /* ==========================================================================
+           3. AUTOMATED BREAKPOINT SENSOR ENGINE (TABLETS & WIDESCREENS)
+           ========================================================================== */
+        @media screen and (min-width: 768px) and (orientation: landscape) {
+            body {
+                max-width: 960px;
+                margin: 40px auto;
+                padding: 0 30px;
+            }
+            .rules-box {
+                padding: 32px;
+                margin: 24px 0;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                max-width: 1050px;
+            }
+        }
+
+        /* ==========================================================================
+           4. UNIFIED STRUCTURAL TYPOGRAPHY BLOCKS
+           ========================================================================== */
+        /* Main Page Header Component */
+        .page-title-header {
+            border-bottom: 3px double var(--text-divider);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        h1.page-title {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin: 0 0 5px 0;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+        .meta-tag {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 0;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Expansion/Chapter Level Headings */
+        h2.rulebook-heading {
+            font-size: 1.6rem;
+            color: var(--text-primary);
+            margin-top: 40px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent-heading);
+            padding-bottom: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        /* Operational Subheaders */
+        h3.rulebook-subheading {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--accent-subheading);
+            padding-left: 12px;
+            font-weight: 600;
+        }
+
+        /* Individual Card Entries Header Block */
+        .card-header-block {
+            border-bottom: 1px dashed var(--text-divider);
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+        }
+        h4.card-title {
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .card-class-info {
+            font-size: 0.88rem;
+            color: var(--accent-card-title);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            margin-top: 2px;
+        }
+
+        /* Paragraphs and Core List Formats */
         p { color: var(--text-secondary); margin: 16px 0; }
-        ul { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
-        ol { margin: 0 0 16px 0; padding-left: 20px; color: var(--text-secondary); }
+        ul, ol { margin: 0; padding-left: 20px; color: var(--text-secondary); }
         li { margin-bottom: 8px; }
 
+        /* ==========================================================================
+           5. DECOUPLED STRUCTURAL BLOCKS & BOX ARCHITECTURE
+           ========================================================================== */
         .rules-box {
             background: var(--bg-card);
             border: 1px solid var(--text-divider);
@@ -112,354 +243,679 @@
             flex-direction: column;
             gap: 15px;
         }
-        .note-box {
-            font-size: 0.92rem;
-            background: rgba(255, 242, 0, 0.03);
-            padding: 12px;
-            border-radius: 8px;
-            border-left: 3px solid #fff200;
-            color: var(--text-secondary);
+
+        /* Uniform Spacing Flow Override Module for Inside Elements */
+        .rules-box > * {
+            margin: 10px 0;
         }
-        .shortcut-link {
-            text-align: right;
-            display: block;
-            margin-top: 15px;
+        .rules-box > ul, .rules-box > ol {
+            margin: 10px 0 10px 20px;
+        }
+
+        /* ==========================================================================
+           6. MULTI-COLORED SEMANTIC CALLOUT ENGINE
+           ========================================================================== */
+        /* Shared Callout Box Core Parameters */
+        .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
+        .important-box, .alert-box, .compatibility-box, .victory-box, 
+        .player-note-box, .advanced-box {
+            font-size: 0.92rem;
+            padding: 14px 16px;
+            border-radius: 8px;
+            color: var(--text-secondary);
+            margin: 0; /* Keeps box alignment snug inside the parent flex gaps */
+            font-weight: 500;
+        }
+
+        /* 🟢 1. TIPS CONTAINER (Light Green) */
+        .tip-box {
+            background: var(--bg-tip);
+            border-left: 4px solid var(--border-tip);
+        }
+
+        /* 🟢 2. GENERAL NOTES CONTAINER (Green) */
+        .note-box {
+            background: var(--bg-note);
+            border-left: 4px solid var(--border-note);
+        }
+
+        /* 🟢 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
+        .example-box {
+            background: var(--bg-example);
+            border-left: 4px solid var(--border-example);
+            font-style: italic;
+        }
+
+        /* 🟢 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
+        .discards-box {
+            background: var(--bg-discards);
+            border-left: 4px solid var(--border-discards);
+        }
+
+        /* 🟢 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
+        .challenge-box {
+            background: var(--bg-challenge);
+            border-left: 4px solid var(--border-challenge);
+        }
+
+        /* 🟢 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
+        .important-box {
+            background: var(--bg-important);
+            border-left: 4px solid var(--border-important);
+        }
+
+        /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
+        .alert-box {
+            background: var(--bg-restriction);
+            border-left: 4px solid var(--border-restriction);
+        }
+
+        /* 🟢 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
+        .compatibility-box {
+            background: var(--bg-compatibility);
+            border-left: 4px solid var(--border-compatibility);
+        }
+
+        /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
+        .victory-box {
+            background: var(--bg-victory);
+            border-left: 4px solid var(--border-victory);
+        }
+
+        /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
+        .player-note-box {
+            background: var(--bg-two-player);
+            border-left: 4px solid var(--border-two-player);
+        }
+
+        /* 🟢 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
+        .advanced-box {
+            background: var(--bg-advanced);
+            border-left: 4px solid var(--border-advanced);
+        }
+
+        /* ==========================================================================
+           7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+           ========================================================================== */
+        /* Global Navigation Control Elements */
+        .platform-hub-nav {
+            margin-bottom: 25px;
+        }
+        .hub-link-button,
+        .hub-link-button:visited,
+        .hub-link-button:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
             font-size: 0.9rem;
-            font-weight: bold;
+            transition: all 0.2s ease-in-out;
+        }
+        .hub-link-button:hover {
+            background: var(--text-divider);
+            color: var(--text-primary);
+            transform: translateY(-1px);
+        }
+
+        /* Index Jump Matrix Table Container */
+        .matrix-toc-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        .matrix-toc-title {
+            margin: 0 0 15px 0;
             color: var(--color-link);
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .matrix-toc-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+		
+		/* Hierarchical Indentation Modifiers inside the Matrix Grid */
+        .matrix-item-heading { padding-left: 0px; font-weight: 700; }
+        .matrix-item-subheading { padding-left: 15px; font-weight: 600; }
+        .matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
+
+        .matrix-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        /* Bottom Step Jump Elements */
+        .return-link-wrapper {
+            text-align: right;
+            margin-top: -5px;
+            margin-bottom: 35px;
+        }
+        .return-link,
+        .return-link:visited,
+        .return-link:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important; /* Forces your exact brand link colour */
+            padding: 8px 14px; /* Clean, slightly tighter padding for the bottom link */
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .return-link:hover {
+            background: var(--text-divider);
+            color: var(--text-primary) !important;
+            transform: translateY(-1px);
             text-decoration: none;
         }
-        .shortcut-link:hover {
-            text-decoration: underline;
+
+        /* ==========================================================================
+           8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS
+           ========================================================================== */
+        .image-container {
+            margin: 20px auto;
+            padding: 12px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 100%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 450px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid var(--text-divider);
+        }
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
+        .image-row-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px);
+            min-width: 220px;
+            margin: 0;
+        }
+
+        /* Border Color Coatings for Core and Extension Cards */
+        .image-container.border-steel { border: 3px solid #1d4ed8; }
+        .image-container.border-poison-core { border: 3px solid #6b21a8; }
+        .image-container.border-venom-core { border: 3px solid #dc2626; }
+        .image-container.border-carbon { border: 3px solid #ea580c; }
+        .image-container.border-stinger-core { border: 3px solid #eab308; }
+        .image-container.border-toxin-core { border: 3px solid #16a34a; }
+        .image-container.border-diamond { border: 3px solid #3b82f6; }
+        .image-container.border-emerald { border: 3px solid #10b981; }
+        .image-container.border-redwood { border: 3px solid #5c4033; }
+        .image-container.border-oak { border: 3px solid #b58900; }
+        .image-container.border-rose { border: 3px solid #ec4899; }
+        .image-container.border-amethyst { border: 3px solid #8b5cf6; }
+        .image-container.border-stone { border: 3px solid #6b7280; }
+		
+		/* ==========================================================================
+           10. EXPANSION CONTENT GRID ARCHITECTURE
+           ========================================================================== */
+        .expansion-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        .expansion-row {
+            display: flex;
+            flex-direction: column; /* Stacks name and description cleanly on mobile screens */
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            gap: 4px;
+        }
+
+        .expansion-name {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+        }
+
+        .expansion-desc {
+            font-weight: 500;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Side-by-Side Split Modifier for Widescreen Monitors */
+        @media screen and (min-width: 600px) {
+            .expansion-row {
+                flex-direction: row; /* Converts back to a horizontal split line once space allows */
+                align-items: center;
+                gap: 15px;
+            }
         }
     </style>
 </head>
 <body id="top">
 
-	<a href="/" class="back-link">📂 Return to Shelf Deck</a>
+    <nav class="platform-hub-nav" aria-label="Platform Navigation">
+        <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
+    </nav>
 
-    <h1>[05-A] SOLOVERSE - BATTLE SOLITAIRE</h1>
-    <div class="meta-tag">[Game Rulebook] • Ages 7+ • 3-12 Players • v3.0.0</div>
+    <h1>[01-A] SOLOVERSE - BATTLE SOLITAIRE</h1>
+    <div class="meta-tag">[GAME RULEBOOK] • 👥 Ages 7+, 2-10 Players • v4.0.0</div>
 
     <!-- INDEX JUMP MATRIX -->
-    <div class="toc-box">
-        <div class="toc-title">📋 Contents Index Matrix</div>
-        <ul class="toc-list">
-            <li><a href="#object" class="toc-link">• OBJECT</a></li>
-            <li><a href="#setup" class="toc-link">• SETUP</a></li>
-            <li><a href="#how-to-play" class="toc-link">• HOW TO PLAY</a></li>
-            <li><a href="#special-rules" class="toc-link">• SPECIAL RULES</a></li>
-            <li><a href="#winning-the-game" class="toc-link">• WINNING THE GAME</a></li>
-            <li><a href="#victory-conditions" class="toc-link">• VICTORY CONDITIONS</a></li>
-            <li><a href="#team-gameplay" class="toc-link">• TEAM GAMEPLAY</a></li>
-            <li><a href="#team-trading" class="toc-link">• TEAM GAMEPLAY: TRADING</a></li>
-            <li><a href="#team-victory-changes" class="toc-link">• TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS</a></li>
-            <li><a href="#scoring" class="toc-link">• SCORING</a></li>
-            <li><a href="#scoring-winning" class="toc-link">• SCORING: WINNING THE GAME</a></li>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
+        <ul class="matrix-toc-grid">
+			<li class="matrix-item-heading">
+				<a href="#object" class="matrix-link">OBJECT</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#setup" class="matrix-link">SETUP</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#how-to-play" class="matrix-link">HOW TO PLAY</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#special-rules" class="matrix-link">SPECIAL RULES</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#winning-the-game" class="matrix-link">WINNING THE GAME</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#victory-conditions" class="matrix-link">VICTORY CONDITIONS</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#team-gameplay" class="matrix-link">TEAM GAMEPLAY</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#team-trading" class="matrix-link">TEAM GAMEPLAY: TRADING</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#team-special-victory-conditions-changes" class="matrix-link">TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#scoring" class="matrix-link">SCORING</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#scoring-winning-the-game" class="matrix-link">SCORING: WINNING THE GAME</a>
+			</li>
         </ul>
+    </nav>
+
+    <!-- OBJECT -->
+	<div id="object">
+		<div class="rules-box">
+			<h4>OBJECT</h4>
+			<ul>
+				<li>This Game allows for and enhances a Multiplayer version of the Classic Card Game: Solitaire.</li>
+				<li>During Play, You’ll be able to Attack Your Opponents by adding extra Cards to Their Discards.</li>
+				<li>Therefore, be the First Player to get rid of Your Cards to Win.</li>
+			</ul>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+    </div>
+	
+    <!-- SETUP -->
+	<div id="setup">
+		<div class="rules-box">
+			<h4>SETUP</h4>
+			<ol>
+				<li>As a group choose whether to use the Core Game Extension and any Optional Expansion or Coloured Extension Packs [compare Universal Game Notes: First Play Recommendations].
+					<div class="note-box">NOTE: If you have added any optional Expansions, check if they have any Additional Setup Rules.</div>
+				</li>
+				<li>Choose who Deals first [alternate the Dealer clockwise after each game].</li>
+				<li>Shuffle the Deck and Place it to one side of the Table, leaving room for the Discards [for Action and Chaos Card use] to go beside it, as well as the Battle Grid Stacks to go in the middle of the Table with the Top Stacks to go above the Battle Grid.</li>
+				<li>Deal 6 Cards Face-Up Cards in the centre of the Table to form the Battle Grid Stacks [if any “Action Class” or Chaos Cards show up, return them randomly to the Deck and replace them].</li>
+				<li>Then Deal 15 Cards to each Player to form Their Player Decks.
+					<div class="important-box">IMPORTANT: Players never look at Their Decks, and only Pick Up the Top Card, one at a time, on Their Turn.</div>
+				</li>
+				<li>Place the Direction of Play [Blue/Clockwise Side] and the Play To The Side Of The Discards Chaos Cards Face-Up on either side of the Discards, where everyone can see them [Remember to Flip the Direction Of Play Chaos Card it every time a Reverse Effect Activates].</li>
+				<li>If using the Core Extension, place Recycle Chaos Card Face-Up next to the Deck and Discards, where all Players can reach it.</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+	</div>
+	
+		<div class="image-container">
+			<img 
+				src="/assets/images/layouts/battle-solitaire-setup.png" 
+				alt="Soloverse Deck-Builder Game Setup Grid Diagram" 
+				loading="lazy"
+			/>
+			<div class="image-caption">Figure 1: Battle Solitaire Setup.</div>
+		</div>
+
+     <!-- HOW TO PLAY -->
+	<div id="how-to-play">
+		<div class="rules-box">
+			<h4>HOW TO PLAY</h4>
+			<ol>
+				<li>Players take turns to Pick Up the Top Card from their Player Deck and Play it according to the following Order of Importance, continuing to do so until they feel They CANNOT continue to Play:
+					<ol type="a">
+						<li>Place Cards on the Top Stacks.
+							<ol type="i">
+								<li>0 Cards Start each Top Stack.</li>
+								<li>One Top Stack per Colour.</li>
+								<li>Stack the Numbered Cards from 0-9, then back down from 9-0 numerically.</li>
+							</ol>
+						</li>
+						<li>Place Cards on the Battle Grid Stacks in the middle just like in Solitaire:
+							<ol type="i">
+								<li>Every Card placed on a Battle Grid Stack must be a different Colour from the previous Card.
+									<div class="alert-box">RESTRICTION: Each Battle Grid Stack has a Maximum Limit of 2 Colours in it. The Colours They use may Change when New Cards are used to Restart Them.</div>
+									<div class="note-box">NOTE: Unlike Solitaire, any Numbered Card can Restart a Battle Grid Stack.</div>
+								</li>
+								<li>Every Card Placed must also be Sequentially Lower than the Previous.</li>
+							</ol>
+						</li>
+						<li>You may also Move Cards in Existing Battle Grid Stacks as Needed, freely, to Separate those Stacks into a New Stack or Merge them with another existing Stack.</li>
+						<li>You may use an “Action Class“ Card by Playing it to the Discards and resolve its Effects.</li>
+						<li>You may use a Chaos Card by Playing it to the Discards [or to the Side of the Discards as is needed] and resolve its Effects.</li>
+						<li>You can Attack a Player by placing any Card on top of your Opponent’s Discards that is:
+							<ol type="i">
+								<li>A sequentially Higher or Lower Numbered Card of the same Colour.</li>
+								<li>Or, a Equally Valued Numbered Card from any Colour.</li>
+							</ol>
+						</li>
+					</ol>
+				</li>
+				<li>If a Player feels They CANNOT continue to Play Cards according to the Special Rules below, They must place Their Player Deck's latest Top Card in Their Player Discards.</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+	</div>
+
+     <!-- SPECIAL RULES -->
+	<div id="special-rules">
+		<div class="rules-box">
+			<h4>SPECIAL RULES</h4>
+			<div class="important-box">RULE 1: If You can play a Card to the Top Stacks, You Must.</div>
+			<div class="important-box">RULE 2: If You can play a Card to your Opponent's Discards, You Must.
+				<ul>
+					<li>EXEMPTION: If the option to place on a Top Stack is available.</li>
+				</ul>
+				<div class="note-box">NOTE: You must do this before [but not limited to] Revealing Your Player Deck’s Top Card at the beginning of your turn.</div>
+			</div>
+			<div class="important-box">RULE 3: If you can make a move in the Game, You must.</div>
+			<div class="important-box">RULE 4: Being caught failing to comply with these Rules will result in a Penalty Card being added to Your Player Discards from the Top of the next Player’s Deck at the beginning of Their Turn.</div>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+	</div>
+
+     <!-- WINNING THE GAME -->
+	<div id="winning-the-game">
+		<div class="rules-box">
+			<h4>WINNING THE GAME</h4>
+			<ul>
+				<li>The first Player to get rid of all their Cards is the Winner!</li>
+			</ul>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+	</div>
+
+    <!-- VICTORY CONDITIONS -->
+	<div id="victory-conditions">
+		<div class="rules-box">
+			<h4>VICTORY CONDITIONS</h4>
+			<ol>
+				<li>Possessing no Cards at the end of Your turn.
+					<ul>
+						<li>If at the end of Your turn You still have no Cards, the Game ends and You are out of the Game.</li>
+						<li>Points can be scored if desired [see: Scoring – Winning The Game], and Play can restart if desired.</li>
+					</ul>
+				</li>
+				<li>If the last Card Played in a round has a Draw Effect, continue Play until someone is forced to Draw Cards.
+					<ul>
+						<li>Someone must Draw from the last Draw Effect Card. Until that happens, Your Win is not guaranteed...</li>
+						<li>If You Play a Draw or Deal Effect Card as Your last Card and a Player/s Respond in Kind, and in doing so, brings the Draw or Deal Effect back to You, with nothing to defend Yourself with You must bear the consequences of the Draw or Deal Effect You initiated, cancelling Your Win.</li>
+					</ul>
+					<div class="note-box">NOTE: There is also the possibility of the Drawer obtaining Anti-Fun for example, that can still be used to negate Your win.</div>
+				</li>
+				<li>Special Victory Conditions.
+					<ul>
+						<li>Some Expansions have Special Victory Conditions that exceed the normal means of Winning. For example:</li>
+					</ul>
+					<ol type="a">
+						<li>The Singularity Expansion allows you to collect all 3 “Unification Class” Chaos Cards.</li>
+						<li>While the Crisis Expansion “Crisis Class” Chaos Cards allow for many different Special Victory Conditions.</li>
+						<li>Finally, the Cataclysm Expansion allows you to collect all 6 “Ancient Stone Class” Chaos Cards.</li>
+					</ol>
+					<ul>
+						<li>In any of these situations, doing so automatically, and instantly, Wins you the game!</li>
+					</ul>
+				</li>
+				<li>The game ends Without a Clear Winner.
+					<ol type="a">
+						<li>As stated in Universal Game Notes: Important Notes: Rule 1, the Deck could run out of Drawable Cards.</li>
+						<li>In any situation without a clear Winner:
+							<ul>
+								<li>The Player with the least number of Cards Wins.
+								If Scoring, do so normally [but do not count your own Cards].</li>
+								<li>If more than one Player has equal Cards to Win, They Draw.
+								If Scoring, count the other winning Player’s Cards as well [but not your own].</li>
+							</ul>
+						</li>
+					</ol>
+				</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+	</div>
+
+    <!-- TEAM GAMEPLAY -->
+	<div id="team-gameplay">
+		<div class="rules-box">
+			<h4>TEAM GAMEPLAY</h4>
+			<ol>
+				<li>Make Teams with an even number of Members.</li>
+				<li>Choose the Turn Order for Teams & Members [alternating Teams/Members between turns (e.g.: Team 1: Member 1, Team 2: Member 1, Team 1: Member 2, Team 2: Member 2, etc) ].</li>
+				<li>Reorganise Seating arrangements to Match Team & Member Turns.</li>
+				<li>Next, choose which Victory Condition to use before beginning play:
+					<div class="advanced-box">OPTION 1: Relaxed:
+						<ul>
+							<li>The First Member to get rid of all their Cards wins for their Team.</li>
+						</ul>
+						<div class="note-box">NOTE: If Scoring, do not count your Team Member’s Cards.</div>
+					</div>
+					<div class="advanced-box">OPTION 2: Competitive:
+						<ul>
+							<li>The first Team with All Members to get rid of all their Cards Wins.</li>
+						</ul>
+						<div class="note-box">NOTES: Team Members with no Cards left can only be Group Targeted [e.g.: United We Fall]; this includes Group Targeting Trap Class Chaos Cards [e.g.: Epidemic from the Contagion Expansion]. Otherwise, Team Members with no Cards are Removed from the Game and have their Turns Automatically Skipped. If they receive Cards again, they are Re-added to the Game.</div>
+					</div>
+				</li>
+				<li>Follow all other Game Rules.</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+	</div>
+
+    <!-- TEAM GAMEPLAY: TRADING -->
+	<div id="team-trading">
+		<div class="rules-box">
+			<h4>TEAM TRADING</h4>
+			<ol>
+				<li>2 Team Members can Trade Cards [a free Card Swapping Effect] at a 1:1 Ratio on their Member Turn, by saying “Team Trade Requested.” However, this can only do so a minimum of once every 2 Team Turns, regardless of which Team Member took said Team Turns.</li>
+				<li>All Card Types are allowed to be Traded during a Team Trade. This includes Trading for a Counter Class Chaos Card when facing Draw Effects [Stacked or otherwise].</li>
+				<li>If there are more than 2 Players in a Team, the initiating Trader must designate which Team Member will participate.</li>
+				<li>Discussion of which Cards are wanted to be received or be given in return is Forbidden. You must trust your Team Member to help however they can.</li>
+				<li>Once a Team Trade is Requested, that 1:1 Trade Must be done [regardless of if the Traded Card would end up being helpful or not].</li>
+				<li>Finally, a Team Member does not have to use the Card that was Traded to them on that Member’s Turn if they do not want to.</li>
+			</ol>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS -->
+	<div id="team-special-victory-conditions-changes">
+		<div class="rules-box">
+			<h4>TEAM SPECIAL VICTORY CONDITIONS CHANGES</h4>
+			<ul>
+				<li>Singularity Expansion:
+					<ul>
+						<li>A Team wins if they possess all 3 Unification Class Chaos Cards between any of their Team Members.</li>
+					</ul>
+				</li>
+				<li>Crisis Expansion:
+					<ul>
+						<li>Crisis Trap Class Chaos Cards are totalled for the Team.</li>
+					</ul>
+				</li>
+				<li>Cataclysm Expansion:
+					<ul>
+						<li>The Bulk Possession Notes and Special Victory Condition are not shared across Team Members. However, on any Team Member’s Playable Turn, 1 Ancient Stone CAN be given to any other Team Member if all Team Members agree to Deal 5 Cards to themselves each [in play order]. Discussion of which Ancient Stone is given and who gets it is allowed by Team Members if it is kept brief.</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+    	</div>
     </div>
 
-    <!-- OBJECT SECTION -->
-    <div id="object">
-        <h2>OBJECT:</h2>
-        <div class="rules-box">
-            <ul>
-                <li>This Game allows for and enhances a Multiplayer version of the Classic Card Game: Solitaire.</li>
-                <li>During Play, You’ll be able to Attack Your Opponents by adding extra Cards to Their Discards.</li>
-                <li>Therefore, be the First Player to get rid of Your Cards to Win.</li>
-            </ul>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
+    <!-- SCORING -->
+	<div id="scoring">
+		<div class="rules-box">
+			<h4>SCORING</h4>
+			<ul>
+				<li>If you feel up to it, mix things up by tracking your progress by accumulating your score as rounds progress.</li>
+				<li>The first Player to get rid of all their Cards in a round receives points for all Cards left in their opponent’s Hands as follows:</li>
+			</ul>
+		<table style="width: 100%; border-collapse: collapse; margin: 15px 0;">
+			<thead>
+				<tr>
+					<th style="width: 50%; text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Card Type</th>
+					<th style="width: 50%; text-align: left; padding-left: 15px;">Point Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Number [0-9]</td>
+					<td style="text-align: left; padding-left: 15px;">10 Points</td>
+				</tr>
+				<tr>
+					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Action Class Cards</td>
+					<td style="text-align: left; padding-left: 15px;">20 Points</td>
+				</tr>
+				<tr>
+					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Standard Chaos Cards & Chaos Draw +4’s</td>
+					<td style="text-align: left; padding-left: 15px;">50 Points</td>
+				</tr>
+				<tr>
+					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Core Game & Core Game Extension Chaos Cards</td>
+					<td style="text-align: left; padding-left: 15px;">100 Points</td>
+				</tr>
+				<tr>
+					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Expansion Chaos Cards</td>
+					<td style="text-align: left; padding-left: 15px;">150 Points</td>
+				</tr>
+				<tr>
+					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Singularity Expansion Chaos Cards</td>
+					<td style="text-align: left; padding-left: 15px;">200 Points</td>
+				</tr>
+			</tbody>
+		</table>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+    	</div>
+	</div>
 
-    <!-- SETUP SECTION -->
-    <div id="setup">
-        <h2>SETUP:</h2>
-        <div class="rules-box">
-            <ol>
-                <li>As a group choose whether to use the Core Game Extension and any Optional Expansion or Coloured Extension Packs [compare Universal Game Notes: First Play Recommendations].
-                    <div class="note-box">
-                        <strong>NOTE:</strong> If you have added any optional Expansions, check if they have any Additional Setup Rules.
-                    </div>
-                </li>
-                <li>Choose who Deals first [alternate the Dealer clockwise after each game].</li>
-                <li>Shuffle the Deck and Place it to one side of the Table, leaving room for the Discards [for Action and Chaos Card use] to go beside it, as well as the Battle Grid Stacks to go in the middle of the Table with the Top Stacks to go above the Battle Grid.</li>
-                <li>Deal 6 Cards Face-Up Cards in the centre of the Table to form the Battle Grid Stacks [if any “Action Class” or Chaos Cards show up, return them randomly to the Deck and replace them].</li>
-                <li>Then Deal 15 Cards to each Player to form Their Player Decks.
-                    <br><br><strong>IMPORTANT:</strong> Players never look at Their Decks, and only Pick Up the Top Card, one at a time, on Their Turn.
-                </li>
-                <li>Place the Direction of Play [Blue/Clockwise Side] and the Play To The Side Of The Discards Chaos Cards Face-Up on either side of the Discards, where everyone can see them [Remember to Flip the Direction Of Play Chaos Card it every time a Reverse Effect Activates].</li>
-                <li>If using the Core Extension, place Recycle Chaos Card Face-Up next to the Deck and Discards, where all Players can reach it.</li>
-            </ol>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
 
-    <!-- HOW TO PLAY SECTION -->
-    <div id="how-to-play">
-        <h2>HOW TO PLAY:</h2>
-        <div class="rules-box">
-            <ol>
-                <li>Players take turns to Pick Up the Top Card from their Player Deck and Play it according to the following Order of Importance, continuing to do so until they feel They CANNOT continue to Play:
-                    <ol type="a">
-                        <li>Place Cards on the Top Stacks.
-                            <ol type="i">
-                                <li>0 Cards Start each Top Stack.</li>
-                                <li>One Top Stack per Colour.</li>
-                                <li>Stack the Numbered Cards from 0-9, then back down from 9-0 numerically.</li>
-                            </ol>
-                        </li>
-                        <li>Place Cards on the Battle Grid Stacks in the middle just like in Solitaire:
-                            <ol type="i">
-                                <li>Every Card placed on a Battle Grid Stack must be a different Colour from the previous Card.
-                                    <br><br><strong>RESTRICTION:</strong> Each Battle Grid Stack has a Maximum Limit of 2 Colours in it. The Colours They use may Change when New Cards are used to Restart Them.
-                                    <div class="note-box">
-                                        <strong>NOTE:</strong> Unlike Solitaire, any Numbered Card can Restart a Battle Grid Stack.
-                                    </div>
-                                </li>
-                                <li>Every Card Placed must also be Sequentially Lower than the Previous.</li>
-                            </ol>
-                        </li>
-                        <li>You may also Move Cards in Existing Battle Grid Stacks as Needed, freely, to Separate those Stacks into a New Stack or Merge them with another existing Stack.</li>
-                        <li>You may use an “Action Class“ Card by Playing it to the Discards and resolve its Effects.</li>
-                        <li>You may use a Chaos Card by Playing it to the Discards [or to the Side of the Discards as is needed] and resolve its Effects.</li>
-                        <li>You can Attack a Player by placing any Card on top of your Opponent’s Discards that is:
-                            <ol type="i">
-                                <li>A sequentially Higher or Lower Numbered Card of the same Colour.</li>
-                                <li>Or, a Equally Valued Numbered Card from any Colour.</li>
-                            </ol>
-                        </li>
-                    </ol>
-                </li>
-                <li>If a Player feels They CANNOT continue to Play Cards according to the Preceeding Rules, They must place Their Player Deck's latest Top Card in Their Player Discards.</li>
-            </ol>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
+    <!-- SCORING: WINNING THE GAME -->
+	<div id="scoring-winning-the-game">
+		<div class="rules-box">
+			<h4>SCORING – WINNING THE GAME</h4>
+			<div class="note-box">NOTE: The number of Chaos Cards will speed up Points collection.</div>
+			<div class="advanced-box">OPTION 1: Standard Game: The winner is the first Player to reach 3,000 points.
+				<ul>
+					<li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. So, keeping a set Score Target allows for faster “Scoring Wins” the more Players you have, speeding up total play time.</li>
+				</ul>
+			</div>
+			<div class="advanced-box">OPTION 2: Extended Game: The winner is the first Player to reach 3,000-7,000 points depending on the number of Players].
+				<ul>
+					<li>Starting at 3,000 for 3 Players, increase the Victory Points required by 500 for every additional player [e.g.: 4 Players will be 3,500, 5 Players will be 4,000, 6 Players will be 4,500, etc... but keep a Maximum of 7,000 even if playing with more than the recommended maximum of 10 Players].</li>
+					<li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. However, for a serious game, increasing the Score Target allows for incrementally slower “Scoring Wins” the more Players you have, extending total play time.</li>
+				</ul>
+			</div>
+			<div class="advanced-box">OPTION 3: Last Player Standing: There is no winner for Rounds. As play continues and Players Go Out, they are permanently exited from the game [as opposed to Remove from Game Effects of Expansion Chaos Cards (e.g. : Assassin from the Doomsday Expansion) ] until the last Player is left.
+				<ul>
+					<li>A Point is given for every Player left in the game when you go out.</li>
+					<li>The Last Player Standing has Points deducted based on the Number of other Players in the Game.</li>
+				</ul>
+				<div class="note-box">NOTE: Players cannot obtain a Negative Score.</div>
+				<ul>
+					<li>Play continues until a Player Scores the Required Total [the recommendation is 3 x the Number of Players in the game].</li>
+				</ul>
+			</div>
+			<div class="advanced-box">TOURNAMENT: The first Player to reach one of the above Point requirements earns 1 Credit. Rounds progress until one Player earns a total of 3 Credits [for the truly devoted, you could always agree to a larger figure ahead of playing].</div>
+			<div class="return-link-wrapper">
+				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
+			</div>
+    	</div>
+	</div>
 
-    <!-- SPECIAL RULES SECTION -->
-    <div id="special-rules">
-        <h2>SPECIAL RULES:</h2>
-        <div class="rules-box">
-            <ul>
-                <li><strong style="color: var(--color-link);">Rule 1:</strong> If You can play a Card to the Top Stacks, You Must.</li>
-                <li><strong style="color: var(--color-link);">Rule 2:</strong> If You can play a Card to your Opponent's Discards, You Must
-                    <br><br><strong>EXEMPTION:</strong> If the option to place on a Top Stack is available.
-                    <div class="note-box">
-                        <strong>NOTE:</strong> You must do this before [but not limited to] Revealing Your Player Deck’s Top Card at the beginning of your turn.
-                    </div>
-                </li>
-                <li><strong style="color: var(--color-link);">Rule 3:</strong> If you can make a move in the Game, You must.</li>
-                <li><strong style="color: var(--color-link);">Rule 4:</strong> Being caught failing to comply with these Rules will result in a Penalty Card being added to Your Player Discards from the Top of the next Player’s Deck at the beginning of Their Turn.</li>
-            </ul>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- WINNING THE GAME SECTION -->
-    <div id="winning-the-game">
-        <h2>WINNING THE GAME:</h2>
-        <div class="rules-box">
-            <ul>
-                <li>The first Player to get rid of all their Cards is the Winner!</li>
-            </ul>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- VICTORY CONDITIONS SECTION -->
-    <div id="victory-conditions">
-        <h2>VICTORY CONDITIONS:</h2>
-        <div class="rules-box">
-            <ol>
-                <li>Possessing no Cards at the end of Your turn.
-                    <ul>
-                        <li>If at the end of Your turn You still have no Cards, the Game ends and You are out of the Game.</li>
-                        <li>Points can be scored if desired [see: Scoring – Winning The Game], and Play can restart if desired.</li>
-                    </ul>
-                </li>
-                <li>If the last Card Played in a round has a Draw Effect, continue Play until someone is forced to Draw Cards.
-                    <ul>
-                        <li>Someone must Draw from the last Draw Effect Card. Until that happens, Your Win is not guaranteed...</li>
-                        <li>If You Play a Draw or Deal Effect Card as Your last Card and a Player/s Respond in Kind, and in doing so, brings the Draw or Deal Effect back to You, with nothing to defend Yourself with You must bear the consequences of the Draw or Deal Effect You initiated, cancelling Your Win.</li>
-                    </ul>
-                    <div class="note-box">
-                        <strong>NOTE:</strong> There is also the possibility of the Drawer obtaining Anti-Fun for example, that can still be used to negate Your win.
-                    </div>
-                </li>
-                <li>Special Victory Conditions.
-                    <ul>
-                        <li>Some Expansions have Special Victory Conditions that exceed the normal means of Winning. For example:
-                            <ul>
-                                <li>The Singularity Expansion allows you to collect all 3 “Unification Class” Chaos Cards.</li>
-                                <li>While the Crisis Expansion “Crisis Class” Chaos Cards allow for many different Special Victory Conditions.</li>
-                                <li>Finally, the Cataclysm Expansion allows you to collect all 6 “Ancient Stone Class” Chaos Cards.</li>
-                            </ul>
-                        </li>
-                        <li>In any of these situations, doing so automatically, and instantly, Wins you the game!</li>
-                    </ul>
-                </li>
-                <li>The game ends Without a Clear Winner.
-                    <ol type="a">
-                        <li>As stated in Universal Game Notes: Important Notes: Rule 1, the Deck could run out of Drawable Cards.</li>
-                        <li>In any situation without a clear Winner:
-                            <ul>
-                                <li><strong>The Player with the least number of Cards Wins.</strong><br>If Scoring, do so normally [but do not count your own Cards].</li>
-                                <li><strong>If more than one Player has equal Cards to Win, They Draw.</strong><br>If Scoring, count the other winning Player’s Cards as well [but not your own].</li>
-                            </ul>
-                        </li>
-                    </ol>
-                </li>
-            </ol>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- TEAM GAMEPLAY SECTION -->
-    <div id="team-gameplay">
-        <h2>TEAM GAMEPLAY:</h2>
-        <div class="rules-box">
-            <ol>
-                <li>Make Teams with an even number of Members.</li>
-                <li>Choose the Turn Order for Teams & Members [alternating Teams/Members between turns (e.g.: Team 1: Member 1, Team 2: Member 1, Team 1: Member 2, Team 2: Member 2, etc) ].</li>
-                <li>Reorganise Seating arrangements to Match Team & Member Turns.</li>
-                <li>Next, Choose which Victory Condition to use before beginning Play:
-                    <br><br>
-                    <strong>OPTION 1: Relaxed:</strong>
-                    <ul>
-                        <li>The First Member to get rid of all Their Cards wins for Their Team.</li>
-                    </ul>
-                    <strong>OPTION 2: Competitive:</strong>
-                    <ul>
-                        <li>The first Team with All Members to get rid of all Their Cards Wins. Team Members with no Cards left can only be Group Targeted [e.g.: United We Fall]. Otherwise, Team Members with no Cards are Removed from the Game and have Their Turns Automatically Skipped. If They receive Cards again, They are Re-added to the Game.</li>
-                    </ul>
-                </li>
-                <li>Follow all other Game Rules.</li>
-            </ol>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- TEAM GAMEPLAY: TRADING SECTION -->
-    <div id="team-trading">
-        <h2>TEAM GAMEPLAY: TRADING:</h2>
-        <div class="rules-box">
-            <ol>
-                <li>2 Team Members can Trade Cards [a free Card Swapping Effect] at a 1:1 Ratio on Their Member Turn, by saying “Team Trade Requested.” However, this can only do so a minimum of once every 2 Team Turns, regardless of which Team Member took said Team Turns.</li>
-                <li>All Card Types are allowed to be Traded during a Team Trade. This includes Trading for a Counter Class Chaos Card when facing Draw Effects [Stacked or otherwise].</li>
-                <li>If there are more than 2 Players in a Team, the initiating Trader must designate which Team Member will participate.</li>
-                <li>Discussion of which Cards are wanted to be received or be given in return is Forbidden. You must trust Your Team Member to help however They can.</li>
-                <li>Once a Team Trade is Requested, that 1:1 Trade Must be done [regardless of if the Traded Card would end up being helpful or not].</li>
-                <li>Finally, a Team Member does not have to use the Card that was Traded to them on that Member’s Turn if They do not want to.</li>
-            </ol>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS SECTION -->
-    <div id="team-victory-changes">
-        <h2>TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS:</h2>
-        <div class="rules-box">
-            <p><strong>Singularity Expansion:</strong></p>
-            <ul>
-                <li>A Team wins if They possess all 3 Unification Class Chaos Cards between any of Their Team Members.</li>
-            </ul>
-            <p><strong>Crisis Expansion:</strong></p>
-            <ul>
-                <li>Crisis Trap Class Chaos Cards are totalled for the Team.</li>
-            </ul>
-            <p><strong>Cataclysm Expansion:</strong></p>
-            <ul>
-                <li>The Bulk Possession Notes and Special Victory Condition are not shared across Team Members. However, on any Team Member’s Playable Turn, 1 Ancient Stone CAN be given to any other Team Member if all Team Members agree to Deal 5 Cards to themselves each [in play order]. Discussion of which Ancient Stone is given and who gets it is allowed by Team Members if it is kept brief.</li>
-            </ul>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- SCORING SECTION -->
-    <div id="scoring">
-        <h2>SCORING:</h2>
-        <div class="rules-box">
-            <ul>
-                <li>If you feel up to it, mix things up by tracking your progress by accumulating your score as rounds progress.</li>
-                <li>The first Player to get rid of all their Cards in a round receives points for all Cards left in their opponent’s Decks as follows:</li>
-            </ul>
-
-            <table style="width: 100%; border-collapse: collapse; margin: 10px 0; border: 1px solid var(--text-divider);">
-                <thead>
-                    <tr style="background: var(--bg-main-box); border-bottom: 2px solid var(--text-divider);">
-                        <th style="padding: 12px; text-align: left; color: var(--text-primary);">Card Type</th>
-                        <th style="padding: 12px; text-align: left; color: var(--text-primary);">Point Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="border-bottom: 1px solid var(--text-divider);">
-                        <td style="padding: 12px;">Number [0-9]</td>
-                        <td style="padding: 12px;">10 Points</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid var(--text-divider);">
-                        <td style="padding: 12px;">Action Class Cards</td>
-                        <td style="padding: 12px;">20 Points</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid var(--text-divider);">
-                        <td style="padding: 12px;">Standard Chaos Cards & Chaos Draw +4’s</td>
-                        <td style="padding: 12px;">50 Points</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid var(--text-divider);">
-                        <td style="padding: 12px;">Core Game & Core Game Extension Chaos Cards</td>
-                        <td style="padding: 12px;">100 Points</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid var(--text-divider);">
-                        <td style="padding: 12px;">Expansion Chaos Cards</td>
-                        <td style="padding: 12px;">150 Points</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid var(--text-divider);">
-                        <td style="padding: 12px;">Singularity Expansion Chaos Cards</td>
-                        <td style="padding: 12px;">200 Points</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- SCORING: WINNING THE GAME SECTION -->
-    <div id="scoring-winning">
-        <h2>SCORING: WINNING THE GAME:</h2>
-        <div class="rules-box">
-            <div class="note-box">
-                <strong>NOTE:</strong> The number of Chaos Cards will speed up Points collection.
-            </div>
-            
-            <p><strong>OPTION 1: Standard Game:</strong> The winner is the first Player to reach 3,000 points.</p>
-            <ul>
-                <li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. So, keeping a set Score Target allows for faster “Scoring Wins” the more Players you have, speeding up total play time.</li>
-            </ul>
-
-            <p><strong>OPTION 2: Extended Game:</strong> The winner is the first Player to reach 3,000-7,000 points depending on the number of Players].</p>
-            <ul>
-                <li>Starting at 3,000 for 3 Players, increase the Victory Points required by 500 for every additional player [e.g.: 4 Players will be 3,500, 5 Players will be 4,000, 6 Players will be 4,500, etc... but keep a Maximum of 7,000 even if playing with more than the recommended maximum of 10 Players].</li>
-                <li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. However, for a serious game, increasing the Score Target allows for incrementally slower “Scoring Wins” the more Players you have, extending total play time.</li>
-            </ul>
-
-            <p><strong>OPTION 3: Last Player Standing:</strong> There is no winner for Rounds. As play continues and Players Go Out, they are permanently exited from the game until the last Player is left.</p>
-            <ul>
-                <li>A Point is given for every Player left in the game when you go out.</li>
-                <li>The Last Player Standing has Points deducted based on the Number of other Players in the Game.</li>
-            </ul>
-            <div class="note-box">
-                <strong>NOTE:</strong> Players cannot obtain a Negative Score.
-            </div>
-            <ul>
-                <li>Play continues until a Player Scores the Required Total [the recommendation is 3 x the Number of Players in the game].</li>
-            </ul>
-
-            <p><strong>TOURNAMENT:</strong> The first Player to reach one of the above Point requirements earns 1 Credit. Rounds progress until one Player earns a total of 3 Credits [for the truly devoted, you could always agree to a larger figure ahead of playing].</p>
-        </div>
-        <a href="#top" class="shortcut-link">🔝 Return to Index Matrix</a>
-    </div>
-
-    <!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->
+	<!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->
     <script is:inline>
         (function() {
             // 1. SERVICE WORKER REVALIDATION
