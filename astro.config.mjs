@@ -31,7 +31,7 @@ export default defineConfig({
         cleanupOutdatedCaches: true, // Forces old cached assets out when a new build drops
         skipWaiting: true,           // Kicks out the active stale worker immediately
         clientsClaim: true,          // Takes control of open tabs right away
-        globPatterns: ['**/*.{js,css,html,svg,png,jpg,pdf}']
+        globPatterns: ['**/*.{js,css,svg,png,jpg,pdf}']
       }
     })
   ]
