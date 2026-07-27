@@ -17,33 +17,13 @@ const gamesList = [
     folder: "00-soloverse-universal-notes",
     boxColor: "#b2b2b2", 
     files: [
-      { 
-        name: "Join Our Discord", 
-        file: "https://discord.gg/ShuxrtsX6s", 
-        version: "1-0-0", 
-        isWebPage: false,
-        // Standalone library-free Discord Icon
-        icon: <svg width="16" height="16" viewBox="0 0 127.14 96.36" fill="currentColor" style={{ marginRight: '8px', display: 'inline-block', alignSelf: 'center' }}><path d="M107.7,8.07A105.15,105.15,0,0,0,77.26,0a77.19,77.19,0,0,0-3.3,6.83A96.67,96.67,0,0,0,53.22,6.83,77.19,77.19,0,0,0,49.88,0,105.15,105.15,0,0,0,19.44,8.07C3.66,31.58-1.86,54.65,1,77.53A105.73,105.73,0,0,0,32,96.36a74.37,74.37,0,0,0,6.66-10.85A68.52,68.52,0,0,1,28.32,80.3c.87-.64,1.72-1.31,2.53-2a75.47,75.47,0,0,0,65.46,0c.81.69,1.66,1.36,2.53,2a68.43,68.43,0,0,1-10.35,5.21,74.52,74.52,0,0,0,6.66,10.85,105.47,105.47,0,0,0,31.07-18.83C129.87,50.22,123.81,27.35,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53S36.18,40.36,42.45,40.36,53.83,46,53.83,53,48.72,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.24,60,73.24,53S78.41,40.36,84.69,40.36,96.07,46,96.07,53,91,65.69,84.69,65.69Z"/></svg>
-      },
-      { 
-        name: "Facebook Page", 
-        file: "https://facebook.com/soloversegame", 
-        version: "1-0-0", 
-        isWebPage: false,
-        // Standalone library-free Facebook Icon
-        icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: '8px', display: 'inline-block', alignSelf: 'center' }}><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-      },
-      { 
-        name: "Instagram", 
-        file: "https://instagram.com/soloversegame", 
-        version: "1-0-0", 
-        isWebPage: false,
-        // Standalone library-free Instagram Icon
-        icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: '8px', display: 'inline-block', alignSelf: 'center' }}><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-      },
+      { name: "Join Our Discord", file: "https://discord.gg/ShuxrtsX6s", version: "1-0-0", isWebPage: false, iconType: "discord" },
+      { name: "Facebook Page", file: "https://facebook.com/soloversegame", version: "1-0-0", isWebPage: false, iconType: "facebook" },
+      { name: "Instagram", file: "https://instagram.com/soloversegame", version: "1-0-0", isWebPage: false, iconType: "instagram" },
       { name: "✉ Email", file: "mailto:soloversegame@gmail.com", version: "1-0-0", isWebPage: false }
     ]
   }
+];
   {
     title: "[01] Soloverse - Crazy 8's",
     folder: "01-soloverse-crazy-8s",
@@ -484,55 +464,63 @@ const upcomingGames = [
                         </h2>
                     </div>
                     
-				{/* RESTORED: Vital container hooks to stop compiler errors */}
-				<div class="box-contents">
-					<nav class="links-list">
-						{game.files.map((item, key) => {
-							// 1. PROTOCOL CHECK: Identify mailto or external absolute links
-							const isExternalProtocol = item.file.startsWith('mailto:') || item.file.startsWith('http');
+					{/* RESTORED: Vital container hooks to stop compiler errors */}
+					<div className="box-contents">
+						<nav className="links-list">
+							{game.files.map((item, key) => {
+								// 1. PROTOCOL CHECK: Identify mailto or external absolute links
+									const isExternalProtocol = item.file.startsWith('mailto:') || item.file.startsWith('http');
+	
+								let finalUrl;
 
-							let finalUrl;
+									if (isExternalProtocol) {
+									// If it's an email link or web protocol, pass it raw
+									finalUrl = item.file;
+								} else if (item.isWebPage) {
+									// 2. SMART WEB PAGE OVERRIDE: If the file has 'isWebPage: true', use your clean direct URL string instead!
+										finalUrl = item.file;
+								} else {
+									// 3. DEFAULT PDF ROUTE: If it's a standard PDF file, build the hidden hyphenated array path
+									const folderPathArray = ["", "rulebooks", game.folder, item.file + "-v" + item.version + ".pdf"];
+									finalUrl = folderPathArray.join('/');
+								}
 
-							if (isExternalProtocol) {
-								// If it's an email link or web protocol, pass it raw
-								finalUrl = item.file;
-							} else if (item.isWebPage) {
-								// 2. SMART WEB PAGE OVERRIDE: If the file has 'isWebPage: true', use your clean direct URL string instead!
-								finalUrl = item.file;
-							} else {
-								// 3. DEFAULT PDF ROUTE: If it's a standard PDF file, build the hidden hyphenated array path
-								const folderPathArray = ["", "rulebooks", game.folder, item.file + "-v" + item.version + ".pdf"];
-								finalUrl = folderPathArray.join('/');
-							}
+								return (
+									<div key={key} className="link-button-wrapper" style={{ width: "100%" }}>
+										<a 
+											href={finalUrl} 
+											className="rule-link universal-pdf-trigger" 
+											style={{
+												borderLeft: `3px solid ${game.boxColor}`, 
+												display: "flex", 
+												alignItems: "center", // Keeps vector icon inline and centered with text labels
+												width: "100%"
+											}}
+												target={isExternalProtocol && !item.file.startsWith('mailto:') ? "_blank" : undefined}
+											rel={isExternalProtocol ? "noopener noreferrer" : undefined}
+										>
+											{/* 4. DYNAMIC INLINE ICON CHECK */}
+											{item.iconType === 'discord' && (
+												<svg width="16" height="16" viewBox="0 0 127.14 96.36" fill="currentColor" style={{ marginRight: '8px', display: 'inline-block', shrink: 0 }}><path d="M107.7,8.07A105.15,105.15,0,0,0,77.26,0a77.19,77.19,0,0,0-3.3,6.83A96.67,96.67,0,0,0,53.22,6.83,77.19,77.19,0,0,0,49.88,0,105.15,105.15,0,0,0,19.44,8.07C3.66,31.58-1.86,54.65,1,77.53A105.73,105.73,0,0,0,32,96.36a74.37,74.37,0,0,0,6.66-10.85A68.52,68.52,0,0,1,28.32,80.3c.87-.64,1.72-1.31,2.53-2a75.47,75.47,0,0,0,65.46,0c.81.69,1.66,1.36,2.53,2a68.43,68.43,0,0,1-10.35,5.21,74.52,74.52,0,0,0,6.66,10.85,105.47,105.47,0,0,0,31.07-18.83C129.87,50.22,123.81,27.35,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53S36.18,40.36,42.45,40.36,53.83,46,53.83,53,48.72,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.24,60,73.24,53S78.41,40.36,84.69,40.36,96.07,46,96.07,53,91,65.69,84.69,65.69Z"/></svg>
+											)}
+											{item.iconType === 'facebook' && (
+												<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: '8px', display: 'inline-block', shrink: 0 }}><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+											)}
+											{item.iconType === 'instagram' && (
+												<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: '8px', display: 'inline-block', shrink: 0 }}><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+											)}
 
-							return (
-								<div key={key} class="link-button-wrapper" style={{ width: "100%" }}>
-									<a 
-										href={finalUrl} 
-										class="rule-link universal-pdf-trigger" 
-										style={{
-											borderLeft: `3px solid ${game.boxColor}`, 
-											display: "flex", 
-											alignItems: "center", // Ensures icon vertically aligns perfectly with text
-											width: "100%"
-										}}
-										target={isExternalProtocol && !item.file.startsWith('mailto:') ? "_blank" : undefined}
-										rel={isExternalProtocol ? "noopener noreferrer" : undefined}
-									>
-										{/* INJECT STANDALONE ICON SVG IF IT EXISTS */}
-										{item.icon && item.icon}
+											{item.name} 
                         
-										{item.name} 
-                        
-										<span style={{ marginLeft: "auto", fontSize: "0.75rem", opacity: 0.6, fontWeight: "normal", marginRight: "10px" }}>
-											v{item.version.replaceAll('-', '.')}
-										</span>
-									</a>
-								</div>
-							);
-						})}
-					</nav>
-				</div>
+											<span style={{ marginLeft: "auto", fontSize: "0.75rem", opacity: 0.6, fontWeight: "normal", marginRight: "10px" }}>
+												v{item.version.replaceAll('-', '.')}
+											</span>
+										</a>
+									</div>
+								);
+							})}
+						</nav>
+					</div>
                 </div>
             );
         })}
