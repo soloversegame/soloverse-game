@@ -486,8 +486,8 @@ const upcomingGames = [
                     </div>
                     
 				{/* RESTORED: Vital container hooks to stop compiler errors */}
-				<div className="box-contents">
-					<nav className="links-list">
+				<div class="box-contents">
+					<nav class="links-list">
 						{game.files.map((item, key) => {
 							// 1. PROTOCOL CHECK: Identify mailto or external absolute links
 							const isExternalProtocol = item.file.startsWith('mailto:') || item.file.startsWith('http');
@@ -507,10 +507,10 @@ const upcomingGames = [
 							}
 
 							return (
-								<div key={key} className="link-button-wrapper" style={{ width: "100%" }}>
+								<div key={key} class="link-button-wrapper" style={{ width: "100%" }}>
 									<a 
 										href={finalUrl} 
-										className="rule-link universal-pdf-trigger" 
+										class="rule-link universal-pdf-trigger" 
 										style={{
 											borderLeft: `3px solid ${game.boxColor}`, 
 											display: "flex", 
