@@ -10,6 +10,7 @@ const gamesList = [
       { name: "📖 Universal Game Notes", file: "/00-a-universal-game-notes", version: "4-0-0", isWebPage: true },
       { name: "🃏 Variations Rulebook", file: "/00-b-variations-rulebook", version: "4-0-0", isWebPage: true },
       { name: "🕹️ Patch Notes", file: "/00-c-patch-notes", version: "4-0-0", isWebPage: true },
+	  { name: "✉ Contact Us: Email", file: "mailto:soloversegame@gmail.com", version: "1-0-0". isWebPage: false }
     ]
   },
   {
@@ -454,13 +455,21 @@ const upcomingGames = [
                     <div class="box-contents">
                         <nav class="links-list">
                             {game.files.map((item) => {
-                                // 1. DEFAULT PDF ROUTE: If it's a standard PDF file, build the hidden hyphenated array path
-                                const folderPathArray = ["", "rulebooks", game.folder, item.file + "-v" + item.version + ".pdf"];
-                                let finalUrl = folderPathArray.join('/');
+                                // 1. PROTOCOL CHECK: Identify mailto or external absolute links
+                                const isExternalProtocol = item.file.startsWith('mailto:') || item.file.startsWith('http');
 
-                                // 2. SMART WEB PAGE OVERRIDE: If the file has 'isWebPage: true', use your clean direct URL string instead!
-                                if (item.isWebPage) {
+                                let finalUrl;
+
+                                if (isExternalProtocol) {
+                                    // If it's an email link or web protocol, pass it raw
                                     finalUrl = item.file;
+                                } else if (item.isWebPage) {
+                                    // 2. SMART WEB PAGE OVERRIDE: If the file has 'isWebPage: true', use your clean direct URL string instead!
+                                    finalUrl = item.file;
+                                } else {
+                                    // 3. DEFAULT PDF ROUTE: If it's a standard PDF file, build the hidden hyphenated array path
+                                    const folderPathArray = ["", "rulebooks", game.folder, item.file + "-v" + item.version + ".pdf"];
+                                    finalUrl = folderPathArray.join('/');
                                 }
             
                                 return (
@@ -469,6 +478,8 @@ const upcomingGames = [
                                             href={finalUrl} 
                                             class="rule-link universal-pdf-trigger" 
                                             style={`border-left: 3px solid ${game.boxColor}; display: flex; width: 100%;`}
+                                            target={isExternalProtocol && !item.file.startsWith('mailto:') ? "_blank" : undefined}
+                                            rel={isExternalProtocol ? "noopener noreferrer" : undefined}
                                         >
                                             {item.name} 
                                             <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal; margin-right: 10px;">
