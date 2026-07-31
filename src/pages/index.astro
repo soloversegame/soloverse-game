@@ -121,7 +121,18 @@ const upcomingGames = [
     <meta name="theme-color" content="#0f1015" />
 
     <style>
-        /* ==========================================================================
+		/* ==========================================================================
+			Add your stationary background here using :global()
+           ========================================================================== */
+		   :global(body) {
+			background-image: url('/assets/images/layouts/soloverse-logo.png');
+			background-attachment: fixed; 
+			background-position: center; 
+			background-repeat: no-repeat; 
+			background-size: contain; 
+		}
+
+		/* ==========================================================================
            AUTOMATED TABLET & WIDESCREEN RESPONSIVE ENGINE
            ========================================================================== */
 
