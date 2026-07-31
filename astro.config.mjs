@@ -6,7 +6,7 @@ export default defineConfig({
   trailingSlash: 'never',
   integrations: [
     AstroPWA({
-      selfDestroying: true, // <--- Add this exact line right here!
+      selfDestroying: false, // <--- Add this exact line right here!
       registerType: 'autoUpdate',
       manifest: {
         name: 'Soloverse Rulebook Vault',
