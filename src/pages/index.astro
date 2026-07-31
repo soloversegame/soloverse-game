@@ -437,26 +437,67 @@ const upcomingGames = [
             letter-spacing: 0.05em;
             margin-top: 15px;
         }
+        .image-container {
+            margin: 20px auto;
+            padding: 12px;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            text-align: center;
+            max-width: 100%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 450px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid var(--text-divider);
+        }
+        .image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
+        .image-row-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px);
+            min-width: 220px;
+            margin: 0;
+        }
     </style>
 
 </head>
 <body>
-
-		<div class="image-container">
-			<img 
-				src="/assets/images/layouts/soloverse-ring.png" 
-				alt="Soloverse Deck-Builder Game Setup Grid Diagram" 
-				loading="lazy"
-			/>
-			<div class="image-caption">Figure 1: Grid configuration for the 4 Trade Rows, 4 Tiered Decks, and Chaos Level Stacks.</div>
-		</div>
 
 		<!-- THE REACTIVE THEME & ROTATION OPTION INTERFACE CONTROLLER BUTTONS -->
     <div class="theme-toggle-container">
         <button id="theme-toggle-btn" class="theme-btn">☀️ Light Mode</button>
     </div>
 	
-    <h1>Soloverse Rulebook Hub</h1>
+		<div class="image-container">
+			<img
+				src="/assets/images/layouts/soloverse-ring.png" 
+				alt="Centred Image"
+				loading="lazy"
+			/>
+		</div>
+
+		<h1>Soloverse Rulebook Hub</h1>
     <p class="subtitle">Select a Game Variant below to stream live, iOS-friendly interactive document layers.</p>
 
     <div class="grid">
