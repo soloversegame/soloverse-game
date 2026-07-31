@@ -120,29 +120,16 @@ const upcomingGames = [
     <!-- 2. Force the mobile address bar and theme layers to adapt to your dark game profile -->
     <meta name="theme-color" content="#0f1015" />
 
-    <style is:global>
-		/* 1. Ensure the root elements are full height and transparent */
-		:global(html), :global(body) {
-			height: 100%;
-			min-height: 100vh;
-			margin: 0;
-			padding: 0;
-			background-color: transparent;
-		}
-
-		/* 2. Set your stationary logo background safely on the body */
-		:global(body) {
-			background-image: url('/assets/images/layouts/soloverse-logo.png');
-			background-attachment: fixed; 
-			background-position: center; 
-			background-repeat: no-repeat; 
-			background-size: contain; 
-		}
-
-		/* 3. Force the main page wrappers to be transparent so the logo peeks through */
-		:global(main), :global(#root), :global(.page-wrapper) {
-			background: transparent !important;
-			background-color: transparent !important;
+    <style>
+		/* ==========================================================================
+			Add your stationary background here using :global()
+           ========================================================================== */
+		   :global(body) {
+				background-image: url('/assets/images/layouts/soloverse-logo.png');
+				background-attachment: fixed; 
+				background-position: center; 
+				background-repeat: no-repeat; 
+				background-size: contain; 
 		}
 
 		/* ==========================================================================
@@ -287,31 +274,15 @@ const upcomingGames = [
             --shadow-card: rgba(0, 0, 0, 0.1);
         }
 
-        html {
-            height: 100%;
-            min-height: 100vh;
-            background-color: transparent;
-        }
-		
         body {
             font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg-main);
             color: var(--text-secondary);
             max-width: 900px;
             margin: 40px auto;
             padding: 20px;
             transition: background 0.3s, color 0.3s;
-
-            /* 1. Use background-color instead of background to protect the layers */
-            background-color: var(--bg-main); 
-
-            /* 2. Safely apply the static Soloverse logo directly on top of the background color */
-            background-image: url('/assets/images/layouts/soloverse-logo.png');
-            background-attachment: fixed; 
-            background-position: center; 
-            background-repeat: no-repeat; 
-            background-size: contain; 
         }
-		
         h1 {
             text-align: center;
             color: var(--text-primary);
@@ -528,6 +499,14 @@ const upcomingGames = [
     <div class="theme-toggle-container">
         <button id="theme-toggle-btn" class="theme-btn">☀️ Light Mode</button>
     </div>
+	
+		<div class="image-container">
+			<img
+				src="/assets/images/layouts/soloverse-logo.png" 
+				alt="Centred Image"
+				loading="lazy"
+			/>
+		</div>
 
 		<h1>Soloverse Rulebook Hub</h1>
     <p class="subtitle">Select a Game Variant below to stream live, iOS-friendly interactive document layers.</p>
