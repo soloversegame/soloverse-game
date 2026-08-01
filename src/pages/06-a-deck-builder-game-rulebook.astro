@@ -506,13 +506,13 @@
         .expansion-row {
             display: flex;
             flex-direction: column; /* Stacks name and description cleanly on mobile screens */
-            justify-content: space-between;
             padding: 10px 14px;
             background: var(--bg-main-box);
             border: 1px solid var(--text-divider);
             border-radius: 8px;
             gap: 4px;
-        }
+			margin-bottom: 12px; /* Optional: adds a gap between each box */
+		}
 
         .expansion-name {
             font-weight: 700;
@@ -586,46 +586,46 @@
 					<p class="expansion-desc">[1 x Colour & Moderate Chaos Cards]</p>
 					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</p>
 		        </div>
-				<li class="expansion-row">
+				<div class="expansion-row">
 					<p class="expansion-name">🚀 Core Booster Pack</p>
 					<p class="expansion-desc">[Extra Copy of Most Core/Extension Chaos Cards]</p>
 					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</p>
-        		</li>
-        		<li class="expansion-row">
-            		<span class="expansion-name">💥 Apocalypse Expansion</span>
-            		<span class="expansion-desc">[Chaos Draw +2 & +3]</span>
-					<span class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</span>
-        		</li>
-        		<li class="expansion-row">
-            		<span class="expansion-name">🌋 Devastation Expansion</span>
-            		<span class="expansion-desc">[Chaos Draw +5/+10]</span>
-					<span class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</span>
-        		</li>
-        		<li class="expansion-row">
-            		<span class="expansion-name">🛡️ Oblivion Expansion</span>
-            		<span class="expansion-desc">[Royal Knights]</span>
-					<span class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> Choose whether to include the Revealing Trap Class Chaos Card. Then just add to the Deck before initial Shuffling and Dealing.]</span>
-        		</li>
-        		<li class="expansion-row">
-            		<span class="expansion-name">🌀 Singularity Expansion</span>
-            		<span class="expansion-desc">[SOL / OVE / RSE]</span>
-					<span class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> Choose whether to include the Revealing Trap Class Chaos Card. Then just add to the Deck before initial Shuffling and Dealing. <strong>TIP:</strong> Shuffle the 3 SOL/OVE/RSE cards into the Deck separately to each other to avoid Drawing more than 1 of them in succession.]</span>
-        		</li>
-        		<li class="expansion-row">
-            		<span class="expansion-name">⚠️ Crisis Expansion</span>
-            		<span class="expansion-desc">[Crisis]</span>
-					<span class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> Add 1 x Crisis Trap Class Chaos Card for each Player + 1 extra to the Deck before initial Shuffling and Dealing. Then choose a Special Victory Condition before starting.]</span>
-        		</li>
-        		<li class="expansion-row">
-            		<span class="expansion-name">☣️ Contagion Expansion</span>
-            		<span class="expansion-desc">[Super Poison]</span>
-					<span class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</span>
-        		</li>
-        		<li class="expansion-row">
-            		<span class="expansion-name">🕊️ Containment Expansion</span>
-            		<span class="expansion-desc">[Super Mercy]</span>
-					<span class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</span>
-        		</li>
+        		</div>
+        		<div class="expansion-row">
+            		<p class="expansion-name">💥 Apocalypse Expansion</p>
+            		<p class="expansion-desc">[Chaos Draw +2 & +3]</p>
+					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</p>
+        		</div>
+        		<div class="expansion-row">
+            		<p class="expansion-name">🌋 Devastation Expansion</p>
+            		<p class="expansion-desc">[Chaos Draw +5/+10]</p>
+					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</p>
+        		</div>
+        		<div class="expansion-row">
+            		<p class="expansion-name">🛡️ Oblivion Expansion</p>
+            		<p class="expansion-desc">[Royal Knights]</p>
+					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> Choose whether to include the Revealing Trap Class Chaos Card. Then just add to the Deck before initial Shuffling and Dealing.]</p>
+        		</div>
+        		<div class="expansion-row">
+            		<p class="expansion-name">🌀 Singularity Expansion</p>
+            		<p class="expansion-desc">[SOL / OVE / RSE]</p>
+					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> Choose whether to include the Revealing Trap Class Chaos Card. Then just add to the Deck before initial Shuffling and Dealing. <strong>TIP:</strong> Shuffle the 3 SOL/OVE/RSE cards into the Deck separately to each other to avoid Drawing more than 1 of them in succession.]</p>
+        		</div>
+        		<div class="expansion-row">
+            		<p class="expansion-name">⚠️ Crisis Expansion</p>
+            		<p class="expansion-desc">[Crisis]</p>
+					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> Add 1 x Crisis Trap Class Chaos Card for each Player + 1 extra to the Deck before initial Shuffling and Dealing. Then choose a Special Victory Condition before starting.]</p>
+        		</div>
+        		<div class="expansion-row">
+            		<p class="expansion-name">☣️ Contagion Expansion</p>
+            		<p class="expansion-desc">[Super Poison]</p>
+					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</p>
+        		</div>
+        		<div class="expansion-row">
+            		<p class="expansion-name">🕊️ Containment Expansion</p>
+            		<p class="expansion-desc">[Super Mercy]</p>
+					<p class="additional-setup-rules">[<strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.]</p>
+        		</div>
         	</div>
 			<div class="return-link-wrapper">
 				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
