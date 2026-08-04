@@ -209,20 +209,17 @@
             padding-bottom: 8px;
             margin-bottom: 5px;
         }
-        h4.card-title {
+        h4:global(.card-title) {
             font-size: 1.35rem;
-            color: var(--colour-card-title);
+            color: var(--color-card-title);
             margin: 0;
             font-weight: 700;
-            letter-spacing: -0.01em;
         }
-        .card-class-info {
+
+        :global(.card-class-info) {
             font-size: 0.88rem;
-            color: var(--colour-card-class);
+            color: var(--color-card-class);
             font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.02em;
-            margin-top: 2px;
         }
 
         /* Paragraphs and Core List Formats */
