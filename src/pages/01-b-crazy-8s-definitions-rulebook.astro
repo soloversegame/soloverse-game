@@ -387,10 +387,45 @@
             gap: 12px;
         }
 		
-		/* Hierarchical Indentation Modifiers inside the Matrix Grid */
+        /* Sub-grid variant used by the contents matrix on this page only */
+        .matrix-toc-sub-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            align-items: start;
+        }
+
+        /* Matrix items styled as compact cards for denser layout (scoped to sub-grid) */
+        .matrix-toc-sub-grid > li {
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            padding: 10px 12px;
+            border-radius: 8px;
+            box-shadow: none;
+        }
+
+        /* Scoped link styles so other uses of .matrix-link aren't affected */
+        .matrix-toc-sub-grid .matrix-link {
+            display: block;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.12s ease-in-out;
+        }
+
+        .matrix-toc-sub-grid .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+            transform: translateY(-2px);
+        }
+
+        /* Hierarchical modifiers — keep original behavior but compact */
         .matrix-item-heading { padding-left: 0px; font-weight: 700; }
-        .matrix-item-subheading { padding-left: 15px; font-weight: 600; }
-        .matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
+        .matrix-item-subheading { padding-left: 8px; font-weight: 600; font-size: 0.95rem; }
+        .matrix-item-card { padding-left: 12px; font-weight: 500; font-style: italic; font-size: 0.9rem; }
 
         .matrix-link {
             color: var(--text-muted);
@@ -538,158 +573,640 @@
 </head>
 <body id="top">
 
-	<a href="/" class="back-link">📂 Return to Shelf Deck</a>
+    <nav class="platform-hub-nav" aria-label="Platform Navigation">
+        <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
+    </nav>
 
     <h1>[01-A] SOLOVERSE - CRAZY 8’s</h1>
     <div class="meta-tag">[DEFINITIONS RULEBOOK] • 👥 Ages 7+, 3-10 Players • v14.0.0</div>
 
     <!-- INDEX JUMP MATRIX -->
     <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
-        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
-        <ul class="matrix-toc-grid">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
+        <ul class="matrix-toc-sub-grid">
             <li class="matrix-item-heading">
-				<a href="#all-action-class" class="matrix-link">ALL: ACTION CLASS</a>
+				<a href="#a" class="matrix-link">A</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-a" class="matrix-link">ALL: A</a>
+				<a href="#b" class="matrix-link">B</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-b" class="matrix-link">ALL: B</a>
+				<a href="#c" class="matrix-link">C</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#chaos-draw-4" class="matrix-link">ALL: CHAOS DRAW +2</a>
+				<a href="#d" class="matrix-link">D</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#chaos-draw-4" class="matrix-link">ALL: CHAOS DRAW +3</a>
+				<a href="#e" class="matrix-link">E</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#chaos-draw-4" class="matrix-link">ALL: CHAOS DRAW +4</a>
+				<a href="#f" class="matrix-link">F</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#chaos-draw-4" class="matrix-link">ALL: CHAOS DRAW +5</a>
+				<a href="#g" class="matrix-link">G</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#chaos-draw-4" class="matrix-link">ALL: CHAOS DRAW +10</a>
+				<a href="#h" class="matrix-link">H</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-c" class="matrix-link">ALL: C</a>
+				<a href="#i" class="matrix-link">I</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-d" class="matrix-link">ALL: D</a>
+				<a href="#j" class="matrix-link">J</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-e" class="matrix-link">ALL: E</a>
+				<a href="#k" class="matrix-link">K</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-f" class="matrix-link">ALL: F</a>
+				<a href="#l" class="matrix-link">L</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-g" class="matrix-link">ALL: G</a>
+				<a href="#m" class="matrix-link">M</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-h" class="matrix-link">ALL: H</a>
+				<a href="#n" class="matrix-link">N</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-i" class="matrix-link">ALL: I</a>
+				<a href="#o" class="matrix-link">O</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-j" class="matrix-link">ALL: J</a>
+				<a href="#p" class="matrix-link">P</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-k" class="matrix-link">ALL: K</a>
+				<a href="#q" class="matrix-link">Q</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#all-l" class="matrix-link">ALL: L</a>
+				<a href="#r" class="matrix-link">R</a>
 			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-m" class="matrix-link">ALL: M</a>
+             <li class="matrix-item-heading">
+				<a href="#s" class="matrix-link">S</a>
 			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-n" class="matrix-link">ALL: N</a>
+             <li class="matrix-item-heading">
+				<a href="#t" class="matrix-link">T</a>
 			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-o" class="matrix-link">ALL: O</a>
+             <li class="matrix-item-heading">
+				<a href="#u" class="matrix-link">U</a>
 			</li>
-			<li class="matrix-item-heading">
-				<a href="#pure-chaos" class="matrix-link">ALL: PURE CHAOS</a>
+             <li class="matrix-item-heading">
+				<a href="#v" class="matrix-link">V</a>
 			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-p" class="matrix-link">ALL: P</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-q" class="matrix-link">ALL: Q</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-r" class="matrix-link">ALL: R</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-s" class="matrix-link">ALL: S</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-t" class="matrix-link">ALL: T</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-u" class="matrix-link">ALL: U</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-v" class="matrix-link">ALL: V</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-w" class="matrix-link">ALL: W</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-x" class="matrix-link">ALL: X</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-y" class="matrix-link">ALL: Y</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#all-z" class="matrix-link">ALL: Z</a>
+             <li class="matrix-item-heading">
+				<a href="#w" class="matrix-link">W</a>
 			</li>
         </ul>
     </nav>
-
-    <!-- CORE COLOURED SETS ENGINE INDICATORS -->
-    <div id="core-colours-framework">
-        <div class="rules-box">
-            <h2>CORE GAME COLOURED SETS</h2>
-            <p>For architectural continuity across the card vault platform, these are the visual engine indicators for the 6 core deck colours referenced throughout this rulebook :</p>
-            
-            <div class="image-container border-steel">
-                <img src="/assets/images/cards/000-1-steel-0.png" alt="Steel Core Set Game Preview" />
-                <div class="image-caption">Steel (Dark Blue Base Set Frame Layout) </div>
-            </div>
-            
-            <div class="image-container border-stinger-core">
-                <img src="/assets/images/cards/000-5-stinger-5.png" alt="Stinger Core Game Set Preview" />
-                <div class="image-caption">Stinger (Yellow Base Set Frame Layout) </div>
-            </div>
-            
-            <div class="image-container border-toxin-core">
-                <img src="/assets/images/cards/000-4-toxin-4.png" alt="Toxin Core Game Set Preview" />
-                <div class="image-caption">Toxin (Dark Green Base Set Frame Layout) </div>
-            </div>
-
-            <div class="image-container border-poison-core">
-                <img src="/assets/images/cards/000-12-poison-reverse.png" alt="Poison Core Game Set Preview" />
-                <div class="image-caption">Poison (Dark Purple Base Set Frame Layout) </div>
-            </div>
-            
-            <div class="image-container border-venom-core">
-                <img src="/assets/images/cards/000-9-venom-9.png" alt="Venom Core Game Set Preview" />
-                <div class="image-caption">Venom (Red Base Set Frame Layout) </div>
-            </div>
-            
-            <div class="image-container border-carbon">
-                <img src="/assets/images/cards/000-6-carbon-6.png" alt="Carbon Core Extension Set Preview" />
-                <div class="image-caption">Carbon (Orange Base Set Frame Layout) </div>
-            </div>
-		</div>
-
+    
+    <!-- SUB-INDEX JUMP MATRIX A -->
+    <div id="a"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents A">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: A</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#ancient-inversion" class="matrix-link">ANCIENT INVERSION [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#ancient-war" class="matrix-link">ANCIENT WAR [INSTANT TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#anti-fun" class="matrix-link">ANTI-FUN [COUNTER CLASS LV1]</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibiotic-1" class="matrix-link">ANTIBIOTIC -1</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibiotic-2" class="matrix-link">ANTIBIOTIC -2</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibiotic-3" class="matrix-link">ANTIBIOTIC -3</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibiotic-5" class="matrix-link">ANTIBIOTIC -5</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibody-1" class="matrix-link">ANTIBODY -1</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibody-2" class="matrix-link">ANTIBODY -2</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibody-3" class="matrix-link">ANTIBODY -3</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#antibody-5" class="matrix-link">ANTIBODY -5</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#assassin" class="matrix-link">ASSASSIN [INSTANT TRAP CLASS]</a>
+			</li>
+        </ul>
         <div class="return-link-wrapper">
             <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
         </div>
-    </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX B -->
+    <div id="b"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents B">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: B</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#badge-collector" class="matrix-link">BADGE COLLECTOR</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#black-hole" class="matrix-link">BLACK HOLE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#black-knight" class="matrix-link">BLACK KNIGHT [ROYAL KNIGHT CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#bodyguard" class="matrix-link">BODYGUARD [COUNTER CLASS LV1]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX C -->
+    <div id="c"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents C">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: C</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#call-of-the-soloverse" class="matrix-link">CALL OF THE SOLOVERSE [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#chaos-draw-2" class="matrix-link">CHAOS DRAW +2</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#chaos-draw-3" class="matrix-link">CHAOS DRAW +3</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#chaos-draw-4" class="matrix-link">CHAOS DRAW +4</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#chaos-draw-5" class="matrix-link">CHAOS DRAW +5</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#chaos-draw-10" class="matrix-link">CHAOS DRAW +10</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#clone" class="matrix-link">CLONE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#coloured-extensions" class="matrix-link">COLOURED EXTENSIONS</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#contagion" class="matrix-link">CONTAGION +5 +2 [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#crisis" class="matrix-link">CRISIS [CRISIS CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#cyclone" class="matrix-link">CYCLONE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#cure" class="matrix-link">CURE [COUNTER CLASS LV1]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX D -->
+    <div id="d"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents D">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: D</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#discard-colour" class="matrix-link">DISCARD COLOUR</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-chaos-cards" class="matrix-link">DISCARD CHAOS CARDS</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-amethyst" class="matrix-link">DISCARD AMETHYST</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-carbon" class="matrix-link">DISCARD CARBON</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-diamond" class="matrix-link">DISCARD DIAMOND</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-emerald" class="matrix-link">DISCARD EMERALD</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-oak" class="matrix-link">DISCARD OAK</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-poison" class="matrix-link">DISCARD POISON</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-redwood" class="matrix-link">DISCARD REDWOOD</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-rose" class="matrix-link">DISCARD ROSE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-steelf class="matrix-link">DISCARD STEEL</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-stinger" class="matrix-link">DISCARD STINGER</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-stone" class="matrix-link">DISCARD STONE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-toxin" class="matrix-link">DISCARD TOXIN</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-venom" class="matrix-link">DISCARD VENOM</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#double-edged" class="matrix-link">DOUBLE EDGED</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#double-under" class="matrix-link">DOUBLE UNDER</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#draw-2" class="matrix-link">DRAW +2 [ACTION CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#duplication-stone" class="matrix-link">DUPLICATION STONE [ANCIENT STONE CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX E -->
+    <div id="e"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents E">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: E</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#elegant-generosity" class="matrix-link">ELEGANT GENEROUSITY</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#eliminator" class="matrix-link">ELIMINATOR [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#elixir" class="matrix-link">ELIXIR [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#epidemic" class="matrix-link">EPIDEMIC +3 [TRAP CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX F -->
+    <div id="f"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents F">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: F</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#field-of-addition" class="matrix-link">FIELD OF ADDITION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-of-deception" class="matrix-link">FIELD OF DECEPTION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-of-escalation" class="matrix-link">FIELD OF ESCALATION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-of-normalisation" class="matrix-link">FIELD OF NORMALISATION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-of-reduction" class="matrix-link">FIELD OF REDUCTION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-of-replication" class="matrix-link">FIELD OF REPLICATION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-of-subtraction" class="matrix-link">FIELD OF SUBTRACTION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-of-succession" class="matrix-link">FIELD OF SUCCESSION [FIELD CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#field-transformation" class="matrix-link">FIELD TRANSFORMATION [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#foresight" class="matrix-link">FORESIGHT [TRAP CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX G -->
+    <div id="g"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents G">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: G</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#genetic-manipulation" class="matrix-link">GENETIC MANIPULATION</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX I -->
+    <div id="i"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents I">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: I</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#illumination-stone" class="matrix-link">ILLUMINATION STONE [ANCIENT STONE CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX J -->
+    <div id="j"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents J">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: J</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#jacks-knight" class="matrix-link">JACK'S KNIGHT [ROYAL KNIGHT CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX K -->
+    <div id="k"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents K">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: K</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#kings-knight" class="matrix-link">KING'S KNIGHT [ROYAL KNIGHT CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX L -->
+    <div id="l"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents L">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: L</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#lucky" class="matrix-link">LUCKY [INSTANT TRAP CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX M -->
+    <div id="m"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents M">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: M</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#mercy" class="matrix-link">MERCY [INSTANT TRAP CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX M -->
+    <div id="m"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents N">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: N</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#not-me" class="matrix-link">NOT ME [COUNTER CLASS LV3]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#nou" class="matrix-link">NOU [COUNTER CLASS LV2]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX N -->
+    <div id="n"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents P">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: P</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#paradigm-shift" class="matrix-link">PARADIGM SHIFT</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#pathogen" class="matrix-link">PATHOGEN +2 [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#poison" class="matrix-link">POISON +3 [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#poison-st" class="matrix-link">POISON +3 ST [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#project-insight" class="matrix-link">PROJECT INSIGHT</a>
+			</li>
+			<li class="matrix-item-heading">
+				<a href="#pure-chaos" class="matrix-link">PURE CHAOS</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX P -->
+    <div id="p"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Q">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: Q</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#queen-s-knight" class="matrix-link">QUEEN'S KNIGHT [ROYAL KNIGHT CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX R -->
+    <div id="r"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents R">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: R</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#recycle" class="matrix-link">RECYCLE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#replication-stone" class="matrix-link">REPLICATION STONE [ANCIENT STONE CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#resurrection" class="matrix-link">RESURRECTION [INSTANT TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#reverse" class="matrix-link">REVERSE [ACTION CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#reverse-stun" class="matrix-link">REVERSE STUN</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#roulette" class="matrix-link">ROULETTE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#royal-knights-call-to-arms" class="matrix-link">ROYAL KNIGHTS - CALL TO ARMS [TRAP CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX S -->
+    <div id="s"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents S">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: S</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#scavenger" class="matrix-link">SCAVENGER</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#skip" class="matrix-link">SKIP [ACTION CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#slap" class="matrix-link">SLAP</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#snap" class="matrix-link">SNAP</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#soloversal-destruction" class="matrix-link">SOLOVERSAL DESTRUCTION [INSTANT TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#soloverse-1-of-3-sol" class="matrix-link">SOLOVERSE 1 OF 3: SOL [UNIFICATION CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#soloverse-2-of-3-ove" class="matrix-link">SOLOVERSE 2 OF 3: OVE [UNIFICATION CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#soloverse-3-of-3-rse" class="matrix-link">SOLOVERSE 3 OF 3: RSE [UNIFICATION CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#state-of-flux" class="matrix-link">STATE OF FLUX</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#stinger" class="matrix-link">STINGER +1 [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#stinger-st" class="matrix-link">STINGER +1 ST [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#steal-turn" class="matrix-link">STEAL TURN</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#stun" class="matrix-link">STUN</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#substitution-stone" class="matrix-link">SUBSTITUTION STONE [ANCIENT STONE CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX T -->
+    <div id="t"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents T">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: T</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#teleportation-stone" class="matrix-link">TELEPORTATION STONE [ANCIENT STONE CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#toxin" class="matrix-link">TOXIN +5 [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#toxin-st" class="matrix-link">TOXIN +5 ST [TRAP CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX U -->
+    <div id="u"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents U">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: U</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#united-we-fall" class="matrix-link">UNITED WE FALL</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#unrestriction-stone" class="matrix-link">UNRESTRICTION STONE [ANCIENT STONE CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX V -->
+    <div id="v"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents V">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: V</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#vaccine" class="matrix-link">VACCINE</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#venom" class="matrix-link">VENOM +2 [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#venom-st" class="matrix-link">VENOM +2 ST [TRAP CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#virus" class="matrix-link">VIRUS +1 [TRAP CLASS]</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
+
+    <!-- SUB-INDEX JUMP MATRIX W -->
+    <div id="w"></div>
+    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents W">
+        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: W</h2>
+        <ul class="matrix-toc-grid">
+            <li class="matrix-item-heading">
+				<a href="#white-hole" class="matrix-link">WHITE HOLE</a>
+			</li>
+        </ul>
+        <div class="return-link-wrapper">
+            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+        </div>
+    </nav>
 
     <div id="top"></div>
 
