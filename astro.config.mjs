@@ -6,7 +6,7 @@ export default defineConfig({
   trailingSlash: 'never',
   integrations: [
     AstroPWA({
-      selfDestroying: false, // <--- Add this exact line right here!
+      selfDestroying: false,
       registerType: 'autoUpdate',
       manifest: {
         name: 'Soloverse Rulebook Vault',
@@ -14,7 +14,7 @@ export default defineConfig({
         description: 'Instant tabletop rulebook stream and variant index layers',
         theme_color: '#0f1015',
         background_color: '#0f1015',
-        display: 'standalone', // Hides all mobile browser address bars!
+        display: 'standalone',
         icons: [
           {
             src: '/icon-192.png',
@@ -29,10 +29,25 @@ export default defineConfig({
         ]
       },
       workbox: {
-        cleanupOutdatedCaches: true, // Forces old cached assets out when a new build drops
-        skipWaiting: true,           // Kicks out the active stale worker immediately
-        clientsClaim: true,          // Takes control of open tabs right away
-        globPatterns: ['**/*.{js,css,svg,png,jpg,pdf}']
+        cleanupOutdatedCaches: true,
+        skipWaiting: true,
+        clientsClaim: true,
+        // CRITICAL FIX: Added 'html' so the app shell and pages cache locally
+        globPatterns: ['**/*.{html,js,css,svg,png,jpg,pdf}'],
+        // OPTIONAL: Strategy for external API data or live streams
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith('/api/') || url.origin !== self.location.origin,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'api-data-cache',
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 60 * 60 * 24 * 7 // 1 week
+              }
+            }
+          }
+        ]
       }
     })
   ]
