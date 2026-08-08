@@ -6,7 +6,7 @@ export default defineConfig({
   trailingSlash: 'never',
   integrations: [
     AstroPWA({
-      selfDestroying: false,
+      selfDestroying: true,
       registerType: 'autoUpdate',
       injectRegister: 'inline', // Safely injects the registration script
       manifest: {
