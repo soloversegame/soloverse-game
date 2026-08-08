@@ -6,16 +6,5 @@ self.addEventListener('install', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
-  const url = new URL(e.request.url);
-
-  // CRITICAL FIX: Bypass cache completely for static PDF files
-  if (url.pathname.endsWith('.pdf')) {
-    return; 
-  }
-
-  e.respondWith(
-    caches.match(e.request).then((res) => {
-      return res || fetch(e.request);
-    })
-  );
+  e.respondWith(caches.match(e.request).then((res) => res || fetch(e.request)));
 });
