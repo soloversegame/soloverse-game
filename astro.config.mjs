@@ -6,9 +6,8 @@ export default defineConfig({
   trailingSlash: 'never',
   integrations: [
     AstroPWA({
-      selfDestroying: true,
+      selfDestroying: false,
       registerType: 'autoUpdate',
-      injectRegister: 'inline', // Safely injects the registration script
       manifest: {
         name: 'Soloverse Rulebook Vault',
         short_name: 'Soloverse',
@@ -34,32 +33,16 @@ export default defineConfig({
         skipWaiting: true,
         clientsClaim: true,
         // CRITICAL FIX: Added 'html' so the app shell and pages cache locally
-        globPatterns: ['**/*.{html,js,css,svg,png,jpg,pdf,webmanifest,json}'],
+        globPatterns: ['**/*.{html,js,css,svg,png,jpg,pdf}'],
         // OPTIONAL: Strategy for external API data or live streams
-
-        // CRITICAL FIX: Direct Workbox to allow direct navigation to PDF files
-        // This stops the PWA from treating the PDF link as an Astro web route
-        navigateFallbackDenylist: [/.*\.pdf$/],
-
         runtimeCaching: [
           {
-            urlPattern: ({ url }) => url.pathname.endsWith('.pdf'),
-            handler: 'NetworkFirst', // Tries network first so updates pull instantly from Vercel
-            options: {
-              cacheName: 'soloverse-pdf-cache',
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 30 // Cache for 30 days maximum
-              }
-            }
-          },
-          {
-          urlPattern: ({ url }) => url.pathname.startsWith('/api/') || url.origin !== self.location.origin,
-            handler: 'NetworkFirst', // Tries network first so updates pull instantly from Vercel
+            urlPattern: ({ url }) => url.pathname.startsWith('/api/') || url.origin !== self.location.origin,
+            handler: 'NetworkFirst',
             options: {
               cacheName: 'api-data-cache',
               expiration: {
-                maxEntries: 10,
+                maxEntries: 50,
                 maxAgeSeconds: 60 * 60 * 24 * 7 // 1 week
               }
             }
