@@ -807,6 +807,9 @@
 				<a href="#clone" class="matrix-link">CLONE</a>
 			</li>
             <li class="matrix-item-heading">
+				<a href="#coloured-draw-2" class="matrix-link">DRAW +2 [ACTION CLASS]</a>
+			</li>
+            <li class="matrix-item-heading">
 				<a href="#contagion" class="matrix-link">CONTAGION +5 +2 [TRAP CLASS]</a>
 			</li>
             <li class="matrix-item-heading">
@@ -830,16 +833,16 @@
         <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: D</h2>
         <ul class="matrix-toc-grid">
             <li class="matrix-item-heading">
-				<a href="#discard-colour" class="matrix-link">DISCARD COLOUR</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#discard-chaos-cards" class="matrix-link">DISCARD CHAOS CARDS</a>
+				<a href="#discard-acid" class="matrix-link">DISCARD ACID [TRAP CLASS]</a>
 			</li>
             <li class="matrix-item-heading">
 				<a href="#discard-amethyst" class="matrix-link">DISCARD AMETHYST [TRAP CLASS]</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#discard-carbon" class="matrix-link">DISCARD CARBON [TRAP CLASS]</a>
+				<a href="#discard-colour" class="matrix-link">DISCARD COLOUR</a>
+			</li>
+            <li class="matrix-item-heading">
+				<a href="#discard-chaos-cards" class="matrix-link">DISCARD CHAOS CARDS</a>
 			</li>
             <li class="matrix-item-heading">
 				<a href="#discard-diamond" class="matrix-link">DISCARD DIAMOND [TRAP CLASS]</a>
@@ -860,7 +863,7 @@
 				<a href="#discard-rose" class="matrix-link">DISCARD ROSE [TRAP CLASS]</a>
 			</li>
             <li class="matrix-item-heading">
-				<a href="#discard-steel" class="matrix-link">DISCARD STEEL [TRAP CLASS]</a>
+				<a href="#discard-plague" class="matrix-link">DISCARD PLAGUE [TRAP CLASS]</a>
             </li>
             <li class="matrix-item-heading">
 				<a href="#discard-stinger" class="matrix-link">DISCARD STINGER [TRAP CLASS]</a>
@@ -879,9 +882,6 @@
 			</li>
             <li class="matrix-item-heading">
 				<a href="#double-under" class="matrix-link">DOUBLE UNDER</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#draw-2" class="matrix-link">DRAW +2 [ACTION CLASS]</a>
 			</li>
             <li class="matrix-item-heading">
 				<a href="#duplication-stone" class="matrix-link">DUPLICATION STONE [ANCIENT STONE CLASS]</a>
@@ -3421,6 +3421,35 @@
         </div>
     </div>
 
+    <div id="coloured-draw-2">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">COLOURED DRAW 2 [x2 Per Colour]:</h4>
+                <div class="card-class-info">Core Game, Core Extension & Coloured Extensions | Action & Offensive Class | Next Targeting | Stackable</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Acts as Draw +2.</li>
+                </ul>
+            </div>
+            <ol type="1">
+                <li>The Next Player MUST Draw 2 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+            </ol>
+            <div class="compatibility-box">
+                <strong>COMPATIBILITY NOTE:</strong>
+                <ul>
+                    <li>CAN be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+
     <div id="contagion">
         <div class="rules-box">
             <div class="card-header-block">
@@ -3497,12 +3526,12 @@
                 <li>That Player now Presents Their Hand to the next Player, Who Does the Same.</li>
                 <li>Continue until the User has Drawn a Card from the previous Player.</li>
             </ol>
-            <div class="discard-box">
+            <div class="discards-box">
                 <ul>
                     <li>Choose a Colour to continue.</li>
                 </ul>
             </div>
-            <div class="discard-box">
+            <div class="discards-box">
                 <ul>
                     <li>CANNOT be Countered.</li>
                     <li>CANNOT be used as a Pure Chaos Card.</li>
@@ -3524,10 +3553,14 @@
                 <h4 class="card-title">CURE [x3]:</h4>
                 <div class="card-class-info">Containment Expansion | Counter Class | Self Targeting</div>
             </div>
-            <ol type="a">
-                <li>Cancel the Activation of any Contagion Expansion Trap Class Chaos Card and Remove it from the Game.</li>
-                <li>Negate the Draw Effect charged against You [Stacked or otherwise].</li>
-                <li>On any Playable Turn, You may surrender Cure by Shuffling it into the Deck instead of playing a Card.</li>
+            <ol type="1">
+                <li>Choose one:
+                    <ol type="a">
+                        <li>Cancel the Activation of any Contagion Expansion Trap Class Chaos Card and Remove it from the Game.</li>
+                        <li>Negate the Draw Effect charged against You [Stacked or otherwise].</li>
+                        <li>On any Playable Turn, You may surrender Cure by Shuffling it into the Deck instead of playing a Card.</li>
+                    </ol>
+                </li>
             </ol>
             <div class="note-box">
                 <strong>NOTE:</strong>
@@ -3544,13 +3577,77 @@
         </div>
     </div>
 
+    <div id="discard-acid">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD ACID [x1]:</h4>
+                <div class="card-class-info">Contingency I Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Acid [Orange] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Acid back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-acid.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-amethyst">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD AMETHYST [x1]:</h4>
+                <div class="card-class-info">Contingency II Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Amethyst [Light Purple] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Amethyst back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-amethyst.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
     <div id="discard-colour">
         <div class="rules-box">
             <div class="card-header-block">
                 <h4 class="card-title">DISCARD COLOUR [x3]:</h4>
                 <div class="card-class-info">Core Game | Normal Class | Group Targeting | User Goes Last</div>
             </div>
-            <div class="discard-box">
+            <div class="discards-box">
                 <ul>
                     <li>Play to the side of the Discards.</li>
                 </ul>
@@ -3558,7 +3655,7 @@
             <ol>
                 <li>Name a Colour used in the game; all Players in Play Order Discard every Card in Their Hand they have of that Colour.</li>
             </ol>
-            <div class="discard-box">
+            <div class="discards-box">
                 <ul>
                     <li>Then place this Card on top of the Discards.</li>
                     <li>Choose a Colour to continue.</li>
@@ -3579,7 +3676,7 @@
                 <h4 class="card-title">DISCARD CHAOS CARDS [x3]:</h4>
                 <div class="card-class-info">Core Game | Normal Class | Group Targeting | User Goes Last</div>
             </div>
-            <div class="discard-box">
+            <div class="discards-box">
                 <ul>
                     <li>Play to the side of the Discards.</li>
                 </ul>
@@ -3587,7 +3684,7 @@
             <ol>
                 <li>All Players in Turn Order Discard every Chaos Card in Their Hand.</li>
             </ol>
-            <div class="discard-box">
+            <div class="discards-box">
                 <ul>
                     <li>Then place this Card on top of the Discards.</li>
                     <li>Choose a Colour to continue.</li>
@@ -3602,6 +3699,358 @@
         </div>
     </div>
 
+    <div id="discard-diamond">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD DIAMOND [x1]:</h4>
+                <div class="card-class-info">Contingency II Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Diamond [Light Blue] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Diamond back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-diamond.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-emerald">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD EMERALD [x1]:</h4>
+                <div class="card-class-info">Contingency II Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Emerald [Light Green] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Emerald back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-emerald.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-oak">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD OAK [x1]:</h4>
+                <div class="card-class-info">Contingency II Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Oak [Light Brown] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Oak back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-oak.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-poison">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD POISON [x1]:</h4>
+                <div class="card-class-info">Contingency I Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Poison [Dark Purple] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Poison back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-poison.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-redwood">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD REDWOOD [x1]:</h4>
+                <div class="card-class-info">Contingency II Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Redwood [Dark Brown] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Redwood back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-redwood.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-rose">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD ROSE [x1]:</h4>
+                <div class="card-class-info">Contingency II Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Rose [<s>Light Red</s> Pink] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Rose back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-rose.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-plague">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD PLAGUE [x1]:</h4>
+                <div class="card-class-info">Contingency I Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Plague [Dark Blue] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Plague back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-plague.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-stinger">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD STINGER [x1]:</h4>
+                <div class="card-class-info">Contingency I Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Stinger [Yellow] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Stinger back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-stinger.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-stone">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD STONE [x1]:</h4>
+                <div class="card-class-info">Contingency II Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Stone [Grey] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Stone back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-stone.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-toxin">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD TOXIN [x1]:</h4>
+                <div class="card-class-info">Contingency I Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Toxin [Dark Green] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Toxin back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-toxin.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="discard-venom">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DISCARD VENOM [x1]:</h4>
+                <div class="card-class-info">Contingency I Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Remove from the Deck Temporarily.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>All Players in Turn Order Discard all Venom [Red] Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Discard Venom back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-venom.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
     <!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->
     <script is:inline>
         (function() {
