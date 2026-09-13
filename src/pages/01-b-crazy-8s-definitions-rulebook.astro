@@ -254,8 +254,8 @@
            ========================================================================== */
         /* Shared Callout Box Core Parameters */
         .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
-        .important-box, .alert-box, .compatibility-box, .victory-box, 
-        .player-note-box, .advanced-box {
+        .important-box, .restriction-box, .compatibility-box, .special-victory-condition-note-box, 
+        .two-player-note-box, .advanced-box {
             font-size: 0.92rem;
             padding: 14px 16px;
             border-radius: 8px;
@@ -302,7 +302,7 @@
         }
 
         /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
-        .alert-box {
+        .restriction-box {
             background: var(--bg-restriction);
             border-left: 4px solid var(--border-restriction);
         }
@@ -314,13 +314,13 @@
         }
 
         /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
-        .victory-box {
+        .special-victory-condition-note-box {
             background: var(--bg-victory);
             border-left: 4px solid var(--border-victory);
         }
 
         /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
-        .player-note-box {
+        .two-player-note-box {
             background: var(--bg-two-player);
             border-left: 4px solid var(--border-two-player);
         }
@@ -1383,7 +1383,7 @@
                     <li>Previous Unrestriction Stone users CANNOT use this Trap Class Chaos Card’s effect.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only Steal 1 Ancient Stone Class Chaos Card.</li>
@@ -1830,7 +1830,7 @@
                     <li>Should all but one Player be Removed From the Game, they Win.</li>
                 </ul>
             </div>
-            <div class="player-note-box">
+            <div class="two-player-note-box">
                 <strong>2 PLAYER GAME NOTE:</strong>
                 <ul>
                     <li>Certain Chaos Cards have Their own 2 Player Game Note, and these MUST be followed while only 2 Players are left due to being Removed from the Game [Example: Reverse, Chaos Draw +4 Skip, Slap, etc].</li>
@@ -1921,7 +1921,9 @@
                 <div class="card-class-info">Oblivion Expansion | Royal Knight Class | Specific Targeting</div>
             </div>
             <div class="discards-box">
+                <strong>ACTIVATION NTOES</strong>
                 <ul>
+                    <li>To use the Card, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
                     <li>Activate before You Start a Playable Turn.</li>
                 </ul>
             </div>
@@ -1937,18 +1939,29 @@
             <ol type="1" start="2">
                 <li>Then continue Your Turn as normal.</li>
             </ol>
-            <div class=important-box>
-                <strong>RESTRICTION NOTES:</strong>
+            <div class="important-box">
+                <strong>LIMITATION NOTES:</strong>
                 <ul>
-                    <li>This Effect CANNOT affect the same Players two Activations in a row; regardless of who is the User and who is the Target.</li>
-                    <li>You CANNOT use another Chaos Card on the same Turn You activate a Royal Knight Class Chaos Card; and vice versa.</li>
-                    <li>You CANNOT Go Out with this Card Effect.</li>
                     <li>CANNOT be Your last Card.</li>
                     <li>CANNOT be Countered.</li>
                     <li>CAN also be played as a Pure Chaos Card when chosen.</li>
                 </ul>
             </div>
-            <div class-"player-note">
+            <div class=restriction-box>
+                <strong>UNIQUE RESTRICTION:</strong>
+                <ul>
+                    <li>This Effect CANNOT affect the same Players two Activations in a row; regardless of who is the User and who is the Target.</li>
+                </ul>
+            </div>
+              <div class=restriction-box>
+                <strong>CLASS RESTRICTIONS:</strong>
+                <ul>
+                    <li>You CAN only use one Royal Knight Effect per Turn, and it CAN only be used once each Turn; however, You CAN use it on additional Turns afterwards.</li>
+                    <li>You CANNOT use another Chaos Card on the same Turn You activate a Royal Knight Class Chaos Card; and vice versa.</li>
+                    <li>You CANNOT Go Out with this Card Effect.</li>
+                </ul>
+            </div>
+            <div class="two-player-note-box">
                 <strong>2 PLAYER GAME NOTES:</strong>
                 <ul>
                     <li>Black Knight CAN only Target the other Player every second Turn.</li>
@@ -1969,17 +1982,21 @@
                 <h4 class="card-title">BODYGUARD [x3]:</h4>
                 <div class="card-class-info">Doomsday Expansion | Counter Class Lv1</div>
             </div>
-            <ol type="a">
-                <li>When You are Self Targeted by an Assassin, play this Card to save Yourself.</li>
-                <li>If another Player is Self Targeted by an Assassin on Their Turn [before they are Removed From the Game], You can:
-                    <ol type="i">
-                        <li>Offer Bodyguard as a private 1:1 trade to save Their life [if they have something to pay You with…].</li>
-                        <li>Be a hero and give it to them for free!</li>
-                        <li>Or simply ignore the situation.</li>
-                        <li>The choice is Yours…</li>
+            <ol>
+                <li>Choose one:
+                    <ol type="a">
+                        <li>When You are Self Targeted by an Assassin, play this Card to save Yourself.</li>
+                        <li>If another Player is Self Targeted by an Assassin on Their Turn [before they are Removed From the Game], You can:
+                            <ol type="i">
+                                <li>Offer Bodyguard as a private 1:1 trade to save Their life [if they have something to pay You with…].</li>
+                                <li>Be a hero and give it to them for free!</li>
+                                <li>Or simply ignore the situation.</li>
+                                <li>The choice is Yours…</li>
+                            </ol>
+                        </li>
+                        <li>Instead of playing a Card on Your Turn, You CAN choose to Shuffle Bodyguard back into the Deck on Your Turn.</li>
                     </ol>
                 </li>
-                <li>Instead of playing a Card on Your Turn, You CAN choose to Shuffle Bodyguard back into the Deck on Your Turn.</li>
             </ol>
             <div class="discards-box">
                 <ul>
@@ -2194,7 +2211,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2206,7 +2223,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +2 Specific Targeted.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +2 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2218,7 +2235,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class=alert-box>
+            <div class=challenge-box>
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 1 Card originally needed to be Drawn:
@@ -2269,7 +2286,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2281,7 +2298,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +3.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2293,7 +2310,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be Drawn:
@@ -2345,7 +2362,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2357,7 +2374,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +3.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2369,7 +2386,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be Drawn:
@@ -2421,7 +2438,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2433,7 +2450,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +3.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2445,7 +2462,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be Drawn:
@@ -2497,7 +2514,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2509,7 +2526,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +3.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2521,7 +2538,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 3 Cards originally needed to be Drawn:
@@ -2572,7 +2589,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2584,7 +2601,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +4.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2596,7 +2613,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be Drawn:
@@ -2648,7 +2665,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2660,7 +2677,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +4.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2672,7 +2689,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be Drawn:
@@ -2724,7 +2741,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2736,7 +2753,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +4.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2748,7 +2765,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be Drawn:
@@ -2800,7 +2817,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2812,7 +2829,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +4.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2824,7 +2841,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 4 Cards originally needed to be Drawn:
@@ -2875,7 +2892,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2887,7 +2904,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +5.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2899,7 +2916,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be Drawn:
@@ -2951,7 +2968,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -2963,7 +2980,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +5.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -2975,7 +2992,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be Drawn:
@@ -3027,7 +3044,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -3039,7 +3056,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +5.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -3051,7 +3068,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be Drawn:
@@ -3103,7 +3120,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -3115,7 +3132,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +5.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -3127,7 +3144,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 4 Cards on top of the 5 Cards originally needed to be Drawn:
@@ -3178,7 +3195,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -3190,7 +3207,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -3202,7 +3219,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be Drawn:
@@ -3254,7 +3271,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -3266,7 +3283,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -3278,7 +3295,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be Drawn:
@@ -3330,7 +3347,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -3342,7 +3359,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -3354,7 +3371,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be Drawn:
@@ -3406,7 +3423,7 @@
                     <li>CANNOT be used as a Pure Chaos Card.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="restriction-box">
                 <strong>RESTRICTION:</strong>
                 <ul>
                     <li>You CAN only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
@@ -3418,7 +3435,7 @@
                     <li>The Card in Play is a Blue 2. The User CANNOT possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <strong>CHALLENGE NOTES:</strong>
                 <ol>
                     <li>You may Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].</li>
@@ -3430,7 +3447,7 @@
                     <li>You CAN only Challenge or Respond in Kind… NOT both.</li>
                 </ul>
             </div>
-            <div class="alert-box">
+            <div class="challenge-box">
                 <ol start="2">
                     <li>The Challenged Player MUST now show You Their entire Hand privately.</li>
                     <li>Once a Challenge is issued, the Player in the wrong will be charged an additional 6 Cards on top of the 10 Cards originally needed to be Drawn:
@@ -3591,6 +3608,7 @@
                 </ul>
             </div>
             <div class="discards-box">
+                <strong>LIMITATION NOTES:</strong>
                 <ul>
                     <li>CANNOT be Countered.</li>
                     <li>CANNOT be used as a Pure Chaos Card.</li>
@@ -3636,6 +3654,21 @@
         </div>
     </div>
 
+    <div id="defragmented-reality">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DEFRAGMENTED REALITY [x1]:</h4>
+                <div class="card-class-info">The Architect of the Soloverse Expansion | Architect Class | Conceptual Targeting</div>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/19-defragmented-reality.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
     <div id="discard-acid">
         <div class="rules-box">
             <div class="card-header-block">
@@ -4103,6 +4136,820 @@
             </ol>
             <div class="image-container">
                 <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-venom.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="double-edged">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DOUBLE EDGED [x2]:</h4>
+                <div class="card-class-info">Core Extension | Normal Class | Self & Specific Targeting</div>
+            </div>
+            <ol>
+                <li>Steal any Card in a Player’s Hand. Set it aside.</li>
+                <li>Then They Steal any Card in Your Hand and add it to Their Hand.</li>
+                <li>Add the Card You Stole to Your Hand.</li>
+                <li>Choose a Colour to continue.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>CANNOT be used as a Pure Chaos Card.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/01-core-extension-double-edged.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="double-under">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DOUBLE UNDER [x2]:</h4>
+                <div class="card-class-info">Core Extension | Normal Class | Self Targeting</div>
+            </div>
+            <ol>
+                <li>Return Your entire Hand to the Deck, Shuffle it and Deal the same number of Cards to Yourself.</li>
+                <li>Choose a Colour to continue.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/01-core-extension-double-under.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="duplication-stone">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">DUPLICATION STONE [x1]:</h4>
+                <div class="card-class-info">Cataclysm Expansion | Offensive Class & Ancient Stone Class | Next & Specific Targeting</div>
+            </div>
+            <div class="discards-box">
+                <strong>ACTIVATION NOTES:</strong>
+                <ul>
+                    <li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+                    <li>Each Ancient Stone Class Chaos Card’s Effect CAN only be used Once Each Turn; however, You CAN use it on additional Turns afterwards.</li>
+                    <li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+                    <li>Activate when playing a Draw Effect Card.</li>
+                </ul>
+            </div>
+             <ol>
+                <li>On any Turn You charge another Player a Drawing or Dealing Effect by any means [and NOT just Chaos Cards], Double the Amount.</li>
+            </ol>
+            <div class="note-box">
+                <strong>NOTE:</strong>
+                <ul>
+                    <li>If responding with a Counter Class Chaos Card [i.e.: Nou], double the immediately previous Drawing or Dealing Effect Card instead.</li>
+                </ul>
+            </div>
+            <div class="discards-box">
+                <strong>LIMITATION NOTES:</strong>
+                <ul>
+                    <li>All Ancient Stone Class Chaos Card Effects CANNOT be Countered, Including Their Special Victory Condition.</li>
+                </ul>
+            </div>
+            <div class="restriction-box">
+                <strong>UNIQUE RESTRICTION:</strong>
+                <ul>
+                    <li>If Responding in Kind, by Stacking the Drawing Effect, double only Your Card’s Effect.</li>
+                </ul>
+            </div>
+            <div class="restriction-box">
+                <strong>CLASS RESTRICTIONS:</strong>
+                <ul>
+                    <li>Only 1 Ancient Stone Class Chaos Card CAN be used each Turn [compare BULK POSSESSION NOTES].</li>
+                    <li>All Ancient Stone Class Chaos Card Effects CANNOT affect the same Players two Activations in a row, regardless of who is the User and who is the Target.</li>
+                </ul>
+            </div>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone CANNOT reclaim them. You MUST use the Teleportation Stone to Target another Player.</li>
+                </ul>
+            </div>
+            <div class="two-player-note-box">
+                <strong>2 PLAYER GAME NOTE:</strong>
+                <ul>
+                    <li>Individual Ancient Stone Class Chaos Cards CAN only Target the other Player every second Turn.</li>
+                </ul>
+            </div>
+            <div class="compatibility-box">
+                <strong>COMPATIBILITY NOTES:</strong>
+                <ul>
+                    <li>Ancient Stone Class Chaos Cards may NOT count towards Your Hand’s Card count [so You CAN still win with no Cards even if You possess one], but they CAN still be stolen via card Swapping means; however, if doing this, You CAN only Swap Hand Cards or Ancient Stone Class Chaos Cards.</li>
+                </ul>
+            </div>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>If chosen, Paradigm Shift’s Group Targeting Swap Effect CAN target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+                </ul>
+            </div>
+            <div class="compatibility-box">
+                <strong>COMPATIBILITY NOTES:</strong>
+                <ul>
+                    <li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.</li>
+                </ul>
+            </div>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>Card Effects like Black Hole.</li>
+                </ul>
+            </div>
+            <div class="advanced-box">
+                <strong>BULK POSSESSION NOTES:</strong>
+                <ul>
+                    <li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You CAN choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+                    <li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You CAN choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+                    <li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You CAN choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+                    <li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+                        <ul>
+                            <li><strong>User:</strong>
+                                <ol type="a">
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This MUST be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+                                </ol>
+                            </li>
+                            <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+                                <ol type="a">
+                                    <li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+                                    <li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="special-victory-condition-note-box">
+                <strong>SPECICAL VICTORY CONDITION NOTE:</strong>
+                <ul>
+                    <li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
+                </ul>
+            </div>
+            <div class="note-box">
+                <strong>NOTES:</strong>
+                <ul>
+                    <li>NOTE: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You MUST maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) MUST perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+                </ul>
+            </div>
+            <div class="two-player-note-box">
+                <strong>2 PLAYER GAME NOTE:</strong>
+                <ul>
+                    <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/16-cataclysm-expansion-3-of-6-duplication-stone.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="elegant-generousity">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">ELEGANT GENEROUSITY [x3]:</h4>
+                <div class="card-class-info">Core Game | Normal Class | Self Targeting</div>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>Play to the side of the Discards.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>Discard Half Your remaining Cards [round up the Cards You keep] from Your Hand.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Then place this Card on top of the Discards.</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Choose a Colour to continue.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/01-core-extension-double-edged.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="eliminator">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">ELIMINATOR [x2]:</h4>
+                <div class="card-class-info">Core Extension | Trap Class | Group Targeting | Stackable | User Goes Last</div>
+            </div>
+            <ol>
+                <li>Choose a Number from 0-9.</li>
+                <li>In Play Order, all Players Discard all Coloured Cards that match that Number.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Eliminator back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="4">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/01-core-extension-trap-eliminator.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="elixir">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">ELIXIR [x2]:</h4>
+                <div class="card-class-info">Containment Expansion | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <ol>
+                <li>All Players with more than 3 cards in Their Hand now Discard until they have 3 cards in Their Hand.</li>
+                <li>All Players with Less Than 3 Cards in Their Hand now Deal to themselves until they have 3 Cards in Their Hand.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Elixir back into the Deck.</li>
+                </ul>
+            </div>
+            <ol start="4">
+                <li>Play continues from the last Card Discarded by User.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/12-containment-expansion-elixir.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="epidemic">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">EPIDEMIC [x1]:</h4>
+                <div class="card-class-info">Pandemic Expansion | Trap Class | Group Targeting | Stackable | User Goes Last</div>
+            </div>
+            <ol>
+                <li>All Players Draw 3 Cards.</li>
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Epidemic back into the Deck.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/11-pandemic-expansion-trap-04-epidemic-all.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-addition">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF ADDITION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>Every Number Card Played must be Equal to or Higher than the Previous one Played.</li>
+            </ol>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>0, 1, 1, 4, 9…</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-1-field-of-addition.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-deception">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF DECEPTION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>On your turn, You place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.</li>
+            </ol>
+            <div class="note-box">
+                <strong>NOTE:</strong>
+                <ul>
+                    <li>You do not have to tell the truth about the number of cards or their value.</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Cheating is allowed. But you will be penalised for getting caught.</li>
+                <li>At any point, any other Player can call “Deception!” At which point the last Player who put down must reveal their cards.
+                    <ol type="a">
+                        <li>If the Player was in fact Cheating, They must now pick up the entire Discards.</li>
+                        <li>If the Player was indeed telling the truth, the Challenging Player must pick up the entire Discards instead!</li>
+                    </ol>
+                </li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-7-field-of-deception.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-escalation">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF ESCALATION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>Every Number Card Played must be Sequentially Higher than the Previous one Played.</li>
+            </ol>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>0, 1, 2, 3, 4…</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-3-field-of-escalation.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-normalisation">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF NORMALISATION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>Follow all Rules for [01-A] Soloverse [Crazy 8’s].</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-8-field-of-normalisation.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-reduction">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF REDUCTION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>Every Number Card Played must be Sequentially Lower than the Previous one Played.</li>
+            </ol>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>9, 8, 7, 6…</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-4-field-of-reduction.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-replication">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF REPLICAATION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>Multiple Copies of Number Cards can be Played if they are of Equal Value.</li>
+            </ol>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>9, 9, 9, 9, 9…</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-6-field-of-replication.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-subtraction">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF SUBTRACTION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>Every Number Card Played must be Equal to or Lower than the Previous one Played.</li>
+            </ol>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>9, 9, 5, 4, 4…</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-2-field-of-subtraction.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-of-succession">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD OF SUCCESSION [x1]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>Every Number Card Played must be Sequentially Higher or Lower than the Previous one Played.</li>
+            </ol>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>5, 4, 5, 6, 7, 6…</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-5-field-of-succession.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="field-transformation">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FIELD TRANSFORMATION [x3]:</h4>
+                <div class="card-class-info">Field Deck Expansion | Field Class & Trap Class | Group Targeting</div>
+            </div>
+            <ol>
+                <li>When Revealed, Flip the Top Card of the Field Deck over and Follow the New Rules.</li>
+            </ol>
+            <div class="note-box">
+                <strong>NOTE:</strong>
+                <ul>
+                    <li>If the Field Deck is Empty, Shuffle the Field Discards and form a new Field Deck.</li>
+                </ul>
+            </div>
+            <ol start="2">
+                <li>Continue to Draw if required.</li>
+            </ol>
+            <div class="image-container">
+                <img src="/assets/images/cards/18-field-deck-9-field-of-trap-field-transformation.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="foresight">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">FORESIGHT [21]:</h4>
+                <div class="card-class-info">Core Extension | Trap Class | Group Targeting | User Goes Last</div>
+            </div>
+            <ol>
+                <li>All Players in Play Order MUST guess the Colour of the next Face-Down Card [e.g.: any of the Coloured Sets in the Game such as Steel, Poison, Venom, Carbon, Stinger, Toxin or even Chaos].
+                    <ol type="a">
+                        <li>If anyone guesses correctly, they CAN now Discard 1 Card.</li>
+                        <li>If anyone guesses incorrectly, they MUST Draw 1 Card.</li>
+                    </ol>
+                </li>
+                <li>Continue to Draw if required</li>
+            </ol>
+            <div class="discards-box">
+                <ul>
+                    <li>Shuffle Foresight & the revealed top Card [Face-Down] back into the Deck.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/01-core-extension-trap-foresight.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="genetic-manipulation">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">GENETIC MANIPULATION [x2]:</h4>
+                <div class="card-class-info">Core Extension | Normal Class | Unknown Targeting | Stackable</div>
+            </div>
+            <ol>
+                <li>Before activating Genetic Manipulation, Deal X amount of Cards to Yourself, depending on the relevant Game Expansion:
+                    <ul>
+                        <li><strong>1 Card:</strong> Core Game or Core Extension.</li>
+                        <li><strong>2 Cards:</strong> Apocalypse Expansion [Chaos Draw +2 & +3].</li>
+                        <li><strong>3 Cards:</strong> Warzone Expansion [Chaos Draw +2, +3 & +4 Specific Targeted].</li>
+                        <li><strong>4 Cards:</strong> Devastation Expansion [Chaos draw +5 & +10].</li>
+                        <li><strong>5 Cards:</strong> Catastrophe Expansion [Chaos Draw +5 & +10 Specific Targeted].</li>
+                    </ul>
+                </li>
+                <li>Following the Chaos Card Definitions that are outlined in this Soloverse Rulebook, Genetic Manipulation becomes the Chaos Card You named, for this Turn only.</li>
+            </ol>
+            <div class="note-box">
+                <strong>NOTE:</strong>
+                <ul>
+                    <li>This Effect excludes all Trap Class Chaos Cards & Chaos Cards from all other Expansions.</li>
+                </ul>
+            </div>
+            <ol start ="3">
+                <li>Follow the rules for the named Chaos Card.</li>
+                <li>Choose a Colour to continue.</li>
+            </ol>
+            <div class=compatibility-box>
+                <strong>COMPATIBILITY NOTE:</strong>
+                <ul>
+                    <li>Genetic Manipulation’s Effect CAN be copied with Clone.</li>
+                </ul>
+            </div>
+            <div class="discards-box">
+                <ul>
+                    <li>CANNOT be used as a Pure Chaos Card [unless by it's own Effect].</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/01-core-extension-genetic-manipulation.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="illumination-stone">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">ILLUMINATION STONE [x1]:</h4>
+                <div class="card-class-info">Cataclysm Expansion | Offensive Class & Ancient Stone Class | Group Targeting</div>
+            </div>
+            <div class="discards-box">
+                <strong>ACTIVATION NOTES:</strong>
+                <ul>
+                    <li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+                    <li>Each Ancient Stone Class Chaos Card’s Effect CAN only be used Once Each Turn; however, You CAN use it on additional Turns afterwards.</li>
+                    <li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+                    <li>Activate before You start a Playable Turn.</li>
+                </ul>
+            </div>
+            <div class="discards-box">
+                <strong>LIMITATION NOTES:</strong>
+                <ul>
+                    <li>All Ancient Stone Class Chaos Card Effects CANNOT be Countered, Including Their Special Victory Condition.</li>
+                </ul>
+            </div>
+            <ol>
+                <li>Deal 1 Card to Yourself.</li>
+                <li>Force all Players to set Their Hand Cards Face-Up on the table in front of them.</li>
+            </ol>
+            <div class="note-box">
+                <strong>NOTE:</strong>
+                <ul>
+                    <li>Everyone CAN keep 1 Card secret.</li>
+                </ul>
+            </div>
+            <ol start="3">
+                <li>This Effect lasts until the start of Your next Playable Turn.</li>
+            </ol>
+            <div class="tip-box">
+                <strong>TIP:</strong>
+                <ul>
+                    <li>While You CAN keep 1 Card Secret, it doesn’t have to be Your best Card; in effect You could bluff the other Players into thinking You have something better.</li>
+                </ul>
+            </div>
+            <div class="compatibility-note">
+                <ul>
+                    <li>There is nothing wrong in using Chaos Cards with a Card Swapping Effect to take another Player’s Secret Card in exchange for any Card of Your own.</li>
+                </ul>
+            </div>
+            <div class="restriction-box">
+                <strong>UNIQUE RESTRICTION:</strong>
+                <ul>
+                    <li>You MUST show Your own Hand as well.</li>
+                </ul>
+            </div>
+            <div class="restriction-box">
+                <strong>RESTRICTIONS:</strong>
+                <ul>
+                    <li>Only 1 Ancient Stone Class Chaos Card CAN be used each Turn [compare BULK POSSESSION NOTES].</li>
+                    <li>All Ancient Stone Class Chaos Card Effects CANNOT affect the same Players two Activations in a row, regardless of who is the User and who is the Target.</li>
+                </ul>
+            </div>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone CANNOT reclaim them. You MUST use the Teleportation Stone to Target another Player.</li>
+                </ul>
+            </div>
+            <div class="two-player-note-box">
+                <strong>2 PLAYER GAME NOTE:</strong>
+                <ul>
+                    <li>Individual Ancient Stone Class Chaos Cards CAN only Target the other Player every second Turn.</li>
+                </ul>
+            </div>
+            <div class="compatibility-box">
+                <strong>COMPATIBILITY NOTES:</strong>
+                <ul>
+                    <li>Ancient Stone Class Chaos Cards may NOT count towards Your Hand’s Card count [so You CAN still win with no Cards even if You possess one], but they CAN still be stolen via card Swapping means; however, if doing this, You CAN only Swap Hand Cards or Ancient Stone Class Chaos Cards.</li>
+                </ul>
+            </div>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>If chosen, Paradigm Shift’s Group Targeting Swap Effect CAN target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+                </ul>
+            </div>
+            <div class="compatibility-box">
+                <strong>COMPATIBILITY NOTES:</strong>
+                <ul>
+                    <li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.</li>
+                </ul>
+            </div>
+            <div class="example-box">
+                <strong>EXAMPLE:</strong>
+                <ul>
+                    <li>Card Effects like Black Hole.</li>
+                </ul>
+            </div>
+            <div class="advanced-box">
+                <strong>BULK POSSESSION NOTES:</strong>
+                <ul>
+                    <li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You CAN choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+                    <li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You CAN choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+                    <li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You CAN choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+                    <li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+                        <ul>
+                            <li><strong>User:</strong>
+                                <ol type="a">
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This MUST be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+                                </ol>
+                            </li>
+                            <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+                                <ol type="a">
+                                    <li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+                                    <li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="special-victory-condition-note-box">
+                <strong>SPECICAL VICTORY CONDITION NOTE:</strong>
+                <ul>
+                    <li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
+                </ul>
+            </div>
+            <div class="note-box">
+                <strong>NOTES:</strong>
+                <ul>
+                    <li>NOTE: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You MUST maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) MUST perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+                </ul>
+            </div>
+            <div class="two-player-note-box">
+                <strong>2 PLAYER GAME NOTE:</strong>
+                <ul>
+                    <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/16-cataclysm-expansion-5-of-6-illumination-stone.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="jacks-knight">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">JACK'S KNIGHT [x1]:</h4>
+                <div class="card-class-info">Oblivion Expansion | Royal Knight Class | Self Targeting</div>
+            </div>
+            <div class="discards-box">
+                <strong>ACTIVATION NTOES</strong>
+                <ul>
+                    <li>To use the Card, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
+                    <li>Activate before You Start a Playable Turn.</li>
+                </ul>
+            </div>
+            <ol type="1">
+                <li>Play up to 3 playable Coloured Cards this Turn, one after the other [all Cards MUST follow the Rules set out in this Soloverse Rulebook].</li>
+            </ol>
+            <div class=restriction-box>
+                <strong>UNIQUE RESTRICTION:</strong>
+                <ul>
+                    <li>Action Class Cards CAN only be Your last Card UNLESS You’re Responding in Kind to Stackable Effects, in which case You CAN Stack all Playable Cards.</li>
+                </ul>
+            </div>
+            <div class=example-box>
+                <strong>EXAMPLES:</strong>
+                <ul>
+                    <li>The Previous Player plays a Blue 4, so You Reveal Jack’s Knight to Play a Red 4, then a Red Reverse.</li>
+                    <li>You are charged Draw +2, You reveal Jack’s Knight to play 2 additional Draw +2s.</li>
+                    <li>The previous Player received a Skip, now Your Turn, You CAN reveal Jack’s Knight to play 3 additional Skips forcing the next 3 Players to Skip Their Turns.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/06-oblivion-expansion-jacks-knight.png">
+            </div>
+            <div class="return-link-wrapper">
+                <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="paradigm-shift">
+        <div class="rules-box">
+            <div class="card-header-block">
+                <h4 class="card-title">PARADIGM SHIFT [x2]:</h4>
+                <div class="card-class-info">Core Extension | Normal Class | Group Targeting | User Goes First, Then Last.</div>
+            </div>
+            <ol>
+                <li>All Players in Play Order pass Their Cards to the Player next to Them [according to the current Direction of Play], starting with the User and continuing until the User has received Cards from the previous Player.</li>
+                <li>Choose a Colour to continue.</li>
+            </ol>
+            <div class="discards-box">
+                <strong>LIMITATION NOTES:</strong>
+                <ul>
+                    <li>CANNOT be Countered.</li>
+                    <li>CANNOT be used as a Pure Chaos Card.</li>
+                    <li>CANNOT be Your last Card.</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="/assets/images/cards/01-core-extension-paradigm-shift.png">
             </div>
             <div class="return-link-wrapper">
                 <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
