@@ -399,27 +399,37 @@
         .matrix-toc-sub-grid > li {
             background: var(--bg-main-box);
             border: 1px solid var(--text-divider);
-            padding: 10px 12px;
             border-radius: 8px;
             box-shadow: none;
-            display: grid;
-            place-items: center;
-            text-align: center;
+            display: flex; /* Switched to flex to easily stretch the child link */
+            overflow: hidden; /* Ensures the link hover background matches the card's rounded corners */
         }
 
         /* Scoped link styles so other uses of .matrix-link aren't affected */
         .matrix-toc-sub-grid .matrix-link {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%; /* Spans full card width */
+            min-height: 100%; /* Spans full card height */
+            padding: 10px 12px; /* Padding moved here to make the empty space clickable */
             color: var(--text-primary);
             text-decoration: none;
             font-weight: 700;
+            text-align: center;
+            box-sizing: border-box; /* Prevents padding from breaking grid widths */
             transition: all 0.12s ease-in-out;
         }
 
+        /* Changes text color and underlines text when hovering anywhere on the card */
         .matrix-toc-sub-grid .matrix-link:hover {
             color: var(--color-link);
             text-decoration: underline;
-            transform: translateY(-2px);
+        }
+
+        /* Optional: Slight background highlight when hovering anywhere on the box */
+        .matrix-toc-sub-grid > li:has(.matrix-link:hover) {
+            background: var(--bg-card); /* Changes card background on hover, or use a custom color */
         }
 
         /* Hierarchical modifiers — keep original behavior but compact */
@@ -647,9 +657,6 @@
              <li class="matrix-item-heading">
 				<a href="#w" class="matrix-link">W</a>
 			</li>
-            <li class="matrix-item-heading">
-                <a href="#additional-expansion-notes" class="matrix-link">ADDITIONAL EXPANSION NOTES & RESTRICTIONS</a>
-            </li>
         </ul>
     </nav>
     
@@ -1287,38 +1294,6 @@
         <ul class="matrix-toc-grid">
             <li class="matrix-item-heading">
 				<a href="#white-hole" class="matrix-link">WHITE HOLE</a>
-			</li>
-        </ul>
-        <div class="return-link-wrapper">
-            <a href="#top" class="return-link">🔝 Return to Index Matrix</a>
-        </div>
-    </nav>
-
-    <!-- SUB-INDEX JUMP MATRIX ADDITIONAL EXPANSION NOTES -->
-    <div id="additional-expansion-notes"></div>
-    <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Additional Expansion Notes">
-        <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: ADDITIONAL EXPANSION IMPORTANT NOTES & RESTRICTIONS</h2>
-        <ul class="matrix-toc-grid">
-            <li class="matrix-item-heading">
-				<a href="#core" class="matrix-link">CORE GAME, CORE EXTENSION & CORE BOOSTER</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#warzone-catastrophe" class="matrix-link">WARZONE & CATASTROPHE EXPANSIONS</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#oblivion" class="matrix-link">OBLIVION EXPANSION</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#singularity" class="matrix-link">SINGULARITY EXPANSION</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#crisis" class="matrix-link">CRISIS EXPANSION</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#cataclysm" class="matrix-link">CATACLYSM EXPANSION</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#architect" class="matrix-link">THE ARCHITECT OF THE SOLOVERSE EXPANSION</a>
 			</li>
         </ul>
         <div class="return-link-wrapper">
