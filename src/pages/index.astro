@@ -583,18 +583,28 @@ const upcomingGames = [
         }
       }
 
-      btn.addEventListener('click', async () => {
+        btn.addEventListener('click', async () => {
         btn.disabled = true;
         status.innerText = "Syncing latest data structures securely...";
         try {
           const t = Date.now();
+          // 1. Fetch live from the network with a timestamp to force fresh data
           const dataRes = await fetch(`${DATA_FILE}?t=${t}`);
           const verRes = await fetch(`${VERSION_FILE}?t=${t}`);
-          if (!dataRes.ok || !verRes.ok) throw new Error("Sync failed");
           
+          if (!dataRes.ok || !verRes.ok) throw new Error("Sync failed");
+
+          // 2. Open our safe data cache space
           const cache = await caches.open(CACHE_NAME);
-          await cache.put(DATA_FILE, new Response(JSON.stringify(await dataRes.json())));
-          await cache.put(VERSION_FILE, new Response(JSON.stringify(await verRes.json())));
+
+          // 3. IMPORTANT FIX: Construct a CLEAN request path (no query parameters)
+          // This strips away the ?t= parameters so the Service Worker can find them cleanly!
+          const cleanDataRequest = new Request(DATA_FILE);
+          const cleanVersionRequest = new Request(VERSION_FILE);
+
+          // 4. Save the responses directly under the clean paths
+          await cache.put(cleanDataRequest, new Response(JSON.stringify(await dataRes.json())));
+          await cache.put(cleanVersionRequest, new Response(JSON.stringify(await verRes.json())));
           
           status.innerText = "✅ Rulebook Vault successfully synchronized for offline use!";
           setTimeout(() => { 
@@ -604,6 +614,7 @@ const upcomingGames = [
         } catch (error) {
           status.innerText = "❌ Synchronization failed. Verify connection.";
           btn.disabled = false;
+          console.error(error);
         }
       });
       
