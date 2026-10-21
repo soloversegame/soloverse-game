@@ -583,7 +583,7 @@ const upcomingGames = [
         }
       }
 
-        btn.addEventListener('click', async () => {
+      btn.addEventListener('click', async () => {
         btn.disabled = true;
         status.innerText = "Syncing latest data structures securely...";
         try {
@@ -594,17 +594,20 @@ const upcomingGames = [
           
           if (!dataRes.ok || !verRes.ok) throw new Error("Sync failed");
 
+          // FIX: Parse the JSON responses FIRST using await before trying to pass them along
+          const dataJson = await dataRes.json();
+          const versionJson = await verRes.json();
+
           // 2. Open our safe data cache space
           const cache = await caches.open(CACHE_NAME);
 
-          // 3. IMPORTANT FIX: Construct a CLEAN request path (no query parameters)
-          // This strips away the ?t= parameters so the Service Worker can find them cleanly!
+          // 3. Construct a CLEAN request path (no query parameters)
           const cleanDataRequest = new Request(DATA_FILE);
           const cleanVersionRequest = new Request(VERSION_FILE);
 
-          // 4. Save the responses directly under the clean paths
-          await cache.put(cleanDataRequest, new Response(JSON.stringify(await dataRes.json())));
-          await cache.put(cleanVersionRequest, new Response(JSON.stringify(await verRes.json())));
+          // 4. Save the parsed objects cleanly without open await syntaxes
+          await cache.put(cleanDataRequest, new Response(JSON.stringify(dataJson)));
+          await cache.put(cleanVersionRequest, new Response(JSON.stringify(versionJson)));
           
           status.innerText = "✅ Rulebook Vault successfully synchronized for offline use!";
           setTimeout(() => { 
