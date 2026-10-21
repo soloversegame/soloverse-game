@@ -102,13 +102,6 @@ const upcomingGames = [
   { title: "15 Soloverse - Dungeon Crawler"}
 ];
 ---
-
----
-// 1. MUST BE AT THE VERY TOP OF YOUR FILE: Import the PWA registration helper
-import { pwaInfo } from 'virtual:astro-pwa';
-import OfflineUpdater from '../components/OfflineUpdater.astro';
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -117,18 +110,25 @@ import OfflineUpdater from '../components/OfflineUpdater.astro';
 
     <link rel="stylesheet" href="https://cloudflare.com">
 
-    <!-- 
-      CLEANED: Aggressive meta cache-busters removed. 
-      Vite handles version hashes automatically now, allowing offline storage to work! 
-    -->
-
     <title>Soloverse Rulebook Hub</title>
 
-    <!-- 2. Dynamic PWA Injection: This automatically hooks up your manifest and handles registration -->
-    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
+    <!-- 1. Universal PWA Link: Points explicitly to your built manifest configuration -->
+    <link rel="manifest" href="/manifest.webmanifest" />
 
-    <!-- 3. Force the mobile address bar and theme layers to adapt to your dark game profile -->
+    <!-- 2. Mobile address bar styling for your dark layout profile -->
     <meta name="theme-color" content="#0f1015" />
+
+    <!-- 3. Standard Inline PWA Registration Script: Zero dependencies, won't crash your server -->
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          // Registers the automatic service worker built by @vite-pwa/astro
+          navigator.serviceWorker.register('/sw.js', { scope: '/' })
+            .then(reg => console.log('Soloverse PWA loaded successfully:', reg.scope))
+            .catch(err => console.error('Soloverse PWA initialization failed:', err));
+        });
+      }
+    </script>
 
     <style>
 		/* ==========================================================================
@@ -503,9 +503,113 @@ import OfflineUpdater from '../components/OfflineUpdater.astro';
     </style>
 
 </head>
-  <body>
-    <!-- Renders automatically if an offline rules sync update is found -->
-    <OfflineUpdater />
+<body>
+
+    <!-- ================== OFFLINE VAULT SYNC BANNER ================== -->
+    <div id="offline-banner" class="offline-manager hidden">
+      <div class="banner-content">
+        <span class="icon">📚</span>
+        <p id="download-status">Syncing rulebook data...</p>
+      </div>
+      <button id="download-offline-btn" class="update-btn">📥 Download Offline Data</button>
+    </div>
+
+    <style is:inline>
+      .offline-manager { 
+        margin: 20px; 
+        padding: 16px; 
+        border: 1px solid #2a2d3d; 
+        background-color: #16171e; 
+        border-radius: 8px; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        gap: 15px; 
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+      .banner-content { display: flex; align-items: center; gap: 12px; }
+      .hidden { display: none !important; }
+      .icon { font-size: 1.3rem; }
+      .update-btn { 
+        padding: 10px 18px; 
+        background: #ff4757; 
+        color: white; 
+        border: none; 
+        border-radius: 6px; 
+        cursor: pointer; 
+        font-weight: 600; 
+        white-space: nowrap; 
+        transition: background 0.2s ease;
+      }
+      .update-btn:hover { background: #ff6b81; }
+      .update-btn:disabled { background: #3f414e; cursor: not-allowed; color: #a4a6b5; }
+      #download-status { margin: 0; font-size: 0.95rem; color: #e4e6eb; font-weight: 500; }
+    </style>
+
+    <script is:inline>
+      const banner = document.getElementById('offline-banner');
+      const btn = document.getElementById('download-offline-btn');
+      const status = document.getElementById('download-status');
+      
+      const DATA_FILE = '/data.json'; 
+      const VERSION_FILE = '/version.json';
+      const CACHE_NAME = 'offline-info-data-v1';
+
+      async function checkForUpdates() {
+        try {
+          const verResponse = await fetch(`${VERSION_FILE}?t=${Date.now()}`);
+          if (!verResponse.ok) return;
+          const liveData = await verResponse.json();
+          
+          const cache = await caches.open(CACHE_NAME);
+          const cachedVersionResponse = await cache.match(VERSION_FILE);
+          
+          if (!cachedVersionResponse) {
+            status.innerText = "Download the Rulebook Vault dataset for seamless offline access.";
+            btn.innerText = "📥 Download Vault Data";
+            banner.classList.remove('hidden');
+            return;
+          }
+          
+          const cachedData = await cachedVersionResponse.json();
+          if (liveData.version !== cachedData.version) {
+            status.innerText = "An update is available for your offline vault rulebooks.";
+            btn.innerText = "🔄 Sync Vault Now";
+            banner.classList.remove('hidden');
+          }
+        } catch (e) {
+          console.log("Device is running offline.", e);
+        }
+      }
+
+      btn.addEventListener('click', async () => {
+        btn.disabled = true;
+        status.innerText = "Syncing latest data structures securely...";
+        try {
+          const t = Date.now();
+          const dataRes = await fetch(`${DATA_FILE}?t=${t}`);
+          const verRes = await fetch(`${VERSION_FILE}?t=${t}`);
+          if (!dataRes.ok || !verRes.ok) throw new Error("Sync failed");
+          
+          const cache = await caches.open(CACHE_NAME);
+          await cache.put(DATA_FILE, new Response(JSON.stringify(await dataRes.json())));
+          await cache.put(VERSION_FILE, new Response(JSON.stringify(await verRes.json())));
+          
+          status.innerText = "✅ Rulebook Vault successfully synchronized for offline use!";
+          setTimeout(() => { 
+            banner.classList.add('hidden'); 
+            btn.disabled = false; 
+          }, 3000);
+        } catch (error) {
+          status.innerText = "❌ Synchronization failed. Verify connection.";
+          btn.disabled = false;
+        }
+      });
+      
+      checkForUpdates();
+    </script>
+    <!-- =============================================================== -->
 
 		<!-- THE REACTIVE THEME & ROTATION OPTION INTERFACE CONTROLLER BUTTONS -->
     <div class="theme-toggle-container">
