@@ -29,33 +29,33 @@ export default defineConfig({
         ]
       },
       workbox: {
-        maximumFileSizeToCacheInBytes: 5000000, // Increased to 5MB to safely fit heavy rulebook pages/PDFs
+        maximumFileSizeToCacheInBytes: 5000000,
         cleanupOutdatedCaches: true,
         skipWaiting: true,
         clientsClaim: true,
         
-        // FIX 1: Ensure html pages and web manifests are locked locally
+        // Match clean production build files
         globPatterns: ['**/*.{html,js,css,svg,png,jpg,pdf,webmanifest}'],
         
-        // FIX 2: Prevents Vercel/Astro internal cache-busting query strings from breaking layout lookups
-        ignoreURLParametersMatching: [/^utm_/, /^fbclid$/, /^t$/, /^v$/],
-
-        // FIX 3: Ignore your specific public data and version files from the *automatic* build precache.
-        // We do this because your new button component manually fetches and version-controls them.
+        // Ensure index acts as a safety route shell offline
+        navigateFallback: '/index.html',
+        
         globIgnores: ['**/data.json', '**/version.json'],
+        runtimeCaching: [ /* ... include the fix from step 1 here ... */ ]
+      }
 
         runtimeCaching: [
           {
-            // Regex to catch /data.json or /version.json even if they have query parameters
-            urlPattern: /.*(data\.json|version\.json)($|\?)/,
+            // FIX: Explicitly match the clean pathname, instantly ignoring '?t=' parameters!
+            urlPattern: ({ url }) => url.pathname === '/data.json' || url.pathname === '/version.json',
             handler: 'NetworkFirst', 
             options: {
               cacheName: 'offline-info-data-v1',
               expiration: {
                 maxEntries: 5,
-                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
               },
-              networkTimeoutSeconds: 3 // Instantly switch to offline storage if network hangs
+              networkTimeoutSeconds: 3 // Fallback to cache immediately if network hangs
             }
           },
         ]
