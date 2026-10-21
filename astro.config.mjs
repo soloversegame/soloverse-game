@@ -46,17 +46,18 @@ export default defineConfig({
 
         runtimeCaching: [
           {
-            // FIX 4: Secure any external assets or runtime rules
-            urlPattern: ({ url }) => url.pathname.startsWith('/api/') || url.origin !== self.location.origin,
-            handler: 'NetworkFirst',
+            // Regex to catch /data.json or /version.json even if they have query parameters
+            urlPattern: /.*(data\.json|version\.json)($|\?)/,
+            handler: 'NetworkFirst', 
             options: {
-              cacheName: 'api-data-cache',
+              cacheName: 'offline-info-data-v1',
               expiration: {
-                maxEntries: 50,
-                maxAgeSeconds: 60 * 60 * 24 * 7 // 1 week
-              }
+                maxEntries: 5,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+              },
+              networkTimeoutSeconds: 3 // Instantly switch to offline storage if network hangs
             }
-          }
+          },
         ]
       }
     })
