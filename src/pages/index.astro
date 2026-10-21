@@ -3,8 +3,15 @@
 
 const gamesList = [
   {
+    title: "[00] Soloverse - Crazy 8's Tutorial [START HERE]",
+    boxColor: "#b2b2b2", // Stone box theme
+    files: [
+      { name: "📖 Simplifed Game Rulebook", file: "00-crazy-8s-tutorial-rulebook", version: "1-0-0", isWebPage: true }
+    ]
+  },
+  {
     title: "[01] Soloverse - Crazy 8's",
-    boxColor: "#0000ff", // Steel box theme
+    boxColor: "#0000ff", // Plague box theme
     files: [
       { name: "📖 Game Rulebook", file: "01-a-crazy-8s-game-rulebook", version: "15-0-0", isWebPage: true },
       { name: "🃏 Chaos Card Definitions", file: "01-b-crazy-8s-definitions-rulebook", version: "15-0-0", isWebPage: true },
@@ -96,25 +103,31 @@ const upcomingGames = [
 ];
 ---
 
+---
+// 1. MUST BE AT THE VERY TOP OF YOUR FILE: Import the PWA registration helper
+import { pwaInfo } from 'virtual:astro-pwa';
+import OfflineUpdater from '../components/OfflineUpdater.astro';
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="https://cloudflare.com">
 
-    <!-- Permanent Cache-Busting Network Headers -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
+    <!-- 
+      CLEANED: Aggressive meta cache-busters removed. 
+      Vite handles version hashes automatically now, allowing offline storage to work! 
+    -->
 
     <title>Soloverse Rulebook Hub</title>
 
-    <!-- 1. Tell the phone browser exactly where your live app blueprint sits -->
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <!-- 2. Dynamic PWA Injection: This automatically hooks up your manifest and handles registration -->
+    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
 
-    <!-- 2. Force the mobile address bar and theme layers to adapt to your dark game profile -->
+    <!-- 3. Force the mobile address bar and theme layers to adapt to your dark game profile -->
     <meta name="theme-color" content="#0f1015" />
 
     <style>
@@ -490,7 +503,9 @@ const upcomingGames = [
     </style>
 
 </head>
-<body>
+  <body>
+    <!-- Renders automatically if an offline rules sync update is found -->
+    <OfflineUpdater />
 
 		<!-- THE REACTIVE THEME & ROTATION OPTION INTERFACE CONTROLLER BUTTONS -->
     <div class="theme-toggle-container">

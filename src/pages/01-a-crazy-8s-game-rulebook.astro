@@ -1,6 +1,7 @@
----
-// src/pages/01-a-crazy-8s-game-rulebook.astro
-// Soloverse Premium Native Web Rulebook Component Template v2.0
+ 
+ ---
+// src/pages/00-A-crazy-8s-tutorial-rulebook.astro
+// Premium, native web text 01-b-crazy-8s-tutorial-rulebook game rulebook
 // Host Target: Vercel | Theme Architecture: Dynamic Decoupled Token Grid
 ---
 <!DOCTYPE html>
@@ -10,11 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Permanent Cache-Busting Network Headers for Clean Vercel Deployments -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, Must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>[01-A] SOLOVERSE - CRAZY 8'S [GAME RULEBOOK]</title>
+    <title>00-A Soloverse - Crazy 8's Tutorial Rulebook [START HERE]</title>
     <style>
         /* ==========================================================================
            1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
@@ -209,20 +210,17 @@
             padding-bottom: 8px;
             margin-bottom: 5px;
         }
-        h4.card-title {
+        h4:global(.card-title) {
             font-size: 1.35rem;
-            color: var(--text-primary);
+            color: var(--color-card-title);
             margin: 0;
             font-weight: 700;
-            letter-spacing: -0.01em;
         }
-        .card-class-info {
+
+        :global(.card-class-info) {
             font-size: 0.88rem;
-            color: var(--accent-card-title);
+            color: var(--color-card-class);
             font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.02em;
-            margin-top: 2px;
         }
 
         /* Paragraphs and Core List Formats */
@@ -257,8 +255,8 @@
            ========================================================================== */
         /* Shared Callout Box Core Parameters */
         .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
-        .important-box, .alert-box, .compatibility-box, .victory-box, 
-        .player-note-box, .advanced-box {
+        .important-box, .restriction-box, .compatibility-box, .special-victory-condition-note-box, 
+        .two-player-note-box, .advanced-box {
             font-size: 0.92rem;
             padding: 14px 16px;
             border-radius: 8px;
@@ -305,7 +303,7 @@
         }
 
         /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
-        .alert-box {
+        .restriction-box {
             background: var(--bg-restriction);
             border-left: 4px solid var(--border-restriction);
         }
@@ -317,13 +315,13 @@
         }
 
         /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
-        .victory-box {
+        .special-victory-condition-note-box {
             background: var(--bg-victory);
             border-left: 4px solid var(--border-victory);
         }
 
         /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
-        .player-note-box {
+        .two-player-note-box {
             background: var(--bg-two-player);
             border-left: 4px solid var(--border-two-player);
         }
@@ -387,10 +385,58 @@
             gap: 12px;
         }
 		
-		/* Hierarchical Indentation Modifiers inside the Matrix Grid */
+        /* Sub-grid variant used by the contents matrix on this page only */
+        .matrix-toc-sub-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            align-items: start;
+        }
+
+        /* Matrix items styled as compact cards for denser layout (scoped to sub-grid) */
+        .matrix-toc-sub-grid > li {
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            box-shadow: none;
+            display: flex; /* Switched to flex to easily stretch the child link */
+            overflow: hidden; /* Ensures the link hover background matches the card's rounded corners */
+        }
+
+        /* Scoped link styles so other uses of .matrix-link aren't affected */
+        .matrix-toc-sub-grid .matrix-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%; /* Spans full card width */
+            min-height: 100%; /* Spans full card height */
+            padding: 10px 12px; /* Padding moved here to make the empty space clickable */
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            box-sizing: border-box; /* Prevents padding from breaking grid widths */
+            transition: all 0.12s ease-in-out;
+        }
+
+        /* Changes text color and underlines text when hovering anywhere on the card */
+        .matrix-toc-sub-grid .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        /* Optional: Slight background highlight when hovering anywhere on the box */
+        .matrix-toc-sub-grid > li:has(.matrix-link:hover) {
+            background: var(--bg-card); /* Changes card background on hover, or use a custom color */
+        }
+
+        /* Hierarchical modifiers — keep original behavior but compact */
         .matrix-item-heading { padding-left: 0px; font-weight: 700; }
-        .matrix-item-subheading { padding-left: 15px; font-weight: 600; }
-        .matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
+        .matrix-item-subheading { padding-left: 8px; font-weight: 600; font-size: 0.95rem; }
+        .matrix-item-card { padding-left: 12px; font-weight: 500; font-style: italic; font-size: 0.9rem; }
 
         .matrix-link {
             color: var(--text-muted);
@@ -552,9 +598,6 @@
 			<li class="matrix-item-heading">
 				<a href="#object" class="matrix-link">OBJECT</a>
 			</li>
-			<li class="matrix-item-heading">
-				<a href="#compatible-expansions" class="matrix-link">COMPATIBLE EXPANSIONS & ADDITIONAL SETUP RULES</a>
-			</li>
             <li class="matrix-item-heading">
 				<a href="#setup" class="matrix-link">SETUP</a>
 			</li>
@@ -563,21 +606,6 @@
 			</li>
             <li class="matrix-item-heading">
 				<a href="#victory-conditions" class="matrix-link">VICTORY CONDITIONS</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#team-gameplay" class="matrix-link">TEAM GAMEPLAY</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#team-trading" class="matrix-link">TEAM GAMEPLAY: TRADING</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#team-special-victory-conditions-changes" class="matrix-link">TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#scoring" class="matrix-link">SCORING</a>
-			</li>
-            <li class="matrix-item-heading">
-				<a href="#scoring-winning-the-game" class="matrix-link">SCORING: WINNING THE GAME</a>
 			</li>
         </ul>
     </nav>
@@ -596,199 +624,6 @@
 		</div>
     </div>
 	
-    <!-- COMPATIBLE EXPANSIONS & ADDITIONAL SETUP RULES -->
-	<div id="compatible-expansions">
-		<div class="rules-box">
-			<h4>COMPATIBLE EXPANSIONS & ADDITIONAL SETUP RULES</h4>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>📦 <strong><span style="color: var(--color-card-title);">Core Extension</span></strong> [1 x Colour & Moderate Chaos Cards]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-		        </div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🚀 <strong><span style="color: var(--color-card-title);">Core Booster Pack</span></strong> [Extra Copy of Most Core/Extension Chaos Cards]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>💥 <strong><span style="color: var(--color-card-title);">Apocalypse Expansion</span></strong> [Chaos Draw +2 & +3]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>
-  					</ul>
-				</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>⚔️ <strong><span style="color: var(--color-card-title);">Warzone Expansion</span></strong> [Chaos Draw +2/+3/+4 Specific Targeted]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-				</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🌋 <strong><span style="color: var(--color-card-title);">Devastation Expansion</span></strong> [Chaos Draw +5/+10]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>        		
-					</ul>
-				</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🎯 <strong><span style="color: var(--color-card-title);">Catastrophe Expansion</span></strong> [Chaos Draw +5/+10 Specific Targeted]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>        		
-					</ul>
-				</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🛡️ <strong><span style="color: var(--color-card-title);">Oblivion Expansion</span></strong> [Royal Knights]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> Choose whether to include the Revealing Trap Class Chaos Card, then just add to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🌀 <strong><span style="color: var(--color-card-title);">Singularity Expansion</span></strong> [SOL / OVE / RSE]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> Choose whether to include the Revealing Trap Class Chaos Card. Then just add to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-                </div>
-				<div class="tip-box">
-					<strong>TIP:</strong>
-                    <ul>
-                        <li>Shuffle the 3 SOL/OVE/RSE cards into the Deck separately to each other to avoid Drawing more than 1 of them in succession.</li>
-                    </ul>
-				</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>⚠️ <strong><span style="color: var(--color-card-title);">Crisis Expansion</span></strong> [Crisis]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong></li>
-					</ul>
-					<ol>
-						<li>Add 1 x Crisis Trap Class Chaos Card for each Player + 1 extra to the Deck before initial Shuffling and Dealing. Then choose a Special Victory Condition before starting.</li>
-						<li>Choose a Special Victory Condition before starting.</li>
-					</ol>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>☣️ <strong><span style="color: var(--color-card-title);">Contagion Expansion</span></strong> [Super Poison]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> Remove both Poison Trap Class Chaos Cards from the Core Game [and the one from the Core Booster Pack if You have it], as it has been re-released with a new design in this Expansion Pack.</li>
-					</ul>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🕊️ <strong><span style="color: var(--color-card-title);">Containment Expansion</span></strong> [Super Mercy]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🎨 <strong><span style="color: var(--color-card-title);">Coloured Extensions</span></strong> [7 x Colour Sets]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> As a Group, decide Which Base Colours and/or Colour Extensions You will use and add them to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🔄️ <strong><span style="color: var(--color-card-title);">Contingency I & II Expansions</span></strong> [Discard Specific Colour]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> As a Group, decide Which Base Colours and/or Colour Extensions You will use and add the corresponding Trap Class Chaos Cards for those Colours from the Contingency I & II Expansions to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>💀 <strong><span style="color: var(--color-card-title);">Doomsday Expansion</span></strong> [Assassination & Resurrection]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Just add to the Deck before initial Shuffling and Dealing.</li>
-					</ul>
-					<ol type="1">
-						<li>Add all Bodyguard Counter Class Chaos Cards to the Deck before initial Shuffling and Dealing.</li>
-						<li>Once all Hands are Dealt:
-							<ol type="a">
-								<li>Cut the Deck into 8 equal piles.</li>
-								<li>Place a Doomsday Trap Class Chaos Card onto all but one pile.</li>
-								<li>Reassemble the Deck by Stacking the piles on top of each other, in the following order, starting with:
-									<ol type="i">
-										<li>The Soloversal Destruction pile.</li>
-										<li>Then a Resurrection pile.</li>
-										<li>Then an Assassin pile.</li>
-										<li>Then a Resurrection pile.</li>
-										<li>Then another Assassin pile.</li>
-										<li>Then the last Resurrection pile.</li>
-										<li>Then the last Assassin pile.</li>
-										<li>Then the last remaining pile.</li>
-									</ol>
-								</li>
-							</ol>
-                        </li>
-                    </ol>
-                </div>
-				<div class="note-box">
-                    <strong> NOTE:</strong>
-                    <ul>
-                        <li>Assembling the Deck this way [with Soloversal Destruction’s pile on the very bottom of the Deck and Assassin and Resurrection piles placed alternatingly] will space these Trap Class Chaos Cards out to prevent any immediate Activations [except after Re-Shuffling the Deck due to other Chaos Card Effects].</li>
-                    </ul>
-				</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>📜 <strong><span style="color: var(--color-card-title);">Cataclysm Expansion</span></strong> [Ancient Stones]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong></li>
-                    </ul>
-					<ol>
-						<li>Add all Trap Class Chaos Cards to the Deck before initial Shuffling and Dealing.</li>
-						<li>Shuffle the Cataclysm Side Deck and Deal all 6 Ancient Stone Class Chaos Cards, one at a time, Face-Up in front of all Players.</li>
-                    </ol>
-                </div>
-				<div class="note-box">
-                    <strong>NOTE:</strong>
-                    <ul>
-                        <li>Ignore if some miss out or if some have more than one [everyone should have a chance over the game].</li>
-                    </ul>
-                </div>
-				<div class="player-note-box">
-                    <strong>2 PLAYER GAME NOTE:</strong>
-                    <ul>
-                        <li>Remove the Unrestriction Stone and Deal 2 Ancient Stone Class Chaos Cards to both Players.</li>
-                    </ul>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🏟️ <strong><span style="color: var(--color-card-title);">Field Deck</span></strong> [Rule Changes]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong></li>
-					</ul>
-					<ol>
-						<li>Take all Field Class Chaos Cards and form the Field Deck by Shuffling it.</li>
-						<li>Flip the Top Card of the Field Deck over to form the Field Discards before starting Play.</li>
-					</ol>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🏟️ <strong><span style="color: var(--color-card-title);">The Architect of the Soloverse</span></strong> [Broken Features]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong></li>
-					</ul>
-					<ol>
-						<li>Take all Architect Class Chaos Cards and form the Architect Side Deck by Shuffling it.</li>
-						<li>Deal one Architect Class Chaos Card Face-Down to all Players before starting Play.</li>
-					</ol>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>👤 <strong><span style="color: var(--color-card-title);">Solo Mode</span></strong> [Solo Play]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong></li>
-					</ul>
-					<ol>
-						<li>Choose whether to include the Revealing Trap Class Chaos Card and, if so, add it to the Deck before initial Shuffling and Dealing.</li>
-						<li>Collect the 4 Royal Knights Class Chaos Cards, then create a Side Deck using them.</li>
-                        <li>Shuffle this Royal Knight Side Deck and Flip the Top Card over.</li>
-                        <li>This Royal Knight will be used as the Solo Player's Opponent.</li>
-                        <li>Should you use the Revealing Trap Class Chaos Card, when it appears during Drawing, Flip over the next Top Card from the Royal Knight Side Deck and follow it's Rules.</li>
-                        <li>Should the Royal Knight Side Deck run out of Cards, Shuffle the 4 Royal Knights Class Chaos Cards back into the Side Deck and Flip the Top Card over to continue.</li>
-                    </ol>
-        		</div>
-				<div class="rules-box">
-					<ul class="matrix-toc-grid">
-						<li>🏆 <strong><span style="color: var(--color-card-title);">Achievement List</span></strong> [Tutorial]</li>
-						<li><strong>ADDITIONAL SETUP RULES:</strong> None. Use this as a Tutorial on how each Chaos Card is used in Game.</li>
-					</ul>
-        		</div>
-        	<div class="return-link-wrapper">
-				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
-			</div>
-		</div>
-    </div>
-
     <!-- SETUP -->
 	<div id="setup">
 		<div class="rules-box">
@@ -908,33 +743,14 @@ f		<div class="image-container">
                     <li>There is also the possibility of the Drawer obtaining Anti-Fun for example, that can still be used to negate your Win. It is also a possibility that while Drawing with certain Expansions that a Group Targeting Draw Effect Chaos Card could charge everyone, including you, Card/s that would also cancel your win.</li>
                 </ul>
             </div>
-            <div id="victory-conditions-04">            
-                <ol start="4">
-                    <li>Special Victory Conditions.
-	    				<ul>
-		    				<li>Some Expansions have Special Victory Conditions that exceed the normal means of Winning. For example:</li>
-			    				<ol type="a">
-				    				<li>The Singularity Expansion allows You to collect all 3 Unification Class Chaos Cards.</li>
-					    			<li>While the Crisis Expansion Crisis Class Chaos Cards allow for many different Special Victory Conditions.</li>
-						    		<li>Finally, the Cataclysm Expansion allows You to collect all 6 Ancient Stone Class Chaos Cards.</li>
-							    </ol>
-    						<li>In any of these situations, doing so automatically, and instantly, Wins You the game!</li>
-	    				</ul>
-		    		</li>
-                </ol>
-            </div>
             <div id="victory-conditions-05">
-                <ol start="5">
+                <ol start="4">
                     <li>The game ends Without a Clear Winner.
 					    <ol type="a">
-						    <li>As stated in Universal Game Notes: Important Notes: Rule 1, the Deck could run out of Drawable Cards.</li>
-    						<li>The Doomsday Expansion has the Soloversal Destruction Chaos Card that can cause Everyone to lose.</li>
 	    					<li>In any situation without a clear Winner:
 		    					<ul>
 			    					<li>The Player with the least number of Cards Wins.
-				    				If Scoring, do so normally [but do not count your own Cards].</li>
 					    			<li>If more than one Player has equal Cards to Win, They Draw.
-						    		If Scoring, count the other winning Player’s Cards as well [but not your own].</li>
 							    </ul>
     						</li>
 	    				</ol>
@@ -945,175 +761,6 @@ f		<div class="image-container">
 				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
 			</div>
 		</div>
-	</div>
-
-    <!-- TEAM GAMEPLAY -->
-	<div id="team-gameplay">
-		<div class="rules-box">
-			<h4>TEAM GAMEPLAY</h4>
-			<ol>
-				<li>Make Teams with an even number of Members.</li>
-				<li>Choose the Turn Order for Teams & Members [alternating Teams/Members between turns (e.g.: Team 1: Member 1, Team 2: Member 1, Team 1: Member 2, Team 2: Member 2, etc) ].</li>
-				<li>Reorganise Seating arrangements to Match Team & Member Turns.</li>
-				<li>Next, choose which Victory Condition to use before beginning play:</li>
-            </ol>
-			<div class="advanced-box">OPTION 1: Relaxed:
-				<ul>
-					<li>The First Member to get rid of all their Cards wins for their Team.</li>
-        			<div class="note-box">
-                        <strong>NOTE:</strong>
-                        <ul>
-                            <li>If Scoring, do not count your Team Member’s Cards.</li>
-                        </ul>
-                    </div>
-                </ul>
-            </div>
-			<div class="advanced-box">OPTION 2: Competitive:
-				<ul>
-					<li>The first Team with All Members to get rid of all their Cards Wins.</li>
-        			<div class="note-box">
-                        <strong>NOTES:</strong>
-                        <ul>
-                            <li>Team Members with no Cards left can only be Group Targeted [e.g.: United We Fall]; this includes Group Targeting Trap Class Chaos Cards [e.g.: Epidemic from the Contagion Expansion]. Otherwise, Team Members with no Cards are Removed from the Game and have their Turns Automatically Skipped. If they receive Cards again, they are Re-added to the Game.</li>
-                        </ul>
-                    </div>
-                </ul>
-            </div>
-            <ol start="5">
-                <li>Follow all other Game Rules.</li>
-			</ol>
-			<div class="return-link-wrapper">
-				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
-			</div>
-		</div>
-	</div>
-
-    <!-- TEAM GAMEPLAY: TRADING -->
-	<div id="team-trading">
-		<div class="rules-box">
-			<h4>TEAM TRADING</h4>
-			<ol>
-				<li>2 Team Members can Trade Cards [a free Card Swapping Effect] at a 1:1 Ratio on their Member Turn, by saying “Team Trade Requested.” However, this can only do so a minimum of once every 2 Team Turns, regardless of which Team Member took said Team Turns.</li>
-				<li>All Card Types are allowed to be Traded during a Team Trade. This includes Trading for a Counter Class Chaos Card when facing Draw Effects [Stacked or otherwise].</li>
-				<li>If there are more than 2 Players in a Team, the initiating Trader must designate which Team Member will participate.</li>
-				<li>Discussion of which Cards are wanted to be received or be given in return is Forbidden. You must trust your Team Member to help however they can.</li>
-				<li>Once a Team Trade is Requested, that 1:1 Trade Must be done [regardless of if the Traded Card would end up being helpful or not].</li>
-				<li>Finally, a Team Member does not have to use the Card that was Traded to them on that Member’s Turn if they do not want to.</li>
-			</ol>
-			<div class="return-link-wrapper">
-				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
-			</div>
-		</div>
-	</div>
-
-
-    <!-- TEAM GAMEPLAY: SPECIAL VICTORY CONDITIONS -->
-	<div id="team-special-victory-conditions-changes">
-		<div class="rules-box">
-			<h4>TEAM SPECIAL VICTORY CONDITIONS CHANGES</h4>
-			<ul>
-				<li>Singularity Expansion:
-					<ul>
-						<li>A Team wins if they possess all 3 Unification Class Chaos Cards between any of their Team Members.</li>
-					</ul>
-				</li>
-				<li>Crisis Expansion:
-					<ul>
-						<li>Crisis Trap Class Chaos Cards are totalled for the Team.</li>
-					</ul>
-				</li>
-				<li>Cataclysm Expansion:
-					<ul>
-						<li>The Bulk Possession Notes and Special Victory Condition are not shared across Team Members. However, on any Team Member’s Playable Turn, 1 Ancient Stone CAN be given to any other Team Member if all Team Members agree to Deal 5 Cards to themselves each [in play order]. Discussion of which Ancient Stone is given and who gets it is allowed by Team Members if it is kept brief.</li>
-					</ul>
-				</li>
-			</ul>
-			<div class="return-link-wrapper">
-				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
-			</div>
-    	</div>
-    </div>
-
-    <!-- SCORING -->
-	<div id="scoring">
-		<div class="rules-box">
-			<h4>SCORING</h4>
-			<ul>
-				<li>If you feel up to it, mix things up by tracking your progress by accumulating your score as rounds progress.</li>
-				<li>The first Player to get rid of all their Cards in a round receives points for all Cards left in their opponent’s Hands as follows:</li>
-			</ul>
-		<table style="width: 100%; border-collapse: collapse; margin: 15px 0;">
-			<thead>
-				<tr>
-					<th style="width: 50%; text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Card Type</th>
-					<th style="width: 50%; text-align: left; padding-left: 15px;">Point Value</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Number [0-9]</td>
-					<td style="text-align: left; padding-left: 15px;">10 Points</td>
-				</tr>
-				<tr>
-					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Action Class Cards</td>
-					<td style="text-align: left; padding-left: 15px;">20 Points</td>
-				</tr>
-				<tr>
-					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Standard Chaos Cards & Chaos Draw +4’s</td>
-					<td style="text-align: left; padding-left: 15px;">50 Points</td>
-				</tr>
-				<tr>
-					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Core Game & Core Game Extension Chaos Cards</td>
-					<td style="text-align: left; padding-left: 15px;">100 Points</td>
-				</tr>
-				<tr>
-					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Expansion Chaos Cards</td>
-					<td style="text-align: left; padding-left: 15px;">150 Points</td>
-				</tr>
-				<tr>
-					<td style="text-align: right; padding-right: 15px; border-right: 1px solid var(--text-divider);">Singularity Expansion Chaos Cards</td>
-					<td style="text-align: left; padding-left: 15px;">200 Points</td>
-				</tr>
-			</tbody>
-		</table>
-			<div class="return-link-wrapper">
-				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
-			</div>
-    	</div>
-	</div>
-
-
-    <!-- SCORING: WINNING THE GAME -->
-	<div id="scoring-winning-the-game">
-		<div class="rules-box">
-			<h4>SCORING – WINNING THE GAME</h4>
-			<div class="note-box">NOTE: The number of Chaos Cards will speed up Points collection.</div>
-			<div class="advanced-box">OPTION 1: Standard Game: The winner is the first Player to reach 3,000 points.
-				<ul>
-					<li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. So, keeping a set Score Target allows for faster “Scoring Wins” the more Players you have, speeding up total play time.</li>
-				</ul>
-			</div>
-			<div class="advanced-box">OPTION 2: Extended Game: The winner is the first Player to reach 3,000-7,000 points depending on the number of Players].
-				<ul>
-					<li>Starting at 3,000 for 3 Players, increase the Victory Points required by 500 for every additional player [e.g.: 4 Players will be 3,500, 5 Players will be 4,000, 6 Players will be 4,500, etc... but keep a Maximum of 7,000 even if playing with more than the recommended maximum of 10 Players].</li>
-					<li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. However, for a serious game, increasing the Score Target allows for incrementally slower “Scoring Wins” the more Players you have, extending total play time.</li>
-				</ul>
-			</div>
-			<div class="advanced-box">OPTION 3: Last Player Standing: There is no winner for Rounds. As play continues and Players Go Out, they are permanently exited from the game [as opposed to Remove from Game Effects of Expansion Chaos Cards (e.g. : Assassin from the Doomsday Expansion) ] until the last Player is left.
-				<ul>
-					<li>A Point is given for every Player left in the game when you go out.</li>
-					<li>The Last Player Standing has Points deducted based on the Number of other Players in the Game.</li>
-				</ul>
-				<div class="note-box">NOTE: Players cannot obtain a Negative Score.</div>
-				<ul>
-					<li>Play continues until a Player Scores the Required Total [the recommendation is 3 x the Number of Players in the game].</li>
-				</ul>
-			</div>
-			<div class="advanced-box">TOURNAMENT: The first Player to reach one of the above Point requirements earns 1 Credit. Rounds progress until one Player earns a total of 3 Credits [for the truly devoted, you could always agree to a larger figure ahead of playing].</div>
-			<div class="return-link-wrapper">
-				<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
-			</div>
-    	</div>
 	</div>
 
 	<!-- Soloverse Rulebook Page Engine: Auto-Theme Detection & Update Sync -->

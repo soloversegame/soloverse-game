@@ -538,7 +538,90 @@
         .image-container.border-amethyst { border: 3px solid #8b5cf6; }
         .image-container.border-stone { border: 3px solid #6b7280; }
 		
-		/* ==========================================================================
+        /* Creates a side-by-side row layout */
+        .card-top-section {
+            display: flex;
+            justify-content: space-between; /* Pushes text to the left, image to the right */
+            align-items: flex-start;        /* Aligns items at the top */
+            gap: 20px;                      /* Spacing between the text block and image */
+        }
+
+        /* Gives the text block room to flex */
+        .card-header-block {
+            flex: 1;
+        }
+
+        /* Optional sizing rules to prevent the image from scaling awkwardly */
+        .image-container {
+            flex-shrink: 0;                /* Keeps the image from compressing */
+        }
+
+        .image-container img {
+            max-width: 150px;              /* Adjust this size to fit your card design */
+            height: auto;
+            display: block;
+        }
+
+        /* ==========================================================================
+           9. POP LINKS
+           ========================================================================== */
+
+        /* Style the keyword to look like a clickable link */
+        .popup-trigger {
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link); /* Adjust to match your theme link color */
+            text-decoration: underline;
+            font-size: inherit;
+            font-weight: inherit;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        /* The dark background overlay covering the whole screen */
+        .popup-overlay {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-main-box);
+            z-index: 9999; /* Ensures it sits on top of all rulebook elements */
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* The actual modal box styling */
+        .popup-content {
+            background-color: var(--bg-main-box); /* Match your rulebook card theme */
+            color: var(--color-link);
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid var(--color-card-class, #444);
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        /* Close button layout */
+        .popup-close-btn {
+            margin-top: 15px;
+            background-color: var(--bg-main-box);
+            color: var(--color-link);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .popup-close-btn:hover {
+            background-color: #ff1a1a;
+        }
+
+        /* ==========================================================================
            10. EXPANSION CONTENT GRID ARCHITECTURE
            ========================================================================== */
         .expansion-grid {
@@ -660,6 +743,9 @@
 			</li>
              <li class="matrix-item-heading">
 				<a href="#w" class="matrix-link">W</a>
+			</li>
+             <li class="matrix-item-heading">
+				<a href="#wglossary" class="matrix-link">W</a>
 			</li>
         </ul>
     </nav>
@@ -1357,14 +1443,19 @@
 
     <div id="acid">
         <div class="rules-box">
-            <div class="card-header-block">
-                <h4 class="card-title">ACID [x1]:</h4>
-                <ul>
-                    <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
-                </ul>
+            <div class="card-top-section">
+                <div class="card-header-block">
+                    <h4 class="card-title">ACID [x1]:</h4>
+                    <ul>
+                        <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/images/cards/09-bio-hazard-expansion-trap-04-acid.png">
+                </div>
             </div>
             <div class="discards-box">
                 <ul>
@@ -1388,9 +1479,6 @@
                     <li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect.</li>
                 </ul>
             </div>
-            <div class="image-container">
-                <img src="/assets/images/cards/09-bio-hazard-expansion-trap-04-acid.png">
-            </div>
             <div class="return-link-wrapper">
                 <a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
                 <a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -1400,14 +1488,19 @@
     
     <div id="acid-st">
         <div class="rules-box">
-            <div class="card-header-block">
-                <h4 class="card-title">ACID [SPECIFIC TARGETED] [x1]:</h4>
-                <ul>
-                    <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
-                </ul>
+            <div class="card-top-section">
+                <div class="card-header-block">
+                    <h4 class="card-title">ACID [SPECIFIC TARGETED] [x1]:</h4>
+                    <ul>
+                        <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/images/cards/10-patient-zero-expansion-trap-04-acid-st.png">
+                </div>
             </div>
             <div class="discards-box">
                 <ul>
@@ -1431,9 +1524,6 @@
                     <li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect.</li>
                 </ul>
             </div>
-            <div class="image-container">
-                <img src="/assets/images/cards/10-patient-zero-expansion-trap-04-acid-st.png">
-            </div>
             <div class="return-link-wrapper">
                 <a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
                 <a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -1443,13 +1533,18 @@
     
     <div id="ancient-inversion">
         <div class="rules-box">
-            <div class="card-header-block">
-                <h4 class="card-title">ANCIENT INVERSION [x2]:</h4>
-                <ul>
-                    <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-                </ul>
+            <div class="card-top-section">
+                <div class="card-header-block">
+                    <h4 class="card-title">ANCIENT INVERSION [x2]:</h4>
+                    <ul>
+                        <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-Inversion.png">
+                </div>
             </div>
             <div class="discards-box">
                 <ul>
@@ -1473,9 +1568,6 @@
                     <li>Shuffle Ancient Inversion back into the Deck.</li>
                 </ul>
             </div>
-            <div class="image-container">
-                <img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-Inversion.png">
-            </div>
             <div class="return-link-wrapper">
                 <a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
                 <a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -1485,13 +1577,18 @@
 
     <div id="ancient-war">
         <div class="rules-box">
-            <div class="card-header-block">
-                <h4 class="card-title">ANCIENT WAR [x2]:</h4>
-                <ul>
-                    <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-                </ul>
+            <div class="card-top-section">
+                <div class="card-header-block">
+                    <h4 class="card-title">ANCIENT WAR [x2]:</h4>
+                    <ul>
+                        <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-war.png">
+                </div>
             </div>
             <div class="discards-box">
                 <ul>
@@ -1532,9 +1629,6 @@
                     <li>You Can only Steal 1 Ancient Stone Class Chaos Card.</li>
                 </ul>
             </div>
-            <div class="image-container">
-                <img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-war.png">
-            </div>
             <div class="return-link-wrapper">
                 <a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
                 <a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -1544,13 +1638,18 @@
         
     <div id="anti-fun">
         <div class="rules-box">
-            <div class="card-header-block">
-                <h4 class="card-title">ANTI-FUN [x3]:</h4>
-                <ul>
-                    <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
-                    <li><strong><span style="color: var(--color-card-class);">Victory Targeting</span></strong></li>
-                </ul>
+            <div class="card-top-section">
+                <div class="card-header-block">
+                    <h4 class="card-title">ANTI-FUN [x3]:</h4>
+                    <ul>
+                        <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
+                        <li><strong><span style="color: var(--color-card-class);">Victory Targeting</span></strong></li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/images/cards/00-core-game-counter-lv1-anti-fun.png">
+                </div>
             </div>
             <div class="discards-box">
                 <ul>
@@ -1583,9 +1682,6 @@
                     <li>This Can be Pre-Emptively Countered, Officially, if <a href="#nou" class="return-link">NOU</a> is Played Last.</li>
                     <li>But, there might be other, unofficial ways around it…</li>
                 </ul>
-            </div>
-            <div class="image-container">
-                <img src="/assets/images/cards/00-core-game-counter-lv1-anti-fun.png">
             </div>
             <div class="return-link-wrapper">
                 <a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
@@ -2142,11 +2238,11 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
                         <ul>
-                            <li>You May Deactivate this Card before you start any Playable Turn. To Deactivate this Card, Simply Remove it from the Game.</li>
+                            <li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
                             <li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
                         </ul>
                     </li>
@@ -2346,7 +2442,7 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
                 </ul>
             </div>
@@ -2487,7 +2583,7 @@
                 <strong>PENALTY NOTES:</strong>
                 <ul>
                     <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 Playable Turns.</li>
+                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
                     <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
                 </ul>
             </div>
@@ -2534,7 +2630,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player Must Draw 2 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -2588,7 +2684,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 2 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -2643,7 +2739,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player is Skipped and the Following Player Must Draw 2 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player is Skipped and the Following Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -2698,7 +2794,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>Target Any Player at the Table and They Must Draw 2 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>Target Any Player at the Table and They Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -2734,7 +2830,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -2775,7 +2871,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player Must Draw 3 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player Must Draw 3 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -2810,7 +2906,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -2851,7 +2947,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 3 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 3 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -2887,7 +2983,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -2928,7 +3024,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player is Skipped and the Following Player Must Draw 2 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player is Skipped and the Following Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -2964,7 +3060,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3005,7 +3101,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>Target Any Player at the Table and They Must Draw 3 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>Target Any Player at the Table and They Must Draw 3 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3041,7 +3137,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3082,7 +3178,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player Must Draw 4 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3117,7 +3213,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3158,7 +3254,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 4 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3194,7 +3290,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3235,7 +3331,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player is Skipped and the Following Player Must Draw 4 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player is Skipped and the Following Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3271,7 +3367,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3312,7 +3408,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>Target Any Player at the Table and They Must Draw 4 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>Target Any Player at the Table and They Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3348,7 +3444,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3389,7 +3485,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player Must Draw 5 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3424,7 +3520,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3465,7 +3561,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 5 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3501,7 +3597,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3542,7 +3638,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player is Skipped and the Following Player Must Draw 5 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player is Skipped and the Following Player Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3578,7 +3674,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3619,7 +3715,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>Target Any Player at the Table and They Must Draw 5 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>Target Any Player at the Table and They Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3655,7 +3751,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3696,7 +3792,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player Must Draw 10 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3731,7 +3827,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3772,7 +3868,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 10 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Direction of Play Reverses, and the Previous Player Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3808,7 +3904,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3849,7 +3945,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player is Skipped and the Following Player Must Draw 10 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player is Skipped and the Following Player Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3885,7 +3981,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -3926,7 +4022,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>Target Any Player at the Table and They Must Draw 10 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>Target Any Player at the Table and They Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="discards-box">
@@ -3962,7 +4058,7 @@
                         <div class="note-box">
                             <strong>NOTES:</strong>
                             <ul>
-                                <li>You Can only Challenge or Respond in Kind… NOT both.</li>
+                                <li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
                             </ul>
                         </div>
                     </li>
@@ -4042,7 +4138,7 @@
             </div>
             <div class="rules-box">
                 <ol type="1">
-                    <li>The Next Player Must Draw 2 Cards and Skip Their Turn or Respond in Kind [passing Stacked Effects onto the next Player].</li>
+                    <li>The Next Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
                 </ol>
             </div>
             <div class="compatibility-box">
@@ -4212,7 +4308,7 @@
                         <ol type="a">
                             <li>Cancel the Activation of any Contagion Expansion Trap Class Chaos Card and Remove it from the Game.</li>
                             <li>Negate the Draw Effect charged against You [Stacked or otherwise].</li>
-                            <li>On any Playable Turn, You May surrender Cure by Shuffling it into the Deck instead of playing a Card.</li>
+                            <li>On any PLAYABLE TURN, You May surrender Cure by Shuffling it into the Deck instead of playing a Card.</li>
                         </ol>
                     </li>
                 </ol>
@@ -4247,11 +4343,11 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
                         <ul>
-                            <li>You May Deactivate this Card before you start any Playable Turn. To Deactivate this Card, Simply Remove it from the Game.</li>
+                            <li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
                             <li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
                         </ul>
                     </li>
@@ -5101,7 +5197,7 @@
                         <ul>
                             <li><strong>User:</strong>
                                 <ol type="a">
-                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
                                     <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
                                 </ol>
                             </li>
@@ -5736,7 +5832,7 @@
                     <li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
                     <li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
                     <li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-                    <li>Activate before You start a Playable Turn.</li>
+                    <li>Activate before You start a PLAYABLE TURN.</li>
                 </ul>
             </div>
             <div class="rules-box">
@@ -5756,7 +5852,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li>This Effect lasts until the start of Your next Playable Turn.</li>
+                    <li>This Effect lasts until the start of Your next PLAYABLE TURN.</li>
                 </ol>
             </div>
             <div class="compatibility-note">
@@ -5822,7 +5918,7 @@
                         <ul>
                             <li><strong>User:</strong>
                                 <ol type="a">
-                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
                                     <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
                                 </ol>
                             </li>
@@ -5877,7 +5973,7 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
                 </ul>
             </div>
@@ -5970,7 +6066,7 @@
                 <strong>NOTES:</strong>
                 <ul>
                     <li>Being the Highest-Level Counter Class Chaos Card [Lv4], the next Player Cannot use another Counter Class Chaos Card [such as Nou] against King’s Knight.</li>
-                    <li>However, the next Player Can still Respond in Kind by continuing to Stack the Draw Effect.</li>
+                    <li>However, the next Player Can still RESPOND IN KIND by continuing to Stack the Draw Effect.</li>
                 </ul>
             </div>
             <div class=restriction-box>
@@ -5978,7 +6074,7 @@
                 <ul>
                     <li>King’s Knight Cannot Counter Deal Effects.</li>
                     <li>You Can only use King’s Knight’s Diplomatic Immunity Effect once per Drawing Stack.</li>
-                    <li>King’s Knight’s Diplomatic Immunity Effect is a “Last Resort Measure”. Once You’ve used it You Cannot Respond in Kind or Counter again for the current Draw Stack.
+                    <li>King’s Knight’s Diplomatic Immunity Effect is a “Last Resort Measure”. Once You’ve used it You Cannot RESPOND IN KIND or Counter again for the current Draw Stack.
                         <div class="advanced-box">
                             <strong>LAST RESORT MEASURE EXCEPTION:</strong>
                             <ul>
@@ -6740,7 +6836,7 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You start a Playable Turn while facing a Stackable Draw Effect.</li>
+                    <li>Activate before You start a PLAYABLE TURN while facing a Stackable Draw Effect.</li>
                 </ul>
             </div>
             <div class="rules-box">
@@ -6775,7 +6871,7 @@
                 <strong>UNIQUE RESTRICTION NOTES:</strong>
                 <ul>
                     <li>You Can only use either of Queen’s Knight’s Death or Taxes Effects once per Drawing Stack [regardless of which was used].</li>
-                    <li>Queen’s Knight’s Death & Taxes Effect is a “Last Resort Measure”. Once You’ve used it You Cannot Respond in Kind or Counter again for the current Draw Stack.
+                    <li>Queen’s Knight’s Death & Taxes Effect is a “Last Resort Measure”. Once You’ve used it You Cannot RESPOND IN KIND or Counter again for the current Draw Stack.
                         <div class="advanced-box">
                             <strong>LAST RESORT MEASURE EXCEPTION:</strong>
                             <ul>
@@ -6822,7 +6918,7 @@
             </div>
             <div class="rules-box">
                 <ol>
-                    <li>On any Playable Turn, a Player Can choose to Activate the Recycle Chaos Card by Flipping it Face-Down.</li>
+                    <li>On any PLAYABLE TURN, a Player Can choose to Activate the Recycle Chaos Card by Flipping it Face-Down.</li>
                     <li>When they do so, they Must take the top half of the Discards [“No need to be exact, rough enough is good enough”] and Shuffle it back into the Deck and proceeds with Their Turn as normal.</li>
                 </ol>
             </div>
@@ -6870,8 +6966,8 @@
             </div>
             <div class="rules-box">
                  <ol type="a">
-                    <li>Once between Your Playable Turns, force one other Player to take Their Turn again.</li>
-                    <li>After any of Your Playable Turns, decide if You will take Your Turn again or not.</li>
+                    <li>Once between Your PLAYABLE TURNs, force one other Player to take Their Turn again.</li>
+                    <li>After any of Your PLAYABLE TURNs, decide if You will take Your Turn again or not.</li>
                 </ol>
             </div>
             <div class="note-box">
@@ -6939,7 +7035,7 @@
                         <ul>
                             <li><strong>User:</strong>
                                 <ol type="a">
-                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
                                     <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
                                 </ol>
                             </li>
@@ -7080,7 +7176,7 @@
             </div>
             <div class="rules-box">
                 <ol>
-                    <li>Target any Player. When Their next Playable Turn arrives, this Card deactivates, and the Direction of Play will instantly Reverse, returning to the previous Player.
+                    <li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and the Direction of Play will instantly Reverse, returning to the previous Player.
                         <div class="tip-box">
                             <strong>TIP:</strong>
                             <ul>
@@ -7104,7 +7200,7 @@
             <div class="compatibility-box">
                 <strong>COMPATIBILITY NOTES:</strong>
                 <ul>
-                    <li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent Playable Turns. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+                    <li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
                         <div class="example-box">
                             <strong>EXAMPLE:</strong>
                             <ul>
@@ -7125,7 +7221,7 @@
                 <strong>RESTRICTION NOTES:</strong>
                 <ul>
                     <li>Cannot be played as a Pure Chaos Card.</li>
-                    <li>Targeted Players Can still Respond in Kind [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+                    <li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
                 </ul>
             </div>
             <div class="image-container">
@@ -7427,7 +7523,7 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>This Card Can be Used Two Times in Any Game.</li>
                     <li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
@@ -7482,7 +7578,7 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>This Card Can be Used Two Times in Any Game.</li>
                     <li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
@@ -7586,7 +7682,7 @@
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
                     <li>To use one of these Card’s Effects, Place it on the Table in front of You [as proof of ownership], resolve its Effect and Then Return it to Your Hand [if required].</li>
-                    <li>Activate before You start a Playable Turn.</li>
+                    <li>Activate before You start a PLAYABLE TURN.</li>
                 </ul>
             </div>
             <div class="rules-box">
@@ -7641,7 +7737,7 @@
                 <strong>PENALTY NOTES:</strong>
                 <ul>
                     <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 Playable Turns.</li>
+                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
                     <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
                 </ul>
             </div>
@@ -7669,7 +7765,7 @@
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
                     <li>To use one of these Card’s Effects, Place it on the Table in front of You [as proof of ownership], resolve its Effect and Then Return it to Your Hand [if required].</li>
-                    <li>Activate before You start a Playable Turn.</li>
+                    <li>Activate before You start a PLAYABLE TURN.</li>
                 </ul>
             </div>
             <div class="rules-box">
@@ -7723,7 +7819,7 @@
                 <strong>PENALTY NOTES:</strong>
                 <ul>
                     <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 Playable Turns.</li>
+                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
                     <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
                 </ul>
             </div>
@@ -7751,7 +7847,7 @@
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
                     <li>To use one of these Card’s Effects, Place it on the Table in front of You [as proof of ownership], resolve its Effect and Then Return it to Your Hand [if required].</li>
-                    <li>Activate before You start a Playable Turn.</li>
+                    <li>Activate before You start a PLAYABLE TURN.</li>
                 </ul>
             </div>
             <div class="rules-box">
@@ -7810,7 +7906,7 @@
                 <strong>PENALTY NOTES:</strong>
                 <ul>
                     <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 Playable Turns.</li>
+                    <li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
                     <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
                 </ul>
             </div>
@@ -7961,7 +8057,7 @@
             </div>
             <div class="rules-box">
                 <ol>
-                    <li>Target any Player. When Their next Playable Turn arrives, this Card deactivates, and You Steal Their Turn.
+                    <li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and You Steal Their Turn.
                         <div class="tip-box">
                             <strong>TIP:</strong>
                             <ul>
@@ -7989,13 +8085,13 @@
                 <ul>
                     <li>Cannot be Countered.</li>
                     <li>Cannot be used as a Pure Chaos Card.</li>
-                    <li>Targeted Players Can still Respond in Kind [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+                    <li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
                 </ul>
             </div>
             <div class="compatibility-box">
                 <strong>COMPATIBILITY NOTES:</strong>
                 <ul>
-                    <li>Not only does Steal Turn Stack with itself, but it also Stacks with Reverse Stun, Stun and other Card Effects that prevent Playable Turns. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+                    <li>Not only does Steal Turn Stack with itself, but it also Stacks with Reverse Stun, Stun and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
                         <div class="example-box">
                             <strong>EXAMPLE:</strong>
                             <ul>
@@ -8032,7 +8128,7 @@
             </div>
             <div class="rules-box">
                 <ol>
-                    <li>Target any Player. When Their next Playable Turn arrives, this Card deactivates, and the Targeted Player's Turn is Skipped.
+                    <li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and the Targeted Player's Turn is Skipped.
                         <div class="tip-box">
                             <strong>TIP:</strong>
                             <ul>
@@ -8057,13 +8153,13 @@
                 <strong>RESTRICTION NOTES:</strong>
                 <ul>
                     <li>Cannot be used as a Pure Chaos Card.</li>
-                    <li>Targeted Players Can still Respond in Kind [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+                    <li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
                 </ul>
             </div>
             <div class="compatibility-box">
                 <strong>COMPATIBILITY NOTES:</strong>
                 <ul>
-                    <li>Not only does Stun Stack with itself, but it also Stacks with Reverse Stun, Steal Turn and other Card Effects that prevent Playable Turns. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+                    <li>Not only does Stun Stack with itself, but it also Stacks with Reverse Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
                         <div class="example-box">
                             <strong>EXAMPLE:</strong>
                             <ul>
@@ -8100,12 +8196,12 @@
                     <li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
                     <li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
                     <li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-                    <li>Activate before You start a Playable Turn.</li>
+                    <li>Activate before You start a PLAYABLE TURN.</li>
                 </ul>
             </div>
             <div class="rules-box">
                 <ol>
-                    <li>On any Playable Turn, You May Swap any Player’s Hand Cards or Ancient Stone Class Chaos Cards with any other Player [including Yourself], then proceed with Your Turn as normal.</li>
+                    <li>On any PLAYABLE TURN, You May Swap any Player’s Hand Cards or Ancient Stone Class Chaos Cards with any other Player [including Yourself], then proceed with Your Turn as normal.</li>
                 </ol>
             </div>
             <div class="restriction-box">
@@ -8160,7 +8256,7 @@
                         <ul>
                             <li><strong>User:</strong>
                                 <ol type="a">
-                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
                                     <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
                                 </ol>
                             </li>
@@ -8216,11 +8312,11 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
                         <ul>
-                            <li>You May Deactivate this Card before you start any Playable Turn. To Deactivate this Card, Simply Remove it from the Game.</li>
+                            <li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
                             <li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
                         </ul>
                     </li>
@@ -8277,12 +8373,12 @@
                     <li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
                     <li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
                     <li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-                    <li>Activate before You start a Playable Turn.</li>
+                    <li>Activate before You start a PLAYABLE TURN.</li>
                 </ul>
             </div>
             <div class="rules-box">
                 <ol>
-                    <li>On any Playable Turn, You May choose to Swap Seats with any other Player [You Must each leave Your Ancient Stone Class Chaos Cards behind but take Your Hand Cards with You] and then proceed with Your Turn as normal.</li>
+                    <li>On any PLAYABLE TURN, You May choose to Swap Seats with any other Player [You Must each leave Your Ancient Stone Class Chaos Cards behind but take Your Hand Cards with You] and then proceed with Your Turn as normal.</li>
                     <li>Play continues from Your new location.</li>
                 </ol>
             </div>
@@ -8344,7 +8440,7 @@
                         <ul>
                             <li><strong>User:</strong>
                                 <ol type="a">
-                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
                                     <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
                                 </ol>
                             </li>
@@ -8399,7 +8495,7 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>This Card Can be Used Two Times in Any Game.</li>
                     <li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
@@ -8454,11 +8550,11 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
                         <ul>
-                            <li>You May Deactivate this Card before you start any Playable Turn. To Deactivate this Card, Simply Remove it from the Game.</li>
+                            <li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
                             <li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
                         </ul>
                     </li>
@@ -8569,11 +8665,11 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
                         <ul>
-                            <li>You May Deactivate this Card before you start any Playable Turn. To Deactivate this Card, Simply Remove it from the Game.</li>
+                            <li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
                             <li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
                         </ul>
                     </li>
@@ -8638,11 +8734,11 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
                         <ul>
-                            <li>You May Deactivate this Card before you start any Playable Turn. To Deactivate this Card, Simply Remove it from the Game.</li>
+                            <li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
                             <li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
                         </ul>
                     </li>
@@ -8721,11 +8817,11 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
                         <ul>
-                            <li>You May Deactivate this Card before you start any Playable Turn. To Deactivate this Card, Simply Remove it from the Game.</li>
+                            <li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
                             <li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
                         </ul>
                     </li>
@@ -8775,7 +8871,7 @@
             <div class="discards-box">
                 <strong>ACTIVATION NOTES:</strong>
                 <ul>
-                    <li>Activate before You Start a Playable Turn.</li>
+                    <li>Activate before You Start a PLAYABLE TURN.</li>
                     <li>This Card Can be Used Two Times in Any Game.</li>
                     <li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
                     <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
@@ -8963,7 +9059,7 @@
                     <li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
                     <li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
                     <li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-                    <li>Activate before You start a Playable Turn.</li>
+                    <li>Activate before You start a PLAYABLE TURN.</li>
                 </ul>
             </div>
             <div class="rules-box">
@@ -9043,7 +9139,7 @@
                         <ul>
                             <li><strong>User:</strong>
                                 <ol type="a">
-                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your Playable Turns.</li>
+                                    <li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
                                     <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
                                 </ol>
                             </li>
@@ -9170,7 +9266,7 @@
             </div>
             <div class="discards-box">
                 <ul>
-                    <li>At the start of the User’s next Playable Turn, this Card deactivates and is placed on top of the Discards.</li>
+                    <li>At the start of the User’s next PLAYABLE TURN, this Card deactivates and is placed on top of the Discards.</li>
                     <li>Choose a Colour to continue.</li>
                 </ul>
             </div>

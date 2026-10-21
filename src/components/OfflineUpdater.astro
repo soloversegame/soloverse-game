@@ -1,0 +1,127 @@
+---
+// OfflineUpdater.astro - Soloverse Vault Sync Manager
+---
+<div id="offline-banner" class="offline-manager hidden">
+  <div class="banner-content">
+    <span class="icon">📚</span>
+    <p id="download-status">Syncing rulebook data...</p>
+  </div>
+  <button id="download-offline-btn" class="update-btn">📥 Download Offline Data</button>
+</div>
+
+<style>
+  .offline-manager { 
+    margin: 20px 0; 
+    padding: 16px; 
+    border: 1px solid #2a2d3d; 
+    background-color: #16171e;
+    border-radius: 8px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  .banner-content { display: flex; align-items: center; gap: 12px; }
+  .hidden { display: none !important; }
+  .icon { font-size: 1.3rem; }
+  
+  .update-btn { 
+    padding: 10px 18px; 
+    background: #ff4757; /* Eye-catching action color */
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+  }
+  .update-btn:hover { background: #ff6b81; }
+  .update-btn:disabled { background: #3f414e; cursor: not-allowed; color: #a4a6b5; }
+  #download-status { margin: 0; font-size: 0.95rem; color: #e4e6eb; font-weight: 500; }
+</style>
+
+<script is:inline>
+  const banner = document.getElementById('offline-banner');
+  const btn = document.getElementById('download-offline-btn');
+  const status = document.getElementById('download-status');
+  
+  const DATA_FILE = '/data.json'; 
+  const VERSION_FILE = '/version.json';
+  const CACHE_NAME = 'offline-info-data-v1'; // Matches your astro.config.mjs configuration
+
+  // Silently check version tags on page mount
+  async function checkForUpdates() {
+    try {
+      // 1. Grab fresh remote timestamp version payload using a cache-busting token
+      const verResponse = await fetch(`${VERSION_FILE}?t=${Date.now()}`);
+      if (!verResponse.ok) return;
+      const liveData = await verResponse.json();
+      const liveVersion = liveData.version;
+
+      // 2. Locate current locally saved file version details within the cache
+      const cache = await caches.open(CACHE_NAME);
+      const cachedVersionResponse = await cache.match(VERSION_FILE);
+      
+      if (!cachedVersionResponse) {
+        // Vault dataset has never been locally pulled or initialized
+        status.innerText = "Download the Rulebook Vault dataset for seamless offline access.";
+        btn.innerText = "📥 Download Vault Data";
+        banner.classList.remove('hidden');
+        return;
+      }
+
+      const cachedData = await cachedVersionResponse.json();
+      const cachedVersion = cachedData.version;
+
+      // 3. Flag an alert notification block if mismatches are discovered
+      if (liveVersion !== cachedVersion) {
+        status.innerText = "An update is available for your offline vault rulebooks.";
+        btn.innerText = "🔄 Sync Vault Now";
+        banner.classList.remove('hidden');
+      }
+    } catch (e) {
+      console.log("Device is running offline or blocked from checking remote updates.", e);
+    }
+  }
+
+  // Handle transaction download workflow requests
+  btn.addEventListener('click', async () => {
+    btn.disabled = true;
+    status.innerText = "Syncing latest data structures securely...";
+    
+    try {
+      const t = Date.now();
+      // Fetch fresh network resources completely independent of edge browser caches
+      const dataRes = await fetch(`${DATA_FILE}?t=${t}`);
+      const verRes = await fetch(`${VERSION_FILE}?t=${t}`);
+      
+      if (!dataRes.ok || !verRes.ok) throw new Error("Synchronization stream failed.");
+
+      const freshData = await dataRes.json();
+      const freshVersion = await verRes.json();
+
+      // Write straight to storage spaces matching exactly static target mappings
+      const cache = await caches.open(CACHE_NAME);
+      await cache.put(DATA_FILE, new Response(JSON.stringify(freshData)));
+      await cache.put(VERSION_FILE, new Response(JSON.stringify(freshVersion)));
+
+      status.innerText = "✅ Rulebook Vault successfully synchronized for offline use!";
+      
+      // Auto dismiss active message display interface after 3 seconds
+      setTimeout(() => {
+        banner.classList.add('hidden');
+        btn.disabled = false;
+      }, 3000);
+
+    } catch (error) {
+      status.innerText = "❌ Synchronization failed. Verify your internet status.";
+      btn.disabled = false;
+      console.error("Vault sync failed:", error);
+    }
+  });
+
+  // Execute processing logic routine checks immediately
+  checkForUpdates();
+</script>
