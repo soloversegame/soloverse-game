@@ -16,49 +16,18 @@ export default defineConfig({
         background_color: '#0f1015',
         display: 'standalone',
         icons: [
-          {
-            src: '/icon-192.png',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: '/icon-512.png',
-            sizes: '512x512',
-            type: 'image/png'
-          }
+          { src: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }
         ]
       },
       workbox: {
-        maximumFileSizeToCacheInBytes: 5000000,
+        maximumFileSizeToCacheInBytes: 5000000, // Keep this at 5MB so large card image assets fit!
         cleanupOutdatedCaches: true,
         skipWaiting: true,
         clientsClaim: true,
-        
-        // Match clean production build files
+        // Astro builds your markdown into regular HTML pages, so this caches everything perfectly
         globPatterns: ['**/*.{html,js,css,svg,png,jpg,pdf,webmanifest}'],
-        
-        // Ensure index acts as a safety route shell offline
-        navigateFallback: '/index.html',
-        
-        globIgnores: ['**/data.json', '**/version.json'],
-        runtimeCaching: [ /* ... include the fix from step 1 here ... */ ]
-      }
-
-        runtimeCaching: [
-          {
-            // FIX: Explicitly match the clean pathname, instantly ignoring '?t=' parameters!
-            urlPattern: ({ url }) => url.pathname === '/data.json' || url.pathname === '/version.json',
-            handler: 'NetworkFirst', 
-            options: {
-              cacheName: 'offline-info-data-v1',
-              expiration: {
-                maxEntries: 5,
-                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
-              },
-              networkTimeoutSeconds: 3 // Fallback to cache immediately if network hangs
-            }
-          },
-        ]
+        navigateFallback: '/index.html'
       }
     })
   ]

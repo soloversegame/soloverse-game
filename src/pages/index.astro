@@ -1,96 +1,78 @@
 ---
 // src/pages/index.astro
+import { getCollection, render } from 'astro:content'; 
 
+// 1. Pull your markdown collection files natively
+const allGameFiles = await getCollection('games');
+
+// 2. Your master games array (All grouped cleanly into one structure)
 const gamesList = [
   {
-    title: "[00] Soloverse - Crazy 8's Tutorial [START HERE]",
-    boxColor: "#b2b2b2", // Stone box theme
-    files: [
-      { name: "📖 Simplifed Game Rulebook", file: "00-crazy-8s-tutorial-rulebook", version: "1-0-0", isWebPage: true }
-    ]
+    id: "00-ab-soloverse-crazy-8s-tutorial",
+    title: "[00-AB] Soloverse - Crazy 8's Tutorial [START HERE]",
+    boxColor: "#b2b2b2",
+    rulesId: "00-ab-soloverse-crazy-8s-tutorial",
+    cardsId: null,
+    soloId: null
   },
-  {
+{
+    id: "01-soloverse-crazy-8s",
     title: "[01] Soloverse - Crazy 8's",
-    boxColor: "#0000ff", // Plague box theme
-    files: [
-      { name: "📖 Game Rulebook", file: "01-a-crazy-8s-game-rulebook", version: "15-0-0", isWebPage: true },
-      { name: "🃏 Chaos Card Definitions", file: "01-b-crazy-8s-definitions-rulebook", version: "15-0-0", isWebPage: true },
-      { name: "🕹️ Solo Mode Rules", file: "01-c-soloverse-crazy-8s-solo-mode-x-bot-player-rulebook", version: "1-0-0", isWebPage: true },
-      { name: "🏆 Tutorial Achievements List", file: "https://drive.google.com/file/d/1DCgKphLFoakyi9OXJ7Gjgv-stk8HqKG5/view?usp=sharing", version: "2-0-0", isWebPage: false }
-    ]
+    boxColor: "#2b4cff", // 🚀 FIX: Swapped flat #0000ff for a rich royal game blue
+    rulesId: "01-a-soloverse-crazy-8s-game-rules",
+    cardsId: "01-b-soloverse-crazy-8s-definition-rules",
+    soloId: "01-c-soloverse-crazy-8s-solo-mode-x-bot-player-rulebook"
   },
   {
+    id: "02-crazy-8s-utter-chaos",
     title: "[02] Soloverse - Crazy 8's [Utter Chaos]",
-    boxColor: "#0ed145", // Toxin box theme
-    files: [
-      { name: "📖 Game Rulebook", file: "02-a-crazy-8s-utter-chaos-game-rulebook", version: "4-0-0", isWebPage: true },
-      { name: "🃏 Chaos Card Definitions [To Be Released]", file: "02-b-soloverse-crazy-8s-utter-chaos-definitions-rulebook", version: "2-0-0" }
-    ]
+    boxColor: "#10b981", // 🚀 FIX: Swapped blinding neon green for an optimized emerald vault green
+    rulesId: "02-a-soloverse-crazy-8s-utter-chaos-game-rulebook",
+    cardsId: "02-b-soloverse-crazy-8s-utter-chaos-definitions-rulebook",
+    soloId: null
   },
   {
+    id: "03-karma",
     title: "[03] Soloverse - Karma",
-    boxColor: "#fff200", // Stinger box theme
-    files: [
-      { name: "📖 Game Rulebook", file: "03-a-karma-game-rulebook", version: "4-0-0", isWebPage: true },
-      { name: "🃏 Chaos Card Definitions [To Be Released]", file: "03-b-soloverse-karma-definitions-rulebook", version: "2-0-0" },
-      { name: "🕹️ Solo Mode Rules [To Be Released]", file: "03-c-soloverse-karma-solo-mode-x-bot-player-rulebook", version: "1-0-0", isWebPage: true }
-    ]
+    boxColor: "#fff200",
+    rulesId: "03-a-soloverse-karma-game-rulebook",
+    cardsId: "03-b-soloverse-karma-definitions-rulebook",
+    soloId: "03-c-soloverse-karma-solo-mode-x-bot-player-rulebook"
   },
   {
+    id: "04-cheat",
     title: "[04] Soloverse - Cheat",
-    boxColor: "#ff7f27", // Carbon box theme
-    files: [
-      { name: "📖 Game Rulebook", file: "04-a-cheat-game-rulebook", version: "4-0-0", isWebPage: true },
-      { name: "🃏 Chaos Card Definitions [To Be Released]", file: "04-b-soloverse-cheat-definitions-rulebook", version: "2-0-0" }
-    ]
+    boxColor: "#ff7f27",
+    rulesId: "04-a-soloverse-cheat-game-rulebook",
+    cardsId: "04-b-soloverse-cheat-definitions-rulebook",
+    soloId: null
   },
   {
+    id: "05-battle-solitaire",
     title: "[05] Soloverse - Battle Solitaire",
-    boxColor: "#b97a56", // Oak box theme
-    files: [
-      { name: "📖 Game Rulebook", file: "05-a-battle-solitaire-game-rulebook", version: "4-0-0", isWebPage: true },
-      { name: "🃏 Chaos Card Definitions [To Be Released]", file: "05-b-soloverse-battle-solitaire-definitions-rulebook", version: "2-0-0" },
-      { name: "🕹️ Solo Mode Rules [To Be Released]", file: "05-c-soloverse-battle-solitaire-solo-mode-x-bot-player-rulebook", version: "1-0-0", isWebPage: true }
-    ]
+    boxColor: "#b97a56",
+    rulesId: "05-a-soloverse-battle-solitaire-game-rulebook",
+    cardsId: "05-b-soloverse-battle-solitaire-definitions-rulebook",
+    soloId: "05-c-soloverse-battle-solitaire-solo-mode-x-bot-player-rulebook"
   },
   {
+    id: "06-deck-builder",
     title: "[06] Soloverse -  Deck-Builder",
-    boxColor: "#ec1c24", // Venom box theme
-    files: [
-      { name: "📖 Game Rulebook", file: "06-a-deck-builder-game-rulebook", version: "4-0-0", isWebPage: true },
-      { name: "🃏 Chaos Card Definitions [To Be Released]", file: "06-b-soloverse-deck-builder-definitions-rulebook", version: "2-0-0" },
-    ]
+    boxColor: "#ec1c24",
+    rulesId: "06-a-soloverse-deck-builder-game-rulebook",
+    cardsId: "06-b-soloverse-deck-builder-definitions-rulebook",
+    soloId: null
   },
   {
+    id: "07-nominations",
     title: "[07] Soloverse - Nominations",
-    boxColor: "#9d00ff", // Poison box theme
-    files: [
-      { name: "📖 Game Rulebook", file: "07-a-nominations-game-rulebook", version: "4-0-0", isWebPage: true },
-      { name: "🃏 Chaos Card Definitions [To Be Released]", file: "07-b-soloverse-nominations-definitions-rulebook", version: "3-0-0" }
-    ]
-  },
-  {
-    title: "[00] Soloverse [Universal Game Notes]",
-    boxColor: "#b2b2b2", // Stone box theme
-    files: [
-      { name: "📖 Universal Game Notes", file: "00-a-universal-game-notes", version: "4-0-0", isWebPage: true },
-      { name: "🃏 Variations Rulebook", file: "00-b-variations-rulebook", version: "4-0-0", isWebPage: true },
-      { name: "🕹️ Patch Notes", file: "00-c-patch-notes", version: "4-0-0", isWebPage: true },
-      { name: "📁 Recommended Divider Setup", file: "00-d-recommended-divider-setup", version: "1-0-0", isWebPage: true },
-      { name: "🗎 Old PDF Rulebooks (for Incomplete Website Rulebooks)", file: "https://drive.google.com/drive/folders/1lwtMv_e9QLesb5B8LZqbH68DytEHED3q?usp=drive_link", version: "1-0-0", isWebPage: true }
-    ]
-  },
-  {
-    title: "[00] Soloverse [Contact Us]",
-    boxColor: "#b2b2b2", 
-    files: [
-      { name: "Join Our Discord", file: "https://discord.gg/ShuxrtsX6s", version: "1-0-0", isWebPage: false, iconType: "discord" },
-      { name: "Facebook Page", file: "https://facebook.com/soloversegame", version: "1-0-0", isWebPage: false, iconType: "facebook" },
-      { name: "Instagram", file: "https://instagram.com/soloversegame", version: "1-0-0", isWebPage: false, iconType: "instagram" },
-      { name: "✉ Email", file: "mailto:soloversegame@gmail.com", version: "1-0-0", isWebPage: false }
-    ]
+    boxColor: "#9d00ff",
+    rulesId: "07-a-soloverse-nominations-game-rulebook",
+    cardsId: "07-b-soloverse-nominations-definitions-rulebook",
+    soloId: null
   }
 ];
+
 const upcomingGames = [
   { title: "08 Soloverse - 500" },
   { title: "09 Soloverse - Poker" },
@@ -101,528 +83,51 @@ const upcomingGames = [
   { title: "14 Soloverse - TCG: 'Draft Mode'" },
   { title: "15 Soloverse - Dungeon Crawler"}
 ];
+
+
+// 3. Render all components asynchronously (including Solo components)
+const renderedGames = await Promise.all(
+  gamesList.map(async (game) => {
+    const rulesMatch = allGameFiles.find((f) => f.id === game.rulesId);
+    const cardsMatch = allGameFiles.find((f) => f.id === game.cardsId);
+    const soloMatch = game.soloId ? allGameFiles.find((f) => f.id === game.soloId) : null;
+
+    const rulesRender = rulesMatch ? await render(rulesMatch) : null;
+    const cardsRender = cardsMatch ? await render(cardsMatch) : null;
+    const soloRender = soloMatch ? await render(soloMatch) : null;
+
+    return {
+      ...game,
+      RulesComponent: rulesRender ? rulesRender.Content : null,
+      CardsComponent: cardsRender ? cardsRender.Content : null,
+      SoloComponent: soloRender ? soloRender.Content : null,
+    };
+  })
+);
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cloudflare.com">
-
     <title>Soloverse Rulebook Hub</title>
-
-    <!-- 1. Universal PWA Link: Points explicitly to your built manifest configuration -->
     <link rel="manifest" href="/manifest.webmanifest" />
-
-    <!-- 2. Mobile address bar styling for your dark layout profile -->
     <meta name="theme-color" content="#0f1015" />
 
-    <!-- 3. Standard Inline PWA Registration Script: Zero dependencies, won't crash your server -->
+    <!-- Pure, native PWA registration. No custom code download hooks to break on mobile webviews -->
     <script is:inline>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          // Registers the automatic service worker built by @vite-pwa/astro
           navigator.serviceWorker.register('/sw.js', { scope: '/' })
-            .then(reg => console.log('Soloverse PWA loaded successfully:', reg.scope))
-            .catch(err => console.error('Soloverse PWA initialization failed:', err));
+            .then(reg => console.log('PWA Registered:', reg.scope))
+            .catch(err => console.error('PWA Failed:', err));
         });
       }
     </script>
-
-    <style>
-		/* ==========================================================================
-			Add your stationary background here using :global()
-           ========================================================================== */
-		   :global(body) {
-				background-image: url('/assets/images/layouts/soloverse-logo.png');
-				background-attachment: fixed; 
-				background-position: center; 
-				background-repeat: no-repeat; 
-				background-size: contain; 
-		}
-
-        /* ==========================================================================
-           AUTOMATED TABLET & WIDESCREEN RESPONSIVE ENGINE
-           ========================================================================== */
-
-        /* Automatically expands text spreads when tablets are flipped horizontally */
-        @media screen and (min-width: 768px) and (orientation: landscape) {
-            body {
-                max-width: 960px; /* Expands reading column limits for a comfortable landscape view */
-                margin: 40px auto;
-                padding: 0 30px;
-            }
-
-            .rules-box {
-                padding: 32px;
-                margin: 24px 0;
-            }
-        }
-
-        /* Large Screen Optimizations (Large Tablets, Monitors, and Laptops) */
-        @media screen and (min-width: 1024px) {
-            body {
-                max-width: 1050px; /* Sweeps columns out nicely on large display panels */
-            }
-        }
-		
-		/* PWA Installation Overlay Banner Layout */
-		.pwa-install-banner {
-			position: fixed;
-			bottom: 20px;
-			left: 50%;
-			transform: translateX(-50%);
-			width: calc(100% - 40px);
-			max-width: 500px;
-			background: var(--bg-card);
-			border: 1px solid var(--text-divider);
-			box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
-			border-radius: 12px;
-			padding: 16px;
-			z-index: 9999;
-			display: none; /* Controlled dynamically via runtime scripts */
-			flex-direction: column;
-			gap: 12px;
-			transition: opacity 0.3s ease;
-		}
-
-		.pwa-header {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-		}
-
-		.pwa-title {
-			font-weight: 700;
-			color: var(--text-primary);
-			font-size: 1rem;
-		}
-
-		.pwa-close-btn {
-			background: none;
-			border: none;
-			color: var(--text-muted);
-			font-size: 1.2rem;
-			cursor: pointer;
-			padding: 0 4px;
-		}
-
-		.pwa-body {
-			font-size: 0.9rem;
-			color: var(--text-secondary);
-			line-height: 1.4;
-		}
-
-		.pwa-action-row {
-			display: flex;
-			justify-content: flex-end;
-			gap: 8px;
-			margin-top: 4px;
-		}
-
-		.pwa-btn {
-			padding: 8px 16px;
-			border-radius: 6px;
-			font-size: 0.85rem;
-			font-weight: 600;
-			cursor: pointer;
-			border: none;
-		}
-
-		.pwa-btn-primary {
-			background: var(--color-link);
-			color: #ffffff;
-		}
-
-		.pwa-btn-secondary {
-			background: var(--bg-main-box);
-			border: 1px solid var(--text-divider);
-			color: var(--text-secondary);
-		}
-
-		/* Landscape-Specific Media Rules Override */
-		@media (orientation: landscape) and (min-width: 768px) {
-			body {
-				max-width: 1000px; /* Expands rulebook layout limits automatically when flipped horizontally */
-				margin: 20px auto;
-				padding: 30px;
-				display: grid;
-				grid-template-columns: 1fr; /* Ensures container blocks adapt smoothly to the extra real estate */
-			}
-
-			.rules-box {
-				padding: 32px; /* Amplifies grid spacing layouts comfortably for widescreen reading */
-			}
-		}
-		
-        /* 1. DEFINE YOUR REACTIVE COLOR MAP ARCHITECTURE */
-        :root {
-            --bg-main: #0f1015;
-            --bg-card: #171922;
-            --bg-contents: #1c1e27;
-            --bg-link: #242732;
-            --bg-link-hover: #3b82f6;
-            --text-primary: #ffffff;
-            --text-secondary: #f3f4f6;
-            --text-muted: #9ca3af;
-            --text-divider: #2d3139;
-            --shadow-card: rgba(0, 0, 0, 0.5);
-        }
-
-        /* 2. AUTOMATIC LIGHT MODE OVERRIDE DATA VALUES */
-        :root[data-theme="light"] {
-            --bg-main: #f4f5f7;
-            --bg-card: #ffffff;
-            --bg-contents: #f9fafb;
-            --bg-link: #f3f4f6;
-            --bg-link-hover: #e5e7eb;
-            --text-primary: #111216;
-            --text-secondary: #1f2937;
-            --text-muted: #4b5563;
-            --text-divider: #d1d5db;
-            --shadow-card: rgba(0, 0, 0, 0.1);
-        }
-
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background: var(--bg-main);
-            color: var(--text-secondary);
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            transition: background 0.3s, color 0.3s;
-        }
-        h1 {
-            text-align: center;
-            color: var(--text-primary);
-            font-size: 2.5rem;
-            margin-bottom: 5px;
-            font-weight: 800;
-            letter-spacing: -0.05em;
-        }
-        .subtitle {
-            text-align: center;
-            color: var(--text-muted);
-            margin-bottom: 50px;
-        }
-        
-        /* 1. BUTTON HOVER CONTAINER FLEXBOX LAYOUT (Add this above your button code) */
-        .theme-toggle-container {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 25px;
-        }
-
-        /* 2. THE CORE BUTTON DESIGN (Keep your custom pill configurations) */
-        .theme-btn {
-            background: var(--bg-card);
-            color: var(--text-primary);
-            border: 1px solid var(--text-divider);
-            padding: 10px 16px;
-            border-radius: 50px; /* Keeps your premium pill design */
-            font-weight: 700;
-            cursor: pointer;
-            font-size: 0.9rem;
-            box-shadow: 0 4px 6px -1px var(--shadow-card);
-            display: inline-flex; /* Ensures text and emojis center perfectly together */
-            align-items: center;
-            gap: 8px;
-            transition: background 0.2s, color 0.2s, transform 0.1s, border-color 0.2s;
-        }
-
-        /* Adds a subtle layout response highlight when hovering over buttons */
-        .theme-btn:hover {
-            border-color: var(--color-link);
-            background: var(--bg-main-box);
-        }
-
-        /* 3. ACTIVE CLICK SPRING ANIMATION (Keep this completely intact!) */
-        .theme-btn:active { 
-            transform: scale(0.97); /* Keeps your tactile push spring effect on click */
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 30px;
-        }
-        .game-card {
-            background: var(--bg-card);
-            border-radius: 16px;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            box-shadow: 0 10px 25px -5px var(--shadow-card), 0 8px 10px -6px var(--shadow-card);
-            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s;
-        }
-        .game-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 25px -5px var(--shadow-card), 0 10px 10px -5px var(--shadow-card);
-        }
-        .game-header {
-            padding: 24px 20px;
-            position: relative;
-        }
-        .game-header::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to bottom, rgba(255,255,255,0.12), rgba(0,0,0,0.35));
-        }
-        .game-title {
-            position: relative;
-            z-index: 10;
-            margin: 0;
-            font-size: 1.15rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
-        .box-contents {
-            padding: 20px;
-            background: var(--bg-contents);
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            border-top: 1px solid var(--text-divider);
-        }
-        .links-list {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        .rule-link {
-            display: flex;
-            align-items: center;
-            background: var(--bg-link);
-            color: var(--text-muted);
-            text-decoration: none;
-            padding: 12px 14px;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            border: 1px solid var(--text-divider);
-            transition: background 0.15s, color 0.15s, border-color 0.15s;
-        }
-        .rule-link:hover {
-            background: var(--bg-link-hover);
-            color: var(--text-primary);
-        }
-        .section-divider {
-            grid-column: 1 / -1;
-            margin-top: 60px;
-            margin-bottom: 20px;
-            border-bottom: 1px dashed var(--text-divider);
-            padding-bottom: 15px;
-            color: var(--text-muted);
-            font-size: 1.25rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        .blueprint-card {
-            background: var(--bg-card);
-            opacity: 0.7;
-            border: 2px dashed var(--text-divider);
-            border-radius: 16px;
-            padding: 24px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            min-height: 120px;
-            position: relative;
-            overflow: hidden;
-        }
-        .blueprint-title {
-            margin: 0;
-            font-size: 1rem;
-            font-weight: 700;
-            color: var(--text-muted);
-        }
-        .status-badge {
-            align-self: flex-start;
-            background: var(--bg-link);
-            color: var(--text-muted);
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 4px 8px;
-            border-radius: 4px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-top: 15px;
-        }
-        .image-container {
-            margin: 20px auto;
-            padding: 12px;
-            background: var(--bg-main-box);
-            border: 1px solid var(--text-divider);
-            border-radius: 8px;
-            text-align: center;
-            max-width: 100%;
-        }
-        .image-container img {
-            max-width: 100%;
-            max-height: 450px;
-            width: auto;
-            height: auto;
-            object-fit: contain;
-            border-radius: 6px;
-            display: block;
-            margin: 0 auto;
-            border: 1px solid var(--text-divider);
-        }
-        .image-caption {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-top: 10px;
-            font-weight: 500;
-            line-height: 1.4;
-        }
-
-        /* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
-        .image-row-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            justify-content: center;
-            margin: 20px 0;
-            width: 100%;
-        }
-        .image-row-container .image-container {
-            flex: 1 1 calc(33.333% - 15px);
-            min-width: 220px;
-            margin: 0;
-        }
-    </style>
-
 </head>
 <body>
 
-    <!-- ================== OFFLINE VAULT SYNC BANNER ================== -->
-    <div id="offline-banner" class="offline-manager hidden">
-      <div class="banner-content">
-        <span class="icon">📚</span>
-        <p id="download-status">Syncing rulebook data...</p>
-      </div>
-      <button id="download-offline-btn" class="update-btn">📥 Download Offline Data</button>
-    </div>
-
-    <style is:inline>
-      .offline-manager { 
-        margin: 20px; 
-        padding: 16px; 
-        border: 1px solid #2a2d3d; 
-        background-color: #16171e; 
-        border-radius: 8px; 
-        display: flex; 
-        justify-content: space-between; 
-        align-items: center; 
-        gap: 15px; 
-        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-        font-family: system-ui, -apple-system, sans-serif;
-      }
-      .banner-content { display: flex; align-items: center; gap: 12px; }
-      .hidden { display: none !important; }
-      .icon { font-size: 1.3rem; }
-      .update-btn { 
-        padding: 10px 18px; 
-        background: #ff4757; 
-        color: white; 
-        border: none; 
-        border-radius: 6px; 
-        cursor: pointer; 
-        font-weight: 600; 
-        white-space: nowrap; 
-        transition: background 0.2s ease;
-      }
-      .update-btn:hover { background: #ff6b81; }
-      .update-btn:disabled { background: #3f414e; cursor: not-allowed; color: #a4a6b5; }
-      #download-status { margin: 0; font-size: 0.95rem; color: #e4e6eb; font-weight: 500; }
-    </style>
-
-    <script is:inline>
-      const banner = document.getElementById('offline-banner');
-      const btn = document.getElementById('download-offline-btn');
-      const status = document.getElementById('download-status');
-      
-      const DATA_FILE = '/data.json'; 
-      const VERSION_FILE = '/version.json';
-      const CACHE_NAME = 'offline-info-data-v1';
-
-      async function checkForUpdates() {
-        try {
-          const verResponse = await fetch(`${VERSION_FILE}?t=${Date.now()}`);
-          if (!verResponse.ok) return;
-          const liveData = await verResponse.json();
-          
-          const cache = await caches.open(CACHE_NAME);
-          const cachedVersionResponse = await cache.match(VERSION_FILE);
-          
-          if (!cachedVersionResponse) {
-            status.innerText = "Download the Rulebook Vault dataset for seamless offline access.";
-            btn.innerText = "📥 Download Vault Data";
-            banner.classList.remove('hidden');
-            return;
-          }
-          
-          const cachedData = await cachedVersionResponse.json();
-          if (liveData.version !== cachedData.version) {
-            status.innerText = "An update is available for your offline vault rulebooks.";
-            btn.innerText = "🔄 Sync Vault Now";
-            banner.classList.remove('hidden');
-          }
-        } catch (e) {
-          console.log("Device is running offline.", e);
-        }
-      }
-
-      btn.addEventListener('click', async () => {
-        btn.disabled = true;
-        status.innerText = "Syncing latest data structures securely...";
-        try {
-          const t = Date.now();
-          // 1. Fetch live from the network with a timestamp to force fresh data
-          const dataRes = await fetch(`${DATA_FILE}?t=${t}`);
-          const verRes = await fetch(`${VERSION_FILE}?t=${t}`);
-          
-          if (!dataRes.ok || !verRes.ok) throw new Error("Sync failed");
-
-          // FIX: Parse the JSON responses FIRST using await before trying to pass them along
-          const dataJson = await dataRes.json();
-          const versionJson = await verRes.json();
-
-          // 2. Open our safe data cache space
-          const cache = await caches.open(CACHE_NAME);
-
-          // 3. Construct a CLEAN request path (no query parameters)
-          const cleanDataRequest = new Request(DATA_FILE);
-          const cleanVersionRequest = new Request(VERSION_FILE);
-
-          // 4. Save the parsed objects cleanly without open await syntaxes
-          await cache.put(cleanDataRequest, new Response(JSON.stringify(dataJson)));
-          await cache.put(cleanVersionRequest, new Response(JSON.stringify(versionJson)));
-          
-          status.innerText = "✅ Rulebook Vault successfully synchronized for offline use!";
-          setTimeout(() => { 
-            banner.classList.add('hidden'); 
-            btn.disabled = false; 
-          }, 3000);
-        } catch (error) {
-          status.innerText = "❌ Synchronization failed. Verify connection.";
-          btn.disabled = false;
-          console.error(error);
-        }
-      });
-      
-      checkForUpdates();
-    </script>
     <!-- =============================================================== -->
 
 		<!-- THE REACTIVE THEME & ROTATION OPTION INTERFACE CONTROLLER BUTTONS -->
@@ -656,101 +161,625 @@ const upcomingGames = [
         Also know that each additional Game that has been added to the Game, has kept the Card Definitions as close to the Original in the Tutorual Game: Crazy 8's as possible.
     </p>
 
+<!-- ==================== PART 1: THE DYNAMIC GAME CARDS GRID ==================== -->
     <div class="grid">
-        {gamesList.map((game) => {
+        {renderedGames.map((game, index) => {
             const titleColor = game.boxColor === "#fff200" ? "#111216" : "#ffffff";
             const textShadowRule = game.boxColor === "#fff200" ? "none" : "0 2px 4px rgba(0,0,0,0.6)";
 
             return (
-                <div class="game-card">
+                <button 
+                    class="game-card selector-trigger" 
+                    data-target={`vault-${game.id}`}
+                    style="text-align: left; width: 100%; border: none; padding: 0; cursor: pointer; display: block; overflow: hidden;"
+                >
                     <div class="game-header" style={`background-color: ${game.boxColor}; border-bottom: 4px solid rgba(0,0,0,0.25);`}>
                         <h2 class="game-title" style={`color: ${titleColor}; text-shadow: ${textShadowRule};`}>
                             {game.title}
                         </h2>
                     </div>
                     
-                    {/* RESTORED: Vital container hooks to stop compiler errors */}
                     <div class="box-contents">
-                        <nav class="links-list">
-                            {game.files.map((item) => {
-                                // 1. PROTOCOL CHECK: Identify mailto or external absolute links
-                                const isExternalProtocol = item.file.startsWith('mailto:') || item.file.startsWith('http');
+                        <p style="margin: 0; padding: 10px; color: #ced4da; font-size: 0.9rem;">
+                            👉 Tap to open the live Rulebook and Card Database interface.
+                        </p>
+                    </div>
+                </button>
+            );
+        })}
+    </div>
 
-                                let finalUrl;
+    <!-- ==================== NEW SPLIT-VIEW LIVE RULEBOOK PANELS ==================== -->
+    <div class="vault-panels-holder" style="margin-top: 40px;">
+        {renderedGames.map((game, index) => {
+            const Rules = game.RulesComponent;
+            const Cards = game.CardsComponent;
+            const Solo = game.SoloComponent;
 
-                                if (isExternalProtocol) {
-                                    // If it's an email link or web protocol, pass it raw
-                                    finalUrl = item.file;
-                                } else if (item.isWebPage) {
-                                    // 2. SMART WEB PAGE OVERRIDE: If the file has 'isWebPage: true', use your clean direct URL string instead!
-                                    finalUrl = item.file;
-                                } else {
-                                    // 3. DEFAULT PDF ROUTE: If it's a standard PDF file, build the hidden hyphenated array path
-                                    const folderPathArray = ["", "rulebooks", game.folder, item.file + "-v" + item.version + ".pdf"];
-                                    finalUrl = folderPathArray.join('/');
-                                }
-            
-                                return (
-                                    <div class="link-button-wrapper" style="width: 100%;">
-                                        <a 
-                                            href={finalUrl} 
-                                            class="rule-link universal-pdf-trigger" 
-                                            style={`border-left: 3px solid ${game.boxColor}; display: flex; align-items: center; width: 100%;`}
-                                            target={isExternalProtocol && !item.file.startsWith('mailto:') ? "_blank" : undefined}
-                                            rel={isExternalProtocol ? "noopener noreferrer" : undefined}
-                                        >
-                                            {/* 4. ASTRO INLINE ICON LOGIC (Standard Template Conditionals) */}
-                                            {item.iconType === 'discord' && (
-                                                <svg width="16" height="16" viewBox="0 0 127.14 96.36" fill="currentColor" style="margin-right: 8px; display: inline-block; flex-shrink: 0;"><path d="M107.7,8.07A105.15,105.15,0,0,0,77.26,0a77.19,77.19,0,0,0-3.3,6.83A96.67,96.67,0,0,0,53.22,6.83,77.19,77.19,0,0,0,49.88,0,105.15,105.15,0,0,0,19.44,8.07C3.66,31.58-1.86,54.65,1,77.53A105.73,105.73,0,0,0,32,96.36a74.37,74.37,0,0,0,6.66-10.85A68.52,68.52,0,0,1,28.32,80.3c.87-.64,1.72-1.31,2.53-2a75.47,75.47,0,0,0,65.46,0c.81.69,1.66,1.36,2.53,2a68.43,68.43,0,0,1-10.35,5.21,74.52,74.52,0,0,0,6.66,10.85,105.47,105.47,0,0,0,31.07-18.83C129.87,50.22,123.81,27.35,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53S36.18,40.36,42.45,40.36,53.83,46,53.83,53,48.72,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.24,60,73.24,53S78.41,40.36,84.69,40.36,96.07,46,96.07,53,91,65.69,84.69,65.69Z"/></svg>
-                                            )}
-                                            {item.iconType === 'facebook' && (
-                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px; display: inline-block; flex-shrink: 0;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                                            )}
-                                            {item.iconType === 'instagram' && (
-                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px; display: inline-block; flex-shrink: 0;"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                                            )}
+            return (
+                <div id={`vault-${game.id}`} class={`game-panel ${index === 0 ? '' : 'hidden'}`}>
+                    <div class="panel-accent-header" style={`border-left: 6px solid ${game.boxColor}; background: #16171e; padding: 15px; border-radius: 4px; margin-bottom: 20px;`}>
+                        <h2 style="margin: 0; color: #fff;">{game.title} - Operational Database</h2>
+                    </div>
+                    
+                    <div class="split-view">
+                        <!-- Column 1: Core Rulebook -->
+                        <section class="content-block">
+                            <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>📜 Game Rulebook</h3>
+                            <div class="text-layer">
+                                {Rules ? <Rules /> : <p>No core rulebook document compiled for this variant layout yet.</p>}
+                            </div>
+                        </section>
 
-                                            {item.name} 
-                                            
-                                            <span style="margin-left: auto; font-size: 0.75rem; opacity: 0.6; font-weight: normal; margin-right: 10px;">
-                                                v{item.version.replaceAll('-', '.')}
-                                            </span>
-                                        </a>
+                        <!-- Column 2: Card Definitions & Solo Rules -->
+                        <section class="content-block">
+                            <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Card Definitions & Reference</h3>
+                            <div class="text-layer">
+                                {Cards ? <Cards /> : <p>No card database structure linked yet.</p>}
+                                
+                                {Solo && (
+                                    <div class="solo-layer" style="margin-top: 30px; border-top: 2px dashed #2a2d3d; padding-top: 20px;">
+                                        <h3 style={`color: ${game.boxColor}; margin-top: 0;`}>🕹️ Solo Mode Rules</h3>
+                                        <Solo />
                                     </div>
-                                );
-                            })}
-                        </nav>
+                                )}
+                            </div>
+                        </section>
                     </div>
                 </div>
             );
         })}
-    
+    </div>
+
+    <!-- ==================== PART 2: THE UPCOMING PIPELINE STACK ==================== -->
+    <div style="margin-top: 50px;">
         <div class="section-divider">
             🛠️ In Development Blueprint Stack ({upcomingGames.length} Variants Pipeline)
         </div>
 
-        {upcomingGames.map((upcoming) => (
-            <div class="blueprint-card">
-                <h2 class="blueprint-title">{upcoming.title}</h2>
-                <div class="status-badge">📦 Under Construction</div>
-            </div>
-        ))}
+        <div class="grid">
+            {upcomingGames.map((upcoming) => (
+                <div class="blueprint-card">
+                    <h2 class="blueprint-title">{upcoming.title}</h2>
+                    <div class="status-badge">📦 Under Construction</div>
+                </div>
+            ))}
+        </div>
     </div>
 
-    <!-- Smart PWA Installation Banner Overlay Component -->
+    <!-- ==================== PART 3: THE SMART PWA INSTALLATION OVERLAY ==================== -->
     <div id="pwa-banner" class="pwa-install-banner">
         <div class="pwa-header">
             <div class="pwa-title">📱 Add Soloverse to Home Screen</div>
             <button id="pwa-close" class="pwa-close-btn" aria-label="Close popup">×</button>
         </div>
         <div id="pwa-instructions" class="pwa-body">
-            <!-- Content will be auto-generated by the script layer based on device profiling -->
+            <!-- Content will be auto-generated by your script layer -->
         </div>
         <div class="pwa-action-row">
             <button id="pwa-dismiss" class="pwa-btn pwa-btn-secondary">Not Now</button>
             <button id="pwa-action-btn" class="pwa-btn pwa-btn-primary" style="display: none;">Install App</button>
         </div>
     </div>
+
+    <!-- ==================== SOLOVERSE VAULT CENTRAL STYLING ENGINE ==================== -->
+    <style is:inline>
+        /* 1. GLOBAL LAYOUT FRAMEWORK CONSTRAINTS */
+        body { 
+            background-color: #0f1015; 
+            color: #e4e6eb; 
+            font-family: system-ui, -apple-system, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            max-width: 100vw;
+            overflow-x: hidden;
+        }
+        
+        .vault-container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            width: 100%;
+        }
+
+        header { 
+            text-align: center; 
+            margin-bottom: 40px; 
+            border-bottom: 1px solid #2a2d3d; 
+            padding-bottom: 25px; 
+        }
+
+        /* 1B. THEME PILL TOGGLE INTERFACE CONTROLS */
+        .theme-toggle-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .theme-btn {
+            background: #171922;
+            color: #ffffff;
+            border: 1px solid #2d3139;
+            padding: 10px 16px;
+            border-radius: 50px; 
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.9rem;
+            display: inline-flex; 
+            align-items: center;
+            gap: 8px;
+            transition: background 0.2s, border-color 0.2s, transform 0.1s;
+        }
+
+        .theme-btn:hover {
+            border-color: #3b82f6;
+            background: #1c1d26;
+        }
+
+        .theme-btn:active { 
+            transform: scale(0.97); 
+        }
+
+        /* 2. DYNAMIC SELECTION CARDS GRID PROFILE */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+            gap: 20px; 
+            width: 100%; 
+            margin-bottom: 40px;
+        }
+
+        .game-card {
+            background: #16171e;
+            border-radius: 16px; 
+            overflow: hidden;    
+            border: 1px solid #2d3139; 
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .game-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.6);
+        }
+
+        .game-header {
+            padding: 24px 20px;
+            text-align: center;
+            position: relative; 
+            /* 🚀 THE ZOOM FIX: Pre-rounds the inner color block so fractional scaling remainders can't bleed out */
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+            background-clip: padding-box; /* Forces the background color to respect inner boundary layers */
+        }
+        .game-header::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.35));
+            pointer-events: none; 
+        }
+
+        .game-title {
+            position: relative;
+            z-index: 10; 
+            margin: 0;
+            font-size: 1.15rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .box-contents {
+            padding: 20px;
+            background: #1c1e27; 
+            flex-grow: 1;
+        }
+
+        /* 3. SPLIT-VIEW OPERATIONS INTERFACE DASHBOARD */
+        .vault-panels-holder { width: 100%; }
+        .game-panel { 
+            animation: vaultFadeIn 0.35s cubic-bezier(0.4, 0, 0.2, 1); 
+            width: 100%;
+        }
+        .hidden { display: none !important; }
+
+        /* ==========================================================================
+           3. SPLIT-VIEW OPERATIONS INTERFACE DASHBOARD (VIEWPORT-LOCKED ENGINE)
+           ========================================================================= */
+        .vault-panels-holder { 
+            width: 100%; 
+        }
+        
+        .game-panel { 
+            animation: vaultFadeIn 0.35s cubic-bezier(0.4, 0, 0.2, 1); 
+            width: 100%;
+        }
+        
+        .hidden { 
+            display: none !important; 
+        }
+
+        /* 📱 DEFAULT PORTRAIT MODE: Automatically stacks top and bottom */
+        .split-view { 
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            margin-top: 20px; 
+            width: 100%;
+            /* Constrains the total split-view area to a manageable mobile phone canvas */
+            height: 75vh; 
+        }
+
+        /* 🕹️ LOCKED MULTI-SCROLL INDEPENDENT COLUMNS */
+        .content-block { 
+            background: #16171e; 
+            border: 1px solid #2a2d3d; 
+            padding: 20px; 
+            border-radius: 8px; 
+            min-width: 0; 
+            display: flex;
+            flex-direction: column;
+            
+            /* CRITICAL: Activates isolated native momentum scrolling per column box */
+            flex: 1;
+            overflow-y: auto; 
+            -webkit-overflow-scrolling: touch; 
+            
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        /* 🎮 AUTOMATIC LANDSCAPE MODE BREAKPOINT (SIDE-BY-SIDE SIDE PANEL ENGINE) */
+        @media screen and (min-width: 600px) and (orientation: landscape) { 
+            .split-view { 
+                display: grid;
+                grid-template-columns: 1fr 1fr; /* Splitting the screen perfectly left and right */
+                gap: 25px;
+                /* Expands the columns to comfortably consume the available table view estate */
+                height: 80vh; 
+            }
+            
+            .content-block {
+                height: 100%; /* Forces both blocks to match the height grid wrapper frame exactly */
+            }
+        }
+
+        /* Clean up internal text spacing layout within the scroll zones */
+        .text-layer { 
+            line-height: 1.6; 
+            color: #ced4da; 
+            font-size: 0.98rem;
+            flex-grow: 1;
+        }
+
+        .text-layer { 
+            line-height: 1.6; 
+            color: #ced4da; 
+            font-size: 0.98rem;
+        }
+
+        /* 4. PRESERVES YOUR NESTED VISUAL RULEBOOK BOX STYLING FLUSH LAYOUTS */
+        .rules-box { 
+            margin-bottom: 20px; 
+            width: 100%; 
+            box-sizing: border-box; 
+        }
+        .card-header-block {
+            background: #20222e;
+            padding: 12px 16px;
+            border-radius: 6px 6px 0 0;
+            border-bottom: 2px solid #2a2d3d;
+        }
+        
+        .rules-box, .discards-box, .compatibility-box, .restriction-box {
+            background: #1c1d26;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+            border: 1px solid #2a2d3d;
+        }
+
+        .tip-box { 
+            background: #231d1f; 
+            padding: 14px; 
+            border-left: 4px solid #ff4757; 
+            margin: 15px 0; 
+            border-radius: 4px; 
+        }
+
+        /* 5. UPCOMING DEVELOPMENT PIPELINE ELEMENTS */
+        .section-divider {
+            width: 100%;
+            background: #222533;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 600;
+            margin: 40px 0 20px 0;
+            border: 1px solid #2a2d3d;
+            letter-spacing: 0.5px;
+        }
+
+        .blueprint-card {
+            background: #111217;
+            border: 1px dashed #3a3f54;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .blueprint-title { margin: 0 0 10px 0; font-size: 1.1rem; color: #a4a6b5; }
+        .status-badge { font-size: 0.8rem; background: #2a2d3d; display: inline-block; padding: 4px 10px; border-radius: 12px; color: #b2b2b2; }
+
+        /* JUMP LINKS & NAV STYLING */
+        .return-link-wrapper { display: flex; gap: 15px; margin-top: 15px; justify-content: space-between; }
+        .return-link { color: #ff4757; text-decoration: none; font-weight: 500; font-size: 0.9rem; }
+        .return-link:hover { text-decoration: underline; }
+
+        @keyframes vaultFadeIn { 
+            from { opacity: 0; transform: translateY(10px); } 
+            to { opacity: 1; transform: translateY(0); } 
+        }
+
+        /* ==========================================================================
+           8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS (PARENT TARGETING FIX)
+           ========================================================================= */
+        .text-layer .image-container,
+        .game-panel .image-container {
+            margin: 20px auto !important;
+            padding: 12px !important;
+            background: #1c1d26 !important; 
+            border: 1px solid #2a2d3d !important;
+            border-radius: 8px !important;
+            text-align: center !important;
+            max-width: 100% !important;
+            display: block !important;
+            flex-shrink: 0 !important;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5) !important;
+        }
+
+        .text-layer .image-container img,
+        .game-panel .image-container img {
+            max-width: 100% !important;
+            max-height: 450px !important;
+            width: auto !important;
+            height: auto !important;
+            object-fit: contain !important;
+            border-radius: 6px !important;
+            margin: 0 auto !important;
+            display: block !important;
+        }
+        
+        .text-layer .card-top-section .image-container img,
+        .game-panel .card-top-section .image-container img {
+            max-width: 150px !important;
+            height: auto !important;
+        }
+
+        .image-caption {
+            font-size: 0.85rem;
+            color: #a4a6b5;
+            margin-top: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        .image-row-container {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            gap: 15px !important;
+            justify-content: center !important;
+            margin: 20px 0 !important;
+            width: 100% !important;
+        }
+        .image-row-container .image-container {
+            flex: 1 1 calc(33.333% - 15px) !important;
+            min-width: 220px !important;
+            margin: 0 !important;
+        }
+
+        /* COLOR COATINGS HOOKS */
+        .text-layer .image-container.border-steel, .game-panel .image-container.border-steel { border: 3px solid #1d4ed8 !important; }
+        .text-layer .image-container.border-poison-core, .game-panel .image-container.border-poison-core { border: 3px solid #6b21a8 !important; }
+        .text-layer .image-container.border-venom-core, .game-panel .image-container.border-venom-core { border: 3px solid #dc2626 !important; }
+        .text-layer .image-container.border-carbon, .game-panel .image-container.border-carbon { border: 3px solid #ea580c !important; }
+        .text-layer .image-container.border-stinger-core, .game-panel .image-container.border-stinger-core { border: 3px solid #eab308 !important; }
+        .text-layer .image-container.border-toxin-core, .game-panel .image-container.border-toxin-core { border: 3px solid #16a34a !important; }
+        .text-layer .image-container.border-diamond, .game-panel .image-container.border-diamond { border: 3px solid #3b82f6 !important; }
+        .text-layer .image-container.border-emerald, .game-panel .image-container.border-emerald { border: 3px solid #10b981; }
+        .text-layer .image-container.border-redwood, .game-panel .image-container.border-redwood { border: 3px solid #5c4033 !important; }
+        .text-layer .image-container.border-oak, .game-panel .image-container.border-oak { border: 3px solid #b58900 !important; }
+        .text-layer .image-container.border-rose, .game-panel .image-container.border-rose { border: 3px solid #ec4899 !important; }
+        .text-layer .image-container.border-amethyst, .game-panel .image-container.border-amethyst { border: 3px solid #8b5cf6 !important; }
+        .text-layer .image-container.border-stone, .game-panel .image-container.border-stone { border: 3px solid #6b7280 !important; }
+		
+        .text-layer .card-top-section,
+        .game-panel .card-top-section {
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: flex-start !important;
+            gap: 20px !important;
+            width: 100% !important;
+        }
+
+        .text-layer .card-header-block,
+        .game-panel .card-header-block {
+            flex: 1 !important;
+        }
+
+        /* ==========================================================================
+           7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+           ========================================================================= */
+        /* Meta tag positioning layout */
+        .meta-tag {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        /* Global Navigation Control Elements */
+        .platform-hub-nav {
+            margin-bottom: 25px;
+        }
+        
+        .hub-link-button,
+        .hub-link-button:visited,
+        .hub-link-button:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-in-out;
+        }
+        
+        .hub-link-button:hover {
+            background: var(--text-divider);
+            color: var(--text-primary) !important;
+            transform: translateY(-1px);
+        }
+
+        /* Index Jump Matrix Table Container */
+        .matrix-toc-box {
+            background: var(--bg-card);
+            border: 1px solid var(--text-divider);
+            padding: 24px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        
+        .matrix-toc-title {
+            margin: 0 0 15px 0;
+            color: var(--color-link);
+            font-size: 1.15rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        
+        .matrix-toc-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+                
+        /* Sub-grid variant used by the contents matrix on this page only */
+        .matrix-toc-sub-grid {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            align-items: start;
+        }
+
+        /* Matrix items styled as compact cards for denser layout */
+        .matrix-toc-sub-grid > li {
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            border-radius: 8px;
+            box-shadow: none;
+            display: flex; 
+            overflow: hidden; 
+        }
+
+        /* Scoped link styles so other uses of .matrix-link aren't affected */
+        .matrix-toc-sub-grid .matrix-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%; 
+            min-height: 100%; 
+            padding: 10px 12px; 
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            box-sizing: border-box; 
+            transition: all 0.12s ease-in-out;
+        }
+
+        .matrix-toc-sub-grid .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        .matrix-link {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.15s;
+        }
+        
+        .matrix-link:hover {
+            color: var(--color-link);
+            text-decoration: underline;
+        }
+
+        /* Bottom Step Jump Elements */
+        .return-link-wrapper {
+            text-align: right;
+            margin-top: 15px;
+            margin-bottom: 35px;
+        }
+        
+        .return-link,
+        .return-link:visited,
+        .return-link:link {
+            display: inline-flex;
+            align-items: center;
+            background: var(--bg-main-box);
+            border: 1px solid var(--text-divider);
+            color: var(--color-link) !important; 
+            padding: 8px 14px; 
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .return-link:hover {
+            background: var(--text-divider);
+            color: var(--text-primary) !important;
+            transform: translateY(-1px);
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- ==================== INTERACTIVE SWITCHER SCRIPT ==================== -->
+    <script is:inline>
+        // Handles clicking the visual dashboard game cards
+        const triggers = document.querySelectorAll('.selector-trigger');
+        const panels = document.querySelectorAll('.game-panel');
+
+        triggers.forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const targetId = trigger.getAttribute('data-target');
+                
+                panels.forEach(panel => {
+                    if (panel.id === targetId) {
+                        panel.classList.remove('hidden');
+                        // Smoothly scroll the user down right to their rulebook content
+                        panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    } else {
+                        panel.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
 
     <!-- Unified Soloverse Platform Engine: Handles Service Workers, Auto-Theme Detection, and UI Controls -->
     <script is:inline>
@@ -761,14 +790,17 @@ const upcomingGames = [
             if ('serviceWorker' in navigator) {
                 // Register the background service worker architecture on initial load
                 window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('/sw.js');
-                });
-
-                // Force background service worker registrations to immediately pull fresh server updates from Vercel
-                navigator.serviceWorker.getRegistrations().then(function(registrations) {
-                    for (let registration of registrations) {
-                        registration.update(); 
-                    }
+                    // FIX: Directs your app explicitly to the clean compilation route managed by your Astro config
+                    navigator.serviceWorker.register('/sw.js', { scope: '/' })
+                        .then(reg => {
+                            console.log('Soloverse Core Sync Channel Operational:', reg.scope);
+                            
+                            // CLEANUP: Let the PWA check for code updates naturally instead of forcing it on every single touch event
+                            if (navigator.onLine) {
+                                reg.update();
+                            }
+                        })
+                        .catch(err => console.error('Soloverse Core Sync Blocked:', err));
                 });
             }
 
