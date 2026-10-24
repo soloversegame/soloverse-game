@@ -8,15 +8,23 @@ const allGameFiles = await getCollection('games');
 // 2. Your master games array (All grouped cleanly into one structure)
 const gamesList = [
   {
-    id: "00-ab-soloverse-crazy-8s-tutorial",
-    title: "[00-AB] Soloverse - Crazy 8's Tutorial [START HERE]",
+    id: "00-full-game-contents",
+    title: "[00] Soloverse - Full Game Contents",
     boxColor: "#b2b2b2",
-    rulesId: "00-ab-soloverse-crazy-8s-tutorial",
+    rulesId: "00-full-game-contents",
     cardsId: null,
     soloId: null
   },
+  {
+    id: "00-crazy-8s-tutorial",
+    title: "[00-AB] Soloverse - Crazy 8's Tutorial [START HERE]",
+    boxColor: "#b2b2b2",
+    rulesId: "00-a-crazy-8s-tutorial-rules",
+    cardsId: "00-b-crazy-8s-tutorial-cards",
+    soloId: null
+  },
 {
-    id: "01-soloverse-crazy-8s",
+    id: "01-crazy-8s",
     title: "[01] Soloverse - Crazy 8's",
     boxColor: "#2b4cff", // 🚀 FIX: Swapped flat #0000ff for a rich royal game blue
     rulesId: "01-a-soloverse-crazy-8s-game-rules",
@@ -25,7 +33,7 @@ const gamesList = [
   },
   {
     id: "02-crazy-8s-utter-chaos",
-    title: "[02] Soloverse - Crazy 8's [Utter Chaos]",
+    title: "[02] Crazy 8's [Utter Chaos]",
     boxColor: "#10b981", // 🚀 FIX: Swapped blinding neon green for an optimized emerald vault green
     rulesId: "02-a-soloverse-crazy-8s-utter-chaos-game-rulebook",
     cardsId: "02-b-soloverse-crazy-8s-utter-chaos-definitions-rulebook",
@@ -33,7 +41,7 @@ const gamesList = [
   },
   {
     id: "03-karma",
-    title: "[03] Soloverse - Karma",
+    title: "[03] Karma",
     boxColor: "#fff200",
     rulesId: "03-a-soloverse-karma-game-rulebook",
     cardsId: "03-b-soloverse-karma-definitions-rulebook",
@@ -41,7 +49,7 @@ const gamesList = [
   },
   {
     id: "04-cheat",
-    title: "[04] Soloverse - Cheat",
+    title: "[04] Cheat",
     boxColor: "#ff7f27",
     rulesId: "04-a-soloverse-cheat-game-rulebook",
     cardsId: "04-b-soloverse-cheat-definitions-rulebook",
@@ -49,7 +57,7 @@ const gamesList = [
   },
   {
     id: "05-battle-solitaire",
-    title: "[05] Soloverse - Battle Solitaire",
+    title: "[05] Battle Solitaire",
     boxColor: "#b97a56",
     rulesId: "05-a-soloverse-battle-solitaire-game-rulebook",
     cardsId: "05-b-soloverse-battle-solitaire-definitions-rulebook",
@@ -57,7 +65,7 @@ const gamesList = [
   },
   {
     id: "06-deck-builder",
-    title: "[06] Soloverse -  Deck-Builder",
+    title: "[06] Deck-Builder",
     boxColor: "#ec1c24",
     rulesId: "06-a-soloverse-deck-builder-game-rulebook",
     cardsId: "06-b-soloverse-deck-builder-definitions-rulebook",
@@ -65,18 +73,42 @@ const gamesList = [
   },
   {
     id: "07-nominations",
-    title: "[07] Soloverse - Nominations",
+    title: "[07] Nominations",
     boxColor: "#9d00ff",
     rulesId: "07-a-soloverse-nominations-game-rulebook",
     cardsId: "07-b-soloverse-nominations-definitions-rulebook",
     soloId: null
   },
   {
-    id: "00-soloverse-important-notes",
-    title: "[00] Soloverse - Important Notes",
-    boxColor: "#b2b2b2",
-    rulesId: "00-soloverse-universal-game-notes",
-    cardsId: "00-soloverse-contact-us",
+    id: "00-a-universal-game-notes",
+    title: "📖 Universal Game Notes",
+    boxColor: "#7c2d12", // Unique amber box theme
+    rulesId: "00-a-universal-game-notes",
+    cardsId: null,
+    soloId: null
+  },
+  {
+    id: "00-b-variations-rulebook",
+    title: "🃏 Variations Rulebook",
+    boxColor: "#1e3a8a", // Unique blue box theme
+    rulesId: "00-b-variations-rulebook",
+    cardsId: null,
+    soloId: null
+  },
+  {
+    id: "00-c-patch-notes",
+    title: "🕹️ Patch Notes",
+    boxColor: "#065f46", // Unique green box theme
+    rulesId: "00-c-patch-notes",
+    cardsId: null,
+    soloId: null
+  },
+  {
+    id: "00-soloverse-contact-us",
+    title: "📞 Contact Us & Links",
+    boxColor: "#374151",
+    rulesId: "00-soloverse-contact-us",
+    cardsId: null,
     soloId: null
   }
 ];

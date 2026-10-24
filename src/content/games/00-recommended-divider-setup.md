@@ -1,6 +1,6 @@
 ---
-gameId: "00-soloverse-important-notes"
-title: "[00-D] Recommended Divider Setup"
+gameId: "00-recommended-divider-list"
+title: "[00] Recommended Divider Setup"
 type: "rules"
 ---
 

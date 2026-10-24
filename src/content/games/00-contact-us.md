@@ -1,7 +1,7 @@
 ---
-gameId: "00-soloverse-important-notes"
-title: "[00] Soloverse [Contact Us]"
-type: "cards"
+gameId: "00-important-notes"
+title: "[00] Contact Us"
+type: "rules"
 ---
 
 <div class="contact-link-tree">

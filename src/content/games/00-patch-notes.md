@@ -1,6 +1,6 @@
 ---
-gameId: "00-soloverse-important-notes"
-title: "[00-C] Patch Notes"
+gameId: "00-important-notes"
+title: "[00] Patch Notes"
 type: "rules"
 ---
 
