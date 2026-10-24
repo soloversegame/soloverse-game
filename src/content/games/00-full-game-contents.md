@@ -29,45 +29,142 @@ type: "rules"
 <li>Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Basic Chaos Cards:
+<ul>
 <li>3 Copies of Anti-Fun [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Chaos Draw +4</li>
+<li>3 Copies of Chaos Draw +4 Reverse</li>
+<li>3 Copies of Chaos Draw +4 Skip</li>
+<li>3 Copies of Clone [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Discard Colour [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Discard Chaos Cards [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Elegant Generousity [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Mercy [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of NOU [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Poison [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Pure Chaos</li>
+<li>3 Copies of Pure Chaos Reverse</li>
+<li>3 Copies of Pure Chaos Skip</li>
+<li>2 Copies of Pure Chaos Shuffle Hands</li>
+<li>3 Copies of Reverse Stun [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Scavenger [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Slap [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Anti-Fun [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Steal Turn [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Stun [Including 1 Copy from the Core Booster]</li>
 </ul>
 </span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">📦 Core Extension</span>
-<span class="expansion-desc">[1 x Colour & Moderate Chaos Cards]</span>
+<span class="expansion-desc">
+<ul>
+<li>Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Basic Chaos Cards:
+<ul>
+<li>3 Copies of Badge Collector [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Black Hole [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Cyclone [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Double Edged [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Double Under [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Elimimator [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Foresight [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Genetic Manipulation [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of NOT ME [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Paradigm Shift [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Project Insight [Including 1 Copy from the Core Booster]</li>
+<li>1 Copy of Recycle</li>
+<li>2 Copies of Roulette [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Snap [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of State of Flux [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of United We Fall [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Vaccine [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of White Hole [Including 1 Copy from the Core Booster]</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🚀 Core Booster Pack</span>
-<span class="expansion-desc">[Extra Copy of Most Core/Extension Chaos Cards]</span>
+<span class="expansion-desc">Extra Copy of Most Core/Extension Chaos Cards [See Above]</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">💥 Apocalypse Expansion</span>
-<span class="expansion-desc">[Chaos Draw +2 & +3]</span>
+<span class="expansion-desc">
+<ul>
+<li>3 Copies of Chaos Draw +2</li>
+<li>3 Copies of Chaos Draw +2 Reverse</li>
+<li>3 Copies of Chaos Draw +2 Skip</li>
+<li>3 Copies of Chaos Draw +3</li>
+<li>3 Copies of Chaos Draw +3 Reverse</li>
+<li>3 Copies of Chaos Draw +3 Skip</li>
+</ul>
+</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">⚔️ Warzone Expansion</span>
-<span class="expansion-desc">[Chaos Draw +2/+3/+4 Specific Targeted]</span>
+<span class="expansion-desc">
+<ul>
+<li>3 Copies of Chaos Draw +2 Specific Targeted</li>
+<li>3 Copies of Chaos Draw +3 Specific Targeted</li>
+<li>3 Copies of Chaos Draw +4 Specific Targeted</li>
+</ul>
+</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🌋 Devastation Expansion</span>
-<span class="expansion-desc">[Chaos Draw +5/+10]</span>
+<span class="expansion-desc">
+<ul>
+<li>3 Copies of Chaos Draw +5</li>
+<li>3 Copies of Chaos Draw +5 Reverse</li>
+<li>3 Copies of Chaos Draw +5 Skip</li>
+<li>3 Copies of Chaos Draw +10</li>
+<li>3 Copies of Chaos Draw +10 Reverse</li>
+<li>3 Copies of Chaos Draw +10 Skip</li>
+</ul>
+</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🎯 Catastrophe Expansion</span>
-<span class="expansion-desc">[Chaos Draw +5/+10 Specific Targeted]</span>
+<span class="expansion-desc">
+<ul>
+<li>3 Copies of Chaos Draw +5 Specific Targeted</li>
+<li>3 Copies of Chaos Draw +10 Specific Targeted</li>
+</ul>
+</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🛡️ Oblivion Expansion</span>
-<span class="expansion-desc">[Royal Knights]</span>
+<span class="expansion-desc">
+<ul>
+<li>1 Copy of Black Knight</li>
+<li>1 Copy of Jack's Knight</li>
+<li>1 Copy of Queen's Knight</li>
+<li>1 Copy of King's Knight</li>
+<li>1 Copy of Call of the Royal Knights</li>
+</ul>
+</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🌀 Singularity Expansion</span>
-<span class="expansion-desc">[SOL / OVE / RSE]</span>
+<span class="expansion-desc">
+<ul>
+<li>1 Copy of Soloverse 1 of 3: SOL</li>
+<li>1 Copy of Soloverse 2 of 3: OVE</li>
+<li>1 Copy of Soloverse 3 of 3: RSE</li>
+<li>1 Copy of Call of the Soloverse</li>
+</ul>
+</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">⚠️ Crisis Expansion</span>
-<span class="expansion-desc">[Crisis]</span>
+<span class="expansion-desc">
+<ul>
+<li>12 Copies of Crisis</li>
+</ul>
+</span>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">☣️ Contagion Expansion</span>
