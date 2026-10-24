@@ -22,6 +22,10 @@ type: "cards"
 </a>
 </div>
 
+<a href="https://drive.google.com/drive/folders/1lwtMv_e9QLesb5B8LZqbH68DytEHED3q?usp=sharing" class="link-item google-drive-link" target="_blank" rel="noopener noreferrer">
+<span class="icon">📁</span> Soloverse Out of Date Rules for Incomplete Games<span class="version">v1-0-1</span>
+</a>
+
 <style>
 .contact-link-tree {
 display: flex !important;
