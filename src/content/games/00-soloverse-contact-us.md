@@ -27,6 +27,11 @@ type: "cards"
 </a>
 
 <style>
+/* Google Drive Button Theme Override */
+.google-drive-link:hover {
+border-color: #eab308 !important; /* Drive Yellow */
+box-shadow: 0 0 10px rgba(234, 179, 8, 0.2) !important;
+}
 .contact-link-tree {
 display: flex !important;
 flex-direction: column !important;
