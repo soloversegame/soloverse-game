@@ -12,7 +12,7 @@ type: "cards"
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
-<div id="crazy-8s-tutorial-card-definitions-contents"></div>
+<div id="tutorial-card-definitions-contents"></div>
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
@@ -55,6 +55,18 @@ type: "cards"
 <a href="#tutorial-clone" class="matrix-link">CLONE</a>
 </li>
 <li class="matrix-item-heading">
+<a href="#tutorial-discard-colour" class="matrix-link">DISCARD COLOUR</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#tutorial-discard-chaos-cards" class="matrix-link">DISCARD CHAOS CARDS</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#tutorial-reverse-stun" class="matrix-link">REVERSE STUN</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#tutorial-steal-turn" class="matrix-link">STEAL TURN</a>
+</li>
+<li class="matrix-item-heading">
 <a href="#tutorial-stun" class="matrix-link">STUN</a>
 </li>
 </ul>
@@ -93,7 +105,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -137,7 +149,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -175,7 +187,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -201,7 +213,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -248,7 +260,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -289,7 +301,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -331,7 +343,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -408,7 +420,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -486,7 +498,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -564,7 +576,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -617,7 +629,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -678,7 +690,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -718,7 +730,244 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="tutorial-discard-colour">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<div class="card-header-block">
+<h4 class="card-title">DISCARD COLOUR [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-discard-colour.png">
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the side of the Discards to use this Card's Effect [not if using it as a Pure Chaos Card (any Type) ].</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>Choose one:
+<ol type="a">
+<li>Discard Colour's Effect:
+<ol type="i">
+<li>Name a Colour used in the game; all Players in Play Order Discard every Card in Their Hand they have of that Colour.</li>
+</ol>
+</li>
+<li>Or simply Play as a <a href="#tutorial-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to continue.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="tutorial-discard-chaos-cards">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<div class="card-header-block">
+<h4 class="card-title">DISCARD CHAOS CARDS [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>Choose one:
+<ol type="a">
+<li>Discard Chaos Card's Effect:
+<ol type="i">
+<li>All Players in Turn Order Discard every Chaos Card in Their Hand.</li>
+</ol>
+</li>
+<li>Or simply Play as a <a href="#tutorial-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to continue.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="tutorial-reverse-stun">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<div class="card-header-block">
+<h4 class="card-title">REVERSE STUN [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific & Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-reverse-stun.png">
+</div>
+<div class="discards-box">
+<ul>
+<li>Play in front of the Player You are Targeting.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and the Direction of Play will instantly Reverse, returning to the previous Player.
+<div class="tip-box">
+<strong>TIP:</strong>
+<ul>
+<li>When Stacking Chaos Cards Like Reverse Stun, Stun and Steal Turn, literally Stack them on top of each other in front of the Targeted Player.</li>
+<li>Then when Their Turn arrives, Deactivate the Top Card.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>After the Targeted Player’s Turn has been Skipped due to this Card’s Effect, place this Card on top of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol start="2">
+<li>The Targeted Player chooses a Colour to continue.</li>
+</ol>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+</ul>
+</div>
+</li>
+<li>Once Resolved, and a Colour is Chosen, the Next Player May Play any Coloured Reverse Card.</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Skips Their Turn instead.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be played as a Pure Chaos Card.</li>
+<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="tutorial-steal-turn">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<div class="card-header-block">
+<h4 class="card-title">STEAL TURN [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-steal-turn.png">
+</div>
+<div class="rules-box">
+<ol>
+<li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and You Steal Their Turn.
+<div class="tip-box">
+<strong>TIP:</strong>
+<ul>
+<li>When Stacking Chaos Cards Like Reverse Stun, Stun and Steal Turn, literally Stack them on top of each other in front of the Targeted Player.</li>
+<li>Then when Their Turn arrives, Deactivate the Top Card.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>After the Targeted Player’s Turn has been Stolen due to this Card’s Effect, place this Card on top of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol start="2">
+<li>The Targeted Player chooses a Colour to continue.</li>
+<li>Take Your Turn as normal.</li>
+<li>Play Continues normally from You.</li>
+</ol>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be Countered.</li>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Not only does Steal Turn Stack with itself, but it also Stacks with Reverse Stun, Stun and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -788,7 +1037,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>

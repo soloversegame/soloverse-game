@@ -50,7 +50,7 @@ type: "rules"
 <div class="rules-box">
 <h4>SETUP</h4>
 <ol>
-<li>For this Tutorial Game, please choose and separate any 4 Colours in the Game. Each Colour Set contains 26 Cards, including 2 Copies of each of the following:
+<li>For this Tutorial Game, please choose and separate any 4 Colours in the Game [let's assume You chose: Blue, Red, Yellow and Green]. Each Colour Set contains 26 Cards, including 2 Copies of each of the following:
 <ol type="i">
 <li>The Numbers 0-9.</li>
 <li>Draw +2.
@@ -62,7 +62,7 @@ type: "rules"
 <li>Reverse.
 <div class="image-container">
 <div class="image-caption">Image 2: Reverse.</div>
-<img src="/assets/images/cards/000-12-poison-reverse.png">
+<img src="/assets/images/cards/000-4-toxin-reverse.png">
 </div>
 </li>
 <li>Skip.
