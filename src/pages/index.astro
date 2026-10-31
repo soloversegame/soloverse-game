@@ -10,6 +10,7 @@ const gamesList = [
   {
     id: "00-full-game-contents",
     title: "[00] Soloverse - Full Game Contents",
+    subtitle: null,
     boxColor: "#b2b2b2",
     rulesId: "00-full-game-contents",
     cardsId: null,
@@ -17,15 +18,17 @@ const gamesList = [
   },
   {
     id: "00-crazy-8s-tutorial",
-    title: "[01] Soloverse - Crazy 8's [Tutorial Setup] [Learn the Basics with a Simplified Deck]",
+    title: "[01] Soloverse - Crazy 8's [Tutorial]",
+    subtitle: "Learn the Basics with a Simplified Deck",
     boxColor: "#0000ff",
     rulesId: "00-a-crazy-8s-tutorial-rules",
     cardsId: "00-b-crazy-8s-tutorial-cards",
     soloId: null
   },
-{
+  {
     id: "01-crazy-8s",
-    title: "[01] Soloverse - Crazy 8's [Full Game]",
+    title: "[01] Soloverse - Crazy 8's",
+    subtitle: "You Know the Basics, So Add as Much Chaos to the Game as You Want.",
     boxColor: "#8cfffb",
     rulesId: "01-a-soloverse-crazy-8s-game-rules",
     cardsId: "01-b-soloverse-crazy-8s-definition-rules",
@@ -33,7 +36,8 @@ const gamesList = [
   },
   {
     id: "02-crazy-8s-utter-chaos",
-    title: "[02] Crazy 8's [Utter Chaos] [No Turn Structure]",
+    title: "[02] Crazy 8's [Utter Chaos]",
+    subtitle: "No Turn Structure",
     boxColor: "#aded8f",
     rulesId: "02-a-soloverse-crazy-8s-utter-chaos-game-rulebook",
     cardsId: "02-b-soloverse-crazy-8s-utter-chaos-definitions-rulebook",
@@ -41,7 +45,8 @@ const gamesList = [
   },
   {
     id: "03-karma",
-    title: "[03] Karma [A Hand Shedder Where There is Only 1 Loser]",
+    title: "[03] Karma",
+    subtitle: "A Hand Shedder Where There is Only 1 Loser",
     boxColor: "#0ed145",
     rulesId: "03-a-soloverse-karma-game-rulebook",
     cardsId: "03-b-soloverse-karma-definitions-rulebook",
@@ -49,7 +54,8 @@ const gamesList = [
   },
   {
     id: "04-cheat",
-    title: "[04] Cheat [Crazy 8's Where You Play Face-Down]",
+    title: "[04] Cheat",
+    subtitle: "Basically Crazy 8's But You Play Face-Down, Cheating Allowed",
     boxColor: "#fff200",
     rulesId: "04-a-soloverse-cheat-game-rulebook",
     cardsId: "04-b-soloverse-cheat-definitions-rulebook",
@@ -57,7 +63,8 @@ const gamesList = [
   },
   {
     id: "05-battle-solitaire",
-    title: "[05] Battle Solitaire [Solitaire, but PvP]",
+    title: "[05] Battle Solitaire",
+    subtitle: "Solitaire, but PvP",
     boxColor: "#ff7f27",
     rulesId: "05-a-soloverse-battle-solitaire-game-rulebook",
     cardsId: "05-b-soloverse-battle-solitaire-definitions-rulebook",
@@ -66,6 +73,7 @@ const gamesList = [
   {
     id: "06-deck-builder",
     title: "[06] Deck-Builder",
+    subtitle: "Everyone Starts with the Same Deck, and Builds it by Buying Chaos Cards from a Common Trade Area",
     boxColor: "#b97a56",
     rulesId: "06-a-soloverse-deck-builder-game-rulebook",
     cardsId: "06-b-soloverse-deck-builder-definitions-rulebook",
@@ -74,6 +82,7 @@ const gamesList = [
   {
     id: "07-nominations",
     title: "[07] Nominations",
+    subtitle: "Start at 1 Card, then Deal an Extra Card each Round. Highest Card Wins!",
     boxColor: "#84471a",
     rulesId: "07-a-soloverse-nominations-game-rulebook",
     cardsId: "07-b-soloverse-nominations-definitions-rulebook",
@@ -83,6 +92,7 @@ const gamesList = [
     id: "00-a-universal-game-notes",
     title: "📖 Universal Game Notes",
     boxColor: "#b2b2b2",
+    subtitle: null,
     rulesId: "00-a-universal-game-notes",
     cardsId: null,
     soloId: null
@@ -90,6 +100,7 @@ const gamesList = [
   {
     id: "00-b-variations-rulebook",
     title: "🃏 Variations Rulebook",
+    subtitle: null,
     boxColor: "#b2b2b2",
     rulesId: "00-b-variations-rulebook",
     cardsId: null,
@@ -98,6 +109,7 @@ const gamesList = [
   {
     id: "00-c-patch-notes",
     title: "🕹️ Patch Notes",
+    subtitle: null,
     boxColor: "#b2b2b2",
     rulesId: "00-c-patch-notes",
     cardsId: null,
@@ -106,6 +118,7 @@ const gamesList = [
   {
     id: "00-soloverse-contact-us",
     title: "📞 Contact Us & Links",
+    subtitle: null,
     boxColor: "#b2b2b2",
     rulesId: "00-soloverse-contact-us",
     cardsId: null,
@@ -204,8 +217,15 @@ const renderedGames = await Promise.all(
 <!-- ==================== PART 1: THE DYNAMIC GAME CARDS GRID ==================== -->
     <div class="grid">
         {renderedGames.map((game, index) => {
-            const titleColor = game.boxColor === "#fff200" ? "#111216" : "#ffffff";
-            const textShadowRule = game.boxColor === "#fff200" ? "none" : "0 2px 4px rgba(0,0,0,0.6)";
+            // 1. Add all your light background hex codes to this list (lowercase or uppercase)
+            const lightBoxes = ["#fff200", "#8cfffb", "#aded8f", "#b97a56"];
+            
+            // 2. Check if the current boxColor is one of the light colors
+            const isLightBox = lightBoxes.includes(game.boxColor?.toLowerCase());
+
+            // 3. Set your styles dynamically based on the check
+            const titleColor = isLightBox ? "#111216" : "#ffffff";
+            const textShadowRule = isLightBox ? "none" : "0 2px 4px rgba(0,0,0,0.6)";
 
             return (
                 <button 
@@ -213,10 +233,17 @@ const renderedGames = await Promise.all(
                     data-target={`vault-${game.id}`}
                     style="text-align: left; width: 100%; border: none; padding: 0; cursor: pointer; display: block; overflow: hidden;"
                 >
-                    <div class="game-header" style={`background-color: ${game.boxColor}; border-bottom: 4px solid rgba(0,0,0,0.25);`}>
-                        <h2 class="game-title" style={`color: ${titleColor}; text-shadow: ${textShadowRule};`}>
-                            {game.title}
-                        </h2>
+                <div class="game-header" style={`background-color: ${game.boxColor}; border-bottom: 4px solid rgba(0,0,0,0.25);`}>
+                    <h2 class="game-title" style={`color: ${titleColor}; text-shadow: ${textShadowRule}; margin-bottom: 4px;`}>
+                        {game.title}
+                    </h2>
+    
+                        {/* This line checks if a subtitle exists, and only renders it if it's not null */}
+                        {game.subtitle && (
+                            <p class="game-subtitle" style={`color: ${titleColor}; opacity: 0.85; font-size: 0.9em; margin: 0; text-shadow: ${textShadowRule};`}>
+                                {game.subtitle}
+                            </p>
+                        )}
                     </div>
                     
                     <div class="box-contents">
