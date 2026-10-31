@@ -5,158 +5,155 @@ title: "01-B Soloverse Crazy 8s Card Definitions"
 type: "cards"
 ---
 
-<body>
-
-<nav class="platform-hub-nav" aria-label="Platform Navigation">
-<a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
-</nav>
-
-<h1>[01-B] SOLOVERSE - CRAZY 8’s [DEFINITIONS RULEBOOK]</h1>
 <div class="meta-tag">👥 Ages 7+, 3-10 Players • v14.0.0</div>
 
 <!-- INDEX JUMP MATRIX A-Z -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
+<nav class="matrix-toc-box" aria-label="Platform Navigation">
+<a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
+</nav>
+
+<div id="crazy-8s-cards-contents"></div>
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
-<a href="#a" class="matrix-link">A</a>
+<a href="#crazy-8s-a" class="matrix-link">A</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#b" class="matrix-link">B</a>
+<a href="#crazy-8s-b" class="matrix-link">B</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#c" class="matrix-link">C</a>
+<a href="#crazy-8s-c" class="matrix-link">C</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#d" class="matrix-link">D</a>
+<a href="#crazy-8s-d" class="matrix-link">D</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#e" class="matrix-link">E</a>
+<a href="#crazy-8s-e" class="matrix-link">E</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#f" class="matrix-link">F</a>
+<a href="#crazy-8s-f" class="matrix-link">F</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#g" class="matrix-link">G</a>
+<a href="#crazy-8s-g" class="matrix-link">G</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#i" class="matrix-link">I</a>
+<a href="#crazy-8s-i" class="matrix-link">I</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#j" class="matrix-link">J</a>
+<a href="#crazy-8s-j" class="matrix-link">J</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#k" class="matrix-link">K</a>
+<a href="#crazy-8s-k" class="matrix-link">K</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#l" class="matrix-link">L</a>
+<a href="#crazy-8s-l" class="matrix-link">L</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#m" class="matrix-link">M</a>
+<a href="#crazy-8s-m" class="matrix-link">M</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#n" class="matrix-link">N</a>
+<a href="#crazy-8s-n" class="matrix-link">N</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#o" class="matrix-link">O</a>
+<a href="#crazy-8s-o" class="matrix-link">O</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#p" class="matrix-link">P</a>
+<a href="#crazy-8s-p" class="matrix-link">P</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#q" class="matrix-link">Q</a>
+<a href="#crazy-8s-q" class="matrix-link">Q</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#r" class="matrix-link">R</a>
+<a href="#crazy-8s-r" class="matrix-link">R</a>
 </li>
- <li class="matrix-item-heading">
-<a href="#s" class="matrix-link">S</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-s" class="matrix-link">S</a>
 </li>
- <li class="matrix-item-heading">
-<a href="#t" class="matrix-link">T</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-t" class="matrix-link">T</a>
 </li>
- <li class="matrix-item-heading">
-<a href="#u" class="matrix-link">U</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-u" class="matrix-link">U</a>
 </li>
- <li class="matrix-item-heading">
-<a href="#v" class="matrix-link">V</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-v" class="matrix-link">V</a>
 </li>
- <li class="matrix-item-heading">
-<a href="#w" class="matrix-link">W</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-w" class="matrix-link">W</a>
 </li>
- <li class="matrix-item-heading">
-<a href="#wglossary" class="matrix-link">W</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-glossary" class="matrix-link">GLOSSARY</a>
 </li>
 </ul>
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX A -->
-<div id="a"></div>
+<div id="crazy-8s-a"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents A">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: A</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#acid" class="matrix-link">ACID +4 [TRAP CLASS]</a>
+<a href="#crazy-8s-acid" class="matrix-link">ACID +4 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#acid-st" class="matrix-link">ACID +4 [SPECIFIC TARGETED] [TRAP CLASS]</a>
+<a href="#crazy-8s-acid-st" class="matrix-link">ACID +4 [SPECIFIC TARGETED] [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#ancient-inversion" class="matrix-link">ANCIENT INVERSION [TRAP CLASS]</a>
+<a href="#crazy-8s-ancient-inversion" class="matrix-link">ANCIENT INVERSION [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#ancient-war" class="matrix-link">ANCIENT WAR [INSTANT TRAP CLASS]</a>
+<a href="#crazy-8s-ancient-war" class="matrix-link">ANCIENT WAR [INSTANT TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#anti-fun" class="matrix-link">ANTI-FUN [COUNTER CLASS LV1]</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibiotic-yellow" class="matrix-link">ANTIBIOTIC YELLOW</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibiotic-red" class="matrix-link">ANTIBIOTIC RED</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibiotic-purple" class="matrix-link">ANTIBIOTIC PURPLE</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibiotic-orange" class="matrix-link">ANTIBIOTIC ORANGE</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibiotic-blue" class="matrix-link">ANTIBIOTIC GREEN</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibiotic-blue" class="matrix-link">ANTIBIOTIC BLUE</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibody-yellow" class="matrix-link">ANTIBODY YELLOW</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibody-red" class="matrix-link">ANTIBODY RED</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibody-purple" class="matrix-link">ANTIBODY PURPLE</a>
-</li>
- <li class="matrix-item-heading">
- <li class="matrix-item-heading">
-<a href="#antibody-orange" class="matrix-link">ANTIBODY ORANGE</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibody-green" class="matrix-link">ANTIBODY GREEN</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#antibody-blue" class="matrix-link">ANTIBODY BLUE</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#architectural-glitch" class="matrix-link">ARCHITECTURAL GLITCH</a>
+<a href="#crazy-8s-anti-fun" class="matrix-link">ANTI-FUN [COUNTER CLASS LV1]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#assassin" class="matrix-link">ASSASSIN [INSTANT TRAP CLASS]</a>
+<a href="#crazy-8s-antibiotic-yellow" class="matrix-link">ANTIBIOTIC YELLOW</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibiotic-red" class="matrix-link">ANTIBIOTIC RED</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibiotic-purple" class="matrix-link">ANTIBIOTIC PURPLE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibiotic-orange" class="matrix-link">ANTIBIOTIC ORANGE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibiotic-blue" class="matrix-link">ANTIBIOTIC GREEN</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibiotic-blue" class="matrix-link">ANTIBIOTIC BLUE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibody-yellow" class="matrix-link">ANTIBODY YELLOW</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibody-red" class="matrix-link">ANTIBODY RED</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibody-purple" class="matrix-link">ANTIBODY PURPLE</a>
+</li>
+<li class="matrix-item-heading">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibody-orange" class="matrix-link">ANTIBODY ORANGE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibody-green" class="matrix-link">ANTIBODY GREEN</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-antibody-blue" class="matrix-link">ANTIBODY BLUE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-architectural-glitch" class="matrix-link">ARCHITECTURAL GLITCH</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-assassin" class="matrix-link">ASSASSIN [INSTANT TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -166,21 +163,20 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: B</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#badge-collector" class="matrix-link">BADGE COLLECTOR</a>
+<a href="#crazy-8s-badge-collector" class="matrix-link">BADGE COLLECTOR</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#black-hole" class="matrix-link">BLACK HOLE</a>
+<a href="#crazy-8s-black-hole" class="matrix-link">BLACK HOLE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#black-knight" class="matrix-link">BLACK KNIGHT [ROYAL KNIGHT CLASS]</a>
+<a href="#crazy-8s-black-knight" class="matrix-link">BLACK KNIGHT [ROYAL KNIGHT CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#bodyguard" class="matrix-link">BODYGUARD [COUNTER CLASS LV1]</a>
+<a href="#crazy-8s-bodyguard" class="matrix-link">BODYGUARD [COUNTER CLASS LV1]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -190,91 +186,90 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: C</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#call-of-the-soloverse" class="matrix-link">CALL OF THE SOLOVERSE [TRAP CLASS]</a>
+<a href="#crazy-8s-call-of-the-soloverse" class="matrix-link">CALL OF THE SOLOVERSE [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-2" class="matrix-link">CHAOS DRAW +2</a>
+<a href="#crazy-8s-chaos-draw-2" class="matrix-link">CHAOS DRAW +2</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-2-reverse" class="matrix-link">CHAOS DRAW +2 REVERSE</a>
+<a href="#crazy-8s-chaos-draw-2-reverse" class="matrix-link">CHAOS DRAW +2 REVERSE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-2-skip" class="matrix-link">CHAOS DRAW +2 SKIP</a>
+<a href="#crazy-8s-chaos-draw-2-skip" class="matrix-link">CHAOS DRAW +2 SKIP</a>
 </li>
 
 <li class="matrix-item-heading">
-<a href="#chaos-draw-2-specific-targeted" class="matrix-link">CHAOS DRAW +2 SPECIFIC TARGETED</a>
+<a href="#crazy-8s-chaos-draw-2-specific-targeted" class="matrix-link">CHAOS DRAW +2 SPECIFIC TARGETED</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-3" class="matrix-link">CHAOS DRAW +3</a>
+<a href="#crazy-8s-chaos-draw-3" class="matrix-link">CHAOS DRAW +3</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-3-reverse" class="matrix-link">CHAOS DRAW +3 REVERSE</a>
+<a href="#crazy-8s-chaos-draw-3-reverse" class="matrix-link">CHAOS DRAW +3 REVERSE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-3-skip" class="matrix-link">CHAOS DRAW +3 SKIP</a>
+<a href="#crazy-8s-chaos-draw-3-skip" class="matrix-link">CHAOS DRAW +3 SKIP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-3-specific-targeted" class="matrix-link">CHAOS DRAW +3 SPECIFIC TARGETED</a>
+<a href="#crazy-8s-chaos-draw-3-specific-targeted" class="matrix-link">CHAOS DRAW +3 SPECIFIC TARGETED</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-4" class="matrix-link">CHAOS DRAW +4</a>
+<a href="#crazy-8s-chaos-draw-4" class="matrix-link">CHAOS DRAW +4</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-4-reverse" class="matrix-link">CHAOS DRAW +4 REVERSE</a>
+<a href="#crazy-8s-chaos-draw-4-reverse" class="matrix-link">CHAOS DRAW +4 REVERSE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-4-skip" class="matrix-link">CHAOS DRAW +4 SKIP</a>
+<a href="#crazy-8s-chaos-draw-4-skip" class="matrix-link">CHAOS DRAW +4 SKIP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-4-specific-targeted" class="matrix-link">CHAOS DRAW +4 SPECIFIC TARGETED</a>
+<a href="#crazy-8s-chaos-draw-4-specific-targeted" class="matrix-link">CHAOS DRAW +4 SPECIFIC TARGETED</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-5" class="matrix-link">CHAOS DRAW +5</a>
+<a href="#crazy-8s-chaos-draw-5" class="matrix-link">CHAOS DRAW +5</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-5-reverse" class="matrix-link">CHAOS DRAW +5 REVERSE</a>
+<a href="#crazy-8s-chaos-draw-5-reverse" class="matrix-link">CHAOS DRAW +5 REVERSE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-5-skip" class="matrix-link">CHAOS DRAW +5 SKIP</a>
+<a href="#crazy-8s-chaos-draw-5-skip" class="matrix-link">CHAOS DRAW +5 SKIP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-5-specific-targeted" class="matrix-link">CHAOS DRAW +5 SPECIFIC TARGETED</a>
+<a href="#crazy-8s-chaos-draw-5-specific-targeted" class="matrix-link">CHAOS DRAW +5 SPECIFIC TARGETED</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-10" class="matrix-link">CHAOS DRAW +10</a>
+<a href="#crazy-8s-chaos-draw-10" class="matrix-link">CHAOS DRAW +10</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-10-reverse" class="matrix-link">CHAOS DRAW +10 REVERSE</a>
+<a href="#crazy-8s-chaos-draw-10-reverse" class="matrix-link">CHAOS DRAW +10 REVERSE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-10-skip" class="matrix-link">CHAOS DRAW +10 SKIP</a>
+<a href="#crazy-8s-chaos-draw-10-skip" class="matrix-link">CHAOS DRAW +10 SKIP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#chaos-draw-10-specific-targeted" class="matrix-link">CHAOS DRAW +10 SPECIFIC TARGETED</a>
+<a href="#crazy-8s-chaos-draw-10-specific-targeted" class="matrix-link">CHAOS DRAW +10 SPECIFIC TARGETED</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#clone" class="matrix-link">CLONE</a>
+<a href="#crazy-8s-clone" class="matrix-link">CLONE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#coloured-draw-2" class="matrix-link">COLOURED DRAW +2 [ACTION CLASS]</a>
+<a href="#crazy-8s-coloured-draw-2" class="matrix-link">COLOURED DRAW +2 [ACTION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#contagion" class="matrix-link">CONTAGION +5 +2 [TRAP CLASS]</a>
+<a href="#crazy-8s-contagion" class="matrix-link">CONTAGION +5 +2 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crisis" class="matrix-link">CRISIS [CRISIS CLASS]</a>
+<a href="#crazy-8s-crisis" class="matrix-link">CRISIS [CRISIS CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#cyclone" class="matrix-link">CYCLONE</a>
+<a href="#crazy-8s-cyclone" class="matrix-link">CYCLONE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#cure" class="matrix-link">CURE [COUNTER CLASS LV1]</a>
+<a href="#crazy-8s-cure" class="matrix-link">CURE [COUNTER CLASS LV1]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -283,67 +278,66 @@ type: "cards"
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents D">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: D</h2>
 <ul class="matrix-toc-grid">
- <li class="matrix-item-heading">
-<a href="#defragmented-reality" class="matrix-link">DEFRAGMENTED REALITY</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-defragmented-reality" class="matrix-link">DEFRAGMENTED REALITY</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-acid" class="matrix-link">DISCARD ACID [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-acid" class="matrix-link">DISCARD ACID [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-amethyst" class="matrix-link">DISCARD AMETHYST [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-amethyst" class="matrix-link">DISCARD AMETHYST [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-colour" class="matrix-link">DISCARD COLOUR</a>
+<a href="#crazy-8s-discard-colour" class="matrix-link">DISCARD COLOUR</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-chaos-cards" class="matrix-link">DISCARD CHAOS CARDS</a>
+<a href="#crazy-8s-discard-chaos-cards" class="matrix-link">DISCARD CHAOS CARDS</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-diamond" class="matrix-link">DISCARD DIAMOND [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-diamond" class="matrix-link">DISCARD DIAMOND [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-emerald" class="matrix-link">DISCARD EMERALD [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-emerald" class="matrix-link">DISCARD EMERALD [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-oak" class="matrix-link">DISCARD OAK [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-oak" class="matrix-link">DISCARD OAK [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-poison" class="matrix-link">DISCARD POISON [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-poison" class="matrix-link">DISCARD POISON [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-redwood" class="matrix-link">DISCARD REDWOOD [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-redwood" class="matrix-link">DISCARD REDWOOD [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-rose" class="matrix-link">DISCARD ROSE [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-rose" class="matrix-link">DISCARD ROSE [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-plague" class="matrix-link">DISCARD PLAGUE [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-plague" class="matrix-link">DISCARD PLAGUE [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-stinger" class="matrix-link">DISCARD STINGER [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-stinger" class="matrix-link">DISCARD STINGER [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-stone" class="matrix-link">DISCARD STONE [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-stone" class="matrix-link">DISCARD STONE [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-toxin" class="matrix-link">DISCARD TOXIN [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-toxin" class="matrix-link">DISCARD TOXIN [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#discard-venom" class="matrix-link">DISCARD VENOM [TRAP CLASS]</a>
+<a href="#crazy-8s-discard-venom" class="matrix-link">DISCARD VENOM [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#double-edged" class="matrix-link">DOUBLE EDGED</a>
+<a href="#crazy-8s-double-edged" class="matrix-link">DOUBLE EDGED</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#double-under" class="matrix-link">DOUBLE UNDER</a>
+<a href="#crazy-8s-double-under" class="matrix-link">DOUBLE UNDER</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#duplication-stone" class="matrix-link">DUPLICATION STONE [ANCIENT STONE CLASS]</a>
+<a href="#crazy-8s-duplication-stone" class="matrix-link">DUPLICATION STONE [ANCIENT STONE CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -353,21 +347,20 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: E</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#elegant-generosity" class="matrix-link">ELEGANT GENEROUSITY</a>
+<a href="#crazy-8s-elegant-generosity" class="matrix-link">ELEGANT GENEROUSITY</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#eliminator" class="matrix-link">ELIMINATOR [TRAP CLASS]</a>
+<a href="#crazy-8s-eliminator" class="matrix-link">ELIMINATOR [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#elixir" class="matrix-link">ELIXIR [TRAP CLASS]</a>
+<a href="#crazy-8s-elixir" class="matrix-link">ELIXIR [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#epidemic" class="matrix-link">EPIDEMIC +3 [TRAP CLASS]</a>
+<a href="#crazy-8s-epidemic" class="matrix-link">EPIDEMIC +3 [TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -377,39 +370,38 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: F</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#field-of-addition" class="matrix-link">FIELD OF ADDITION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-addition" class="matrix-link">FIELD OF ADDITION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-of-deception" class="matrix-link">FIELD OF DECEPTION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-deception" class="matrix-link">FIELD OF DECEPTION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-of-escalation" class="matrix-link">FIELD OF ESCALATION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-escalation" class="matrix-link">FIELD OF ESCALATION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-of-normalisation" class="matrix-link">FIELD OF NORMALISATION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-normalisation" class="matrix-link">FIELD OF NORMALISATION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-of-reduction" class="matrix-link">FIELD OF REDUCTION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-reduction" class="matrix-link">FIELD OF REDUCTION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-of-replication" class="matrix-link">FIELD OF REPLICATION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-replication" class="matrix-link">FIELD OF REPLICATION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-of-subtraction" class="matrix-link">FIELD OF SUBTRACTION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-subtraction" class="matrix-link">FIELD OF SUBTRACTION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-of-succession" class="matrix-link">FIELD OF SUCCESSION [FIELD CLASS]</a>
+<a href="#crazy-8s-field-of-succession" class="matrix-link">FIELD OF SUCCESSION [FIELD CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#field-transformation" class="matrix-link">FIELD TRANSFORMATION [TRAP CLASS]</a>
+<a href="#crazy-8s-field-transformation" class="matrix-link">FIELD TRANSFORMATION [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#foresight" class="matrix-link">FORESIGHT [TRAP CLASS]</a>
+<a href="#crazy-8s-foresight" class="matrix-link">FORESIGHT [TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -419,12 +411,11 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: G</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#genetic-manipulation" class="matrix-link">GENETIC MANIPULATION</a>
+<a href="#crazy-8s-genetic-manipulation" class="matrix-link">GENETIC MANIPULATION</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -434,12 +425,11 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: I</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#illumination-stone" class="matrix-link">ILLUMINATION STONE [ANCIENT STONE CLASS]</a>
+<a href="#crazy-8s-illumination-stone" class="matrix-link">ILLUMINATION STONE [ANCIENT STONE CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -449,12 +439,11 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: J</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#jacks-knight" class="matrix-link">JACK'S KNIGHT [ROYAL KNIGHT CLASS]</a>
+<a href="#crazy-8s-jacks-knight" class="matrix-link">JACK'S KNIGHT [ROYAL KNIGHT CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -464,12 +453,11 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: K</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#kings-knight" class="matrix-link">KING'S KNIGHT [ROYAL KNIGHT CLASS]</a>
+<a href="#crazy-8s-kings-knight" class="matrix-link">KING'S KNIGHT [ROYAL KNIGHT CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -479,12 +467,11 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: M</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#mercy" class="matrix-link">MERCY [INSTANT TRAP CLASS]</a>
+<a href="#crazy-8s-mercy" class="matrix-link">MERCY [INSTANT TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -494,15 +481,14 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: N</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#not-me" class="matrix-link">NOT ME [COUNTER CLASS LV3]</a>
+<a href="#crazy-8s-not-me" class="matrix-link">NOT ME [COUNTER CLASS LV3]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#nou" class="matrix-link">NOU [COUNTER CLASS LV2]</a>
+<a href="#crazy-8s-nou" class="matrix-link">NOU [COUNTER CLASS LV2]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -512,12 +498,11 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: O</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#outbreak" class="matrix-link">OUTBREAK [TRAP CLASS]</a>
+<a href="#crazy-8s-outbreak" class="matrix-link">OUTBREAK [TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -527,45 +512,44 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: P</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#paradigm-shift" class="matrix-link">PARADIGM SHIFT</a>
+<a href="#crazy-8s-paradigm-shift" class="matrix-link">PARADIGM SHIFT</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#pathogen" class="matrix-link">PATHOGEN +2 [TRAP CLASS]</a>
+<a href="#crazy-8s-pathogen" class="matrix-link">PATHOGEN +2 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#plague" class="matrix-link">PLAGUE +0 +2 [TRAP CLASS]</a>
+<a href="#crazy-8s-plague" class="matrix-link">PLAGUE +0 +2 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#plague-st" class="matrix-link">PLAGUE +0 +2 [SPECIFIC TARGETED] [TRAP CLASS]</a>
+<a href="#crazy-8s-plague-st" class="matrix-link">PLAGUE +0 +2 [SPECIFIC TARGETED] [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#poison" class="matrix-link">POISON +3 [TRAP CLASS]</a>
+<a href="#crazy-8s-poison" class="matrix-link">POISON +3 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#poison-rerelease" class="matrix-link">POISON +3 [RERELEASE] [TRAP CLASS]</a>
+<a href="#crazy-8s-poison-rerelease" class="matrix-link">POISON +3 [RERELEASE] [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#poison-st" class="matrix-link">POISON +3 [SPECIFIC TARGETED] [TRAP CLASS]</a>
+<a href="#crazy-8s-poison-st" class="matrix-link">POISON +3 [SPECIFIC TARGETED] [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#project-insight" class="matrix-link">PROJECT INSIGHT</a>
+<a href="#crazy-8s-project-insight" class="matrix-link">PROJECT INSIGHT</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#pure-chaos" class="matrix-link">PURE CHAOS</a>
+<a href="#crazy-8s-pure-chaos" class="matrix-link">PURE CHAOS</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#pure-chaos-skip" class="matrix-link">PURE CHAOS SKIP</a>
+<a href="#crazy-8s-pure-chaos-skip" class="matrix-link">PURE CHAOS SKIP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#pure-chaos-reverse" class="matrix-link">PURE CHAOS REVERSE</a>
+<a href="#crazy-8s-pure-chaos-reverse" class="matrix-link">PURE CHAOS REVERSE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#pure-chaos-shuffle-hands" class="matrix-link">PURE CHAOS SHUFFLE HANDS</a>
+<a href="#crazy-8s-pure-chaos-shuffle-hands" class="matrix-link">PURE CHAOS SHUFFLE HANDS</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -575,12 +559,11 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: Q</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#queens-knight" class="matrix-link">QUEEN'S KNIGHT [ROYAL KNIGHT CLASS]</a>
+<a href="#crazy-8s-queens-knight" class="matrix-link">QUEEN'S KNIGHT [ROYAL KNIGHT CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -590,30 +573,29 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: R</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#recycle" class="matrix-link">RECYCLE</a>
+<a href="#crazy-8s-recycle" class="matrix-link">RECYCLE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#repetition-stone" class="matrix-link">REPETITION STONE [ANCIENT STONE CLASS]</a>
+<a href="#crazy-8s-repetition-stone" class="matrix-link">REPETITION STONE [ANCIENT STONE CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#resurrection" class="matrix-link">RESURRECTION [INSTANT TRAP CLASS]</a>
+<a href="#crazy-8s-resurrection" class="matrix-link">RESURRECTION [INSTANT TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#reverse" class="matrix-link">REVERSE [ACTION CLASS]</a>
+<a href="#crazy-8s-reverse" class="matrix-link">REVERSE [ACTION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#reverse-stun" class="matrix-link">REVERSE STUN</a>
+<a href="#crazy-8s-reverse-stun" class="matrix-link">REVERSE STUN</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#roulette" class="matrix-link">ROULETTE</a>
+<a href="#crazy-8s-roulette" class="matrix-link">ROULETTE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#royal-knights-call-to-arms" class="matrix-link">ROYAL KNIGHTS - CALL TO ARMS [TRAP CLASS]</a>
+<a href="#crazy-8s-royal-knights-call-to-arms" class="matrix-link">ROYAL KNIGHTS - CALL TO ARMS [TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -623,60 +605,59 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: S</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#scavenger" class="matrix-link">SCAVENGER</a>
+<a href="#crazy-8s-scavenger" class="matrix-link">SCAVENGER</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#skip" class="matrix-link">SKIP [ACTION CLASS]</a>
+<a href="#crazy-8s-skip" class="matrix-link">SKIP [ACTION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#slap" class="matrix-link">SLAP</a>
+<a href="#crazy-8s-slap" class="matrix-link">SLAP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#snap" class="matrix-link">SNAP</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#soloversal-engine-overdrive" class="matrix-link">SOLOVERSAL ENGINE OVERDRIVE</a>
-</li>
- <li class="matrix-item-heading">
-<a href="#soloversal-singularity" class="matrix-link">SOLOVERSAL SINGULARITY</a>
+<a href="#crazy-8s-snap" class="matrix-link">SNAP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#soloversal-destruction" class="matrix-link">SOLOVERSAL DESTRUCTION [INSTANT TRAP CLASS]</a>
+<a href="#crazy-8s-soloversal-engine-overdrive" class="matrix-link">SOLOVERSAL ENGINE OVERDRIVE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#soloverse-1-of-3-sol" class="matrix-link">SOLOVERSE 1 OF 3: SOL [UNIFICATION CLASS]</a>
+<a href="#crazy-8s-soloversal-singularity" class="matrix-link">SOLOVERSAL SINGULARITY</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#soloverse-2-of-3-ove" class="matrix-link">SOLOVERSE 2 OF 3: OVE [UNIFICATION CLASS]</a>
+<a href="#crazy-8s-soloversal-destruction" class="matrix-link">SOLOVERSAL DESTRUCTION [INSTANT TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#soloverse-3-of-3-rse" class="matrix-link">SOLOVERSE 3 OF 3: RSE [UNIFICATION CLASS]</a>
+<a href="#crazy-8s-soloverse-1-of-3-sol" class="matrix-link">SOLOVERSE 1 OF 3: SOL [UNIFICATION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#state-of-flux" class="matrix-link">STATE OF FLUX</a>
+<a href="#crazy-8s-soloverse-2-of-3-ove" class="matrix-link">SOLOVERSE 2 OF 3: OVE [UNIFICATION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#stinger" class="matrix-link">STINGER +1 [TRAP CLASS]</a>
+<a href="#crazy-8s-soloverse-3-of-3-rse" class="matrix-link">SOLOVERSE 3 OF 3: RSE [UNIFICATION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#stinger-st" class="matrix-link">STINGER +1 [SPECIFIC TARGETED] [TRAP CLASS]</a>
+<a href="#crazy-8s-state-of-flux" class="matrix-link">STATE OF FLUX</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#steal-turn" class="matrix-link">STEAL TURN</a>
+<a href="#crazy-8s-stinger" class="matrix-link">STINGER +1 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#stun" class="matrix-link">STUN</a>
+<a href="#crazy-8s-stinger-st" class="matrix-link">STINGER +1 [SPECIFIC TARGETED] [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#substitution-stone" class="matrix-link">SUBSTITUTION STONE [ANCIENT STONE CLASS]</a>
+<a href="#crazy-8s-steal-turn" class="matrix-link">STEAL TURN</a>
 </li>
- <li class="matrix-item-heading">
-<a href="#system-absoulte-zero" class="matrix-link">SYSTEM ABSOLUTE ZERO</a>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-stun" class="matrix-link">STUN</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-substitution-stone" class="matrix-link">SUBSTITUTION STONE [ANCIENT STONE CLASS]</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-system-absoulte-zero" class="matrix-link">SYSTEM ABSOLUTE ZERO</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -688,25 +669,25 @@ type: "cards"
 <li class="matrix-item-heading">
 <a href="#teleportation-stone" class="matrix-link">TELEPORTATION STONE [ANCIENT STONE CLASS]</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#the-architects-deletion" class="matrix-link">THE ARCHITECT'S DELETION</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#the-architects-mirage" class="matrix-link">THE ARCHITECT'S MIRAGE</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#the-architects-protocol" class="matrix-link">THE ARCHITECT'S PROTOCOL</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#the-architects-quarantine" class="matrix-link">THE ARCHITECT'S QUARANTINE</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#the-architects-source-code" class="matrix-link">THE ARCHITECT'S SOURCE CODE</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#the-soloversal-blueprint" class="matrix-link">THE SOLOVERSAL BLUEPRINT</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#the-soloverse-loophole" class="matrix-link">THE SOLOVERSE LOOPHOLE</a>
 </li>
 <li class="matrix-item-heading">
@@ -717,8 +698,7 @@ type: "cards"
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -733,13 +713,12 @@ type: "cards"
 <li class="matrix-item-heading">
 <a href="#unrestriction-stone" class="matrix-link">UNRESTRICTION STONE [ANCIENT STONE CLASS]</a>
 </li>
- <li class="matrix-item-heading">
+<li class="matrix-item-heading">
 <a href="#unstable-soloversal-paradox" class="matrix-link">UNSTABLE SOLOVERSAL PARADOX</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -762,8 +741,7 @@ type: "cards"
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -777,8 +755,7 @@ type: "cards"
 </li>
 </ul>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </nav>
 
@@ -817,12 +794,11 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect.</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -862,12 +838,11 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect.</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -910,8 +885,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -971,8 +945,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1006,7 +979,7 @@ type: "cards"
 <li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to Deal 5 New Cards; ending Their Turn.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -1020,13 +993,12 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can be Pre-Emptively Countered, Officially, if <a href="#nou" class="return-link">NOU</a> is Played Last.</li>
+<li>This Can be Pre-Emptively Countered, Officially, if <a href="#crazy-8s-nou" class="return-link">NOU</a> is Played Last.</li>
 <li>But, there might be other, unofficial ways around it…</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1069,8 +1041,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibiotic-1.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1113,8 +1084,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibiotic-2.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1156,8 +1126,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibiotic-3.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1200,8 +1169,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibiotic-4.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1244,8 +1212,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibiotic-5.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1295,8 +1262,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibiotic-6.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1338,8 +1304,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibody-1.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1381,8 +1346,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibody-2.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1424,8 +1388,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibody-3.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1467,8 +1430,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibody-4.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1510,8 +1472,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibody-5.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1559,8 +1520,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-antibody-6.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1618,8 +1578,7 @@ type: "cards"
 <img src="/assets/images/cards/19-architectural-glitch.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1672,8 +1631,7 @@ type: "cards"
 <img src="/assets/images/cards/15-doomsday-expansion-trap-assassin.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1702,7 +1660,7 @@ type: "cards"
 <li>Discard a Minimum of 3 Differently Coloured Cards, no Maximum [one for any of the Coloured Sets].</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -1717,8 +1675,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-badge-collector.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1749,7 +1706,7 @@ type: "cards"
 <li>Then the User Deals 5 Cards to Each Player.</li>
 </ol>
 </li>
-<li>Or Play simply as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or Play simply as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -1764,8 +1721,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-black-hole.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1796,7 +1752,7 @@ type: "cards"
 <li>Choose any 2 Players to Swap Hands with [including Yourself].</li>
 </ol>
 </li>
-<li>Or Play simply as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or Play simply as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -1838,8 +1794,7 @@ type: "cards"
 <img src="/assets/images/cards/06-oblivion-expansion-black-knight.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1893,8 +1848,7 @@ type: "cards"
 <img src="/assets/images/cards/15-doomsday-expansion-counter-lv1-bodyguard.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -1947,8 +1901,7 @@ type: "cards"
 <img src="/assets/images/cards/07-singularity-expansion-trap-call-of-the-soloverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2001,8 +1954,7 @@ type: "cards"
 <img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2056,8 +2008,7 @@ type: "cards"
 <img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2-reverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2111,8 +2062,7 @@ type: "cards"
 <img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2-skip.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2188,8 +2138,7 @@ type: "cards"
 <img src="/assets/images/cards/03-warzone-expansion-chaos-draw-2-specific-targeted.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2264,8 +2213,7 @@ type: "cards"
 <img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2341,8 +2289,7 @@ type: "cards"
 <img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3-reverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2418,8 +2365,7 @@ type: "cards"
 <img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3-skip.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2495,8 +2441,7 @@ type: "cards"
 <img src="/assets/images/cards/03-warzone-expansion-chaos-draw-3-specific-targeted.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2571,8 +2516,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-chaos-draw-4.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2648,8 +2592,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-chaos-draw-4-reverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2725,8 +2668,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-chaos-draw-4-skip.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2802,8 +2744,7 @@ type: "cards"
 <img src="/assets/images/cards/03-warzone-expansion-chaos-draw-4-specific-targeted.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2878,8 +2819,7 @@ type: "cards"
 <img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -2955,8 +2895,7 @@ type: "cards"
 <img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5-reverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3032,8 +2971,7 @@ type: "cards"
 <img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5-skip.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3109,8 +3047,7 @@ type: "cards"
 <img src="/assets/images/cards/05-catastrophe-expansion-chaos-draw-5-specific-targeted.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3185,8 +3122,7 @@ type: "cards"
 <img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3262,8 +3198,7 @@ type: "cards"
 <img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10-reverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3339,8 +3274,7 @@ type: "cards"
 <img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10-skip.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3416,8 +3350,7 @@ type: "cards"
 <img src="/assets/images/cards/05-catastrophe-expansion-chaos-draw-10-specific-targeted.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3455,8 +3388,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-clone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3492,8 +3424,7 @@ type: "cards"
 <img src="/assets/images/cards/000-1-steel-draw-2.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3533,15 +3464,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/11-pandemic-expansion-trap-05-contagion-all.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3576,8 +3506,7 @@ type: "cards"
 <img src="/assets/images/cards/08-crisis-expansion-trap-crisis.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3627,8 +3556,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-cyclone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3664,8 +3592,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-cure.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3729,8 +3656,7 @@ type: "cards"
 <img src="/assets/images/cards/19-defragmented-reality.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3771,8 +3697,7 @@ type: "cards"
 <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-acid.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3813,8 +3738,7 @@ type: "cards"
 <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-amethyst.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3844,7 +3768,7 @@ type: "cards"
 <li>Name a Colour used in the game; all Players in Play Order Discard every Card in Their Hand they have of that Colour.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -3859,8 +3783,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-discard-colour.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3890,7 +3813,7 @@ type: "cards"
 <li>All Players in Turn Order Discard every Chaos Card in Their Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -3905,8 +3828,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3947,8 +3869,7 @@ type: "cards"
 <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-diamond.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -3989,8 +3910,7 @@ type: "cards"
 <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-emerald.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4031,8 +3951,7 @@ type: "cards"
 <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-oak.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4073,8 +3992,7 @@ type: "cards"
 <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-poison.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4115,8 +4033,7 @@ type: "cards"
 <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-redwood.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4157,8 +4074,7 @@ type: "cards"
 <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-rose.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4199,8 +4115,7 @@ type: "cards"
 <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-plague.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4241,8 +4156,7 @@ type: "cards"
 <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-stinger.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4283,8 +4197,7 @@ type: "cards"
 <img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-stone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4325,8 +4238,7 @@ type: "cards"
 <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-toxin.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4367,8 +4279,7 @@ type: "cards"
 <img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-venom.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4405,8 +4316,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-double-edged.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4430,7 +4340,7 @@ type: "cards"
 <li>Return Your entire Hand to the Deck, Shuffle it and Deal the same number of Cards to Yourself.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -4444,8 +4354,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-double-under.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4575,8 +4484,7 @@ type: "cards"
 <img src="/assets/images/cards/16-cataclysm-expansion-3-of-6-duplication-stone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4605,7 +4513,7 @@ type: "cards"
 <li>Discard Half Your remaining Cards [round up the Cards You keep] from Your Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -4620,8 +4528,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-double-edged.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4664,8 +4571,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-trap-eliminator.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4707,8 +4613,7 @@ type: "cards"
 <img src="/assets/images/cards/12-containment-expansion-elixir.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4744,15 +4649,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/11-pandemic-expansion-trap-04-epidemic-all.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4784,8 +4688,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-1-field-of-addition.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4823,8 +4726,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-7-field-of-deception.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4856,8 +4758,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-3-field-of-escalation.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4881,8 +4782,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-8-field-of-normalisation.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4914,8 +4814,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-4-field-of-reduction.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4947,8 +4846,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-6-field-of-replication.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -4980,8 +4878,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-2-field-of-subtraction.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5013,8 +4910,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-5-field-of-succession.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5051,8 +4947,7 @@ type: "cards"
 <img src="/assets/images/cards/18-field-deck-9-field-of-trap-field-transformation.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5088,8 +4983,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-trap-foresight.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5151,8 +5045,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-genetic-manipulation.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5295,8 +5188,7 @@ type: "cards"
 <img src="/assets/images/cards/16-cataclysm-expansion-5-of-6-illumination-stone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5327,7 +5219,7 @@ type: "cards"
 <li>Play up to 3 playable Coloured Cards this Turn, one after the other [all Cards Must follow the Rules set out in this Soloverse Rulebook].</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -5360,8 +5252,7 @@ type: "cards"
 <img src="/assets/images/cards/06-oblivion-expansion-jacks-knight.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5392,7 +5283,7 @@ type: "cards"
 <li><strong>GROUP TARGETED:</strong> Reveal this Card to be shielded from the Effects.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -5439,8 +5330,7 @@ type: "cards"
 <img src="/assets/images/cards/06-oblivion-expansion-counter-lv4-kings-knight.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5470,8 +5360,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-trap-mercy.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5495,7 +5384,7 @@ type: "cards"
 <li><strong>GROUP TARGETED:</strong> Reveal this Card to be shielded from the Effects.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -5523,8 +5412,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-counter-lv3-not-me.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5548,7 +5436,7 @@ type: "cards"
 <li><strong>GROUP TARGETED:</strong> Reveal this Card to be shielded from the Effects.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
@@ -5583,8 +5471,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-counter-lv2-nou.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5625,15 +5512,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/11-pandemic-expansion-trap-03-outbreak-all.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5675,15 +5561,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/11-pandemic-expansion-trap-06-pandemic-all.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5721,8 +5606,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-paradigm-shift.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5758,15 +5642,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/11-pandemic-expansion-trap-02-pathogen-all.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5806,15 +5689,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/09-bio-hazard-expansion-trap-06-plague.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5849,15 +5731,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/10-patient-zero-expansion-trap-06-plague-st.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5888,8 +5769,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-trap-poison.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5924,15 +5804,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/09-bio-hazard-expansion-trap-03-poison.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -5962,15 +5841,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/10-patient-zero-expansion-trap-03-poison-st.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6006,8 +5884,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-project-insight.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6031,8 +5908,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-pure-chaos.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6077,8 +5953,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-pure-chaos-reverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6117,8 +5992,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-pure-chaos-skip.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6158,8 +6032,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-pure-chaos-shuffle-hands.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6236,8 +6109,7 @@ type: "cards"
 <img src="/assets/images/cards/06-oblivion-expansion-queens-knight.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6280,8 +6152,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-setup-recycle.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6412,8 +6283,7 @@ type: "cards"
 <img src="/assets/images/cards/16-cataclysm-expansion-1of-6-repetition-stone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6451,8 +6321,7 @@ type: "cards"
 <img src="/assets/images/cards/15-doomsday-expansion-trap-resurrection.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6494,8 +6363,7 @@ type: "cards"
 <img src="/assets/images/cards/000-12-poison-reverse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6569,8 +6437,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-reverse-stun.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6608,8 +6475,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-roulette.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6655,8 +6521,7 @@ type: "cards"
 <img src="/assets/images/cards/06-oblivion-expansion-trap-royal-knights-call-to-arms.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6702,8 +6567,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-scavenger.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6739,8 +6603,7 @@ type: "cards"
 <img src="/assets/images/cards/000-4-toxin-skip.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6790,8 +6653,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-slap.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6845,8 +6707,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-snap.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6900,8 +6761,7 @@ type: "cards"
 <img src="/assets/images/cards/19-soloversal-engine-overdrive.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -6950,8 +6810,7 @@ type: "cards"
 <img src="/assets/images/cards/19-soloversal-singularity.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7003,8 +6862,7 @@ type: "cards"
 <img src="/assets/images/cards/15-doomsday-expansion-trap-soloversal Destruction.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7086,8 +6944,7 @@ type: "cards"
 <img src="/assets/images/cards/07-singularity-expansion-soloverse-1-of-3-sol.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7168,8 +7025,7 @@ type: "cards"
 <img src="/assets/images/cards/07-singularity-expansion-soloverse-2-of-3-ove.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7255,8 +7111,7 @@ type: "cards"
 <img src="/assets/images/cards/07-singularity-expansion-soloverse-3-of-3-rse.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7299,8 +7154,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-state-of-flux.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7330,15 +7184,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/09-bio-hazard-expansion-trap-01-satinger.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7373,15 +7226,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/10-patient-zero-expansion-trap-01-stinger-st.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7446,8 +7298,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-steal-turn.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7515,8 +7366,7 @@ type: "cards"
 <img src="/assets/images/cards/00-core-game-stun.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7633,8 +7483,7 @@ type: "cards"
 <img src="/assets/images/cards/16-cataclysm-expansion-2-of-6-substitution-stone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7692,8 +7541,7 @@ type: "cards"
 <img src="/assets/images/cards/19-system-absolute-zero.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7817,8 +7665,7 @@ type: "cards"
 <img src="/assets/images/cards/16-cataclysm-expansion-4-of-6-teleportation-stone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7871,8 +7718,7 @@ type: "cards"
 <img src="/assets/images/cards/19-the-architects-deletion.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7930,8 +7776,7 @@ type: "cards"
 <img src="/assets/images/cards/19-the-architects-mirage.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -7986,8 +7831,7 @@ type: "cards"
 <img src="/assets/images/cards/19-the-architects-protocol.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8055,8 +7899,7 @@ type: "cards"
 <img src="/assets/images/cards/19-the-architects-quarantine.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8138,8 +7981,7 @@ type: "cards"
 <img src="/assets/images/cards/19-the-architects-source-code.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8193,8 +8035,7 @@ type: "cards"
 <img src="/assets/images/cards/19-the-soloversal-blueprint.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8254,8 +8095,7 @@ type: "cards"
 <img src="/assets/images/cards/19-the-soloverse-loophole.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8290,15 +8130,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/09-bio-hazard-expansion-trap-05-toxin.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8333,15 +8172,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/10-patient-zero-expansion-trap-05-toxin-st.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8378,8 +8216,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-united-we-fall.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8516,8 +8353,7 @@ type: "cards"
 <img src="/assets/images/cards/16-cataclysm-expansion-6-of-6-unrestriction-stone.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8583,8 +8419,7 @@ type: "cards"
 <img src="/assets/images/cards/19-unstable-soloversal-paradox.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8622,8 +8457,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-vaccine.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8658,15 +8492,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/09-bio-hazard-expansion-trap-02-venom.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8701,15 +8534,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/10-patient-zero-expansion-trap-02-venom-st.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8745,15 +8577,14 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by <a href="#cure" class="return-link">Cure's</a> Effect..</li>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
 <div class="image-container">
 <img src="/assets/images/cards/11-pandemic-expansion-trap-01-virus-all.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -8783,7 +8614,7 @@ type: "cards"
 <li>All Players in Play Order secretly choose any Card from the Discards and adds it to Their Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -8798,8 +8629,7 @@ type: "cards"
 <img src="/assets/images/cards/01-core-extension-white-hole.png">
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>

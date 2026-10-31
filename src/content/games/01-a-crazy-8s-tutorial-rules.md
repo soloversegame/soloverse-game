@@ -8,6 +8,9 @@ type: "rules"
 
 <!-- INDEX JUMP MATRIX -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
+<nav class="matrix-toc-box" aria-label="Platform Navigation">
+<a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
+</nav>
 
 <div id="crazy-8s-tutorial-game-rules-contents"></div>
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>

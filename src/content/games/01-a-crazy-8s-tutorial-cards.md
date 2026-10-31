@@ -4,6 +4,8 @@ title: "[01-A] Crazy 8s Tutorial Card Definitions"
 type: "cards"
 ---
 
+<div class="meta-tag">👥 Ages 7+, 3-6 Players • v1.0.0</div>
+
 <!-- INDEX JUMP MATRIX -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
 <nav class="matrix-toc-box" aria-label="Platform Navigation">
