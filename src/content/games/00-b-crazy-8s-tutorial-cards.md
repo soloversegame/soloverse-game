@@ -10,7 +10,7 @@ type: "cards"
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
-<div id="crazy-8s-tutorial-contents"></div>
+<div id="crazy-8s-tutorial-card-definitions-contents"></div>
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
@@ -91,8 +91,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -137,7 +136,7 @@ type: "cards"
 </div>
 <div class="return-link-wrapper">
 <a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -175,8 +174,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -202,8 +200,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -250,8 +247,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -292,8 +288,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -335,8 +330,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -413,8 +407,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -492,8 +485,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -571,8 +563,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -625,8 +616,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -687,8 +677,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -728,8 +717,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
@@ -799,8 +787,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
-<a href="#top" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>

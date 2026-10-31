@@ -8,11 +8,8 @@ type: "rules"
 
 <!-- INDEX JUMP MATRIX -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
-<nav class="matrix-toc-box" aria-label="Platform Navigation">
-<a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
-</nav>
 
-<div id="crazy-8s-tutorial-contents"></div>
+<div id="crazy-8s-tutorial-game-rules-contents"></div>
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
 
 <ul class="matrix-toc-grid">
@@ -40,7 +37,7 @@ type: "rules"
 <li>Therefore: Be the first Player to get rid of all your Cards.</li>
 </ul>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
@@ -155,7 +152,7 @@ type: "rules"
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
@@ -197,7 +194,7 @@ loading="lazy"
 <li>You may also choose not to play a playable Card from your Hand [such as keeping a Chaos Card up your sleeve for later]. If so, you must Draw a Card from the Deck. The Pick-Up/Put-Down Rule applies here as well; however, you may not play any other Card from your Hand after Drawing.</li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
@@ -243,7 +240,7 @@ loading="lazy"
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
