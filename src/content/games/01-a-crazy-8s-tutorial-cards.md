@@ -750,6 +750,7 @@ type: "cards"
 <div class="image-container">
 <img src="/assets/images/cards/00-core-game-discard-colour.png">
 </div>
+</div
 <div class="discards-box">
 <ul>
 <li>Play to the side of the Discards to use this Card's Effect [not if using it as a Pure Chaos Card (any Type) ].</li>
@@ -796,6 +797,7 @@ type: "cards"
 <div class="image-container">
 <img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
 </div>
+</div
 <div class="discards-box">
 <ul>
 <li>Play to the side of the Discards.</li>
@@ -841,6 +843,7 @@ type: "cards"
 <div class="image-container">
 <img src="/assets/images/cards/00-core-game-reverse-stun.png">
 </div>
+</div
 <div class="discards-box">
 <ul>
 <li>Play in front of the Player You are Targeting.</li>
@@ -916,6 +919,7 @@ type: "cards"
 <div class="image-container">
 <img src="/assets/images/cards/00-core-game-steal-turn.png">
 </div>
+</div
 <div class="rules-box">
 <ol>
 <li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and You Steal Their Turn.
