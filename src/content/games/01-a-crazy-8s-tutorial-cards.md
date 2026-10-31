@@ -739,7 +739,6 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<div class="card-header-block">
 <h4 class="card-title">DISCARD COLOUR [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -786,7 +785,6 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<div class="card-header-block">
 <h4 class="card-title">DISCARD CHAOS CARDS [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -833,7 +831,6 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<div class="card-header-block">
 <h4 class="card-title">REVERSE STUN [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -909,7 +906,6 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<div class="card-header-block">
 <h4 class="card-title">STEAL TURN [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
