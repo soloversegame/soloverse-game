@@ -50,19 +50,19 @@ type: "rules"
 <li>For this Tutorial Game, please choose and separate any 4 Colours in the Game. Each Colour Set contains 26 Cards, including 2 Copies of each of the following:
 <ol type="i">
 <li>The Numbers 0-9.</li>
-<li>Draw +2 [Action. The Next Player must Draw 2 Cards and Skip Their Turn. And Yes You can Stack a Draw +2 on another].
+<li>Draw +2.
 <div class="image-container">
 <div class="image-caption">Image 1: Draw +2.</div>
 <img src="/assets/images/cards/000-1-steel-draw-2.png">
 </div>
 </li>
-<li>Reverse [Action. The Direction of Play Reverses (Remember to Flip the <strong>Direction of Play</strong> Setup Card) ].
+<li>Reverse.
 <div class="image-container">
 <div class="image-caption">Image 2: Reverse.</div>
 <img src="/assets/images/cards/000-12-poison-reverse.png">
 </div>
 </li>
-<li>Skip [Action. The Next Player's Turn is Skipped].
+<li>Skip.
 <div class="image-container">
 <div class="image-caption">Image 3: Skip.</div>
 <img src="/assets/images/cards/000-9-venom-skip.png">
@@ -70,71 +70,95 @@ type: "rules"
 </li>
 </ol>
 </li>
-<li>Next, separate the following Chaos Cards [Black & White] for the best Tutorial experience:
+<li>Next, separate the Chaos Cards [Black & White] and only include the following ones for the best Tutorial experience:
 <ol type="i">
-<li>2 x Pure Chaos [Simply Changes the Colour].
+<li>3 x Pure Chaos.
 <div class="image-container">
 <div class="image-caption">Image 4: Pure Chaos.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos.png">
 </div>
 </li>
-<li>2 x Pure Chaos [Reverse] [Reverses Play, then Changes the Colour; the Previous Player is also allowed to match the Reverse Symbol, not just the Colour called].
+<li>3 x Pure Chaos [Reverse].
 <div class="image-container">
 <div class="image-caption">Image 5: Pure Chaos Reverse.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos-reverse.png">
 </div>
 </li>
-<li>2 x Pure Chaos [Skip] [Skips the Next Player, then Changes the Colour; the following Player is also allowed to match the Skip Symbol, not just the Colour called].
+<li>3 x Pure Chaos [Skip].
 <div class="image-container">
 <div class="image-caption">Image 6: Pure Chaos Skip.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos-skip.png">
 </div>
 </li>
-<li>1 x Pure Chaos [Shuffle Hands] [The User collects all Player's Cards, Shuffles them and Re-Deals them as equally to all Players. Then Changes the Colour].
+<li>2 x Pure Chaos [Shuffle Hands].
 <div class="image-container">
 <div class="image-caption">Image 7: Pure Chaos Shuffle Hands.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos-shuffle-hands.png">
 </div>
 </li>
-<li>2 x Chaos Draw +4 [For the Tutorial, the Next Player must either: Draw 4 Cards or Respond in Kind by Stacking any other Chaos Draw +4 or Counter it with NOU. You can only Play them if You do NOT have any Matching Coloured Card that is Playable or Responding in Kind. Finally, Change the Colour].
+<li>3 x Chaos Draw +4.
 <div class="image-container">
 <div class="image-caption">Image 7: Chaos Draw +4.</div>
 <img src="/assets/images/cards/00-core-game-chaos-draw-4.png">
 </div>
 </li>
-<li>2 x Chaos Draw +4 [Reverse] [For the Tutorial, first Reverse Play from the User, and the Previous Player must either: Draw 4 Cards or Respond in Kind by Stacking any other Chaos Draw +4 or Counter it with NOU. You can only Play them if You do NOT have any Matching Coloured Card that is Playable or Responding in Kind (Stacking or Countering). Finally, once the Draw is resolved, anyone is also allowed to match the Reverse Symbol, not just the Colour called. Finally, Change the Colour].
+<li>3 x Chaos Draw +4 [Reverse].
 <div class="image-container">
 <div class="image-caption">Image 8: Chaos Draw +4 [Reverse].</div>
 <img src="/assets/images/cards/00-core-game-chaos-draw-4-reverse.png">
 </div>
 </li>
-<li>2 x Chaos Draw +4 [Skip] [For the Tutorial, first Skip the Next Player, then the following Player must either: Draw 4 Cards orRespond in Kind by Stacking any other Chaos Draw +4 or Counter it with NOU. You can only Play them if You do NOT have any Matching Coloured Card that is Playable or Responding in Kind. Finally, once the Draw is resolved, anyone is also allowed to match the Reverse Symbol, not just the Colour called. Finally, Change the Colour].
+<li>3 x Chaos Draw +4 [Skip].
 <div class="image-container">
 <div class="image-caption">Image 9: Chaos Draw +4 Skip.</div>
 <img src="/assets/images/cards/00-core-game-chaos-draw-4-skip.png">
 </div>
 </li>
-<li>2 x Anti-Fun [Optional Counter LV1 Effect: Play on another Player's Turn when they Play Their last Card to Win. Cancel that Win and force Them to Deal 5 New Cards to Themselves, finally Change the Colour. Or Play as a Pure Chaos Card and simply Change the Colour].
+<li>3 x Anti-Fun.
 <div class="image-container">
 <div class="image-caption">Image 10: Anti-Fun.</div>
 <img src="/assets/images/cards/00-core-game-counter-lv1-anti-fun.png">
 </div>
 </li>
-<li>2 x NOU [A Counter LV2 Chaos Card. Reflect a Chaos Draw +4 back at it's User, then Reverse Play from them. Optionally, Play Last as a Pure Chaos Card and Change the Colour to Pre-Counter Anti-Fun and experience the Official Undefeatable Victory!].
+<li>3 x NOU.
 <div class="image-container">
 <div class="image-caption">Image 11: NOU.</div>
 <img src="/assets/images/cards/00-core-game-counter-lv2-nou.png">
 </div>
 </li>
-<li>2 x Clone [Copies the Previous Card on the Discards - Follow it's Rules, if any].
+<li>3 x Clone.
 <div class="image-container">
 <div class="image-caption">Image 12: Clone.</div>
 <img src="/assets/images/cards/00-core-game-clone.png">
 </div>
 </li>
-<li>2 x Stun [Target any Player at the Table and Play in Front of Them. When Their next PLAYABLE TURN arrives, it is automatically Skipped. Then the Targeted Player Changes the Colour. The Following Player is also allowed to match the Skip Symbol, not just the Colour called].
+<li>3 x Discard Colour.
 <div class="image-container">
-<div class="image-caption">Image 14: Stun.</div>
+<div class="image-caption">Image 13: Discard Colour.</div>
+<img src="/assets/images/cards/00-core-game-discard-colour.png">
+</div>
+</li>
+<li>3 x Discard Chaos Cards.
+<div class="image-container">
+<div class="image-caption">Image 14: Discard Chaos Cards.</div>
+<img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
+</div>
+</li>
+<li>3 x Reverse Stun.
+<div class="image-container">
+<div class="image-caption">Image 15: Reverse Stun.</div>
+<img src="/assets/images/cards/00-core-game-reverse-stun.png">
+</div>
+</li>
+<li>3 x Steal Turn.
+<div class="image-container">
+<div class="image-caption">Image 16: Steal Turn.</div>
+<img src="/assets/images/cards/00-core-game-steal-turn.png">
+</div>
+</li>
+<li>3 x Stun.
+<div class="image-container">
+<div class="image-caption">Image 17: Stun.</div>
 <img src="/assets/images/cards/00-core-game-stun.png">
 </div>
 </li>

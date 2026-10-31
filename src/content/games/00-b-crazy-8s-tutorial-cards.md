@@ -135,7 +135,6 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>
 <a href="#crazy-8s-tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>

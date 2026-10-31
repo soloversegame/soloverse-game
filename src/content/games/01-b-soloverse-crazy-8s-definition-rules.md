@@ -5,7 +5,7 @@ title: "01-B Soloverse Crazy 8s Card Definitions"
 type: "cards"
 ---
 
-<body id="top">
+<body>
 
 <nav class="platform-hub-nav" aria-label="Platform Navigation">
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
