@@ -13,7 +13,7 @@ type: "cards"
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
-<div id="crazy-8s-cards-contents"></div>
+<div id="crazy-8s-crazy-8s-cards-contents"></div>
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
@@ -89,7 +89,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX A -->
-<div id="crazy-8s-a"></div>
+<div id="crazy-8s-crazy-8s-a"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents A">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: A</h2>
 <ul class="matrix-toc-grid">
@@ -158,7 +158,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX B -->
-<div id="b"></div>
+<div id="crazy-8s-crazy-8s-b"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents B">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: B</h2>
 <ul class="matrix-toc-grid">
@@ -181,7 +181,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX C -->
-<div id="c"></div>
+<div id="crazy-8s-c"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents C">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: C</h2>
 <ul class="matrix-toc-grid">
@@ -274,7 +274,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX D -->
-<div id="d"></div>
+<div id="crazy-8s-d"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents D">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: D</h2>
 <ul class="matrix-toc-grid">
@@ -342,7 +342,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX E -->
-<div id="e"></div>
+<div id="crazy-8s-e"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents E">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: E</h2>
 <ul class="matrix-toc-grid">
@@ -365,7 +365,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX F -->
-<div id="f"></div>
+<div id="crazy-8s-f"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents F">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: F</h2>
 <ul class="matrix-toc-grid">
@@ -406,7 +406,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX G -->
-<div id="g"></div>
+<div id="crazy-8s-g"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents G">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: G</h2>
 <ul class="matrix-toc-grid">
@@ -420,7 +420,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX I -->
-<div id="i"></div>
+<div id="crazy-8s-i"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents I">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: I</h2>
 <ul class="matrix-toc-grid">
@@ -434,7 +434,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX J -->
-<div id="j"></div>
+<div id="crazy-8s-j"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents J">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: J</h2>
 <ul class="matrix-toc-grid">
@@ -448,7 +448,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX K -->
-<div id="k"></div>
+<div id="crazy-8s-k"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents K">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: K</h2>
 <ul class="matrix-toc-grid">
@@ -462,7 +462,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX M -->
-<div id="m"></div>
+<div id="crazy-8s-m"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents M">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: M</h2>
 <ul class="matrix-toc-grid">
@@ -476,7 +476,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX N -->
-<div id="n"></div>
+<div id="crazy-8s-n"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents N">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: N</h2>
 <ul class="matrix-toc-grid">
@@ -493,7 +493,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX O -->
-<div id="n"></div>
+<div id="crazy-8s-n"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents O">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: O</h2>
 <ul class="matrix-toc-grid">
@@ -507,7 +507,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX P -->
-<div id="p"></div>
+<div id="crazy-8s-p"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents P">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: P</h2>
 <ul class="matrix-toc-grid">
@@ -554,7 +554,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX Q -->
-<div id="q"></div>
+<div id="crazy-8s-q"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Q">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: Q</h2>
 <ul class="matrix-toc-grid">
@@ -568,7 +568,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX R -->
-<div id="r"></div>
+<div id="crazy-8s-r"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents R">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: R</h2>
 <ul class="matrix-toc-grid">
@@ -600,7 +600,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX S -->
-<div id="s"></div>
+<div id="crazy-8s-s"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents S">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: S</h2>
 <ul class="matrix-toc-grid">
@@ -662,39 +662,39 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX T -->
-<div id="t"></div>
+<div id="crazy-8s-t"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents T">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: T</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#teleportation-stone" class="matrix-link">TELEPORTATION STONE [ANCIENT STONE CLASS]</a>
+<a href="#crzy-8s-teleportation-stone" class="matrix-link">TELEPORTATION STONE [ANCIENT STONE CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#the-architects-deletion" class="matrix-link">THE ARCHITECT'S DELETION</a>
+<a href="#crzy-8s-the-architects-deletion" class="matrix-link">THE ARCHITECT'S DELETION</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#the-architects-mirage" class="matrix-link">THE ARCHITECT'S MIRAGE</a>
+<a href="#crzy-8s-the-architects-mirage" class="matrix-link">THE ARCHITECT'S MIRAGE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#the-architects-protocol" class="matrix-link">THE ARCHITECT'S PROTOCOL</a>
+<a href="#crzy-8s-the-architects-protocol" class="matrix-link">THE ARCHITECT'S PROTOCOL</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#the-architects-quarantine" class="matrix-link">THE ARCHITECT'S QUARANTINE</a>
+<a href="#crzy-8s-the-architects-quarantine" class="matrix-link">THE ARCHITECT'S QUARANTINE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#the-architects-source-code" class="matrix-link">THE ARCHITECT'S SOURCE CODE</a>
+<a href="#crzy-8s-the-architects-source-code" class="matrix-link">THE ARCHITECT'S SOURCE CODE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#the-soloversal-blueprint" class="matrix-link">THE SOLOVERSAL BLUEPRINT</a>
+<a href="#crzy-8s-the-soloversal-blueprint" class="matrix-link">THE SOLOVERSAL BLUEPRINT</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#the-soloverse-loophole" class="matrix-link">THE SOLOVERSE LOOPHOLE</a>
+<a href="#crzy-8s-the-soloverse-loophole" class="matrix-link">THE SOLOVERSE LOOPHOLE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#toxin" class="matrix-link">TOXIN +5 [TRAP CLASS]</a>
+<a href="#crzy-8s-toxin" class="matrix-link">TOXIN +5 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#toxin-st" class="matrix-link">TOXIN +5 [SPECIFIC TARGETED] [TRAP CLASS]</a>
+<a href="#crzy-8s-toxin-st" class="matrix-link">TOXIN +5 [SPECIFIC TARGETED] [TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
@@ -703,18 +703,18 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX U -->
-<div id="u"></div>
+<div id="crazy-8s-u"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents U">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: U</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#united-we-fall" class="matrix-link">UNITED WE FALL</a>
+<a href="#crzy-8s-united-we-fall" class="matrix-link">UNITED WE FALL</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#unrestriction-stone" class="matrix-link">UNRESTRICTION STONE [ANCIENT STONE CLASS]</a>
+<a href="#crzy-8s-unrestriction-stone" class="matrix-link">UNRESTRICTION STONE [ANCIENT STONE CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#unstable-soloversal-paradox" class="matrix-link">UNSTABLE SOLOVERSAL PARADOX</a>
+<a href="#crzy-8s-unstable-soloversal-paradox" class="matrix-link">UNSTABLE SOLOVERSAL PARADOX</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
@@ -723,21 +723,21 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX V -->
-<div id="v"></div>
+<div id="crazy-8s-v"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents V">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: V</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#vaccine" class="matrix-link">VACCINE</a>
+<a href="#crzy-8s-vaccine" class="matrix-link">VACCINE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#venom" class="matrix-link">VENOM +2 [TRAP CLASS]</a>
+<a href="#crzy-8s-venom" class="matrix-link">VENOM +2 [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#venom-st" class="matrix-link">VENOM +2 [SPECIFIC TARGETED] [TRAP CLASS]</a>
+<a href="#crzy-8s-venom-st" class="matrix-link">VENOM +2 [SPECIFIC TARGETED] [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#virus" class="matrix-link">VIRUS +1 [TRAP CLASS]</a>
+<a href="#crzy-8s-virus" class="matrix-link">VIRUS +1 [TRAP CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
@@ -746,12 +746,12 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX W -->
-<div id="w"></div>
+<div id="crazy-8s-w"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents W">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: W</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#white-hole" class="matrix-link">WHITE HOLE</a>
+<a href="#crzy-8s-white-hole" class="matrix-link">WHITE HOLE</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
@@ -759,7 +759,7 @@ type: "cards"
 </div>
 </nav>
 
-<div id="acid">
+<div id="crazy-8s-crazy-8s-acid">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="card-header-block">
@@ -803,7 +803,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="acid-st">
+<div id="crazy-8s-crazy-8s-acid-st">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="card-header-block">
@@ -847,7 +847,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="ancient-inversion">
+<div id="crazy-8s-crazy-8s-ancient-inversion">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="card-header-block">
@@ -890,7 +890,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="ancient-war">
+<div id="crazy-8s-crazy-8s-ancient-war">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="card-header-block">
@@ -950,7 +950,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="anti-fun">
+<div id="crazy-8s-crazy-8s-anti-fun">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="card-header-block">
@@ -1003,7 +1003,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibiotic-yellow">
+<div id="crazy-8s-crazy-8s-antibiotic-yellow">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBIOTIC YELLOW [x1]:</h4>
@@ -1046,7 +1046,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibiotic-red">
+<div id="crazy-8s-crazy-8s-antibiotic-red">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBIOTIC RED [x1]:</h4>
@@ -1089,7 +1089,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibiotic-purple">
+<div id="crazy-8s-crazy-8s-antibiotic-purple">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBIOTIC PURPLE [x1]:</h4>
@@ -1131,7 +1131,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibiotic-orange">
+<div id="crazy-8s-crazy-8s-antibiotic-orange">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBIOTIC ORANGE [x1]:</h4>
@@ -1174,7 +1174,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibiotic-green">
+<div id="crazy-8s-crazy-8s-antibiotic-green">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBIOTIC GREEN [x1]:</h4>
@@ -1217,7 +1217,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibiotic-blue">
+<div id="crazy-8s-crazy-8s-antibiotic-blue">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBIOTIC BLUE [x1]:</h4>
@@ -1267,7 +1267,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibody-yellow">
+<div id="crazy-8s-crazy-8s-antibody-yellow">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBODY YELLOW [x1]:</h4>
@@ -1309,7 +1309,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibody-red">
+<div id="crazy-8s-crazy-8s-antibody-red">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBODY RED [x1]:</h4>
@@ -1351,7 +1351,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibody-purple">
+<div id="crazy-8s-crazy-8s-antibody-purple">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBODY PURPLE [x1]:</h4>
@@ -1393,7 +1393,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibody-orange">
+<div id="crazy-8s-crazy-8s-antibody-orange">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBODY ORANGE [x1]:</h4>
@@ -1435,7 +1435,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibody-green">
+<div id="crazy-8s-crazy-8s-antibody-green">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBODY GREEN [x1]:</h4>
@@ -1477,7 +1477,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="antibody-blue">
+<div id="crazy-8s-crazy-8s-antibody-blue">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ANTIBODY BLLUE [x1]:</h4>
@@ -1525,7 +1525,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="architectural-glitch">
+<div id="crazy-8s-crazy-8s-architectural-glitch">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ARCHITECTURAL GLITCH [x1]:</h4>
@@ -1557,7 +1557,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -1583,7 +1583,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="assassin">
+<div id="crazy-8s-crazy-8s-assassin">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ASSASSIN [x3]:</h4>
@@ -1636,7 +1636,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="badge-collector">
+<div id="crazy-8s-crazy-8s-badge-collector">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">BADGE COLLECTOR [x3]:</h4>
@@ -1680,7 +1680,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="black-hole">
+<div id="crazy-8s-crazy-8s-black-hole">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">BLACK HOLE [x2]:</h4>
@@ -1726,7 +1726,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="black-knight">
+<div id="crazy-8s-crazy-8s-black-knight">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">BLACK KNIGHT [x1]:</h4>
@@ -1799,7 +1799,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="bodyguard">
+<div id="crazy-8s-crazy-8s-bodyguard">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">BODYGUARD [x3]:</h4>
@@ -1853,7 +1853,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="call-of-the-soloverse">
+<div id="crazy-8s-call-of-the-soloverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CALL OF THE SOLOVERSE [x1]:</h4>
@@ -1906,7 +1906,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-2">
+<div id="crazy-8s-chaos-draw-2">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +2 [x3]:</h4>
@@ -1959,7 +1959,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-2-reverse">
+<div id="crazy-8s-chaos-draw-2-reverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +2 REVERSE [x3]:</h4>
@@ -2013,7 +2013,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-2-skip">
+<div id="crazy-8s-chaos-draw-2-skip">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +2 SKIP [x3]:</h4>
@@ -2067,7 +2067,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-2-specific-targeted">
+<div id="crazy-8s-chaos-draw-2-specific-targeted">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +2 SPECIFIC TARGETED [x3]:</h4>
@@ -2143,7 +2143,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-3">
+<div id="crazy-8s-chaos-draw-3">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +3 [x3]:</h4>
@@ -2218,7 +2218,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-3-reverse">
+<div id="crazy-8s-chaos-draw-3-reverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +3 REVERSE [x3]:</h4>
@@ -2294,7 +2294,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-3-skip">
+<div id="crazy-8s-chaos-draw-3-skip">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +3 SKIP [x3]:</h4>
@@ -2370,7 +2370,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-3-specific-targeted">
+<div id="crazy-8s-chaos-draw-3-specific-targeted">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +3 SPECIFIC TARGETED [x3]:</h4>
@@ -2446,7 +2446,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-4">
+<div id="crazy-8s-chaos-draw-4">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +4 [x3]:</h4>
@@ -2521,7 +2521,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-4-reverse">
+<div id="crazy-8s-chaos-draw-4-reverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +4 REVERSE [x3]:</h4>
@@ -2597,7 +2597,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-4-skip">
+<div id="crazy-8s-chaos-draw-4-skip">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +4 SKIP [x3]:</h4>
@@ -2673,7 +2673,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-4-specific-targeted">
+<div id="crazy-8s-chaos-draw-4-specific-targeted">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW 4 SPECIFIC TARGETED [x3]:</h4>
@@ -2749,7 +2749,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-5">
+<div id="crazy-8s-chaos-draw-5">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +5 [x3]:</h4>
@@ -2824,7 +2824,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-5-reverse">
+<div id="crazy-8s-chaos-draw-5-reverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +5 REVERSE [x3]:</h4>
@@ -2900,7 +2900,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-5-skip">
+<div id="crazy-8s-chaos-draw-5-skip">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +5 SKIP [x3]:</h4>
@@ -2976,7 +2976,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-5-specific-targeted">
+<div id="crazy-8s-chaos-draw-5-specific-targeted">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +5 SPECIFIC TARGETED [x3]:</h4>
@@ -3052,7 +3052,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-10">
+<div id="crazy-8s-chaos-draw-10">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +10 [x1]:</h4>
@@ -3127,7 +3127,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-10-reverse">
+<div id="crazy-8s-chaos-draw-10-reverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +10 REVERSE [x1]:</h4>
@@ -3203,7 +3203,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-10-skip">
+<div id="crazy-8s-chaos-draw-10-skip">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +10 SKIP [x1]:</h4>
@@ -3279,7 +3279,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="chaos-draw-10-specific-targeted">
+<div id="crazy-8s-chaos-draw-10-specific-targeted">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CHAOS DRAW +10 SPECIFIC TARGETED [x1]:</h4>
@@ -3355,7 +3355,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="clone">
+<div id="crazy-8s-clone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CLONE [x3]:</h4>
@@ -3393,7 +3393,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="coloured-draw-2">
+<div id="crazy-8s-coloured-draw-2">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">COLOURED DRAW +2 [x2 Per Colour]:</h4>
@@ -3429,7 +3429,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="contagion">
+<div id="crazy-8s-contagion">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CONTAGION [x1]:</h4>
@@ -3476,7 +3476,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crisis">
+<div id="crazy-8s-crisis">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CRISIS [x?]:</h4>
@@ -3511,7 +3511,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="cyclone">
+<div id="crazy-8s-cyclone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CYCLONE [x2]:</h4>
@@ -3561,7 +3561,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="cure">
+<div id="crazy-8s-cure">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">CURE [x3]:</h4>
@@ -3597,7 +3597,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="defragmented-reality">
+<div id="crazy-8s-defragmented-reality">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DEFRAGMENTED REALITY [x1]:</h4>
@@ -3635,7 +3635,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -3661,7 +3661,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-acid">
+<div id="crazy-8s-discard-acid">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD ACID [x1]:</h4>
@@ -3702,7 +3702,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-amethyst">
+<div id="crazy-8s-discard-amethyst">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD AMETHYST [x1]:</h4>
@@ -3743,7 +3743,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-colour">
+<div id="crazy-8s-discard-colour">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD COLOUR [x3]:</h4>
@@ -3788,7 +3788,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-chaos-cards">
+<div id="crazy-8s-discard-chaos-cards">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD CHAOS CARDS [x3]:</h4>
@@ -3833,7 +3833,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-diamond">
+<div id="crazy-8s-discard-diamond">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD DIAMOND [x1]:</h4>
@@ -3874,7 +3874,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-emerald">
+<div id="crazy-8s-discard-emerald">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD EMERALD [x1]:</h4>
@@ -3915,7 +3915,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-oak">
+<div id="crazy-8s-discard-oak">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD OAK [x1]:</h4>
@@ -3956,7 +3956,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-poison">
+<div id="crazy-8s-discard-poison">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD POISON [x1]:</h4>
@@ -3997,7 +3997,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-redwood">
+<div id="crazy-8s-discard-redwood">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD REDWOOD [x1]:</h4>
@@ -4038,7 +4038,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-rose">
+<div id="crazy-8s-discard-rose">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD ROSE [x1]:</h4>
@@ -4079,7 +4079,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-plague">
+<div id="crazy-8s-discard-plague">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD PLAGUE [x1]:</h4>
@@ -4120,7 +4120,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-stinger">
+<div id="crazy-8s-discard-stinger">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD STINGER [x1]:</h4>
@@ -4161,7 +4161,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-stone">
+<div id="crazy-8s-discard-stone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD STONE [x1]:</h4>
@@ -4202,7 +4202,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-toxin">
+<div id="crazy-8s-discard-toxin">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD TOXIN [x1]:</h4>
@@ -4243,7 +4243,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="discard-venom">
+<div id="crazy-8s-discard-venom">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DISCARD VENOM [x1]:</h4>
@@ -4284,7 +4284,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="double-edged">
+<div id="crazy-8s-double-edged">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DOUBLE EDGED [x2]:</h4>
@@ -4321,7 +4321,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="double-under">
+<div id="crazy-8s-double-under">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DOUBLE UNDER [x2]:</h4>
@@ -4359,7 +4359,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="duplication-stone">
+<div id="crazy-8s-duplication-stone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">DUPLICATION STONE [x1]:</h4>
@@ -4489,7 +4489,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="elegant-generosity">
+<div id="crazy-8s-elegant-generosity">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ELEGANT GENEROSITY [x3]:</h4>
@@ -4533,7 +4533,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="eliminator">
+<div id="crazy-8s-eliminator">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ELIMINATOR [x2]:</h4>
@@ -4576,7 +4576,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="elixir">
+<div id="crazy-8s-elixir">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ELIXIR [x2]:</h4>
@@ -4618,7 +4618,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="epidemic">
+<div id="crazy-8s-epidemic">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">EPIDEMIC [x1]:</h4>
@@ -4661,7 +4661,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-addition">
+<div id="crazy-8s-field-of-addition">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF ADDITION [x1]:</h4>
@@ -4693,7 +4693,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-deception">
+<div id="crazy-8s-field-of-deception">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF DECEPTION [x1]:</h4>
@@ -4731,7 +4731,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-escalation">
+<div id="crazy-8s-field-of-escalation">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF ESCALATION [x1]:</h4>
@@ -4763,7 +4763,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-normalisation">
+<div id="crazy-8s-field-of-normalisation">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF NORMALISATION [x1]:</h4>
@@ -4787,7 +4787,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-reduction">
+<div id="crazy-8s-field-of-reduction">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF REDUCTION [x1]:</h4>
@@ -4819,7 +4819,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-replication">
+<div id="crazy-8s-field-of-replication">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF REPLICAATION [x1]:</h4>
@@ -4851,7 +4851,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-subtraction">
+<div id="crazy-8s-field-of-subtraction">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF SUBTRACTION [x1]:</h4>
@@ -4883,7 +4883,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-of-succession">
+<div id="crazy-8s-field-of-succession">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD OF SUCCESSION [x1]:</h4>
@@ -4915,7 +4915,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="field-transformation">
+<div id="crazy-8s-field-transformation">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FIELD TRANSFORMATION [x3]:</h4>
@@ -4952,7 +4952,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="foresight">
+<div id="crazy-8s-foresight">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">FORESIGHT [x2]:</h4>
@@ -4988,7 +4988,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="genetic-manipulation">
+<div id="crazy-8s-genetic-manipulation">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">GENETIC MANIPULATION [x2]:</h4>
@@ -5050,7 +5050,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="illumination-stone">
+<div id="crazy-8s-illumination-stone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ILLUMINATION STONE [x1]:</h4>
@@ -5193,7 +5193,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="jacks-knight">
+<div id="crazy-8s-jacks-knight">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">JACK'S KNIGHT [x1]:</h4>
@@ -5257,7 +5257,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="kings-knight">
+<div id="crazy-8s-kings-knight">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">KING'S KNIGHT [x1]:</h4>
@@ -5335,7 +5335,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="mercy">
+<div id="crazy-8s-mercy">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">MERCY [x2]:</h4>
@@ -5365,7 +5365,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="not-me">
+<div id="crazy-8s-not-me">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">NOT ME [x3]:</h4>
@@ -5417,7 +5417,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="nou">
+<div id="crazy-8s-nou">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">NOU [x3]:</h4>
@@ -5476,7 +5476,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="outbreak">
+<div id="crazy-8s-outbreak">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">OUTBREAK [x1]:</h4>
@@ -5524,7 +5524,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="pandemic">
+<div id="crazy-8s-pandemic">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PANDEMIC [x1]:</h4>
@@ -5573,7 +5573,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="paradigm-shift">
+<div id="crazy-8s-paradigm-shift">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PARADIGM SHIFT [x2]:</h4>
@@ -5611,7 +5611,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="pathogen">
+<div id="crazy-8s-pathogen">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PATHOGEN [x1]:</h4>
@@ -5654,7 +5654,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="plague">
+<div id="crazy-8s-plague">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PLAGUE [x2]:</h4>
@@ -5701,7 +5701,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="plague-st">
+<div id="crazy-8s-plague-st">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PLAGUE [SPECIFIC TARGETED] [x1]:</h4>
@@ -5743,7 +5743,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="poison">
+<div id="crazy-8s-poison">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">POISON [x2]:</h4>
@@ -5774,7 +5774,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="poison-rerelease">
+<div id="crazy-8s-poison-rerelease">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">POISON [RERELEASE] [x1]:</h4>
@@ -5816,7 +5816,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="poison-st">
+<div id="crazy-8s-poison-st">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">POISON [SPECIFIC TARGETED] [x1]:</h4>
@@ -5853,7 +5853,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="project-insight">
+<div id="crazy-8s-project-insight">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PROJECT INSIGHT [x2]:</h4>
@@ -5889,7 +5889,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="pure-chaos">
+<div id="crazy-8s-pure-chaos">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PURE CHAOS [x3]:</h4>
@@ -5913,7 +5913,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="pure-chaos-reverse">
+<div id="crazy-8s-pure-chaos-reverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PURE CHAOS REVERSE [x3]:</h4>
@@ -5958,7 +5958,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="pure-chaos-skip">
+<div id="crazy-8s-pure-chaos-skip">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PURE CHAOS SKIP [x3]:</h4>
@@ -5997,7 +5997,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="pure-chaos-shuffle-hands">
+<div id="crazy-8s-pure-chaos-shuffle-hands">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">PURE CHAOS SHUFFLE HANDS [x2]:</h4>
@@ -6037,7 +6037,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="queens-knight">
+<div id="crazy-8s-queens-knight">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">QUEEN'S KNIGHT [x1]:</h4>
@@ -6114,7 +6114,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="recycle">
+<div id="crazy-8s-recycle">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">RECYCLE [x1]:</h4>
@@ -6157,7 +6157,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="repetition-stone">
+<div id="crazy-8s-repetition-stone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">REPETITION STONE [x1]:</h4>
@@ -6288,7 +6288,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="resurrection">
+<div id="crazy-8s-resurrection">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">RESURRECTION [x3]:</h4>
@@ -6326,7 +6326,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="reverse">
+<div id="crazy-8s-reverse">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">REVERSE [x2 per Colour]:</h4>
@@ -6368,7 +6368,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="reverse-stun">
+<div id="crazy-8s-reverse-stun">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">REVERSE STUN [x3]:</h4>
@@ -6442,7 +6442,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="roulette">
+<div id="crazy-8s-roulette">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ROULETTE [x2]:</h4>
@@ -6480,7 +6480,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="royal-knights-call-to-arms">
+<div id="crazy-8s-royal-knights-call-to-arms">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">ROYAL KNIGHTS - CALL TO ARMS [x1]:</h4>
@@ -6526,7 +6526,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="scavenger">
+<div id="crazy-8s-scavenger">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SCAVENGER [x3]:</h4>
@@ -6572,7 +6572,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="skip">
+<div id="crazy-8s-skip">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SKIP [x2 per Colour]:</h4>
@@ -6608,7 +6608,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="slap">
+<div id="crazy-8s-slap">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SLAP [x3]:</h4>
@@ -6658,7 +6658,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="snap">
+<div id="crazy-8s-snap">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SNAP [x3]:</h4>
@@ -6712,7 +6712,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="soloversal-engine-overdrive">
+<div id="crazy-8s-soloversal-engine-overdrive">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SOLOVERSAL ENGINE OVERDRIVE [x1]:</h4>
@@ -6740,7 +6740,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -6766,7 +6766,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="soloversal-singularity">
+<div id="crazy-8s-soloversal-singularity">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SOLOVERSAL SINGULARITY [x1]:</h4>
@@ -6815,7 +6815,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="soloversal-destruction">
+<div id="crazy-8s-soloversal-destruction">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SOLOVERSAL DESTRUCTION [x1]:</h4>
@@ -6867,7 +6867,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="soloverse-1-of-3-sol">
+<div id="crazy-8s-soloverse-1-of-3-sol">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SOLOVERSE 1 OF 3: SOL [x1]:</h4>
@@ -6949,7 +6949,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="soloverse-2-of-3-ove">
+<div id="crazy-8s-soloverse-2-of-3-ove">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SOLOVERSE 2 OF 3: OVE [x1]:</h4>
@@ -7030,7 +7030,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="soloverse-3-of-3-sol">
+<div id="crazy-8s-soloverse-3-of-3-sol">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SOLOVERSE 3 OF 3: RSE [x1]:</h4>
@@ -7116,7 +7116,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="state-of-flux">
+<div id="crazy-8s-state-of-flux">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">STATE OF FLUX [x2]:</h4>
@@ -7159,7 +7159,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="stinger">
+<div id="crazy-8s-stinger">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">STINGER [x1]:</h4>
@@ -7196,7 +7196,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="stinger-st">
+<div id="crazy-8s-stinger-st">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">STINGER SPECIFIC TARGETED [x1]:</h4>
@@ -7238,7 +7238,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="steal-turn">
+<div id="crazy-8s-steal-turn">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">STEAL TURN [x3]:</h4>
@@ -7303,7 +7303,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="stun">
+<div id="crazy-8s-stun">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">STUN [x3]:</h4>
@@ -7371,7 +7371,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="substitution-stone">
+<div id="crazy-8s-substitution-stone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SUBSTITUTION STONE [x1]:</h4>
@@ -7488,7 +7488,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="system-absolute-zero">
+<div id="crazy-8s-system-absolute-zero">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">SYSTEM ABSOLUTE ZERO [x1]:</h4>
@@ -7520,7 +7520,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -7546,7 +7546,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="teleportation-stone">
+<div id="crazy-8s-teleportation-stone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">TELEPORTATION STONE [x1]:</h4>
@@ -7670,7 +7670,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="the-architects-deletion">
+<div id="crazy-8s-the-architects-deletion">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">THE ARCHITECT'S DELETION [x1]:</h4>
@@ -7697,7 +7697,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** Only at the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a> by the Targeted Player.</li>
+<li>This Can only be Countered <strong>*** Only at the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a> by the Targeted Player.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -7723,7 +7723,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="the-architects-mirage">
+<div id="crazy-8s-the-architects-mirage">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">THE ARCHITECT'S MIRAGE [x1]:</h4>
@@ -7755,7 +7755,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -7781,7 +7781,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="the-architects-protocol">
+<div id="crazy-8s-the-architects-protocol">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">THE ARCHITECT'S PROTOCOL [x1]:</h4>
@@ -7810,7 +7810,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -7836,7 +7836,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="the-architects-quarantine">
+<div id="crazy-8s-the-architects-quarantine">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">THE ARCHITECT'S QUARANTINE [x1]:</h4>
@@ -7878,7 +7878,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -7904,7 +7904,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="the-architects-source-code">
+<div id="crazy-8s-the-architects-source-code">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">THE ARCHITECT'S SOURCE CODE [x1]:</h4>
@@ -7954,7 +7954,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -7986,7 +7986,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="the-soloversal-blueprint">
+<div id="crazy-8s-the-soloversal-blueprint">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">THE SOLOVERSAL BLUEPRINT [x1]:</h4>
@@ -8019,7 +8019,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -8040,7 +8040,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="the-soloverse-loophole">
+<div id="crazy-8s-the-soloverse-loophole">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">THE SOLOVERSE LOOPHOLE [x1]:</h4>
@@ -8074,7 +8074,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can be Countered <strong>*** At the Moment of Activation or the Moment of it's Special Victory Condition Activating***</strong> by the Architect Chaos Card: <a href="#unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+<li>This Can be Countered <strong>*** At the Moment of Activation or the Moment of it's Special Victory Condition Activating***</strong> by the Architect Chaos Card: <a href="#crzy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -8100,7 +8100,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="toxin">
+<div id="crazy-8s-toxin">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">TOXIN [x1]:</h4>
@@ -8142,7 +8142,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="toxin-st">
+<div id="crazy-8s-toxin-st">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">TOXIN SPECIFIC TARGETED [x1]:</h4>
@@ -8184,7 +8184,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="united-we-fall">
+<div id="crazy-8s-united-we-fall">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">UNITED WE FALL [x2]:</h4>
@@ -8221,7 +8221,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="unrestriction-stone">
+<div id="crazy-8s-unrestriction-stone">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">UNRESTRICTION STONE [x1]:</h4>
@@ -8358,7 +8358,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="unstable-soloversal-paradox">
+<div id="crazy-8s-unstable-soloversal-paradox">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">UNSTABLE SOLOVERSAL PARADOX [x1]:</h4>
@@ -8424,7 +8424,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="vaccine">
+<div id="crazy-8s-vaccine">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">VACCINE [x2]:</h4>
@@ -8462,7 +8462,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="venom">
+<div id="crazy-8s-venom">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">VENOM [x1]:</h4>
@@ -8504,7 +8504,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="venom-st">
+<div id="crazy-8s-venom-st">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">VENOM SPECIFIC TARGETED [x1]:</h4>
@@ -8546,7 +8546,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="virus">
+<div id="crazy-8s-virus">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">VIRUS [x1]:</h4>
@@ -8589,7 +8589,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="white-hole">
+<div id="crazy-8s-white-hole">
 <div class="rules-box">
 <div class="card-header-block">
 <h4 class="card-title">WHITE HOLE [x2]:</h4>
