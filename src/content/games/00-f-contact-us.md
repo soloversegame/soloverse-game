@@ -1,6 +1,6 @@
 ---
-gameId: "00-important-notes"
-title: "[00] Contact Us"
+gameId: "00-f-contact-us"
+title: "[00-F] 📞 Contact Us"
 type: "rules"
 ---
 

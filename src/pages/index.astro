@@ -8,89 +8,80 @@ const allGameFiles = await getCollection('games');
 // 2. Your master games array (All grouped cleanly into one structure)
 const gamesList = [
   {
-    id: "00-full-game-contents",
-    title: "[00] Soloverse - Full Game Contents",
-    subtitle: null,
-    boxColor: "#b2b2b2",
-    rulesId: "00-full-game-contents",
-    cardsId: null,
-    soloId: null
-  },
-  {
-    id: "00-crazy-8s-tutorial",
-    title: "[01] Soloverse - Crazy 8's [Tutorial]",
+    id: "01-a-crazy-8s-tutorial",
+    title: "[01-A] Soloverse - Crazy 8s [Tutorial]",
     subtitle: "Learn the Basics with a Simplified Deck",
     boxColor: "#0000ff",
-    rulesId: "00-a-crazy-8s-tutorial-rules",
-    cardsId: "00-b-crazy-8s-tutorial-cards",
+    rulesId: "01-a-crazy-8s-tutorial-rules",
+    cardsId: "01-a-crazy-8s-tutorial-cards",
     soloId: null
   },
   {
-    id: "01-crazy-8s",
-    title: "[01] Soloverse - Crazy 8's",
+    id: "01-b-crazy-8s",
+    title: "[01-B] Soloverse - Crazy 8s",
     subtitle: "You Know the Basics, So Add as Much Chaos to the Game as You Want.",
     boxColor: "#8cfffb",
-    rulesId: "01-a-soloverse-crazy-8s-game-rules",
-    cardsId: "01-b-soloverse-crazy-8s-definition-rules",
-    soloId: "01-c-soloverse-crazy-8s-solo-mode-x-bot-player-rulebook"
+    rulesId: "01-b-crazy-8s-rules",
+    cardsId: "01-b-crazy-8s-cards",
+    soloId: "01-d-crazy-8s-solo-mode-rules"
   },
   {
-    id: "02-crazy-8s-utter-chaos",
-    title: "[02] Crazy 8's [Utter Chaos]",
-    subtitle: "No Turn Structure",
+    id: "01-c-crazy-8s-utter-chaos",
+    title: "[01-C] Crazy 8s [Utter Chaos]",
+    subtitle: "Removes the Turn Structure",
     boxColor: "#aded8f",
-    rulesId: "02-a-soloverse-crazy-8s-utter-chaos-game-rulebook",
-    cardsId: "02-b-soloverse-crazy-8s-utter-chaos-definitions-rulebook",
+    rulesId: "01-c-crazy-8s-utter-chaos-rules",
+    cardsId: "01-c-crazy-8s-utter-chaos-cards",
     soloId: null
   },
   {
-    id: "03-karma",
-    title: "[03] Karma",
+    id: "02-karma",
+    title: "[02] Karma",
     subtitle: "A Hand Shedder Where There is Only 1 Loser",
     boxColor: "#0ed145",
-    rulesId: "03-a-soloverse-karma-game-rulebook",
-    cardsId: "03-b-soloverse-karma-definitions-rulebook",
-    soloId: "03-c-soloverse-karma-solo-mode-x-bot-player-rulebook"
+    rulesId: "03-a-karma-rules",
+    cardsId: "03-a-karma-cards",
+    soloId: "03-b-karma-solo-mode-rules"
   },
   {
-    id: "04-cheat",
-    title: "[04] Cheat",
+    id: "03-cheat",
+    title: "[03] Cheat",
     subtitle: "Basically Crazy 8's But You Play Face-Down, Cheating Allowed",
     boxColor: "#fff200",
-    rulesId: "04-a-soloverse-cheat-game-rulebook",
-    cardsId: "04-b-soloverse-cheat-definitions-rulebook",
+    rulesId: "04-a-cheat-rules",
+    cardsId: "04-a-cheat-cards",
     soloId: null
   },
   {
-    id: "05-battle-solitaire",
-    title: "[05] Battle Solitaire",
+    id: "04-battle-solitaire",
+    title: "[04] Battle Solitaire",
     subtitle: "Solitaire, but PvP",
     boxColor: "#ff7f27",
-    rulesId: "05-a-soloverse-battle-solitaire-game-rulebook",
-    cardsId: "05-b-soloverse-battle-solitaire-definitions-rulebook",
-    soloId: "05-c-soloverse-battle-solitaire-solo-mode-x-bot-player-rulebook"
+    rulesId: "05-a-battle-solitaire-rules",
+    cardsId: "05-a-battle-solitaire-cards",
+    soloId: "05-b-battle-solitaire-solo-mode-rules"
   },
   {
-    id: "06-deck-builder",
-    title: "[06] Deck-Builder",
+    id: "05-deck-builder",
+    title: "[05] Deck-Builder",
     subtitle: "Everyone Starts with the Same Deck, and Builds it by Buying Chaos Cards from a Common Trade Area",
     boxColor: "#b97a56",
-    rulesId: "06-a-soloverse-deck-builder-game-rulebook",
-    cardsId: "06-b-soloverse-deck-builder-definitions-rulebook",
+    rulesId: "06-a-deck-builder-rules",
+    cardsId: "06-a-deck-builder-cards",
     soloId: null
   },
   {
-    id: "07-nominations",
-    title: "[07] Nominations",
-    subtitle: "Start at 1 Card, then Deal an Extra Card each Round. Highest Card Wins!",
+    id: "06-nominations",
+    title: "[06] Nominations",
+    subtitle: "Start at 1 Card, then Deal an Extra Card each Round to a Maximum of 10, then back down to 1 Card Dealt. Highest Card Wins!",
     boxColor: "#84471a",
-    rulesId: "07-a-soloverse-nominations-game-rulebook",
-    cardsId: "07-b-soloverse-nominations-definitions-rulebook",
+    rulesId: "07-a-nominations-rules",
+    cardsId: "07-a-nominations-cards",
     soloId: null
   },
   {
     id: "00-a-universal-game-notes",
-    title: "📖 Universal Game Notes",
+    title: "[00-A] 📖 Universal Game Notes",
     boxColor: "#b2b2b2",
     subtitle: null,
     rulesId: "00-a-universal-game-notes",
@@ -98,29 +89,47 @@ const gamesList = [
     soloId: null
   },
   {
-    id: "00-b-variations-rulebook",
-    title: "🃏 Variations Rulebook",
+    id: "00-b-full-game-contents",
+    title: "[00-B] Soloverse - Full Game Contents",
     subtitle: null,
     boxColor: "#b2b2b2",
-    rulesId: "00-b-variations-rulebook",
+    rulesId: "00-b-full-game-contents",
     cardsId: null,
     soloId: null
   },
   {
-    id: "00-c-patch-notes",
-    title: "🕹️ Patch Notes",
+    id: "00-c-recommended-divider-setup",
+    title: "[00-C] Soloverse - Recommended Divider Setup",
     subtitle: null,
     boxColor: "#b2b2b2",
-    rulesId: "00-c-patch-notes",
+    rulesId: "00-c-recommended-divider-setup",
     cardsId: null,
     soloId: null
   },
   {
-    id: "00-soloverse-contact-us",
-    title: "📞 Contact Us & Links",
+    id: "00-D-variations-rulebook",
+    title: "[00-D] 🃏 Variations Rulebook",
     subtitle: null,
     boxColor: "#b2b2b2",
-    rulesId: "00-soloverse-contact-us",
+    rulesId: "00-d-variations-rulebook",
+    cardsId: null,
+    soloId: null
+  },
+  {
+    id: "00-e-patch-notes",
+    title: "[00-E] 🕹️ Patch Notes",
+    subtitle: null,
+    boxColor: "#b2b2b2",
+    rulesId: "00-e-patch-notes",
+    cardsId: null,
+    soloId: null
+  },
+  {
+    id: "00-f-contact-us",
+    title: "[00-F] 📞 Contact Us",
+    subtitle: "& Official Links",
+    boxColor: "#b2b2b2",
+    rulesId: "00-f-contact-us",
     cardsId: null,
     soloId: null
   }

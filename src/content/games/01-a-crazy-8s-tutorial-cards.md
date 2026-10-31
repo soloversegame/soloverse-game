@@ -1,6 +1,6 @@
 ---
-gameId: "00-crazy-8s-tutorial"
-title: "[00-B] Crazy 8s Tutorial Game Rules"
+gameId: "01-a-crazy-8s-tutorial"
+title: "[01-A] Crazy 8s Tutorial Card Definitions"
 type: "cards"
 ---
 

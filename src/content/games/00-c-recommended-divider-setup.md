@@ -1,6 +1,6 @@
 ---
-gameId: "00-recommended-divider-list"
-title: "[00] Recommended Divider Setup"
+gameId: "00-c-recommended-divider-setup"
+title: "[00-C] Recommended Divider Setup"
 type: "rules"
 ---
 

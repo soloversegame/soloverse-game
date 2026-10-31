@@ -1,6 +1,6 @@
 ---
-gameId: "00-important-notes"
-title: "[00] Variation Rules"
+gameId: "00-b-full-game-contents"
+title: "[00-B] Full Game Contents"
 type: "rules"
 ---
 
@@ -10,224 +10,205 @@ type: "rules"
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
-<header id="top">
-<h1>[01-C] SOLOVERSE: CRAZY 8'S [VARIATIONS RULEBOOK]</h1>
+<header class="page-title-header">
+<h1 class="page-title">[00] SOLOVERSE [FULL GAME CONTENTS]</h1>
 <p class="meta-tag">Premium Core Expansion Rulebook Documentation • v3.0.0</p>
 </header>
 
-<!-- RULEBOOK CONTENTS LIST (JUMP MATRIX) -->
-<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
-<ul class="matrix-toc-grid">
-<li class="matrix-item-heading">
-<a href="#addition" class="matrix-link">ADDITION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#subtraction" class="matrix-link">SUBTRACTION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#escalation" class="matrix-link">ESCALATION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#reduction" class="matrix-link">REDUCTION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#succession" class="matrix-link">SUCCESSION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#replication" class="matrix-link">REPLICATION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#deception" class="matrix-link">DECEPTION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#normalisation" class="matrix-link">NORMALISATION</a>
-</li>
-</ul>
-</nav>
-
-<!-- Section 01: ADDITION -->
-<div id="addition">
+<!-- FULL GAME CONTENTS -->
+ <div id="full-game-contents">
 <div class="rules-box">
-<h4>[01: ADDITION]</h4>
-<ol>
-<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
-<li>The Main Changes are as Follows:
-<ol type="a">
-<li>Every Number Card Played must be Higher than the Previous one Played.</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</li>
-</ol>
-<div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
-</div>
-</div>
-</div>
-
-<!-- Section 02: SUBTRACTION -->
-<div id="subtraction">
-<div class="rules-box">
-<h4>[02: SUBTRACTION]</h4>
-<ol>
-<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
-<li>The Main Changes are as Follows:
-<ol type="a">
-<li>Every Number Card Played must be Lower than the Previous one Played.</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</li>
-</ol>
-<div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
-</div>
-</div>
-</div>
-
-<!-- Section 03: ESCALATION -->
-<div id="escalation">
-<div class="rules-box">
-<h4>[03: ESCALATION]</h4>
-<ol>
-<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
-<li>The Main Changes are as Follows:
-<ol type="a">
-<li>Every Number Card Played must be Sequentially Higher than the Previous one Played.</li>
-</ol>
-</li>
-</ol>
-<div class="example-box">
-<strong>EXAMPLE:</strong>
+<h4>FULL GAME CONTENTS</h4>
+<div class="expansion-grid">
+<div class="expansion-row">
+<span class="expansion-name">📦 Core Game</span>
+<span class="expansion-desc">
 <ul>
-<li>0, 1, 2, 3, 4…</li>
-</ul>
-</div>
-<ol start="3">
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-<div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
-</div>
-</div>
-</div>
-
-<!-- Section 04: REDUCTION -->
-<div id="reduction">
-<div class="rules-box">
-<h4>[04: REDUCTION]</h4>
-<ol>
-<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
-<li>The Main Changes are as Follows:
-<ol type="a">
-<li>Every Number Card Played must be Sequentially Lower than the Previous one Played.</li>
-</ol>
-</li>
-</ol>
-<div class="example-box">
-<strong>EXAMPLE:</strong>
+<li>Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Basic Chaos Cards:
 <ul>
-<li>9, 8, 7, 6…</li>
+<li>3 Copies of Anti-Fun [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Chaos Draw +4</li>
+<li>3 Copies of Chaos Draw +4 Reverse</li>
+<li>3 Copies of Chaos Draw +4 Skip</li>
+<li>3 Copies of Clone [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Discard Colour [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Discard Chaos Cards [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Elegant Generousity [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Mercy [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of NOU [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Poison [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Pure Chaos</li>
+<li>3 Copies of Pure Chaos Reverse</li>
+<li>3 Copies of Pure Chaos Skip</li>
+<li>2 Copies of Pure Chaos Shuffle Hands</li>
+<li>3 Copies of Reverse Stun [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Scavenger [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Slap [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Anti-Fun [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Steal Turn [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Stun [Including 1 Copy from the Core Booster]</li>
 </ul>
+</span>
 </div>
-<ol start="3">
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-<div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
-</div>
-</div>
-</div>
-
-<!-- Section 05: SUCCESSION -->
-<div id="succession">
-<div class="rules-box">
-<h4>[05: SUCCESSION]</h4>
-<ol>
-<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
-<li>The Main Changes are as Follows:
-<ol type="a">
-<li>Every Number Card Played must be Sequentially Higher or Lower than the Previous one Played.</li>
-</ol>
-</li>
-</ol>
-<div class="example-box">
-<strong>EXAMPLE:</strong>
+<div class="expansion-row">
+<span class="expansion-name">📦 Core Extension</span>
+<span class="expansion-desc">
 <ul>
-<li>5, 4, 5, 6, 7, 6…</li>
-</ul>
-</div>
-<ol start="3">
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-<div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
-</div>
-</div>
-</div>
-
-<!-- Section 06: REPLICATION -->
-<div id="replication">
-<div class="rules-box">
-<h4>[06: REPLICATION]</h4>
-<ol>
-<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
-<li>The Main Changes are as Follows:
-<ol type="a">
-<li>Multiple Copies of Number Cards can be Played if they are of Equal Value.</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</li>
-</ol>
-<div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
-</div>
-</div>
-</div>
-
-<!-- Section 07: DECEPTION -->
-<div id="deception">
-<div class="rules-box">
-<h4>[07: DECEPTION]</h4>
-<ol>
-<li>Follow all Rules for [02-A] Soloverse [Karma].</li>
-<li>The Main Changes are that on your turn, you place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.</li>
-</ol>
-<div class="note-box">
-<strong>NOTE:</strong>
+<li>Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Basic Chaos Cards:
 <ul>
-<li>You do not have to tell the truth about the number of cards or their value.</li>
+<li>3 Copies of Badge Collector [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Black Hole [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Cyclone [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Double Edged [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Double Under [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Elimimator [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Foresight [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Genetic Manipulation [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of NOT ME [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Paradigm Shift [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Project Insight [Including 1 Copy from the Core Booster]</li>
+<li>1 Copy of Recycle</li>
+<li>2 Copies of Roulette [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Snap [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of State of Flux [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of United We Fall [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Vaccine [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of White Hole [Including 1 Copy from the Core Booster]</li>
 </ul>
 </div>
-<ol start="3">
-<li>Cheating is allowed. But you will be penalised for getting caught.</li>
-<li>Play continues likewise, with the next Player doing the same.</li>
-</ol>
-<div class="note-box">
-<strong>NOTES:</strong>
+<div class="expansion-row">
+<span class="expansion-name">🚀 Core Booster Pack</span>
+<span class="expansion-desc">Extra Copy of Most Core/Extension Chaos Cards [See Above]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">💥 Apocalypse Expansion</span>
+<span class="expansion-desc">
 <ul>
-<li>At any point, any other Player can call “Cheat!” At which point the last Player who put down must reveal their cards.
- <ol type="a">
-<li>If the Player was in fact cheating, They must now pick up the entire Discards.</li>
-<li>If the Player was indeed telling the truth, the Challenging Player must pick up the entire Discards instead!</li>
- </ol>
-</li>
+<li>3 Copies of Chaos Draw +2</li>
+<li>3 Copies of Chaos Draw +2 Reverse</li>
+<li>3 Copies of Chaos Draw +2 Skip</li>
+<li>3 Copies of Chaos Draw +3</li>
+<li>3 Copies of Chaos Draw +3 Reverse</li>
+<li>3 Copies of Chaos Draw +3 Skip</li>
 </ul>
+</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">⚔️ Warzone Expansion</span>
+<span class="expansion-desc">
+<ul>
+<li>3 Copies of Chaos Draw +2 Specific Targeted</li>
+<li>3 Copies of Chaos Draw +3 Specific Targeted</li>
+<li>3 Copies of Chaos Draw +4 Specific Targeted</li>
+</ul>
+</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🌋 Devastation Expansion</span>
+<span class="expansion-desc">
+<ul>
+<li>3 Copies of Chaos Draw +5</li>
+<li>3 Copies of Chaos Draw +5 Reverse</li>
+<li>3 Copies of Chaos Draw +5 Skip</li>
+<li>3 Copies of Chaos Draw +10</li>
+<li>3 Copies of Chaos Draw +10 Reverse</li>
+<li>3 Copies of Chaos Draw +10 Skip</li>
+</ul>
+</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🎯 Catastrophe Expansion</span>
+<span class="expansion-desc">
+<ul>
+<li>3 Copies of Chaos Draw +5 Specific Targeted</li>
+<li>3 Copies of Chaos Draw +10 Specific Targeted</li>
+</ul>
+</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🛡️ Oblivion Expansion</span>
+<span class="expansion-desc">
+<ul>
+<li>1 Copy of Black Knight</li>
+<li>1 Copy of Jack's Knight</li>
+<li>1 Copy of Queen's Knight</li>
+<li>1 Copy of King's Knight</li>
+<li>1 Copy of Call of the Royal Knights</li>
+</ul>
+</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🌀 Singularity Expansion</span>
+<span class="expansion-desc">
+<ul>
+<li>1 Copy of Soloverse 1 of 3: SOL</li>
+<li>1 Copy of Soloverse 2 of 3: OVE</li>
+<li>1 Copy of Soloverse 3 of 3: RSE</li>
+<li>1 Copy of Call of the Soloverse</li>
+</ul>
+</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">⚠️ Crisis Expansion</span>
+<span class="expansion-desc">
+<ul>
+<li>12 Copies of Crisis</li>
+</ul>
+</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">☣️ Contagion Expansion</span>
+<span class="expansion-desc">[Super Poison]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🕊️ Containment Expansion</span>
+<span class="expansion-desc">[Super Mercy]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🔄️ Contingency I Expansion</span>
+<span class="expansion-desc">[Discard Specific Colour]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🎨 Coloured Extensions</span>
+<span class="expansion-desc">[7 x Colour Sets]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🔄 Contingency II Expansion</span>
+<span class="expansion-desc">[Discard New Specific Colours]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">💀 Doomsday Expansion</span>
+<span class="expansion-desc">[Assassination & Regeneration]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">📜 Cataclysm Expansion</span>
+<span class="expansion-desc">[Ancient Stones]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🏟️ Field Deck</span>
+<span class="expansion-desc">[Rule Changes]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">👤 Solo Mode</span>
+<span class="expansion-desc">[Solo Play]</span>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">🏆 Achievement List</span>
+<span class="expansion-desc">[Tutorial]</span>
+</div>
 </div>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
-</div>
-</div>
-</div>
-
-<!-- Section 08: NORMALISATION -->
-<div id="normalisation">
-<div class="rules-box">
-<h4>[08: NORMALISATION]</h4>
-<ol>
-<li>Follow all Rules for the Soloverse Rulebook being Played.</li>
-<li>There are no Changes.</li>
-</ol>
-<div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>

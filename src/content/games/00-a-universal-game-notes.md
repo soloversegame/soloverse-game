@@ -1,6 +1,6 @@
 ---
-gameId: "00-universal-game-notes"
-title: "[00] Universal Game Notes"
+gameId: "00-a-universal-game-notes"
+title: "[00-A] Universal Game Notes"
 type: "rules"
 ---
 

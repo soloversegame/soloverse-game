@@ -1,6 +1,6 @@
 ---
-gameId: "00-important-notes"
-title: "[00] Patch Notes"
+gameId: "00-e-patch-notes"
+title: "[00-E] 🕹️ Patch Notes"
 type: "rules"
 ---
 

@@ -1,273 +1,237 @@
 ---
-gameId: "00-crazy-8s-tutorial"
-title: "[00-A] Crazy 8s Tutorial Game Rules"
+gameId: "00-d-variation-rulebook"
+title: "[00-D] 🃏 Variation Rulebook"
 type: "rules"
 ---
 
-<div class="meta-tag">👥 Ages 7+, 3-6 Players • v1.0.0</div>
+<body id="top">
 
-<!-- INDEX JUMP MATRIX -->
+<nav class="platform-hub-nav" aria-label="Platform Navigation">
+<a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
+</nav>
+
+<header id="top">
+<h1>[00-C] SOLOVERSE: VARIATIONS RULEBOOK FOR HAND SHEDDER GAMES</h1>
+<p class="meta-tag">Premium Core Expansion Rulebook Documentation • v3.0.0</p>
+</header>
+
+<!-- RULEBOOK CONTENTS LIST (JUMP MATRIX) -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
-
-<div id="crazy-8s-tutorial-game-rules-contents"></div>
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
-
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-object" class="matrix-link">OBJECT</a>
+<a href="#addition" class="matrix-link">ADDITION</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-setup" class="matrix-link">SETUP</a>
+<a href="#subtraction" class="matrix-link">SUBTRACTION</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-how-to-play" class="matrix-link">HOW TO PLAY</a>
+<a href="#escalation" class="matrix-link">ESCALATION</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-victory-conditions" class="matrix-link">VICTORY CONDITIONS</a>
+<a href="#reduction" class="matrix-link">REDUCTION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#succession" class="matrix-link">SUCCESSION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#replication" class="matrix-link">REPLICATION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#deception" class="matrix-link">DECEPTION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#normalisation" class="matrix-link">NORMALISATION</a>
 </li>
 </ul>
 </nav>
 
-<!-- OBJECT -->
-<div id="crazy-8s-tutorial-object">
+<!-- Section 01: ADDITION -->
+<div id="addition">
 <div class="rules-box">
-<h4>OBJECT</h4>
-<ul>
-<li>This game follows the Crazy 8’s style of “Card Shedding” play [You might be reminded of other Hand Shedding Card Games].</li>
-<li>Therefore: Be the first Player to get rid of all your Cards.</li>
-</ul>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
-</div>
-</div>
-</div>
-
-<!-- SETUP -->
-<div id="crazy-8s-tutorial-setup">
-<div class="rules-box">
-<h4>SETUP</h4>
+<h4>[01: ADDITION]</h4>
 <ol>
-<li>For this Tutorial Game, please choose and separate any 4 Colours in the Game. Each Colour Set contains 26 Cards, including 2 Copies of each of the following:
-<ol type="i">
-<li>The Numbers 0-9.</li>
-<li>Draw +2.
-<div class="image-container">
-<div class="image-caption">Image 1: Draw +2.</div>
-<img src="/assets/images/cards/000-1-steel-draw-2.png">
-</div>
-</li>
-<li>Reverse.
-<div class="image-container">
-<div class="image-caption">Image 2: Reverse.</div>
-<img src="/assets/images/cards/000-12-poison-reverse.png">
-</div>
-</li>
-<li>Skip.
-<div class="image-container">
-<div class="image-caption">Image 3: Skip.</div>
-<img src="/assets/images/cards/000-9-venom-skip.png">
-</div>
-</li>
-</ol>
-</li>
-<li>Next, separate the Chaos Cards [Black & White] and only include the following ones for the best Tutorial experience:
-<ol type="i">
-<li>3 x Pure Chaos.
-<div class="image-container">
-<div class="image-caption">Image 4: Pure Chaos.</div>
-<img src="/assets/images/cards/00-core-game-pure-chaos.png">
-</div>
-</li>
-<li>3 x Pure Chaos [Reverse].
-<div class="image-container">
-<div class="image-caption">Image 5: Pure Chaos Reverse.</div>
-<img src="/assets/images/cards/00-core-game-pure-chaos-reverse.png">
-</div>
-</li>
-<li>3 x Pure Chaos [Skip].
-<div class="image-container">
-<div class="image-caption">Image 6: Pure Chaos Skip.</div>
-<img src="/assets/images/cards/00-core-game-pure-chaos-skip.png">
-</div>
-</li>
-<li>2 x Pure Chaos [Shuffle Hands].
-<div class="image-container">
-<div class="image-caption">Image 7: Pure Chaos Shuffle Hands.</div>
-<img src="/assets/images/cards/00-core-game-pure-chaos-shuffle-hands.png">
-</div>
-</li>
-<li>3 x Chaos Draw +4.
-<div class="image-container">
-<div class="image-caption">Image 7: Chaos Draw +4.</div>
-<img src="/assets/images/cards/00-core-game-chaos-draw-4.png">
-</div>
-</li>
-<li>3 x Chaos Draw +4 [Reverse].
-<div class="image-container">
-<div class="image-caption">Image 8: Chaos Draw +4 [Reverse].</div>
-<img src="/assets/images/cards/00-core-game-chaos-draw-4-reverse.png">
-</div>
-</li>
-<li>3 x Chaos Draw +4 [Skip].
-<div class="image-container">
-<div class="image-caption">Image 9: Chaos Draw +4 Skip.</div>
-<img src="/assets/images/cards/00-core-game-chaos-draw-4-skip.png">
-</div>
-</li>
-<li>3 x Anti-Fun.
-<div class="image-container">
-<div class="image-caption">Image 10: Anti-Fun.</div>
-<img src="/assets/images/cards/00-core-game-counter-lv1-anti-fun.png">
-</div>
-</li>
-<li>3 x NOU.
-<div class="image-container">
-<div class="image-caption">Image 11: NOU.</div>
-<img src="/assets/images/cards/00-core-game-counter-lv2-nou.png">
-</div>
-</li>
-<li>3 x Clone.
-<div class="image-container">
-<div class="image-caption">Image 12: Clone.</div>
-<img src="/assets/images/cards/00-core-game-clone.png">
-</div>
-</li>
-<li>3 x Discard Colour.
-<div class="image-container">
-<div class="image-caption">Image 13: Discard Colour.</div>
-<img src="/assets/images/cards/00-core-game-discard-colour.png">
-</div>
-</li>
-<li>3 x Discard Chaos Cards.
-<div class="image-container">
-<div class="image-caption">Image 14: Discard Chaos Cards.</div>
-<img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
-</div>
-</li>
-<li>3 x Reverse Stun.
-<div class="image-container">
-<div class="image-caption">Image 15: Reverse Stun.</div>
-<img src="/assets/images/cards/00-core-game-reverse-stun.png">
-</div>
-</li>
-<li>3 x Steal Turn.
-<div class="image-container">
-<div class="image-caption">Image 16: Steal Turn.</div>
-<img src="/assets/images/cards/00-core-game-steal-turn.png">
-</div>
-</li>
-<li>3 x Stun.
-<div class="image-container">
-<div class="image-caption">Image 17: Stun.</div>
-<img src="/assets/images/cards/00-core-game-stun.png">
-</div>
-</li>
-</ol>
-</li>
-<li>Choose who Deals first [alternate the Dealer clockwise after each game].</li>
-<li>Shuffle the Deck, then the Dealer Deals Each Player 1 Card at a time until all have 7 Cards face-down [watch out for the face-up Trap Class Chaos Cards – return them randomly to the Deck before continuing to Deal].</li>
-<li>Place the remainder of the Cards face-down as a Deck.</li>
-<li>Place the <strong>Direction Of Play [Blue/Clockwise Side]</strong> and the <strong>Play To The Side Of The Discards</strong> Setup Cards face-up on either side of the Discards, where everyone can see them [Remember to Flip the <strong>Direction Of Play</strong> Setup Card it every time a Reverse Effect Activates].</li>
-<li>Flip the top Card of the Deck over to begin the Discards:
+<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+<li>The Main Changes are as Follows:
 <ol type="a">
-<li>If any Action Class Cards are turned over at this stage, follow their rules.</li>
-<li>If any Chaos Card is turned over [including if a Trap Class Chaos Card is revealed in doing so], return it randomly to the Deck and Flip another Card.</li>
+<li>Every Number Card Played must be Higher than the Previous one Played.</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
 
-<div class="image-container">
-<div class="image-caption">Image 15: Game Layout.</div>
-<img 
-src="/assets/images/layouts/hand-shedder-setup.png" 
-alt="Soloverse Deck-Builder Game Setup Grid Diagram" 
-loading="lazy"
-/>
-</div>
-
-<!-- HOW TO PLAY -->
-<div id="crazy-8s-tutorial-how-to-play">
+<!-- Section 02: SUBTRACTION -->
+<div id="subtraction">
 <div class="rules-box">
-<h4>HOW TO PLAY</h4>
+<h4>[02: SUBTRACTION]</h4>
 <ol>
-<li>Play starts clockwise from the Dealer.</li>
-<li>On your turn, you must play a minimum of 1 Card from your Hand by matching it to the Card on top of Discards either by Colour or Symbol, or by playing a Chaos Card [if able].</li>
+<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+<li>The Main Changes are as Follows:
+<ol type="a">
+<li>Every Number Card Played must be Lower than the Previous one Played.</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</li>
+</ol>
+<div class="return-link-wrapper">
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+</div>
+</div>
+</div>
+
+<!-- Section 03: ESCALATION -->
+<div id="escalation">
+<div class="rules-box">
+<h4>[03: ESCALATION]</h4>
+<ol>
+<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+<li>The Main Changes are as Follows:
+<ol type="a">
+<li>Every Number Card Played must be Sequentially Higher than the Previous one Played.</li>
+</ol>
+</li>
+</ol>
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>0, 1, 2, 3, 4…</li>
+</ul>
+</div>
+<ol start="3">
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+<div class="return-link-wrapper">
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+</div>
+</div>
+</div>
+
+<!-- Section 04: REDUCTION -->
+<div id="reduction">
+<div class="rules-box">
+<h4>[04: REDUCTION]</h4>
+<ol>
+<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+<li>The Main Changes are as Follows:
+<ol type="a">
+<li>Every Number Card Played must be Sequentially Lower than the Previous one Played.</li>
+</ol>
+</li>
+</ol>
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>9, 8, 7, 6…</li>
+</ul>
+</div>
+<ol start="3">
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+<div class="return-link-wrapper">
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+</div>
+</div>
+</div>
+
+<!-- Section 05: SUCCESSION -->
+<div id="succession">
+<div class="rules-box">
+<h4>[05: SUCCESSION]</h4>
+<ol>
+<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+<li>The Main Changes are as Follows:
+<ol type="a">
+<li>Every Number Card Played must be Sequentially Higher or Lower than the Previous one Played.</li>
+</ol>
+</li>
+</ol>
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>5, 4, 5, 6, 7, 6…</li>
+</ul>
+</div>
+<ol start="3">
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+<div class="return-link-wrapper">
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+</div>
+</div>
+</div>
+
+<!-- Section 06: REPLICATION -->
+<div id="replication">
+<div class="rules-box">
+<h4>[06: REPLICATION]</h4>
+<ol>
+<li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
+<li>The Main Changes are as Follows:
+<ol type="a">
+<li>Multiple Copies of Number Cards can be Played if they are of Equal Value.</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</li>
+</ol>
+<div class="return-link-wrapper">
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+</div>
+</div>
+</div>
+
+<!-- Section 07: DECEPTION -->
+<div id="deception">
+<div class="rules-box">
+<h4>[07: DECEPTION]</h4>
+<ol>
+<li>Follow all Rules for [02-A] Soloverse [Karma].</li>
+<li>The Main Changes are that on your turn, you place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.</li>
+</ol>
 <div class="note-box">
 <strong>NOTE:</strong>
 <ul>
-<li>Chaos Cards can affect how many Cards you can play on your turn.</li>
-</ul></div>
-<li>If you don’t have a playable Card, as outlined above, you must Draw a Card from the Deck.</li>
-<div class="note-box" id="pick-up-put-down">
-<strong>PICK-UP/PUT-DOWN RULE:</strong>
-<ul>
-<li>If the Card you picked up is a playable Coloured Card, feel free to play it now. Otherwise, play moves on to the next person.</li>
+<li>You do not have to tell the truth about the number of cards or their value.</li>
 </ul>
 </div>
-<div class="alert-box">
-<strong>PICK-UP/PUT-DOWN RESTRICTION:</strong>
-<ul>
-<li>Chaos Cards cannot be played via the Pick-Up/Put-Down Rule.</li>
-</ul>
-</div>
-<li>You may also choose not to play a playable Card from your Hand [such as keeping a Chaos Card up your sleeve for later]. If so, you must Draw a Card from the Deck. The Pick-Up/Put-Down Rule applies here as well; however, you may not play any other Card from your Hand after Drawing.</li>
+<ol start="3">
+<li>Cheating is allowed. But you will be penalised for getting caught.</li>
+<li>Play continues likewise, with the next Player doing the same.</li>
 </ol>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>At any point, any other Player can call “Cheat!” At which point the last Player who put down must reveal their cards.
+ <ol type="a">
+<li>If the Player was in fact cheating, They must now pick up the entire Discards.</li>
+<li>If the Player was indeed telling the truth, the Challenging Player must pick up the entire Discards instead!</li>
+ </ol>
+</li>
+</ul>
+</div>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
 
-<!-- VICTORY CONDITIONS -->
-<div id="crazy-8s-tutorial-victory-conditions">
+<!-- Section 08: NORMALISATION -->
+<div id="normalisation">
 <div class="rules-box">
-<h4>VICTORY CONDITIONS</h4>
+<h4>[08: NORMALISATION]</h4>
 <ol>
-<li>While placing your second last card, choose whether to indicate that you have one card left to the group or not by stating “Solo!”
-<ul>
-<li>While it is common courtesy to announce your last Card, I am not forcing a Rule to do so. Therefore, you are encouraged to use the tactic of hiding this information.</li>
-<li>However, if you do not and another Player notices before the next Player Plays or Draws a Card, they can still call you out on it by saying “Solo!”. If they do, you must Draw 2 Cards to yourself.</li>
-</ul>
-</li>
-<li>Possessing no cards at the end of your turn.
-<ul>
-<li>If at the end of your turn you still have no Cards, the game ends and you win!</li>
-</ul>
-</li>
-<li>If the last card played in a round has a Draw or Deal Effect, continue play until someone is forced to Draw cards.
-<ul>
-<li>Someone must Draw from the last Draw or Deal Effect Card. Until that happens, your Win is not guaranteed...</li>
-<li>If you play a Draw or Deal Effect Card as your last Card and a Player/s Respond in Kind, and in doing so, brings the Draw or Deal Effect back to you, with nothing to defend yourself with you must bear the consequences of the Draw or Deal Effect you initiated, cancelling your Win.</li>
-</ul>
-<div class="note-box">
-<strong>NOTE:</strong>
-<ul>
-<li>There is also the possibility of the Drawer obtaining Anti-Fun for example, that can still be used to negate your Win. It is also a possibility that while Drawing with certain Expansions that a Group Targeting Draw Effect Chaos Card could charge everyone, including you, Card/s that would also cancel your win.</li>
-</ul>
-</div>
-</li>
-<li>The game ends Without a Clear Winner.
-<ol type="a">
-<li>The Deck could run out of Drawable Cards.</li>
-<li>In any situation without a clear Winner:
-<ul>
-<li>The Player with the least number of Cards Wins.</li>
-<li>If more than one Player has equal Cards to Win, They Draw.</li>
-</ul>
-</li>
-</ol>
-</li>
+<li>Follow all Rules for the Soloverse Rulebook being Played.</li>
+<li>There are no Changes.</li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
+
 <style>
 /* ==========================================================================
  1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
@@ -462,17 +426,20 @@ border-bottom: 1px dashed var(--text-divider);
 padding-bottom: 8px;
 margin-bottom: 5px;
 }
-h4:global(.card-title) {
+h4.card-title {
 font-size: 1.35rem;
-color: var(--color-card-title);
+color: var(--text-primary);
 margin: 0;
 font-weight: 700;
+letter-spacing: -0.01em;
 }
-
-:global(.card-class-info) {
+.card-class-info {
 font-size: 0.88rem;
-color: var(--color-card-class);
+color: var(--accent-card-title);
 font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.02em;
+margin-top: 2px;
 }
 
 /* Paragraphs and Core List Formats */
@@ -507,8 +474,8 @@ margin: 10px 0 10px 20px;
  ========================================================================== */
 /* Shared Callout Box Core Parameters */
 .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
-.important-box, .restriction-box, .compatibility-box, .special-victory-condition-note-box, 
-.two-player-note-box, .advanced-box {
+.important-box, .alert-box, .compatibility-box, .victory-box, 
+.player-note-box, .advanced-box {
 font-size: 0.92rem;
 padding: 14px 16px;
 border-radius: 8px;
@@ -555,7 +522,7 @@ border-left: 4px solid var(--border-important);
 }
 
 /* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
-.restriction-box {
+.alert-box {
 background: var(--bg-restriction);
 border-left: 4px solid var(--border-restriction);
 }
@@ -567,13 +534,13 @@ border-left: 4px solid var(--border-compatibility);
 }
 
 /* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
-.special-victory-condition-note-box {
+.victory-box {
 background: var(--bg-victory);
 border-left: 4px solid var(--border-victory);
 }
 
 /* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
-.two-player-note-box {
+.player-note-box {
 background: var(--bg-two-player);
 border-left: 4px solid var(--border-two-player);
 }
@@ -637,58 +604,10 @@ flex-direction: column;
 gap: 12px;
 }
 
-/* Sub-grid variant used by the contents matrix on this page only */
-.matrix-toc-sub-grid {
-list-style: none;
-padding: 0;
-margin: 0;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-gap: 12px;
-align-items: start;
-}
-
-/* Matrix items styled as compact cards for denser layout (scoped to sub-grid) */
-.matrix-toc-sub-grid > li {
-background: var(--bg-main-box);
-border: 1px solid var(--text-divider);
-border-radius: 8px;
-box-shadow: none;
-display: flex; /* Switched to flex to easily stretch the child link */
-overflow: hidden; /* Ensures the link hover background matches the card's rounded corners */
-}
-
-/* Scoped link styles so other uses of .matrix-link aren't affected */
-.matrix-toc-sub-grid .matrix-link {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 100%; /* Spans full card width */
-min-height: 100%; /* Spans full card height */
-padding: 10px 12px; /* Padding moved here to make the empty space clickable */
-color: var(--text-primary);
-text-decoration: none;
-font-weight: 700;
-text-align: center;
-box-sizing: border-box; /* Prevents padding from breaking grid widths */
-transition: all 0.12s ease-in-out;
-}
-
-/* Changes text color and underlines text when hovering anywhere on the card */
-.matrix-toc-sub-grid .matrix-link:hover {
-color: var(--color-link);
-text-decoration: underline;
-}
-
-/* Optional: Slight background highlight when hovering anywhere on the box */
-.matrix-toc-sub-grid > li:has(.matrix-link:hover) {
-background: var(--bg-card); /* Changes card background on hover, or use a custom color */
-}
-
-/* Hierarchical modifiers — keep original behavior but compact */
+/* Hierarchical Indentation Modifiers inside the Matrix Grid */
 .matrix-item-heading { padding-left: 0px; font-weight: 700; }
-.matrix-item-subheading { padding-left: 8px; font-weight: 600; font-size: 0.95rem; }
-.matrix-item-card { padding-left: 12px; font-weight: 500; font-style: italic; font-size: 0.9rem; }
+.matrix-item-subheading { padding-left: 15px; font-weight: 600; }
+.matrix-item-card { padding-left: 30px; font-weight: 500; font-style: italic; }
 
 .matrix-link {
 color: var(--text-muted);
