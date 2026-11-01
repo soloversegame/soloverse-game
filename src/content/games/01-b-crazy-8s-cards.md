@@ -13,7 +13,7 @@ type: "cards"
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
-<div id="crazy-8s-crazy-8s-cards-contents"></div>
+<div id="crazy-8s-cards-contents"></div>
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
@@ -89,7 +89,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX A -->
-<div id="crazy-8s-crazy-8s-a"></div>
+<div id="crazy-8s-a"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents A">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: A</h2>
 <ul class="matrix-toc-grid">
@@ -158,7 +158,7 @@ type: "cards"
 </nav>
 
 <!-- SUB-INDEX JUMP MATRIX B -->
-<div id="crazy-8s-crazy-8s-b"></div>
+<div id="crazy-8s-b"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents B">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: B</h2>
 <ul class="matrix-toc-grid">
@@ -759,7 +759,7 @@ type: "cards"
 </div>
 </nav>
 
-<div id="crazy-8s-crazy-8s-acid">
+<div id="crazy-8s-acid">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -803,7 +803,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-acid-st">
+<div id="crazy-8s-acid-st">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -847,7 +847,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-ancient-inversion">
+<div id="crazy-8s-ancient-inversion">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -890,7 +890,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-ancient-war">
+<div id="crazy-8s-ancient-war">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -950,7 +950,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-anti-fun">
+<div id="crazy-8s-anti-fun">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1003,7 +1003,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibiotic-yellow">
+<div id="crazy-8s-antibiotic-yellow">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1048,7 +1048,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibiotic-red">
+<div id="crazy-8s-antibiotic-red">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1093,7 +1093,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibiotic-purple">
+<div id="crazy-8s-antibiotic-purple">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1137,7 +1137,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibiotic-orange">
+<div id="crazy-8s-antibiotic-orange">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1182,7 +1182,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibiotic-green">
+<div id="crazy-8s-antibiotic-green">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1227,7 +1227,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibiotic-blue">
+<div id="crazy-8s-antibiotic-blue">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1279,7 +1279,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibody-yellow">
+<div id="crazy-8s-antibody-yellow">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1323,7 +1323,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibody-red">
+<div id="crazy-8s-antibody-red">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1367,7 +1367,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibody-purple">
+<div id="crazy-8s-antibody-purple">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1411,7 +1411,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibody-orange">
+<div id="crazy-8s-antibody-orange">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1455,7 +1455,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibody-green">
+<div id="crazy-8s-antibody-green">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1499,7 +1499,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-antibody-blue">
+<div id="crazy-8s-antibody-blue">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1549,7 +1549,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-architectural-glitch">
+<div id="crazy-8s-architectural-glitch">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1609,7 +1609,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-assassin">
+<div id="crazy-8s-assassin">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1664,7 +1664,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-badge-collector">
+<div id="crazy-8s-badge-collector">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1710,7 +1710,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-black-hole">
+<div id="crazy-8s-black-hole">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1758,7 +1758,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-black-knight">
+<div id="crazy-8s-black-knight">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
@@ -1833,7 +1833,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-crazy-8s-bodyguard">
+<div id="crazy-8s-bodyguard">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
