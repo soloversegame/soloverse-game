@@ -1,4 +1,3 @@
- 
 ---
 gameId: "01-soloverse-crazy-8s"
 title: "01-B Soloverse Crazy 8s Card Definitions"
@@ -14,6 +13,7 @@ type: "cards"
 </nav>
 
 <div id="crazy-8s-cards-contents"></div>
+<div class="matrix-toc-box">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">

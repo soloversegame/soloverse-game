@@ -1,21 +1,21 @@
 ---
 gameId: "01-soloverse-crazy-8s"
 title: "01-A Soloverse Crazy 8s Game Rules"
-type: "rules"
+type: "cards"
 ---
 
 <div class="meta-tag">👥 Ages 7+, 3-10 Players • v14.0.0</div>
 
-<!-- INDEX JUMP MATRIX -->
+<!-- INDEX JUMP MATRIX A-Z -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
 <nav class="matrix-toc-box" aria-label="Platform Navigation">
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
 <div id="crazy-8s-game-rules-contents"></div>
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
-
-<ul class="matrix-toc-grid">
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
+<ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#crazy-8s-object" class="matrix-link">OBJECT</a>
 </li>
@@ -419,85 +419,120 @@ margin: 10px 0 10px 20px;
 }
 
 /* ==========================================================================
- 6. MULTI-COLORED SEMANTIC CALLOUT ENGINE
- ========================================================================== */
+   UNIFIED FIXED MULTI-COLORED SEMANTIC CALLOUT ENGINE
+   ========================================================================== */
+
 /* Shared Callout Box Core Parameters */
 .tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
 .important-box, .restriction-box, .compatibility-box, .special-victory-condition-note-box, 
 .two-player-note-box, .advanced-box {
-font-size: 0.92rem;
-padding: 14px 16px;
-border-radius: 8px;
-color: var(--text-secondary);
-margin: 0; /* Keeps box alignment snug inside the parent flex gaps */
-font-weight: 500;
+  font-size: 0.92rem !important;
+  padding: 14px 16px !important;
+  border-radius: 8px !important;
+  color: var(--text-secondary) !important;
+  margin: 0 !important; /* Keeps box alignment snug inside parent flex gaps */
+  font-weight: 500 !important;
+  box-sizing: border-box !important;
 }
 
 /* 🟢 1. TIPS CONTAINER (Light Green) */
 .tip-box {
-background: var(--bg-tip);
-border-left: 4px solid var(--border-tip);
+  background-color: var(--bg-tip) !important;
+  border-left: 4px solid var(--border-tip) !important;
+  border-top: 1px solid var(--border-tip) !important;
+  border-right: 1px solid var(--border-tip) !important;
+  border-bottom: 1px solid var(--border-tip) !important;
 }
 
 /* 🟢 2. GENERAL NOTES CONTAINER (Green) */
 .note-box {
-background: var(--bg-note);
-border-left: 4px solid var(--border-note);
+  background-color: var(--bg-note) !important;
+  border-left: 4px solid var(--border-note) !important;
+  border-top: 1px solid var(--border-note) !important;
+  border-right: 1px solid var(--border-note) !important;
+  border-bottom: 1px solid var(--border-note) !important;
 }
 
-/* 🟢 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
+/* 🟡 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
 .example-box {
-background: var(--bg-example);
-border-left: 4px solid var(--border-example);
-font-style: italic;
+  background-color: var(--bg-example) !important;
+  border-left: 4px solid var(--border-example) !important;
+  border-top: 1px solid var(--border-example) !important;
+  border-right: 1px solid var(--border-example) !important;
+  border-bottom: 1px solid var(--border-example) !important;
+  font-style: italic !important;
 }
 
-/* 🟢 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
+/* 🟠 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
 .discards-box {
-background: var(--bg-discards);
-border-left: 4px solid var(--border-discards);
+  background-color: var(--bg-discards) !important;
+  border-left: 4px solid var(--border-discards) !important;
+  border-top: 1px solid var(--border-discards) !important;
+  border-right: 1px solid var(--border-discards) !important;
+  border-bottom: 1px solid var(--border-discards) !important;
 }
 
-/* 🟢 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
+/* 🟤 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
 .challenge-box {
-background: var(--bg-challenge);
-border-left: 4px solid var(--border-challenge);
+  background-color: var(--bg-challenge) !important;
+  border-left: 4px solid var(--border-challenge) !important;
+  border-top: 1px solid var(--border-challenge) !important;
+  border-right: 1px solid var(--border-challenge) !important;
+  border-bottom: 1px solid var(--border-challenge) !important;
 }
 
-/* 🟢 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
+/* 🟤 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
 .important-box {
-background: var(--bg-important);
-border-left: 4px solid var(--border-important);
+  background-color: var(--bg-important) !important;
+  border-left: 4px solid var(--border-important) !important;
+  border-top: 1px solid var(--border-important) !important;
+  border-right: 1px solid var(--border-important) !important;
+  border-bottom: 1px solid var(--border-important) !important;
 }
 
-/* 🟢 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
+/* 🔴 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
 .restriction-box {
-background: var(--bg-restriction);
-border-left: 4px solid var(--border-restriction);
+  background-color: var(--bg-restriction) !important;
+  border-left: 4px solid var(--border-restriction) !important;
+  border-top: 1px solid var(--border-restriction) !important;
+  border-right: 1px solid var(--border-restriction) !important;
+  border-bottom: 1px solid var(--border-restriction) !important;
 }
 
-/* 🟢 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
+/* 💗 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
 .compatibility-box {
-background: var(--bg-compatibility);
-border-left: 4px solid var(--border-compatibility);
+  background-color: var(--bg-compatibility) !important;
+  border-left: 4px solid var(--border-compatibility) !important;
+  border-top: 1px solid var(--border-compatibility) !important;
+  border-right: 1px solid var(--border-compatibility) !important;
+  border-bottom: 1px solid var(--border-compatibility) !important;
 }
 
-/* 🟢 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
+/* 🍇 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
 .special-victory-condition-note-box {
-background: var(--bg-victory);
-border-left: 4px solid var(--border-victory);
+  background-color: var(--bg-victory) !important;
+  border-left: 4px solid var(--border-victory) !important;
+  border-top: 1px solid var(--border-victory) !important;
+  border-right: 1px solid var(--border-victory) !important;
+  border-bottom: 1px solid var(--border-victory) !important;
 }
 
-/* 🟢 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
+/* 🔮 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
 .two-player-note-box {
-background: var(--bg-two-player);
-border-left: 4px solid var(--border-two-player);
+  background-color: var(--bg-two-player) !important;
+  border-left: 4px solid var(--border-two-player) !important;
+  border-top: 1px solid var(--border-two-player) !important;
+  border-right: 1px solid var(--border-two-player) !important;
+  border-bottom: 1px solid var(--border-two-player) !important;
 }
 
-/* 🟢 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
+/* 🪙 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
 .advanced-box {
-background: var(--bg-advanced);
-border-left: 4px solid var(--border-advanced);
+  background-color: var(--bg-advanced) !important;
+  border-left: 4px solid var(--border-advanced) !important;
+  border-top: 1px solid var(--border-advanced) !important;
+  border-right: 1px solid var(--border-advanced) !important;
+  border-bottom: 1px solid var(--border-advanced) !important;
 }
 
 /* ==========================================================================
@@ -707,45 +742,184 @@ margin: 0;
 .image-container.border-stone { border: 3px solid #6b7280; }
 
 /* ==========================================================================
- 10. EXPANSION CONTENT GRID ARCHITECTURE
- ========================================================================== */
+   8. INTEGRATED SIDE-BY-SIDE HEADER SPLIT SYSTEM (FIXED)
+   ========================================================================== */
+.card-top-section {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: stretch !important; /* 🟢 FIXED: Snaps top and bottom boundaries to identical heights */
+  gap: 15px !important;
+  width: 100% !important;
+  margin: 0 0 10px 0 !important; 
+}
+
+/* Gives the inner text block room to flex safely inside rows */
+.card-top-section > .rules-box {
+  flex: 1 !important;
+  margin: 0 !important; /* Strips layout margin bleed pushing it lower */
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important; /* Vertically centers card metadata lists */
+}
+
+/* Image Sleeve Container Framework Override */
+.card-top-section > .image-container {
+  flex: 0 0 auto !important; /* Keeps the frame width stable */
+  margin: 0 !important; /* Strips layout margin bleed pushing it lower */
+  display: flex !important;
+  align-items: center !important; 
+  justify-content: center !important;
+  min-height: 100% !important; 
+  padding: 12px !important;
+}
+
+.card-top-section > .image-container img {
+  max-width: 150px !important; /* Preserves your exact requested design scale width */
+  height: auto !important;
+  display: block !important;
+}
+
+/* ==========================================================================
+   9. POP LINKS (OFFLINE MODAL ENGINE ARCHITECTURE)
+   ========================================================================== */
+.popup-trigger {
+  background: var(--bg-main-box) !important;
+  border: 1px solid var(--text-divider) !important;
+  color: var(--color-link) !important;
+  text-decoration: underline !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  cursor: pointer !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+}
+
+.popup-overlay {
+  display: none; /* Controlled dynamically via offline client JS modules */
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(15, 16, 21, 0.95) !important; /* Enhanced high-opacity scrim overlay */
+  z-index: 9999 !important; 
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.popup-content {
+  background-color: var(--bg-card) !important; /* Match card panel background */
+  color: var(--text-primary) !important;
+  padding: 24px !important;
+  border-radius: 12px !important;
+  border: 2px solid var(--color-card-class, #3b82f6) !important;
+  max-width: 400px !important;
+  width: 90% !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5) !important;
+  text-align: center !important;
+}
+
+.popup-close-btn {
+  margin-top: 20px !important;
+  background-color: var(--bg-main-box) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--text-divider) !important;
+  padding: 10px 20px !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+  transition: all 0.2s ease !important;
+}
+
+.popup-close-btn:hover {
+  background-color: #ef4444 !important; /* Smooth red destructive hover transition */
+  color: #ffffff !important;
+  border-color: #dc2626 !important;
+}
+
+/* ==========================================================================
+   10. EXPANSION CONTENT GRID ARCHITECTURE
+   ========================================================================== */
 .expansion-grid {
-display: flex;
-flex-direction: column;
-gap: 12px;
-width: 100%;
-margin: 15px 0;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  width: 100% !important;
+  margin: 15px 0 !important;
 }
 
 .expansion-row {
-display: flex;
-flex-direction: column; /* Stacks name and description cleanly on mobile screens */
-justify-content: space-between;
-padding: 10px 14px;
-background: var(--bg-main-box);
-border: 1px solid var(--text-divider);
-border-radius: 8px;
-gap: 4px;
+  display: flex !important;
+  flex-direction: column !important; 
+  justify-content: space-between !important;
+  padding: 12px 16px !important;
+  background: var(--bg-main-box) !important;
+  border: 1px solid var(--text-divider) !important;
+  border-radius: 8px !important;
+  gap: 4px !important;
 }
 
 .expansion-name {
-font-weight: 700;
-color: var(--text-primary);
-font-size: 0.95rem;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  font-size: 0.95rem !important;
 }
 
 .expansion-desc {
-font-weight: 500;
-color: var(--text-muted);
-font-size: 0.9rem;
+  font-weight: 500 !important;
+  color: var(--text-muted) !important;
+  font-size: 0.9rem !important;
 }
 
 /* Responsive Side-by-Side Split Modifier for Widescreen Monitors */
 @media screen and (min-width: 600px) {
-.expansion-row {
-flex-direction: row; /* Converts back to a horizontal split line once space allows */
-align-items: center;
-gap: 15px;
+  .expansion-row {
+    flex-direction: row !important; 
+    align-items: center !important;
+    gap: 15px !important;
+  }
 }
+
+/* ==========================================================================
+   PRODUCTION REPAIR: TOP-ALIGNED SPLIT HEADER MODULE ENGINE
+   ========================================================================== */
+
+/* 1. Explicitly level out the side-by-side flex track row */
+.card-top-section {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important; /* Forces physical alignment at the inside top edge */
+  gap: 16px !important;
+  width: 100% !important;
+  margin: 0 0 15px 0 !important;
+}
+
+/* 2. Absolute top-alignment alignment for the text info rules-box */
+.card-top-section > .rules-box {
+  flex: 1 !important;
+  margin: 0 !important; /* Erases the 10px parent flex item push lowering the element */
+  padding: 16px !important; /* Uniform interior breathing space */
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important; /* Sticks metadata strictly to the top boundary */
+}
+
+/* 3. Absolute top-alignment for the hardware asset image-container */
+.card-top-section > .image-container {
+  flex: 0 0 auto !important; /* Protects card asset width boundaries from compression */
+  margin: 0 !important; /* Erases the 10px parent flex item push lowering the element */
+  padding: 12px !important; /* Snug containment padding */
+  display: flex !important;
+  align-items: flex-start !important; /* Pins your card artwork firmly to the ceiling */
+  justify-content: center !important;
+  background: var(--bg-main-box) !important;
+}
+
+/* 4. Erase legacy direct-child element margin distortions inside the header track splits */
+.card-top-section > .rules-box > *:first-child,
+.card-top-section > .image-container > *:first-child {
+  margin-top: 0 !important; /* Erases hidden top paragraph or heading margin offsets */
 }
 </style>

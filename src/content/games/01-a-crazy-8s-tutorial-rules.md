@@ -6,16 +6,16 @@ type: "rules"
 
 <div class="meta-tag">👥 Ages 7+, 3-6 Players • v1.0.0</div>
 
-<!-- INDEX JUMP MATRIX -->
+<!-- INDEX JUMP MATRIX A-Z -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
 <nav class="matrix-toc-box" aria-label="Platform Navigation">
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
 <div id="crazy-8s-tutorial-game-rules-contents"></div>
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
-
-<ul class="matrix-toc-grid">
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
+<ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#crazy-8s-tutorial-object" class="matrix-link">OBJECT</a>
 </li>
