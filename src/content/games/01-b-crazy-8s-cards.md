@@ -762,7 +762,7 @@ type: "cards"
 <div id="crazy-8s-crazy-8s-acid">
 <div class="rules-box">
 <div class="card-top-section">
-<div class="card-header-block">
+<div class="rules-box">
 <h4 class="card-title">ACID [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
@@ -806,7 +806,7 @@ type: "cards"
 <div id="crazy-8s-crazy-8s-acid-st">
 <div class="rules-box">
 <div class="card-top-section">
-<div class="card-header-block">
+<div class="rules-box">
 <h4 class="card-title">ACID [SPECIFIC TARGETED] [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
@@ -850,7 +850,7 @@ type: "cards"
 <div id="crazy-8s-crazy-8s-ancient-inversion">
 <div class="rules-box">
 <div class="card-top-section">
-<div class="card-header-block">
+<div class="rules-box">
 <h4 class="card-title">ANCIENT INVERSION [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
@@ -893,7 +893,7 @@ type: "cards"
 <div id="crazy-8s-crazy-8s-ancient-war">
 <div class="rules-box">
 <div class="card-top-section">
-<div class="card-header-block">
+<div class="rules-box">
 <h4 class="card-title">ANCIENT WAR [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
@@ -953,7 +953,7 @@ type: "cards"
 <div id="crazy-8s-crazy-8s-anti-fun">
 <div class="rules-box">
 <div class="card-top-section">
-<div class="card-header-block">
+<div class="rules-box">
 <h4 class="card-title">ANTI-FUN [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -1005,7 +1005,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibiotic-yellow">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBIOTIC YELLOW [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
@@ -1013,6 +1014,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-1.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1037,9 +1042,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-1.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1048,7 +1050,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibiotic-red">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBIOTIC RED [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
@@ -1056,6 +1059,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-2.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1080,9 +1087,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-2.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1091,13 +1095,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibiotic-purple">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBIOTIC PURPLE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-3.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1122,9 +1131,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-3.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1133,7 +1139,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibiotic-orange">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBIOTIC ORANGE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
@@ -1141,6 +1148,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-4.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1165,9 +1176,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-4.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1176,7 +1184,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibiotic-green">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBIOTIC GREEN [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
@@ -1184,6 +1193,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-5.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1208,9 +1221,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-5.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1219,7 +1229,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibiotic-blue">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBIOTIC BLUE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
@@ -1245,6 +1256,10 @@ type: "cards"
 </li>
 </ol>
 </div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-6.png">
+</div>
+</div>
 <div class="discards-box">
 <ul>
 <li>Then place this Card on top of the Discards.</li>
@@ -1258,9 +1273,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-6.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1269,13 +1281,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibody-yellow">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBODY YELLOW [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-1.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1300,9 +1317,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-1.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1311,13 +1325,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibody-red">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBODY RED [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-2.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1342,9 +1361,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-2.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1353,13 +1369,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibody-purple">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBODY PURPLE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-3.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1384,9 +1405,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-3.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1395,13 +1413,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibody-orange">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBODY ORANGE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-4.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1426,9 +1449,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-4.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1437,13 +1457,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibody-green">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBODY GREEN [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-5.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1468,9 +1493,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-5.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1479,13 +1501,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-antibody-blue">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ANTIBODY BLLUE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-6.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1516,9 +1543,6 @@ type: "cards"
 <li>Draw a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-6.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1527,7 +1551,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-architectural-glitch">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ARCHITECTURAL GLITCH [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
@@ -1535,6 +1560,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
  </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-architectural-glitch.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -1574,9 +1603,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-architectural-glitch.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1585,7 +1611,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-assassin">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ASSASSIN [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
@@ -1593,6 +1620,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Instant Activation</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/15-doomsday-expansion-trap-assassin.png">
+</div>
 </div>
 <div class="rules-box">
 <ol type="1">
@@ -1627,9 +1658,6 @@ type: "cards"
 <li>Shuffle Assassin back into the Deck.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/15-doomsday-expansion-trap-assassin.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1638,13 +1666,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-badge-collector">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">BADGE COLLECTOR [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-badge-collector.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1671,9 +1704,6 @@ type: "cards"
 <li>Choose a Colour to Continue.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-badge-collector.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1682,7 +1712,8 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-black-hole">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">BLACK HOLE [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -1690,6 +1721,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-black-hole.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1717,9 +1752,6 @@ type: "cards"
 <li>Choose a Colour to Continue.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-black-hole.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1728,13 +1760,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-black-knight">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">BLACK KNIGHT [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Oblivion Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Royal Knight Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/06-oblivion-expansion-black-knight.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -1790,9 +1827,6 @@ type: "cards"
 <li>Black Knight Can only Target the other Player every second Turn.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/06-oblivion-expansion-black-knight.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1801,13 +1835,18 @@ type: "cards"
 
 <div id="crazy-8s-crazy-8s-bodyguard">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">BODYGUARD [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Assassin Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/15-doomsday-expansion-counter-lv1-bodyguard.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -1844,9 +1883,6 @@ type: "cards"
 <li>Cannot be played as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/15-doomsday-expansion-counter-lv1-bodyguard.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1855,13 +1891,18 @@ type: "cards"
 
 <div id="crazy-8s-call-of-the-soloverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CALL OF THE SOLOVERSE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Singularity Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/07-singularity-expansion-trap-call-of-the-soloverse.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1897,9 +1938,6 @@ type: "cards"
 <li>Play continues from the last Card on the Discards.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/07-singularity-expansion-trap-call-of-the-soloverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1908,7 +1946,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-2">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +2 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
@@ -1916,6 +1955,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -1950,9 +1993,6 @@ type: "cards"
 <li>Cannot be played as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -1961,7 +2001,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-2-reverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +2 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
@@ -1969,6 +2010,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2-reverse.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2004,9 +2049,6 @@ type: "cards"
 <li>Cannot be played as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2-reverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2015,7 +2057,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-2-skip">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +2 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
@@ -2023,6 +2066,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2-skip.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2058,9 +2105,6 @@ type: "cards"
 <li>Cannot be played as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-2-skip.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2069,7 +2113,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-2-specific-targeted">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +2 SPECIFIC TARGETED [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Warzone Expansion</span></strong></li>
@@ -2077,6 +2122,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/03-warzone-expansion-chaos-draw-2-specific-targeted.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2134,9 +2183,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/03-warzone-expansion-chaos-draw-2-specific-targeted.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2145,7 +2191,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-3">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +3 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
@@ -2153,6 +2200,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2209,9 +2260,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2220,7 +2268,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-3-reverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +3 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
@@ -2228,6 +2277,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3-reverse.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2285,9 +2338,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3-reverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2296,7 +2346,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-3-skip">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +3 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
@@ -2304,6 +2355,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3-skip.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2361,9 +2416,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/02-apocalypse-expansion-chaos-draw-3-skip.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2372,7 +2424,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-3-specific-targeted">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +3 SPECIFIC TARGETED [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Warzone Expansion</span></strong></li>
@@ -2380,6 +2433,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/03-warzone-expansion-chaos-draw-3-specific-targeted.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2437,9 +2494,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/03-warzone-expansion-chaos-draw-3-specific-targeted.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2448,7 +2502,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-4">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +4 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -2456,6 +2511,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-chaos-draw-4.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2512,9 +2571,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-chaos-draw-4.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2523,7 +2579,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-4-reverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +4 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -2531,6 +2588,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-chaos-draw-4-reverse.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2588,9 +2649,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-chaos-draw-4-reverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2599,7 +2657,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-4-skip">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +4 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -2607,6 +2666,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-chaos-draw-4-skip.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2664,9 +2727,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-chaos-draw-4-skip.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2675,7 +2735,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-4-specific-targeted">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW 4 SPECIFIC TARGETED [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Warzone Expansion</span></strong></li>
@@ -2683,6 +2744,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/03-warzone-expansion-chaos-draw-4-specific-targeted.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2740,9 +2805,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/03-warzone-expansion-chaos-draw-4-specific-targeted.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2751,7 +2813,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-5">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +5 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
@@ -2759,6 +2822,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2815,9 +2882,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2826,7 +2890,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-5-reverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +5 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
@@ -2834,6 +2899,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5-reverse.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2891,9 +2960,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5-reverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2902,7 +2968,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-5-skip">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +5 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
@@ -2910,6 +2977,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5-skip.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -2967,9 +3038,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-5-skip.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -2978,7 +3046,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-5-specific-targeted">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +5 SPECIFIC TARGETED [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Catastrophe Expansion</span></strong></li>
@@ -2986,6 +3055,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/05-catastrophe-expansion-chaos-draw-5-specific-targeted.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3043,9 +3116,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/05-catastrophe-expansion-chaos-draw-5-specific-targeted.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3054,7 +3124,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-10">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +10 [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
@@ -3062,6 +3133,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3118,9 +3193,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3129,7 +3201,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-10-reverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +10 REVERSE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
@@ -3137,6 +3210,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10-reverse.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3194,9 +3271,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10-reverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3205,7 +3279,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-10-skip">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +10 SKIP [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
@@ -3213,6 +3288,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10-skip.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3270,9 +3349,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/04-devastation-expansion-chaos-draw-10-skip.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3281,7 +3357,8 @@ type: "cards"
 
 <div id="crazy-8s-chaos-draw-10-specific-targeted">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CHAOS DRAW +10 SPECIFIC TARGETED [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Catastrophe Expansion</span></strong></li>
@@ -3289,6 +3366,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/05-catastrophe-expansion-chaos-draw-10-specific-targeted.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3346,9 +3427,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/05-catastrophe-expansion-chaos-draw-10-specific-targeted.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3357,7 +3435,8 @@ type: "cards"
 
 <div id="crazy-8s-clone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CLONE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -3365,6 +3444,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-clone.png">
+</div>
 </div>
 <div class="rules-box">
 <ol type="1">
@@ -3384,9 +3467,6 @@ type: "cards"
 <li>When copying another Clone Chaos Card, redirect to the first non-Clone Chaos Card on the Discards. Can even copy the Genetic Manipulation and ,Reverse Stun, Stun and Steal Turn Chaos Cards.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-clone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3395,7 +3475,8 @@ type: "cards"
 
 <div id="crazy-8s-coloured-draw-2">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">COLOURED DRAW +2 [x2 Per Colour]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Coloured Extensions</span></strong></li>
@@ -3403,6 +3484,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/000-1-steel-draw-2.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3420,9 +3505,6 @@ type: "cards"
 <li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/000-1-steel-draw-2.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3431,7 +3513,8 @@ type: "cards"
 
 <div id="crazy-8s-contagion">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CONTAGION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Pandemic Expansion</span></strong></li>
@@ -3439,6 +3522,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/11-pandemic-expansion-trap-05-contagion-all.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3467,9 +3554,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/11-pandemic-expansion-trap-05-contagion-all.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3478,13 +3562,18 @@ type: "cards"
 
 <div id="crazy-8s-crisis">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CRISIS [x?]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Crisis Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Crisis & Trap Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/08-crisis-expansion-trap-crisis.png">
+</div>
 </div>
 <div class="rules-box">
 <ol type="1">
@@ -3502,9 +3591,6 @@ type: "cards"
 <li>These Cards do NOT have any Effects except the Special Victory Conditions.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/08-crisis-expansion-trap-crisis.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3513,7 +3599,8 @@ type: "cards"
 
 <div id="crazy-8s-cyclone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CYCLONE [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -3521,6 +3608,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-cyclone.png">
+</div>
 </div>
 <div class="rules-box">
 <ol type="1">
@@ -3552,9 +3643,6 @@ type: "cards"
 <li>Cannot be Your last Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-cyclone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3563,13 +3651,18 @@ type: "cards"
 
 <div id="crazy-8s-cure">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">CURE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-cure.png">
+</div>
 </div>
 <div class="rules-box">
 <ol type="1">
@@ -3588,9 +3681,6 @@ type: "cards"
 <li>Cure is always Shuffled back into the Deck and Cannot be Removed from the Game.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-cure.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3599,7 +3689,8 @@ type: "cards"
 
 <div id="crazy-8s-defragmented-reality">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DEFRAGMENTED REALITY [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
@@ -3607,6 +3698,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-defragmented-reality.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -3652,9 +3747,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-defragmented-reality.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3663,7 +3755,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-acid">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD ACID [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency I Expansion</span></strong></li>
@@ -3671,6 +3764,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-acid.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3693,9 +3790,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-acid.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3704,7 +3798,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-amethyst">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD AMETHYST [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency II Expansion</span></strong></li>
@@ -3712,6 +3807,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-amethyst.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3734,9 +3833,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-amethyst.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3745,7 +3841,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-colour">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD COLOUR [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -3753,6 +3850,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-discard-colour.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3779,9 +3880,6 @@ type: "cards"
 <li>Choose a Colour to continue.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-discard-colour.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3790,7 +3888,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-chaos-cards">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD CHAOS CARDS [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -3798,6 +3897,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3824,9 +3927,6 @@ type: "cards"
 <li>Choose a Colour to continue.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3835,7 +3935,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-diamond">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD DIAMOND [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency II Expansion</span></strong></li>
@@ -3843,6 +3944,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-diamond.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3865,9 +3970,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-diamond.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3876,7 +3978,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-emerald">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD EMERALD [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency II Expansion</span></strong></li>
@@ -3884,6 +3987,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-emerald.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3906,9 +4013,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-emerald.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3917,7 +4021,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-oak">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD OAK [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency II Expansion</span></strong></li>
@@ -3925,6 +4030,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-oak.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3947,9 +4056,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-oak.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3958,7 +4064,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-poison">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD POISON [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency I Expansion</span></strong></li>
@@ -3966,6 +4073,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-poison.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -3988,9 +4099,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-poison.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -3999,7 +4107,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-redwood">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD REDWOOD [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency II Expansion</span></strong></li>
@@ -4007,6 +4116,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-redwood.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4029,9 +4142,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-redwood.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4040,7 +4150,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-rose">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD ROSE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency II Expansion</span></strong></li>
@@ -4048,6 +4159,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-rose.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4070,9 +4185,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-rose.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4081,7 +4193,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-plague">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD PLAGUE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency I Expansion</span></strong></li>
@@ -4089,6 +4202,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-plague.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4111,9 +4228,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-plague.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4122,7 +4236,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-stinger">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD STINGER [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency I Expansion</span></strong></li>
@@ -4130,6 +4245,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-stinger.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4152,9 +4271,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-stinger.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4163,7 +4279,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-stone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD STONE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency II Expansion</span></strong></li>
@@ -4171,6 +4288,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-stone.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4193,9 +4314,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/14-contingency-ii-expansion-trap-discard-stone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4204,7 +4322,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-toxin">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD TOXIN [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency I Expansion</span></strong></li>
@@ -4212,6 +4331,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-toxin.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4234,9 +4357,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-toxin.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4245,7 +4365,8 @@ type: "cards"
 
 <div id="crazy-8s-discard-venom">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DISCARD VENOM [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Contingency I Expansion</span></strong></li>
@@ -4253,6 +4374,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-venom.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4275,9 +4400,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/13-contingency-i-expansion-trap-discard-venom.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4286,13 +4408,18 @@ type: "cards"
 
 <div id="crazy-8s-double-edged">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DOUBLE EDGED [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self & Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-double-edged.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4312,9 +4439,6 @@ type: "cards"
 <li>Cannot be played as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-double-edged.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4323,13 +4447,18 @@ type: "cards"
 
 <div id="crazy-8s-double-under">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DOUBLE UNDER [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-double-under.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4350,9 +4479,6 @@ type: "cards"
 <li>Choose a Colour to continue.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-double-under.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4361,13 +4487,18 @@ type: "cards"
 
 <div id="crazy-8s-duplication-stone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">DUPLICATION STONE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-3-of-6-duplication-stone.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -4480,9 +4611,6 @@ type: "cards"
 <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-3-of-6-duplication-stone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4491,13 +4619,18 @@ type: "cards"
 
 <div id="crazy-8s-elegant-generosity">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ELEGANT GENEROSITY [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-double-edged.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4524,9 +4657,6 @@ type: "cards"
 <li>Choose a Colour to continue.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-double-edged.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4535,7 +4665,8 @@ type: "cards"
 
 <div id="crazy-8s-eliminator">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ELIMINATOR [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -4544,6 +4675,9 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-trap-eliminator.png">
 </div>
 <div class="discards-box">
 <ul>
@@ -4567,9 +4701,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-trap-eliminator.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4578,7 +4709,8 @@ type: "cards"
 
 <div id="crazy-8s-elixir">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ELIXIR [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
@@ -4586,6 +4718,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-elixir.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4609,9 +4745,6 @@ type: "cards"
 <li>Play continues from the last Card Discarded by User.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-elixir.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4620,7 +4753,8 @@ type: "cards"
 
 <div id="crazy-8s-epidemic">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">EPIDEMIC [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Pandemic Expansion</span></strong></li>
@@ -4629,6 +4763,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/11-pandemic-expansion-trap-04-epidemic-all.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4652,9 +4790,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/11-pandemic-expansion-trap-04-epidemic-all.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4663,13 +4798,18 @@ type: "cards"
 
 <div id="crazy-8s-field-of-addition">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF ADDITION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-1-field-of-addition.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4684,9 +4824,6 @@ type: "cards"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-1-field-of-addition.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4695,13 +4832,18 @@ type: "cards"
 
 <div id="crazy-8s-field-of-deception">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF DECEPTION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-7-field-of-deception.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4722,9 +4864,6 @@ type: "cards"
 </li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-7-field-of-deception.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4733,13 +4872,18 @@ type: "cards"
 
 <div id="crazy-8s-field-of-escalation">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF ESCALATION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-3-field-of-escalation.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4754,9 +4898,6 @@ type: "cards"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-3-field-of-escalation.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4765,7 +4906,8 @@ type: "cards"
 
 <div id="crazy-8s-field-of-normalisation">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF NORMALISATION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
@@ -4773,13 +4915,14 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
 </div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-8-field-of-normalisation.png">
+</div>
+</div>
 <div class="rules-box">
 <ol>
 <li>Follow all Rules for [01-A] Soloverse [Crazy 8’s].</li>
 </ol>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-8-field-of-normalisation.png">
 </div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -4789,16 +4932,21 @@ type: "cards"
 
 <div id="crazy-8s-field-of-reduction">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF REDUCTION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
-1</div>
- <div class="rules-box">
- <ol>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-4-field-of-reduction.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
 <li>Every Number Card Played Must be Sequentially Lower than the Previous one Played.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
@@ -4810,9 +4958,6 @@ type: "cards"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-4-field-of-reduction.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4821,13 +4966,18 @@ type: "cards"
 
 <div id="crazy-8s-field-of-replication">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF REPLICAATION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-6-field-of-replication.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4842,9 +4992,6 @@ type: "cards"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-6-field-of-replication.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4853,13 +5000,18 @@ type: "cards"
 
 <div id="crazy-8s-field-of-subtraction">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF SUBTRACTION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-2-field-of-subtraction.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4874,9 +5026,6 @@ type: "cards"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-2-field-of-subtraction.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4885,13 +5034,18 @@ type: "cards"
 
 <div id="crazy-8s-field-of-succession">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD OF SUCCESSION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-5-field-of-succession.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4906,9 +5060,6 @@ type: "cards"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-5-field-of-succession.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4917,13 +5068,18 @@ type: "cards"
 
 <div id="crazy-8s-field-transformation">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FIELD TRANSFORMATION [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-9-field-of-trap-field-transformation.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -4943,9 +5099,6 @@ type: "cards"
 <li>Continue to Draw if required.</li>
 </ol>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-9-field-of-trap-field-transformation.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4954,7 +5107,8 @@ type: "cards"
 
 <div id="crazy-8s-foresight">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">FORESIGHT [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -4962,6 +5116,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-trap-foresight.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -4979,9 +5137,6 @@ type: "cards"
 <li>Shuffle Foresight & the revealed top Card [Face-Down] back into the Deck.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-trap-foresight.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -4990,7 +5145,8 @@ type: "cards"
 
 <div id="crazy-8s-genetic-manipulation">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">GENETIC MANIPULATION [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -4998,6 +5154,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-genetic-manipulation.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5041,9 +5201,6 @@ type: "cards"
 <li>Cannot be used as a Pure Chaos Card [unless by it's own Effect].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-genetic-manipulation.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5052,13 +5209,18 @@ type: "cards"
 
 <div id="crazy-8s-illumination-stone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ILLUMINATION STONE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Ancient Stone Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-5-of-6-illumination-stone.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -5184,9 +5346,6 @@ type: "cards"
 <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-5-of-6-illumination-stone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5195,13 +5354,18 @@ type: "cards"
 
 <div id="crazy-8s-jacks-knight">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">JACK'S KNIGHT [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Oblivion Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Royal Knight Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/06-oblivion-expansion-jacks-knight.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -5248,9 +5412,6 @@ type: "cards"
 <li>You Cannot Go Out with this Card Effect.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/06-oblivion-expansion-jacks-knight.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5259,12 +5420,17 @@ type: "cards"
 
 <div id="crazy-8s-kings-knight">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">KING'S KNIGHT [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Oblivion Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Royal Knight Class & Counter Class Lv4</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/06-oblivion-expansion-counter-lv4-kings-knight.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -5326,9 +5492,6 @@ type: "cards"
 <li>You Cannot Go Out with this Card Effect.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/06-oblivion-expansion-counter-lv4-kings-knight.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5337,7 +5500,8 @@ type: "cards"
 
 <div id="crazy-8s-mercy">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">MERCY [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -5345,6 +5509,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Instant Activation</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-trap-mercy.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5356,9 +5524,6 @@ type: "cards"
 <li>Shuffle Mercy back into the Deck.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-trap-mercy.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5367,12 +5532,17 @@ type: "cards"
 
 <div id="crazy-8s-not-me">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">NOT ME [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Counter Class LV:3</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-counter-lv3-not-me.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5408,9 +5578,6 @@ type: "cards"
 <li>NOT compatible with Action Class Cards [such as Draw +2s].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-counter-lv3-not-me.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5419,12 +5586,17 @@ type: "cards"
 
 <div id="crazy-8s-nou">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">NOU [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Counter Class LV:2</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-counter-lv2-nou.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5467,9 +5639,6 @@ type: "cards"
 <li>NOT compatible with Action Class Cards [such as Draw +2s].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-counter-lv2-nou.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5478,7 +5647,8 @@ type: "cards"
 
 <div id="crazy-8s-outbreak">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">OUTBREAK [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Pandemic Expansion</span></strong></li>
@@ -5486,6 +5656,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/11-pandemic-expansion-trap-03-outbreak-all.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -5515,9 +5689,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/11-pandemic-expansion-trap-03-outbreak-all.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5526,7 +5697,8 @@ type: "cards"
 
 <div id="crazy-8s-pandemic">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PANDEMIC [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Pandemic Expansion</span></strong></li>
@@ -5534,6 +5706,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/11-pandemic-expansion-trap-06-pandemic-all.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -5564,9 +5740,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/11-pandemic-expansion-trap-06-pandemic-all.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5575,7 +5748,8 @@ type: "cards"
 
 <div id="crazy-8s-paradigm-shift">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PARADIGM SHIFT [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -5583,6 +5757,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes First, Then Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-paradigm-shift.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5602,9 +5780,6 @@ type: "cards"
 <li>Cannot be Your last Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-paradigm-shift.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5613,7 +5788,8 @@ type: "cards"
 
 <div id="crazy-8s-pathogen">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PATHOGEN [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Pandemic Expansion</span></strong></li>
@@ -5622,6 +5798,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/11-pandemic-expansion-trap-02-pathogen-all.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -5645,9 +5825,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/11-pandemic-expansion-trap-02-pathogen-all.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5656,7 +5833,8 @@ type: "cards"
 
 <div id="crazy-8s-plague">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PLAGUE [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
@@ -5664,6 +5842,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/09-bio-hazard-expansion-trap-06-plague.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -5692,9 +5874,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/09-bio-hazard-expansion-trap-06-plague.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5703,7 +5882,8 @@ type: "cards"
 
 <div id="crazy-8s-plague-st">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PLAGUE [SPECIFIC TARGETED] [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
@@ -5711,6 +5891,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/10-patient-zero-expansion-trap-06-plague-st.png">
+</div>
 </div>
 <div class="rules-box">
 <ol type="1">
@@ -5734,9 +5918,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/10-patient-zero-expansion-trap-06-plague-st.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5745,7 +5926,8 @@ type: "cards"
 
 <div id="crazy-8s-poison">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">POISON [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -5753,6 +5935,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-trap-poison.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5765,9 +5951,6 @@ type: "cards"
 <li>Shuffle Poison back into the Deck.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-trap-poison.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5776,7 +5959,8 @@ type: "cards"
 
 <div id="crazy-8s-poison-rerelease">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">POISON [RERELEASE] [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
@@ -5784,6 +5968,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/09-bio-hazard-expansion-trap-03-poison.png">
+</div>
 </div>
 <div class="advanced-box">
 <ul>
@@ -5807,9 +5995,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/09-bio-hazard-expansion-trap-03-poison.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5818,7 +6003,8 @@ type: "cards"
 
 <div id="crazy-8s-poison-st">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">POISON [SPECIFIC TARGETED] [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
@@ -5826,6 +6012,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/10-patient-zero-expansion-trap-03-poison-st.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5844,9 +6034,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/10-patient-zero-expansion-trap-03-poison-st.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5855,13 +6042,18 @@ type: "cards"
 
 <div id="crazy-8s-project-insight">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PROJECT INSIGHT [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-project-insight.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -5880,9 +6072,6 @@ type: "cards"
 <li>Cannot be Countered.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-project-insight.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5891,7 +6080,8 @@ type: "cards"
 
 <div id="crazy-8s-pure-chaos">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PURE CHAOS [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -5899,13 +6089,14 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
 </div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-pure-chaos.png">
+</div>
+</div>
 <div class="rules-box">
 <ol>
 <li>When played You get to choose the Colour that continues play [That's it I'm afraid].</li>
 </ol>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-pure-chaos.png">
 </div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -5915,13 +6106,18 @@ type: "cards"
 
 <div id="crazy-8s-pure-chaos-reverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PURE CHAOS REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-pure-chaos-reverse.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -5949,9 +6145,6 @@ type: "cards"
 <li>The Reverse’s Effect no longer works; however, You Can still match its Symbol.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-pure-chaos-reverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5960,13 +6153,18 @@ type: "cards"
 
 <div id="crazy-8s-pure-chaos-skip">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PURE CHAOS SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-pure-chaos-skip.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -5988,9 +6186,6 @@ type: "cards"
 <li>Must use Skip Effect.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-pure-chaos-skip.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -5999,13 +6194,18 @@ type: "cards"
 
 <div id="crazy-8s-pure-chaos-shuffle-hands">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">PURE CHAOS SHUFFLE HANDS [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-pure-chaos-shuffle-hands.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -6028,9 +6228,6 @@ type: "cards"
 <li>Must use Shuffle Hands Effect.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-pure-chaos-shuffle-hands.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6039,13 +6236,18 @@ type: "cards"
 
 <div id="crazy-8s-queens-knight">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">QUEEN'S KNIGHT [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Oblivion Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Royal Knight Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/06-oblivion-expansion-queens-knight.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -6105,9 +6307,6 @@ type: "cards"
 <li>You Cannot Go Out with this Card Effect.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/06-oblivion-expansion-queens-knight.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6116,13 +6315,18 @@ type: "cards"
 
 <div id="crazy-8s-recycle">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">RECYCLE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-setup-recycle.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -6148,9 +6352,6 @@ type: "cards"
 <li>Cannot be Countered.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-setup-recycle.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6159,13 +6360,18 @@ type: "cards"
 
 <div id="crazy-8s-repetition-stone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">REPETITION STONE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next & Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-1of-6-repetition-stone.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -6279,9 +6485,6 @@ type: "cards"
 <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-1of-6-repetition-stone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6290,7 +6493,8 @@ type: "cards"
 
 <div id="crazy-8s-resurrection">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">RESURRECTION [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
@@ -6298,6 +6502,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Instant Activation</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/15-doomsday-expansion-trap-resurrection.png">
+</div>
 </div>
 <div class="rules-box">
 <ol type="a">
@@ -6317,9 +6525,6 @@ type: "cards"
 <li>Cannot be Countered.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/15-doomsday-expansion-trap-resurrection.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6328,13 +6533,18 @@ type: "cards"
 
 <div id="crazy-8s-reverse">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">REVERSE [x2 per Colour]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Colour Extensions</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/000-12-poison-reverse.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -6359,9 +6569,6 @@ type: "cards"
 <li>Cannot be Countered.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/000-12-poison-reverse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6370,13 +6577,18 @@ type: "cards"
 
 <div id="crazy-8s-reverse-stun">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">REVERSE STUN [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific & Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-reverse-stun.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -6433,9 +6645,6 @@ type: "cards"
 <li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-reverse-stun.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6444,13 +6653,18 @@ type: "cards"
 
 <div id="crazy-8s-roulette">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ROULETTE [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-roulette.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -6471,9 +6685,6 @@ type: "cards"
 <li>Cannot be Your last Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-roulette.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6482,13 +6693,18 @@ type: "cards"
 
 <div id="crazy-8s-royal-knights-call-to-arms">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">ROYAL KNIGHTS - CALL TO ARMS [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Oblivion Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/06-oblivion-expansion-trap-royal-knights-call-to-arms.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -6517,9 +6733,6 @@ type: "cards"
 <li>Shuffle Royal Knights – Call To Arms back into the Deck.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/06-oblivion-expansion-trap-royal-knights-call-to-arms.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6528,13 +6741,18 @@ type: "cards"
 
 <div id="crazy-8s-scavenger">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SCAVENGER [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-scavenger.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -6563,9 +6781,6 @@ type: "cards"
 <li>Cannot be used as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-scavenger.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6574,13 +6789,18 @@ type: "cards"
 
 <div id="crazy-8s-skip">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SKIP [x2 per Colour]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Colour Extensions</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/000-4-toxin-skip.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -6599,9 +6819,6 @@ type: "cards"
 <li>Cannot be Countered.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/000-4-toxin-skip.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6610,7 +6827,8 @@ type: "cards"
 
 <div id="crazy-8s-slap">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SLAP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -6618,6 +6836,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes First</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-slap.png">
+</div>
 </div>
 <div class="advanced-box">
 <ul>
@@ -6649,9 +6871,6 @@ type: "cards"
 <li>Cannot be used as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-slap.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6660,7 +6879,8 @@ type: "cards"
 
 <div id="crazy-8s-snap">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SNAP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
@@ -6668,6 +6888,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes First</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-snap.png">
+</div>
 </div>
 <div class="advanced-box">
 <ul>
@@ -6703,9 +6927,6 @@ type: "cards"
 <li>Cannot be used as a Pure Chaos Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-snap.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6714,13 +6935,18 @@ type: "cards"
 
 <div id="crazy-8s-soloversal-engine-overdrive">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">SOLOVERSAL ENGINE OVERDRIVE [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SOLOVERSAL ENGINE OVERDRIVE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-soloversal-engine-overdrive.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -6757,9 +6983,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-soloversal-engine-overdrive.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6768,13 +6991,18 @@ type: "cards"
 
 <div id="crazy-8s-soloversal-singularity">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">SOLOVERSAL SINGULARITY [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SOLOVERSAL SINGULARITY [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-soloversal-singularity.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -6806,9 +7034,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-soloversal-singularity.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6817,14 +7042,19 @@ type: "cards"
 
 <div id="crazy-8s-soloversal-destruction">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">SOLOVERSAL DESTRUCTION [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SOLOVERSAL DESTRUCTION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Instant Activation</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/15-doomsday-expansion-trap-soloversal Destruction.png">
+</div>
 </div>
 <div class="rules-box">
 <ul>
@@ -6858,9 +7088,6 @@ type: "cards"
 <li>If You Countered it, Shuffle Reality Bomb back into the Deck.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/15-doomsday-expansion-trap-soloversal Destruction.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6869,13 +7096,18 @@ type: "cards"
 
 <div id="crazy-8s-soloverse-1-of-3-sol">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SOLOVERSE 1 OF 3: SOL [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Singularity Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unification Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self & Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/07-singularity-expansion-soloverse-1-of-3-sol.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -6940,9 +7172,6 @@ type: "cards"
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/07-singularity-expansion-soloverse-1-of-3-sol.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -6951,13 +7180,18 @@ type: "cards"
 
 <div id="crazy-8s-soloverse-2-of-3-ove">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SOLOVERSE 2 OF 3: OVE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Singularity Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unification Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self & Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/07-singularity-expansion-soloverse-2-of-3-ove.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7021,9 +7255,6 @@ type: "cards"
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/07-singularity-expansion-soloverse-2-of-3-ove.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7032,13 +7263,18 @@ type: "cards"
 
 <div id="crazy-8s-soloverse-3-of-3-sol">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SOLOVERSE 3 OF 3: RSE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Singularity Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unification Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self & Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/07-singularity-expansion-soloverse-3-of-3-rse.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7107,9 +7343,6 @@ type: "cards"
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/07-singularity-expansion-soloverse-3-of-3-rse.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7118,13 +7351,18 @@ type: "cards"
 
 <div id="crazy-8s-state-of-flux">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">STATE OF FLUX [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-state-of-flux.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -7150,9 +7388,6 @@ type: "cards"
 <li>Cannot be Your last Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-state-of-flux.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7161,7 +7396,8 @@ type: "cards"
 
 <div id="crazy-8s-stinger">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">STINGER [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Extension</span></strong></li>
@@ -7169,6 +7405,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/09-bio-hazard-expansion-trap-01-satinger.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -7187,9 +7427,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/09-bio-hazard-expansion-trap-01-satinger.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7198,7 +7435,8 @@ type: "cards"
 
 <div id="crazy-8s-stinger-st">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">STINGER SPECIFIC TARGETED [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
@@ -7206,6 +7444,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/10-patient-zero-expansion-trap-01-stinger-st.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -7229,9 +7471,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/10-patient-zero-expansion-trap-01-stinger-st.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7240,13 +7479,18 @@ type: "cards"
 
 <div id="crazy-8s-steal-turn">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">STEAL TURN [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-steal-turn.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -7294,9 +7538,6 @@ type: "cards"
 </li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-steal-turn.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7305,13 +7546,18 @@ type: "cards"
 
 <div id="crazy-8s-stun">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">STUN [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-stun.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -7362,9 +7608,6 @@ type: "cards"
 <li>Once Resolved, and a Colour is Chosen, the Next Player May Play any Coloured Skip Card.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-stun.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7373,13 +7616,18 @@ type: "cards"
 
 <div id="crazy-8s-substitution-stone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">SUBSTITUTION STONE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Catacysm Extension</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-2-of-6-substitution-stone.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7479,9 +7727,6 @@ type: "cards"
 <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-2-of-6-substitution-stone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7490,14 +7735,19 @@ type: "cards"
 
 <div id="crazy-8s-system-absolute-zero">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">SYSTEM ABSOLUTE ZERO [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SYSTEM ABSOLUTE ZERO [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-system-absolute-zero.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7537,9 +7787,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-system-absolute-zero.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7548,13 +7795,18 @@ type: "cards"
 
 <div id="crazy-8s-teleportation-stone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">TELEPORTATION STONE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Self & Specific Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-4-of-6-teleportation-stone.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7661,9 +7913,6 @@ type: "cards"
 <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-4-of-6-teleportation-stone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7672,13 +7921,18 @@ type: "cards"
 
 <div id="crazy-8s-the-architects-deletion">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">THE ARCHITECT'S DELETION [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S DELETION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-deletion.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7714,9 +7968,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-deletion.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7725,14 +7976,19 @@ type: "cards"
 
 <div id="crazy-8s-the-architects-mirage">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">THE ARCHITECT'S MIRAGE [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S MIRAGE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-mirage.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7772,9 +8028,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-mirage.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7783,14 +8036,19 @@ type: "cards"
 
 <div id="crazy-8s-the-architects-protocol">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">THE ARCHITECT'S PROTOCOL [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S PROTOCOL [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-protocol.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7827,9 +8085,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-protocol.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7838,14 +8093,19 @@ type: "cards"
 
 <div id="crazy-8s-the-architects-quarantine">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">THE ARCHITECT'S QUARANTINE [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S QUARANTINE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-quarantine.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7895,9 +8155,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-quarantine.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7906,14 +8163,19 @@ type: "cards"
 
 <div id="crazy-8s-the-architects-source-code">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">THE ARCHITECT'S SOURCE CODE [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S SOURCE CODE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-source-code.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -7977,9 +8239,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-source-code.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -7988,14 +8247,19 @@ type: "cards"
 
 <div id="crazy-8s-the-soloversal-blueprint">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">THE SOLOVERSAL BLUEPRINT [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE SOLOVERSAL BLUEPRINT [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-soloversal-blueprint.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -8031,9 +8295,6 @@ type: "cards"
 <li>You Cannot Go Out with this Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-soloversal-blueprint.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8042,13 +8303,18 @@ type: "cards"
 
 <div id="crazy-8s-the-soloverse-loophole">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">THE SOLOVERSE LOOPHOLE [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE SOLOVERSE LOOPHOLE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-soloverse-loophole.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -8091,9 +8357,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-soloverse-loophole.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8102,7 +8365,8 @@ type: "cards"
 
 <div id="crazy-8s-toxin">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">TOXIN [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
@@ -8110,6 +8374,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/09-bio-hazard-expansion-trap-05-toxin.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -8133,9 +8401,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/09-bio-hazard-expansion-trap-05-toxin.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8144,7 +8409,8 @@ type: "cards"
 
 <div id="crazy-8s-toxin-st">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">TOXIN SPECIFIC TARGETED [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
@@ -8152,6 +8418,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/10-patient-zero-expansion-trap-05-toxin-st.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -8175,9 +8445,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/10-patient-zero-expansion-trap-05-toxin-st.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8186,7 +8453,8 @@ type: "cards"
 
 <div id="crazy-8s-united-we-fall">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">UNITED WE FALL [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -8194,6 +8462,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-united-we-fall.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -8212,9 +8484,6 @@ type: "cards"
 <li>Cannot be Countered.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-united-we-fall.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8223,13 +8492,18 @@ type: "cards"
 
 <div id="crazy-8s-unrestriction-stone">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">UNRESTRICTION STONE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Ancient Stone Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Restriction Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-6-of-6-unrestriction-stone.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -8349,9 +8623,6 @@ type: "cards"
 <li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-6-of-6-unrestriction-stone.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8360,13 +8631,18 @@ type: "cards"
 
 <div id="crazy-8s-unstable-soloversal-paradox">
 <div class="rules-box">
-<div class="card-header-block">
-<h4 class="card-title">UNSTABLE SOLOVERSAL PARADOX [x1]:</h4>
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: UNSTABLE SOLOVERSAL PARADOX [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class & Counter Class LV:5</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-unstable-soloversal-paradox.png">
+</div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
@@ -8415,9 +8691,6 @@ type: "cards"
 <li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/19-unstable-soloversal-paradox.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8426,7 +8699,8 @@ type: "cards"
 
 <div id="crazy-8s-vaccine">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">VACCINE [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -8434,6 +8708,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-vaccine.png">
+</div>
 </div>
 <div class="rules-box">
 <ol>
@@ -8453,9 +8731,6 @@ type: "cards"
 <li>Cannot be Countered.</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-vaccine.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8464,7 +8739,8 @@ type: "cards"
 
 <div id="crazy-8s-venom">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">VENOM [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
@@ -8472,6 +8748,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/09-bio-hazard-expansion-trap-02-venom.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -8495,9 +8775,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/09-bio-hazard-expansion-trap-02-venom.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8506,7 +8783,8 @@ type: "cards"
 
 <div id="crazy-8s-venom-st">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">VENOM SPECIFIC TARGETED [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
@@ -8514,6 +8792,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/10-patient-zero-expansion-trap-02-venom-st.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -8537,9 +8819,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/10-patient-zero-expansion-trap-02-venom-st.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8548,7 +8827,8 @@ type: "cards"
 
 <div id="crazy-8s-virus">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">VIRUS [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Pandemic Expansion</span></strong></li>
@@ -8557,6 +8837,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/11-pandemic-expansion-trap-01-virus-all.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -8580,9 +8864,6 @@ type: "cards"
 <li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect..</li>
 </ul>
 </div>
-<div class="image-container">
-<img src="/assets/images/cards/11-pandemic-expansion-trap-01-virus-all.png">
-</div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
@@ -8591,7 +8872,8 @@ type: "cards"
 
 <div id="crazy-8s-white-hole">
 <div class="rules-box">
-<div class="card-header-block">
+<div class="card-top-section">
+<div class="rules-box">
 <h4 class="card-title">WHITE HOLE [x2]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
@@ -8599,6 +8881,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-white-hole.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
@@ -8624,9 +8910,6 @@ type: "cards"
 <li>Then place this Card on top of the Discards.</li>
 <li>Choose a Colour to Continue.</li>
 </ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-white-hole.png">
 </div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
