@@ -215,10 +215,10 @@ const renderedGames = await Promise.all(
             Once a Game has been selected, You will find 2 specific Rulebook Types split across the Screen:
         </p>
         <p class="subtitle">
-            <strong>1.</strong> XX Soloverse - GAME NAME [Game Rulebook]. This Rulebook explains how to Play the Chosen Game.
+            <strong>On the Left:</strong> XX Soloverse - GAME NAME [Game Rulebook]. This Rulebook explains how to Play the Chosen Game.
         </p>
         <p class="subtitle">
-            <strong>2.</strong> XX Soloverse - GAME NAME [Definitions Rulebook]. This Rulebook explains what each Card in the Game does.
+            <strong>On the Right:</strong> XX Soloverse - GAME NAME [Definitions Rulebook]. This Rulebook explains what each Card in the Game does.
         </p>
         <p class="subtitle">
             Having these Rulebooks split side-by-side helps in quick referencing both the Game Rules and the Card Effects, though generally You'll need the Card Definitions more than the Game Rules once You know how to Play.
@@ -282,7 +282,7 @@ const renderedGames = await Promise.all(
                         <h2 style="margin: 0; color: #fff;">{game.title} - Operational Database</h2>
                     </div>
                     
-                    <div class="split-view">
+                    <div class={`split-view ${(!Cards && !Solo) ? 'single-column' : ''}`}>
                         <!-- Column 1: Core Rulebook -->
                         <section class="content-block">
                             <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>📜 Game Rulebook</h3>
@@ -292,19 +292,21 @@ const renderedGames = await Promise.all(
                         </section>
 
                         <!-- Column 2: Card Definitions & Solo Rules -->
-                        <section class="content-block">
-                            <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Card Definitions & Reference</h3>
-                            <div class="text-layer">
-                                {Cards ? <Cards /> : <p>No card database structure linked yet.</p>}
-                                
-                                {Solo && (
-                                    <div class="solo-layer" style="margin-top: 30px; border-top: 2px dashed #2a2d3d; padding-top: 20px;">
-                                        <h3 style={`color: ${game.boxColor}; margin-top: 0;`}>🕹️ Solo Mode Rules</h3>
-                                        <Solo />
-                                    </div>
-                                )}
-                            </div>
-                        </section>
+                        {(Cards || Solo) && (
+                            <section class="content-block">
+                                <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Card Definitions & Reference</h3>
+                                <div class="text-layer">
+                                    {Cards && <Cards />}
+                                    
+                                    {Solo && (
+                                        <div class="solo-layer" style="margin-top: 30px; border-top: 2px dashed #2a2d3d; padding-top: 20px;">
+                                            <h3 style={`color: ${game.boxColor}; margin-top: 0;`}>🕹️ Solo Mode Rules</h3>
+                                            <Solo />
+                                        </div>
+                                    )}
+                                </div>
+                            </section>
+                        )}
                     </div>
                 </div>
             );
@@ -500,6 +502,13 @@ const renderedGames = await Promise.all(
             width: 100%;
             /* Constrains the total split-view area to a manageable mobile phone canvas */
             height: 75vh; 
+        }
+
+        /* Forces single-item layouts to occupy 100% width and drop the column split layout */
+        .split-view.single-column {
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: 1fr !important; 
         }
 
         /* 🕹️ LOCKED MULTI-SCROLL INDEPENDENT COLUMNS */

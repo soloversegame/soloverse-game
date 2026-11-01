@@ -4,20 +4,16 @@ title: "[00-D] 🃏 Variation Rulebook"
 type: "rules"
 ---
 
-<body id="top">
-
-<nav class="platform-hub-nav" aria-label="Platform Navigation">
+<!-- INDEX JUMP MATRIX A-Z -->
+<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
+<nav class="matrix-toc-box" aria-label="Platform Navigation">
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
-<header id="top">
-<h1>[00-C] SOLOVERSE: VARIATIONS RULEBOOK FOR HAND SHEDDER GAMES</h1>
-<p class="meta-tag">Premium Core Expansion Rulebook Documentation • v3.0.0</p>
-</header>
-
-<!-- RULEBOOK CONTENTS LIST (JUMP MATRIX) -->
-<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
-<ul class="matrix-toc-grid">
+<div id="variations-rulebook-contents"></div>
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
+<ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#addition" class="matrix-link">ADDITION</a>
 </li>
@@ -59,7 +55,7 @@ type: "rules"
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -78,7 +74,7 @@ type: "rules"
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -105,7 +101,7 @@ type: "rules"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -132,7 +128,7 @@ type: "rules"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -159,7 +155,7 @@ type: "rules"
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -178,7 +174,7 @@ type: "rules"
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -213,7 +209,7 @@ type: "rules"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -227,7 +223,7 @@ type: "rules"
 <li>There are no Changes.</li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
