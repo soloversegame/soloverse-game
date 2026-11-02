@@ -238,7 +238,7 @@ type: "rules"
 <li>Emerald/Light Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Oak/Light Brown Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Redwood/Dark Brown Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Rose<s>Light Red<s> Pink Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Rose<s>Light Red</s> Pink Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Amethyst/Light Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Stone/Gray Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 </ul>
