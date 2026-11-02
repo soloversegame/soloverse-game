@@ -24,12 +24,12 @@ type: "rules"
 <span class="expansion-name">📦 Core Game</span>
 <span class="expansion-desc">
 <ul>
-<li>Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Basic Chaos Cards:
+<li>Plague/Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Toxin/Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Stinger/Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Venom/Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Poison/Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Basic Effect Chaos Cards:
 <ul>
 <li>3 Copies of Anti-Fun [Including 1 Copy from the Core Booster]</li>
 <li>3 Copies of Chaos Draw +4</li>
@@ -59,15 +59,11 @@ type: "rules"
 <span class="expansion-name">📦 Core Extension</span>
 <span class="expansion-desc">
 <ul>
-<li>Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Basic Chaos Cards:
+<li>Acid/Orange Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Basic to Moderate Effect Chaos Cards:
 <ul>
 <li>3 Copies of Badge Collector [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Black Hole [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of Black Hole [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of Cyclone [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of Double Edged [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of Double Under [Including 1 Copy from the Core Booster]</li>
@@ -77,13 +73,13 @@ type: "rules"
 <li>3 Copies of NOT ME [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of Paradigm Shift [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of Project Insight [Including 1 Copy from the Core Booster]</li>
-<li>1 Copy of Recycle</li>
+<li>1 Copy of Recycle [Setup Card]</li>
 <li>2 Copies of Roulette [Including 1 Copy from the Core Booster]</li>
 <li>3 Copies of Snap [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of State of Flux [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of United We Fall [Including 1 Copy from the Core Booster]</li>
 <li>2 Copies of Vaccine [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of White Hole [Including 1 Copy from the Core Booster]</li>
+<li>3 Copies of White Hole [Including 1 Copy from the Core Booster]</li>
 </ul>
 </div>
 <div class="expansion-row">
@@ -167,45 +163,156 @@ type: "rules"
 </span>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">☣️ Contagion Expansion</span>
+<span class="expansion-name">☣️ Bio-Hazard Expansion</span>
 <span class="expansion-desc">[Super Poison]</span>
+<ul>
+<li>1 Copy of Stinger +1</li>
+<li>1 Copy of Venom +2</li>
+<li>1 Copy of Poison +3 [Re-Release]</li>
+<li>1 Copy of Acid +4</li>
+<li>1 Copy of Toxin +5</li>
+<li>1 Copy of Plague +0 +2 Beside</li>
+</ul>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">☣️ Patient Zero Expansion</span>
+<span class="expansion-desc">[Super Poison]</span>
+<ul>
+<li>1 Copy of Stinger +1 Specific Targeted</li>
+<li>1 Copy of Venom +2 Specific Targeted</li>
+<li>1 Copy of Poison +3 [Re-Release] Specific Targeted</li>
+<li>1 Copy of Acid +4 Specific Targeted</li>
+<li>1 Copy of Toxin +5 Specific Targeted</li>
+<li>1 Copy of Plague +0 +2 Beside Specific Targeted</li>
+</ul>
+</div>
+<div class="expansion-row">
+<span class="expansion-name">☣️ Pandemic Expansion</span>
+<span class="expansion-desc">[Super Poison]</span>
+<ul>
+<li>1 Copy of Virus +1 All</li>
+<li>1 Copy of Pathogen +2 All</li>
+<li>1 Copy of Outbreak +0 +2 Beside +1 Beside</li>
+<li>1 Copy of Epidemic +4 All</li>
+<li>1 Copy of Contagion +5 +2 All</li>
+<li>1 Copy of Pandemic +0 +3 Beside +2 Beside +1 Beside</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🕊️ Containment Expansion</span>
 <span class="expansion-desc">[Super Mercy]</span>
+<ul>
+<li>1 Copy of Antibiotic [Yellow]</li>
+<li>1 Copy of Antibiotic [Red]</li>
+<li>1 Copy of Antibiotic [Purple]</li>
+<li>1 Copy of Antibiotic [Orange]</li>
+<li>1 Copy of Antibiotic [Green]</li>
+<li>1 Copy of Antibiotic [Blue]</li>
+<li>1 Copy of Antibody [Yellow]</li>
+<li>1 Copy of Antibody [Red]</li>
+<li>1 Copy of Antibody [Purple]</li>
+<li>1 Copy of Antibody [Orange]</li>
+<li>1 Copy of Antibody [Green]</li>
+<li>1 Copy of Antibody [Blue]</li>
+<li>3 Copies of Cure</li>
+<li>2 Copies of Elixir</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🔄️ Contingency I Expansion</span>
 <span class="expansion-desc">[Discard Specific Colour]</span>
+<ul>
+<li>1 Copy of Discard Plague</li>
+<li>1 Copy of Discard Toxin</li>
+<li>1 Copy of Discard Stinger</li>
+<li>1 Copy of Discard Acid</li>
+<li>1 Copy of Discard Venom</li>
+<li>1 Copy of Discard Poison</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🎨 Coloured Extensions</span>
 <span class="expansion-desc">[7 x Colour Sets]</span>
+<ul>
+<li>Diamond/Light Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Emerald/Light Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Oak/Light Brown Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Redwood/Dark Brown Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Rose<s>Light Red<s> Pink Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Amethyst/Light Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>Stone/Gray Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🔄 Contingency II Expansion</span>
 <span class="expansion-desc">[Discard New Specific Colours]</span>
+<ul>
+<li>1 Copy of Discard Diamond</li>
+<li>1 Copy of Discard Emerald</li>
+<li>1 Copy of Discard Oak</li>
+<li>1 Copy of Discard Redwood</li>
+<li>1 Copy of Discard Rose</li>
+<li>1 Copy of Discard Amethyst</li>
+<li>1 Copy of Discard Stone</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">💀 Doomsday Expansion</span>
 <span class="expansion-desc">[Assassination & Regeneration]</span>
+<ul>
+<li>3 x Copies of Bodyguard</li>
+<li>3 x Copies of Assassin</li>
+<li>3 x Copies of Resurrection</li>
+<li>1 x Copoy of Soloversal Destruction</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">📜 Cataclysm Expansion</span>
 <span class="expansion-desc">[Ancient Stones]</span>
+<ul>
+<li>1 x Copy of Repetition Stone</li>
+<li>1 x Copy of Substitution Stone</li>
+<li>1 x Copy of Duplication Stone</li>
+<li>1 x Copy of Teleportation Stone</li>
+<li>1 x Copy of Illumination Stone</li>
+<li>1 x Copy of Unrestriction Stone</li>
+<li>2 x Copies of Ancient Inversion</li>
+<li>2 x Copies of Ancient War</li>
+</ul>
 </div>
 <div class="expansion-row">
 <span class="expansion-name">🏟️ Field Deck</span>
 <span class="expansion-desc">[Rule Changes]</span>
+<ul>
+<li>1 x Copy of Field of Addition</li>
+<li>1 x Copy of Field of Subtraction</li>
+<li>1 x Copy of Field of Escalation</li>
+<li>1 x Copy of Field of Reduction</li>
+<li>1 x Copy of Field of Succession</li>
+<li>1 x Copy of Field of Replication</li>
+<li>1 x Copy of Field of Deception</li>
+<li>1 x Copy of Field of Normalisation</li>
+<li>3 x Copies of Field Transformation</li>
+</ul>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">👤 Solo Mode</span>
-<span class="expansion-desc">[Solo Play]</span>
-</div>
-<div class="expansion-row">
-<span class="expansion-name">🏆 Achievement List</span>
-<span class="expansion-desc">[Tutorial]</span>
-</div>
+<span class="expansion-name">Architect of the Soloverse Expansion</span>
+<span class="expansion-desc">[Authority to Change Rules]</span>
+<ul>
+<li>1 x Copy of The Soloversal Blueprint</li>
+<li>1 x Copy of Architectural Glitch</li>
+<li>1 x Copy of The Soloversal Loophole</li>
+<li>1 x Copy of The Architect's Source Code</li>
+<li>1 x Copy of The Architect's Protocol</li>
+<li>1 x Copy of Soloversal Engine Overdrive</li>
+<li>1 x Copy of Defragmented Reality</li>
+<li>1 x Copy of The Architect's Quarantine</li>
+<li>1 x Copy of The ARchitect's Deletion</li>
+<li>1 x Copy of Unstable Soloversal Paradox</li>
+<li>1 x Copy of The Architect's Mirage</li>
+<li>1 x Copy of Soloversal Singularity</li>
+<li>1 x Copy of System Absolute Zero</li>
+</ul>
 </div>
 <div class="return-link-wrapper">
 <a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
