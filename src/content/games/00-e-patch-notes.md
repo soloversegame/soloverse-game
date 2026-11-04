@@ -159,108 +159,60 @@ NOTE: Each Rulebook is now split into these Files:
 
 <style>
 /* ==========================================================================
- 1. COMPREHENSIVE SEMANTIC DESIGN TOKENS (LIGHT & DARK MODES)
- ========================================================================== */
-:root {
-/* Base Platform Architecture Tokens */
---bg-main: #0f1015;
---bg-card: #171922;
---bg-main-box: #1c1e27;
---text-primary: #ffffff;
---text-secondary: #f3f4f6;
---text-muted: #9ca3af;
---text-divider: #2d313f;
---color-link: #3b82f6;
+   FIXED UNIVERSAL THEME SELECTOR ENGINE (REPLACES LEGACY :ROOT[DATA-THEME])
+   ========================================================================== */
 
-/* --- DARK MODE ELEMENT THEME TOKENS --- */
-/* Typography Accents */
---color-card-title: #3b82f6; /* Calibrated Blue for typography on dark */
---color-card-class: #8cfffb; /* Neon Light Blue */
-
-/* Callout Boxes (Background Opacities & Solid Structural Borders) */
---border-tip: #aded8f; /* Light Green */
---bg-tip: rgba(173, 237, 143, 0.04);
-
---border-note: #0ed145;/* Green */
---bg-note: rgba(14, 209, 69, 0.04);
-
---border-example: #fff200; /* Yellow */
---bg-example: rgba(255, 242, 0, 0.04);
-
---border-discards: #ff7f27;/* Orange (Side & Top actions) */
---bg-discards: rgba(255, 127, 39, 0.04);
-
---border-challenge: #b97a56; /* Light Brown */
---bg-challenge: rgba(185, 122, 86, 0.04);
-
---border-important: #a75e28; /* Calibrated brighter Dark Brown for visibility */
---bg-important: rgba(167, 94, 40, 0.04);
-
---border-restriction: #ec1c24; /* Red (Restriction & Penalty) */
---bg-restriction: rgba(236, 28, 36, 0.04);
-
---border-compatibility: #ffaec8; /* Pink */
---bg-compatibility: rgba(255, 174, 200, 0.04);
-
---border-victory: #b497ef; /* Light Purple */
---bg-victory: rgba(180, 151, 239, 0.04);
-
---border-two-player: #9d00ff;/* Purple */
---bg-two-player: rgba(157, 0, 255, 0.04);
-
---border-advanced: #b2b2b2;/* Grey */
---bg-advanced: rgba(178, 178, 178, 0.04);
-}
-
-:root[data-theme="light"] {
+/* This looks globally up the HTML hierarchy tree to catch the switch, 
+   no matter how deep your Markdown layout sits inside the split-screen engine */
+:global(html[data-theme="light"]),
+:global(body[data-theme="light"]),
+[data-theme="light"] {
 /* Base Platform Architecture Overrides */
 --bg-main: #f4f5f7;
---bg-card: #ffffff;
---bg-main-box: #f9fafb;
---text-primary: #111216;
---text-secondary: #1f2937;
---text-muted: #4b5563;
---text-divider: #d1d5db;
---color-link: #1d4ed8;
+--bg-card: #ffffff !important;      /* Crisp White Panels */
+--bg-main-box: #f9fafb !important;  /* Soft Light-Gray Interior Boxes */
+--text-primary: #111216 !important; /* Deep Slate Bold Text */
+--text-secondary: #1f2937 !important; /* High Contrast Dark Charcoal Body Text */
+--text-muted: #4b5563 !important;
+--text-divider: #d1d5db !important;
+--color-link: #1d4ed8 !important;
 
-/* --- LIGHT MODE ACCESSIBILITY CONTRAST OVERRIDES --- */
-/* Typography Overrides (Deepened values to ensure AAA text contrast on white panels) */
---color-card-title: #0000ff; /* Solid True Blue */
---color-card-class: #00807b; /* Deepened Cyan-Teal for text legibility */
+/* --- LIGHT MODE HIGH-CONTRAST ACCESSIBILITY OVERRIDES --- */
+--color-card-title: #0000ff !important; 
+--color-card-class: #00807b !important; 
 
-/* Callout Box Overrides (Enhanced background presence, darkened border text-hues) */
---border-tip: #2c7a00; /* Forest Green contrast anchor */
---bg-tip: rgba(44, 122, 0, 0.06);
+--border-tip: #2c7a00 !important; 
+--bg-tip: rgba(44, 122, 0, 0.08) !important;
 
---border-note: #058225;/* Rich Foliage Green */
---bg-note: rgba(5, 130, 37, 0.06);
+--border-note: #058225 !important;
+--bg-note: rgba(5, 130, 37, 0.08) !important;
 
---border-example: #b58900; /* High-contrast Amber instead of blinding neon yellow */
---bg-example: rgba(181, 137, 0, 0.06);
+--border-example: #b58900 !important; 
+--bg-example: rgba(181, 137, 0, 0.08) !important;
 
---border-discards: #c2410c;/* Rust Orange */
---bg-discards: rgba(194, 65, 12, 0.06);
+--border-discards: #c2410c !important;
+--bg-discards: rgba(194, 65, 12, 0.08) !important;
 
---border-challenge: #7c4623; /* Earth Brown */
---bg-challenge: rgba(124, 70, 35, 0.06);
+--border-challenge: #7c4623 !important; 
+--bg-challenge: rgba(124, 70, 35, 0.08) !important;
 
---border-important: #5c300f; /* Deep Mahogany Brown */
---bg-important: rgba(92, 48, 15, 0.06);
+--border-important: #5c300f !important; 
+--bg-important: rgba(92, 48, 15, 0.08) !important;
 
---border-restriction: #b91c1c; /* Deep Crimson Red */
---bg-restriction: rgba(185, 28, 28, 0.06);
+--border-restriction: #b91c1c !important; 
+--bg-restriction: rgba(185, 28, 28, 0.08) !important;
 
---border-compatibility: #db2777; /* Deep Rose Pink for text validation readability */
---bg-compatibility: rgba(219, 39, 119, 0.06);
+--border-compatibility: #db2777 !important; 
+--bg-compatibility: rgba(219, 39, 119, 0.08) !important;
 
---border-victory: #6d28d9; /* Deep Royal Purple */
---bg-victory: rgba(109, 40, 217, 0.06);
+--border-victory: #6d28d9 !important; 
+--bg-victory: rgba(109, 40, 217, 0.08) !important;
 
---border-two-player: #580096;/* Dark Orchid Purple */
---bg-two-player: rgba(88, 0, 150, 0.06);
+--border-two-player: #580096 !important;
+--bg-two-player: rgba(88, 0, 150, 0.08) !important;
 
---border-advanced: #4b5563;/* Dark Slate Slate Grey */
---bg-advanced: rgba(75, 85, 99, 0.06);
+--border-advanced: #4b5563 !important;
+--bg-advanced: rgba(75, 85, 99, 0.08) !important;
 }
 
 /* ==========================================================================
