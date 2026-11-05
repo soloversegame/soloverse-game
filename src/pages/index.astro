@@ -1014,7 +1014,136 @@ const finalizedGames = renderedGames.map((game) => {
             box-sizing: border-box;
         }
 
-    </style>
+        /* ==========================================================================
+           12. UNIFIED RULEBOOK MARKDOWN COMPONENT ENGINE (.text-layer)
+           ========================================================================= */
+
+        /* 🎨 MASTER COLOR SCHEME INITIALIZATION FOR MARKDOWN PACKS */
+        .text-layer {
+            --color-card-title: #60a5fa; 
+            --color-card-class: #34d399; 
+            --accent-heading: #3a3f54;
+            --accent-subheading: #3b82f6;
+
+            --border-tip: #2c7a00; 
+            --bg-tip: rgba(44, 122, 0, 0.12);
+
+            --border-note: #0ed145;
+            --bg-note: rgba(14, 209, 69, 0.12);
+
+            --border-example: #b58900; 
+            --bg-example: rgba(181, 137, 0, 0.12);
+
+            --border-discards: #c2410c;
+            --bg-discards: rgba(194, 65, 12, 0.12);
+
+            --border-challenge: #7c4623; 
+            --bg-challenge: rgba(124, 70, 35, 0.12);
+
+            --border-important: #ff7f27; 
+            --bg-important: rgba(255, 127, 39, 0.12);
+
+            --border-restriction: #ef4444; 
+            --bg-restriction: rgba(239, 68, 68, 0.12);
+
+            --border-compatibility: #db2777; 
+            --bg-compatibility: rgba(219, 39, 119, 0.12);
+
+            --border-victory: #6d28d9; 
+            --bg-victory: rgba(109, 40, 217, 0.12);
+
+            --border-two-player: #8b5cf6;
+            --bg-two-player: rgba(139, 92, 246, 0.12);
+
+            --border-advanced: #4b5563;
+            --bg-advanced: rgba(75, 85, 99, 0.12);
+        }
+
+        /* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
+        .text-layer h2.rulebook-heading {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-top: 35px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid var(--accent-heading);
+            padding-bottom: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .text-layer h3.rulebook-subheading {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-top: 25px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--accent-subheading);
+            padding-left: 12px;
+            font-weight: 600;
+        }
+
+        .text-layer .card-header-block {
+            border-bottom: 1px dashed var(--text-divider);
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+
+        .text-layer h4 {
+            font-size: 1.25rem;
+            color: var(--color-card-title);
+            margin: 0 0 4px 0;
+            font-weight: 700;
+        }
+
+        .text-layer .card-class-info {
+            font-size: 0.88rem;
+            color: var(--color-card-class);
+            font-weight: 600;
+        }
+
+        .text-layer .rules-box {
+            background: #11121a;
+            border: 1px solid var(--text-divider);
+            padding: 22px;
+            border-radius: 12px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .text-layer .rules-box > * { margin: 4px 0; }
+        .text-layer .rules-box > ul, 
+        .text-layer .rules-box > ol { margin: 4px 0 4px 20px; }
+
+        /* 📦 SEMANTIC CALLOUT ENGINE SCHEMAS */
+        .text-layer .tip-box, .text-layer .note-box, .text-layer .example-box, 
+        .text-layer .discards-box, .text-layer .challenge-box, .text-layer .important-box, 
+        .text-layer .restriction-box, .text-layer .compatibility-box, 
+        .text-layer .special-victory-condition-note-box, .text-layer .two-player-note-box, 
+        .text-layer .advanced-box {
+            font-size: 0.92rem !important;
+            padding: 14px 16px !important;
+            border-radius: 8px !important;
+            color: var(--text-body) !important;
+            margin: 8px 0 !important;
+            font-weight: 500 !important;
+            box-sizing: border-box !important;
+            border: 1px solid transparent !important;
+        }
+
+        .text-layer .tip-box { background-color: var(--bg-tip) !important; border-left: 4px solid var(--border-tip) !important; border-top: 1px solid var(--border-tip) !important; border-right: 1px solid var(--border-tip) !important; border-bottom: 1px solid var(--border-tip) !important; }
+        .text-layer .note-box { background-color: var(--bg-note) !important; border-left: 4px solid var(--border-note) !important; border-top: 1px solid var(--border-note) !important; border-right: 1px solid var(--border-note) !important; border-bottom: 1px solid var(--border-note) !important; }
+        .text-layer .example-box { background-color: var(--bg-example) !important; border-left: 4px solid var(--border-example) !important; border-top: 1px solid var(--border-example) !important; border-right: 1px solid var(--border-example) !important; border-bottom: 1px solid var(--border-example) !important; font-style: italic !important; }
+        .text-layer .discards-box { background-color: var(--bg-discards) !important; border-left: 4px solid var(--border-discards) !important; border-top: 1px solid var(--border-discards) !important; border-right: 1px solid var(--border-discards) !important; border-bottom: 1px solid var(--border-discards) !important; }
+        .text-layer .challenge-box { background-color: var(--bg-challenge) !important; border-left: 4px solid var(--border-challenge) !important; border-top: 1px solid var(--border-challenge) !important; border-right: 1px solid var(--border-challenge) !important; border-bottom: 1px solid var(--border-challenge) !important; }
+        .text-layer .important-box { background-color: var(--bg-important) !important; border-left: 4px solid var(--border-important) !important; border-top: 1px solid var(--border-important) !important; border-right: 1px solid var(--border-important) !important; border-bottom: 1px solid var(--border-important) !important; }
+        .text-layer .restriction-box { background-color: var(--bg-restriction) !important; border-left: 4px solid var(--border-restriction) !important; border-top: 1px solid var(--border-restriction) !important; border-right: 1px solid var(--border-restriction) !important; border-bottom: 1px solid var(--border-restriction) !important; }
+        .text-layer .compatibility-box { background-color: var(--bg-compatibility) !important; border-left: 4px solid var(--border-compatibility) !important; border-top: 1px solid var(--border-compatibility) !important; border-right: 1px solid var(--border-compatibility) !important; border-bottom: 1px solid var(--border-compatibility) !important; }
+        .text-layer .special-victory-condition-note-box { background-color: var(--bg-victory) !important; border-left: 4px solid var(--border-victory) !important; border-top: 1px solid var(--border-victory) !important; border-right: 1px solid var(--border-victory) !important; border-bottom: 1px solid var(--border-victory) !important; }
+        .text-layer .two-player-note-box { background-color: var(--bg-two-player) !important; border-left: 4px solid var(--border-two-player) !important; border-top: 1px solid var(--border-two-player) !important; border-right: 1px solid var(--border-two-player) !important; border-bottom: 1px solid var(--border-two-player) !important; }
+        .text-layer .advanced-box { background-color: var(--bg-advanced) !important; border-left: 4px solid var(--border-advanced) !important; border-top: 1px solid var(--border-advanced) !important; border-right: 1px solid var(--border-advanced) !important; border-bottom: 1px solid var(--border-advanced) !important; }
+
+</style>
 
     <!-- ==================== UNIFIED SOLOVERSE PLATFORM ARCHITECTURE ENGINE ==================== -->
     <script is:inline>

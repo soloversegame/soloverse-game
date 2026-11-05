@@ -8930,316 +8930,352 @@ type: "cards"
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
 
-<style>
-/* ==========================================================================
-   FIXED UNIVERSAL THEME SELECTOR ENGINE (REPLACES LEGACY :ROOT[DATA-THEME])
-   ========================================================================== */
-
-/* This looks globally up the HTML hierarchy tree to catch the switch, 
-   no matter how deep your Markdown layout sits inside the split-screen engine */
-:global(html[data-theme="light"]),
-:global(body[data-theme="light"]),
-[data-theme="light"] {
-/* Base Platform Architecture Overrides */
---bg-main: #f4f5f7;
---bg-card: #ffffff !important;      /* Crisp White Panels */
---bg-main-box: #f9fafb !important;  /* Soft Light-Gray Interior Boxes */
---text-primary: #111216 !important; /* Deep Slate Bold Text */
---text-secondary: #1f2937 !important; /* High Contrast Dark Charcoal Body Text */
---text-muted: #4b5563 !important;
---text-divider: #d1d5db !important;
---color-link: #1d4ed8 !important;
-
-/* --- LIGHT MODE HIGH-CONTRAST ACCESSIBILITY OVERRIDES --- */
---color-card-title: #0000ff !important; 
---color-card-class: #00807b !important; 
-
---border-tip: #2c7a00 !important; 
---bg-tip: rgba(44, 122, 0, 0.08) !important;
-
---border-note: #058225 !important;
---bg-note: rgba(5, 130, 37, 0.08) !important;
-
---border-example: #b58900 !important; 
---bg-example: rgba(181, 137, 0, 0.08) !important;
-
---border-discards: #c2410c !important;
---bg-discards: rgba(194, 65, 12, 0.08) !important;
-
---border-challenge: #7c4623 !important; 
---bg-challenge: rgba(124, 70, 35, 0.08) !important;
-
---border-important: #5c300f !important; 
---bg-important: rgba(92, 48, 15, 0.08) !important;
-
---border-restriction: #b91c1c !important; 
---bg-restriction: rgba(185, 28, 28, 0.08) !important;
-
---border-compatibility: #db2777 !important; 
---bg-compatibility: rgba(219, 39, 119, 0.08) !important;
-
---border-victory: #6d28d9 !important; 
---bg-victory: rgba(109, 40, 217, 0.08) !important;
-
---border-two-player: #580096 !important;
---bg-two-player: rgba(88, 0, 150, 0.08) !important;
-
---border-advanced: #4b5563 !important;
---bg-advanced: rgba(75, 85, 99, 0.08) !important;
-}
-
-/* ==========================================================================
- 2. BASE LAYOUT CONFIGURATION & RESETS
- ========================================================================== */
-body {
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-background-color: var(--bg-main);
-color: var(--text-secondary);
-margin: 0;
-padding: 20px;
-line-height: 1.7;
-transition: background 0.3s, color 0.3s;
-}
-
-/* ==========================================================================
- 3. AUTOMATED BREAKPOINT SENSOR ENGINE (TABLETS & WIDESCREENS)
- ========================================================================== */
-@media screen and (min-width: 768px) and (orientation: landscape) {
-body {
-max-width: 960px;
-margin: 40px auto;
-padding: 0 30px;
-}
-.rules-box {
-padding: 32px;
-margin: 24px 0;
-}
-}
-
-@media screen and (min-width: 1024px) {
-body {
-max-width: 1050px;
-}
-}
-
-/* ==========================================================================
- 4. UNIFIED STRUCTURAL TYPOGRAPHY BLOCKS
- ========================================================================== */
-/* Main Page Header Component */
-.page-title-header {
-border-bottom: 3px double var(--text-divider);
-padding-bottom: 20px;
-margin-bottom: 40px;
-}
-h1.page-title {
-font-size: 2.5rem;
-color: var(--text-primary);
-margin: 0 0 5px 0;
-font-weight: 800;
-letter-spacing: -0.03em;
-}
-.meta-tag {
-color: var(--text-muted);
-font-size: 0.95rem;
-margin: 0;
-font-weight: 600;
-text-transform: uppercase;
-letter-spacing: 0.05em;
-}
-
-/* Expansion/Chapter Level Headings */
-h2.rulebook-heading {
-font-size: 1.6rem;
-color: var(--text-primary);
-margin-top: 40px;
-margin-bottom: 10px;
-border-bottom: 2px solid var(--accent-heading);
-padding-bottom: 8px;
-font-weight: 700;
-text-transform: uppercase;
-}
-
-/* Operational Subheaders */
-h3.rulebook-subheading {
-font-size: 1.25rem;
-color: var(--text-secondary);
-margin-top: 25px;
-margin-bottom: 10px;
-border-left: 4px solid var(--accent-subheading);
-padding-left: 12px;
-font-weight: 600;
-}
-
-/* Individual Card Entries Header Block */
-.card-header-block {
-border-bottom: 1px dashed var(--text-divider);
-padding-bottom: 8px;
-margin-bottom: 5px;
-}
-h4:global(.card-title) {
-font-size: 1.35rem;
-color: var(--color-card-title);
-margin: 0;
-font-weight: 700;
-}
-
-:global(.card-class-info) {
-font-size: 0.88rem;
-color: var(--color-card-class);
-font-weight: 600;
-}
-
-/* Paragraphs and Core List Formats */
-p { color: var(--text-secondary); margin: 16px 0; }
-ul, ol { margin: 0; padding-left: 20px; color: var(--text-secondary); }
-li { margin-bottom: 8px; }
-
-/* ==========================================================================
- 5. DECOUPLED STRUCTURAL BLOCKS & BOX ARCHITECTURE
- ========================================================================== */
-.rules-box {
-background: var(--bg-card);
-border: 1px solid var(--text-divider);
-padding: 24px;
-border-radius: 12px;
-margin: 20px 0;
+<!-- ==================== SOLOVERSE VAULT CENTRAL STYLING ENGINE ==================== -->
+<style is:inline>
+.hero-center {
 display: flex;
 flex-direction: column;
-gap: 15px;
+align-items: center; /* Centers items horizontally */
+text-align: center;  /* Centers inline multi-line text */
+gap: 10px;   /* Adds clean spacing between h1 and p */
+margin: 40px auto;   /* Generates balance margin space around block */
+}
+  
+:root, [data-theme="dark"] {
+--bg-main: #0f1015;
+--bg-card: #16171e;
+--bg-main-box: #1c1e27;
+--text-primary: #e4e6eb;
+--text-muted: #a4a6b5;
+--text-body: #ced4da;
+--text-divider: #2a2d3d;
+--color-link: #3b82f6;
 }
 
-/* Uniform Spacing Flow Override Module for Inside Elements */
-.rules-box > * {
-margin: 10px 0;
+body { 
+background-color: var(--bg-main); 
+color: var(--text-primary); 
+font-family: system-ui, -apple-system, sans-serif; 
+margin: 0; 
+padding: 20px; 
+max-width: 100vw;
+overflow-x: hidden;
 }
-.rules-box > ul, .rules-box > ol {
-margin: 10px 0 10px 20px;
+
+.vault-container { 
+max-width: 1400px; 
+margin: 0 auto; 
+width: 100%;
+}
+
+header { 
+text-align: center; 
+margin-bottom: 40px; 
+border-bottom: 1px solid #2a2d3d; 
+padding-bottom: 25px; 
+}
+
+/* 1B. THEME PILL TOGGLE INTERFACE CONTROLS */
+.theme-toggle-container {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 10px;
+margin-bottom: 25px;
+}
+
+.theme-btn {
+background: #171922;
+color: #ffffff;
+border: 1px solid #2d3139;
+padding: 10px 16px;
+border-radius: 50px; 
+font-weight: 700;
+cursor: pointer;
+font-size: 0.9rem;
+display: inline-flex; 
+align-items: center;
+gap: 8px;
+transition: background 0.2s, border-color 0.2s, transform 0.1s;
+}
+
+.theme-btn:hover {
+border-color: #3b82f6;
+background: #1c1d26;
+}
+
+.theme-btn:active { 
+transform: scale(0.97); 
+}
+
+/* 2. DYNAMIC SELECTION CARDS GRID PROFILE */
+.grid { 
+display: grid; 
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+gap: 20px; 
+width: 100%; 
+margin-bottom: 40px;
+}
+
+.game-card {
+background: #16171e;
+border-radius: 16px; 
+overflow: hidden;
+border: 1px solid #2d3139; 
+box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
+display: flex;
+flex-direction: column;
+}
+.game-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 20px 25px -5px rgba(0,0,0,0.6);
+}
+
+.game-header {
+padding: 24px 20px;
+text-align: center;
+position: relative; 
+/* 🚀 THE ZOOM FIX: Pre-rounds the inner color block so fractional scaling remainders can't bleed out */
+border-top-left-radius: 14px;
+border-top-right-radius: 14px;
+background-clip: padding-box; /* Forces the background color to respect inner boundary layers */
+}
+.game-header::after {
+content: '';
+position: absolute;
+inset: 0;
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.35));
+pointer-events: none; 
+}
+
+.game-title {
+position: relative;
+z-index: 10; 
+margin: 0;
+font-size: 1.15rem;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+}
+
+.box-contents {
+padding: 20px;
+background: #1c1e27; 
+flex-grow: 1;
+}
+
+/* 3. SPLIT-VIEW OPERATIONS INTERFACE DASHBOARD */
+.vault-panels-holder { width: 100%; }
+.game-panel { 
+animation: vaultFadeIn 0.35s cubic-bezier(0.4, 0, 0.2, 1); 
+width: 100%;
+}
+.hidden { display: none !important; }
+
+/* ==========================================================================
+   3. SPLIT-VIEW OPERATIONS INTERFACE DASHBOARD (RE-CENTERED & VIEWPORT-LOCKED)
+   ========================================================================= */
+.vault-panels-holder { 
+width: 100%; 
+max-width: 1400px;
+margin: 40px auto 0 auto; /* Perfectly re-centers the core panel layout tray */
+box-sizing: border-box;
+}
+
+.game-panel { 
+animation: vaultFadeIn 0.35s cubic-bezier(0.4, 0, 0.2, 1); 
+width: 100%;
+}
+
+.hidden { 
+display: none !important; 
+}
+
+/* 📱 DEFAULT PORTRAIT VIEWPORT SETTING */
+.split-view.flex-layout-engine { 
+display: flex;
+flex-direction: column;
+gap: 20px; 
+margin-top: 20px; 
+width: 100%;
+height: 75vh; /* Sets a locked canvas container for scrolling columns */
+}
+
+/* 🕹️ LOCKED MULTI-SCROLL INDEPENDENT COLUMNS (ONLY active for multi-doc layouts) */
+.split-view.flex-layout-engine .content-block { 
+background: #16171e; 
+border: 1px solid #2a2d3d; 
+padding: 20px; 
+border-radius: 8px; 
+min-width: 0; 
+display: none; /* Controlled dynamically by data-active-layout attributes */
+flex-direction: column;
+flex: 1;
+overflow-y: auto; 
+-webkit-overflow-scrolling: touch; 
+box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* 🎮 AUTOMATIC LANDSCAPE BREAKPOINT FOR SIDE-BY-SIDE SIDE PANEL GRID ENGINE */
+@media screen and (min-width: 600px) and (orientation: landscape) { 
+.split-view.flex-layout-engine:not(.single-column) { 
+display: grid !important;
+grid-template-columns: 1fr 1fr; /* Splits the view perfectly 50/50 */
+gap: 25px;
+height: 80vh; 
+}
+.split-view.flex-layout-engine:not(.single-column) .content-block {
+height: 100%; 
+}
+}
+
+/* ⚡ INTERACTIVE RENDERING STATE STATES ENGINE CONTROLLER */
+[data-active-layout="rules-cards"] .view-slot-rules,
+[data-active-layout="rules-cards"] .view-slot-cards { display: flex !important; }
+
+[data-active-layout="solo-cards"] .view-slot-solo,
+[data-active-layout="solo-cards"] .view-slot-cards { display: flex !important; }
+
+[data-active-layout="rules-solo"] .view-slot-rules,
+[data-active-layout="rules-solo"] .view-slot-solo { display: flex !important; }
+
+/* 📖 AUTOMATIC SINGLE-COLUMN DROPOUT MECHANICS */
+/* If a game only has 1 rulebook, it breaks out of the locked viewport box and scrolls naturally */
+.split-view.flex-layout-engine.single-column {
+display: flex !important;
+flex-direction: column !important;
+height: auto !important; 
+}
+.split-view.flex-layout-engine.single-column .content-block {
+display: flex !important;
+overflow-y: visible !important; 
+height: auto !important;
+box-shadow: none !important;
+}
+
+/* Explicit single-view rules when manually toggled from options dropdown */
+[data-active-layout="rules-only"] .view-slot-rules { display: flex !important; flex: 1 1 100% !important; }
+[data-active-layout="cards-only"] .view-slot-cards { display: flex !important; flex: 1 1 100% !important; }
+[data-active-layout="solo-only"] .view-slot-solo { display: flex !important; flex: 1 1 100% !important; }
+
+[data-active-layout="rules-only"] .split-view.flex-layout-engine,
+[data-active-layout="cards-only"] .split-view.flex-layout-engine,
+[data-active-layout="solo-only"] .split-view.flex-layout-engine {
+display: flex !important;
+flex-direction: column !important;
+height: auto !important;
+}
+[data-active-layout="rules-only"] .content-block,
+[data-active-layout="cards-only"] .content-block,
+[data-active-layout="solo-only"] .content-block {
+overflow-y: visible !important;
+height: auto !important;
+box-shadow: none !important;
 }
 
 /* ==========================================================================
-   UNIFIED FIXED MULTI-COLORED SEMANTIC CALLOUT ENGINE
-   ========================================================================== */
-
-/* Shared Callout Box Core Parameters */
-.tip-box, .note-box, .example-box, .discards-box, .challenge-box, 
-.important-box, .restriction-box, .compatibility-box, .special-victory-condition-note-box, 
-.two-player-note-box, .advanced-box {
-  font-size: 0.92rem !important;
-  padding: 14px 16px !important;
-  border-radius: 8px !important;
-  color: var(--text-secondary) !important;
-  margin: 0 !important; /* Keeps box alignment snug inside parent flex gaps */
-  font-weight: 500 !important;
-  box-sizing: border-box !important;
+   8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS (PARENT TARGETING FIX)
+   ========================================================================= */
+.text-layer .image-container,
+.game-panel .image-container {
+margin: 20px auto !important;
+padding: 12px !important;
+background: #1c1d26 !important; 
+border: 1px solid #2a2d3d !important;
+border-radius: 8px !important;
+text-align: center !important;
+max-width: 100% !important;
+display: block !important;
+flex-shrink: 0 !important;
+box-shadow: 0 4px 10px rgba(0,0,0,0.5) !important;
 }
 
-/* 🟢 1. TIPS CONTAINER (Light Green) */
-.tip-box {
-  background-color: var(--bg-tip) !important;
-  border-left: 4px solid var(--border-tip) !important;
-  border-top: 1px solid var(--border-tip) !important;
-  border-right: 1px solid var(--border-tip) !important;
-  border-bottom: 1px solid var(--border-tip) !important;
+.text-layer .image-container img,
+.game-panel .image-container img {
+max-width: 100% !important;
+max-height: 450px !important;
+width: auto !important;
+height: auto !important;
+object-fit: contain !important;
+border-radius: 6px !important;
+margin: 0 auto !important;
+display: block !important;
 }
 
-/* 🟢 2. GENERAL NOTES CONTAINER (Green) */
-.note-box {
-  background-color: var(--bg-note) !important;
-  border-left: 4px solid var(--border-note) !important;
-  border-top: 1px solid var(--border-note) !important;
-  border-right: 1px solid var(--border-note) !important;
-  border-bottom: 1px solid var(--border-note) !important;
+.text-layer .card-top-section .image-container img,
+.game-panel .card-top-section .image-container img {
+max-width: 150px !important;
+height: auto !important;
 }
 
-/* 🟡 3. METAGAME RULES EXAMPLES CONTAINER (Yellow) */
-.example-box {
-  background-color: var(--bg-example) !important;
-  border-left: 4px solid var(--border-example) !important;
-  border-top: 1px solid var(--border-example) !important;
-  border-right: 1px solid var(--border-example) !important;
-  border-bottom: 1px solid var(--border-example) !important;
-  font-style: italic !important;
+.image-caption {
+font-size: 0.85rem;
+color: #a4a6b5;
+margin-top: 10px;
+font-weight: 500;
+line-height: 1.4;
 }
 
-/* 🟠 4. DISCARDS POSITIONING ACTIONS CONTAINER (Orange) */
-.discards-box {
-  background-color: var(--bg-discards) !important;
-  border-left: 4px solid var(--border-discards) !important;
-  border-top: 1px solid var(--border-discards) !important;
-  border-right: 1px solid var(--border-discards) !important;
-  border-bottom: 1px solid var(--border-discards) !important;
+.image-row-container {
+display: flex !important;
+flex-wrap: wrap !important;
+gap: 15px !important;
+justify-content: center !important;
+margin: 20px 0 !important;
+width: 100% !important;
+}
+.image-row-container .image-container {
+flex: 1 1 calc(33.333% - 15px) !important;
+min-width: 220px !important;
+margin: 0 !important;
 }
 
-/* 🟤 5. CHALLENGE SYSTEM NOTES CONTAINER (Light Brown) */
-.challenge-box {
-  background-color: var(--bg-challenge) !important;
-  border-left: 4px solid var(--border-challenge) !important;
-  border-top: 1px solid var(--border-challenge) !important;
-  border-right: 1px solid var(--border-challenge) !important;
-  border-bottom: 1px solid var(--border-challenge) !important;
+/* COLOR COATINGS HOOKS */
+.text-layer .image-container.border-steel, .game-panel .image-container.border-steel { border: 3px solid #1d4ed8 !important; }
+.text-layer .image-container.border-poison-core, .game-panel .image-container.border-poison-core { border: 3px solid #6b21a8 !important; }
+.text-layer .image-container.border-venom-core, .game-panel .image-container.border-venom-core { border: 3px solid #dc2626 !important; }
+.text-layer .image-container.border-carbon, .game-panel .image-container.border-carbon { border: 3px solid #ea580c !important; }
+.text-layer .image-container.border-stinger-core, .game-panel .image-container.border-stinger-core { border: 3px solid #eab308 !important; }
+.text-layer .image-container.border-toxin-core, .game-panel .image-container.border-toxin-core { border: 3px solid #16a34a !important; }
+.text-layer .image-container.border-diamond, .game-panel .image-container.border-diamond { border: 3px solid #3b82f6 !important; }
+.text-layer .image-container.border-emerald, .game-panel .image-container.border-emerald { border: 3px solid #10b981; }
+.text-layer .image-container.border-redwood, .game-panel .image-container.border-redwood { border: 3px solid #5c4033 !important; }
+.text-layer .image-container.border-oak, .game-panel .image-container.border-oak { border: 3px solid #b58900 !important; }
+.text-layer .image-container.border-rose, .game-panel .image-container.border-rose { border: 3px solid #ec4899 !important; }
+.text-layer .image-container.border-amethyst, .game-panel .image-container.border-amethyst { border: 3px solid #8b5cf6 !important; }
+.text-layer .image-container.border-stone, .game-panel .image-container.border-stone { border: 3px solid #6b7280 !important; }
+		
+.text-layer .card-top-section,
+.game-panel .card-top-section {
+display: flex !important;
+justify-content: space-between !important;
+align-items: flex-start !important;
+gap: 20px !important;
+width: 100% !important;
 }
 
-/* 🟤 6. CRITICAL METAGAME INFORMATION CONTAINER (Dark Brown) */
-.important-box {
-  background-color: var(--bg-important) !important;
-  border-left: 4px solid var(--border-important) !important;
-  border-top: 1px solid var(--border-important) !important;
-  border-right: 1px solid var(--border-important) !important;
-  border-bottom: 1px solid var(--border-important) !important;
-}
-
-/* 🔴 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Red) */
-.restriction-box {
-  background-color: var(--bg-restriction) !important;
-  border-left: 4px solid var(--border-restriction) !important;
-  border-top: 1px solid var(--border-restriction) !important;
-  border-right: 1px solid var(--border-restriction) !important;
-  border-bottom: 1px solid var(--border-restriction) !important;
-}
-
-/* 💗 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Pink) */
-.compatibility-box {
-  background-color: var(--bg-compatibility) !important;
-  border-left: 4px solid var(--border-compatibility) !important;
-  border-top: 1px solid var(--border-compatibility) !important;
-  border-right: 1px solid var(--border-compatibility) !important;
-  border-bottom: 1px solid var(--border-compatibility) !important;
-}
-
-/* 🍇 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Light Purple) */
-.special-victory-condition-note-box {
-  background-color: var(--bg-victory) !important;
-  border-left: 4px solid var(--border-victory) !important;
-  border-top: 1px solid var(--border-victory) !important;
-  border-right: 1px solid var(--border-victory) !important;
-  border-bottom: 1px solid var(--border-victory) !important;
-}
-
-/* 🔮 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Purple) */
-.two-player-note-box {
-  background-color: var(--bg-two-player) !important;
-  border-left: 4px solid var(--border-two-player) !important;
-  border-top: 1px solid var(--border-two-player) !important;
-  border-right: 1px solid var(--border-two-player) !important;
-  border-bottom: 1px solid var(--border-two-player) !important;
-}
-
-/* 🪙 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Grey) */
-.advanced-box {
-  background-color: var(--bg-advanced) !important;
-  border-left: 4px solid var(--border-advanced) !important;
-  border-top: 1px solid var(--border-advanced) !important;
-  border-right: 1px solid var(--border-advanced) !important;
-  border-bottom: 1px solid var(--border-advanced) !important;
+.text-layer .card-header-block,
+.game-panel .card-header-block {
+flex: 1 !important;
 }
 
 /* ==========================================================================
- 7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
- ========================================================================== */
+   7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+   ========================================================================= */
+/* Meta tag positioning layout */
+.meta-tag {
+font-size: 0.9rem;
+color: var(--text-muted);
+margin-bottom: 15px;
+font-weight: 600;
+}
+
 /* Global Navigation Control Elements */
 .platform-hub-nav {
 margin-bottom: 25px;
 }
+
 .hub-link-button,
 .hub-link-button:visited,
 .hub-link-button:link {
@@ -9255,9 +9291,10 @@ font-weight: 700;
 font-size: 0.9rem;
 transition: all 0.2s ease-in-out;
 }
+
 .hub-link-button:hover {
 background: var(--text-divider);
-color: var(--text-primary);
+color: var(--text-primary) !important;
 transform: translateY(-1px);
 }
 
@@ -9269,6 +9306,7 @@ padding: 24px;
 border-radius: 12px;
 margin: 30px 0;
 }
+
 .matrix-toc-title {
 margin: 0 0 15px 0;
 color: var(--color-link);
@@ -9277,6 +9315,7 @@ font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 0.02em;
 }
+
 .matrix-toc-grid {
 list-style: none;
 padding: 0;
@@ -9297,14 +9336,14 @@ gap: 12px;
 align-items: start;
 }
 
-/* Matrix items styled as compact cards for denser layout (scoped to sub-grid) */
+/* Matrix items styled as compact cards for denser layout */
 .matrix-toc-sub-grid > li {
 background: var(--bg-main-box);
 border: 1px solid var(--text-divider);
 border-radius: 8px;
 box-shadow: none;
-display: flex; /* Switched to flex to easily stretch the child link */
-overflow: hidden; /* Ensures the link hover background matches the card's rounded corners */
+display: flex; 
+overflow: hidden; 
 }
 
 /* Scoped link styles so other uses of .matrix-link aren't affected */
@@ -9312,38 +9351,29 @@ overflow: hidden; /* Ensures the link hover background matches the card's rounde
 display: flex;
 align-items: center;
 justify-content: center;
-width: 100%; /* Spans full card width */
-min-height: 100%; /* Spans full card height */
-padding: 10px 12px; /* Padding moved here to make the empty space clickable */
+width: 100%; 
+min-height: 100%; 
+padding: 10px 12px; 
 color: var(--text-primary);
 text-decoration: none;
 font-weight: 700;
 text-align: center;
-box-sizing: border-box; /* Prevents padding from breaking grid widths */
+box-sizing: border-box; 
 transition: all 0.12s ease-in-out;
 }
 
-/* Changes text color and underlines text when hovering anywhere on the card */
 .matrix-toc-sub-grid .matrix-link:hover {
 color: var(--color-link);
 text-decoration: underline;
 }
 
-/* Optional: Slight background highlight when hovering anywhere on the box */
-.matrix-toc-sub-grid > li:has(.matrix-link:hover) {
-background: var(--bg-card); /* Changes card background on hover, or use a custom color */
-}
-
-/* Hierarchical modifiers — keep original behavior but compact */
-.matrix-item-heading { padding-left: 0px; font-weight: 700; }
-.matrix-item-subheading { padding-left: 8px; font-weight: 600; font-size: 0.95rem; }
-.matrix-item-card { padding-left: 12px; font-weight: 500; font-style: italic; font-size: 0.9rem; }
-
 .matrix-link {
 color: var(--text-muted);
 text-decoration: none;
+font-weight: 600;
 transition: color 0.15s;
 }
+
 .matrix-link:hover {
 color: var(--color-link);
 text-decoration: underline;
@@ -9352,9 +9382,10 @@ text-decoration: underline;
 /* Bottom Step Jump Elements */
 .return-link-wrapper {
 text-align: right;
-margin-top: -5px;
+margin-top: 15px;
 margin-bottom: 35px;
 }
+
 .return-link,
 .return-link:visited,
 .return-link:link {
@@ -9362,8 +9393,8 @@ display: inline-flex;
 align-items: center;
 background: var(--bg-main-box);
 border: 1px solid var(--text-divider);
-color: var(--color-link) !important; /* Forces your exact brand link colour */
-padding: 8px 14px; /* Clean, slightly tighter padding for the bottom link */
+color: var(--color-link) !important; 
+padding: 8px 14px; 
 border-radius: 8px;
 text-decoration: none;
 font-size: 0.85rem;
@@ -9378,246 +9409,241 @@ transform: translateY(-1px);
 text-decoration: none;
 }
 
-/* ==========================================================================
- 8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS
- ========================================================================== */
-.image-container {
-margin: 20px auto;
-padding: 12px;
-background: var(--bg-main-box);
-border: 1px solid var(--text-divider);
-border-radius: 8px;
-text-align: center;
-max-width: 100%;
-}
-.image-container img {
-max-width: 100%;
-max-height: 450px;
-width: auto;
-height: auto;
-object-fit: contain;
-border-radius: 6px;
-display: block;
-margin: 0 auto;
-border: 1px solid var(--text-divider);
-}
-.image-caption {
-font-size: 0.85rem;
-color: var(--text-muted);
-margin-top: 10px;
-font-weight: 500;
-line-height: 1.4;
-}
-
-/* Horizontal Layout Row Wrapper (Flex Grid Modifiers) */
-.image-row-container {
+/* DROPDOWN CUSTOM ACCENT ADJUSTMENTS */
+.layout-dropdown.rules-box {
+position: absolute;
+right: 0;
+top: calc(100% + 8px);
+z-index: 500;
+width: 260px;
+box-shadow: 0 15px 35px rgba(0,0,0,0.7);
 display: flex;
-flex-wrap: wrap;
-gap: 15px;
-justify-content: center;
-margin: 20px 0;
+flex-direction: column;
+}
+
+.layout-opt-btn.rules-box {
+color: #e4e6eb;
+text-align: left;
+cursor: pointer;
+font-size: 0.85rem;
+font-weight: 600;
 width: 100%;
+box-sizing: border-box;
 }
-.image-row-container .image-container {
-flex: 1 1 calc(33.333% - 15px);
-min-width: 220px;
+
+.layout-opt-btn.rules-box:hover {
+background: #2a2d3d !important;
+border-color: #3b82f6 !important;
+color: #3b82f6 !important;
+}
+
+/* 📋 SPECIALIZED DROPDOWN CONTAINER MATRIX */
+.rules-popup-box {
+position: absolute;
+right: 0; /* Flush alignment on desktop */
+top: calc(100% + 8px);
+z-index: 500;
+width: 260px;
+background: #1c1d26;
+padding: 12px;
+border-radius: 6px;
+border: 1px solid #2a2d3d;
+box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+}
+
+/* 📱 RESPONSIVE MOBILE OVERFLOW INJECTION SAFEGUARD */
+@media screen and (max-width: 480px) {
+.rules-popup-box {
+right: -10px; /* Snaps closer to the viewport boundary lines */
+width: 82vw;   /* Dynamically restricts width based on mobile display scales */
+max-width: 250px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+}
+}
+
+.layout-opt-btn.popup-item {
+color: #e4e6eb;
+text-align: left;
+cursor: pointer;
+font-size: 0.85rem;
+font-weight: 600;
+width: 100%;
 margin: 0;
+padding: 10px;
+background: #20222e;
+border: 1px solid #2a2d3d;
+border-radius: 6px;
+box-sizing: border-box;
+transition: all 0.15s ease;
 }
 
-/* Border Color Coatings for Core and Extension Cards */
-.image-container.border-steel { border: 3px solid #1d4ed8; }
-.image-container.border-poison-core { border: 3px solid #6b21a8; }
-.image-container.border-venom-core { border: 3px solid #dc2626; }
-.image-container.border-carbon { border: 3px solid #ea580c; }
-.image-container.border-stinger-core { border: 3px solid #eab308; }
-.image-container.border-toxin-core { border: 3px solid #16a34a; }
-.image-container.border-diamond { border: 3px solid #3b82f6; }
-.image-container.border-emerald { border: 3px solid #10b981; }
-.image-container.border-redwood { border: 3px solid #5c4033; }
-.image-container.border-oak { border: 3px solid #b58900; }
-.image-container.border-rose { border: 3px solid #ec4899; }
-.image-container.border-amethyst { border: 3px solid #8b5cf6; }
-.image-container.border-stone { border: 3px solid #6b7280; }
-
-/* ==========================================================================
-   8. INTEGRATED SIDE-BY-SIDE HEADER SPLIT SYSTEM (FIXED)
-   ========================================================================== */
-.card-top-section {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: stretch !important; /* 🟢 FIXED: Snaps top and bottom boundaries to identical heights */
-  gap: 15px !important;
-  width: 100% !important;
-  margin: 0 0 10px 0 !important; 
+.layout-opt-btn.popup-item:hover {
+background: #2a2d3d !important;
+border-color: #3b82f6 !important;
+color: #3b82f6 !important;
 }
 
-/* Gives the inner text block room to flex safely inside rows */
-.card-top-section > .rules-box {
-  flex: 1 !important;
-  margin: 0 !important; /* Strips layout margin bleed pushing it lower */
-  height: 100% !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important; /* Vertically centers card metadata lists */
+/* 🚀 THE MOBILE HEADER BUTTON FLUSH-RIGHT RE-ALIGNMENT ENGINE */
+.panel-accent-header {
+display: flex !important; 
+justify-content: space-between !important; 
+align-items: center !important; 
+flex-wrap: wrap !important; 
+gap: 15px !important;
 }
 
-/* Image Sleeve Container Framework Override */
-.card-top-section > .image-container {
-  flex: 0 0 auto !important; /* Keeps the frame width stable */
-  margin: 0 !important; /* Strips layout margin bleed pushing it lower */
-  display: flex !important;
-  align-items: center !important; 
-  justify-content: center !important;
-  min-height: 100% !important; 
-  padding: 12px !important;
+/* Forces the view menu layout button container to float right when items wrap on mobile viewports */
+.panel-accent-header .layout-menu-container {
+margin-left: auto !important; 
 }
 
-.card-top-section > .image-container img {
-  max-width: 150px !important; /* Preserves your exact requested design scale width */
-  height: auto !important;
-  display: block !important;
+/* Cleaned up system popover boundary tracker */
+.rules-popup-box {
+position: absolute;
+right: 0 !important; /* Snaps flush right with your button border perfectly */
+top: calc(100% + 8px);
+z-index: 500;
+width: 260px;
+background: #1c1d26;
+padding: 12px;
+border-radius: 6px;
+border: 1px solid #2a2d3d;
+box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
 }
 
 /* ==========================================================================
-   9. POP LINKS (OFFLINE MODAL ENGINE ARCHITECTURE)
-   ========================================================================== */
-.popup-trigger {
-  background: var(--bg-main-box) !important;
-  border: 1px solid var(--text-divider) !important;
-  color: var(--color-link) !important;
-  text-decoration: underline !important;
-  font-size: inherit !important;
-  font-weight: inherit !important;
-  cursor: pointer !important;
-  padding: 2px 6px !important;
-  border-radius: 4px !important;
+   12. UNIFIED RULEBOOK MARKDOWN COMPONENT ENGINE (.text-layer)
+   ========================================================================= */
+
+/* 🎨 MASTER COLOR SCHEME INITIALIZATION FOR MARKDOWN PACKS */
+.text-layer {
+--color-card-title: #60a5fa; 
+--color-card-class: #34d399; 
+--accent-heading: #3a3f54;
+--accent-subheading: #3b82f6;
+
+--border-tip: #2c7a00; 
+--bg-tip: rgba(44, 122, 0, 0.12);
+
+--border-note: #0ed145;
+--bg-note: rgba(14, 209, 69, 0.12);
+
+--border-example: #b58900; 
+--bg-example: rgba(181, 137, 0, 0.12);
+
+--border-discards: #c2410c;
+--bg-discards: rgba(194, 65, 12, 0.12);
+
+--border-challenge: #7c4623; 
+--bg-challenge: rgba(124, 70, 35, 0.12);
+
+--border-important: #ff7f27; 
+--bg-important: rgba(255, 127, 39, 0.12);
+
+--border-restriction: #ef4444; 
+--bg-restriction: rgba(239, 68, 68, 0.12);
+
+--border-compatibility: #db2777; 
+--bg-compatibility: rgba(219, 39, 119, 0.12);
+
+--border-victory: #6d28d9; 
+--bg-victory: rgba(109, 40, 217, 0.12);
+
+--border-two-player: #8b5cf6;
+--bg-two-player: rgba(139, 92, 246, 0.12);
+
+--border-advanced: #4b5563;
+--bg-advanced: rgba(75, 85, 99, 0.12);
 }
 
-.popup-overlay {
-  display: none; /* Controlled dynamically via offline client JS modules */
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-  background-color: rgba(15, 16, 21, 0.95) !important; /* Enhanced high-opacity scrim overlay */
-  z-index: 9999 !important; 
-  justify-content: center !important;
-  align-items: center !important;
+/* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
+.text-layer h2.rulebook-heading {
+font-size: 1.5rem;
+color: var(--text-primary);
+margin-top: 35px;
+margin-bottom: 12px;
+border-bottom: 2px solid var(--accent-heading);
+padding-bottom: 8px;
+font-weight: 700;
+text-transform: uppercase;
 }
 
-.popup-content {
-  background-color: var(--bg-card) !important; /* Match card panel background */
-  color: var(--text-primary) !important;
-  padding: 24px !important;
-  border-radius: 12px !important;
-  border: 2px solid var(--color-card-class, #3b82f6) !important;
-  max-width: 400px !important;
-  width: 90% !important;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5) !important;
-  text-align: center !important;
+.text-layer h3.rulebook-subheading {
+font-size: 1.2rem;
+color: var(--text-primary);
+margin-top: 25px;
+margin-bottom: 12px;
+border-left: 4px solid var(--accent-subheading);
+padding-left: 12px;
+font-weight: 600;
 }
 
-.popup-close-btn {
-  margin-top: 20px !important;
-  background-color: var(--bg-main-box) !important;
-  color: var(--text-primary) !important;
-  border: 1px solid var(--text-divider) !important;
-  padding: 10px 20px !important;
-  border-radius: 6px !important;
-  cursor: pointer !important;
-  font-weight: bold !important;
-  transition: all 0.2s ease !important;
+.text-layer .card-header-block {
+border-bottom: 1px dashed var(--text-divider);
+padding-bottom: 8px;
+margin-bottom: 12px;
 }
 
-.popup-close-btn:hover {
-  background-color: #ef4444 !important; /* Smooth red destructive hover transition */
-  color: #ffffff !important;
-  border-color: #dc2626 !important;
+.text-layer h4 {
+font-size: 1.25rem;
+color: var(--color-card-title);
+margin: 0 0 4px 0;
+font-weight: 700;
 }
 
-/* ==========================================================================
-   10. EXPANSION CONTENT GRID ARCHITECTURE
-   ========================================================================== */
-.expansion-grid {
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 12px !important;
-  width: 100% !important;
-  margin: 15px 0 !important;
+.text-layer .card-class-info {
+font-size: 0.88rem;
+color: var(--color-card-class);
+font-weight: 600;
 }
 
-.expansion-row {
-  display: flex !important;
-  flex-direction: column !important; 
-  justify-content: space-between !important;
-  padding: 12px 16px !important;
-  background: var(--bg-main-box) !important;
-  border: 1px solid var(--text-divider) !important;
-  border-radius: 8px !important;
-  gap: 4px !important;
+.text-layer .rules-box {
+background: #11121a;
+border: 1px solid var(--text-divider);
+padding: 22px;
+border-radius: 12px;
+margin: 20px 0;
+display: flex;
+flex-direction: column;
+gap: 14px;
 }
 
-.expansion-name {
-  font-weight: 700 !important;
-  color: var(--text-primary) !important;
-  font-size: 0.95rem !important;
+.text-layer .rules-box > * { margin: 4px 0; }
+.text-layer .rules-box > ul, 
+.text-layer .rules-box > ol { margin: 4px 0 4px 20px; }
+
+/* 📦 SEMANTIC CALLOUT ENGINE SCHEMAS */
+.text-layer .tip-box, .text-layer .note-box, .text-layer .example-box, 
+.text-layer .discards-box, .text-layer .challenge-box, .text-layer .important-box, 
+.text-layer .restriction-box, .text-layer .compatibility-box, 
+.text-layer .special-victory-condition-note-box, .text-layer .two-player-note-box, 
+.text-layer .advanced-box {
+font-size: 0.92rem !important;
+padding: 14px 16px !important;
+border-radius: 8px !important;
+color: var(--text-body) !important;
+margin: 8px 0 !important;
+font-weight: 500 !important;
+box-sizing: border-box !important;
+border: 1px solid transparent !important;
 }
 
-.expansion-desc {
-  font-weight: 500 !important;
-  color: var(--text-muted) !important;
-  font-size: 0.9rem !important;
-}
+.text-layer .tip-box { background-color: var(--bg-tip) !important; border-left: 4px solid var(--border-tip) !important; border-top: 1px solid var(--border-tip) !important; border-right: 1px solid var(--border-tip) !important; border-bottom: 1px solid var(--border-tip) !important; }
+.text-layer .note-box { background-color: var(--bg-note) !important; border-left: 4px solid var(--border-note) !important; border-top: 1px solid var(--border-note) !important; border-right: 1px solid var(--border-note) !important; border-bottom: 1px solid var(--border-note) !important; }
+.text-layer .example-box { background-color: var(--bg-example) !important; border-left: 4px solid var(--border-example) !important; border-top: 1px solid var(--border-example) !important; border-right: 1px solid var(--border-example) !important; border-bottom: 1px solid var(--border-example) !important; font-style: italic !important; }
+.text-layer .discards-box { background-color: var(--bg-discards) !important; border-left: 4px solid var(--border-discards) !important; border-top: 1px solid var(--border-discards) !important; border-right: 1px solid var(--border-discards) !important; border-bottom: 1px solid var(--border-discards) !important; }
+.text-layer .challenge-box { background-color: var(--bg-challenge) !important; border-left: 4px solid var(--border-challenge) !important; border-top: 1px solid var(--border-challenge) !important; border-right: 1px solid var(--border-challenge) !important; border-bottom: 1px solid var(--border-challenge) !important; }
+.text-layer .important-box { background-color: var(--bg-important) !important; border-left: 4px solid var(--border-important) !important; border-top: 1px solid var(--border-important) !important; border-right: 1px solid var(--border-important) !important; border-bottom: 1px solid var(--border-important) !important; }
+.text-layer .restriction-box { background-color: var(--bg-restriction) !important; border-left: 4px solid var(--border-restriction) !important; border-top: 1px solid var(--border-restriction) !important; border-right: 1px solid var(--border-restriction) !important; border-bottom: 1px solid var(--border-restriction) !important; }
+.text-layer .compatibility-box { background-color: var(--bg-compatibility) !important; border-left: 4px solid var(--border-compatibility) !important; border-top: 1px solid var(--border-compatibility) !important; border-right: 1px solid var(--border-compatibility) !important; border-bottom: 1px solid var(--border-compatibility) !important; }
+.text-layer .special-victory-condition-note-box { background-color: var(--bg-victory) !important; border-left: 4px solid var(--border-victory) !important; border-top: 1px solid var(--border-victory) !important; border-right: 1px solid var(--border-victory) !important; border-bottom: 1px solid var(--border-victory) !important; }
+.text-layer .two-player-note-box { background-color: var(--bg-two-player) !important; border-left: 4px solid var(--border-two-player) !important; border-top: 1px solid var(--border-two-player) !important; border-right: 1px solid var(--border-two-player) !important; border-bottom: 1px solid var(--border-two-player) !important; }
+.text-layer .advanced-box { background-color: var(--bg-advanced) !important; border-left: 4px solid var(--border-advanced) !important; border-top: 1px solid var(--border-advanced) !important; border-right: 1px solid var(--border-advanced) !important; border-bottom: 1px solid var(--border-advanced) !important; }
 
-/* Responsive Side-by-Side Split Modifier for Widescreen Monitors */
-@media screen and (min-width: 600px) {
-  .expansion-row {
-    flex-direction: row !important; 
-    align-items: center !important;
-    gap: 15px !important;
-  }
-}
-
-/* ==========================================================================
-   PRODUCTION REPAIR: TOP-ALIGNED SPLIT HEADER MODULE ENGINE
-   ========================================================================== */
-
-/* 1. Explicitly level out the side-by-side flex track row */
-.card-top-section {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-between !important;
-  align-items: flex-start !important; /* Forces physical alignment at the inside top edge */
-  gap: 16px !important;
-  width: 100% !important;
-  margin: 0 0 15px 0 !important;
-}
-
-/* 2. Absolute top-alignment alignment for the text info rules-box */
-.card-top-section > .rules-box {
-  flex: 1 !important;
-  margin: 0 !important; /* Erases the 10px parent flex item push lowering the element */
-  padding: 16px !important; /* Uniform interior breathing space */
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-start !important; /* Sticks metadata strictly to the top boundary */
-}
-
-/* 3. Absolute top-alignment for the hardware asset image-container */
-.card-top-section > .image-container {
-  flex: 0 0 auto !important; /* Protects card asset width boundaries from compression */
-  margin: 0 !important; /* Erases the 10px parent flex item push lowering the element */
-  padding: 12px !important; /* Snug containment padding */
-  display: flex !important;
-  align-items: flex-start !important; /* Pins your card artwork firmly to the ceiling */
-  justify-content: center !important;
-  background: var(--bg-main-box) !important;
-}
-
-/* 4. Erase legacy direct-child element margin distortions inside the header track splits */
-.card-top-section > .rules-box > *:first-child,
-.card-top-section > .image-container > *:first-child {
-  margin-top: 0 !important; /* Erases hidden top paragraph or heading margin offsets */
-}
 </style>
