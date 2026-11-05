@@ -290,6 +290,9 @@ const finalizedGames = renderedGames.map((game) => {
             const Cards = game.CardsComponent;
             const Solo = game.SoloComponent;
 
+            // Check metadata rules directly to see if Solo features are supported for this game card
+            const hasSoloCapability = game.soloId !== null;
+
             return (
                 <div 
                     id={`vault-${game.id}`} 
@@ -304,18 +307,49 @@ const finalizedGames = renderedGames.map((game) => {
                                 <button class="theme-btn layout-trigger-btn" style="border-color: #3a3f54;">
                                     📋 View Options
                                 </button>
-                                <div class="layout-dropdown hidden">
-                                    {Rules && Cards && <button class="layout-opt-btn" data-view="rules-cards">Standard: Game + Cards</button>}
-                                    {Solo && Cards && <button class="layout-opt-btn" data-view="solo-cards">Solo Mode + Cards</button>}
-                                    {Rules && Solo && <button class="layout-opt-btn" data-view="rules-solo">Game + Solo Mode</button>}
-                                    {Rules && <button class="layout-opt-btn" data-view="rules-only">Only Game Rules</button>}
-                                    {Cards && <button class="layout-opt-btn" data-view="cards-only">Only Card Definitions</button>}
-                                    {Solo && <button class="layout-opt-btn" data-view="solo-only">Only Solo Mode</button>}
+
+                                {/* Stylized Dropdown Container matching your native .rules-box design */}
+                                <div class="layout-dropdown rules-box hidden" style="margin-top: 0; padding: 12px; background: #1c1d26;">
+                                    <div style="font-size: 0.8rem; font-weight: 700; color: #a4a6b5; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; padding-left: 4px;">
+                                        Select Layout Matrix
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                                        {Rules && Cards && (
+                                            <button class="layout-opt-btn rules-box" data-view="rules-cards" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                                Standard: Game + Cards
+                                            </button>
+                                        )}
+                                        {hasSoloCapability && Cards && (
+                                            <button class="layout-opt-btn rules-box" data-view="solo-cards" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                                Solo Mode + Cards
+                                            </button>
+                                        )}
+                                        {Rules && hasSoloCapability && (
+                                            <button class="layout-opt-btn rules-box" data-view="rules-solo" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                                Game + Solo Mode
+                                            </button>
+                                        )}
+                                        {Rules && (
+                                            <button class="layout-opt-btn rules-box" data-view="rules-only" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                                Only Game Rules
+                                            </button>
+                                        )}
+                                        {Cards && (
+                                            <button class="layout-opt-btn rules-box" data-view="cards-only" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                                Only Card Definitions
+                                            </button>
+                                        )}
+                                        {hasSoloCapability && (
+                                            <button class="layout-opt-btn rules-box" data-view="solo-only" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                                Only Solo Mode
+                                            </button>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         )}
                     </div>
-                
+
                     <div class={`split-view flex-layout-engine ${game.isSingleColumnDefault ? 'single-column' : ''}`}>
                         {Rules && (
                             <section class="content-block view-slot-rules">
@@ -335,11 +369,11 @@ const finalizedGames = renderedGames.map((game) => {
                             </section>
                         )}
 
-                        {Solo && (
+                        {hasSoloCapability && (
                             <section class="content-block view-slot-solo">
                                 <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🕹️ Solo Mode Rules</h3>
                                 <div class="text-layer">
-                                    <Solo />
+                                    {Solo ? <Solo /> : <p style="color: #a4a6b5; font-style: italic;">Solo mode specification document compiled. Awaiting markdown layout initialization...</p>}
                                 </div>
                             </section>
                         )}
@@ -924,6 +958,34 @@ const finalizedGames = renderedGames.map((game) => {
         document.addEventListener('click', () => {
             document.querySelectorAll('.layout-dropdown').forEach(m => m.classList.add('hidden'));
         });
+
+        /* DROPDOWN CUSTOM ACCENT ADJUSTMENTS */
+        .layout-dropdown.rules-box {
+            position: absolute;
+            right: 0;
+            top: calc(100% + 8px);
+            z-index: 500;
+            width: 260px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .layout-opt-btn.rules-box {
+            color: #e4e6eb;
+            text-align: left;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .layout-opt-btn.rules-box:hover {
+            background: #2a2d3d !important;
+            border-color: #3b82f6 !important;
+            color: #3b82f6 !important;
+        }
 
         // ==========================================
         // 3. SERVICE WORKER LIFECYCLE & HOT SWAP SYNC
