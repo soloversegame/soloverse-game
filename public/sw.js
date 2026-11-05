@@ -6,6 +6,7 @@ const ASSET_CACHE_VERSION = 'soloverse-v1-engine';
 // All game rules and card text are baked directly into '/' by Astro. 
 const CRITICAL_STATIC_MANIFEST = [
   '/',
+  '/index.html',
   '/manifest.webmanifest',
   '/assets/images/layouts/soloverse-logo.png'
 ];
@@ -14,6 +15,7 @@ const CRITICAL_STATIC_MANIFEST = [
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(ASSET_CACHE_VERSION).then((cache) => {
+      console.log('Soloverse Cache Engine: Initializing secure offline core...');
       return cache.addAll(CRITICAL_STATIC_MANIFEST);
     }).then(() => self.skipWaiting())
   );
@@ -24,13 +26,16 @@ self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys().then((keys) => Promise.all(
       keys.map((k) => {
-        if (k !== ASSET_CACHE_VERSION) return caches.delete(k);
+        if (k !== ASSET_CACHE_VERSION) {
+          console.log('Soloverse Cache Engine: Purging legacy asset manifests:', k);
+          return caches.delete(k);
+        }
       })
     )).then(() => self.clients.claim())
   );
 });
 
-// public/sw.js - Listen for the skip-waiting message event payload
+// Listen for the skip-waiting message event payload from update-sync-action-btn
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
     self.skipWaiting();
@@ -41,33 +46,64 @@ self.addEventListener('message', (event) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
 
-  // STRATEGY A: For your core layout, static files, and media assets
+  // Filter requests: Handle internal application assets
   if (url.origin === self.location.origin) {
-    e.respondWith(
-      caches.match(e.request).then((cachedResponse) => {
-        if (cachedResponse) return cachedResponse;
+    
+    // 🖼️ SUB-STRATEGY A1: Media, Images & Design Assets (Cache-First)
+    // Fast local reads for images so they load instantly from device grids
+    if (url.pathname.includes('/assets/') || url.pathname.match(/\.(png|jpg|jpeg|gif|svg|webp|ico)$/i)) {
+      e.respondWith(
+        caches.match(e.request).then((cachedResponse) => {
+          if (cachedResponse) return cachedResponse;
 
-        return fetch(e.request).then((networkResponse) => {
-          if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+          return fetch(e.request).then((networkResponse) => {
+            if (!networkResponse || networkResponse.status !== 200) {
+              return networkResponse;
+            }
+
+            const responseClone = networkResponse.clone();
+            caches.open(ASSET_CACHE_VERSION).then((cache) => {
+              cache.put(e.request, responseClone);
+            });
+
             return networkResponse;
-          }
-
-          // Cache image modifications and lazy-loaded assets seamlessly on the fly
-          const responseClone = networkResponse.clone();
-          caches.open(ASSET_CACHE_VERSION).then((cache) => {
-            cache.put(e.request, responseClone);
+          }).catch(() => {
+            // Quietly fail or return a broken asset block if desired
           });
+        })
+      );
+      return;
+    }
 
+    // 📄 SUB-STRATEGY A2: The Live Webpage Page Shell, Code Framework, and Manifest (Network-First)
+    // Guarantees updates are checked online immediately before ever falling back to offline records
+    e.respondWith(
+      fetch(e.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseClone = networkResponse.clone();
+            caches.open(ASSET_CACHE_VERSION).then((cache) => {
+              cache.put(e.request, responseClone);
+            });
+          }
           return networkResponse;
-        }).catch(() => {
-          // Fallback anchor frame for broken native elements can go here
-        });
-      })
+        })
+        .catch(() => {
+          // If the network channel is dead or offline, look up the offline page cache anchor frame
+          return caches.match(e.request).then((fallbackResponse) => {
+            if (fallbackResponse) return fallbackResponse;
+            
+            // Catch-all mapping fallback rules for deep navigation items if offline
+            if (e.request.mode === 'navigate') {
+              return caches.match('/');
+            }
+          });
+        })
     );
   } 
-  // STRATEGY B: Cleaned-up fallback for External Asset Streams or External API Calls
+  
+  // STRATEGY B: Fallback for External Asset Streams or External API Calls
   else {
-    // Equivalent to your old NetworkFirst approach with an immediate offline sandbox backup
     e.respondWith(
       fetch(e.request).then((networkResponse) => {
         if (networkResponse && networkResponse.status === 200) {
