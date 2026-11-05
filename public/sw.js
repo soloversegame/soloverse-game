@@ -8,7 +8,7 @@ const CRITICAL_STATIC_MANIFEST = [
   '/',
   '/index.html',
   '/manifest.webmanifest',
-  '/assets/images/layouts/soloverse-logo.png'
+  '/assets/images/layouts/soloverse-logo.png' // 🚀 Kept exactly as your project has it!
 ];
 
 // Installation Lifecycle: Force cache deployment immediately
@@ -50,7 +50,7 @@ self.addEventListener('fetch', (e) => {
   if (url.origin === self.location.origin) {
     
     // 🖼️ SUB-STRATEGY A1: Media, Images & Design Assets (Cache-First)
-    // Fast local reads for images so they load instantly from device grids
+    // Fast local reads for images so they load instantly from your device grids
     if (url.pathname.includes('/assets/') || url.pathname.match(/\.(png|jpg|jpeg|gif|svg|webp|ico)$/i)) {
       e.respondWith(
         caches.match(e.request).then((cachedResponse) => {
@@ -68,7 +68,7 @@ self.addEventListener('fetch', (e) => {
 
             return networkResponse;
           }).catch(() => {
-            // Quietly fail or return a broken asset block if desired
+            // Quietly fail or return a broken asset block if offline and not cached yet
           });
         })
       );
