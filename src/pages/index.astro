@@ -1131,8 +1131,25 @@ const finalizedGames = renderedGames.map((game) => {
         const dismissBtn = document.getElementById('pwa-dismiss');
         const actionBtn = document.getElementById('pwa-action-btn');
 
+        // 🚀 GLOBAL SCOPING: Catch the install prompt immediately at the top level
+        let deferredPrompt = null;
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevent Chrome from showing its default mini-infobar
+            e.preventDefault();
+            // Stash the event so we can trigger it manually
+            deferredPrompt = e;
+            
+            // Only trigger visibility mechanics if the user hasn't explicitly dismissed it before
+            const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            if (localStorage.getItem('pwa-banner-dismissed') !== 'true' || isLocalhost) {
+                if (bodyText) bodyText.innerHTML = "Install the Soloverse library layout onto your device grid for lightning-fast book rendering and full offline table support.";
+                if (actionBtn) actionBtn.style.display = 'block';
+                if (banner) banner.style.display = 'flex';
+            }
+        });
+
         if (banner) {
-            // DEV TESTING OVERRIDE: If running on localhost, force visibility to check layout positions
             const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
         
             if (localStorage.getItem('pwa-banner-dismissed') !== 'true' || isLocalhost) {
@@ -1140,57 +1157,57 @@ const finalizedGames = renderedGames.map((game) => {
                 const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
 
                 if (!isStandalone || isLocalhost) {
-                    let deferredPrompt = null;
-
+                    
+                    // 📱 iOS Safari handling remains manual since Apple doesn't support beforeinstallprompt
                     if (isIOS) {
                         if (bodyText) bodyText.innerHTML = "Access the Soloverse platform like a native mobile app! Tap the <strong>Share</strong> button in Safari (square with an up arrow) and select <strong>Add to Home Screen</strong>.";
+                        if (actionBtn) actionBtn.style.display = 'none'; // No native button for iOS
                         banner.style.display = 'flex';
-                    } else {
-                        // Check if browser already captured the event before script executed
-                        window.addEventListener('beforeinstallprompt', (e) => {
-                            e.preventDefault();
-                            deferredPrompt = e;
-                            if (bodyText) bodyText.innerHTML = "Install the Soloverse library layout onto your device grid for lightning-fast book rendering and full offline table support.";
-                            if (actionBtn) actionBtn.style.display = 'block';
-                            banner.style.display = 'flex';
-                        });
-                    
-                        // Fallback configuration if using a desktop browser layout for evaluation
-                        if (isLocalhost && !deferredPrompt) {
-                            if (bodyText) bodyText.innerHTML = "[Dev Sandbox Mode Activated] PWA Banner rendering alignment active. Install buttons populate natively upon Android Chrome mobile engine connection channels.";
-                            banner.style.display = 'flex';
-                        }
-                    }
-
-                    const hideBanner = () => {
-                        banner.style.opacity = '0';
-                        setTimeout(() => { banner.style.display = 'none'; banner.style.opacity = '1'; }, 300);
-                    };
-
-                    if (closeCross) closeCross.addEventListener('click', hideBanner);
-                    if (dismissBtn) {
-                        dismissBtn.addEventListener('click', () => {
-                            localStorage.setItem('pwa-banner-dismissed', 'true');
-                            hideBanner();
-                        });
-                    }
-
-                    if (actionBtn) {
-                        actionBtn.addEventListener('click', async () => {
-                            if (!deferredPrompt) return;
-                            hideBanner();
-                            deferredPrompt.prompt();
-                            const { outcome } = await deferredPrompt.userChoice;
-                            if (outcome === 'accepted') {
-                                localStorage.setItem('pwa-banner-dismissed', 'true');
-                            }
-                            deferredPrompt = null;
-                        });
+                    } 
+                    // 🤖 Android / Desktop Chrome Sandbox Fallback
+                    else if (isLocalhost && !deferredPrompt) {
+                        if (bodyText) bodyText.innerHTML = "[Dev Sandbox Mode Activated] PWA Banner rendering alignment active. Install buttons populate natively upon Android Chrome mobile engine connection channels.";
+                        banner.style.display = 'flex';
                     }
                 }
             }
-        }
 
+            const hideBanner = () => {
+                banner.style.opacity = '0';
+                setTimeout(() => { banner.style.display = 'none'; banner.style.opacity = '1'; }, 300);
+            };
+
+            if (closeCross) closeCross.addEventListener('click', hideBanner);
+            if (dismissBtn) {
+                dismissBtn.addEventListener('click', () => {
+                    localStorage.setItem('pwa-banner-dismissed', 'true');
+                    hideBanner();
+                });
+            }
+
+            if (actionBtn) {
+                actionBtn.addEventListener('click', async () => {
+                    if (!deferredPrompt) {
+                        console.warn("Soloverse Core: Native installation prompt state is uninitialized.");
+                        return;
+                    }
+                    hideBanner();
+                    // Show the native browser install prompt overlay
+                    deferredPrompt.prompt();
+                    
+                    // Wait for the user to respond to the prompt
+                    const { outcome } = await deferredPrompt.userChoice;
+                    if (outcome === 'accepted') {
+                        console.log('Soloverse Core: User accepted app installation.');
+                        localStorage.setItem('pwa-banner-dismissed', 'true');
+                    } else {
+                        console.log('Soloverse Core: User dismissed app installation.');
+                    }
+                    deferredPrompt = null;
+                });
+            }
+        }
+        
         // ==========================================
         // 6. CANVAS ROTATION OVERRIDE CONTROLS
         // ==========================================
