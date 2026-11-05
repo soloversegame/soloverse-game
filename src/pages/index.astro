@@ -308,39 +308,39 @@ const finalizedGames = renderedGames.map((game) => {
                                     📋 View Options
                                 </button>
 
-                                {/* Stylized Dropdown Container matching your native .rules-box design */}
-                                <div class="layout-dropdown rules-box hidden" style="margin-top: 0; padding: 12px; background: #1c1d26;">
+                                {/* Stylized Dropdown Container matching your native rules layout cleanly */}
+                                <div class="layout-dropdown rules-popup-box hidden">
                                     <div style="font-size: 0.8rem; font-weight: 700; color: #a4a6b5; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; padding-left: 4px;">
                                         Select Layout Matrix
                                     </div>
                                     <div style="display: flex; flex-direction: column; gap: 8px;">
                                         {Rules && Cards && (
-                                            <button class="layout-opt-btn rules-box" data-view="rules-cards" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                            <button class="layout-opt-btn popup-item" data-view="rules-cards">
                                                 Standard: Game + Cards
                                             </button>
                                         )}
                                         {hasSoloCapability && Cards && (
-                                            <button class="layout-opt-btn rules-box" data-view="solo-cards" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                            <button class="layout-opt-btn popup-item" data-view="solo-cards">
                                                 Solo Mode + Cards
                                             </button>
                                         )}
                                         {Rules && hasSoloCapability && (
-                                            <button class="layout-opt-btn rules-box" data-view="rules-solo" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                            <button class="layout-opt-btn popup-item" data-view="rules-solo">
                                                 Game + Solo Mode
                                             </button>
                                         )}
                                         {Rules && (
-                                            <button class="layout-opt-btn rules-box" data-view="rules-only" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                            <button class="layout-opt-btn popup-item" data-view="rules-only">
                                                 Only Game Rules
                                             </button>
                                         )}
                                         {Cards && (
-                                            <button class="layout-opt-btn rules-box" data-view="cards-only" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                            <button class="layout-opt-btn popup-item" data-view="cards-only">
                                                 Only Card Definitions
                                             </button>
                                         )}
                                         {hasSoloCapability && (
-                                            <button class="layout-opt-btn rules-box" data-view="solo-only" style="margin: 0; padding: 10px; background: #20222e; border-color: #2a2d3d; transition: all 0.15s ease;">
+                                            <button class="layout-opt-btn popup-item" data-view="solo-only">
                                                 Only Solo Mode
                                             </button>
                                         )}
@@ -934,6 +934,45 @@ const finalizedGames = renderedGames.map((game) => {
             color: #3b82f6 !important;
         }
 
+        /* 📋 SPECIALIZED DROPDOWN CONTAINER MATRIX */
+        .rules-popup-box {
+            position: absolute;
+            right: 0; /* Snaps perfectly to the right edge of the trigger button */
+            top: calc(100% + 8px);
+            z-index: 500;
+            width: 260px;
+            background: #1c1d26;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #2a2d3d;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        .layout-opt-btn.popup-item {
+            color: #e4e6eb;
+            text-align: left;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+            background: #20222e;
+            border: 1px solid #2a2d3d;
+            border-radius: 6px;
+            box-sizing: border-box;
+            transition: all 0.15s ease;
+        }
+
+        .layout-opt-btn.popup-item:hover {
+            background: #2a2d3d !important;
+            border-color: #3b82f6 !important;
+            color: #3b82f6 !important;
+        }
+
     </style>
 
     <!-- ==================== UNIFIED SOLOVERSE PLATFORM ARCHITECTURE ENGINE ==================== -->
@@ -969,7 +1008,7 @@ const finalizedGames = renderedGames.map((game) => {
                 document.querySelectorAll('.layout-dropdown').forEach(m => {
                     if(m !== targetMenu) m.classList.add('hidden');
                 });
-                targetMenu.classList.remove('hidden');
+                if (targetMenu) targetMenu.classList.remove('hidden');
             });
         });
 
@@ -980,7 +1019,8 @@ const finalizedGames = renderedGames.map((game) => {
                 if (targetPanel) {
                     targetPanel.setAttribute('data-active-layout', targetViewMode);
                 }
-                opt.closest('.layout-dropdown').classList.add('hidden');
+                const parentDropdown = opt.closest('.layout-dropdown');
+                if (parentDropdown) parentDropdown.classList.add('hidden');
             });
         });
 
@@ -1051,29 +1091,39 @@ const finalizedGames = renderedGames.map((game) => {
         const actionBtn = document.getElementById('pwa-action-btn');
 
         if (banner) {
-            if (localStorage.getItem('pwa-banner-dismissed') !== 'true') {
+            // DEV TESTING OVERRIDE: If running on localhost, force visibility to check layout positions
+            const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        
+            if (localStorage.getItem('pwa-banner-dismissed') !== 'true' || isLocalhost) {
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
                 const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
 
-                if (!isStandalone) {
+                if (!isStandalone || isLocalhost) {
                     let deferredPrompt = null;
 
                     if (isIOS) {
-                        bodyText.innerHTML = "Access the Soloverse platform like a native mobile app! Tap the <strong>Share</strong> button in Safari (square with an up arrow) and select <strong>Add to Home Screen</strong>.";
+                        if (bodyText) bodyText.innerHTML = "Access the Soloverse platform like a native mobile app! Tap the <strong>Share</strong> button in Safari (square with an up arrow) and select <strong>Add to Home Screen</strong>.";
                         banner.style.display = 'flex';
                     } else {
+                        // Check if browser already captured the event before script executed
                         window.addEventListener('beforeinstallprompt', (e) => {
                             e.preventDefault();
                             deferredPrompt = e;
-                            bodyText.innerHTML = "Install the Soloverse library layout onto your device grid for lightning-fast book rendering and full offline table support.";
+                            if (bodyText) bodyText.innerHTML = "Install the Soloverse library layout onto your device grid for lightning-fast book rendering and full offline table support.";
                             if (actionBtn) actionBtn.style.display = 'block';
                             banner.style.display = 'flex';
                         });
+                    
+                        // Fallback configuration if using a desktop browser layout for evaluation
+                        if (isLocalhost && !deferredPrompt) {
+                            if (bodyText) bodyText.innerHTML = "[Dev Sandbox Mode Activated] PWA Banner rendering alignment active. Install buttons populate natively upon Android Chrome mobile engine connection channels.";
+                            banner.style.display = 'flex';
+                        }
                     }
 
                     const hideBanner = () => {
                         banner.style.opacity = '0';
-                        setTimeout(() => { banner.style.display = 'none'; }, 300);
+                        setTimeout(() => { banner.style.display = 'none'; banner.style.opacity = '1'; }, 300);
                     };
 
                     if (closeCross) closeCross.addEventListener('click', hideBanner);
