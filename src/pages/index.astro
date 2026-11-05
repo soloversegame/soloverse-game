@@ -192,12 +192,7 @@ const renderedGames = await Promise.all(
 
     <!-- =============================================================== -->
 
-		<!-- THE REACTIVE THEME & ROTATION OPTION INTERFACE CONTROLLER BUTTONS -->
-    <div class="theme-toggle-container">
-        <button id="theme-toggle-btn" class="theme-btn">☀️ Light Mode</button>
-    </div>
-	
-		<div class="image-container">
+        <div class="image-container">
 			<img
 				src="/assets/images/layouts/soloverse-logo.png" 
 				alt="Centred Image"
@@ -277,33 +272,49 @@ const renderedGames = await Promise.all(
             const Solo = game.SoloComponent;
 
             return (
-                <div id={`vault-${game.id}`} class={`game-panel ${index === 0 ? '' : 'hidden'}`}>
-                    <div class="panel-accent-header" style={`border-left: 6px solid ${game.boxColor}; background: #16171e; padding: 15px; border-radius: 4px; margin-bottom: 20px;`}>
+                <div id={`vault-${game.id}`} class={`game-panel ${index === 0 ? '' : 'hidden'}`} data-active-layout="rules-cards">
+                    <div class="panel-accent-header" style={`border-left: 6px solid ${game.boxColor}; background: #16171e; padding: 15px; border-radius: 4px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;`}>
                         <h2 style="margin: 0; color: #fff;">{game.title} - Operational Database</h2>
-                    </div>
                     
-                    <div class={`split-view ${(!Cards && !Solo) ? 'single-column' : ''}`}>
-                        <!-- Column 1: Core Rulebook -->
-                        <section class="content-block">
+                        {/* Interactive Layout Controller Tool Menu */}
+                        <div style="position: relative;" class="layout-menu-container">
+                            <button class="theme-btn layout-trigger-btn" style="border-color: #3a3f54;">
+                                📋 View Options
+                            </button>
+                            <div class="layout-dropdown hidden">
+                                <button class="layout-opt-btn" data-view="rules-cards">Standard: Game + Cards</button>
+                                {Solo && <button class="layout-opt-btn" data-view="solo-cards">Solo Mode + Cards</button>}
+                                {Solo && <button class="layout-opt-btn" data-view="rules-solo">Game + Solo Mode</button>}
+                                <button class="layout-opt-btn" data-view="rules-only">Only Game Rules</button>
+                                <button class="layout-opt-btn" data-view="cards-only">Only Card Definitions</button>
+                                {Solo && <button class="layout-opt-btn" data-view="solo-only">Only Solo Mode</button>}
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="split-view flex-layout-engine">
+                        <!-- Component Block 1: Game Rules -->
+                        <section class="content-block view-slot-rules">
                             <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>📜 Game Rulebook</h3>
                             <div class="text-layer">
                                 {Rules ? <Rules /> : <p>No core rulebook document compiled for this variant layout yet.</p>}
                             </div>
                         </section>
 
-                        <!-- Column 2: Card Definitions & Solo Rules -->
-                        {(Cards || Solo) && (
-                            <section class="content-block">
-                                <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Card Definitions & Reference</h3>
+                        <!-- Component Block 2: Card Definitions -->
+                        <section class="content-block view-slot-cards">
+                            <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Card Definitions & Reference</h3>
+                            <div class="text-layer">
+                                {Cards ? <Cards /> : <p>No specific card rule definitions mapped to this content cluster.</p>}
+                            </div>
+                        </section>
+
+                        <!-- Component Block 3: Solo Rules -->
+                        {Solo && (
+                            <section class="content-block view-slot-solo">
+                                <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🕹️ Solo Mode Rules</h3>
                                 <div class="text-layer">
-                                    {Cards && <Cards />}
-                                    
-                                    {Solo && (
-                                        <div class="solo-layer" style="margin-top: 30px; border-top: 2px dashed #2a2d3d; padding-top: 20px;">
-                                            <h3 style={`color: ${game.boxColor}; margin-top: 0;`}>🕹️ Solo Mode Rules</h3>
-                                            <Solo />
-                                        </div>
-                                    )}
+                                    <Solo />
                                 </div>
                             </section>
                         )}
@@ -326,6 +337,19 @@ const renderedGames = await Promise.all(
                     <div class="status-badge">📦 Under Construction</div>
                 </div>
             ))}
+        </div>
+    </div>
+
+    <!-- ==================== PART 3B: PLATFORM HOTFIX UPDATE CHANNEL NOTIFIER ==================== -->
+    <div id="update-sync-banner" class="pwa-install-banner" style="display: none; background: #11121a; border-top: 3px solid #eab308; bottom: auto; top: 20px;">
+        <div class="pwa-header">
+            <div class="pwa-title" style="color: #eab308;">⚡ Table Blueprint Changes Ready</div>
+        </div>
+        <div class="pwa-body">
+            New game balancing mechanics, variations, or card layout optimizations have been updated on the live server environment.
+        </div>
+        <div class="pwa-action-row">
+            <button id="update-sync-action-btn" class="pwa-btn pwa-btn-primary" style="background: #eab308; color: #111216;">Sync Assets Offline</button>
         </div>
     </div>
 
@@ -355,10 +379,20 @@ const renderedGames = await Promise.all(
             margin: 40px auto;   /* Generates balance margin space around block */
         }
   
-        /* 1. GLOBAL LAYOUT FRAMEWORK CONSTRAINTS */
+        :root, [data-theme="dark"] {
+            --bg-main: #0f1015;
+            --bg-card: #16171e;
+            --bg-main-box: #1c1e27;
+            --text-primary: #e4e6eb;
+            --text-muted: #a4a6b5;
+            --text-body: #ced4da;
+            --text-divider: #2a2d3d;
+            --color-link: #3b82f6;
+        }
+
         body { 
-            background-color: #0f1015; 
-            color: #e4e6eb; 
+            background-color: var(--bg-main); 
+            color: var(--text-primary); 
             font-family: system-ui, -apple-system, sans-serif; 
             margin: 0; 
             padding: 20px; 
@@ -618,6 +652,68 @@ const renderedGames = await Promise.all(
         @keyframes vaultFadeIn { 
             from { opacity: 0; transform: translateY(10px); } 
             to { opacity: 1; transform: translateY(0); } 
+        }
+
+        /* DROPDOWN CONTEXT OVERLAY OVERRIDES */
+        .layout-dropdown {
+            position: absolute;
+            right: 0;
+            top: calc(100% + 8px);
+            background: #1c1e27;
+            border: 1px solid #2a2d3d;
+            border-radius: 8px;
+            z-index: 500;
+            width: 240px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            padding: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .layout-opt-btn {
+            background: transparent;
+            border: none;
+            color: #e4e6eb;
+            padding: 10px 14px;
+            text-align: left;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            width: 100%;
+        }
+        .layout-opt-btn:hover {
+            background: #2a2d3d;
+            color: #3b82f6;
+        }
+
+        /* FLEX ENGINE DEFAULT HIDDEN MECHANICS */
+        .flex-layout-engine .view-slot-rules,
+        .flex-layout-engine .view-slot-cards,
+        .flex-layout-engine .view-slot-solo {
+            display: none !important;
+        }
+
+        /* RENDERING STATE STATES CONTROLLER ENGINE */
+        [data-active-layout="rules-cards"] .view-slot-rules,
+        [data-active-layout="rules-cards"] .view-slot-cards { display: flex !important; }
+
+        [data-active-layout="solo-cards"] .view-slot-solo,
+        [data-active-layout="solo-cards"] .view-slot-cards { display: flex !important; }
+
+        [data-active-layout="rules-solo"] .view-slot-rules,
+        [data-active-layout="rules-solo"] .view-slot-solo { display: flex !important; }
+
+        [data-active-layout="rules-only"] .view-slot-rules { display: flex !important; flex: 1 1 100% !important; }
+        [data-active-layout="cards-only"] .view-slot-cards { display: flex !important; flex: 1 1 100% !important; }
+        [data-active-layout="solo-only"] .view-slot-solo { display: flex !important; flex: 1 1 100% !important; }
+
+        @media screen and (min-width: 600px) and (orientation: landscape) {
+            [data-active-layout="rules-only"] .flex-layout-engine,
+            [data-active-layout="cards-only"] .flex-layout-engine,
+            [data-active-layout="solo-only"] .flex-layout-engine {
+                display: block !important;
+            }
         }
 
         /* ==========================================================================
@@ -905,46 +1001,9 @@ const renderedGames = await Promise.all(
             // ==========================================
             // 2. AUTOMATED THEME EVALUATION OR OVERRIDE
             // ==========================================
-            const savedTheme = localStorage.getItem('soloverse-theme');
-            const devicePrefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            
-            let activeTheme = 'dark'; // Base anchor default fallback
-
-            if (savedTheme) {
-                // Priority 1: Honor the explicit button selections saved in device memory
-                activeTheme = savedTheme;
-            } else {
-                // Priority 2: Auto-detect and adopt the system mode configuration of the Android/iOS device
-                activeTheme = devicePrefersDarkMode ? 'dark' : 'light';
-            }
-
-            // Mount evaluated selection instantly to prevent blinding screen flicker loops
-            document.documentElement.setAttribute('data-theme', activeTheme);
-
-            // ==========================================
-            // 3. UI BUTTON CLICK RUNTIME MANAGEMENT
-            // ==========================================
-            window.addEventListener('DOMContentLoaded', () => {
-                const themeBtn = document.getElementById('theme-toggle-btn');
-                if (!themeBtn) return; // Operational guard to stop compiler crashes if the button hasn't loaded yet
-
-                // Initialize the structural text on your shelf button to match active runtime metrics
-                updateButtonUI(activeTheme);
-
-                // Setup the mutation event tracker for deliberate player clicks
-                themeBtn.addEventListener('click', () => {
-                    const currentTheme = document.documentElement.getAttribute('data-theme');
-                    const targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                    
-                    document.documentElement.setAttribute('data-theme', targetTheme);
-                    localStorage.setItem('soloverse-theme', targetTheme);
-                    updateButtonUI(targetTheme);
-                });
-
-                function updateButtonUI(theme) {
-                    themeBtn.innerText = theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
-                }
-            });
+            // Enforce dark theme directly on the document context
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('soloverse-theme', 'dark');
 
             // ==========================================
             // 4. AUTOMATED PWA INSTALLATION INTERCEPTOR
@@ -1031,6 +1090,40 @@ const renderedGames = await Promise.all(
             });
 
         })();
+
+        // ==========================================
+        // DROPDOWN LAYOUT MANAGEMENT LIFECYCLE
+        // ==========================================
+        document.addEventListener('DOMContentLoaded', () => {
+            // Toggle dropdown overlay visibility
+            document.querySelectorAll('.layout-trigger-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const targetMenu = btn.nextElementSibling;
+                    document.querySelectorAll('.layout-dropdown').forEach(m => {
+                        if(m !== targetMenu) m.classList.add('hidden');
+                    });
+                    targetMenu.classList.remove('hidden');
+                });
+            });
+
+            // Handle view updating selection clicks
+            document.querySelectorAll('.layout-opt-btn').forEach(opt => {
+                opt.addEventListener('click', () => {
+                    const targetPanel = opt.closest('.game-panel');
+                    const targetViewMode = opt.getAttribute('data-view');
+                    if (targetPanel) {
+                        targetPanel.setAttribute('data-active-layout', targetViewMode);
+                    }
+                    opt.closest('.layout-dropdown').classList.add('hidden');
+                });
+            });
+
+            // Click outside handler to dismiss layout dropdown layers safely
+            document.addEventListener('click', () => {
+                document.querySelectorAll('.layout-dropdown').forEach(m => m.classList.add('hidden'));
+            });
+        });
     </script>
 
 </body>
