@@ -937,7 +937,7 @@ const finalizedGames = renderedGames.map((game) => {
         /* 📋 SPECIALIZED DROPDOWN CONTAINER MATRIX */
         .rules-popup-box {
             position: absolute;
-            right: 0; /* Snaps perfectly to the right edge of the trigger button */
+            right: 0; /* Flush alignment on desktop */
             top: calc(100% + 8px);
             z-index: 500;
             width: 260px;
@@ -949,6 +949,16 @@ const finalizedGames = renderedGames.map((game) => {
             display: flex;
             flex-direction: column;
             box-sizing: border-box;
+        }
+
+        /* 📱 RESPONSIVE MOBILE OVERFLOW INJECTION SAFEGUARD */
+        @media screen and (max-width: 480px) {
+            .rules-popup-box {
+                right: -10px; /* Snaps closer to the viewport boundary lines */
+                width: 82vw;   /* Dynamically restricts width based on mobile display scales */
+                max-width: 250px;
+                box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+            }
         }
 
         .layout-opt-btn.popup-item {
