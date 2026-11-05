@@ -299,9 +299,9 @@ const finalizedGames = renderedGames.map((game) => {
                     class={`game-panel ${index === 0 ? '' : 'hidden'}`} 
                     data-active-layout={game.initialLayout}
                 >
-                    <div class="panel-accent-header" style={`border-left: 6px solid ${game.boxColor}; background: #16171e; padding: 15px; border-radius: 4px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;`}>
+                   <div class="panel-accent-header" style={`border-left: 6px solid ${game.boxColor}; background: #16171e; padding: 15px; border-radius: 4px; margin-bottom: 20px;`}>
                         <h2 style="margin: 0; color: #fff;">{game.title} - Operational Database</h2>
-
+                    
                         {!game.isSingleColumnDefault && (
                             <div style="position: relative;" class="layout-menu-container">
                                 <button class="theme-btn layout-trigger-btn" style="border-color: #3a3f54;">
@@ -981,6 +981,37 @@ const finalizedGames = renderedGames.map((game) => {
             background: #2a2d3d !important;
             border-color: #3b82f6 !important;
             color: #3b82f6 !important;
+        }
+
+                /* 🚀 THE MOBILE HEADER BUTTON FLUSH-RIGHT RE-ALIGNMENT ENGINE */
+        .panel-accent-header {
+            display: flex !important; 
+            justify-content: space-between !important; 
+            align-items: center !important; 
+            flex-wrap: wrap !important; 
+            gap: 15px !important;
+        }
+
+        /* Forces the view menu layout button container to float right when items wrap on mobile viewports */
+        .panel-accent-header .layout-menu-container {
+            margin-left: auto !important; 
+        }
+
+        /* Cleaned up system popover boundary tracker */
+        .rules-popup-box {
+            position: absolute;
+            right: 0 !important; /* Snaps flush right with your button border perfectly */
+            top: calc(100% + 8px);
+            z-index: 500;
+            width: 260px;
+            background: #1c1d26;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #2a2d3d;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
         }
 
     </style>
