@@ -30,6 +30,13 @@ self.addEventListener('activate', (e) => {
   );
 });
 
+// public/sw.js - Listen for the skip-waiting message event payload
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+
 // 2. UNIFIED HIGH-PERFORMANCE CACHE STRATEGY ENGINE
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);

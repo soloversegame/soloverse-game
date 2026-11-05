@@ -166,6 +166,25 @@ const renderedGames = await Promise.all(
     };
   })
 );
+
+// 4. Pre-evaluate component availability metrics to keep the HTML template clean
+const finalizedGames = renderedGames.map((game) => {
+  const componentCount = [game.RulesComponent, game.CardsComponent, game.SoloComponent].filter(Boolean).length;
+  const isSingleColumnDefault = componentCount <= 1;
+
+  let initialLayout = "rules-cards";
+  if (isSingleColumnDefault) {
+    if (game.RulesComponent) initialLayout = "rules-only";
+    else if (game.CardsComponent) initialLayout = "cards-only";
+    else if (game.SoloComponent) initialLayout = "solo-only";
+  }
+
+  return {
+    ...game,
+    isSingleColumnDefault,
+    initialLayout
+  };
+});
 ---
 
 <!DOCTYPE html>
@@ -266,50 +285,56 @@ const renderedGames = await Promise.all(
 
     <!-- ==================== NEW SPLIT-VIEW LIVE RULEBOOK PANELS ==================== -->
     <div class="vault-panels-holder" style="margin-top: 40px;">
-        {renderedGames.map((game, index) => {
+        {finalizedGames.map((game, index) => {
             const Rules = game.RulesComponent;
             const Cards = game.CardsComponent;
             const Solo = game.SoloComponent;
 
             return (
-                <div id={`vault-${game.id}`} class={`game-panel ${index === 0 ? '' : 'hidden'}`} data-active-layout="rules-cards">
+                <div 
+                    id={`vault-${game.id}`} 
+                    class={`game-panel ${index === 0 ? '' : 'hidden'}`} 
+                    data-active-layout={game.initialLayout}
+                >
                     <div class="panel-accent-header" style={`border-left: 6px solid ${game.boxColor}; background: #16171e; padding: 15px; border-radius: 4px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;`}>
                         <h2 style="margin: 0; color: #fff;">{game.title} - Operational Database</h2>
-                    
-                        {/* Interactive Layout Controller Tool Menu */}
-                        <div style="position: relative;" class="layout-menu-container">
-                            <button class="theme-btn layout-trigger-btn" style="border-color: #3a3f54;">
-                                📋 View Options
-                            </button>
-                            <div class="layout-dropdown hidden">
-                                <button class="layout-opt-btn" data-view="rules-cards">Standard: Game + Cards</button>
-                                {Solo && <button class="layout-opt-btn" data-view="solo-cards">Solo Mode + Cards</button>}
-                                {Solo && <button class="layout-opt-btn" data-view="rules-solo">Game + Solo Mode</button>}
-                                <button class="layout-opt-btn" data-view="rules-only">Only Game Rules</button>
-                                <button class="layout-opt-btn" data-view="cards-only">Only Card Definitions</button>
-                                {Solo && <button class="layout-opt-btn" data-view="solo-only">Only Solo Mode</button>}
+
+                        {!game.isSingleColumnDefault && (
+                            <div style="position: relative;" class="layout-menu-container">
+                                <button class="theme-btn layout-trigger-btn" style="border-color: #3a3f54;">
+                                    📋 View Options
+                                </button>
+                                <div class="layout-dropdown hidden">
+                                    {Rules && Cards && <button class="layout-opt-btn" data-view="rules-cards">Standard: Game + Cards</button>}
+                                    {Solo && Cards && <button class="layout-opt-btn" data-view="solo-cards">Solo Mode + Cards</button>}
+                                    {Rules && Solo && <button class="layout-opt-btn" data-view="rules-solo">Game + Solo Mode</button>}
+                                    {Rules && <button class="layout-opt-btn" data-view="rules-only">Only Game Rules</button>}
+                                    {Cards && <button class="layout-opt-btn" data-view="cards-only">Only Card Definitions</button>}
+                                    {Solo && <button class="layout-opt-btn" data-view="solo-only">Only Solo Mode</button>}
+                                </div>
                             </div>
-                        </div>
+                        )}
                     </div>
                 
-                    <div class="split-view flex-layout-engine">
-                        <!-- Component Block 1: Game Rules -->
-                        <section class="content-block view-slot-rules">
-                            <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>📜 Game Rulebook</h3>
-                            <div class="text-layer">
-                                {Rules ? <Rules /> : <p>No core rulebook document compiled for this variant layout yet.</p>}
-                            </div>
-                        </section>
+                    <div class={`split-view flex-layout-engine ${game.isSingleColumnDefault ? 'single-column' : ''}`}>
+                        {Rules && (
+                            <section class="content-block view-slot-rules">
+                                <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>📜 Game Rulebook</h3>
+                                <div class="text-layer">
+                                    <Rules />
+                                </div>
+                            </section>
+                        )}
 
-                        <!-- Component Block 2: Card Definitions -->
-                        <section class="content-block view-slot-cards">
-                            <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Card Definitions & Reference</h3>
-                            <div class="text-layer">
-                                {Cards ? <Cards /> : <p>No specific card rule definitions mapped to this content cluster.</p>}
-                            </div>
-                        </section>
+                        {Cards && (
+                            <section class="content-block view-slot-cards">
+                                <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Card Definitions & Reference</h3>
+                                <div class="text-layer">
+                                    <Cards />
+                                </div>
+                            </section>
+                        )}
 
-                        <!-- Component Block 3: Solo Rules -->
                         {Solo && (
                             <section class="content-block view-slot-solo">
                                 <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🕹️ Solo Mode Rules</h3>
@@ -340,31 +365,31 @@ const renderedGames = await Promise.all(
         </div>
     </div>
 
-    <!-- ==================== PART 3B: PLATFORM HOTFIX UPDATE CHANNEL NOTIFIER ==================== -->
-    <div id="update-sync-banner" class="pwa-install-banner" style="display: none; background: #11121a; border-top: 3px solid #eab308; bottom: auto; top: 20px;">
-        <div class="pwa-header">
-            <div class="pwa-title" style="color: #eab308;">⚡ Table Blueprint Changes Ready</div>
+    <!-- ==================== PART 3: THE SMART HIGH-VISIBILITY PWA INSTALLATION OVERLAY ==================== -->
+    <div id="pwa-banner" class="pwa-install-banner" style="display: none; position: fixed; top: 15px; left: 50%; transform: translateX(-50%); width: 90%; max-width: 500px; z-index: 9999; background: #16171e; border: 2px solid #3b82f6; box-shadow: 0 15px 40px rgba(0,0,0,0.8); border-radius: 12px; flex-direction: column; padding: 15px;">
+        <div class="pwa-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div class="pwa-title" style="font-weight: 700; color: #fff; font-size: 1.05rem;">📱 Add Soloverse to Home Screen</div>
+            <button id="pwa-close" class="pwa-close-btn" style="background: none; border: none; color: #a4a6b5; font-size: 1.5rem; cursor: pointer; line-height: 1;" aria-label="Close popup">×</button>
         </div>
-        <div class="pwa-body">
-            New game balancing mechanics, variations, or card layout optimizations have been updated on the live server environment.
+        <div id="pwa-instructions" class="pwa-body" style="font-size: 0.88rem; color: #ced4da; line-height: 1.4; margin-bottom: 12px;">
+            <!-- Content will be auto-generated by your script layer -->
         </div>
-        <div class="pwa-action-row">
-            <button id="update-sync-action-btn" class="pwa-btn pwa-btn-primary" style="background: #eab308; color: #111216;">Sync Assets Offline</button>
+        <div class="pwa-action-row" style="display: flex; justify-content: flex-end; gap: 10px;">
+            <button id="pwa-dismiss" class="theme-btn" style="padding: 6px 12px; font-size: 0.8rem; background: transparent; border-color: #2a2d3d;">Not Now</button>
+            <button id="pwa-action-btn" class="theme-btn" style="padding: 6px 12px; font-size: 0.8rem; background: #3b82f6; color: #fff; border: none; display: none;">Install App</button>
         </div>
     </div>
 
-    <!-- ==================== PART 3: THE SMART PWA INSTALLATION OVERLAY ==================== -->
-    <div id="pwa-banner" class="pwa-install-banner">
-        <div class="pwa-header">
-            <div class="pwa-title">📱 Add Soloverse to Home Screen</div>
-            <button id="pwa-close" class="pwa-close-btn" aria-label="Close popup">×</button>
+    <!-- ==================== PART 3B: PLATFORM HOTFIX UPDATE CHANNEL NOTIFIER ==================== -->
+    <div id="update-sync-banner" class="pwa-install-banner" style="display: none; position: fixed; top: 15px; left: 50%; transform: translateX(-50%); width: 90%; max-width: 500px; z-index: 10000; background: #11121a; border: 2px solid #eab308; box-shadow: 0 15px 40px rgba(0,0,0,0.8); border-radius: 12px; flex-direction: column; padding: 15px;">
+        <div class="pwa-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div class="pwa-title" style="font-weight: 700; color: #eab308; font-size: 1.05rem;">⚡ Table Blueprint Changes Ready</div>
         </div>
-        <div id="pwa-instructions" class="pwa-body">
-            <!-- Content will be auto-generated by your script layer -->
+        <div class="pwa-body" style="font-size: 0.88rem; color: #ced4da; line-height: 1.4; margin-bottom: 12px;">
+            New game balancing mechanics, variations, or card layout optimizations have been updated on the live server environment.
         </div>
-        <div class="pwa-action-row">
-            <button id="pwa-dismiss" class="pwa-btn pwa-btn-secondary">Not Now</button>
-            <button id="pwa-action-btn" class="pwa-btn pwa-btn-primary" style="display: none;">Install App</button>
+        <div class="pwa-action-row" style="display: flex; justify-content: flex-end;">
+            <button id="update-sync-action-btn" class="theme-btn" style="padding: 8px 16px; font-size: 0.85rem; background: #eab308; color: #111216; border: none;">Sync Assets Offline</button>
         </div>
     </div>
 
@@ -538,22 +563,39 @@ const renderedGames = await Promise.all(
             height: 75vh; 
         }
 
-        /* Forces single-item layouts to occupy 100% width and drop the column split layout */
-        .split-view.single-column {
-            display: flex;
-            flex-direction: column;
-            grid-template-columns: 1fr !important; 
+        /* DROPDOWN POSITION ALIGNMENT FIX */
+        .layout-menu-container {
+            position: relative;
+            display: inline-block;
         }
 
-        /* 🕹️ LOCKED MULTI-SCROLL INDEPENDENT COLUMNS */
-        .content-block { 
-            background: #16171e; 
-            border: 1px solid #2a2d3d; 
-            padding: 20px; 
-            border-radius: 8px; 
-            min-width: 0; 
+        .layout-dropdown {
+            position: absolute;
+            right: 0; /* Aligns perfectly flush with the right edge of the button */
+            top: calc(100% + 8px);
+            background: #1c1e27;
+            border: 1px solid #2a2d3d;
+            border-radius: 8px;
+            z-index: 500;
+            width: 240px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            padding: 6px;
             display: flex;
             flex-direction: column;
+            gap: 4px;
+        }
+
+        /* SINGLE COLUMN FORCE FACTOR */
+        .split-view.single-column {
+            display: flex !important;
+            flex-direction: column !important;
+            height: auto !important; /* Let single documents expand naturally without scrolling inner windows */
+        }
+
+        .split-view.single-column .content-block {
+            display: flex !important;
+            overflow-y: visible !important; /* Allow smooth master body page scrolling for single items */
+        }
             
             /* CRITICAL: Activates isolated native momentum scrolling per column box */
             flex: 1;
@@ -952,20 +994,21 @@ const renderedGames = await Promise.all(
         }
     </style>
 
-    <!-- ==================== INTERACTIVE SWITCHER SCRIPT ==================== -->
+    <!-- ==================== UNIFIED SOLOVERSE PLATFORM ARCHITECTURE ENGINE ==================== -->
     <script is:inline>
-        // Handles clicking the visual dashboard game cards
+        // ==========================================
+        // 1. VISUAL INTERFACE INTERACTIVE SWITCHER
+        // ==========================================
         const triggers = document.querySelectorAll('.selector-trigger');
         const panels = document.querySelectorAll('.game-panel');
 
         triggers.forEach(trigger => {
             trigger.addEventListener('click', () => {
                 const targetId = trigger.getAttribute('data-target');
-                
+            
                 panels.forEach(panel => {
                     if (panel.id === targetId) {
                         panel.classList.remove('hidden');
-                        // Smoothly scroll the user down right to their rulebook content
                         panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     } else {
                         panel.classList.add('hidden');
@@ -973,157 +1016,164 @@ const renderedGames = await Promise.all(
                 });
             });
         });
-    </script>
 
-    <!-- Unified Soloverse Platform Engine: Handles Service Workers, Auto-Theme Detection, and UI Controls -->
-    <script is:inline>
-        (function() {
-            // ==========================================
-            // 1. SERVICE WORKER REGISTER & RESET CONTROLS
-            // ==========================================
-            if ('serviceWorker' in navigator) {
-                // Register the background service worker architecture on initial load
-                window.addEventListener('load', () => {
-                    // FIX: Directs your app explicitly to the clean compilation route managed by your Astro config
-                    navigator.serviceWorker.register('/sw.js', { scope: '/' })
-                        .then(reg => {
-                            console.log('Soloverse Core Sync Channel Operational:', reg.scope);
-                            
-                            // CLEANUP: Let the PWA check for code updates naturally instead of forcing it on every single touch event
-                            if (navigator.onLine) {
-                                reg.update();
-                            }
-                        })
-                        .catch(err => console.error('Soloverse Core Sync Blocked:', err));
+        // ==========================================
+        // 2. DROPDOWN LAYOUT MANAGEMENT LIFECYCLE
+        // ==========================================
+        document.querySelectorAll('.layout-trigger-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const targetMenu = btn.nextElementSibling;
+                document.querySelectorAll('.layout-dropdown').forEach(m => {
+                    if(m !== targetMenu) m.classList.add('hidden');
+                });
+                targetMenu.classList.remove('hidden');
+            });
+        });
+
+        document.querySelectorAll('.layout-opt-btn').forEach(opt => {
+            opt.addEventListener('click', () => {
+                const targetPanel = opt.closest('.game-panel');
+                const targetViewMode = opt.getAttribute('data-view');
+                if (targetPanel) {
+                    targetPanel.setAttribute('data-active-layout', targetViewMode);
+                }
+                opt.closest('.layout-dropdown').classList.add('hidden');
+            });
+        });
+
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.layout-dropdown').forEach(m => m.classList.add('hidden'));
+        });
+
+        // ==========================================
+        // 3. SERVICE WORKER LIFECYCLE & HOT SWAP SYNC
+        // ==========================================
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js', { scope: '/' })
+                    .then(reg => {
+                        console.log('Soloverse Core Sync Channel Operational:', reg.scope);
+                        if (navigator.onLine) {
+                            reg.update();
+                        }
+
+                        const trackWorkerState = (worker) => {
+                            worker.addEventListener('statechange', () => {
+                                if (worker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    const updateBanner = document.getElementById('update-sync-banner');
+                                    if (updateBanner) updateBanner.style.display = 'flex';
+                                }
+                            });
+                        };
+
+                        if (reg.installing) trackWorkerState(reg.installing);
+                        if (reg.waiting) {
+                            const updateBanner = document.getElementById('update-sync-banner');
+                            if (updateBanner) updateBanner.style.display = 'flex';
+                        }
+
+                        reg.addEventListener('updatefound', () => {
+                            trackWorkerState(reg.installing);
+                        });
+                    })
+                    .catch(err => console.error('Soloverse Core Sync Blocked:', err));
                 });
             }
 
-            // ==========================================
-            // 2. AUTOMATED THEME EVALUATION OR OVERRIDE
-            // ==========================================
-            // Enforce dark theme directly on the document context
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('soloverse-theme', 'dark');
+        const updateBtn = document.getElementById('update-sync-action-btn');
+        if (updateBtn) {
+            updateBtn.addEventListener('click', () => {
+                navigator.serviceWorker.ready.then(reg => {
+                    if (reg.waiting) {
+                        reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+                    }
+                    window.location.reload();
+                });
+            });
+        }
 
-            // ==========================================
-            // 4. AUTOMATED PWA INSTALLATION INTERCEPTOR
-            // ==========================================
-            window.addEventListener('DOMContentLoaded', () => {
-                const banner = document.getElementById('pwa-banner');
-                const bodyText = document.getElementById('pwa-instructions');
-                const closeCross = document.getElementById('pwa-close');
-                const dismissBtn = document.getElementById('pwa-dismiss');
-                const actionBtn = document.getElementById('pwa-action-btn');
+        // ==========================================
+        // 4. FIXED DARK THEME ENFORCEMENT ENGINE
+        // ==========================================
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('soloverse-theme', 'dark');
 
-                if (!banner) return; // Structural guard to prevent console errors
+        // ==========================================
+        // 5. AUTOMATED PWA INSTALLATION INTERCEPTOR
+        // ==========================================
+        const banner = document.getElementById('pwa-banner');
+        const bodyText = document.getElementById('pwa-instructions');
+        const closeCross = document.getElementById('pwa-close');
+        const dismissBtn = document.getElementById('pwa-dismiss');
+        const actionBtn = document.getElementById('pwa-action-btn');
 
-                // Verify if the user has already explicitly closed this banner in the past
-                if (localStorage.getItem('pwa-banner-dismissed') === 'true') return;
-
-                // Device Profiling Flags
+        if (banner) {
+            if (localStorage.getItem('pwa-banner-dismissed') !== 'true') {
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
                 const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
 
-                // Stop execution entirely if the player is already using the installed home screen app version
-                if (isStandalone) return;
+                if (!isStandalone) {
+                    let deferredPrompt = null;
 
-                let deferredPrompt = null;
-
-                if (isIOS) {
-                    // Scenario A: Apple iOS Platform Profiler (Safari Directions Injection)
-                    bodyText.innerHTML = "Access the Soloverse platform like a native mobile app! Tap the <strong>Share</strong> button in Safari (square with an up arrow) and select <strong>Add to Home Screen</strong>.";
-                    banner.style.display = 'flex';
-                } else {
-                    // Scenario B: Android / Google Chrome Engine Listener
-                    window.addEventListener('beforeinstallprompt', (e) => {
-                        // Intercept Chrome's default browser overlay popup strip
-                        e.preventDefault();
-                        deferredPrompt = e;
-
-                        bodyText.innerHTML = "Install the Soloverse library layout onto your device grid for lightning-fast book rendering and full offline table support.";
-                        actionBtn.style.display = 'block';
+                    if (isIOS) {
+                        bodyText.innerHTML = "Access the Soloverse platform like a native mobile app! Tap the <strong>Share</strong> button in Safari (square with an up arrow) and select <strong>Add to Home Screen</strong>.";
                         banner.style.display = 'flex';
-                    });
+                    } else {
+                        window.addEventListener('beforeinstallprompt', (e) => {
+                            e.preventDefault();
+                            deferredPrompt = e;
+                            bodyText.innerHTML = "Install the Soloverse library layout onto your device grid for lightning-fast book rendering and full offline table support.";
+                            if (actionBtn) actionBtn.style.display = 'block';
+                            banner.style.display = 'flex';
+                        });
+                    }
+
+                    const hideBanner = () => {
+                        banner.style.opacity = '0';
+                        setTimeout(() => { banner.style.display = 'none'; }, 300);
+                    };
+
+                    if (closeCross) closeCross.addEventListener('click', hideBanner);
+                    if (dismissBtn) {
+                        dismissBtn.addEventListener('click', () => {
+                            localStorage.setItem('pwa-banner-dismissed', 'true');
+                            hideBanner();
+                        });
+                    }
+
+                    if (actionBtn) {
+                        actionBtn.addEventListener('click', async () => {
+                            if (!deferredPrompt) return;
+                            hideBanner();
+                            deferredPrompt.prompt();
+                            const { outcome } = await deferredPrompt.userChoice;
+                            if (outcome === 'accepted') {
+                                localStorage.setItem('pwa-banner-dismissed', 'true');
+                            }
+                            deferredPrompt = null;
+                        });
+                    }
                 }
-
-                // Interactive Event Triggers for Dismissing or Running Installs
-                const hideBanner = () => {
-                    banner.style.opacity = '0';
-                    setTimeout(() => { banner.style.display = 'none'; }, 300);
-                };
-
-                closeCross.addEventListener('click', hideBanner);
-                dismissBtn.addEventListener('click', () => {
-                    localStorage.setItem('pwa-banner-dismissed', 'true'); // Remembers dismissal setting forever
-                    hideBanner();
-                });
-
-                actionBtn.addEventListener('click', async () => {
-                    if (!deferredPrompt) return;
-                    hideBanner();
-                    deferredPrompt.prompt(); // Fires native Google Chrome install pipeline dialog layer
-                    const { outcome } = await deferredPrompt.userChoice;
-                    if (outcome === 'accepted') {
-                        localStorage.setItem('pwa-banner-dismissed', 'true');
-                    }
-                    deferredPrompt = null;
-                });
-            });
-
-            // ==========================================
-            // 5. MANUAL CANVAS ROTATION OVERRIDE CONTROLS
-            // ==========================================
-            window.addEventListener('DOMContentLoaded', () => {
-                const rotateBtn = document.getElementById('rotate-view-btn');
-                if (!rotateBtn) return; // Operational guard to stop console errors if button is absent
-
-                let currentRotateState = localStorage.getItem('soloverse-rotate-lock') || 'portrait';
-                document.documentElement.setAttribute('data-rotate-override', currentRotateState);
-
-                rotateBtn.addEventListener('click', () => {
-                    const activeState = document.documentElement.getAttribute('data-rotate-override');
-                    const targetState = activeState === 'landscape' ? 'portrait' : 'landscape';
-                    
-                    document.documentElement.setAttribute('data-rotate-override', targetState);
-                    localStorage.setItem('soloverse-rotate-lock', targetState);
-                });
-            });
-
-        })();
+            }
+        }
 
         // ==========================================
-        // DROPDOWN LAYOUT MANAGEMENT LIFECYCLE
+        // 6. CANVAS ROTATION OVERRIDE CONTROLS
         // ==========================================
-        document.addEventListener('DOMContentLoaded', () => {
-            // Toggle dropdown overlay visibility
-            document.querySelectorAll('.layout-trigger-btn').forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    const targetMenu = btn.nextElementSibling;
-                    document.querySelectorAll('.layout-dropdown').forEach(m => {
-                        if(m !== targetMenu) m.classList.add('hidden');
-                    });
-                    targetMenu.classList.remove('hidden');
-                });
-            });
+        const rotateBtn = document.getElementById('rotate-view-btn');
+        if (rotateBtn) {
+            let currentRotateState = localStorage.getItem('soloverse-rotate-lock') || 'portrait';
+            document.documentElement.setAttribute('data-rotate-override', currentRotateState);
 
-            // Handle view updating selection clicks
-            document.querySelectorAll('.layout-opt-btn').forEach(opt => {
-                opt.addEventListener('click', () => {
-                    const targetPanel = opt.closest('.game-panel');
-                    const targetViewMode = opt.getAttribute('data-view');
-                    if (targetPanel) {
-                        targetPanel.setAttribute('data-active-layout', targetViewMode);
-                    }
-                    opt.closest('.layout-dropdown').classList.add('hidden');
-                });
+            rotateBtn.addEventListener('click', () => {
+                const activeState = document.documentElement.getAttribute('data-rotate-override');
+                const targetState = activeState === 'landscape' ? 'portrait' : 'landscape';
+            
+                document.documentElement.setAttribute('data-rotate-override', targetState);
+                localStorage.setItem('soloverse-rotate-lock', targetState);
             });
-
-            // Click outside handler to dismiss layout dropdown layers safely
-            document.addEventListener('click', () => {
-                document.querySelectorAll('.layout-dropdown').forEach(m => m.classList.add('hidden'));
-            });
-        });
+        }
     </script>
 
 </body>
