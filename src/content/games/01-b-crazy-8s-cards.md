@@ -9531,47 +9531,47 @@ box-sizing: border-box;
 
 /* 🟢 1. TIPS CONTAINER (Original Light Green) */
 --border-tip: #aded8f; 
---bg-tip: rgba(173, 237, 143, 0.04);
+--bg-tip: #aded8f30;
 
 /* 🟢 2. GENERAL NOTES CONTAINER (Original Green) */
 --border-note: #0ed145;
---bg-note: rgba(14, 209, 69, 0.04);
+--bg-note: #0ed14530;
 
 /* 🟡 3. METAGAME RULES EXAMPLES CONTAINER (Original Yellow) */
 --border-example: #fff200; 
---bg-example: rgba(255, 242, 0, 0.04);
+--bg-example: #fff20030;
 
 /* 🟠 4. DISCARDS POSITIONING ACTIONS CONTAINER (Original Orange) */
 --border-discards: #ff7f27;
---bg-discards: rgba(255, 127, 39, 0.04);
+--bg-discards: #ff7f2730;
 
 /* 🟤 5. CHALLENGE SYSTEM NOTES CONTAINER (Original Light Brown) */
 --border-challenge: #b97a56; 
---bg-challenge: rgba(185, 122, 86, 0.04);
+--bg-challenge: #b97a5630;
 
 /* 🟤 6. CRITICAL METAGAME INFORMATION CONTAINER (Original Dark Brown) */
---border-important: #a75e28; 
---bg-important: rgba(167, 94, 40, 0.04);
+--border-important: #84471a; 
+--bg-important: #84471a30;
 
 /* 🔴 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Original Red) */
 --border-restriction: #ec1c24; 
---bg-restriction: rgba(236, 28, 36, 0.04);
+--bg-restriction: #ec1c2430;
 
 /* 💗 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Original Pink) */
 --border-compatibility: #ffaec8; 
---bg-compatibility: rgba(255, 174, 200, 0.04);
+--bg-compatibility: #ffaec830;
 
 /* 🍇 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Original Light Purple) */
 --border-victory: #b497ef; 
---bg-victory: rgba(180, 151, 239, 0.04);
+--bg-victory: #b497ef30;
 
 /* 🔮 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Original Purple) */
 --border-two-player: #9d00ff;
---bg-two-player: rgba(157, 0, 255, 0.04);
+--bg-two-player: #9d00ff30;
 
 /* 🪙 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Original Grey) */
 --border-advanced: #b2b2b2;
---bg-advanced: rgba(178, 178, 178, 0.04);
+--bg-advanced: #b2b2b230;
 }
 
 /* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
