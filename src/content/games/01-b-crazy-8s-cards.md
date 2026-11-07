@@ -653,7 +653,7 @@ type: "cards"
 <a href="#crazy-8s-substitution-stone" class="matrix-link">SUBSTITUTION STONE [ANCIENT STONE CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-system-absoulte-zero" class="matrix-link">SYSTEM ABSOLUTE ZERO</a>
+<a href="#crazy-8s-system-absolute-zero" class="matrix-link">SYSTEM ABSOLUTE ZERO</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
