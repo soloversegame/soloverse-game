@@ -783,45 +783,49 @@ box-sizing: border-box;
 --accent-heading: #3a3f54;
 --accent-subheading: #3b82f6;
 
-/* 🟢 1. TIPS CONTAINER (Light Green) */
+/* 🟢 1. TIPS CONTAINER (Original Light Green) */
 --border-tip: #aded8f; 
---bg-tip: rgba(173, 237, 143, 0.15);
+--bg-tip: rgba(44, 122, 0, 0.08);
 
-/* 🟢 2. GENERAL NOTES & EXAMPLES (Green) */
+/* 🟢 2. GENERAL NOTES CONTAINER (Original Green) */
 --border-note: #0ed145;
---bg-note: rgba(14, 209, 69, 0.15);
+--bg-note: rgba(5, 130, 37, 0.08);
 
-/* 🟠 4. DISCARDS HOOKS (Orange) */
+/* 🟡 3. METAGAME RULES EXAMPLES CONTAINER (Original Yellow) */
+--border-example: #fff200; 
+--bg-example: rgba(181, 137, 0, 0.08);
+
+/* 🟠 4. DISCARDS POSITIONING ACTIONS CONTAINER (Original Orange) */
 --border-discards: #ff7f27;
---bg-discards: rgba(255, 127, 39, 0.15);
+--bg-discards: rgba(194, 65, 12, 0.08);
 
-/* 🟤 5. CHALLENGE NOTES (Light Brown) */
+/* 🟤 5. CHALLENGE SYSTEM NOTES CONTAINER (Original Light Brown) */
 --border-challenge: #b97a56; 
---bg-challenge: rgba(185, 122, 86, 0.15);
+--bg-challenge: rgba(124, 70, 35, 0.08);
 
-/* 🟤 6. IMPORTANT SYSTEM NOTES (Dark Brown) */
+/* 🟤 6. CRITICAL METAGAME INFORMATION CONTAINER (Original Dark Brown) */
 --border-important: #84471a; 
---bg-important: rgba(132, 71, 26, 0.15);
+--bg-important: rgba(92, 48, 15, 0.08);
 
-/* 🔴 7. RESTRICTIONS & PENALTIES (Red) */
+/* 🔴 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Original Red) */
 --border-restriction: #ec1c24; 
---bg-restriction: rgba(236, 28, 36, 0.15);
+--bg-restriction: rgba(185, 28, 28, 0.08);
 
-/* 💗 8. COMPATIBILITY NOTES (Pink) */
+/* 💗 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Original Pink) */
 --border-compatibility: #ffaec8; 
---bg-compatibility: rgba(255, 174, 200, 0.15);
+--bg-compatibility: rgba(219, 39, 119, 0.08);
 
-/* 🍇 9. SPECIAL VICTORY CONDITIONS (Light Purple) */
+/* 🍇 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Original Light Purple) */
 --border-victory: #b497ef; 
---bg-victory: rgba(180, 151, 239, 0.15);
+--bg-victory: rgba(109, 40, 217, 0.08);
 
-/* 🔮 10. 2 PLAYER GAME BALANCING (Purple) */
+/* 🔮 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Original Purple) */
 --border-two-player: #9d00ff;
---bg-two-player: rgba(157, 0, 255, 0.15);
+--bg-two-player: rgba(88, 0, 150, 0.08);
 
-/* 🪙 11. ADVANCED OPTIONAL HOUSINGS (Grey) */
+/* 🪙 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Original Grey) */
 --border-advanced: #b2b2b2;
---bg-advanced: rgba(178, 178, 178, 0.15);
+--bg-advanced: rgba(75, 85, 99, 0.08);
 }
 
 /* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
