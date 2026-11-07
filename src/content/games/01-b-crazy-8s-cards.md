@@ -2153,14 +2153,13 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a Chaos Draw +2 Specific Targeted.</li>
 </ul>
 </div>
-</li> 
 </ul>
 </div>
 <div class="challenge-box">
@@ -9658,5 +9657,42 @@ display: block;
 .text-layer .special-victory-condition-note-box { background-color: var(--bg-victory) !important; border-left: 4px solid var(--border-victory) !important; border-top: 1px solid var(--border-victory) !important; border-right: 1px solid var(--border-victory) !important; border-bottom: 1px solid var(--border-victory) !important; }
 .text-layer .two-player-note-box { background-color: var(--bg-two-player) !important; border-left: 4px solid var(--border-two-player) !important; border-top: 1px solid var(--border-two-player) !important; border-right: 1px solid var(--border-two-player) !important; border-bottom: 1px solid var(--border-two-player) !important; }
 .text-layer .advanced-box { background-color: var(--bg-advanced) !important; border-left: 4px solid var(--border-advanced) !important; border-top: 1px solid var(--border-advanced) !important; border-right: 1px solid var(--border-advanced) !important; border-bottom: 1px solid var(--border-advanced) !important; }
+
+/* ==========================================================================
+   NESTED CALLOUT PROTECTION ENGINE (ALLOWS MULTI-LEVEL DEEP INJECTION)
+   ========================================================================= */
+
+/* 1. Force nested text and list nodes to respect their immediate box parent colors */
+.text-layer .tip-box, .text-layer .tip-box * { color: var(--text-body) !important; }
+.text-layer .note-box, .text-layer .note-box * { color: var(--text-body) !important; }
+.text-layer .discards-box, .text-layer .discards-box * { color: var(--text-body) !important; }
+.text-layer .challenge-box, .text-layer .challenge-box * { color: var(--text-body) !important; }
+.text-layer .important-box, .text-layer .important-box * { color: var(--text-body) !important; }
+.text-layer .restriction-box, .text-layer .restriction-box * { color: var(--text-body) !important; }
+.text-layer .compatibility-box, .text-layer .compatibility-box * { color: var(--text-body) !important; }
+.text-layer .special-victory-condition-note-box, .text-layer .special-victory-condition-note-box * { color: var(--text-body) !important; }
+.text-layer .two-player-note-box, .text-layer .two-player-note-box * { color: var(--text-body) !important; }
+.text-layer .advanced-box, .text-layer .advanced-box * { color: var(--text-body) !important; }
+
+/* 2. Strict Example-Box Protection (Enforces Yellow Borders & Text Everywhere) */
+.text-layer .example-box, 
+.text-layer .example-box * { 
+color: #fff200 !important; /* Forces text inside any nested example box to be yellow */
+font-style: italic !important;
+}
+
+/* Fixes strong/bold elements inside nested examples so they stand out in high-contrast yellow */
+.text-layer .example-box strong,
+.text-layer .example-box strong span {
+color: #ffffff !important; /* Makes bold tags inside examples pop cleanly in white */
+font-weight: 700 !important;
+}
+
+/* 3. Layout Spacing Fix for Deeply Nested Boxes */
+.text-layer div[class*="-box"] div[class*="-box"] {
+margin: 8px 0 !important; /* Tightens up the margins if a box is inside another box */
+width: 100% !important;
+display: block !important;
+}
 
 </style>
