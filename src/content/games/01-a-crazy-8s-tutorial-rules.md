@@ -863,56 +863,57 @@ box-sizing: border-box;
  12. UNIFIED RULEBOOK MARKDOWN COMPONENT ENGINE (.text-layer)
  ========================================================================= */
 
-/* 🎨 ORIGINAL SEMANTIC COLOR MATRIX BACKPORT */
+/* 🎨 VERIFIED BACKUP PALETTE ENGINE INITIALISATION */
 .text-layer {
---color-card-title: #60a5fa; 
---color-card-class: #34d399; 
+/* Core Document Typography Colors */
+--color-card-title: #0000ff; 
+--color-card-class: #8cfffb; 
 --accent-heading: #3a3f54;
 --accent-subheading: #3b82f6;
 
 /* 🟢 1. TIPS CONTAINER (Original Light Green) */
---border-tip: #aded8f; 
---bg-tip: rgba(44, 122, 0, 0.08);
+--border-tip: rgba(44, 122, 0, 0.08);
+--bg-tip: #aded8f; 
 
 /* 🟢 2. GENERAL NOTES CONTAINER (Original Green) */
---border-note: #0ed145;
---bg-note: rgba(5, 130, 37, 0.08);
+--border-note: rgba(5, 130, 37, 0.08);
+--bg-note: #0ed145;
 
 /* 🟡 3. METAGAME RULES EXAMPLES CONTAINER (Original Yellow) */
---border-example: #fff200; 
---bg-example: rgba(181, 137, 0, 0.08);
+--border-example: rgba(181, 137, 0, 0.08);
+--bg-example: #fff200; 
 
 /* 🟠 4. DISCARDS POSITIONING ACTIONS CONTAINER (Original Orange) */
---border-discards: #ff7f27;
---bg-discards: rgba(194, 65, 12, 0.08);
+--border-discards: rgba(194, 65, 12, 0.08);
+--bg-discards: #ff7f27;
 
 /* 🟤 5. CHALLENGE SYSTEM NOTES CONTAINER (Original Light Brown) */
---border-challenge: #b97a56; 
---bg-challenge: rgba(124, 70, 35, 0.08);
+--border-challenge: rgba(124, 70, 35, 0.08);
+--bg-challenge: #b97a56;
 
 /* 🟤 6. CRITICAL METAGAME INFORMATION CONTAINER (Original Dark Brown) */
---border-important: #84471a; 
---bg-important: rgba(92, 48, 15, 0.08);
+--border-important: rgba(92, 48, 15, 0.08);
+--bg-important: #84471a; 
 
 /* 🔴 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Original Red) */
---border-restriction: #ec1c24; 
---bg-restriction: rgba(185, 28, 28, 0.08);
+--border-restriction: rgba(185, 28, 28, 0.08);
+--bg-restriction: #ec1c24; 
 
 /* 💗 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Original Pink) */
 --border-compatibility: #ffaec8; 
 --bg-compatibility: rgba(219, 39, 119, 0.08);
 
 /* 🍇 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Original Light Purple) */
---border-victory: #b497ef; 
---bg-victory: rgba(109, 40, 217, 0.08);
+--border-victory: rgba(109, 40, 217, 0.08);
+--bg-victory: #b497ef; 
 
 /* 🔮 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Original Purple) */
---border-two-player: #9d00ff;
---bg-two-player: rgba(88, 0, 150, 0.08);
+--border-two-player: rgba(88, 0, 150, 0.08);
+--bg-two-player: #9d00ff;
 
 /* 🪙 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Original Grey) */
---border-advanced: #b2b2b2;
---bg-advanced: rgba(75, 85, 99, 0.08);
+--border-advanced: rgba(75, 85, 99, 0.08);
+--bg-advanced: #b2b2b2;
 }
 
 /* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
