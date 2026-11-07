@@ -1,5 +1,5 @@
 ---
-gameId: "01-a-crazy-8s-tutorial"
+gameId: "01-a-tutorial"
 title: "[01-A] Crazy 8s Tutorial Game Rules"
 type: "rules"
 ---
@@ -12,27 +12,27 @@ type: "rules"
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
 
-<div id="crazy-8s-tutorial-game-rules-contents"></div>
+<div id="tutorial-game-rules-contents"></div>
 <div class="matrix-toc-box">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-object" class="matrix-link">OBJECT</a>
+<a href="#tutorial-object" class="matrix-link">OBJECT</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-setup" class="matrix-link">SETUP</a>
+<a href="#tutorial-setup" class="matrix-link">SETUP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-how-to-play" class="matrix-link">HOW TO PLAY</a>
+<a href="#tutorial-how-to-play" class="matrix-link">HOW TO PLAY</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-tutorial-victory-conditions" class="matrix-link">VICTORY CONDITIONS</a>
+<a href="#tutorial-victory-conditions" class="matrix-link">VICTORY CONDITIONS</a>
 </li>
 </ul>
 </nav>
 
 <!-- OBJECT -->
-<div id="crazy-8s-tutorial-object">
+<div id="tutorial-object">
 <div class="rules-box">
 <h4>OBJECT</h4>
 <ul>
@@ -40,13 +40,13 @@ type: "rules"
 <li>Therefore: Be the first Player to get rid of all your Cards.</li>
 </ul>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
 
 <!-- SETUP -->
-<div id="crazy-8s-tutorial-setup">
+<div id="tutorial-setup">
 <div class="rules-box">
 <h4>SETUP</h4>
 <ol>
@@ -179,7 +179,7 @@ type: "rules"
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
@@ -194,7 +194,7 @@ loading="lazy"
 </div>
 
 <!-- HOW TO PLAY -->
-<div id="crazy-8s-tutorial-how-to-play">
+<div id="tutorial-how-to-play">
 <div class="rules-box">
 <h4>HOW TO PLAY</h4>
 <ol>
@@ -221,13 +221,13 @@ loading="lazy"
 <li>You may also choose not to play a playable Card from your Hand [such as keeping a Chaos Card up your sleeve for later]. If so, you must Draw a Card from the Deck. The Pick-Up/Put-Down Rule applies here as well; however, you may not play any other Card from your Hand after Drawing.</li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
 
 <!-- VICTORY CONDITIONS -->
-<div id="crazy-8s-tutorial-victory-conditions">
+<div id="tutorial-victory-conditions">
 <div class="rules-box">
 <h4>VICTORY CONDITIONS</h4>
 <ol>
@@ -267,7 +267,7 @@ loading="lazy"
 </li>
 </ol>
 <div class="return-link-wrapper">
-<a href="#crazy-8s-tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+<a href="#tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
 </div>
