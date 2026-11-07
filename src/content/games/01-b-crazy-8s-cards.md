@@ -1239,6 +1239,10 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
 </div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-6.png">
+</div>
+</div>
 <div class="discards-box">
 <ul>
 <li>Play to the Side of the Discards.</li>
@@ -1255,10 +1259,6 @@ type: "cards"
 </ol>
 </li>
 </ol>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-6.png">
-</div>
 </div>
 <div class="discards-box">
 <ul>
