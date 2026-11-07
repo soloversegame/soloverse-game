@@ -775,45 +775,53 @@ box-sizing: border-box;
    12. UNIFIED RULEBOOK MARKDOWN COMPONENT ENGINE (.text-layer)
    ========================================================================= */
 
-/* 🎨 MASTER COLOR SCHEME INITIALIZATION FOR MARKDOWN PACKS */
+/* 🎨 VERIFIED BACKUP PALETTE ENGINE INITIALISATION */
 .text-layer {
---color-card-title: #60a5fa; 
---color-card-class: #34d399; 
+/* Core Document Typography Colors */
+--color-card-title: #0000ff; 
+--color-card-class: #8cfffb; 
 --accent-heading: #3a3f54;
 --accent-subheading: #3b82f6;
 
---border-tip: #2c7a00; 
---bg-tip: rgba(44, 122, 0, 0.12);
+/* 🟢 1. TIPS CONTAINER (Light Green) */
+--border-tip: #aded8f; 
+--bg-tip: rgba(173, 237, 143, 0.15);
 
+/* 🟢 2. GENERAL NOTES & EXAMPLES (Green) */
 --border-note: #0ed145;
---bg-note: rgba(14, 209, 69, 0.12);
+--bg-note: rgba(14, 209, 69, 0.15);
 
---border-example: #b58900; 
---bg-example: rgba(181, 137, 0, 0.12);
+/* 🟠 4. DISCARDS HOOKS (Orange) */
+--border-discards: #ff7f27;
+--bg-discards: rgba(255, 127, 39, 0.15);
 
---border-discards: #c2410c;
---bg-discards: rgba(194, 65, 12, 0.12);
+/* 🟤 5. CHALLENGE NOTES (Light Brown) */
+--border-challenge: #b97a56; 
+--bg-challenge: rgba(185, 122, 86, 0.15);
 
---border-challenge: #7c4623; 
---bg-challenge: rgba(124, 70, 35, 0.12);
+/* 🟤 6. IMPORTANT SYSTEM NOTES (Dark Brown) */
+--border-important: #84471a; 
+--bg-important: rgba(132, 71, 26, 0.15);
 
---border-important: #ff7f27; 
---bg-important: rgba(255, 127, 39, 0.12);
+/* 🔴 7. RESTRICTIONS & PENALTIES (Red) */
+--border-restriction: #ec1c24; 
+--bg-restriction: rgba(236, 28, 36, 0.15);
 
---border-restriction: #ef4444; 
---bg-restriction: rgba(239, 68, 68, 0.12);
+/* 💗 8. COMPATIBILITY NOTES (Pink) */
+--border-compatibility: #ffaec8; 
+--bg-compatibility: rgba(255, 174, 200, 0.15);
 
---border-compatibility: #db2777; 
---bg-compatibility: rgba(219, 39, 119, 0.12);
+/* 🍇 9. SPECIAL VICTORY CONDITIONS (Light Purple) */
+--border-victory: #b497ef; 
+--bg-victory: rgba(180, 151, 239, 0.15);
 
---border-victory: #6d28d9; 
---bg-victory: rgba(109, 40, 217, 0.12);
+/* 🔮 10. 2 PLAYER GAME BALANCING (Purple) */
+--border-two-player: #9d00ff;
+--bg-two-player: rgba(157, 0, 255, 0.15);
 
---border-two-player: #8b5cf6;
---bg-two-player: rgba(139, 92, 246, 0.12);
-
---border-advanced: #4b5563;
---bg-advanced: rgba(75, 85, 99, 0.12);
+/* 🪙 11. ADVANCED OPTIONAL HOUSINGS (Grey) */
+--border-advanced: #b2b2b2;
+--bg-advanced: rgba(178, 178, 178, 0.15);
 }
 
 /* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
@@ -845,7 +853,7 @@ margin-bottom: 12px;
 }
 
 .text-layer h4 {
-font-size: 1.25rem;
+font-size: 1.35rem;
 color: var(--color-card-title);
 margin: 0 0 4px 0;
 font-weight: 700;
@@ -858,7 +866,7 @@ font-weight: 600;
 }
 
 .text-layer .rules-box {
-background: #11121a;
+background: var(--bg-card);
 border: 1px solid var(--text-divider);
 padding: 22px;
 border-radius: 12px;
@@ -872,7 +880,7 @@ gap: 14px;
 .text-layer .rules-box > ul, 
 .text-layer .rules-box > ol { margin: 4px 0 4px 20px; }
 
-/* 📦 SEMANTIC CALLOUT ENGINE SCHEMAS */
+/* 📦 SEMANTIC WRAPPER CONTAINERS */
 .text-layer .tip-box, .text-layer .note-box, .text-layer .example-box, 
 .text-layer .discards-box, .text-layer .challenge-box, .text-layer .important-box, 
 .text-layer .restriction-box, .text-layer .compatibility-box, 
@@ -882,18 +890,18 @@ font-size: 0.92rem !important;
 padding: 14px 16px !important;
 border-radius: 8px !important;
 color: var(--text-body) !important;
-margin: 8px 0 !important;
+margin: 12px 0 !important;
 font-weight: 500 !important;
 box-sizing: border-box !important;
-border: 1px solid transparent !important;
+display: block;
 }
 
+/* 🚀 4-BORDER SHADOW BOX PROFILES */
 .text-layer .tip-box { background-color: var(--bg-tip) !important; border-left: 4px solid var(--border-tip) !important; border-top: 1px solid var(--border-tip) !important; border-right: 1px solid var(--border-tip) !important; border-bottom: 1px solid var(--border-tip) !important; }
-.text-layer .note-box { background-color: var(--bg-note) !important; border-left: 4px solid var(--border-note) !important; border-top: 1px solid var(--border-note) !important; border-right: 1px solid var(--border-note) !important; border-bottom: 1px solid var(--border-note) !important; }
-.text-layer .example-box { background-color: var(--bg-example) !important; border-left: 4px solid var(--border-example) !important; border-top: 1px solid var(--border-example) !important; border-right: 1px solid var(--border-example) !important; border-bottom: 1px solid var(--border-example) !important; font-style: italic !important; }
+.text-layer .note-box, .text-layer .example-box { background-color: var(--bg-note) !important; border-left: 4px solid var(--border-note) !important; border-top: 1px solid var(--border-note) !important; border-right: 1px solid var(--border-note) !important; border-bottom: 1px solid var(--border-note) !important; }
 .text-layer .discards-box { background-color: var(--bg-discards) !important; border-left: 4px solid var(--border-discards) !important; border-top: 1px solid var(--border-discards) !important; border-right: 1px solid var(--border-discards) !important; border-bottom: 1px solid var(--border-discards) !important; }
 .text-layer .challenge-box { background-color: var(--bg-challenge) !important; border-left: 4px solid var(--border-challenge) !important; border-top: 1px solid var(--border-challenge) !important; border-right: 1px solid var(--border-challenge) !important; border-bottom: 1px solid var(--border-challenge) !important; }
-.text-layer .important-box { background-color: var(--bg-important) !important; border-left: 4px solid var(--border-important) !important; border-top: 1px solid var(--border-important) !important; border-right: 1px solid var(--border-important) !important; border-bottom: 1px solid var(--border-important) !important; }
+.text-layer .important-box { backgro;/und-color: var(--bg-important) !important; border-left: 4px solid var(--border-important) !important; border-top: 1px solid var(--border-important) !important; border-right: 1px solid var(--border-important) !important; border-bottom: 1px solid var(--border-important) !important; }
 .text-layer .restriction-box { background-color: var(--bg-restriction) !important; border-left: 4px solid var(--border-restriction) !important; border-top: 1px solid var(--border-restriction) !important; border-right: 1px solid var(--border-restriction) !important; border-bottom: 1px solid var(--border-restriction) !important; }
 .text-layer .compatibility-box { background-color: var(--bg-compatibility) !important; border-left: 4px solid var(--border-compatibility) !important; border-top: 1px solid var(--border-compatibility) !important; border-right: 1px solid var(--border-compatibility) !important; border-bottom: 1px solid var(--border-compatibility) !important; }
 .text-layer .special-victory-condition-note-box { background-color: var(--bg-victory) !important; border-left: 4px solid var(--border-victory) !important; border-top: 1px solid var(--border-victory) !important; border-right: 1px solid var(--border-victory) !important; border-bottom: 1px solid var(--border-victory) !important; }

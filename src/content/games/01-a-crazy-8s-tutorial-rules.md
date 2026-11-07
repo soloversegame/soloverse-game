@@ -278,11 +278,11 @@ loading="lazy"
 display: flex;
 flex-direction: column;
 align-items: center; /* Centers items horizontally */
-text-align: center;  /* Centers inline multi-line text */
-gap: 10px;   /* Adds clean spacing between h1 and p */
-margin: 40px auto;   /* Generates balance margin space around block */
+text-align: center; /* Centers inline multi-line text */
+gap: 10px; /* Adds clean spacing between h1 and p */
+margin: 40px auto; /* Generates balance margin space around block */
 }
-  
+
 :root, [data-theme="dark"] {
 --bg-main: #0f1015;
 --bg-card: #16171e;
@@ -416,8 +416,8 @@ width: 100%;
 .hidden { display: none !important; }
 
 /* ==========================================================================
-   3. SPLIT-VIEW OPERATIONS INTERFACE DASHBOARD (RE-CENTERED & VIEWPORT-LOCKED)
-   ========================================================================= */
+ 3. SPLIT-VIEW OPERATIONS INTERFACE DASHBOARD (RE-CENTERED & VIEWPORT-LOCKED)
+ ========================================================================= */
 .vault-panels-holder { 
 width: 100%; 
 max-width: 1400px;
@@ -517,8 +517,8 @@ box-shadow: none !important;
 }
 
 /* ==========================================================================
-   8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS (PARENT TARGETING FIX)
-   ========================================================================= */
+ 8. UNIFIED MEDIA ENGINE & VISUAL CARD GRIDS (PARENT TARGETING FIX)
+ ========================================================================= */
 .text-layer .image-container,
 .game-panel .image-container {
 margin: 20px auto !important;
@@ -603,8 +603,8 @@ flex: 1 !important;
 }
 
 /* ==========================================================================
-   7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
-   ========================================================================= */
+ 7. UNIFIED NAVIGATION LINKS & JUMP MATRIX INTERACTION
+ ========================================================================= */
 /* Meta tag positioning layout */
 .meta-tag {
 font-size: 0.9rem;
@@ -800,7 +800,7 @@ box-sizing: border-box;
 @media screen and (max-width: 480px) {
 .rules-popup-box {
 right: -10px; /* Snaps closer to the viewport boundary lines */
-width: 82vw;   /* Dynamically restricts width based on mobile display scales */
+width: 82vw; /* Dynamically restricts width based on mobile display scales */
 max-width: 250px;
 box-shadow: 0 10px 25px rgba(0,0,0,0.8);
 }
@@ -860,48 +860,59 @@ box-sizing: border-box;
 }
 
 /* ==========================================================================
-   12. UNIFIED RULEBOOK MARKDOWN COMPONENT ENGINE (.text-layer)
-   ========================================================================= */
+ 12. UNIFIED RULEBOOK MARKDOWN COMPONENT ENGINE (.text-layer)
+ ========================================================================= */
 
-/* 🎨 MASTER COLOR SCHEME INITIALIZATION FOR MARKDOWN PACKS */
+/* 🎨 ORIGINAL SEMANTIC COLOR MATRIX BACKPORT */
 .text-layer {
 --color-card-title: #60a5fa; 
 --color-card-class: #34d399; 
 --accent-heading: #3a3f54;
 --accent-subheading: #3b82f6;
 
+/* 🟢 1. TIPS CONTAINER (Original Light Green) */
 --border-tip: #2c7a00; 
---bg-tip: rgba(44, 122, 0, 0.12);
+--bg-tip: rgba(44, 122, 0, 0.08);
 
---border-note: #0ed145;
---bg-note: rgba(14, 209, 69, 0.12);
+/* 🟢 2. GENERAL NOTES CONTAINER (Original Green) */
+--border-note: #058225;
+--bg-note: rgba(5, 130, 37, 0.08);
 
+/* 🟡 3. METAGAME RULES EXAMPLES CONTAINER (Original Yellow) */
 --border-example: #b58900; 
---bg-example: rgba(181, 137, 0, 0.12);
+--bg-example: rgba(181, 137, 0, 0.08);
 
+/* 🟠 4. DISCARDS POSITIONING ACTIONS CONTAINER (Original Orange) */
 --border-discards: #c2410c;
---bg-discards: rgba(194, 65, 12, 0.12);
+--bg-discards: rgba(194, 65, 12, 0.08);
 
+/* 🟤 5. CHALLENGE SYSTEM NOTES CONTAINER (Original Light Brown) */
 --border-challenge: #7c4623; 
---bg-challenge: rgba(124, 70, 35, 0.12);
+--bg-challenge: rgba(124, 70, 35, 0.08);
 
---border-important: #ff7f27; 
---bg-important: rgba(255, 127, 39, 0.12);
+/* 🟤 6. CRITICAL METAGAME INFORMATION CONTAINER (Original Dark Brown) */
+--border-important: #5c300f; 
+--bg-important: rgba(92, 48, 15, 0.08);
 
---border-restriction: #ef4444; 
---bg-restriction: rgba(239, 68, 68, 0.12);
+/* 🔴 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Original Red) */
+--border-restriction: #b91c1c; 
+--bg-restriction: rgba(185, 28, 28, 0.08);
 
+/* 💗 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Original Pink) */
 --border-compatibility: #db2777; 
---bg-compatibility: rgba(219, 39, 119, 0.12);
+--bg-compatibility: rgba(219, 39, 119, 0.08);
 
+/* 🍇 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Original Light Purple) */
 --border-victory: #6d28d9; 
---bg-victory: rgba(109, 40, 217, 0.12);
+--bg-victory: rgba(109, 40, 217, 0.08);
 
---border-two-player: #8b5cf6;
---bg-two-player: rgba(139, 92, 246, 0.12);
+/* 🔮 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Original Purple) */
+--border-two-player: #580096;
+--bg-two-player: rgba(88, 0, 150, 0.08);
 
+/* 🪙 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Original Grey) */
 --border-advanced: #4b5563;
---bg-advanced: rgba(75, 85, 99, 0.12);
+--bg-advanced: rgba(75, 85, 99, 0.08);
 }
 
 /* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
@@ -946,7 +957,7 @@ font-weight: 600;
 }
 
 .text-layer .rules-box {
-background: #11121a;
+background: var(--bg-card);
 border: 1px solid var(--text-divider);
 padding: 22px;
 border-radius: 12px;
@@ -960,7 +971,7 @@ gap: 14px;
 .text-layer .rules-box > ul, 
 .text-layer .rules-box > ol { margin: 4px 0 4px 20px; }
 
-/* 📦 SEMANTIC CALLOUT ENGINE SCHEMAS */
+/* 📦 COMPACT WRAPPER IMPLEMENTATION */
 .text-layer .tip-box, .text-layer .note-box, .text-layer .example-box, 
 .text-layer .discards-box, .text-layer .challenge-box, .text-layer .important-box, 
 .text-layer .restriction-box, .text-layer .compatibility-box, 
@@ -970,12 +981,13 @@ font-size: 0.92rem !important;
 padding: 14px 16px !important;
 border-radius: 8px !important;
 color: var(--text-body) !important;
-margin: 8px 0 !important;
+margin: 12px 0 !important;
 font-weight: 500 !important;
 box-sizing: border-box !important;
-border: 1px solid transparent !important;
+display: block;
 }
 
+/* 🚀 4-BORDER BOX MAPPING MATCHING YOUR EXACT COMPILATION MODEL */
 .text-layer .tip-box { background-color: var(--bg-tip) !important; border-left: 4px solid var(--border-tip) !important; border-top: 1px solid var(--border-tip) !important; border-right: 1px solid var(--border-tip) !important; border-bottom: 1px solid var(--border-tip) !important; }
 .text-layer .note-box { background-color: var(--bg-note) !important; border-left: 4px solid var(--border-note) !important; border-top: 1px solid var(--border-note) !important; border-right: 1px solid var(--border-note) !important; border-bottom: 1px solid var(--border-note) !important; }
 .text-layer .example-box { background-color: var(--bg-example) !important; border-left: 4px solid var(--border-example) !important; border-top: 1px solid var(--border-example) !important; border-right: 1px solid var(--border-example) !important; border-bottom: 1px solid var(--border-example) !important; font-style: italic !important; }
