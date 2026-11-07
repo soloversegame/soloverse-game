@@ -757,48 +757,48 @@ box-sizing: border-box;
 --accent-subheading: #3b82f6;
 
 /* 🟢 1. TIPS CONTAINER (Original Light Green) */
---border-tip: rgba(44, 122, 0, 0.08);
---bg-tip: #aded8f; 
+--border-tip: #aded8f; 
+--bg-tip: #aded8f30;
 
 /* 🟢 2. GENERAL NOTES CONTAINER (Original Green) */
---border-note: rgba(5, 130, 37, 0.08);
---bg-note: #0ed145;
+--border-note: #0ed145;
+--bg-note: #0ed14530;
 
 /* 🟡 3. METAGAME RULES EXAMPLES CONTAINER (Original Yellow) */
---border-example: rgba(181, 137, 0, 0.08);
---bg-example: #fff200; 
+--border-example: #fff200; 
+--bg-example: #fff20030;
 
 /* 🟠 4. DISCARDS POSITIONING ACTIONS CONTAINER (Original Orange) */
---border-discards: rgba(194, 65, 12, 0.08);
---bg-discards: #ff7f27;
+--border-discards: #ff7f27;
+--bg-discards: #ff7f2730;
 
 /* 🟤 5. CHALLENGE SYSTEM NOTES CONTAINER (Original Light Brown) */
---border-challenge: rgba(124, 70, 35, 0.08);
---bg-challenge: #b97a56;
+--border-challenge: #b97a56; 
+--bg-challenge: #b97a5630;
 
 /* 🟤 6. CRITICAL METAGAME INFORMATION CONTAINER (Original Dark Brown) */
---border-important: rgba(92, 48, 15, 0.08);
---bg-important: #84471a; 
+--border-important: #84471a; 
+--bg-important: #84471a30;
 
 /* 🔴 7. RESTRICTIONS & ILLEGAL PLAY PROTECTIONS CONTAINER (Original Red) */
---border-restriction: rgba(185, 28, 28, 0.08);
---bg-restriction: #ec1c24; 
+--border-restriction: #ec1c24; 
+--bg-restriction: #ec1c2430;
 
 /* 💗 8. COMPATIBILITY & SEQUENCE NOTES CONTAINER (Original Pink) */
 --border-compatibility: #ffaec8; 
---bg-compatibility: rgba(219, 39, 119, 0.08);
+--bg-compatibility: #ffaec830;
 
 /* 🍇 9. SPECIAL VICTORY ENGINE CONDITIONS CONTAINER (Original Light Purple) */
---border-victory: rgba(109, 40, 217, 0.08);
---bg-victory: #b497ef; 
+--border-victory: #b497ef; 
+--bg-victory: #b497ef30;
 
 /* 🔮 10. TWO-PLAYER BALANCE VARIATION MODULES CONTAINER (Original Purple) */
---border-two-player: rgba(88, 0, 150, 0.08);
---bg-two-player: #9d00ff;
+--border-two-player: #9d00ff;
+--bg-two-player: #9d00ff30;
 
 /* 🪙 11. ADVANCED OPTIONAL HOUSE MODIFIERS CONTAINER (Original Grey) */
---border-advanced: rgba(75, 85, 99, 0.08);
---bg-advanced: #b2b2b2;
+--border-advanced: #b2b2b2;
+--bg-advanced: #b2b2b230;
 }
 
 /* 📖 TYPOGRAPHY & STRUCTURAL HEADINGS RESETS */
