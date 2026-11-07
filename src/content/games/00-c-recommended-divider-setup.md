@@ -1660,69 +1660,55 @@ gap: 14px;
 .text-layer .rules-box > ul, 
 .text-layer .rules-box > ol { margin: 4px 0 4px 20px; }
 
-/* 📦 SEMANTIC WRAPPER CONTAINERS */
-.text-layer .tip-box, .text-layer .note-box, .text-layer .example-box, 
-.text-layer .discards-box, .text-layer .challenge-box, .text-layer .important-box, 
-.text-layer .restriction-box, .text-layer .compatibility-box, 
-.text-layer .special-victory-condition-note-box, .text-layer .two-player-note-box, 
-.text-layer .advanced-box {
+/* FIXED: Unified container mappings targeting both raw block divs and nestled span variations */
+.text-layer div[class*="-box"],
+.text-layer span[class*="-box"] {
 font-size: 0.92rem !important;
 padding: 14px 16px !important;
 border-radius: 8px !important;
-color: var(--text-body) !important;
 margin: 12px 0 !important;
 font-weight: 500 !important;
 box-sizing: border-box !important;
-display: block;
-}
-
-/* 🚀 4-BORDER SHADOW BOX PROFILES */
-.text-layer .tip-box { background-color: var(--bg-tip) !important; border-left: 4px solid var(--border-tip) !important; border-top: 1px solid var(--border-tip) !important; border-right: 1px solid var(--border-tip) !important; border-bottom: 1px solid var(--border-tip) !important; }
-.text-layer .note-box, .text-layer .example-box { background-color: var(--bg-note) !important; border-left: 4px solid var(--border-note) !important; border-top: 1px solid var(--border-note) !important; border-right: 1px solid var(--border-note) !important; border-bottom: 1px solid var(--border-note) !important; }
-.text-layer .discards-box { background-color: var(--bg-discards) !important; border-left: 4px solid var(--border-discards) !important; border-top: 1px solid var(--border-discards) !important; border-right: 1px solid var(--border-discards) !important; border-bottom: 1px solid var(--border-discards) !important; }
-.text-layer .challenge-box { background-color: var(--bg-challenge) !important; border-left: 4px solid var(--border-challenge) !important; border-top: 1px solid var(--border-challenge) !important; border-right: 1px solid var(--border-challenge) !important; border-bottom: 1px solid var(--border-challenge) !important; }
-.text-layer .important-box { background-color: var(--bg-important) !important; border-left: 4px solid var(--border-important) !important; border-top: 1px solid var(--border-important) !important; border-right: 1px solid var(--border-important) !important; border-bottom: 1px solid var(--border-important) !important; }
-.text-layer .restriction-box { background-color: var(--bg-restriction) !important; border-left: 4px solid var(--border-restriction) !important; border-top: 1px solid var(--border-restriction) !important; border-right: 1px solid var(--border-restriction) !important; border-bottom: 1px solid var(--border-restriction) !important; }
-.text-layer .compatibility-box { background-color: var(--bg-compatibility) !important; border-left: 4px solid var(--border-compatibility) !important; border-top: 1px solid var(--border-compatibility) !important; border-right: 1px solid var(--border-compatibility) !important; border-bottom: 1px solid var(--border-compatibility) !important; }
-.text-layer .special-victory-condition-note-box { background-color: var(--bg-victory) !important; border-left: 4px solid var(--border-victory) !important; border-top: 1px solid var(--border-victory) !important; border-right: 1px solid var(--border-victory) !important; border-bottom: 1px solid var(--border-victory) !important; }
-.text-layer .two-player-note-box { background-color: var(--bg-two-player) !important; border-left: 4px solid var(--border-two-player) !important; border-top: 1px solid var(--border-two-player) !important; border-right: 1px solid var(--border-two-player) !important; border-bottom: 1px solid var(--border-two-player) !important; }
-.text-layer .advanced-box { background-color: var(--bg-advanced) !important; border-left: 4px solid var(--border-advanced) !important; border-top: 1px solid var(--border-advanced) !important; border-right: 1px solid var(--border-advanced) !important; border-bottom: 1px solid var(--border-advanced) !important; }
-
-/* ==========================================================================
-   NESTED CALLOUT PROTECTION ENGINE (ALLOWS MULTI-LEVEL DEEP INJECTION)
-   ========================================================================= */
-
-/* 1. Force nested text and list nodes to respect their immediate box parent colors */
-.text-layer .tip-box, .text-layer .tip-box * { color: var(--text-body) !important; }
-.text-layer .note-box, .text-layer .note-box * { color: var(--text-body) !important; }
-.text-layer .discards-box, .text-layer .discards-box * { color: var(--text-body) !important; }
-.text-layer .challenge-box, .text-layer .challenge-box * { color: var(--text-body) !important; }
-.text-layer .important-box, .text-layer .important-box * { color: var(--text-body) !important; }
-.text-layer .restriction-box, .text-layer .restriction-box * { color: var(--text-body) !important; }
-.text-layer .compatibility-box, .text-layer .compatibility-box * { color: var(--text-body) !important; }
-.text-layer .special-victory-condition-note-box, .text-layer .special-victory-condition-note-box * { color: var(--text-body) !important; }
-.text-layer .two-player-note-box, .text-layer .two-player-note-box * { color: var(--text-body) !important; }
-.text-layer .advanced-box, .text-layer .advanced-box * { color: var(--text-body) !important; }
-
-/* 2. Strict Example-Box Protection (Enforces Yellow Borders & Text Everywhere) */
-.text-layer .example-box, 
-.text-layer .example-box * { 
-color: #fff200 !important; /* Forces text inside any nested example box to be yellow */
-font-style: italic !important;
-}
-
-/* Fixes strong/bold elements inside nested examples so they stand out in high-contrast yellow */
-.text-layer .example-box strong,
-.text-layer .example-box strong span {
-color: #ffffff !important; /* Makes bold tags inside examples pop cleanly in white */
-font-weight: 700 !important;
-}
-
-/* 3. Layout Spacing Fix for Deeply Nested Boxes */
-.text-layer div[class*="-box"] div[class*="-box"] {
-margin: 8px 0 !important; /* Tightens up the margins if a box is inside another box */
+display: block !important; /* Converts inline spans into structural block layout tracks natively */
 width: 100% !important;
-display: block !important;
+}
+
+/* FIXED: Ensured text color stays standard white for normal text layers */
+.text-layer div[class*="-box"], 
+.text-layer div[class*="-box"] *,
+.text-layer span[class*="-box"], 
+.text-layer span[class*="-box"] * { 
+color: var(--text-body); 
+font-style: normal;
+}
+
+/* 🚀 4-BORDER BOX COATING ENGINE (Catches both configurations smoothly) */
+.text-layer .tip-box { background-color: var(--bg-tip) !important; border: 1px solid var(--border-tip) !important; border-left: 4px solid var(--border-tip) !important; }
+.text-layer .note-box { background-color: var(--bg-note) !important; border: 1px solid var(--border-note) !important; border-left: 4px solid var(--border-note) !important; }
+.text-layer .discards-box { background-color: var(--bg-discards) !important; border: 1px solid var(--border-discards) !important; border-left: 4px solid var(--border-discards) !important; }
+.text-layer .challenge-box { background-color: var(--bg-challenge) !important; border: 1px solid var(--border-challenge) !important; border-left: 4px solid var(--border-challenge) !important; }
+.text-layer .important-box { background-color: var(--bg-important) !important; border: 1px solid var(--border-important) !important; border-left: 4px solid var(--border-important) !important; }
+.text-layer .restriction-box { background-color: var(--bg-restriction) !important; border: 1px solid var(--border-restriction) !important; border-left: 4px solid var(--border-restriction) !important; }
+.text-layer .compatibility-box { background-color: var(--bg-compatibility) !important; border: 1px solid var(--border-compatibility) !important; border-left: 4px solid var(--border-compatibility) !important; }
+.text-layer .special-victory-condition-note-box { background-color: var(--bg-victory) !important; border: 1px solid var(--border-victory) !important; border-left: 4px solid var(--border-victory) !important; }
+.text-layer .two-player-note-box { background-color: var(--bg-two-player) !important; border: 1px solid var(--border-two-player) !important; border-left: 4px solid var(--border-two-player) !important; }
+.text-layer .advanced-box { background-color: var(--bg-advanced) !important; border: 1px solid var(--border-advanced) !important; border-left: 4px solid var(--border-advanced) !important; }
+
+/* FIXED: Scoped explicit isolation rule for Example Container background tints & text rules */
+.text-layer .example-box { 
+background-color: var(--bg-example) !important; 
+border: 1px solid var(--border-example) !important; 
+border-left: 4px solid var(--border-example) !important; 
+}
+.text-layer .example-box,
+.text-layer .example-box * {
+color: var(--text-body) !important; /* Retains clean white text profile */
+font-style: italic !important;  /* Enforces classic italics text look cleanly */
+}
+.text-layer .example-box strong,
+.text-layer .example-box strong * {
+color: #ffffff !important;
+font-weight: 700 !important;
 }
 
 </style>
