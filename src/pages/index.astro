@@ -14,7 +14,9 @@ const gamesList = [
     boxColor: "#0000ff",
     rulesId: "01-a-crazy-8s-tutorial-rules",
     cardsId: "01-a-crazy-8s-tutorial-cards",
-    soloId: null
+    soloId: null,
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "01-b-crazy-8s",
@@ -23,7 +25,9 @@ const gamesList = [
     boxColor: "#8cfffb",
     rulesId: "01-b-crazy-8s-rules",
     cardsId: "01-b-crazy-8s-cards",
-    soloId: "01-d-crazy-8s-solo-mode-rules"
+    soloId: "01-d-crazy-8s-solo-mode-rules",
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "01-c-crazy-8s-utter-chaos",
@@ -32,7 +36,9 @@ const gamesList = [
     boxColor: "#aded8f",
     rulesId: "01-c-crazy-8s-utter-chaos-rules",
     cardsId: "01-c-crazy-8s-utter-chaos-cards",
-    soloId: null
+    soloId: null,
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "02-karma",
@@ -41,7 +47,9 @@ const gamesList = [
     boxColor: "#0ed145",
     rulesId: "03-a-karma-rules",
     cardsId: "03-a-karma-cards",
-    soloId: "03-b-karma-solo-mode-rules"
+    soloId: "03-b-karma-solo-mode-rules",
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "03-cheat",
@@ -50,7 +58,9 @@ const gamesList = [
     boxColor: "#fff200",
     rulesId: "04-a-cheat-rules",
     cardsId: "04-a-cheat-cards",
-    soloId: null
+    soloId: null,
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "04-battle-solitaire",
@@ -59,7 +69,9 @@ const gamesList = [
     boxColor: "#ff7f27",
     rulesId: "05-a-battle-solitaire-rules",
     cardsId: "05-a-battle-solitaire-cards",
-    soloId: "05-b-battle-solitaire-solo-mode-rules"
+    soloId: "05-b-battle-solitaire-solo-mode-rules",
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "05-deck-builder",
@@ -68,7 +80,9 @@ const gamesList = [
     boxColor: "#b97a56",
     rulesId: "06-a-deck-builder-rules",
     cardsId: "06-a-deck-builder-cards",
-    soloId: null
+    soloId: null,
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "06-nominations",
@@ -77,7 +91,9 @@ const gamesList = [
     boxColor: "#84471a",
     rulesId: "07-a-nominations-rules",
     cardsId: "07-a-nominations-cards",
-    soloId: null
+    soloId: null,
+    variationsId: "00-d-variations-rulebook",
+    importantId: "00-a-universal-game-notes"
   },
   {
     id: "00-a-universal-game-notes",
@@ -86,7 +102,9 @@ const gamesList = [
     subtitle: null,
     rulesId: "00-a-universal-game-notes",
     cardsId: null,
-    soloId: null
+    soloId: null,
+    variationsId: null,
+    importantId: null
   },
   {
     id: "00-b-full-game-contents",
@@ -95,7 +113,9 @@ const gamesList = [
     boxColor: "#b2b2b2",
     rulesId: "00-b-full-game-contents",
     cardsId: null,
-    soloId: null
+    soloId: null,
+    variationsId: null,
+    importantId: null
   },
   {
     id: "00-c-recommended-divider-setup",
@@ -104,7 +124,9 @@ const gamesList = [
     boxColor: "#b2b2b2",
     rulesId: "00-c-recommended-divider-setup",
     cardsId: null,
-    soloId: null
+    soloId: null,
+    variationsId: null,
+    importantId: null
   },
   {
     id: "00-D-variations-rulebook",
@@ -113,7 +135,9 @@ const gamesList = [
     boxColor: "#b2b2b2",
     rulesId: "00-d-variations-rulebook",
     cardsId: null,
-    soloId: null
+    soloId: null,
+    variationsId: null,
+    importantId: null
   },
   {
     id: "00-e-patch-notes",
@@ -122,7 +146,9 @@ const gamesList = [
     boxColor: "#b2b2b2",
     rulesId: "00-e-patch-notes",
     cardsId: null,
-    soloId: null
+    soloId: null,
+    variationsId: null,
+    importantId: null
   },
   {
     id: "00-f-contact-us",
@@ -131,7 +157,9 @@ const gamesList = [
     boxColor: "#b2b2b2",
     rulesId: "00-f-contact-us",
     cardsId: null,
-    soloId: null
+    soloId: null,
+    variationsId: null,
+    importantId: null
   }
 ];
 
@@ -147,29 +175,49 @@ const upcomingGames = [
 ];
 
 
-// 3. Render all components asynchronously (including Solo components)
+// ==========================================================================
+// REPLACE STEP 3 IN YOUR FRONTMATTER CODE GRID WITH THIS CONFIGURATION
+// ==========================================================================
 const renderedGames = await Promise.all(
   gamesList.map(async (game) => {
+    // 1. Core Lookups
     const rulesMatch = allGameFiles.find((f) => f.id === game.rulesId);
     const cardsMatch = allGameFiles.find((f) => f.id === game.cardsId);
     const soloMatch = game.soloId ? allGameFiles.find((f) => f.id === game.soloId) : null;
+    
+    // 2. NEW: Safe Global Collection Document Lookups
+    const variationMatch = game.variationsId ? allGameFiles.find((f) => f.id === game.variationsId) : null;
+    const importantMatch = game.importantId ? allGameFiles.find((f) => f.id === game.importantId) : null;
 
+    // 3. Render Channels
     const rulesRender = rulesMatch ? await render(rulesMatch) : null;
     const cardsRender = cardsMatch ? await render(cardsMatch) : null;
     const soloRender = soloMatch ? await render(soloMatch) : null;
+    const variationRender = variationMatch ? await render(variationMatch) : null;
+    const importantRender = importantMatch ? await render(importantMatch) : null;
 
     return {
       ...game,
       RulesComponent: rulesRender ? rulesRender.Content : null,
       CardsComponent: cardsRender ? cardsRender.Content : null,
       SoloComponent: soloRender ? soloRender.Content : null,
+      // 4. Binds the new markdown HTML components to your page layout output loop
+      VariationComponent: variationRender ? variationRender.Content : null,
+      ImportantComponent: importantRender ? importantRender.Content : null,
     };
   })
 );
 
 // 4. Pre-evaluate component availability metrics to keep the HTML template clean
 const finalizedGames = renderedGames.map((game) => {
-  const componentCount = [game.RulesComponent, game.CardsComponent, game.SoloComponent].filter(Boolean).length;
+  const componentCount = [
+    game.RulesComponent,
+    game.CardsComponent,
+    game.SoloComponent,
+    game.VariationComponent,
+    game.ImportantComponent
+  ].filter(Boolean).length;
+
   const isSingleColumnDefault = componentCount <= 1;
 
   let initialLayout = "rules-cards";
@@ -177,6 +225,8 @@ const finalizedGames = renderedGames.map((game) => {
     if (game.RulesComponent) initialLayout = "rules-only";
     else if (game.CardsComponent) initialLayout = "cards-only";
     else if (game.SoloComponent) initialLayout = "solo-only";
+    else if (game.ImportantComponent) initialLayout = "important-only";
+    else if (game.VariationComponent) initialLayout = "variation-only";
   }
 
   return {
@@ -313,9 +363,13 @@ const finalizedGames = renderedGames.map((game) => {
             const Rules = game.RulesComponent;
             const Cards = game.CardsComponent;
             const Solo = game.SoloComponent;
+            const Variation = game.VariationComponent;
+            const Important = game.ImportantComponent;
 
             // Check metadata rules directly to see if Solo features are supported for this game card
             const hasSoloCapability = game.soloId !== null;
+            const hasVariationCapability = game.variationId !== null;
+            const hasImportantCapability = game.importantId !== null;
 
             return (
                 <div 
@@ -353,9 +407,24 @@ const finalizedGames = renderedGames.map((game) => {
                                                 Game + Solo Mode
                                             </button>
                                         )}
+                                        {Rules && hasImportantCapability && (
+                                            <button class="layout-opt-btn popup-item" data-view="rules-important">
+                                                Game + Important Rules
+                                            </button>
+                                        )}
+                                        {Rules && hasVariationCapability && (
+                                            <button class="layout-opt-btn popup-item" data-view="rules-variation">
+                                                Game + Game Variation Rules
+                                            </button>
+                                        )}
                                         {Rules && (
                                             <button class="layout-opt-btn popup-item" data-view="rules-only">
                                                 Only Game Rules
+                                            </button>
+                                        )}
+                                        {hasImportantCapability && (
+                                            <button class="layout-opt-btn popup-item" data-view="important-only">
+                                                Only Important Rules
                                             </button>
                                         )}
                                         {Cards && (
@@ -368,12 +437,18 @@ const finalizedGames = renderedGames.map((game) => {
                                                 Only Solo Mode
                                             </button>
                                         )}
+                                        {hasVariationCapability && (
+                                            <button class="layout-opt-btn popup-item" data-view="variation-only">
+                                                Only Variation Rules
+                                            </button>
+                                        )}
                                     </div>
                                 </div>
                             </div>
                         )}
                     </div>
 
+                    <!-- ==================== THE FIXED LAYOUT CONTAINER JUMP TRACK ==================== -->
                     <div class={`split-view flex-layout-engine ${game.isSingleColumnDefault ? 'single-column' : ''}`}>
                         {Rules && (
                             <section class="content-block view-slot-rules">
@@ -397,7 +472,27 @@ const finalizedGames = renderedGames.map((game) => {
                             <section class="content-block view-slot-solo">
                                 <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🕹️ Solo Mode Rules</h3>
                                 <div class="text-layer">
-                                    {Solo ? <Solo /> : <p style="color: #a4a6b5; font-style: italic;">Solo mode specification document compiled. Awaiting markdown layout initialization...</p>}
+                                    {Solo ? <Solo /> : <p style="color: #a4a6b5; font-style: italic;">Solo mode content pending layout synchronization...</p>}
+                                </div>
+                            </section>
+                        )}
+
+                        <!-- FIXED: Renders the Variation content as a data field block layer directly -->
+                        {hasVariationCapability && (
+                            <section class="content-block view-slot-variation">
+                                <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>🃏 Game Variations</h3>
+                                <div class="text-layer">
+                                    {Variation ? <Variation /> : <p style="color: #a4a6b5; font-style: italic;">Parsing variation data rule tracks...</p>}
+                                </div>
+                            </section>
+                        )}
+
+                        <!-- FIXED: Renders the Important rules content as a data field block layer directly -->
+                        {hasImportantCapability && (
+                            <section class="content-block view-slot-important">
+                                <h3 style={`color: ${game.boxColor}; border-bottom: 1px solid #2a2d3d; padding-bottom: 10px;`}>📖 Important Notes</h3>
+                                <div class="text-layer">
+                                    {Important ? <Important /> : <p style="color: #a4a6b5; font-style: italic;">Parsing universal notes rule tracks...</p>}
                                 </div>
                             </section>
                         )}
@@ -618,7 +713,7 @@ const finalizedGames = renderedGames.map((game) => {
             }
         }
 
-        /* ⚡ INTERACTIVE RENDERING STATE STATES ENGINE CONTROLLER */
+        /* ⚡ INTERACTIVE RENDERING STATE ENGINE CONTROLLER (2-COLUMN SPLIT VIEWS) */
         [data-active-layout="rules-cards"] .view-slot-rules,
         [data-active-layout="rules-cards"] .view-slot-cards { display: flex !important; }
 
@@ -628,8 +723,13 @@ const finalizedGames = renderedGames.map((game) => {
         [data-active-layout="rules-solo"] .view-slot-rules,
         [data-active-layout="rules-solo"] .view-slot-solo { display: flex !important; }
 
+        [data-active-layout="rules-important"] .view-slot-rules,
+        [data-active-layout="rules-important"] .view-slot-important { display: flex !important; }
+
+        [data-active-layout="rules-variation"] .view-slot-rules,
+        [data-active-layout="rules-variation"] .view-slot-variation { display: flex !important; }
+
         /* 📖 AUTOMATIC SINGLE-COLUMN DROPOUT MECHANICS */
-        /* If a game only has 1 rulebook, it breaks out of the locked viewport box and scrolls naturally */
         .split-view.flex-layout-engine.single-column {
             display: flex !important;
             flex-direction: column !important;
@@ -646,17 +746,24 @@ const finalizedGames = renderedGames.map((game) => {
         [data-active-layout="rules-only"] .view-slot-rules { display: flex !important; flex: 1 1 100% !important; }
         [data-active-layout="cards-only"] .view-slot-cards { display: flex !important; flex: 1 1 100% !important; }
         [data-active-layout="solo-only"] .view-slot-solo { display: flex !important; flex: 1 1 100% !important; }
+        [data-active-layout="important-only"] .view-slot-important { display: flex !important; flex: 1 1 100% !important; }
+        [data-active-layout="variation-only"] .view-slot-variation { display: flex !important; flex: 1 1 100% !important; }
 
         [data-active-layout="rules-only"] .split-view.flex-layout-engine,
         [data-active-layout="cards-only"] .split-view.flex-layout-engine,
-        [data-active-layout="solo-only"] .split-view.flex-layout-engine {
+        [data-active-layout="solo-only"] .split-view.flex-layout-engine,
+        [data-active-layout="important-only"] .split-view.flex-layout-engine,
+        [data-active-layout="variation-only"] .split-view.flex-layout-engine {
             display: flex !important;
             flex-direction: column !important;
             height: auto !important;
         }
+
         [data-active-layout="rules-only"] .content-block,
         [data-active-layout="cards-only"] .content-block,
-        [data-active-layout="solo-only"] .content-block {
+        [data-active-layout="solo-only"] .content-block,
+        [data-active-layout="important-only"] .content-block,
+        [data-active-layout="variation-only"] .content-block {
             overflow-y: visible !important;
             height: auto !important;
             box-shadow: none !important;
