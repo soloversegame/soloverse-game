@@ -15,7 +15,7 @@ const gamesList = [
     rulesId: "01-a-crazy-8s-tutorial-rules",
     cardsId: "01-a-crazy-8s-tutorial-cards",
     soloId: null,
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -26,7 +26,7 @@ const gamesList = [
     rulesId: "01-b-crazy-8s-rules",
     cardsId: "01-b-crazy-8s-cards",
     soloId: "01-d-crazy-8s-solo-mode-rules",
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -37,7 +37,7 @@ const gamesList = [
     rulesId: "01-c-crazy-8s-utter-chaos-rules",
     cardsId: "01-c-crazy-8s-utter-chaos-cards",
     soloId: null,
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -48,7 +48,7 @@ const gamesList = [
     rulesId: "03-a-karma-rules",
     cardsId: "03-a-karma-cards",
     soloId: "03-b-karma-solo-mode-rules",
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -59,7 +59,7 @@ const gamesList = [
     rulesId: "04-a-cheat-rules",
     cardsId: "04-a-cheat-cards",
     soloId: null,
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -70,7 +70,7 @@ const gamesList = [
     rulesId: "05-a-battle-solitaire-rules",
     cardsId: "05-a-battle-solitaire-cards",
     soloId: "05-b-battle-solitaire-solo-mode-rules",
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -81,7 +81,7 @@ const gamesList = [
     rulesId: "06-a-deck-builder-rules",
     cardsId: "06-a-deck-builder-cards",
     soloId: null,
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -92,7 +92,7 @@ const gamesList = [
     rulesId: "07-a-nominations-rules",
     cardsId: "07-a-nominations-cards",
     soloId: null,
-    variationsId: "00-d-variations-rulebook",
+    variationId: "00-d-variations-rulebook",
     importantId: "00-a-universal-game-notes"
   },
   {
@@ -103,7 +103,7 @@ const gamesList = [
     rulesId: "00-b-full-game-contents",
     cardsId: null,
     soloId: null,
-    variationsId: null,
+    variationId: null,
     importantId: null
   },
   {
@@ -114,7 +114,7 @@ const gamesList = [
     rulesId: "00-c-recommended-divider-setup",
     cardsId: null,
     soloId: null,
-    variationsId: null,
+    variationId: null,
     importantId: null
   },
   {
@@ -125,7 +125,7 @@ const gamesList = [
     rulesId: "00-e-patch-notes",
     cardsId: null,
     soloId: null,
-    variationsId: null,
+    variationId: null,
     importantId: null
   },
   {
@@ -136,7 +136,7 @@ const gamesList = [
     rulesId: "00-f-contact-us",
     cardsId: null,
     soloId: null,
-    variationsId: null,
+    variationId: null,
     importantId: null
   }
 ];
@@ -164,7 +164,7 @@ const renderedGames = await Promise.all(
     const soloMatch = game.soloId ? allGameFiles.find((f) => f.id === game.soloId) : null;
     
     // 2. NEW: Safe Global Collection Document Lookups
-    const variationMatch = game.variationsId ? allGameFiles.find((f) => f.id === game.variationsId) : null;
+    const variationMatch = game.variationId ? allGameFiles.find((f) => f.id === game.variationId) : null;
     const importantMatch = game.importantId ? allGameFiles.find((f) => f.id === game.importantId) : null;
 
     // 3. Render Channels
