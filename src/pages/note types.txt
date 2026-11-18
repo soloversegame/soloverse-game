@@ -1,17 +1,17 @@
-CARD TITLES: Blue #0000ff
-CARD CLASS: Light Blue #8cfffb
-TIP: Light Green #aded8f
-NOTE: Green #0ed145
-EXAMPLE: Green #0ed145
-PLAY TO THE SIDE OF THE DISCARDS: Orange #ff7f27
+CARD TITLES: Blue <span style="color: #0000ff;"></span>
+CARD CLASS: Light Blue <span style="color: #8cfffb;"></span>
+TIP: Light Green <span style="color: #aded8f;"></span>
+NOTE: Green <span style="color: #0ed145;"></span>
+EXAMPLE: Yellow <span style="color: #fff200;"></span>
+PLAY TO THE SIDE OF THE DISCARDS: Orange <span style="color: #ff7f27;"></span>
 PLACE ON TOP OF THE DISCARDS: Orange #ff7f27
-CHALLENGE NOTES: Light Brown #b97a56
-IMPORTANT: Dark Brown #84471a
-RESTRICTION: Red #ec1c24
+CHALLENGE NOTES: Light Brown <span style="color: #b97a56;"></span>
+IMPORTANT: Dark Brown <span style="color: #84471a;"></span>
+RESTRICTION: Red <span style="color: #ec1c24;"></span>
 PENALTY NOTE: Red #ec1c24
-COMPATIBILITY NOTE: Pink #ffaec8
-SPECIAL VICTORY CONDITION NOTE: Light Purple #b497ef
-2 PLAYER GAME NOTE: Purple #9d00ff
-ADVANCED OPTIONAL EFFECTS: Grey  #b2b2b2
+COMPATIBILITY NOTE: Pink <span style="color: #ffaec8;"></span>
+SPECIAL VICTORY CONDITION NOTE: Light Purple <span style="color: #b497ef;"></span>
+2 PLAYER GAME NOTE: Purple <span style="color: #9d00ff;"></span>
+ADVANCED OPTIONAL EFFECTS: Grey  <span style="color: #b2b2b2;"></span>
 
 <a href="javascript:history.back()" class="return-link previous-location">⬅️ Return to Previous Location</a>

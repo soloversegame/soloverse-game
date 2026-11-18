@@ -14,7 +14,98 @@ type: "cards"
 
 <div id="crazy-8s-cards-contents"></div>
 <div class="matrix-toc-box">
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
+<h2 class="matrix-toc-title">📋 CARD DEFINITIONS - SIDE DECKS</h2>
+<ul class="matrix-toc-sub-grid">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-architect" class="matrix-link">THE ARCHITECT OF THE SOLOVERSE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-ancient-stones" class="matrix-link">ANCIENT STONES</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-deck" class="matrix-link">FIELD DECK</a>
+</li>
+
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 CARD DEFINITIONS - NON-NUMBERED COLOURED ACTION CLASS:</h2>
+<ul class="matrix-toc-sub-grid">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-draw-2" class="matrix-link">DRAW +2</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-reverse" class="matrix-link">REVERSE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-skip" class="matrix-link">SKIP</a>
+</li>
+
+<div id="crazy-8s-cards-contents"></div>
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 CARD DEFINITIONS - CHAOS DRAW</h2>
+<ul class="matrix-toc-sub-grid">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-2" class="matrix-link">CHAOS DRAW +2</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-2-reverse" class="matrix-link">CHAOS DRAW +2 REVERSE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-2-skip" class="matrix-link">CHAOS DRAW +2 SKIP</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-2-specific-targeted" class="matrix-link">CHAOS DRAW +2 SPECIFIC TARGETED</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-3" class="matrix-link">CHAOS DRAW +3</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-3-reverse" class="matrix-link">CHAOS DRAW +3 REVERSE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-3-skip" class="matrix-link">CHAOS DRAW +3 SKIP</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-3-specific-targeted" class="matrix-link">CHAOS DRAW +3 SPECIFIC TARGETED</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-4" class="matrix-link">CHAOS DRAW +4</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-4-reverse" class="matrix-link">CHAOS DRAW +4 REVERSE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-4-skip" class="matrix-link">CHAOS DRAW +4 SKIP</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-4-specific-targeted" class="matrix-link">CHAOS DRAW +4 SPECIFIC TARGETED</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-5" class="matrix-link">CHAOS DRAW +5</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-5-reverse" class="matrix-link">CHAOS DRAW +5 REVERSE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-5-skip" class="matrix-link">CHAOS DRAW +5 SKIP</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-5-specific-targeted" class="matrix-link">CHAOS DRAW +5 SPECIFIC TARGETED</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-10" class="matrix-link">CHAOS DRAW +10</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-10-reverse" class="matrix-link">CHAOS DRAW +10 REVERSE</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-10-skip" class="matrix-link">CHAOS DRAW +10 SKIP</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-chaos-draw-10-specific-targeted" class="matrix-link">CHAOS DRAW +10 SPECIFIC TARGETED</a>
+</li>
+
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 CARD DEFINITIONS - CARDS BEGINNING WITH:</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#crazy-8s-a" class="matrix-link">A</a>
@@ -85,6 +176,120 @@ type: "cards"
 </ul>
 </nav>
 
+<!-- SUB-INDEX JUMP MATRIX ARCHITECT-->
+<div id="crazy-8s-architect"></div>
+<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Architect">
+<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: THE ARCHITECT OF THE SOLOVERSE</h2>
+<ul class="matrix-toc-grid">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-the-soloversal-blueprint" class="matrix-link"><span style="color: #0000ff;">THE SOLOVERSAL BLUEPRINT</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-architectural-glitch" class="matrix-link"><span style="color: #8cfffb;">ARCHITECTURAL GLITCH</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-the-soloverse-loophole" class="matrix-link"><span style="color: #aded8f;">THE SOLOVERSE LOOPHOLE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-the-architects-source-code" class="matrix-link"><span style="color: #0ed145;">THE ARCHITECT'S SOURCE CODE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-the-architects-protocol" class="matrix-link"><span style="color: #fff200;">THE ARCHITECT'S PROTOCOL</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-soloversal-engine-overdrive" class="matrix-link"><span style="color: #ff7f27;">SOLOVERSAL ENGINE OVERDRIVE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-defragmented-reality" class="matrix-link"><span style="color: #b97a56;">DEFRAGMENTED REALITY</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-the-architects-quarantine" class="matrix-link"><span style="color: #84471a;">THE ARCHITECT'S QUARANTINE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-the-architects-deletion" class="matrix-link"><span style="color: #e63946;">THE ARCHITECT'S DELETION</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-unstable-soloversal-paradox" class="matrix-link"><span style="color: #ffaec8;">UNSTABLE SOLOVERSAL PARADOX</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-the-architects-mirage" class="matrix-link"><span style="color: #b497ef;">THE ARCHITECT'S MIRAGE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-soloversal-singularity" class="matrix-link"><span style="color: #9d00ff;">SOLOVERSAL SINGULARITY</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-system-absolute-zero" class="matrix-link"><span style="color: #b2b2b2;">SYSTEM ABSOLUTE ZERO<span></a>
+</li>
+</ul>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</nav>
+
+<!-- SUB-INDEX JUMP MATRIX FIELD DECK-->
+<div id="crazy-8s-field-deck"></div>
+<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Field Deck">
+<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: FIELD DECK</h2>
+<ul class="matrix-toc-grid">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-addition" class="matrix-link">FIELD OF ADDITION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-deception" class="matrix-link">FIELD OF DECEPTION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-escalation" class="matrix-link">FIELD OF ESCALATION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-normalisation" class="matrix-link">FIELD OF NORMALISATION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-reduction" class="matrix-link">FIELD OF REDUCTION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-replication" class="matrix-link">FIELD OF REPLICATION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-subtraction" class="matrix-link">FIELD OF SUBTRACTION</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-field-of-succession" class="matrix-link">FIELD OF SUCCESSION</a>
+</li>
+</ul>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</nav>
+
+<!-- SUB-INDEX JUMP MATRIX ANCIENT STONES-->
+<div id="crazy-8s-ancient-stones"></div>
+<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Ancient Stones">
+<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: ANCIENT STONES</h2>
+<ul class="matrix-toc-grid">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-repetition-stone" class="matrix-link"><span style="color: #0000ff;">REPETITION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-teleportation-stone" class="matrix-link"><span style="color: #0ed145;">TELEPORTATION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-illumination-stone" class="matrix-link"><span style="color: #fff200;">ILLUMINATION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-unrestriction-stone" class="matrix-link"><span style="color: #ff7f27;">UNRESTRICTION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-substitution-stone" class="matrix-link"><span style="color: #e63946;">SUBSTITUTION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-duplication-stone" class="matrix-link"><span style="color: #9d00ff;">DUPLICATION STONE</span></a>
+</li>
+</ul>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</nav>
+
 <!-- SUB-INDEX JUMP MATRIX A -->
 <div id="crazy-8s-a"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents A">
@@ -143,9 +348,6 @@ type: "cards"
 <a href="#crazy-8s-antibody-blue" class="matrix-link">ANTIBODY BLUE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-architectural-glitch" class="matrix-link">ARCHITECTURAL GLITCH</a>
-</li>
-<li class="matrix-item-heading">
 <a href="#crazy-8s-assassin" class="matrix-link">ASSASSIN [INSTANT TRAP CLASS]</a>
 </li>
 </ul>
@@ -186,71 +388,7 @@ type: "cards"
 <a href="#crazy-8s-call-of-the-soloverse" class="matrix-link">CALL OF THE SOLOVERSE [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-2" class="matrix-link">CHAOS DRAW +2</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-2-reverse" class="matrix-link">CHAOS DRAW +2 REVERSE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-2-skip" class="matrix-link">CHAOS DRAW +2 SKIP</a>
-</li>
-
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-2-specific-targeted" class="matrix-link">CHAOS DRAW +2 SPECIFIC TARGETED</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-3" class="matrix-link">CHAOS DRAW +3</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-3-reverse" class="matrix-link">CHAOS DRAW +3 REVERSE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-3-skip" class="matrix-link">CHAOS DRAW +3 SKIP</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-3-specific-targeted" class="matrix-link">CHAOS DRAW +3 SPECIFIC TARGETED</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-4" class="matrix-link">CHAOS DRAW +4</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-4-reverse" class="matrix-link">CHAOS DRAW +4 REVERSE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-4-skip" class="matrix-link">CHAOS DRAW +4 SKIP</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-4-specific-targeted" class="matrix-link">CHAOS DRAW +4 SPECIFIC TARGETED</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-5" class="matrix-link">CHAOS DRAW +5</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-5-reverse" class="matrix-link">CHAOS DRAW +5 REVERSE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-5-skip" class="matrix-link">CHAOS DRAW +5 SKIP</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-5-specific-targeted" class="matrix-link">CHAOS DRAW +5 SPECIFIC TARGETED</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-10" class="matrix-link">CHAOS DRAW +10</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-10-reverse" class="matrix-link">CHAOS DRAW +10 REVERSE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-10-skip" class="matrix-link">CHAOS DRAW +10 SKIP</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-chaos-draw-10-specific-targeted" class="matrix-link">CHAOS DRAW +10 SPECIFIC TARGETED</a>
-</li>
-<li class="matrix-item-heading">
 <a href="#crazy-8s-clone" class="matrix-link">CLONE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-coloured-draw-2" class="matrix-link">COLOURED DRAW +2 [ACTION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-contagion" class="matrix-link">CONTAGION +5 +2 [TRAP CLASS]</a>
@@ -275,9 +413,6 @@ type: "cards"
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents D">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: D</h2>
 <ul class="matrix-toc-grid">
-<li class="matrix-item-heading">
-<a href="#crazy-8s-defragmented-reality" class="matrix-link">DEFRAGMENTED REALITY</a>
-</li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-discard-acid" class="matrix-link">DISCARD ACID [TRAP CLASS]</a>
 </li>
@@ -329,9 +464,6 @@ type: "cards"
 <li class="matrix-item-heading">
 <a href="#crazy-8s-double-under" class="matrix-link">DOUBLE UNDER</a>
 </li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-duplication-stone" class="matrix-link">DUPLICATION STONE [ANCIENT STONE CLASS]</a>
-</li>
 </ul>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -367,30 +499,6 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: F</h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-addition" class="matrix-link">FIELD OF ADDITION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-deception" class="matrix-link">FIELD OF DECEPTION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-escalation" class="matrix-link">FIELD OF ESCALATION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-normalisation" class="matrix-link">FIELD OF NORMALISATION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-reduction" class="matrix-link">FIELD OF REDUCTION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-replication" class="matrix-link">FIELD OF REPLICATION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-subtraction" class="matrix-link">FIELD OF SUBTRACTION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-field-of-succession" class="matrix-link">FIELD OF SUCCESSION [FIELD CLASS]</a>
-</li>
-<li class="matrix-item-heading">
 <a href="#crazy-8s-field-transformation" class="matrix-link">FIELD TRANSFORMATION [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
@@ -409,20 +517,6 @@ type: "cards"
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
 <a href="#crazy-8s-genetic-manipulation" class="matrix-link">GENETIC MANIPULATION</a>
-</li>
-</ul>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</nav>
-
-<!-- SUB-INDEX JUMP MATRIX I -->
-<div id="crazy-8s-i"></div>
-<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents I">
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: I</h2>
-<ul class="matrix-toc-grid">
-<li class="matrix-item-heading">
-<a href="#crazy-8s-illumination-stone" class="matrix-link">ILLUMINATION STONE [ANCIENT STONE CLASS]</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
@@ -573,13 +667,7 @@ type: "cards"
 <a href="#crazy-8s-recycle" class="matrix-link">RECYCLE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-repetition-stone" class="matrix-link">REPETITION STONE [ANCIENT STONE CLASS]</a>
-</li>
-<li class="matrix-item-heading">
 <a href="#crazy-8s-resurrection" class="matrix-link">RESURRECTION [INSTANT TRAP CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-reverse" class="matrix-link">REVERSE [ACTION CLASS]</a>
 </li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-reverse-stun" class="matrix-link">REVERSE STUN</a>
@@ -605,19 +693,10 @@ type: "cards"
 <a href="#crazy-8s-scavenger" class="matrix-link">SCAVENGER</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-skip" class="matrix-link">SKIP [ACTION CLASS]</a>
-</li>
-<li class="matrix-item-heading">
 <a href="#crazy-8s-slap" class="matrix-link">SLAP</a>
 </li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-snap" class="matrix-link">SNAP</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-soloversal-engine-overdrive" class="matrix-link">SOLOVERSAL ENGINE OVERDRIVE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-soloversal-singularity" class="matrix-link">SOLOVERSAL SINGULARITY</a>
 </li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-soloversal-destruction" class="matrix-link">SOLOVERSAL DESTRUCTION [INSTANT TRAP CLASS]</a>
@@ -646,12 +725,6 @@ type: "cards"
 <li class="matrix-item-heading">
 <a href="#crazy-8s-stun" class="matrix-link">STUN</a>
 </li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-substitution-stone" class="matrix-link">SUBSTITUTION STONE [ANCIENT STONE CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-system-absolute-zero" class="matrix-link">SYSTEM ABSOLUTE ZERO</a>
-</li>
 </ul>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -663,30 +736,6 @@ type: "cards"
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents T">
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: T</h2>
 <ul class="matrix-toc-grid">
-<li class="matrix-item-heading">
-<a href="#crazy-8s-teleportation-stone" class="matrix-link">TELEPORTATION STONE [ANCIENT STONE CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-the-architects-deletion" class="matrix-link">THE ARCHITECT'S DELETION</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-the-architects-mirage" class="matrix-link">THE ARCHITECT'S MIRAGE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-the-architects-protocol" class="matrix-link">THE ARCHITECT'S PROTOCOL</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-the-architects-quarantine" class="matrix-link">THE ARCHITECT'S QUARANTINE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-the-architects-source-code" class="matrix-link">THE ARCHITECT'S SOURCE CODE</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-the-soloversal-blueprint" class="matrix-link">THE SOLOVERSAL BLUEPRINT</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-the-soloverse-loophole" class="matrix-link">THE SOLOVERSE LOOPHOLE</a>
-</li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-toxin" class="matrix-link">TOXIN +5 [TRAP CLASS]</a>
 </li>
@@ -706,12 +755,6 @@ type: "cards"
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
 <a href="#crazy-8s-united-we-fall" class="matrix-link">UNITED WE FALL</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-unrestriction-stone" class="matrix-link">UNRESTRICTION STONE [ANCIENT STONE CLASS]</a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-unstable-soloversal-paradox" class="matrix-link">UNSTABLE SOLOVERSAL PARADOX</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
@@ -756,788 +799,54 @@ type: "cards"
 </div>
 </nav>
 
-<div id="crazy-8s-acid">
+<div id="crazy-8s-the-soloversal-blueprint">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">ACID [x1]:</h4>
+<h4 class="card-title"><span style="color: #0000ff;">THE SOLOVERSAL BLUEPRINT [x1]:</span></h4>
 <ul>
-<li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
 </div>
 <div class="image-container">
-<img src="/assets/images/cards/09-bio-hazard-expansion-trap-04-acid.png">
+<img src="/assets/images/cards/19-the-soloversal-blueprint.png">
 </div>
 </div>
 <div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
 <ul>
-<li>When Revealed, remove from the Deck Temporarily.</li>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
+<ul>
+<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
+<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="rules-box">
-<ol>
-<li>Draw 4 Cards.</li>
-<li>Continue to Draw if required.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Shuffle Acid back into the Deck.</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-acid-st">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ACID [SPECIFIC TARGETED] [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/10-patient-zero-expansion-trap-04-acid-st.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>When Revealed, remove from the Deck Temporarily.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol>
-<li>Choose a Player to Draw 4 Cards.</li>
-<li>Continue to Draw if required.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Shuffle Acid back into the Deck.</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-ancient-inversion">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANCIENT INVERSION [x2]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-Inversion.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>When Revealed, remove from the Deck Temporarily.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol>
-<li>The Revealer of this Card Must Collect all Ancient Stone Class Chaos Cards in play, Shuffle and Re-Deal them according to Their Setup Rules but Must maintain Turn Order.</li>
-<li>Continue to Draw if required.</li>
-</ol>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Previous Unrestriction Stone Users Cannot be Included in the Re-Deal, but Can use Ancient Inversion’s Effect otherwise.</li>
-</ul>
-</div>
-<div class="discards-box">
-<ul>
-<li>Shuffle Ancient Inversion back into the Deck.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-ancient-war">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANCIENT WAR [x2]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-war.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>When Revealed, remove from the Deck Temporarily.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>When Revealed:
 <ol type="a">
-<li>User: As quickly as You Can, Steal any Ancient Stone owned by another Player who has NOT yet Slapped the table.</li>
-<li>All other Players: If You possess an Ancient Stone, You Must respond by Slapping the Table to protect Yourself.</li>
+<li><strong><span style="color: var(--color-card-class);">For Yourself:</span></strong> Pure Chaos Cards become any Chaos Card in the Game You want when Played for the Rest of the Game.</li>
+<li><strong><span style="color: var(--color-card-class);">Once per Game for each other Player:</span></strong> Any Chaos Card Played by any other Player is Played as a Pure Chaos Card for the that Turn.</li> 
 </ol>
-</li>
-<li>Continue to Draw if required.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Shuffle Ancient War back into the Deck.</li>
-</ul>
 </div>
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>Can only be Countered by Its Own Effect.</li>
-</ul>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Previous Unrestriction Stone users Cannot use this Trap Class Chaos Card’s effect.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>You Can only Steal 1 Ancient Stone Class Chaos Card.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-anti-fun">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTI-FUN [x3]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Victory Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-counter-lv1-anti-fun.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Activate on Another Player's Turn to use this Card's Effect [but not if using it as a Pure Chaos Card (any Type) ].</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Choose One:
-<ol type="a">
-<li>Anti-Fun's Effect:
-<ol type="i">
-<li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to Deal 5 New Cards; ending Their Turn.</li>
-</ol>
-</li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play Order Continues Normally.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can be Pre-Emptively Countered, Officially, if <a href="#crazy-8s-nou" class="return-link">NOU</a> is Played Last.</li>
-<li>But, there might be other, unofficial ways around it…</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibiotic-yellow">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBIOTIC YELLOW [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-1.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>In Play Order, all Players Discard 1 Card of Their choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibiotic-red">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBIOTIC RED [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-2.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>In Play Order, all Players Discard 2 Cards of Their choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibiotic-purple">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBIOTIC PURPLE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-3.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>In Play Order, all Players Discard 3 Cards of Their choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibiotic-orange">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBIOTIC ORANGE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-4.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>In Play Order, all Players Discard 4 Cards of Their choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibiotic-green">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBIOTIC GREEN [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-5.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>In Play Order, all Players Discard 5 Cards of Their choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibiotic-blue">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBIOTIC BLUE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibiotic-6.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
-<ol type="i">
-<li><strong>USER:</strong> Discards 4 Cards of Their choice.</li>
-<li><strong>EITHER SIDE OF THEM:</strong> Discards 3 Cards of Their choice.</li>
-<li><strong>BESIDE THOSE:</strong> Discards 2 Cards of Their choice.</li>
-<li><strong>BESIDE THOSE:</strong> Discards 1 Card of Their choice.</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibody-yellow">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBODY YELLOW [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-1.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Discard 1 Card of Your choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibody-red">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBODY RED [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-2.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Discard 2 Cards of Your choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibody-purple">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBODY PURPLE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-3.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Discard 3 Cards of Your choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibody-orange">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBODY ORANGE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-4.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Discard 4 Cards of Your choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibody-green">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBODY GREEN [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-5.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Discard 5 Cards of Your choice.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-antibody-blue">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ANTIBODY BLLUE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/12-containment-expansion-antibody-6.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the Side of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
-<ol type="i">
-<li><strong>USER:</strong> Discards 3 Cards of Their choice.</li>
-<li><strong>EITHER SIDE OF THEM:</strong> Discards 2 Cards of Their choice.</li>
-<li><strong>BESIDE THOSE:</strong> Discards 1 Card of Their Choice.</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with this Card Activated.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -1550,7 +859,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">ARCHITECTURAL GLITCH [x1]:</h4>
+<h4 class="card-title"><span style="color: #8cfffb;">ARCHITECTURAL GLITCH [x1]:</span></h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
@@ -1606,278 +915,60 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-assassin">
+<div id="crazy-8s-the-soloverse-loophole">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">ASSASSIN [x3]:</h4>
+<h4 class="card-title"><span style="color: #aded8f;">THE SOLOVERSE LOOPHOLE [x1]:</span></h4>
 <ul>
-<li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Instant Activation</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
 </ul>
 </div>
 <div class="image-container">
-<img src="/assets/images/cards/15-doomsday-expansion-trap-assassin.png">
-</div>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>When Revealed, You are Assassinated and Removed from the Game [“You lose! But there is hope...”].</li>
-</ol>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Should all but one Player be Removed From the Game, they Win.</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Certain Chaos Cards have Their own 2 Player Game Note, and these Must be followed while only 2 Players are left due to being Removed from the Game [Example: Reverse, Chaos Draw +4 Skip, Slap, etc].</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>Can only be Countered by Bodyguard’s Effect.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol start="2">
-<li>Only if You Countered it, continue to Draw if required.</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Shuffle Assassin back into the Deck.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-badge-collector">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">BADGE COLLECTOR [x3]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-badge-collector.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the side of the Discards to use this Card's Effect [not if using it as a Pure Chaos Card (any Type) ].</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Choose one:
-<ol type="a">
-<li>Badge Collector's Effect:
-<ol type="i">
-<li>Discard a Minimum of 3 Differently Coloured Cards, no Maximum [one for any of the Coloured Sets].</li>
-</ol>
-</li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-black-hole">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">BLACK HOLE [x2]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-black-hole.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play to the side of the Discards to use this Card's Effect [not if using it as a Pure Chaos Card (any Type) ].</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Choose one:
-<ol type="a">
-<li>Black Hole's Effect:
-<ol type="i">
-<li>All Players in Play Order Discard all Their Hand Cards.</li>
-<li>Then the User Deals 5 Cards to Each Player.</li>
-</ol>
-</li>
-<li>Or Play simply as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Then place this Card on top of the Discards.</li>
-<li>Choose a Colour to Continue.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-black-knight">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">BLACK KNIGHT [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Oblivion Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Royal Knight Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/06-oblivion-expansion-black-knight.png">
+<img src="/assets/images/cards/19-the-soloverse-loophole.png">
 </div>
 </div>
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a PLAYABLE TURN.</li>
-<li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
+<li>This Card Can be Used Two Times in Any Game.</li>
+<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
 </ul>
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Choose one:
+<li>Declare a Number [0-9].</li>
+<li>Discard the Top card of the Deck until a Number Card [0-9] is Revealed.</li>
+<li>The Number that is Revealed determines one of the following Effects:
 <ol type="a">
-<li>Black Knight's Usurper Effect:
-<ol type="i">
-<li>Choose any 2 Players to Swap Hands with [including Yourself].</li>
-</ol>
-</li>
-<li>Or Play simply as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li><strong><span style="color: var(--color-card-class);">Any Other Number:</span></strong> The Number of Cards all other Players Draw.</li>
+<li><strong><span style="color: var(--color-card-class);">The Number You Declared:</span></strong> You Win Instantly.</li>
 </ol>
 </li>
 </ol>
 </div>
-<div class=note-box>
-<strong>NOTES:</strong>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
 <ul>
-<li>The User maintains ownership of Black Knight.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1" start="2">
-<li>Then continue Your Turn as normal.</li>
-</ol>
-</div>
-<div class=restriction-box>
-<strong>UNIQUE RESTRICTION NOTES:</strong>
-<ul>
-<li>This Effect Cannot affect the same Players two Activations in a row; regardless of who is the User and who is the Target.</li>
-</ul>
-</div>
-<div class=restriction-box>
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be Your last Card.</li>
-<li>Cannot be Countered, Except by King's Knight's Effect.</li>
-<li>You Can only use one Royal Knight Effect per Turn, and it Can only be used once each Turn; however, You Can use it on additional Turns afterwards.</li>
-<li>You Cannot use another Chaos Card on the same Turn You activate a Royal Knight Class Chaos Card; and vice versa.</li>
-<li>You Cannot Go Out with this Card Effect.</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Black Knight Can only Target the other Player every second Turn.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-bodyguard">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">BODYGUARD [x3]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Assassin Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/15-doomsday-expansion-counter-lv1-bodyguard.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Choose one:
-<ol type="a">
-<li>When You are Self Targeted by an Assassin, play this Card to save Yourself.</li>
-<li>If another Player is Self Targeted by an Assassin on Their Turn [before they are Removed From the Game], You Can:
-<ol type="i">
-<li>Offer Bodyguard as a private 1:1 trade to save Their life [if they have something to pay You with…].</li>
-<li>Be a hero and give it to them for free!</li>
-<li>Or simply ignore the situation.</li>
-<li>The choice is Yours…</li>
-</ol>
-</li>
-<li>Instead of playing a Card on Your Turn, You Can choose to Shuffle Bodyguard back into the Deck on Your Turn.</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>Play continues from the previous Card played.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>If You Draw Bodyguard and reveal an Assassin Trap Class Chaos Card in doing so, You May immediately Play it. This is a rare exception to the Pick Up/Put Down Rule for Chaos Cards [See: <a href="/01-a-crazy-8s-game-rulebook#pick-up-put-down" class="matrix-link">Crazy 8's Game Rulebook: How To Play: Rule 3: Note & Restriction]</a>.</li>
+<li>This Can be Countered <strong>*** At the Moment of Activation or the Moment of it's Special Victory Condition Activating***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
-<li>Cannot be played as a Pure Chaos Card.</li>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -1886,54 +977,1810 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-call-of-the-soloverse">
+<div id="crazy-8s-the-architects-source-code">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CALL OF THE SOLOVERSE [x1]:</h4>
+<h4 class="card-title"><span style="color: #0ed145;">THE ARCHITECT'S SOURCE CODE [x1]:</span></h4>
 <ul>
-<li><strong><span style="color: var(--color-card-class);">Singularity Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
 </ul>
 </div>
 <div class="image-container">
-<img src="/assets/images/cards/07-singularity-expansion-trap-call-of-the-soloverse.png">
+<img src="/assets/images/cards/19-the-architects-source-code.png">
 </div>
 </div>
 <div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
 <ul>
-<li>When Revealed, remove from the Deck Temporarily.</li>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
+<ul>
+<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
+<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>When this Card is revealed, all Unification Class Chaos Cards in Player’s Hands Must be revealed to the group.</li>
-<li>Optionally, if all 3 Unification Class Chaos Cards are NOT revealed, You Can choose to search the Deck for any Unification Class Chaos Card that is there and give it to any Player with the least amount of Unification Class Chaos Cards in Their Hand [including Yourself].</li>
+<li>Change any 1 Rule in the Game, no Exceptions, for the Rest of the Game.
+<div class="example-box">
+<strong>EXAMPLES:</strong>
+<ol>
+<li>You Can change the Victory Condition to something like:
+<ol type="a">
+<li>All Players Must have 1 Card instead in Their Hand to Win.</li>
+<li>All Players Must have 20 Cards instead in Their Hand to Win.</li>
+<li>All Players Must Discard more than 7 Cards from Their Hand at any time to Win.</li>
+<li>Prevent a Certain Player from Winning, regardless of existing Victory Conditions. They are not removed from the Game, They Must still Play and Draw a Card if They Cannot Play one.</li>
+</ol>
+</li>
+<li>You could Prevent Certain Numbered Cards, a Certain Coloured Set of Cards or even Certain Classes of Cards from being Played.</li>
+<li>What about forcing Players to Draw a Card before Starting Every Turn?</li>
+<li>Now you have the Source Code of the Soloverse at Your Fingertips, You have Unlimited Access to change the Game's Rules as You see fit.</li>
+<li>No Restrictions in What you Can Change in the Game's Rules, except for This Card's Rules, They Must all be Followed.</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>UNIQUE RESTRICTION NOTES:</strong>
+<ul>
+<li>The Architect's Source Code Cannot change it's own Rules.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-the-architects-protocol">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #fff200;">THE ARCHITECT'S PROTOCOL [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-protocol.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a Turn facing Draw Effects.</li>
+<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.</li>
+<li>Remove this Card from the Game once it has been Resolved.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Any time You are Targeted with a Draw Effect, force all other Players to Draw 3 Cards in Play Order.</li>
+<li>Then proceed with Your Turn as normal.</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-soloversal-engine-overdrive">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #ff7f27;">SOLOVERSAL ENGINE OVERDRIVE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-soloversal-engine-overdrive.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>This Card Can be Used Two Times in Any Game.</li>
+<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>If any Player is Forced to Draw a Total of 20 Cards or more from a Draw Effect, reveal this Card to Change the Draw Effect to a Group Targeting Effect instead.</li>
+<li>In Play Order, Starting with the Targeted Player, all other Players [except this Card's User] Must now draw the same number of Cards as the Targeted Player.</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-defragmented-reality">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #b97a56;">DEFRAGMENTED REALITY [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-defragmented-reality.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
+<ul>
+<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
+<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Choose one:
+<ol type="a">
+<li>For the Rest of the Game, Players Cannot go out with any Single Card, and thus are required to go out with Chaos Card Effects to Discard Multiple Cards.</li>
+<li>For the Rest of the Game, Players Cannot go out with Chaos Cards or Chaos Card Effects and thus are required to go out with Coloured Cards.</li>
+<li>For the Rest of the Game, Player are required to go out with NOU as Their last Card.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-the-architects-quarantine">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #84471a;">THE ARCHITECT'S QUARANTINE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-quarantine.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
+<ul>
+<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
+<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Choose one:
+<ol type="a">
+<li>All Players Cannot Play Action Class Cards for the Rest of the Game.</li>
+<li>All Players Cannot Play Normal Class Chaos Cards for the Rest of the Game.</li>
+<li>All Players Cannot Play Offensive Class Chaos Cards for the Rest of the Game.</li>
+<li>All Players Cannot Play Counter Class Chaos Cards for the Rest of the Game.</li>
+<li>All Players Cannot Play Royal Knight Class, Unification Class or Ancient Stone Class Chaos Cards for the Rest of the Game.</li>
+<li>All Players Cannot Play another Architect Class Chaos Card for the Rest of the Game.</li>
+<li>All Players Cannot be Targeted by Trap Class Chaos Cards of any type for the Rest of the Game.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-the-architects-deletion">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #ec1c24;">THE ARCHITECT'S DELETION [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-deletion.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>This Card Can be Used Two Times in Any Game.</li>
+<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Remove a Player from the Game.</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** Only at the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a> by the Targeted Player.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-unstable-soloversal-paradox">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #ffaec8;">UNSTABLE SOLOVERSAL PARADOX [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class & Counter Class LV:5</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-unstable-soloversal-paradox.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>This Card Can be Used Two Times in Any Game.</li>
+<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Choose one:
+<ol type="a">
+<li>Counter Any Offensive Chaos Card Effect.</li>
+<li>Counter Any Counter Class LV:1-4 Chaos Card Effect.</li>
+<li>Counter Any Architect Class Chaos Card Effect.</li>
+<li>Counter Any Victory Condition, force the Winning Player to Continue the Game by Drawing 5 New Cards. In the Case of Special Victory Conditions [Example: Unification Class, Ancient Stone Class, etc...], remove said Chaos Cards from the Game.</li>
+<li>Counter Being Removed from the Game by any means.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Card Can Counter ALL OTHER CHAOS CARD EFFECTS, regardless of if those Chaos Cards Could NOT be Countered otherwise.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>UNIQUE RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be Countered by any means.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-the-architects-mirage">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #b497ef;">THE ARCHITECT'S MIRAGE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-mirage.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
+<ul>
+<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
+<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Any Draw Effects Targeting You will automatically bypass Your Turn completely.</li>
+</ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-soloversal-singularity">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #9d00ff;">SOLOVERSAL SINGULARITY [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-soloversal-singularity.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>This Card Can be Used Two Times in Any Game.</li>
+<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>For the next Round of Turns, all Players give You Their Cards.</li>
+<li>You get to choose what Cards each Player Plays for Their Turn.</li>
+<li>This includes not Playing Cards at all, forcing them to Draw instead and wasting any potentially powerful Chaos Cards early.</li>
 </ol>
 </div>
 <div class="restriction-box">
-<strong>PENALTY NOTES:</strong>
+<strong>RESTRICTION NOTES:</strong>
 <ul>
-<li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
-<li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-system-absolute-zero">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #b2b2b2;">SYSTEM ABSOLUTE ZERO [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-system-absolute-zero.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
+<ul>
+<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
+<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="rules-box">
-<ol start="3">
-<li>Continue to Draw if required.</li>
+<ol type="1">
+<li>Only Chaos Cards Can be Played for the Rest of the Game.</li>
 </ol>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
+<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
+<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-repetition-stone">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #0000ff;">REPETITION STONE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Next & Specific Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-1of-6-repetition-stone.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
+<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+<li>Activate after any Player's Turn.</li>
+</ul>
+</div>
+<div class="rules-box">
+ <ol type="a">
+<li>Once between Your PLAYABLE TURNs, force one other Player to take Their Turn again.</li>
+<li>After any of Your PLAYABLE TURNs, decide if You will take Your Turn again or not.</li>
+</ol>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>If the Targeted Player [including Yourself] faced Action Class or Chaos Card Effects that Turn, they MUST face them again.</li>
+<li>If the Card they faced last time was a Counter Class Chaos Card, redirect to the immediately previous Chaos Card’s Effect instead.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>UNIQUE RESTRICTION NOTES:</strong>
+<ul>
+<li>This Effect only applies to the last actionable Card played, NOT the total of Stacked Effects [if any].</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
+<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
+<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+</ul>
+</div>
+</li>
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>Card Effects like Black Hole.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>BULK POSSESSION NOTES:</strong>
+<ul>
+<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+<ul>
+<li><strong>User:</strong>
+<ol type="a">
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+</ol>
+</li>
+<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+<ol type="a">
+<li>If the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+<li>If You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="special-victory-condition-note-box">
+<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
+<ul>
+<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
+</ul>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-teleportation-stone">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #0ed145;">TELEPORTATION STONE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self & Specific Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-4-of-6-teleportation-stone.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
+<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+<li>Activate before You start a PLAYABLE TURN.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>On any PLAYABLE TURN, You May choose to Swap Seats with any other Player [You Must each leave Your Ancient Stone Class Chaos Cards behind but take Your Hand Cards with You] and then proceed with Your Turn as normal.</li>
+<li>Play continues from Your new location.</li>
+</ol>
+</div>
+<div class="note-box">
+<ul>
+<li>You Cannot Target Previous Unrestriction Stone Users.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
+<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
+<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Simply Swap Your Ancient Stone Class Chaos Cards.</li>
+<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+</ul>
+</div>
+</li>
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>Card Effects like Black Hole.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>BULK POSSESSION NOTES:</strong>
+<ul>
+<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+<ul>
+<li><strong>User:</strong>
+<ol type="a">
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+</ol>
+</li>
+<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+<ol type="a">
+<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="special-victory-condition-note-box">
+<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
+<ul>
+<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
+</ul>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-illumination-stone">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #fff200;">ILLUMINATION STONE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Ancient Stone Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-5-of-6-illumination-stone.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
+<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+<li>Activate before You start a PLAYABLE TURN.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>Deal 1 Card to Yourself.</li>
+<li>Force all Players to set all but 1 Card in Their Handas Face-Up on the table in front of them.
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Everyone Can keep 1 Card secret.</li>
+</ul>
+</div>
+<div class="tip-box">
+<strong>TIP:</strong>
+<ul>
+<li>While You Can keep 1 Card Secret, it doesn’t have to be Your best Card; in effect You could bluff the other Players into thinking You have something better.</li>
+</ul>
+</div>
+</li>
+<li>This Effect lasts until the start of Your next PLAYABLE TURN.</li>
+</ol>
+</div>
+<div class="compatibility-note">
+<ul>
+<li>There is nothing wrong in using Chaos Cards with a Card Swapping Effect to take another Player’s Secret Card in exchange for any Card of Your own.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>UNIQUE RESTRICTION NOTES:</strong>
+<ul>
+<li>You Must show Your own Hand as well.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
+<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
+<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+</ul>
+</div>
+</li>
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>Card Effects like Black Hole.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>BULK POSSESSION NOTES:</strong>
+<ul>
+<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+<ul>
+<li><strong>User:</strong>
+<ol type="a">
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+</ol>
+</li>
+<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+<ol type="a">
+<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="special-victory-condition-note-box">
+<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
+<ul>
+<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
+</ul>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-unrestriction-stone">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #ff7f27;">UNRESTRICTION STONE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Ancient Stone Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Restriction Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-6-of-6-unrestriction-stone.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
+<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+<li>Activate before You start a PLAYABLE TURN.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ul>
+<li>When activated, the User Can choose to disable the Restrictions of all Their Chaos Cards [and I mean all Restrictions of all Chaos Cards; so, remember to consider the “Class Restrictions” NOT just the individual “Card Restrictions”].</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>COMMUTATION OF THE ANCIENTS EFFECT:</strong>
+<ul>
+<li>If at the end of Your Turn You chose to use the above ability, this Effect activates:
+<ol>
+<li>First, collect all Ancient Stone Class Chaos Cards and return them to the Cataclysm Side Deck and Shuffle it.</li>
+<li>Next, Remove 1 Player of Your Choice from the Game.</li>
+<li>Then, if more than one Player has previously been Removed from the Game by any means, You Must choose one to Restore to the Game.</li>
+<li>Re-Deal all Ancient Stone Class Chaos Cards to all Players now currently in the Game, but You Must maintain Play Order [See: RESTRICTION below].</li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>UNIQUE RESTRICTION NOTES:</strong>
+<ul>
+<li>The Unrestriction Stone Cannot disable its own Restrictions.</li>
+<li>You Cannot receive any more Ancient Stone Class Chaos Cards again for the rest of the game.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
+<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
+<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+</ul>
+</div>
+</li>
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>Card Effects like Black Hole.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>BULK POSSESSION NOTES:</strong>
+<ul>
+<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+<ul>
+<li><strong>User:</strong>
+<ol type="a">
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+</ol>
+</li>
+<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+<ol type="a">
+<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="special-victory-condition-note-box">
+<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
+<ul>
+<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
+</ul>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-substitution-stone">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #ec1c24;">SUBSTITUTION STONE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Catacysm Extension</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-2-of-6-substitution-stone.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
+<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+<li>Activate before You start a PLAYABLE TURN.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>On any PLAYABLE TURN, You May Swap any Player’s Hand Cards or Ancient Stone Class Chaos Cards with any other Player [including Yourself], then proceed with Your Turn as normal.</li>
+</ol>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
+<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
+<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+</ul>
+</div>
+</li>
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>Card Effects like Black Hole.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>BULK POSSESSION NOTES:</strong>
+<ul>
+<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+<ul>
+<li><strong>User:</strong>
+<ol type="a">
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+</ol>
+</li>
+<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+<ol type="a">
+<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="special-victory-condition-note-box">
+<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
+<ul>
+<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
+</ul>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-duplication-stone">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title"><span style="color: #9d00ff;">DUPLICATION STONE [x1]:</span></h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Next & Specific Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-3-of-6-duplication-stone.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
+<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
+<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
+<li>Activate when playing a Draw Effect Card.</li>
+</ul>
+</div>
+<div class="rules-box">
+ <ol>
+<li>On any Turn You charge another Player a Drawing or Dealing Effect by any means [and NOT just Chaos Cards], Double the Amount.</li>
+</ol>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>If responding with a Counter Class Chaos Card [i.e.: Nou], double the immediately previous Drawing or Dealing Effect Card instead.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>UNIQUE RESTRICTION NOTES:</strong>
+<ul>
+<li>If Responding in Kind, by Stacking the Drawing Effect, double only Your Card’s Effect.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
+<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
+<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
+</ul>
+</div>
+</li>
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>Card Effects like Black Hole.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>BULK POSSESSION NOTES:</strong>
+<ul>
+<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
+<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
+<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
+<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
+<ul>
+<li><strong>User:</strong>
+<ol type="a">
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+</ol>
+</li>
+<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
+<ol type="a">
+<li>If the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
+<li>If You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="special-victory-condition-note-box">
+<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
+<ul>
+<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-addition">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF ADDITION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-1-field-of-addition.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Every Number Card Played Must be Equal to or Higher than the Previous one Played.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>0, 1, 1, 4, 9…</li>
+</ul>
+</div>
+</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-deception">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF DECEPTION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-7-field-of-deception.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>On your turn, You place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>You do not have to tell the truth about the number of cards or their value.</li>
+</ul>
+</div>
+</li>
+<li>Cheating is allowed. But you will be penalised for getting caught.</li>
+<li>At any point, any other Player Can call “Deception!” At which point the last Player who put down Must reveal their cards.
+<ol type="a">
+<li>If the Player was in fact Cheating, They Must now pick up the entire Discards.</li>
+<li>If the Player was indeed telling the truth, the Challenging Player Must pick up the entire Discards instead!</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-escalation">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF ESCALATION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-3-field-of-escalation.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Every Number Card Played Must be Sequentially Higher than the Previous one Played.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>0, 1, 2, 3, 4…</li>
+</ul>
+</div>
+</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-normalisation">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF NORMALISATION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-8-field-of-normalisation.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Follow all Rules for [01-A] Soloverse [Crazy 8’s].</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-reduction">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF REDUCTION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-4-field-of-reduction.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Every Number Card Played Must be Sequentially Lower than the Previous one Played.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>9, 8, 7, 6…</li>
+</ul>
+</div>
+</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-replication">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF REPLICAATION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-6-field-of-replication.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Multiple Copies of Number Cards Can be Played if they are of Equal Value.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>9, 9, 9, 9, 9…</li>
+</ul>
+</div>
+</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-subtraction">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF SUBTRACTION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-2-field-of-subtraction.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Every Number Card Played Must be Equal to or Lower than the Previous one Played.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>9, 9, 5, 4, 4…</li>
+</ul>
+</div>
+</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-field-of-succession">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">FIELD OF SUCCESSION [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/18-field-deck-5-field-of-succession.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Every Number Card Played Must be Sequentially Higher or Lower than the Previous one Played.
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>5, 4, 5, 6, 7, 6…</li>
+</ul>
+</div>
+</li>
+<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-draw-2">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">"COLOURED" DRAW +2 [x2 Per Colour]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Coloured Extensions</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/000-1-steel-draw-2.png">
+</div>
 </div>
 <div class="discards-box">
 <ul>
-<li>Shuffle Call of the Soloverse back into the Deck.</li>
+<li>Acts as Draw +2.</li>
 </ul>
 </div>
 <div class="rules-box">
-<ol start="4">
-<li>Play continues from the last Card on the Discards.</li>
+<ol type="1">
+<li>The Next Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
 </ol>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-reverse">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">REVERSE [x2 per Colour]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Colour Extensions</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/000-12-poison-reverse.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>When played, the Direction of Play Reverses.</li>
+</ol>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Compatible with all Reverse Symbol Cards [e.g.: the Pure Chaos Reverse or Chaos Draw +4 Reverse (after the Primary Draw Effect has been Resolved) ].</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Reverse’s Effect no longer works; however, You Can still match its Symbol.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be Countered.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-skip">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">SKIP [x2 per Colour]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Colour Extensions</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/000-4-toxin-skip.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>When played, the next Player Skips Their Turn.</li>
+</ol>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Compatible with all Skip Symbol Cards [e.g.: the Pure Chaos Skip or Chaos Draw +4 Skip Chaos Cards (after the Primary Draw Effect has been Resolved) ].</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be Countered.</li>
+</ul>
 </div>
 <div class="return-link-wrapper">
 <a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
@@ -3429,6 +4276,1131 @@ type: "cards"
 </div>
 </div>
 
+<div id="crazy-8s-acid">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ACID [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Bio-Hazard Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/09-bio-hazard-expansion-trap-04-acid.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>When Revealed, remove from the Deck Temporarily.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>Draw 4 Cards.</li>
+<li>Continue to Draw if required.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Shuffle Acid back into the Deck.</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-acid-st">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ACID [SPECIFIC TARGETED] [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Patient Zero Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/10-patient-zero-expansion-trap-04-acid-st.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>When Revealed, remove from the Deck Temporarily.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>Choose a Player to Draw 4 Cards.</li>
+<li>Continue to Draw if required.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Shuffle Acid back into the Deck.</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>Can only be Countered by <a href="#crazy-8s-cure" class="return-link">Cure's</a> Effect.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-ancient-inversion">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANCIENT INVERSION [x2]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-Inversion.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>When Revealed, remove from the Deck Temporarily.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>The Revealer of this Card Must Collect all Ancient Stone Class Chaos Cards in play, Shuffle and Re-Deal them according to Their Setup Rules but Must maintain Turn Order.</li>
+<li>Continue to Draw if required.</li>
+</ol>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Previous Unrestriction Stone Users Cannot be Included in the Re-Deal, but Can use Ancient Inversion’s Effect otherwise.</li>
+</ul>
+</div>
+<div class="discards-box">
+<ul>
+<li>Shuffle Ancient Inversion back into the Deck.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-ancient-war">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANCIENT WAR [x2]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/16-cataclysm-expansion-trap-ancient-war.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>When Revealed, remove from the Deck Temporarily.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>When Revealed:
+<ol type="a">
+<li>User: As quickly as You Can, Steal any Ancient Stone owned by another Player who has NOT yet Slapped the table.</li>
+<li>All other Players: If You possess an Ancient Stone, You Must respond by Slapping the Table to protect Yourself.</li>
+</ol>
+</li>
+<li>Continue to Draw if required.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Shuffle Ancient War back into the Deck.</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>Can only be Countered by Its Own Effect.</li>
+</ul>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Previous Unrestriction Stone users Cannot use this Trap Class Chaos Card’s effect.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>You Can only Steal 1 Ancient Stone Class Chaos Card.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-anti-fun">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTI-FUN [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Victory Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-counter-lv1-anti-fun.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Activate on Another Player's Turn to use this Card's Effect [but not if using it as a Pure Chaos Card (any Type) ].</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Choose One:
+<ol type="a">
+<li>Anti-Fun's Effect:
+<ol type="i">
+<li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to Deal 5 New Cards; ending Their Turn.</li>
+</ol>
+</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play Order Continues Normally.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>This Can be Pre-Emptively Countered, Officially, if <a href="#crazy-8s-nou" class="return-link">NOU</a> is Played Last.</li>
+<li>But, there might be other, unofficial ways around it…</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibiotic-yellow">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBIOTIC YELLOW [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-1.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>In Play Order, all Players Discard 1 Card of Their choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibiotic-red">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBIOTIC RED [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-2.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>In Play Order, all Players Discard 2 Cards of Their choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibiotic-purple">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBIOTIC PURPLE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-3.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>In Play Order, all Players Discard 3 Cards of Their choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibiotic-orange">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBIOTIC ORANGE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-4.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>In Play Order, all Players Discard 4 Cards of Their choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibiotic-green">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBIOTIC GREEN [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-5.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>In Play Order, all Players Discard 5 Cards of Their choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibiotic-blue">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBIOTIC BLUE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibiotic-6.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
+<ol type="i">
+<li><strong>USER:</strong> Discards 4 Cards of Their choice.</li>
+<li><strong>EITHER SIDE OF THEM:</strong> Discards 3 Cards of Their choice.</li>
+<li><strong>BESIDE THOSE:</strong> Discards 2 Cards of Their choice.</li>
+<li><strong>BESIDE THOSE:</strong> Discards 1 Card of Their choice.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibody-yellow">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBODY YELLOW [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-1.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Discard 1 Card of Your choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibody-red">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBODY RED [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-2.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Discard 2 Cards of Your choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibody-purple">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBODY PURPLE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-3.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Discard 3 Cards of Your choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibody-orange">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBODY ORANGE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-4.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Discard 4 Cards of Your choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibody-green">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBODY GREEN [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-5.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Discard 5 Cards of Your choice.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-antibody-blue">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ANTIBODY BLLUE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Containment Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/12-containment-expansion-antibody-6.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the Side of the Discards.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
+<ol type="i">
+<li><strong>USER:</strong> Discards 3 Cards of Their choice.</li>
+<li><strong>EITHER SIDE OF THEM:</strong> Discards 2 Cards of Their choice.</li>
+<li><strong>BESIDE THOSE:</strong> Discards 1 Card of Their Choice.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li>Draw a Card for each Card you Cannot Discard.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-assassin">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">ASSASSIN [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Instant Activation</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/15-doomsday-expansion-trap-assassin.png">
+</div>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>When Revealed, You are Assassinated and Removed from the Game [“You lose! But there is hope...”].</li>
+</ol>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>Should all but one Player be Removed From the Game, they Win.</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Certain Chaos Cards have Their own 2 Player Game Note, and these Must be followed while only 2 Players are left due to being Removed from the Game [Example: Reverse, Chaos Draw +4 Skip, Slap, etc].</li>
+</ul>
+</div>
+<div class="advanced-box">
+<strong>COUNTERING NOTES:</strong>
+<ul>
+<li>Can only be Countered by Bodyguard’s Effect.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol start="2">
+<li>Only if You Countered it, continue to Draw if required.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Shuffle Assassin back into the Deck.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-badge-collector">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">BADGE COLLECTOR [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-badge-collector.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the side of the Discards to use this Card's Effect [not if using it as a Pure Chaos Card (any Type) ].</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Choose one:
+<ol type="a">
+<li>Badge Collector's Effect:
+<ol type="i">
+<li>Discard a Minimum of 3 Differently Coloured Cards, no Maximum [one for any of the Coloured Sets].</li>
+</ol>
+</li>
+<li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-black-hole">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">BLACK HOLE [x2]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Normal Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-black-hole.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play to the side of the Discards to use this Card's Effect [not if using it as a Pure Chaos Card (any Type) ].</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Choose one:
+<ol type="a">
+<li>Black Hole's Effect:
+<ol type="i">
+<li>All Players in Play Order Discard all Their Hand Cards.</li>
+<li>Then the User Deals 5 Cards to Each Player.</li>
+</ol>
+</li>
+<li>Or Play simply as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Then place this Card on top of the Discards.</li>
+<li>Choose a Colour to Continue.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-black-knight">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">BLACK KNIGHT [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Oblivion Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive & Royal Knight Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/06-oblivion-expansion-black-knight.png">
+</div>
+</div>
+<div class="discards-box">
+<strong>ACTIVATION NOTES:</strong>
+<ul>
+<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Choose one:
+<ol type="a">
+<li>Black Knight's Usurper Effect:
+<ol type="i">
+<li>Choose any 2 Players to Swap Hands with [including Yourself].</li>
+</ol>
+</li>
+<li>Or Play simply as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class=note-box>
+<strong>NOTES:</strong>
+<ul>
+<li>The User maintains ownership of Black Knight.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1" start="2">
+<li>Then continue Your Turn as normal.</li>
+</ol>
+</div>
+<div class=restriction-box>
+<strong>UNIQUE RESTRICTION NOTES:</strong>
+<ul>
+<li>This Effect Cannot affect the same Players two Activations in a row; regardless of who is the User and who is the Target.</li>
+</ul>
+</div>
+<div class=restriction-box>
+<strong>CLASS RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be Your last Card.</li>
+<li>Cannot be Countered, Except by King's Knight's Effect.</li>
+<li>You Can only use one Royal Knight Effect per Turn, and it Can only be used once each Turn; however, You Can use it on additional Turns afterwards.</li>
+<li>You Cannot use another Chaos Card on the same Turn You activate a Royal Knight Class Chaos Card; and vice versa.</li>
+<li>You Cannot Go Out with this Card Effect.</li>
+</ul>
+</div>
+<div class="two-player-note-box">
+<strong>2 PLAYER GAME NOTES:</strong>
+<ul>
+<li>Black Knight Can only Target the other Player every second Turn.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-bodyguard">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">BODYGUARD [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Counter Class LV:1</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Assassin Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/15-doomsday-expansion-counter-lv1-bodyguard.png">
+</div>
+</div>
+<div class="rules-box">
+<ol>
+<li>Choose one:
+<ol type="a">
+<li>When You are Self Targeted by an Assassin, play this Card to save Yourself.</li>
+<li>If another Player is Self Targeted by an Assassin on Their Turn [before they are Removed From the Game], You Can:
+<ol type="i">
+<li>Offer Bodyguard as a private 1:1 trade to save Their life [if they have something to pay You with…].</li>
+<li>Be a hero and give it to them for free!</li>
+<li>Or simply ignore the situation.</li>
+<li>The choice is Yours…</li>
+</ol>
+</li>
+<li>Instead of playing a Card on Your Turn, You Can choose to Shuffle Bodyguard back into the Deck on Your Turn.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Play continues from the previous Card played.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>If You Draw Bodyguard and reveal an Assassin Trap Class Chaos Card in doing so, You May immediately Play it. This is a rare exception to the Pick Up/Put Down Rule for Chaos Cards [See: <a href="/01-a-crazy-8s-game-rulebook#pick-up-put-down" class="matrix-link">Crazy 8's Game Rulebook: How To Play: Rule 3: Note & Restriction]</a>.</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be played as a Pure Chaos Card.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-call-of-the-soloverse">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">CALL OF THE SOLOVERSE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Singularity Expansion</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/07-singularity-expansion-trap-call-of-the-soloverse.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>When Revealed, remove from the Deck Temporarily.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>When this Card is revealed, all Unification Class Chaos Cards in Player’s Hands Must be revealed to the group.</li>
+<li>Optionally, if all 3 Unification Class Chaos Cards are NOT revealed, You Can choose to search the Deck for any Unification Class Chaos Card that is there and give it to any Player with the least amount of Unification Class Chaos Cards in Their Hand [including Yourself].</li>
+</ol>
+</div>
+<div class="restriction-box">
+<strong>PENALTY NOTES:</strong>
+<ul>
+<li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
+<li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol start="3">
+<li>Continue to Draw if required.</li>
+</ol>
+</div>
+<div class="discards-box">
+<ul>
+<li>Shuffle Call of the Soloverse back into the Deck.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol start="4">
+<li>Play continues from the last Card on the Discards.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
 <div id="crazy-8s-clone">
 <div class="rules-box">
 <div class="card-top-section">
@@ -3461,44 +5433,6 @@ type: "cards"
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
 <li>When copying another Clone Chaos Card, redirect to the first non-Clone Chaos Card on the Discards. Can even copy the Genetic Manipulation and ,Reverse Stun, Stun and Steal Turn Chaos Cards.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-coloured-draw-2">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">COLOURED DRAW +2 [x2 Per Colour]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Coloured Extensions</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/000-1-steel-draw-2.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Acts as Draw +2.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>The Next Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
-</ol>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -3675,72 +5609,6 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cure is always Shuffled back into the Deck and Cannot be Removed from the Game.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-defragmented-reality">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">DEFRAGMENTED REALITY [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-defragmented-reality.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
-<ul>
-<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
-<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Choose one:
-<ol type="a">
-<li>For the Rest of the Game, Players Cannot go out with any Single Card, and thus are required to go out with Chaos Card Effects to Discard Multiple Cards.</li>
-<li>For the Rest of the Game, Players Cannot go out with Chaos Cards or Chaos Card Effects and thus are required to go out with Coloured Cards.</li>
-<li>For the Rest of the Game, Player are required to go out with NOU as Their last Card.</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4481,138 +6349,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-duplication-stone">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">DUPLICATION STONE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Next & Specific Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-3-of-6-duplication-stone.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
-<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
-<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-<li>Activate when playing a Draw Effect Card.</li>
-</ul>
-</div>
-<div class="rules-box">
- <ol>
-<li>On any Turn You charge another Player a Drawing or Dealing Effect by any means [and NOT just Chaos Cards], Double the Amount.</li>
-</ol>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>If responding with a Counter Class Chaos Card [i.e.: Nou], double the immediately previous Drawing or Dealing Effect Card instead.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>UNIQUE RESTRICTION NOTES:</strong>
-<ul>
-<li>If Responding in Kind, by Stacking the Drawing Effect, double only Your Card’s Effect.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
-<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
-<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
-</ul>
-</div>
-</li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>Card Effects like Black Hole.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>BULK POSSESSION NOTES:</strong>
-<ul>
-<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
-<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
-<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
-<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
-<ul>
-<li><strong>User:</strong>
-<ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
-</ol>
-</li>
-<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
-<ol type="a">
-<li>If the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
-<li>If You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="special-victory-condition-note-box">
-<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
-<ul>
-<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-elegant-generosity">
 <div class="rules-box">
 <div class="card-top-section">
@@ -4792,276 +6528,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-field-of-addition">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF ADDITION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-1-field-of-addition.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Every Number Card Played Must be Equal to or Higher than the Previous one Played.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>0, 1, 1, 4, 9…</li>
-</ul>
-</div>
-</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-field-of-deception">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF DECEPTION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-7-field-of-deception.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>On your turn, You place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>You do not have to tell the truth about the number of cards or their value.</li>
-</ul>
-</div>
-</li>
-<li>Cheating is allowed. But you will be penalised for getting caught.</li>
-<li>At any point, any other Player Can call “Deception!” At which point the last Player who put down Must reveal their cards.
-<ol type="a">
-<li>If the Player was in fact Cheating, They Must now pick up the entire Discards.</li>
-<li>If the Player was indeed telling the truth, the Challenging Player Must pick up the entire Discards instead!</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-field-of-escalation">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF ESCALATION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-3-field-of-escalation.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Every Number Card Played Must be Sequentially Higher than the Previous one Played.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>0, 1, 2, 3, 4…</li>
-</ul>
-</div>
-</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-field-of-normalisation">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF NORMALISATION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-8-field-of-normalisation.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Follow all Rules for [01-A] Soloverse [Crazy 8’s].</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-field-of-reduction">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF REDUCTION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-4-field-of-reduction.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Every Number Card Played Must be Sequentially Lower than the Previous one Played.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>9, 8, 7, 6…</li>
-</ul>
-</div>
-</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-field-of-replication">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF REPLICAATION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-6-field-of-replication.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Multiple Copies of Number Cards Can be Played if they are of Equal Value.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>9, 9, 9, 9, 9…</li>
-</ul>
-</div>
-</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-field-of-subtraction">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF SUBTRACTION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-2-field-of-subtraction.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Every Number Card Played Must be Equal to or Lower than the Previous one Played.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>9, 9, 5, 4, 4…</li>
-</ul>
-</div>
-</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-field-of-succession">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">FIELD OF SUCCESSION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Field Deck Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Field Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/18-field-deck-5-field-of-succession.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Every Number Card Played Must be Sequentially Higher or Lower than the Previous one Played.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>5, 4, 5, 6, 7, 6…</li>
-</ul>
-</div>
-</li>
-<li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-field-transformation">
 <div class="rules-box">
 <div class="card-top-section">
@@ -5195,151 +6661,6 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card [unless by it's own Effect].</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-illumination-stone">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">ILLUMINATION STONE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Ancient Stone Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-5-of-6-illumination-stone.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
-<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
-<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-<li>Activate before You start a PLAYABLE TURN.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol>
-<li>Deal 1 Card to Yourself.</li>
-<li>Force all Players to set all but 1 Card in Their Handas Face-Up on the table in front of them.
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Everyone Can keep 1 Card secret.</li>
-</ul>
-</div>
-<div class="tip-box">
-<strong>TIP:</strong>
-<ul>
-<li>While You Can keep 1 Card Secret, it doesn’t have to be Your best Card; in effect You could bluff the other Players into thinking You have something better.</li>
-</ul>
-</div>
-</li>
-<li>This Effect lasts until the start of Your next PLAYABLE TURN.</li>
-</ol>
-</div>
-<div class="compatibility-note">
-<ul>
-<li>There is nothing wrong in using Chaos Cards with a Card Swapping Effect to take another Player’s Secret Card in exchange for any Card of Your own.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>UNIQUE RESTRICTION NOTES:</strong>
-<ul>
-<li>You Must show Your own Hand as well.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
-<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
-<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
-</ul>
-</div>
-</li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>Card Effects like Black Hole.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>BULK POSSESSION NOTES:</strong>
-<ul>
-<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
-<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
-<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
-<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
-<ul>
-<li><strong>User:</strong>
-<ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
-</ol>
-</li>
-<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
-<ol type="a">
-<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
-<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="special-victory-condition-note-box">
-<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
-<ul>
-<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
-</ul>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -6354,139 +7675,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-repetition-stone">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">REPETITION STONE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Next & Specific Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-1of-6-repetition-stone.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
-<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
-<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-<li>Activate after any Player's Turn.</li>
-</ul>
-</div>
-<div class="rules-box">
- <ol type="a">
-<li>Once between Your PLAYABLE TURNs, force one other Player to take Their Turn again.</li>
-<li>After any of Your PLAYABLE TURNs, decide if You will take Your Turn again or not.</li>
-</ol>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>If the Targeted Player [including Yourself] faced Action Class or Chaos Card Effects that Turn, they MUST face them again.</li>
-<li>If the Card they faced last time was a Counter Class Chaos Card, redirect to the immediately previous Chaos Card’s Effect instead.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>UNIQUE RESTRICTION NOTES:</strong>
-<ul>
-<li>This Effect only applies to the last actionable Card played, NOT the total of Stacked Effects [if any].</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
-<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
-<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
-</ul>
-</div>
-</li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>Card Effects like Black Hole.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>BULK POSSESSION NOTES:</strong>
-<ul>
-<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
-<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
-<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
-<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
-<ul>
-<li><strong>User:</strong>
-<ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
-</ol>
-</li>
-<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
-<ol type="a">
-<li>If the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
-<li>If You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="special-victory-condition-note-box">
-<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
-<ul>
-<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
-</ul>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-resurrection">
 <div class="rules-box">
 <div class="card-top-section">
@@ -6513,50 +7701,6 @@ type: "cards"
 <ul>
 <li>Continue to Draw if required.</li>
 <li>Shuffle Mercy back into the Deck.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be Countered.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-reverse">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">REVERSE [x2 per Colour]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Colour Extensions</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Group Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/000-12-poison-reverse.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>When played, the Direction of Play Reverses.</li>
-</ol>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Compatible with all Reverse Symbol Cards [e.g.: the Pure Chaos Reverse or Chaos Draw +4 Reverse (after the Primary Draw Effect has been Resolved) ].</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Reverse’s Effect no longer works; however, You Can still match its Symbol.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -6783,44 +7927,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-skip">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">SKIP [x2 per Colour]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Colour Extensions</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/000-4-toxin-skip.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>When played, the next Player Skips Their Turn.</li>
-</ol>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Compatible with all Skip Symbol Cards [e.g.: the Pure Chaos Skip or Chaos Draw +4 Skip Chaos Cards (after the Primary Draw Effect has been Resolved) ].</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be Countered.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-slap">
 <div class="rules-box">
 <div class="card-top-section">
@@ -6929,118 +8035,11 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-soloversal-engine-overdrive">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SOLOVERSAL ENGINE OVERDRIVE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-soloversal-engine-overdrive.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>If any Player is Forced to Draw a Total of 20 Cards or more from a Draw Effect, reveal this Card to Change the Draw Effect to a Group Targeting Effect instead.</li>
-<li>In Play Order, Starting with the Targeted Player, all other Players [except this Card's User] Must now draw the same number of Cards as the Targeted Player.</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-soloversal-singularity">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SOLOVERSAL SINGULARITY [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-soloversal-singularity.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>For the next Round of Turns, all Players give You Their Cards.</li>
-<li>You get to choose what Cards each Player Plays for Their Turn.</li>
-<li>This includes not Playing Cards at all, forcing them to Draw instead and wasting any potentially powerful Chaos Cards early.</li>
-</ol>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-soloversal-destruction">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SOLOVERSAL DESTRUCTION [x1]:</h4>
+<h4 class="card-title">SOLOVERSAL DESTRUCTION [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Doomsday Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Trap Class</span></strong></li>
@@ -7610,755 +8609,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-substitution-stone">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">SUBSTITUTION STONE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Catacysm Extension</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Unknown Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-2-of-6-substitution-stone.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
-<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
-<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-<li>Activate before You start a PLAYABLE TURN.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol>
-<li>On any PLAYABLE TURN, You May Swap any Player’s Hand Cards or Ancient Stone Class Chaos Cards with any other Player [including Yourself], then proceed with Your Turn as normal.</li>
-</ol>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
-<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
-<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
-</ul>
-</div>
-</li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>Card Effects like Black Hole.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>BULK POSSESSION NOTES:</strong>
-<ul>
-<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
-<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
-<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
-<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
-<ul>
-<li><strong>User:</strong>
-<ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
-</ol>
-</li>
-<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
-<ol type="a">
-<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
-<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="special-victory-condition-note-box">
-<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
-<ul>
-<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
-</ul>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-system-absolute-zero">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: SYSTEM ABSOLUTE ZERO [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-system-absolute-zero.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
-<ul>
-<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
-<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Only Chaos Cards Can be Played for the Rest of the Game.</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-teleportation-stone">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">TELEPORTATION STONE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Ancient Stone Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self & Specific Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-4-of-6-teleportation-stone.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
-<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
-<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-<li>Activate before You start a PLAYABLE TURN.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol>
-<li>On any PLAYABLE TURN, You May choose to Swap Seats with any other Player [You Must each leave Your Ancient Stone Class Chaos Cards behind but take Your Hand Cards with You] and then proceed with Your Turn as normal.</li>
-<li>Play continues from Your new location.</li>
-</ol>
-</div>
-<div class="note-box">
-<ul>
-<li>You Cannot Target Previous Unrestriction Stone Users.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
-<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
-<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Simply Swap Your Ancient Stone Class Chaos Cards.</li>
-<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
-</ul>
-</div>
-</li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>Card Effects like Black Hole.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>BULK POSSESSION NOTES:</strong>
-<ul>
-<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
-<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
-<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
-<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
-<ul>
-<li><strong>User:</strong>
-<ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
-</ol>
-</li>
-<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
-<ol type="a">
-<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
-<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="special-victory-condition-note-box">
-<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
-<ul>
-<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
-</ul>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-the-architects-deletion">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S DELETION [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-deletion.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Remove a Player from the Game.</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** Only at the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a> by the Targeted Player.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-the-architects-mirage">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S MIRAGE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-mirage.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
-<ul>
-<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
-<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Any Draw Effects Targeting You will automatically bypass Your Turn completely.</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-the-architects-protocol">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S PROTOCOL [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-protocol.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a Turn facing Draw Effects.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.</li>
-<li>Remove this Card from the Game once it has been Resolved.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Any time You are Targeted with a Draw Effect, force all other Players to Draw 3 Cards in Play Order.</li>
-<li>Then proceed with Your Turn as normal.</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-the-architects-quarantine">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S QUARANTINE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-quarantine.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
-<ul>
-<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
-<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Choose one:
-<ol type="a">
-<li>All Players Cannot Play Action Class Cards for the Rest of the Game.</li>
-<li>All Players Cannot Play Normal Class Chaos Cards for the Rest of the Game.</li>
-<li>All Players Cannot Play Offensive Class Chaos Cards for the Rest of the Game.</li>
-<li>All Players Cannot Play Counter Class Chaos Cards for the Rest of the Game.</li>
-<li>All Players Cannot Play Royal Knight Class, Unification Class or Ancient Stone Class Chaos Cards for the Rest of the Game.</li>
-<li>All Players Cannot Play another Architect Class Chaos Card for the Rest of the Game.</li>
-<li>All Players Cannot be Targeted by Trap Class Chaos Cards of any type for the Rest of the Game.</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-the-architects-source-code">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE ARCHITECT'S SOURCE CODE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-architects-source-code.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
-<ul>
-<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
-<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Change any 1 Rule in the Game, no Exceptions, for the Rest of the Game.
-<div class="example-box">
-<strong>EXAMPLES:</strong>
-<ol>
-<li>You Can change the Victory Condition to something like:
-<ol type="a">
-<li>All Players Must have 1 Card instead in Their Hand to Win.</li>
-<li>All Players Must have 20 Cards instead in Their Hand to Win.</li>
-<li>All Players Must Discard more than 7 Cards from Their Hand at any time to Win.</li>
-<li>Prevent a Certain Player from Winning, regardless of existing Victory Conditions. They are not removed from the Game, They Must still Play and Draw a Card if They Cannot Play one.</li>
-</ol>
-</li>
-<li>You could Prevent Certain Numbered Cards, a Certain Coloured Set of Cards or even Certain Classes of Cards from being Played.</li>
-<li>What about forcing Players to Draw a Card before Starting Every Turn?</li>
-<li>Now you have the Source Code of the Soloverse at Your Fingertips, You have Unlimited Access to change the Game's Rules as You see fit.</li>
-<li>No Restrictions in What you Can Change in the Game's Rules, except for This Card's Rules, They Must all be Followed.</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>UNIQUE RESTRICTION NOTES:</strong>
-<ul>
-<li>The Architect's Source Code Cannot change it's own Rules.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-the-soloversal-blueprint">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE SOLOVERSAL BLUEPRINT [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Persistent</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-soloversal-blueprint.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
-<ul>
-<li>You May Deactivate this Card before you start any PLAYABLE TURN. To Deactivate this Card, Simply Remove it from the Game.</li>
-<li>Should a Second Persistent Architect Class Chaos Card Effect be Activated, it will Overwrite this one, Removing it from the Game.</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="a">
-<li><strong><span style="color: var(--color-card-class);">For Yourself:</span></strong> Pure Chaos Cards become any Chaos Card in the Game You want when Played for the Rest of the Game.</li>
-<li><strong><span style="color: var(--color-card-class);">Once per Game for each other Player:</span></strong> Any Chaos Card Played by any other Player is Played as a Pure Chaos Card for the that Turn.</li> 
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can only be Countered <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with this Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-the-soloverse-loophole">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: THE SOLOVERSE LOOPHOLE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-the-soloverse-loophole.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
-<li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Declare a Number [0-9].</li>
-<li>Discard the Top card of the Deck until a Number Card [0-9] is Revealed.</li>
-<li>The Number that is Revealed determines one of the following Effects:
-<ol type="a">
-<li><strong><span style="color: var(--color-card-class);">Any Other Number:</span></strong> The Number of Cards all other Players Draw.</li>
-<li><strong><span style="color: var(--color-card-class);">The Number You Declared:</span></strong> You Win Instantly.</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Can be Countered <strong>*** At the Moment of Activation or the Moment of it's Special Victory Condition Activating***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox" class="return-link">Unstable Soloversal Paradox</a>.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-toxin">
 <div class="rules-box">
 <div class="card-top-section">
@@ -8478,213 +8728,6 @@ type: "cards"
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
 <li>Cannot be Countered.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-unrestriction-stone">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">UNRESTRICTION STONE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Cataclysm Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Ancient Stone Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Restriction Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/16-cataclysm-expansion-6-of-6-unrestriction-stone.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
-<li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
-<li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-<li>Activate before You start a PLAYABLE TURN.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ul>
-<li>When activated, the User Can choose to disable the Restrictions of all Their Chaos Cards [and I mean all Restrictions of all Chaos Cards; so, remember to consider the “Class Restrictions” NOT just the individual “Card Restrictions”].</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>COMMUTATION OF THE ANCIENTS EFFECT:</strong>
-<ul>
-<li>If at the end of Your Turn You chose to use the above ability, this Effect activates:
-<ol>
-<li>First, collect all Ancient Stone Class Chaos Cards and return them to the Cataclysm Side Deck and Shuffle it.</li>
-<li>Next, Remove 1 Player of Your Choice from the Game.</li>
-<li>Then, if more than one Player has previously been Removed from the Game by any means, You Must choose one to Restore to the Game.</li>
-<li>Re-Deal all Ancient Stone Class Chaos Cards to all Players now currently in the Game, but You Must maintain Play Order [See: RESTRICTION below].</li>
-</ol>
-</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>UNIQUE RESTRICTION NOTES:</strong>
-<ul>
-<li>The Unrestriction Stone Cannot disable its own Restrictions.</li>
-<li>You Cannot receive any more Ancient Stone Class Chaos Cards again for the rest of the game.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>All Ancient Stone Class Chaos Card Effects Cannot be Countered, Including Their Special Victory Condition.</li>
-<li>Only 1 Ancient Stone Class Chaos Card Can be used each Turn [compare BULK POSSESSION NOTES].</li>
-<li>All Ancient Stone Class Chaos Card Effects Cannot affect the same Players two Activations in a row, regardless of who is the User and who is the Target.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If someone uses the Teleportation Stone to take control of Your seat and Ancient Stone Class Chaos Cards, the Teleportation Stone Cannot reclaim them. You Must use the Teleportation Stone to Target another Player.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>Individual Ancient Stone Class Chaos Cards Can only Target the other Player every second Turn.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Ancient Stone Class Chaos Cards May NOT count towards Your Hand’s Card count [so You Can still win with no Cards even if You possess one], but they Can still be stolen via card Swapping means; however, if doing this, You Can only Swap Hand Cards or Ancient Stone Class Chaos Cards.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If chosen, Paradigm Shift’s Group Targeting Swap Effect Can target all Player’s Ancient Stone Class Chaos Cards instead of Their Hand Cards [the Swap includes All Players Except Previous Unrestriction Stone Users, regardless of whether they currently own an Ancient Stone Class Chaos Card or not].</li>
-</ul>
-</div>
-</li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>Card Effects like Black Hole.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="advanced-box">
-<strong>BULK POSSESSION NOTES:</strong>
-<ul>
-<li><strong>2 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 3 Ancient Stone Class Chaos Cards. This Turn DOES NOT include the ability to play Another Chaos Card or Ancient Stone.</li>
-<li><strong>3 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 4 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card but DOES NOT include the ability to play another Ancient Stone.</li>
-<li><strong>4 ANCIENT STONE CLASS CHAOS CARDS:</strong> You Can choose to have a second Turn every Turn You possess a total of 5 Ancient Stone Class Chaos Cards. This Turn DOES include the ability to play another Chaos Card AND another Ancient Stone Class Chaos Card.</li>
-<li><strong>5 ANCIENT STONE CLASS CHAOS CARDS:</strong>
-<ul>
-<li><strong>User:</strong>
-<ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
-</ol>
-</li>
-<li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
-<ol type="a">
-<li>IF the User attempts to take possession of Your Ancient Stone Class Chaos Card, Slap the Table to Defend Yourself.</li>
-<li>IF You Slap the Table and the User did NOT attempt to take possession of Your Ancient Stone Class Chaos Card, You Forfeit it to them.</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="special-victory-condition-note-box">
-<strong>SPECICAL VICTORY CONDITION NOTES:</strong>
-<ul>
-<li><strong>6 ANCIENT STONE CLASS CHAOS CARDS:</strong> Possessing All 6 Ancient Stone Class Chaos Cards at once instantly Wins You the game [regardless of the number of Cards You possess; or whose Turn it actually is].</li>
-</ul>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
-</ul>
-</div>
-<div class="two-player-note-box">
-<strong>2 PLAYER GAME NOTES:</strong>
-<ul>
-<li>This Special Victory Condition now Activates with by possessing all 4 Ancient Stone Class Chaos Cards in Play [Compare <a href="/01-a-crazy-8s-game-rulebook" class="matrix-link">(01-A) Soloverse 01-A Crazy 8's Game Rulebook: Cataclysm Expansion Additional Setup Rules</a>].</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-unstable-soloversal-paradox">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">THE ARCHITECT OF THE SOLOVERSE: UNSTABLE SOLOVERSAL PARADOX [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Architect Class & Counter Class LV:5</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/19-unstable-soloversal-paradox.png">
-</div>
-</div>
-<div class="discards-box">
-<strong>ACTIVATION NOTES:</strong>
-<ul>
-<li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
-<li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Choose one:
-<ol type="a">
-<li>Counter Any Offensive Chaos Card Effect.</li>
-<li>Counter Any Counter Class LV:1-4 Chaos Card Effect.</li>
-<li>Counter Any Architect Class Chaos Card Effect.</li>
-<li>Counter Any Victory Condition, force the Winning Player to Continue the Game by Drawing 5 New Cards. In the Case of Special Victory Conditions [Example: Unification Class, Ancient Stone Class, etc...], remove said Chaos Cards from the Game.</li>
-<li>Counter Being Removed from the Game by any means.</li>
-</ol>
-</li>
-</ol>
-</div>
-<div class="advanced-box">
-<strong>COUNTERING NOTES:</strong>
-<ul>
-<li>This Card Can Counter ALL OTHER CHAOS CARD EFFECTS, regardless of if those Chaos Cards Could NOT be Countered otherwise.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be used as a Pure Chaos Card.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>UNIQUE RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be Countered by any means.</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>CLASS RESTRICTION NOTES:</strong>
-<ul>
-<li>Only One Persistent Architect Class Chaos Card Effect Can be Active at the same time.</li>
-<li>Activating a Second Persistent Architect Class Chaos Card Effect will Overwrite the Previous One.</li>
-<li>You Cannot Go Out with a Persistent Architect Class Chaos Card Activated.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
