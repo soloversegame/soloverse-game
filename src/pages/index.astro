@@ -11,6 +11,7 @@ const gamesList = [
     id: "01-a-crazy-8s-tutorial",
     title: "[01-A] Soloverse - Crazy 8s [Tutorial]",
     subtitle: "Learn the Basics with a Simplified Deck",
+    complexity: "★☆☆☆☆",
     boxColor: "#0000ff",
     rulesId: "01-a-crazy-8s-tutorial-rules",
     cardsId: "01-a-crazy-8s-tutorial-cards",
@@ -21,6 +22,7 @@ const gamesList = [
     id: "01-b-crazy-8s",
     title: "[01-B] Soloverse - Crazy 8s",
     subtitle: "You Know the Basics, So Add as Much Chaos to the Game as You Want.",
+    complexity: "★⯪☆☆☆",
     boxColor: "#8cfffb",
     rulesId: "01-b-crazy-8s-rules",
     cardsId: "01-b-crazy-8s-cards",
@@ -31,6 +33,7 @@ const gamesList = [
     id: "01-c-crazy-8s-utter-chaos",
     title: "[01-C] Crazy 8s [Utter Chaos]",
     subtitle: "Removes the Turn Structure",
+    complexity: "★★☆☆☆",
     boxColor: "#aded8f",
     rulesId: "01-c-crazy-8s-utter-chaos-rules",
     cardsId: "01-c-crazy-8s-utter-chaos-cards",
@@ -41,6 +44,7 @@ const gamesList = [
     id: "02-karma",
     title: "[02] Karma",
     subtitle: "A Hand Shedder Where There is Only 1 Loser",
+    complexity: "★★☆☆☆",
     boxColor: "#0ed145",
     rulesId: "03-a-karma-rules",
     cardsId: "03-a-karma-cards",
@@ -51,6 +55,7 @@ const gamesList = [
     id: "03-cheat",
     title: "[03] Cheat",
     subtitle: "Basically Crazy 8's But You Play Face-Down, Cheating Allowed",
+    complexity: "★★☆☆☆",
     boxColor: "#fff200",
     rulesId: "04-a-cheat-rules",
     cardsId: "04-a-cheat-cards",
@@ -61,6 +66,7 @@ const gamesList = [
     id: "04-battle-solitaire",
     title: "[04] Battle Solitaire",
     subtitle: "Solitaire, but PvP",
+    complexity: "★★⯪☆☆",
     boxColor: "#ff7f27",
     rulesId: "05-a-battle-solitaire-rules",
     cardsId: "05-a-battle-solitaire-cards",
@@ -71,6 +77,7 @@ const gamesList = [
     id: "05-deck-builder",
     title: "[05] Deck-Builder",
     subtitle: "Everyone Starts with the Same Deck, and Builds it by Buying Chaos Cards from a Common Trade Area",
+    complexity: "★★★☆☆",
     boxColor: "#b97a56",
     rulesId: "06-a-deck-builder-rules",
     cardsId: "06-a-deck-builder-cards",
@@ -81,6 +88,7 @@ const gamesList = [
     id: "06-nominations",
     title: "[06] Nominations",
     subtitle: "Start at 1 Card, then Deal an Extra Card each Round to a Maximum of 10, then back down to 1 Card Dealt. Highest Card Wins!",
+    complexity: "★★★⯪☆",
     boxColor: "#84471a",
     rulesId: "07-a-nominations-rules",
     cardsId: "07-a-nominations-cards",
@@ -91,6 +99,7 @@ const gamesList = [
     id: "00-b-full-game-contents",
     title: "[00] Soloverse - Full Game Contents",
     subtitle: null,
+    complexity: null,
     boxColor: "#b2b2b2",
     rulesId: "00-b-full-game-contents",
     cardsId: null,
@@ -101,6 +110,7 @@ const gamesList = [
     id: "00-c-recommended-divider-setup",
     title: "[00] Soloverse - Recommended Divider Setup",
     subtitle: null,
+    complexity: null,
     boxColor: "#b2b2b2",
     rulesId: "00-c-recommended-divider-setup",
     cardsId: null,
@@ -111,6 +121,7 @@ const gamesList = [
     id: "00-e-patch-notes",
     title: "[00] 🕹️ Patch Notes",
     subtitle: null,
+    complexity: null,
     boxColor: "#b2b2b2",
     rulesId: "00-e-patch-notes",
     cardsId: null,
@@ -121,6 +132,7 @@ const gamesList = [
     id: "00-f-contact-us",
     title: "[00] 📞 Contact Us",
     subtitle: "& Official Links",
+    complexity: null,
     boxColor: "#b2b2b2",
     rulesId: "00-f-contact-us",
     cardsId: null,
@@ -304,6 +316,13 @@ const finalizedGames = renderedGames.map((game) => {
                         {game.subtitle && (
                             <p class="game-subtitle" style={`color: ${titleColor}; opacity: 0.85; font-size: 0.9em; margin: 0; text-shadow: ${textShadowRule};`}>
                                 {game.subtitle}
+                            </p>
+                        )}
+
+                        {/* This line checks if a complexity rating exists, and only renders it if it's not null */}
+                        {game.complexity && (
+                            <p class="game-complexity" style={`color: ${titleColor}; opacity: 0.85; font-size: 0.9em; margin: 0; text-shadow: ${textShadowRule};`}>
+                                Complexity: {game.complexity}
                             </p>
                         )}
                     </div>
