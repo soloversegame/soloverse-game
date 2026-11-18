@@ -12,6 +12,8 @@ const gamesList = [
     title: "[01-A] Soloverse - Crazy 8s [Tutorial]",
     subtitle: "Learn the Basics with a Simplified Deck",
     complexity: "★☆☆☆☆",
+    ages: "8+",
+    playercount: "3-4",
     boxColor: "#0000ff",
     rulesId: "01-a-crazy-8s-tutorial-rules",
     cardsId: "01-a-crazy-8s-tutorial-cards",
@@ -23,6 +25,8 @@ const gamesList = [
     title: "[01-B] Soloverse - Crazy 8s",
     subtitle: "You Know the Basics, So Add as Much Chaos to the Game as You Want.",
     complexity: "★⯪☆☆☆",
+    ages: "8+",
+    playercount: "2-12 [Best with 5-7]",
     boxColor: "#8cfffb",
     rulesId: "01-b-crazy-8s-rules",
     cardsId: "01-b-crazy-8s-cards",
@@ -34,6 +38,8 @@ const gamesList = [
     title: "[01-C] Crazy 8s [Utter Chaos]",
     subtitle: "Removes the Turn Structure",
     complexity: "★★☆☆☆",
+    ages: "8+",
+    playercount: "2-12 [Best with 5-7]",
     boxColor: "#aded8f",
     rulesId: "01-c-crazy-8s-utter-chaos-rules",
     cardsId: "01-c-crazy-8s-utter-chaos-cards",
@@ -45,6 +51,8 @@ const gamesList = [
     title: "[02] Karma",
     subtitle: "A Hand Shedder Where There is Only 1 Loser",
     complexity: "★★☆☆☆",
+    ages: "8+",
+    playercount: "2-6 [Best with 5-7]",
     boxColor: "#0ed145",
     rulesId: "03-a-karma-rules",
     cardsId: "03-a-karma-cards",
@@ -56,6 +64,8 @@ const gamesList = [
     title: "[03] Cheat",
     subtitle: "Basically Crazy 8's But You Play Face-Down, Cheating Allowed",
     complexity: "★★☆☆☆",
+    ages: "8+",
+    playercount: "2-12 [Best with 5-7]",
     boxColor: "#fff200",
     rulesId: "04-a-cheat-rules",
     cardsId: "04-a-cheat-cards",
@@ -67,6 +77,8 @@ const gamesList = [
     title: "[04] Battle Solitaire",
     subtitle: "Solitaire, but PvP",
     complexity: "★★⯪☆☆",
+    ages: "8+",
+    playercount: "2-6",
     boxColor: "#ff7f27",
     rulesId: "05-a-battle-solitaire-rules",
     cardsId: "05-a-battle-solitaire-cards",
@@ -78,6 +90,8 @@ const gamesList = [
     title: "[05] Deck-Builder",
     subtitle: "Everyone Starts with the Same Deck, and Builds it by Buying Chaos Cards from a Common Trade Area",
     complexity: "★★★☆☆",
+    ages: "8+",
+    playercount: "2-6",
     boxColor: "#b97a56",
     rulesId: "06-a-deck-builder-rules",
     cardsId: "06-a-deck-builder-cards",
@@ -89,6 +103,8 @@ const gamesList = [
     title: "[06] Nominations",
     subtitle: "Start at 1 Card, then Deal an Extra Card each Round to a Maximum of 10, then back down to 1 Card Dealt. Highest Card Wins!",
     complexity: "★★★⯪☆",
+    ages: "8+",
+    playercount: "2-8",
     boxColor: "#84471a",
     rulesId: "07-a-nominations-rules",
     cardsId: "07-a-nominations-cards",
@@ -100,6 +116,8 @@ const gamesList = [
     title: "[00] Soloverse - Full Game Contents",
     subtitle: null,
     complexity: null,
+    ages: null,
+    playercount: null,
     boxColor: "#b2b2b2",
     rulesId: "00-b-full-game-contents",
     cardsId: null,
@@ -111,6 +129,8 @@ const gamesList = [
     title: "[00] Soloverse - Recommended Divider Setup",
     subtitle: null,
     complexity: null,
+    ages: null,
+    playercount: null,
     boxColor: "#b2b2b2",
     rulesId: "00-c-recommended-divider-setup",
     cardsId: null,
@@ -122,6 +142,8 @@ const gamesList = [
     title: "[00] 🕹️ Patch Notes",
     subtitle: null,
     complexity: null,
+    ages: null,
+    playercount: null,
     boxColor: "#b2b2b2",
     rulesId: "00-e-patch-notes",
     cardsId: null,
@@ -133,6 +155,8 @@ const gamesList = [
     title: "[00] 📞 Contact Us",
     subtitle: "& Official Links",
     complexity: null,
+    ages: null,
+    playercount: null,
     boxColor: "#b2b2b2",
     rulesId: "00-f-contact-us",
     cardsId: null,
@@ -325,6 +349,21 @@ const finalizedGames = renderedGames.map((game) => {
                                 Complexity: {game.complexity}
                             </p>
                         )}
+
+                        {/* This line checks if a age rating exists, and only renders it if it's not null */}
+                        {game.ages && (
+                            <p class="game-ages" style={`color: ${titleColor}; opacity: 0.85; font-size: 0.9em; margin: 0; text-shadow: ${textShadowRule};`}>
+                                Ages: {game.ages}
+                            </p>
+                        )}
+
+                        {/* This line checks if a player count exists, and only renders it if it's not null */}
+                        {game.playercount && (
+                            <p class="game-playercount" style={`color: ${titleColor}; opacity: 0.85; font-size: 0.9em; margin: 0; text-shadow: ${textShadowRule};`}>
+                                Player Count: {game.playercount}
+                            </p>
+                        )}
+
                     </div>
                     
                     <div class="box-contents">
