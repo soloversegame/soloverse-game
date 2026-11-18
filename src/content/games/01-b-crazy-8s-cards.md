@@ -82,9 +82,6 @@ type: "cards"
 <li class="matrix-item-heading">
 <a href="#crazy-8s-w" class="matrix-link">W</a>
 </li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-glossary" class="matrix-link">GLOSSARY</a>
-</li>
 </ul>
 </nav>
 

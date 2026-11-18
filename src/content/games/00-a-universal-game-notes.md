@@ -62,30 +62,32 @@ type: "rules"
 <div id="universal-game-notes-important-notes">
 <h2 class="rulebook-heading">IMPORTANT NOTES:</h2>
 <div class="rules-box">
-<div id="important-notes-01">
+<div id="universal-game-notes-important-notes-01">
 <ol>
-<li>Never Re-Shuffle the Discards into the Deck as this has the potential for the game to not end.
+<li><strong>Never Re-Shuffle the Discards into the Deck as this has the potential for the game to not end.</strong>
 <ul>
-<li>If the Deck runs out of Drawable Cards, the Game Ends and everyone loses! [e.g.: (01-A) Soloverse (Crazy 8's) (Game Rulebook): Victory Conditions: Rule 5].</li>
-</ul>
-</li>
+<li>If the Deck runs out of Drawable Cards, the Game Ends and everyone loses! [e.g.: (01-A) Soloverse (Crazy 8's) (Game Rulebook): Victory Conditions: Rule 5].
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
 <li>“The Recycle Chaos Card from the Core Extension can give you options here.”</li>
 </ul>
 </div>
-<li>There is a difference between Deal Effects and Draw Effects:
+</li>
+</ul>
+</li>
+<div id="universal-game-notes-important-notes-02">
+<li><strong>There is a difference between Deal Effects and Draw Effects:</strong>
 <ul>
 <li>All Deal Effects [including the initial Deal] ignore all Trap Effects [return them to the Deck if Revealed].</li>
 <li>All Draw Effects follow Trap Effects.</li>
 </ul>
 </li>
-<li>In some cases, Card Effects can Override and/or Delay others.
+</div>
+<div id="universal-game-notes-important-notes-03">
+<li><strong>In some cases, Card Effects can Override and/or Delay others.</strong>
 <ul>
-<li>When this happens, the last Card Always takes Priority.</li>
-</ul>
-</li>
+<li>When this happens, the last Card Always takes Priority.
 <div class="example-box">
 <strong>EXAMPLES:</strong>
 <ul>
@@ -93,23 +95,28 @@ type: "rules"
 <li>If the Vaccine Chaos Card is in play and its User’s turn is Skipped, the Vaccine Chaos Card cannot Deactivate [allowing Chaos Cards to be played/activated again] due to its User not having a Playable Turn that round.</li>
 </ul>
 </div>
-<li>Playable Turn Notes:
+</li>
+</ul>
+</div>
+<div id="universal-game-notes-important-notes-04">
+<li><strong>Playable Turn Notes:</strong>
 <ul>
 <li>A Playable Turn describes a Turn that the Player can choose for themselves what Card to play.</li>
-<li>A Playable Turn does not describe a Turn where a Player is facing Card Effects.</li>
-</ul>
-</li>
+<li>A Playable Turn does not describe a Turn where a Player is facing Card Effects.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>Such as having their Turn Skipped or needing to Respond in Kind to Stacked Draw Effects.</li>
 </ul>
 </div>
-<li>Turn Order x Discard Timing:
-<ul>
-<li>It is important to follow the Turn Order when such events like Group Discarding occurs.</li>
+</li>
 </ul>
 </li>
+</div>
+<div id="universal-game-notes-important-notes-05">
+<li><strong>Turn Order x Discard Timing:</strong>
+<ul>
+<li>It is important to follow the Turn Order when such events like Group Discarding occurs.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -128,7 +135,12 @@ type: "rules"
 <li>Chaos Cards that force all Players to Group Discard 1 more Cards. Observing the Turn Order grants the last Player [in most cases the User] the advantage to choose the Card that continues play.</li>
 </ul>
 </div>
-<li>Trap Class Chaos Card Notes: 
+</li>
+</ul>
+</li>
+</div>
+<div id="universal-game-notes-important-notes-06">
+<li><strong>Trap Class Chaos Card Notes:</strong>
 <ul>
 <li>All are Dual-Sided and therefore appear Face-Up in the Deck when Shuffled. </li>
 <li>When revealed, remove it from the Deck temporarily and follow its Effects. </li>
@@ -138,18 +150,20 @@ type: "rules"
 <li>All Trap Class Chaos Cards CANNOT be Countered, unless specified [including Trap Class Chaos Cards from Expansions]. </li>
 </ul>
 </li>
-<li>Multiple Trap Class Chaos Card Activations:
+</div>
+<div id="universal-game-notes-important-notes-07">
+<li><strong>Multiple Trap Class Chaos Card Activations:</strong>
 <ul>
 <li>If multiple Trap Class Chaos Cards are triggered during Drawing, place the latest Trap Class Chaos Card on top of the previous and complete its Effects first. </li>
 <li>Place each Trap Class Chaos Card in a separate “used pile” as their Effects are finalised before returning to the previous Trap Class Chaos Card. </li>
 <li>Then Shuffle all Trap Class Chaos Cards back into the Deck once all Effects have been finalised. </li>
 </ul>
 </li>
-<li>Some Cards have Secondary Effect Icons:
+</div>
+<div id="universal-game-notes-important-notes-08">
+<li><strong>Some Cards have Secondary Effect Icons:</strong>
 <ul>
-<li>Their details will list these Effects First, in Order of Priority and Second, in the Order they Happen. </li>
-</ul>
-</li>
+<li>Their details will list these Effects First, in Order of Priority and Second, in the Order they Happen.
 <div class="example-box">
 <strong>EXAMPLES:</strong>
 <ul>
@@ -159,12 +173,15 @@ type: "rules"
 <li>Even if the Chaos Draw +4 Reverse was called Blue, the next Player can play any Coloured Reverse.</li>
 </ul>
 </div>
-<li>Counter Class Chaos Card Levels:
-<ul>
-<li>Each Counter Class Chaos Card will have its own Level [e.g.: Lv1, Lv3, etc]. </li>
-<li>With some exceptions, any Counter Class Chaos Card CAN be Countered back at you, IF the Responding Counter Class Chaos Card is the Same Level or Higher. </li>
+</li>
 </ul>
 </li>
+</div>
+<div id="universal-game-notes-important-notes-09">
+<li><strong>Counter Class Chaos Card Levels:</strong>
+<ul>
+<li>Each Counter Class Chaos Card will have its own Level [e.g.: Lv1, Lv3, etc]. </li>
+<li>With some exceptions, any Counter Class Chaos Card CAN be Countered back at you, IF the Responding Counter Class Chaos Card is the Same Level or Higher.
 <div class="example-box">
 <strong>EXAMPLES:</strong>
 <ul>
@@ -176,7 +193,7 @@ type: "rules"
 <div class="important-box">
 <strong>IMPORTANT:</strong>
 <ul>
-<li>Keep in mind that there are Specifically Countered situations that contradict this Important Note. </li>
+<li>Keep in mind that there are Specifically Countered situations that contradict this Important Note.</li>
 </ul>
 </div>
 <div class="example-box">
@@ -185,9 +202,13 @@ type: "rules"
 <li>Anti-Fun [a Level 1 Counter Class Chaos Card from the Core Game]. Despite all other Counter Class Chaos Cards having a higher Level, only Nou can Counter Anti-Fun if played as your last Card.</li>
 </ul>
 </div>
+</li>
+</ul>
+</li>
+</div>
 </ol>
 <div class="return-link-wrapper">
-<a href="#universal-game-notes-rules-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#universal-game-notes-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 </div>
@@ -209,26 +230,28 @@ type: "rules"
 <ol>
 <li>Carry Over Effects:
 <ul>
-<li>Some Card Effects Carry Over between Player's Turns and Activate during the Opening Phase of the next Player’s Turn [“As in you face them before your turn actually starts”].</li>
-</ul>
-</li>
+<li>Some Card Effects Carry Over between Player's Turns and Activate during the Opening Phase of the next Player’s Turn [“As in you face them before your turn actually starts”].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>Draw +2 &amp; Chaos Draw +4 from the Core Game.</li>
 </ul>
 </div>
-<li>Activate Before Starting Your Turn:
-<ul>
-<li>Certain Chaos Cards activate in the Opening Phase if they state: Activate before you start a Playable Turn. Your turn’s Main Phase only starts after such Chaos Cards’ Effects are activated.</li>
+</li>
 </ul>
 </li>
+<li>Activate Before Starting Your Turn:
+<ul>
+<li>Certain Chaos Cards activate in the Opening Phase if they state: Activate before you start a Playable Turn. Your turn’s Main Phase only starts after such Chaos Cards’ Effects are activated.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>A lot of Expansion Chaos Cards use this Effect such as the Royal Knight Class Jack’s Knightfrom the Oblivion Expansion. It changes the rules for your Main Phase, allowing 2 playable Cards to be played instead of just 1.</li>
 </ul>
 </div>
+</li>
+</ul>
+</li>
 </div>
 <div class="rules-box">
 <h3 class="rulebook-subheading">MAIN PHASE:</h3>
@@ -245,27 +268,29 @@ type: "rules"
 </ul>
 <p><strong>Required For:</strong></p>
 <ol>
-<li>Effect Finalisation: The last step in your turn after playing a Card.</li>
+<li>Effect Finalisation: The last step in your turn after playing a Card.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>After activating a Chaos Card, you will usually need to Choose a Colour to Continue, and this designates the start of your End Phase.</li>
 </ul>
 </div>
+</li>
 <li>Victory Conditions: Victory Conditions are checked during this Phase.</li>
-<li>Chaos Card Activation: “Most cards do not use this, but one does come to mind.” </li>
+<li>Chaos Card Activation: “Most cards do not use this, but one does come to mind.”
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>That example is the Counter Class Chaos Card: Anti-Fun, from the Core Game. It is technically during your End Phase, in response to your Victory Condition of No Cards Left, that any Opponent can use it to force you to Deal 5 extra Cards to yourself. At this point, your Victory Condition checks for No Cards Left, finds Cards and cancels itself, completing your Turn’s End Phase.</li>
 </ul>
 </div>
-<li>Carry Over Effects: Many Effects are forwarded onto the next Player’s Opening Phase [see: Opening Phase above]. </li>
+</li>
+<li>Carry Over Effects: Many Effects are forwarded onto the next Player’s Opening Phase [see: Opening Phase above].</li>
 </ol>
 </div>
 </div>
 <div class="return-link-wrapper">
-<a href="#top" class="return-link">🔝 Return to Rulebook Contents List</a>
+<a href="#universal-game-notes-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
 
