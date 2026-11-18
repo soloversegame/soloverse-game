@@ -4625,7 +4625,7 @@ type: "cards"
 </ul>
 </div>
 <div class="image-container">
-<img src="/assets/images/cards/01-core-extension-double-edged.png">
+<img src="/assets/images/cards/00-core-game-elegant-generosity.png">
 </div>
 </div>
 <div class="discards-box">
