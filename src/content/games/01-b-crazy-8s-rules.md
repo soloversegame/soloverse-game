@@ -17,6 +17,9 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
+<a href="#crazy-8s-compat-expansions" class="matrix-link">COMPATIBLE EXPANSIONS:</a>
+</li>
+<li class="matrix-item-heading">
 <a href="#crazy-8s-object" class="matrix-link">OBJECT</a>
 </li>
 <li class="matrix-item-heading">
@@ -36,6 +39,138 @@ type: "cards"
 </li>
 </ul>
 </nav>
+
+<!-- OBJECT -->
+<div id="crazy-8s-compat-expansions">
+<div class="rules-box">
+<h4>COMPATIBLE EXPANSIONS</h4>
+<ul>
+<li>Core Game.
+<div class="image-container">
+<div class="image-caption">Core Game Icon.</div>
+<img src="/assets/images/expansion-icons/00-core-game.png">
+</div>
+</li>
+<li>Core Extension.
+<div class="image-container">
+<div class="image-caption">Core Extension Icon.</div>
+<img src="/assets/images/expansion-icons/01-core-extension.png">
+</div>
+</li>
+<li>Core Booster.
+<div class="image-container">
+<div class="image-caption">Core Booster Icon.</div>
+<img src="/assets/images/expansion-icons/17-core-booster.png">
+</div>
+</li>
+<li>Apocalypse Expansion.
+<div class="image-container">
+<div class="image-caption">Apocalypse Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/02-apocalypse-expansion.png">
+</div>
+</li>
+<li>Warzone Expansion.
+<div class="image-container">
+<div class="image-caption">Warzone Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/03-warzone-expansion.png">
+</div>
+</li>
+<li>Devastation Expansion.
+<div class="image-container">
+<div class="image-caption">Devastation Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/04-devastation-expansion.png">
+</div>
+</li>
+<li>Catastophe Expansion.
+<div class="image-container">
+<div class="image-caption">Catastrophe Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/05-catastrophe-expansion.png">
+</div>
+</li>
+<li>Oblivion Expansion.
+<div class="image-container">
+<div class="image-caption">Oblivion Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/06-oblivion-expansion.png">
+</div>
+</li>
+<li>Singularity Expansion.
+<div class="image-container">
+<div class="image-caption">Singularity Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/07-singularity-expansion.png">
+</div>
+</li>
+<li>Crisis Expansion.
+<div class="image-container">
+<div class="image-caption">Crisis Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/08-crisis-expansion.png">
+</div>
+</li>
+<li>Bio-Hazard Expansion.
+<div class="image-container">
+<div class="image-caption">Bio-Hazard Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/09-bio-hazard-expansion.png">
+</div>
+</li>
+<li>Patient Zero Expansion.
+<div class="image-container">
+<div class="image-caption">Patient Zero Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/10-patient-zero-expansion.png">
+</div>
+</li>
+<li>Pandemic Expansion.
+<div class="image-container">
+<div class="image-caption">Pandemic Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/11-pandemic-expansion.png">
+</div>
+</li>
+<li>Containment Expansion.
+<div class="image-container">
+<div class="image-caption">Containment Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/12-containment-expansion.png">
+</div>
+</li>
+<li>Contingency I Expansion.
+<div class="image-container">
+<div class="image-caption">Contingency Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/13-contingency-i-expansion.png">
+</div>
+</li>
+<li>Contingency II Expansion.
+<div class="image-container">
+<div class="image-caption">Contingency II Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/14-contingency-ii-expansion.png">
+</div>
+</li>
+<li>Doomsday Expansion.
+<div class="image-container">
+<div class="image-caption">Doomsday Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/15-doomsday-expansion.png">
+</div>
+</li>
+<li>Cataclysm Expansion.
+<div class="image-container">
+<div class="image-caption">Cataclysm Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/16-cataclysm-expansion.png">
+</div>
+</li>
+<li>Field Deck Expansion.
+<div class="image-container">
+<div class="image-caption">Field Deck Expansion Icon.</div>
+<img src="/assets/images/expansion-icons/18-field-deck-expansion.png">
+</div>
+</li>
+<li>And, the Architect of the Soloverse Expansion. These Cards are Borderless with Full-Colour "Galaxy" Backgrounds. They do not have an Expansion Icon, but They do say "THE ARCHITECT OF THE SOLOVERSE" on each Card.
+<div class="image-container">
+<div class="image-caption">One of the Architect of the Soloverse Cards.</div>
+<img src="/assets/images/cards/19-the-architects-source-code.png">
+</div>
+</li>
+</ul>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+</div>
+</div>
+</div>
 
 <!-- OBJECT -->
 <div id="crazy-8s-object">

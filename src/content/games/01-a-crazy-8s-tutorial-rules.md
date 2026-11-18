@@ -17,6 +17,9 @@ type: "rules"
 <h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
+<a href="#tutorial-compat-expansions" class="matrix-link">COMPATIBLE EXPANSIONS</a>
+</li>
+<li class="matrix-item-heading">
 <a href="#tutorial-object" class="matrix-link">OBJECT</a>
 </li>
 <li class="matrix-item-heading">
@@ -36,6 +39,24 @@ type: "rules"
 </li>
 </ul>
 </nav>
+
+<!-- OBJECT -->
+<div id="tutorial-compat-expansions">
+<div class="rules-box">
+<h4>COMPATIBLE EXPANSIONS</h4>
+<ul>
+<li>Uses only a restrictive amount of Core Game Cards.
+<div class="image-container">
+<div class="image-caption">Core Game Icon.</div>
+<img src="/assets/images/expansion-icons/00-core-game.png">
+</div>
+</li>
+</ul>
+<div class="return-link-wrapper">
+<a href="#tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
+</div>
+</div>
+</div>
 
 <!-- OBJECT -->
 <div id="tutorial-object">
@@ -61,19 +82,19 @@ type: "rules"
 <li>The Numbers 0-9.</li>
 <li>Draw +2.
 <div class="image-container">
-<div class="image-caption">Image 1: Draw +2.</div>
+<div class="image-caption">Draw +2.</div>
 <img src="/assets/images/cards/000-1-steel-draw-2.png">
 </div>
 </li>
 <li>Reverse.
 <div class="image-container">
-<div class="image-caption">Image 2: Reverse.</div>
+<div class="image-caption">Reverse.</div>
 <img src="/assets/images/cards/000-4-toxin-reverse.png">
 </div>
 </li>
 <li>Skip.
 <div class="image-container">
-<div class="image-caption">Image 3: Skip.</div>
+<div class="image-caption">Skip.</div>
 <img src="/assets/images/cards/000-9-venom-skip.png">
 </div>
 </li>
@@ -83,91 +104,91 @@ type: "rules"
 <ol type="i">
 <li>3 x Pure Chaos.
 <div class="image-container">
-<div class="image-caption">Image 4: Pure Chaos.</div>
+<div class="image-caption">Pure Chaos.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos.png">
 </div>
 </li>
 <li>3 x Pure Chaos [Reverse].
 <div class="image-container">
-<div class="image-caption">Image 5: Pure Chaos Reverse.</div>
+<div class="image-caption">Pure Chaos Reverse.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos-reverse.png">
 </div>
 </li>
 <li>3 x Pure Chaos [Skip].
 <div class="image-container">
-<div class="image-caption">Image 6: Pure Chaos Skip.</div>
+<div class="image-caption">Pure Chaos Skip.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos-skip.png">
 </div>
 </li>
 <li>2 x Pure Chaos [Shuffle Hands].
 <div class="image-container">
-<div class="image-caption">Image 7: Pure Chaos Shuffle Hands.</div>
+<div class="image-caption">Pure Chaos Shuffle Hands.</div>
 <img src="/assets/images/cards/00-core-game-pure-chaos-shuffle-hands.png">
 </div>
 </li>
 <li>3 x Chaos Draw +4.
 <div class="image-container">
-<div class="image-caption">Image 7: Chaos Draw +4.</div>
+<div class="image-caption">Chaos Draw +4.</div>
 <img src="/assets/images/cards/00-core-game-chaos-draw-4.png">
 </div>
 </li>
 <li>3 x Chaos Draw +4 [Reverse].
 <div class="image-container">
-<div class="image-caption">Image 8: Chaos Draw +4 [Reverse].</div>
+<div class="image-caption">Chaos Draw +4 [Reverse].</div>
 <img src="/assets/images/cards/00-core-game-chaos-draw-4-reverse.png">
 </div>
 </li>
 <li>3 x Chaos Draw +4 [Skip].
 <div class="image-container">
-<div class="image-caption">Image 9: Chaos Draw +4 Skip.</div>
+<div class="image-caption">Chaos Draw +4 Skip.</div>
 <img src="/assets/images/cards/00-core-game-chaos-draw-4-skip.png">
 </div>
 </li>
 <li>3 x Anti-Fun.
 <div class="image-container">
-<div class="image-caption">Image 10: Anti-Fun.</div>
+<div class="image-caption">Anti-Fun.</div>
 <img src="/assets/images/cards/00-core-game-counter-lv1-anti-fun.png">
 </div>
 </li>
 <li>3 x NOU.
 <div class="image-container">
-<div class="image-caption">Image 11: NOU.</div>
+<div class="image-caption">NOU.</div>
 <img src="/assets/images/cards/00-core-game-counter-lv2-nou.png">
 </div>
 </li>
 <li>3 x Clone.
 <div class="image-container">
-<div class="image-caption">Image 12: Clone.</div>
+<div class="image-caption">Clone.</div>
 <img src="/assets/images/cards/00-core-game-clone.png">
 </div>
 </li>
 <li>3 x Discard Colour.
 <div class="image-container">
-<div class="image-caption">Image 13: Discard Colour.</div>
+<div class="image-caption">Discard Colour.</div>
 <img src="/assets/images/cards/00-core-game-discard-colour.png">
 </div>
 </li>
 <li>3 x Discard Chaos Cards.
 <div class="image-container">
-<div class="image-caption">Image 14: Discard Chaos Cards.</div>
+<div class="image-caption">Discard Chaos Cards.</div>
 <img src="/assets/images/cards/00-core-game-discard-chaos-cards.png">
 </div>
 </li>
 <li>3 x Reverse Stun.
 <div class="image-container">
-<div class="image-caption">Image 15: Reverse Stun.</div>
+<div class="image-caption">Reverse Stun.</div>
 <img src="/assets/images/cards/00-core-game-reverse-stun.png">
 </div>
 </li>
 <li>3 x Steal Turn.
 <div class="image-container">
-<div class="image-caption">Image 16: Steal Turn.</div>
+<div class="image-caption">Steal Turn.</div>
 <img src="/assets/images/cards/00-core-game-steal-turn.png">
 </div>
 </li>
 <li>3 x Stun.
 <div class="image-container">
-<div class="image-caption">Image 17: Stun.</div>
+<div class="image-caption">Stun.</div>
 <img src="/assets/images/cards/00-core-game-stun.png">
 </div>
 </li>
