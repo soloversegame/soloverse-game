@@ -45,6 +45,7 @@ type: "cards"
 <div class="rules-box">
 <h4>COMPATIBLE EXPANSIONS</h4>
 <ul>
+<li>See: <a href="/games/00-b-full-game-contents" class="matrix-link">Here</a> for Full Game Contents.</li>
 <li>Core Game.
 <div class="image-container">
 <div class="image-caption">Core Game Icon.</div>

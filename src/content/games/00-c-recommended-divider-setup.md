@@ -4,8 +4,6 @@ title: "[00-C] Recommended Divider Setup"
 type: "rules"
 ---
 
-<body id="top">
-
 <nav class="platform-hub-nav" aria-label="Platform Navigation">
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>

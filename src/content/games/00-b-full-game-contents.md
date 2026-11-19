@@ -4,8 +4,6 @@ title: "[00-B] Full Game Contents"
 type: "rules"
 ---
 
-<body id="top">
-
 <nav class="platform-hub-nav" aria-label="Platform Navigation">
 <a href="/" class="hub-link-button">📂 Return to Rulebook Hub</a>
 </nav>
@@ -21,8 +19,8 @@ type: "rules"
 <h4>FULL GAME CONTENTS</h4>
 <div class="expansion-grid">
 <div class="expansion-row">
-<span class="expansion-name">📦 Core Game</span>
-<span class="expansion-desc">
+<div class="expansion-name">📦 Core Game</div>
+<div class="expansion-desc">The Basics
 <ul>
 <li>Plague/Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Toxin/Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
@@ -31,64 +29,108 @@ type: "rules"
 <li>Poison/Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Basic Effect Chaos Cards:
 <ul>
-<li>3 Copies of Anti-Fun [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Anti-Fun</li>
 <li>3 Copies of Chaos Draw +4</li>
 <li>3 Copies of Chaos Draw +4 Reverse</li>
 <li>3 Copies of Chaos Draw +4 Skip</li>
-<li>3 Copies of Clone [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Discard Colour [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Discard Chaos Cards [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Elegant Generousity [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Mercy [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of NOU [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Poison [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Clone</li>
+<li>2 Copies of Discard Colour</li>
+<li>2 Copies of Discard Chaos Cards</li>
+<li>2 Copies of Elegant Generousity</li>
+<li>1 Copies of Mercy</li>
+<li>2 Copies of NOU</li>
+<li>1 Copies of Poison</li>
 <li>3 Copies of Pure Chaos</li>
 <li>3 Copies of Pure Chaos Reverse</li>
 <li>3 Copies of Pure Chaos Skip</li>
 <li>2 Copies of Pure Chaos Shuffle Hands</li>
-<li>3 Copies of Reverse Stun [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Scavenger [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Slap [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Anti-Fun [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Steal Turn [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Stun [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Reverse Stun</li>
+<li>2 Copies of Scavenger</li>
+<li>2 Copies of Slap</li>
+<li>2 Copies of Anti-Fun</li>
+<li>2 Copies of Steal Turn</li>
+<li>2 Copies of Stun</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/00-core-game.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">📦 Core Extension</span>
-<span class="expansion-desc">
+<div class="expansion-name">📦 Core Extension</div>
+<div class="expansion-desc">The Basics, But Better
 <ul>
 <li>Acid/Orange Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Basic to Moderate Effect Chaos Cards:
 <ul>
-<li>3 Copies of Badge Collector [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Black Hole [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Cyclone [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Double Edged [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Double Under [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Elimimator [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Foresight [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Genetic Manipulation [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of NOT ME [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Paradigm Shift [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Project Insight [Including 1 Copy from the Core Booster]</li>
+<li>2 Copies of Badge Collector</li>
+<li>2 Copies of Black Hole</li>
+<li>1 Copy of Cyclone</li>
+<li>1 Copy of Double Edged</li>
+<li>1 Copy of Double Under</li>
+<li>1 Copy of Elimimator</li>
+<li>1 Copy of Foresight</li>
+<li>1 Copy of Genetic Manipulation</li>
+<li>2 Copies of NOT ME</li>
+<li>1 Copy of Paradigm Shift</li>
+<li>1 Copy of Project Insight</li>
 <li>1 Copy of Recycle [Setup Card]</li>
-<li>2 Copies of Roulette [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of Snap [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of State of Flux [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of United We Fall [Including 1 Copy from the Core Booster]</li>
-<li>2 Copies of Vaccine [Including 1 Copy from the Core Booster]</li>
-<li>3 Copies of White Hole [Including 1 Copy from the Core Booster]</li>
+<li>1 Copy of Roulette</li>
+<li>2 Copies of Snap</li>
+<li>1 Copy of State of Flux</li>
+<li>1 Copy of United We Fall</li>
+<li>1 Copy of Vaccine</li>
+<li>2 Copies of White Hole</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/01-core-extension.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🚀 Core Booster Pack</span>
-<span class="expansion-desc">Extra Copy of Most Core/Extension Chaos Cards [See Above]</span>
+<div class="expansion-name">🚀 Core Booster Pack</div>
+<div class="expansion-desc">Extra Copy of Most Core/Extension Chaos Cards
+<ul>
+<li>1 Copy of Anti-Fun</li>
+<li>1 Copy of Clone</li>
+<li>1 Copy of Discard Colour</li>
+<li>1 Copy of Discard Chaos Cards</li>
+<li>1 Copy of Elegant Generousity</li>
+<li>1 Copy of Mercy</li>
+<li>1 Copy of NOU</li>
+<li>1 Copy of Poison</li>
+<li>1 Copy of Reverse Stun</li>
+<li>1 Copy of Scavenger</li>
+<li>1 Copy of Slap</li>
+<li>1 Copy of Anti-Fun</li>
+<li>1 Copy of Steal Turn</li>
+<li>1 Copy of Stun</li>
+<li>1 Copy of Badge Collector</li>
+<li>1 Copy of Black Hole</li>
+<li>1 Copy of Cyclone</li>
+<li>1 Copy of Double Edged</li>
+<li>1 Copy of Double Under</li>
+<li>1 Copy of Elimimator</li>
+<li>1 Copy of Foresight</li>
+<li>1 Copy of Genetic Manipulation</li>
+<li>1 Copy of NOT ME</li>
+<li>1 Copy of Paradigm Shift</li>
+<li>1 Copy of Project Insight</li>
+<li>1 Copy of Roulette</li>
+<li>1 Copy of Snap</li>
+<li>1 Copy of State of Flux</li>
+<li>1 Copy of United We Fall</li>
+<li>1 Copy of Vaccine</li>
+<li>1 Copy of White Hole</li>
+</ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/17-core-booster.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">💥 Apocalypse Expansion</span>
-<span class="expansion-desc">
+<div class="expansion-name">💥 Apocalypse Expansion</div>
+<div class="expansion-desc">
 <ul>
 <li>3 Copies of Chaos Draw +2</li>
 <li>3 Copies of Chaos Draw +2 Reverse</li>
@@ -97,21 +139,27 @@ type: "rules"
 <li>3 Copies of Chaos Draw +3 Reverse</li>
 <li>3 Copies of Chaos Draw +3 Skip</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/02-apocalypse-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">⚔️ Warzone Expansion</span>
-<span class="expansion-desc">
+<div class="expansion-name">⚔️ Warzone Expansion</div>
+<div class="expansion-desc">
 <ul>
 <li>3 Copies of Chaos Draw +2 Specific Targeted</li>
 <li>3 Copies of Chaos Draw +3 Specific Targeted</li>
 <li>3 Copies of Chaos Draw +4 Specific Targeted</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/03-warzone-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🌋 Devastation Expansion</span>
-<span class="expansion-desc">
+<div class="expansion-name">🌋 Devastation Expansion</div>
+<div class="expansion-desc">
 <ul>
 <li>3 Copies of Chaos Draw +5</li>
 <li>3 Copies of Chaos Draw +5 Reverse</li>
@@ -120,20 +168,26 @@ type: "rules"
 <li>3 Copies of Chaos Draw +10 Reverse</li>
 <li>3 Copies of Chaos Draw +10 Skip</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/04-devastation-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🎯 Catastrophe Expansion</span>
-<span class="expansion-desc">
+<div class="expansion-name">🎯 Catastrophe Expansion</div>
+<div class="expansion-desc">
 <ul>
 <li>3 Copies of Chaos Draw +5 Specific Targeted</li>
 <li>3 Copies of Chaos Draw +10 Specific Targeted</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/05-catastrophe-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🛡️ Oblivion Expansion</span>
-<span class="expansion-desc">
+<div class="expansion-name">🛡️ Oblivion Expansion</div>
+<div class="expansion-desc">
 <ul>
 <li>1 Copy of Black Knight</li>
 <li>1 Copy of Jack's Knight</li>
@@ -141,30 +195,39 @@ type: "rules"
 <li>1 Copy of King's Knight</li>
 <li>1 Copy of Call of the Royal Knights</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/06-oblivion-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🌀 Singularity Expansion</span>
-<span class="expansion-desc">
+<div class="expansion-name">🌀 Singularity Expansion</div>
+<div class="expansion-desc">
 <ul>
 <li>1 Copy of Soloverse 1 of 3: SOL</li>
 <li>1 Copy of Soloverse 2 of 3: OVE</li>
 <li>1 Copy of Soloverse 3 of 3: RSE</li>
 <li>1 Copy of Call of the Soloverse</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/07-singularity-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">⚠️ Crisis Expansion</span>
-<span class="expansion-desc">
+<div class="expansion-name">⚠️ Crisis Expansion</div>
+<div class="expansion-desc">
 <ul>
 <li>12 Copies of Crisis</li>
 </ul>
-</span>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/08-crisis-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">☣️ Bio-Hazard Expansion</span>
-<span class="expansion-desc">[Super Poison]</span>
+<div class="expansion-name">☣️ Bio-Hazard Expansion</div>
+<div class="expansion-desc">[Super Poison]
 <ul>
 <li>1 Copy of Stinger +1</li>
 <li>1 Copy of Venom +2</li>
@@ -173,10 +236,14 @@ type: "rules"
 <li>1 Copy of Toxin +5</li>
 <li>1 Copy of Plague +0 +2 Beside</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/09-bio-hazard-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">☣️ Patient Zero Expansion</span>
-<span class="expansion-desc">[Super Poison]</span>
+<div class="expansion-name">☣️ Patient Zero Expansion</div>
+<div class="expansion-desc">[Super Poison]
 <ul>
 <li>1 Copy of Stinger +1 Specific Targeted</li>
 <li>1 Copy of Venom +2 Specific Targeted</li>
@@ -185,10 +252,14 @@ type: "rules"
 <li>1 Copy of Toxin +5 Specific Targeted</li>
 <li>1 Copy of Plague +0 +2 Beside Specific Targeted</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/10-patient-zero-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">☣️ Pandemic Expansion</span>
-<span class="expansion-desc">[Super Poison]</span>
+<div class="expansion-name">☣️ Pandemic Expansion</div>
+<div class="expansion-desc">[Super Poison]
 <ul>
 <li>1 Copy of Virus +1 All</li>
 <li>1 Copy of Pathogen +2 All</li>
@@ -197,10 +268,14 @@ type: "rules"
 <li>1 Copy of Contagion +5 +2 All</li>
 <li>1 Copy of Pandemic +0 +3 Beside +2 Beside +1 Beside</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/11-pandemic-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🕊️ Containment Expansion</span>
-<span class="expansion-desc">[Super Mercy]</span>
+<div class="expansion-name">🕊️ Containment Expansion</div>
+<div class="expansion-desc">[Super Mercy]</div>
 <ul>
 <li>1 Copy of Antibiotic [Yellow]</li>
 <li>1 Copy of Antibiotic [Red]</li>
@@ -217,10 +292,14 @@ type: "rules"
 <li>3 Copies of Cure</li>
 <li>2 Copies of Elixir</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/12-containment-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🔄️ Contingency I Expansion</span>
-<span class="expansion-desc">[Discard Specific Colour]</span>
+<div class="expansion-name">🔄️ Contingency I Expansion</div>
+<div class="expansion-desc">[Discard Specific Colour]
 <ul>
 <li>1 Copy of Discard Plague</li>
 <li>1 Copy of Discard Toxin</li>
@@ -229,10 +308,14 @@ type: "rules"
 <li>1 Copy of Discard Venom</li>
 <li>1 Copy of Discard Poison</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/13-contingency-i-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🎨 Coloured Extensions</span>
-<span class="expansion-desc">[7 x Colour Sets]</span>
+<div class="expansion-name">🎨 Coloured Extensions</div>
+<div class="expansion-desc">[7 x Colour Sets]</div>
 <ul>
 <li>Diamond/Light Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Emerald/Light Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
@@ -244,8 +327,8 @@ type: "rules"
 </ul>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🔄 Contingency II Expansion</span>
-<span class="expansion-desc">[Discard New Specific Colours]</span>
+<div class="expansion-name">🔄 Contingency II Expansion</div>
+<div class="expansion-desc">[Discard New Specific Colours]
 <ul>
 <li>1 Copy of Discard Diamond</li>
 <li>1 Copy of Discard Emerald</li>
@@ -255,20 +338,28 @@ type: "rules"
 <li>1 Copy of Discard Amethyst</li>
 <li>1 Copy of Discard Stone</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/14-contingency-ii-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">💀 Doomsday Expansion</span>
-<span class="expansion-desc">[Assassination & Regeneration]</span>
+<div class="expansion-name">💀 Doomsday Expansion</div>
+<div class="expansion-desc">[Assassination & Regeneration]
 <ul>
 <li>3 x Copies of Bodyguard</li>
 <li>3 x Copies of Assassin</li>
 <li>3 x Copies of Resurrection</li>
 <li>1 x Copoy of Soloversal Destruction</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/15-doomsday-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">📜 Cataclysm Expansion</span>
-<span class="expansion-desc">[Ancient Stones]</span>
+<div class="expansion-name">📜 Cataclysm Expansion</div>
+<div class="expansion-desc">[Ancient Stones]
 <ul>
 <li>1 x Copy of Repetition Stone</li>
 <li>1 x Copy of Substitution Stone</li>
@@ -279,10 +370,14 @@ type: "rules"
 <li>2 x Copies of Ancient Inversion</li>
 <li>2 x Copies of Ancient War</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/16-cataclysm-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">🏟️ Field Deck</span>
-<span class="expansion-desc">[Rule Changes]</span>
+<div class="expansion-name">🏟️ Field Deck</div>
+<div class="expansion-desc">[Rule Changes]
 <ul>
 <li>1 x Copy of Field of Addition</li>
 <li>1 x Copy of Field of Subtraction</li>
@@ -294,10 +389,14 @@ type: "rules"
 <li>1 x Copy of Field of Normalisation</li>
 <li>3 x Copies of Field Transformation</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/expansion-icons/18-field-deck-expansion.png">
+</div>
+</div>
 </div>
 <div class="expansion-row">
-<span class="expansion-name">Architect of the Soloverse Expansion</span>
-<span class="expansion-desc">[Authority to Change Rules]</span>
+<div class="expansion-name">Architect of the Soloverse Expansion</div>
+<div class="expansion-desc">[Authority to Change Rules]
 <ul>
 <li>1 x Copy of The Soloversal Blueprint</li>
 <li>1 x Copy of Architectural Glitch</li>
@@ -313,6 +412,13 @@ type: "rules"
 <li>1 x Copy of Soloversal Singularity</li>
 <li>1 x Copy of System Absolute Zero</li>
 </ul>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-source-code.png">
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/19-the-architects-deletion.png">
+</div>
+</div>
 </div>
 <div class="return-link-wrapper">
 <a href="#top" class="return-link">🔝 Return to Rulebook Contents</a>
@@ -1021,24 +1127,24 @@ gap: 14px;
 .text-layer .rules-box > ul, 
 .text-layer .rules-box > ol { margin: 4px 0 4px 20px; }
 
-/* FIXED: Unified container mappings targeting both raw block divs and nestled span variations */
+/* FIXED: Unified container mappings targeting both raw block divs and nestled div variations */
 .text-layer div[class*="-box"],
-.text-layer span[class*="-box"] {
+.text-layer div[class*="-box"] {
 font-size: 0.92rem !important;
 padding: 14px 16px !important;
 border-radius: 8px !important;
 margin: 12px 0 !important;
 font-weight: 500 !important;
 box-sizing: border-box !important;
-display: block !important; /* Converts inline spans into structural block layout tracks natively */
+display: block !important; /* Converts inline divs into structural block layout tracks natively */
 width: 100% !important;
 }
 
 /* FIXED: Ensured text color stays standard white for normal text layers */
 .text-layer div[class*="-box"], 
 .text-layer div[class*="-box"] *,
-.text-layer span[class*="-box"], 
-.text-layer span[class*="-box"] * { 
+.text-layer div[class*="-box"], 
+.text-layer div[class*="-box"] * { 
 color: var(--text-body); 
 font-style: normal;
 }
