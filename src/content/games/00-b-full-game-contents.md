@@ -58,13 +58,13 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">📦 Core Extension</div>
-<div class="expansion-desc">The Basics, But Better [47 Cards]
+<div class="expansion-desc">The Basics, But Better [45 Cards]
 <ul>
 <li>26 x Acid/Orange Colour Set Cards [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Basic to Moderate Effect Chaos Cards:
 <ul>
 <li>2 Copies of Badge Collector</li>
-<li>2 Copies of Black Hole</li>
+<li>1 Copy of Black Hole</li>
 <li>1 Copy of Cyclone</li>
 <li>1 Copy of Double Edged</li>
 <li>1 Copy of Double Under</li>
@@ -80,7 +80,7 @@ type: "rules"
 <li>1 Copy of State of Flux</li>
 <li>1 Copy of United We Fall</li>
 <li>1 Copy of Vaccine</li>
-<li>2 Copies of White Hole</li>
+<li>1 Copy of White Hole</li>
 </ul>
 <div class="image-container">
 <img src="/assets/images/expansion-icons/01-core-extension.png">
@@ -90,6 +90,8 @@ type: "rules"
 <div class="expansion-row">
 <div class="expansion-name">🚀 Core Booster Pack</div>
 <div class="expansion-desc">Extra Copy of Most Core/Extension Chaos Cards [31 Cards]
+<ul>
+<li>Core Game Booster Cards:
 <ul>
 <li>1 Copy of Anti-Fun</li>
 <li>1 Copy of Clone</li>
@@ -105,6 +107,10 @@ type: "rules"
 <li>1 Copy of Anti-Fun</li>
 <li>1 Copy of Steal Turn</li>
 <li>1 Copy of Stun</li>
+</ul>
+</li>
+<li>Core Extension Booster Cards:
+<ul>
 <li>1 Copy of Badge Collector</li>
 <li>1 Copy of Black Hole</li>
 <li>1 Copy of Cyclone</li>
@@ -122,6 +128,8 @@ type: "rules"
 <li>1 Copy of United We Fall</li>
 <li>1 Copy of Vaccine</li>
 <li>1 Copy of White Hole</li>
+</ul>
+</li>
 </ul>
 <div class="image-container">
 <img src="/assets/images/expansion-icons/17-core-booster.png">
