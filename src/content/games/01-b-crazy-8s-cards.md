@@ -4,7 +4,7 @@ title: "01-B Soloverse Crazy 8s Card Definitions"
 type: "cards"
 ---
 
-<div class="meta-tag">👥 Ages 7+, 3-10 Players • v14.0.0</div>
+<div class="meta-tag">👥 Ages 7+, 3-12 Players • v14.0.0</div>
 
 <!-- INDEX JUMP MATRIX A-Z -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
@@ -229,6 +229,35 @@ type: "cards"
 </div>
 </nav>
 
+<!-- SUB-INDEX JUMP MATRIX ANCIENT STONES-->
+<div id="crazy-8s-ancient-stones"></div>
+<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Ancient Stones">
+<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: ANCIENT STONES</h2>
+<ul class="matrix-toc-grid">
+<li class="matrix-item-heading">
+<a href="#crazy-8s-repetition-stone" class="matrix-link"><span style="color: #0000ff;">REPETITION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-teleportation-stone" class="matrix-link"><span style="color: #0ed145;">TELEPORTATION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-illumination-stone" class="matrix-link"><span style="color: #fff200;">ILLUMINATION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-unrestriction-stone" class="matrix-link"><span style="color: #ff7f27;">UNRESTRICTION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-substitution-stone" class="matrix-link"><span style="color: #e63946;">SUBSTITUTION STONE</span></a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-duplication-stone" class="matrix-link"><span style="color: #9d00ff;">DUPLICATION STONE</span></a>
+</li>
+</ul>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</nav>
+
 <!-- SUB-INDEX JUMP MATRIX FIELD DECK-->
 <div id="crazy-8s-field-deck"></div>
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Field Deck">
@@ -257,35 +286,6 @@ type: "cards"
 </li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-field-of-succession" class="matrix-link">FIELD OF SUCCESSION</a>
-</li>
-</ul>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</nav>
-
-<!-- SUB-INDEX JUMP MATRIX ANCIENT STONES-->
-<div id="crazy-8s-ancient-stones"></div>
-<nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Ancient Stones">
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS: ANCIENT STONES</h2>
-<ul class="matrix-toc-grid">
-<li class="matrix-item-heading">
-<a href="#crazy-8s-repetition-stone" class="matrix-link"><span style="color: #0000ff;">REPETITION STONE</span></a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-teleportation-stone" class="matrix-link"><span style="color: #0ed145;">TELEPORTATION STONE</span></a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-illumination-stone" class="matrix-link"><span style="color: #fff200;">ILLUMINATION STONE</span></a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-unrestriction-stone" class="matrix-link"><span style="color: #ff7f27;">UNRESTRICTION STONE</span></a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-substitution-stone" class="matrix-link"><span style="color: #e63946;">SUBSTITUTION STONE</span></a>
-</li>
-<li class="matrix-item-heading">
-<a href="#crazy-8s-duplication-stone" class="matrix-link"><span style="color: #9d00ff;">DUPLICATION STONE</span></a>
 </li>
 </ul>
 <div class="return-link-wrapper">

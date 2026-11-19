@@ -4,7 +4,7 @@ title: "01-A Soloverse Crazy 8s Game Rules"
 type: "cards"
 ---
 
-<div class="meta-tag">👥 Ages 7+, 3-10 Players • v14.0.0</div>
+<div class="meta-tag">👥 Ages 7+, 3-12 Players • v14.0.0</div>
 
 <!-- INDEX JUMP MATRIX A-Z -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
@@ -35,7 +35,7 @@ type: "cards"
 <a href="#crazy-8s-turn-overview-definitions" class="matrix-link">TURN OVERVIEW</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-compat-expansions" class="matrix-link">COMPATIBLE EXPANSIONS:</a>
+<a href="#crazy-8s-compat-expansions" class="matrix-link">COMPATIBLE EXPANSIONS</a>
 </li>
 </ul>
 </nav>
