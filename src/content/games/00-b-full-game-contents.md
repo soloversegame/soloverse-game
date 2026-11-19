@@ -14,13 +14,13 @@ type: "rules"
 </header>
 
 <!-- FULL GAME CONTENTS -->
- <div id="full-game-contents">
+<div id="full-game-contents">
 <div class="rules-box">
 <h4>FULL GAME CONTENTS</h4>
 <div class="expansion-grid">
 <div class="expansion-row">
 <div class="expansion-name">📦 Core Game</div>
-<div class="expansion-desc">The Basics
+<div class="expansion-desc">The Basics [176 Cards]
 <ul>
 <li>Plague/Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Toxin/Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
@@ -58,7 +58,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">📦 Core Extension</div>
-<div class="expansion-desc">The Basics, But Better
+<div class="expansion-desc">The Basics, But Better [47 Cards]
 <ul>
 <li>Acid/Orange Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Basic to Moderate Effect Chaos Cards:
@@ -89,7 +89,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🚀 Core Booster Pack</div>
-<div class="expansion-desc">Extra Copy of Most Core/Extension Chaos Cards
+<div class="expansion-desc">Extra Copy of Most Core/Extension Chaos Cards [31 Cards]
 <ul>
 <li>1 Copy of Anti-Fun</li>
 <li>1 Copy of Clone</li>
@@ -130,7 +130,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">💥 Apocalypse Expansion</div>
-<div class="expansion-desc">
+<div class="expansion-desc">Adds the Ability to Stack Draw +2 onto Chaos Draw +4 via Chaos Draw+3 [18 Cards]
 <ul>
 <li>3 Copies of Chaos Draw +2</li>
 <li>3 Copies of Chaos Draw +2 Reverse</li>
@@ -146,7 +146,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">⚔️ Warzone Expansion</div>
-<div class="expansion-desc">
+<div class="expansion-desc">Adds Specific Targeted versions of Chaos Draw +2, +3 and +4 (They stack on any Specific Targeted Chaos Draw Card) [9 Cards]
 <ul>
 <li>3 Copies of Chaos Draw +2 Specific Targeted</li>
 <li>3 Copies of Chaos Draw +3 Specific Targeted</li>
@@ -159,7 +159,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🌋 Devastation Expansion</div>
-<div class="expansion-desc">
+<div class="expansion-desc">Adds the Ability to Stack Chaos Draw +4 up to +5, and UBER +10's [12 Cards]
 <ul>
 <li>3 Copies of Chaos Draw +5</li>
 <li>3 Copies of Chaos Draw +5 Reverse</li>
@@ -175,7 +175,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🎯 Catastrophe Expansion</div>
-<div class="expansion-desc">
+<div class="expansion-desc">Adds Specific Targeted versions of Chaos Draw +5 & +10 (They stack on any Specific Targeted Chaos Draw Card) [4 Cards]
 <ul>
 <li>3 Copies of Chaos Draw +5 Specific Targeted</li>
 <li>1 Copy of Chaos Draw +10 Specific Targeted</li>
@@ -187,7 +187,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🛡️ Oblivion Expansion</div>
-<div class="expansion-desc">
+<div class="expansion-desc">Reusable Chaos Card Effects [5 Cards]
 <ul>
 <li>1 Copy of Black Knight</li>
 <li>1 Copy of Jack's Knight</li>
@@ -202,7 +202,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🌀 Singularity Expansion</div>
-<div class="expansion-desc">
+<div class="expansion-desc">Collect all 3, Win Instantly! [4 Cards]
 <ul>
 <li>1 Copy of Soloverse 1 of 3: SOL</li>
 <li>1 Copy of Soloverse 2 of 3: OVE</li>
@@ -216,7 +216,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">⚠️ Crisis Expansion</div>
-<div class="expansion-desc">
+<div class="expansion-desc">Many Different ways to Win [12 Cards]
 <ul>
 <li>12 Copies of Crisis</li>
 </ul>
@@ -227,7 +227,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">☣️ Bio-Hazard Expansion</div>
-<div class="expansion-desc">[Super Poison]
+<div class="expansion-desc">Super Poison Pack I [6 Cards]
 <ul>
 <li>1 Copy of Stinger +1</li>
 <li>1 Copy of Venom +2</li>
@@ -243,7 +243,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">☣️ Patient Zero Expansion</div>
-<div class="expansion-desc">[Super Poison]
+<div class="expansion-desc">Super Poison Pack II [6 Cards]
 <ul>
 <li>1 Copy of Stinger +1 Specific Targeted</li>
 <li>1 Copy of Venom +2 Specific Targeted</li>
@@ -259,7 +259,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">☣️ Pandemic Expansion</div>
-<div class="expansion-desc">[Super Poison]
+<div class="expansion-desc">Super Poison Pack III [6 Cards]
 <ul>
 <li>1 Copy of Virus +1 All</li>
 <li>1 Copy of Pathogen +2 All</li>
@@ -275,7 +275,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🕊️ Containment Expansion</div>
-<div class="expansion-desc">[Super Mercy]</div>
+<div class="expansion-desc">Super Mercy [17 Cards]
 <ul>
 <li>1 Copy of Antibiotic [Yellow]</li>
 <li>1 Copy of Antibiotic [Red]</li>
@@ -299,7 +299,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🔄️ Contingency I Expansion</div>
-<div class="expansion-desc">[Discard Specific Colour]
+<div class="expansion-desc">Discard Specific Colour [6 Cards]
 <ul>
 <li>1 Copy of Discard Plague</li>
 <li>1 Copy of Discard Toxin</li>
@@ -315,7 +315,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🎨 Coloured Extensions</div>
-<div class="expansion-desc">[7 x Colour Sets]</div>
+<div class="expansion-desc">7 x New Colour Sets [26 Cards per Colour Set]
 <ul>
 <li>Diamond/Light Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Emerald/Light Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
@@ -326,9 +326,10 @@ type: "rules"
 <li>Stone/Gray Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 </ul>
 </div>
+</div>
 <div class="expansion-row">
 <div class="expansion-name">🔄 Contingency II Expansion</div>
-<div class="expansion-desc">[Discard New Specific Colours]
+<div class="expansion-desc">Discard New Specific Colours [7 Cards]
 <ul>
 <li>1 Copy of Discard Diamond</li>
 <li>1 Copy of Discard Emerald</li>
@@ -345,7 +346,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">💀 Doomsday Expansion</div>
-<div class="expansion-desc">[Assassination & Regeneration]
+<div class="expansion-desc">Removes Players from & Restores Players back to the Game with an "Early End of Game" Mechanic [10 Cards]
 <ul>
 <li>3 x Copies of Bodyguard</li>
 <li>3 x Copies of Assassin</li>
@@ -359,7 +360,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">📜 Cataclysm Expansion</div>
-<div class="expansion-desc">[Ancient Stones]
+<div class="expansion-desc">Side Deck of Powerful, Reusable Ancient Stones [10 Cards]
 <ul>
 <li>1 x Copy of Repetition Stone</li>
 <li>1 x Copy of Substitution Stone</li>
@@ -377,7 +378,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">🏟️ Field Deck</div>
-<div class="expansion-desc">[Rule Changes]
+<div class="expansion-desc">Side Deck with Rule Changes [11 Cards]
 <ul>
 <li>1 x Copy of Field of Addition</li>
 <li>1 x Copy of Field of Subtraction</li>
@@ -396,7 +397,7 @@ type: "rules"
 </div>
 <div class="expansion-row">
 <div class="expansion-name">Architect of the Soloverse Expansion</div>
-<div class="expansion-desc">[Authority to Change Rules]
+<div class="expansion-desc">Side Deck with the Authority to Change Rules [13 Cards]
 <ul>
 <li>1 x Copy of The Soloversal Blueprint</li>
 <li>1 x Copy of Architectural Glitch</li>

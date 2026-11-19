@@ -542,6 +542,8 @@ loading="lazy"
 <div id="tutorial-glossary-01">
 <ol>
 <li><strong>PLAYABLE TURNS</strong>
+
+<li><strong>RESPOND IN KIND</strong>
 <ul>
 <li>
 
