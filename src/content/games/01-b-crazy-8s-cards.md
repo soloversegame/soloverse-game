@@ -948,7 +948,7 @@ type: "cards"
 <li>Discard the Top card of the Deck until a Number Card [0-9] is Revealed.</li>
 <li>The Number that is Revealed determines one of the following Effects:
 <ol type="a">
-<li><strong><span style="color: var(--color-card-class);">Any Other Number:</span></strong> The Number of Cards all other Players Draw.</li>
+<li><strong><span style="color: var(--color-card-class);">Any Other Number:</span></strong> The Number of Cards all other Players DRAW.</li>
 <li><strong><span style="color: var(--color-card-class);">The Number You Declared:</span></strong> You Win Instantly.</li>
 </ol>
 </li>
@@ -1020,11 +1020,11 @@ type: "cards"
 <li>All Players Must have 1 Card instead in Their Hand to Win.</li>
 <li>All Players Must have 20 Cards instead in Their Hand to Win.</li>
 <li>All Players Must Discard more than 7 Cards from Their Hand at any time to Win.</li>
-<li>Prevent a Certain Player from Winning, regardless of existing Victory Conditions. They are not removed from the Game, They Must still Play and Draw a Card if They Cannot Play one.</li>
+<li>Prevent a Certain Player from Winning, regardless of existing Victory Conditions. They are not removed from the Game, They Must still Play and DRAW a Card if They Cannot Play one.</li>
 </ol>
 </li>
 <li>You could Prevent Certain Numbered Cards, a Certain Coloured Set of Cards or even Certain Classes of Cards from being Played.</li>
-<li>What about forcing Players to Draw a Card before Starting Every Turn?</li>
+<li>What about forcing Players to DRAW a Card before Starting Every Turn?</li>
 <li>Now you have the Source Code of the Soloverse at Your Fingertips, You have Unlimited Access to change the Game's Rules as You see fit.</li>
 <li>No Restrictions in What you Can Change in the Game's Rules, except for This Card's Rules, They Must all be Followed.</li>
 </ol>
@@ -1083,7 +1083,7 @@ type: "cards"
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
 <ul>
-<li>Activate before You Start a Turn facing Draw Effects.</li>
+<li>Activate before You Start a Turn facing DRAW Effects.</li>
 <li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.</li>
 <li>Remove this Card from the Game once it has been Resolved.</li>
@@ -1091,7 +1091,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Any time You are Targeted with a Draw Effect, force all other Players to Draw 3 Cards in Play Order.</li>
+<li>Any time You are Targeted with a DRAW Effect, force all other Players to DRAW 3 Cards in Play Order.</li>
 <li>Then proceed with Your Turn as normal.</li>
 </ol>
 </div>
@@ -1130,6 +1130,7 @@ type: "cards"
 <li><strong><span style="color: var(--color-card-class);">The Architect of the Soloverse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive & Architect Class</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Conceptual Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">User Goes Last</span></strong></li>
 </ul>
 </div>
 <div class="image-container">
@@ -1139,7 +1140,7 @@ type: "cards"
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
 <ul>
-<li>Activate before You Start a PLAYABLE TURN.</li>
+<li>Activate before You Start Your Turn, while facing a DRAW Effect.</li>
 <li>This Card Can be Used Two Times in Any Game.</li>
 <li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
@@ -1147,8 +1148,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>If any Player is Forced to Draw a Total of 20 Cards or more from a Draw Effect, reveal this Card to Change the Draw Effect to a Group Targeting Effect instead.</li>
-<li>In Play Order, Starting with the Targeted Player, all other Players [except this Card's User] Must now draw the same number of Cards as the Targeted Player.</li>
+<li>Anytime You are Targeted with a DRAW Effect, reveal this Card to Change the DRAW Effect to a Group Targeting Effect instead.</li>
+<li>In Play Order, all Players Must now DRAW the same number of Cards as This Card's User.</li>
 </ol>
 </div>
 <div class="advanced-box">
@@ -1398,7 +1399,7 @@ type: "cards"
 <li>Counter Any Offensive Chaos Card Effect.</li>
 <li>Counter Any Counter Class LV:1-4 Chaos Card Effect.</li>
 <li>Counter Any Architect Class Chaos Card Effect.</li>
-<li>Counter Any Victory Condition, force the Winning Player to Continue the Game by Drawing 5 New Cards. In the Case of Special Victory Conditions [Example: Unification Class, Ancient Stone Class, etc...], remove said Chaos Cards from the Game.</li>
+<li>Counter Any Victory Condition, force the Winning Player to Continue the Game by DRAWING 5 New Cards. In the Case of Special Victory Conditions [Example: Unification Class, Ancient Stone Class, etc...], remove said Chaos Cards from the Game.</li>
 <li>Counter Being Removed from the Game by any means.</li>
 </ol>
 </li>
@@ -1467,7 +1468,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Any Draw Effects Targeting You will automatically bypass Your Turn completely.</li>
+<li>Any DRAW Effects Targeting You will automatically bypass Your Turn completely.</li>
 </ol>
 </div>
 <div class="advanced-box">
@@ -1524,7 +1525,7 @@ type: "cards"
 <ol type="1">
 <li>For the next Round of Turns, all Players give You Their Cards.</li>
 <li>You get to choose what Cards each Player Plays for Their Turn.</li>
-<li>This includes not Playing Cards at all, forcing them to Draw instead and wasting any potentially powerful Chaos Cards early.</li>
+<li>This includes not Playing Cards at all, forcing them to DRAW instead and wasting any potentially powerful Chaos Cards early.</li>
 </ol>
 </div>
 <div class="restriction-box">
@@ -1633,8 +1634,8 @@ type: "cards"
 </div>
 <div class="rules-box">
  <ol type="a">
-<li>Once between Your PLAYABLE TURNs, force one other Player to take Their Turn again.</li>
-<li>After any of Your PLAYABLE TURNs, decide if You will take Your Turn again or not.</li>
+<li>Once between Your PLAYABLE TURNS, force one other Player to take Their Turn again.</li>
+<li>After any of Your PLAYABLE TURNS, decide if You will take Your Turn again or not.</li>
 </ol>
 </div>
 <div class="note-box">
@@ -1647,7 +1648,7 @@ type: "cards"
 <div class="restriction-box">
 <strong>UNIQUE RESTRICTION NOTES:</strong>
 <ul>
-<li>This Effect only applies to the last actionable Card played, NOT the total of Stacked Effects [if any].</li>
+<li>This Effect only applies to the last actionable Card played, NOT the total of STACKED Effects [if any].</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -1682,7 +1683,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and RE-DEALT according to Their Setup Rules.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -1702,8 +1703,8 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and RE-DEALT according to Their Setup Rules.</li>
 </ol>
 </li>
 <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
@@ -1725,7 +1726,7 @@ type: "cards"
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and RE-DEAL them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & RE-DEAL of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
 </ul>
 </div>
 <div class="two-player-note-box">
@@ -1808,7 +1809,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and RE-DEALT according to Their Setup Rules.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -1828,8 +1829,8 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and RE-DEALT according to Their Setup Rules.</li>
 </ol>
 </li>
 <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
@@ -1851,7 +1852,7 @@ type: "cards"
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and RE-DEAL them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & RE-DEAL of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
 </ul>
 </div>
 <div class="two-player-note-box">
@@ -1892,7 +1893,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Deal 1 Card to Yourself.</li>
+<li>DEAL 1 Card to Yourself.</li>
 <li>Force all Players to set all but 1 Card in Their Handas Face-Up on the table in front of them.
 <div class="note-box">
 <strong>NOTES:</strong>
@@ -1953,7 +1954,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and RE-DEALT according to Their Setup Rules.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -1973,8 +1974,8 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and RE-DEALT according to Their Setup Rules.</li>
 </ol>
 </li>
 <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
@@ -1996,7 +1997,7 @@ type: "cards"
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and RE-DEAL them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & RE-DEAL of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
 </ul>
 </div>
 <div class="two-player-note-box">
@@ -2048,7 +2049,7 @@ type: "cards"
 <li>First, collect all Ancient Stone Class Chaos Cards and return them to the Cataclysm Side Deck and Shuffle it.</li>
 <li>Next, Remove 1 Player of Your Choice from the Game.</li>
 <li>Then, if more than one Player has previously been Removed from the Game by any means, You Must choose one to Restore to the Game.</li>
-<li>Re-Deal all Ancient Stone Class Chaos Cards to all Players now currently in the Game, but You Must maintain Play Order [See: RESTRICTION below].</li>
+<li>RE-DEAL all Ancient Stone Class Chaos Cards to all Players now currently in the Game, but You Must maintain Play Order [See: RESTRICTION below].</li>
 </ol>
 </li>
 </ul>
@@ -2092,7 +2093,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and RE-DEALT according to Their Setup Rules.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -2112,8 +2113,8 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and RE-DEALT according to Their Setup Rules.</li>
 </ol>
 </li>
 <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
@@ -2135,7 +2136,7 @@ type: "cards"
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and RE-DEAL them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & RE-DEAL of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
 </ul>
 </div>
 <div class="two-player-note-box">
@@ -2211,7 +2212,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and RE-DEALT according to Their Setup Rules.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -2231,8 +2232,8 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and RE-DEALT according to Their Setup Rules.</li>
 </ol>
 </li>
 <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
@@ -2254,7 +2255,7 @@ type: "cards"
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+<li>NOTES: Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and RE-DEAL them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & RE-DEAL of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
 </ul>
 </div>
 <div class="two-player-note-box">
@@ -2290,24 +2291,24 @@ type: "cards"
 <li>To use an Ancient Stone Class Chaos Card, Turn it Sideways.</li>
 <li>Each Ancient Stone Class Chaos Card’s Effect Can only be used Once Each Turn; however, You Can use it on additional Turns afterwards.</li>
 <li>Use of Ancient Stone Class Chaos Card Effects do NOT count towards Your one Chaos Card per Turn Restriction.</li>
-<li>Activate when playing a Draw Effect Card.</li>
+<li>Activate when playing a DRAW Effect Card.</li>
 </ul>
 </div>
 <div class="rules-box">
  <ol>
-<li>On any Turn You charge another Player a Drawing or Dealing Effect by any means [and NOT just Chaos Cards], Double the Amount.</li>
+<li>On any Turn You charge another Player a DRAWING or DEALING Effect by any means [and NOT just Chaos Cards], Double the Amount.</li>
 </ol>
 </div>
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>If responding with a Counter Class Chaos Card [i.e.: Nou], double the immediately previous Drawing or Dealing Effect Card instead.</li>
+<li>If RESPONDING IN KIND with a Counter Class Chaos Card [i.e.: Nou], double the immediately previous DRAWING or DEALING Effect Card instead.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>UNIQUE RESTRICTION NOTES:</strong>
 <ul>
-<li>If Responding in Kind, by Stacking the Drawing Effect, double only Your Card’s Effect.</li>
+<li>If RESPONDING IN KIND, by Stacking the DRAWING Effect, double only Your Card’s Effect.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -2342,7 +2343,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and Re-Dealt according to Their Setup Rules.
+<li>Furthermore, Hand Discarding Effects affect both Hand and Ancient Stone Class Chaos Cards. However, Ancient Stone Class Chaos Cards are collected, Shuffled and RE-DEALT according to Their Setup Rules.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -2362,8 +2363,8 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNs.</li>
-<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and Re-Dealt according to Their Setup Rules.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and RE-DEALT according to Their Setup Rules.</li>
 </ol>
 </li>
 <li><strong>The Last Ancient Stone Class Chaos Card Holder:</strong>
@@ -2383,7 +2384,7 @@ type: "cards"
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and Re-Deal them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & Re-Deal of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
+<li>Any time a Player is Removed from or Restored to the Game by any means, Collect all Ancient Stone Class Chaos Cards, Shuffle and RE-DEAL them to all Players still currently In the Game. But You Must maintain Play Order [as in the Player that caused this Removal/Restoration Effect (either directly or indirectly) Must perform the above Shuffle & RE-DEAL of the Ancient Stones; and as the Dealer, they are last to receive one].</li>
 </ul>
 </div>
 </li>
@@ -2694,13 +2695,13 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must DRAW 2 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong>, <strong>"Chaos Draw +2"</strong> or <strong>"Chaos Draw +3"</strong>.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -2732,7 +2733,7 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Compatible with all Reverse Symbol Cards [e.g.: the Pure Chaos Reverse or Chaos Draw +4 Reverse (after the Primary Draw Effect has been Resolved) ].</li>
+<li>Compatible with all Reverse Symbol Cards [e.g.: the Pure Chaos Reverse or Chaos Draw +4 Reverse (after the Primary DRAW Effect has been Resolved) ].</li>
 </ul>
 </div>
 <div class="two-player-note-box">
@@ -2776,7 +2777,7 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Compatible with all Skip Symbol Cards [e.g.: the Pure Chaos Skip or Chaos Draw +4 Skip Chaos Cards (after the Primary Draw Effect has been Resolved) ].</li>
+<li>Compatible with all Skip Symbol Cards [e.g.: the Pure Chaos Skip or Chaos Draw +4 Skip Chaos Cards (after the Primary DRAW Effect has been Resolved) ].</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -2814,7 +2815,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must DRAW 2 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -2825,7 +2826,7 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong>, <strong>"Chaos Draw +2"</strong> or <strong>"Chaos Draw +3"</strong>.</li>
 </ul>
 </div>
 <div class="note-box">
@@ -2869,7 +2870,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Direction of Play Reverses, and the Previous Player Must DRAW 2 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -2880,8 +2881,8 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
-<li>Also Compatible with Reverse Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong>, <strong>"Chaos Draw +2"</strong> or <strong>"Chaos Draw +3"</strong>.</li>
+<li>Also Compatible with Reverse Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="note-box">
@@ -2925,7 +2926,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player is Skipped and the Following Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player is Skipped and the Following Player Must DRAW 2 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -2936,8 +2937,8 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
-<li>Also Compatible with Skip Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong>, <strong>"Chaos Draw +2"</strong> or <strong>"Chaos Draw +3"</strong>.</li>
+<li>Also Compatible with Skip Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="note-box">
@@ -2981,7 +2982,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Target Any Player at the Table and They Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>Target Any Player at the Table and They Must DRAW 2 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -2992,15 +2993,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
-<li>Can Also be Stacked with any other Specific Targeted Chaos Draw Card.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong>, <strong>"Chaos Draw +2"</strong> or <strong>"Chaos Draw +3"</strong>.</li>
+<li>Can Also be STACKED with any other Specific Targeted Chaos Draw Card.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.</li>
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.</li>
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3012,7 +3013,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +2 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +2 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3021,10 +3022,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 1 Card originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 1 Card originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 3 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 3 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 3 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 3 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3058,7 +3059,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 3 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must DRAW 3 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3069,14 +3070,14 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2, Chaos Draw +3 or Chaos Draw +4.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong> or <strong>"Chaos Draw +2"</strong>, <strong>"Chaos Draw +3"</strong> or <strong>"Chaos Draw +4"</strong>.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3089,7 +3090,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3098,10 +3099,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 4 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 4 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 4 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 4 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3135,7 +3136,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must Draw 3 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Direction of Play Reverses, and the Previous Player Must DRAW 3 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3146,15 +3147,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2, Chaos Draw +3 or Chaos Draw +4.</li>
-<li>Also Compatible with Reverse Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong> or <strong>"Chaos Draw +2"</strong>, <strong>"Chaos Draw +3"</strong> or <strong>"Chaos Draw +4"</strong>.</li>
+<li>Also Compatible with Reverse Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3167,7 +3168,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3176,10 +3177,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 4 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 4 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 4 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 4 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3213,7 +3214,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player is Skipped and the Following Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player is Skipped and the Following Player Must DRAW 3 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3224,15 +3225,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2, Chaos Draw +3 or Chaos Draw +4.</li>
-<li>Also Compatible with Skip Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong> or <strong>"Chaos Draw +2"</strong>, <strong>"Chaos Draw +3"</strong> or <strong>"Chaos Draw +4"</strong>.</li>
+<li>Also Compatible with Skip Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3245,7 +3246,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3254,10 +3255,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 4 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 4 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 4 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 4 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3291,7 +3292,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Target Any Player at the Table and They Must Draw 3 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>Target Any Player at the Table and They Must DRAW 3 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3302,15 +3303,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2, Chaos Draw +3 or Chaos Draw +4.</li>
-<li>Can Also be Stacked with any other Specific Targeted Chaos Draw Card.</li>
+<li>Can be STACKED with any Coloured <strong>"Draw +2"</strong> or <strong>"Chaos Draw +2"</strong>, <strong>"Chaos Draw +3"</strong> or <strong>"Chaos Draw +4"</strong>.</li>
+<li>Can Also be STACKED with any other Specific Targeted Chaos Draw Card.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3323,7 +3324,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +3 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3332,10 +3333,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 1 Card on top of the 3 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 5 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 5 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 5 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 5 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3369,7 +3370,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3380,14 +3381,14 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +3, Chaos Draw +4 or Chaos Draw +5.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +3"</strong>, <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3400,7 +3401,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3409,10 +3410,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 6 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 6 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 6 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 6 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3446,7 +3447,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Direction of Play Reverses, and the Previous Player Must DRAW 4 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3457,15 +3458,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +3, Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Also Compatible with Reverse Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +3"</strong>, <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
+<li>Also Compatible with Reverse Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3478,7 +3479,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3487,10 +3488,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 6 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 6 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 6 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 6 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3524,7 +3525,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player is Skipped and the Following Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player is Skipped and the Following Player Must DRAW 4 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3535,15 +3536,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +3, Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Also Compatible with Skip Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +3"</strong>, <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
+<li>Also Compatible with Skip Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3556,7 +3557,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3565,10 +3566,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 6 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 6 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 6 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 6 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3602,7 +3603,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Target Any Player at the Table and They Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>Target Any Player at the Table and They Must DRAW 4 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3613,15 +3614,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +3, Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Can Also be Stacked with any other Specific Targeted Chaos Draw Card.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +3"</strong>, <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
+<li>Can Also be STACKED with any other Specific Targeted Chaos Draw Card.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3634,7 +3635,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3643,10 +3644,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 2 Cards on top of the 4 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 7 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 7 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 7 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 7 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3680,7 +3681,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must DRAW 5 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3691,14 +3692,14 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +4 or Chaos Draw +5.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3711,7 +3712,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3720,10 +3721,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 8 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 8 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 8 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 8 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3757,7 +3758,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Direction of Play Reverses, and the Previous Player Must DRAW 5 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3768,15 +3769,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Also Compatible with Reverse Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
+<li>Also Compatible with Reverse Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3789,7 +3790,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3798,10 +3799,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 8 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 8 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 8 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 8 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3835,7 +3836,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player is Skipped and the Following Player Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player is Skipped and the Following Player Must DRAW 5 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3846,15 +3847,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Also Compatible with Skip Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
+<li>Also Compatible with Skip Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3867,7 +3868,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3876,10 +3877,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 8 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 8 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 8 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 8 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3913,7 +3914,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Target Any Player at the Table and They Must Draw 5 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>Target Any Player at the Table and They Must DRAW 5 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3924,15 +3925,15 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Can Also be Stacked with any other Specific Targeted Chaos Draw Card.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +4"</strong> or <strong>"Chaos Draw +5"</strong>.</li>
+<li>Can Also be STACKED with any other Specific Targeted Chaos Draw Card.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3945,7 +3946,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +5 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -3954,10 +3955,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 3 Cards on top of the 5 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 9 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 9 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 9 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 9 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -3991,7 +3992,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must DRAW 10 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4002,18 +4003,18 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can ONLY be Stacked with any Chaos Draw +10.</li>
+<li>Can ONLY be STACKED with any <strong>"Chaos Draw +10"</strong>.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
+<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a <strong>"Chaos Draw +10"</strong>.</li>
 </ul>
 </div>
 </li> 
@@ -4022,7 +4023,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -4031,10 +4032,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 15 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 15 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 15 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 15 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -4068,7 +4069,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Direction of Play Reverses, and the Previous Player Must DRAW 10 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4079,19 +4080,19 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can ONLY be Stacked with any Chaos Draw +10.</li>
-<li>Also Compatible with Reverse Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can ONLY be STACKED with any <strong>"Chaos Draw +10"</strong>.</li>
+<li>Also Compatible with Reverse Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
+<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a <strong>"Chaos Draw +10"</strong>.</li>
 </ul>
 </div>
 </li> 
@@ -4100,7 +4101,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -4109,10 +4110,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 15 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 15 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 15 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 15 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -4146,7 +4147,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player is Skipped and the Following Player Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player is Skipped and the Following Player Must DRAW 10 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4157,19 +4158,19 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can ONLY be Stacked with any Chaos Draw +10.</li>
-<li>Also Compatible with Skip Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Can ONLY be STACKED with any <strong>"Chaos Draw +10"</strong>.</li>
+<li>Also Compatible with Skip Action Class Cards after the DRAW Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
+<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a <strong>"Chaos Draw +10"</strong>.</li>
 </ul>
 </div>
 </li> 
@@ -4178,7 +4179,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -4187,10 +4188,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 15 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 15 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 15 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 15 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -4224,7 +4225,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>Target Any Player at the Table and They Must Draw 10 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>Target Any Player at the Table and They Must DRAW 10 Cards and Skip Their Turn or RESPOND IN KIND [passing STACKED Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4235,19 +4236,19 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +10.</li>
-<li>Can Also be Stacked with any other Specific Targeted Chaos Draw Card.</li>
+<li>Can be STACKED with any <strong>"Chaos Draw +10"</strong>.</li>
+<li>Can Also be STACKED with any other Specific Targeted Chaos DRAW Card.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a Chaos Draw +10.</li>
+<li>The Card in Play is a Blue 2. The User Cannot possess any Blue or any Coloured 2 to legally play a <strong>"Chaos Draw +10"</strong>.</li>
 </ul>
 </div>
 </li> 
@@ -4256,7 +4257,7 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +10 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You DRAW +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -4265,10 +4266,10 @@ type: "cards"
 </div>
 </li>
 <li>The Challenged Player Must now show You Their entire Hand privately.</li>
-<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be Drawn:
+<li>Once a Challenge is issued, the Player in the wrong will be charged an additional 5 Cards on top of the 10 Cards originally needed to be DRAWN:
 <ol type="a">
-<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must Draw a total of 16 Cards instead of the Challenger.</li>
-<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must Draw a total of 16 Cards.</li>
+<li>If the User was guilty [i.e.: they played it while possessing a matching Coloured Card], they Must DRAW a total of 16 Cards instead of the Challenger.</li>
+<li>If the User was innocent [i.e.: they played it without possessing a matching Coloured Card], the Challenger Must DRAW a total of 16 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -4302,8 +4303,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Draw 4 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>DRAW 4 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4346,8 +4347,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Choose a Player to Draw 4 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Choose a Player to DRAW 4 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4389,14 +4390,14 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>The Revealer of this Card Must Collect all Ancient Stone Class Chaos Cards in play, Shuffle and Re-Deal them according to Their Setup Rules but Must maintain Turn Order.</li>
-<li>Continue to Draw if required.</li>
+<li>The Revealer of this Card Must Collect all Ancient Stone Class Chaos Cards in play, Shuffle and RE-DEAL them according to Their Setup Rules but Must maintain Turn Order.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>Previous Unrestriction Stone Users Cannot be Included in the Re-Deal, but Can use Ancient Inversion’s Effect otherwise.</li>
+<li>Previous Unrestriction Stone Users Cannot be Included in the RE-DEAL, but Can use Ancient Inversion’s Effect otherwise.</li>
 </ul>
 </div>
 <div class="discards-box">
@@ -4438,7 +4439,7 @@ type: "cards"
 <li>All other Players: If You possess an Ancient Stone, You Must respond by Slapping the Table to protect Yourself.</li>
 </ol>
 </li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4496,7 +4497,7 @@ type: "cards"
 <ol type="a">
 <li>Anti-Fun's Effect:
 <ol type="i">
-<li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to Deal 5 New Cards; ending Their Turn.</li>
+<li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to DEAL 5 New Cards; ending Their Turn.</li>
 </ol>
 </li>
 <li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
@@ -4559,7 +4560,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4604,7 +4605,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4648,7 +4649,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4693,7 +4694,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4738,7 +4739,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4790,7 +4791,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4834,7 +4835,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4878,7 +4879,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4922,7 +4923,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -4966,7 +4967,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -5010,7 +5011,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -5060,7 +5061,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Draw a Card for each Card you Cannot Discard.</li>
+<li>DRAW a Card for each Card you Cannot Discard.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -5110,7 +5111,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol start="2">
-<li>Only if You Countered it, continue to Draw if required.</li>
+<li>Only if You Countered it, continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5198,7 +5199,7 @@ type: "cards"
 <li>Black Hole's Effect:
 <ol type="i">
 <li>All Players in Play Order Discard all Their Hand Cards.</li>
-<li>Then the User Deals 5 Cards to Each Player.</li>
+<li>Then the User DEALS 5 Cards to Each Player.</li>
 </ol>
 </li>
 <li>Or Play simply as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
@@ -5334,7 +5335,7 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>If You Draw Bodyguard and reveal an Assassin Trap Class Chaos Card in doing so, You May immediately Play it. This is a rare exception to the Pick Up/Put Down Rule for Chaos Cards [See: <a href="/01-a-crazy-8s-game-rulebook#pick-up-put-down" class="matrix-link">Crazy 8's Game Rulebook: How To Play: Rule 3: Note & Restriction]</a>.</li>
+<li>If You DRAW Bodyguard and reveal an Assassin Trap Class Chaos Card in doing so, You May immediately Play it. This is a rare exception to the Pick Up/Put Down Rule for Chaos Cards [See: <a href="/01-a-crazy-8s-game-rulebook#pick-up-put-down" class="matrix-link">Crazy 8's Game Rulebook: How To Play: Rule 3: Note & Restriction]</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -5379,13 +5380,13 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
 <div class="rules-box">
 <ol start="3">
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5469,11 +5470,11 @@ type: "cards"
 <ol type="1">
 <li>When Revealed, in Turn Order:
 <ol type="a">
-<li><strong>ALL OTHERS:</strong> Draws 2 Cards.</li>
-<li><strong>USER:</strong> Draws 5 Cards.</li>
+<li><strong>ALL OTHERS:</strong> DRAWS 2 Cards.</li>
+<li><strong>USER:</strong> DRAWS 5 Cards.</li>
 </ol>
 </li>
-<li>Continue to Draw if Required.</li>
+<li>Continue to DRAW if Required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5511,7 +5512,7 @@ type: "cards"
 <div class="rules-box">
 <ol type="1">
 <li>When revealed, place in front of You.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="note-box">
@@ -5519,7 +5520,7 @@ type: "cards"
 <ul>
 <li>These Cards Cannot be Reshuffled back into the Deck.</li>
 <li>These Cards Cannot be Swapped, Traded or Discarded.</li>
-<li>These Cards do NOT count towards Your Hand Cards or Draw Effect Amount.</li>
+<li>These Cards do NOT count towards Your Hand Cards or DRAW Effect Amount.</li>
 <li>These Cards are Permanent for that game.</li>
 <li>These Cards do NOT have any Effects except the Special Victory Conditions.</li>
 </ul>
@@ -5560,7 +5561,7 @@ type: "cards"
 <div class="rules-box">
 <ol type="1" start="2">
 <li>That Player now Presents Their Hand to the next Player, Who Does the Same.</li>
-<li>Continue until the User has Drawn a Card from the previous Player.</li>
+<li>Continue until the User has DRAWN a Card from the previous Player.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5602,7 +5603,7 @@ type: "cards"
 <li>Choose one:
 <ol type="a">
 <li>Cancel the Activation of any Contagion Expansion Trap Class Chaos Card and Remove it from the Game.</li>
-<li>Negate the Draw Effect charged against You [Stacked or otherwise].</li>
+<li>Negate the DRAW Effect charged against You [STACKED or otherwise].</li>
 <li>On any PLAYABLE TURN, You May surrender Cure by Shuffling it into the Deck instead of playing a Card.</li>
 </ol>
 </li>
@@ -5644,7 +5645,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Acid [Orange] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5687,7 +5688,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Amethyst [Light Purple] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5824,7 +5825,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Diamond [Light Blue] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5867,7 +5868,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Emerald [Light Green] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5910,7 +5911,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Oak [Light Brown] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5953,7 +5954,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Poison [Dark Purple] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -5996,7 +5997,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Redwood [Dark Brown] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6039,7 +6040,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Rose [<s>Light Red</s> Pink] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6082,7 +6083,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Plague [Dark Blue] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6125,7 +6126,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Stinger [Yellow] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6168,7 +6169,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Stone [Grey] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6211,7 +6212,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Toxin [Dark Green] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6254,7 +6255,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players in Turn Order Discard all Venom [Red] Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6333,7 +6334,7 @@ type: "cards"
 <ol type="a">
 <li>Double Under's Effect:
 <ol type="i">
-<li>Return Your entire Hand to the Deck, Shuffle it and Deal the same number of Cards to Yourself.</li>
+<li>Return Your entire Hand to the Deck, Shuffle it and DEAL the same number of Cards to Yourself.</li>
 </ol>
 </li>
 <li>Or simply Play as a <a href="#crazy-8s-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
@@ -6423,7 +6424,7 @@ type: "cards"
 <ol>
 <li>Choose a Number from 0-9.</li>
 <li>In Play Order, all Players Discard all Coloured Cards that match that Number.</li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6466,8 +6467,8 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players with more than 3 cards in Their Hand now Discard until they have 3 cards in Their Hand.</li>
-<li>All Players with Less Than 3 Cards in Their Hand now Deal to themselves until they have 3 Cards in Their Hand.</li>
-<li>Continue to Draw if required.</li>
+<li>All Players with Less Than 3 Cards in Their Hand now DEAL to themselves until they have 3 Cards in Their Hand.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6510,8 +6511,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>In Turn Order all Players Draw 3 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>In Turn Order all Players DRAW 3 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6561,7 +6562,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="return-link-wrapper">
@@ -6591,10 +6592,10 @@ type: "cards"
 <li>All Players in Play Order Must guess the Colour of the next Face-Down Card [e.g.: any of the Coloured Sets in the Game such as Steel, Poison, Venom, Carbon, Stinger, Toxin or even Chaos (including Trap Class) ].
 <ol type="a">
 <li>If anyone guesses correctly, they Can now Discard 1 Card.</li>
-<li>If anyone guesses incorrectly, they Must Draw 1 Card.</li>
+<li>If anyone guesses incorrectly, they Must DRAW 1 Card.</li>
 </ol>
 </li>
-<li>Continue to Draw if required</li>
+<li>Continue to DRAW if required</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6626,7 +6627,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Before activating Genetic Manipulation, Deal X amount of Cards to Yourself, depending on the relevant Game Expansion:
+<li>Before activating Genetic Manipulation, DEAL X amount of Cards to Yourself, depending on the relevant Game Expansion:
 <ul>
 <li><strong>1 Card:</strong> Core Game or Core Extension.</li>
 <li><strong>2 Cards:</strong> Apocalypse Expansion [Chaos Draw +2 & +3].</li>
@@ -6711,12 +6712,12 @@ type: "cards"
 <div class=restriction-box>
 <strong>UNIQUE RESTRICTION NOTES:</strong>
 <ul>
-<li>Action Class Cards Can only be Your last Card UNLESS You’re Responding in Kind to Stackable Effects, in which case You Can Stack all Playable Cards.
+<li>Action Class Cards Can only be Your last Card UNLESS You’re RESPONDING IN KIND to STACKABLE Effects, in which case You Can Stack all Playable Cards.
 <div class=example-box>
 <strong>EXAMPLES:</strong>
 <ul>
 <li>The Previous Player plays a Blue 4, so You Reveal Jack’s Knight to Play a Red 4, then a Red Reverse.</li>
-<li>You are charged Draw +2, You reveal Jack’s Knight to play 2 additional Draw +2s.</li>
+<li>You are charged DRAW +2, You reveal Jack’s Knight to play 2 additional Draw +2s.</li>
 <li>The previous Player received a Skip, now Your Turn, You Can reveal Jack’s Knight to play 3 additional Skips forcing the next 3 Players to Skip Their Turns.</li>
 </ul>
 </div>
@@ -6755,7 +6756,7 @@ type: "cards"
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
 <ul>
-<li>Activate before You start a Turn while facing a Stackable Draw or Counter Effect.</li>
+<li>Activate before You start a Turn while facing a STACKABLE DRAW or Counter Effect.</li>
 <li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
 </ul>
 </div>
@@ -6777,26 +6778,26 @@ type: "cards"
 <div class=compatibility-box>
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be used against all Draw Effect Cards, regardless of if it’s an Action Class Card [e.g.: Draw +2] or Chaos Card [e.g.: Slap, United We Fall].</li>
+<li>Can be used against all DRAW Effect Cards, regardless of if it’s an Action Class Card [e.g.: Draw +2] or Chaos Card [e.g.: Slap, United We Fall].</li>
 </ul>
 </div>
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
 <li>Being the Highest-Level Counter Class Chaos Card [Lv4], the next Player Cannot use another Counter Class Chaos Card [such as Nou] against King’s Knight.</li>
-<li>However, the next Player Can still RESPOND IN KIND by continuing to Stack the Draw Effect.</li>
+<li>However, the next Player Can still RESPOND IN KIND by continuing to Stack the DRAW Effect.</li>
 </ul>
 </div>
 <div class=restriction-box>
 <strong>UNIQUE RESTRICTION NOTES:</strong>
 <ul>
-<li>King’s Knight Cannot Counter Deal Effects.</li>
-<li>You Can only use King’s Knight’s Diplomatic Immunity Effect once per Drawing Stack.</li>
-<li>King’s Knight’s Diplomatic Immunity Effect is a “Last Resort Measure”. Once You’ve used it You Cannot RESPOND IN KIND or Counter again for the current Draw Stack.
+<li>King’s Knight Cannot Counter DEAL Effects.</li>
+<li>You Can only use King’s Knight’s Diplomatic Immunity Effect once per DRAWING Stack.</li>
+<li>King’s Knight’s Diplomatic Immunity Effect is a “Last Resort Measure”. Once You’ve used it You Cannot RESPOND IN KIND or Counter again for the current DRAW Stack.
 <div class="advanced-box">
 <strong>LAST RESORT MEASURE EXCEPTION:</strong>
 <ul>
-<li>You May still Play Queen's Knight's Effect this Draw Stack if You have not yet done so.</li>
+<li>You May still Play Queen's Knight's Effect this DRAW Stack if You have not yet done so.</li>
 </ul>
 </div>
 </li>
@@ -6836,7 +6837,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>When revealed, Stop Drawing Cards immediately [regardless of how many You were required to Draw].</li>
+<li>When revealed, Stop DRAWING Cards immediately [regardless of how many You were required to DRAW].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -6990,12 +6991,12 @@ type: "cards"
 <ol type="1">
 <li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
 <ol type="i">
-<li><strong>USER:</strong> Draws 0 Cards.</li>
-<li><strong>EITHER SIDE OF THEM:</strong> Draws 2 Cards.</li>
-<li><strong>BESIDE THOSE:</strong> Draws 1 Card.</li>
+<li><strong>USER:</strong> DRAWS 0 Cards.</li>
+<li><strong>EITHER SIDE OF THEM:</strong> DRAWS 2 Cards.</li>
+<li><strong>BESIDE THOSE:</strong> DRAWS 1 Card.</li>
 </ol>
 </li>
-<li>Continue to Draw if Required.</li>
+<li>Continue to DRAW if Required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7040,13 +7041,13 @@ type: "cards"
 <ol type="1">
 <li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
 <ol type="i">
-<li><strong>USER:</strong> Draws 0 Cards.</li>
-<li><strong>EITHER SIDE OF THEM:</strong> Draws 3 Cards.</li>
-<li><strong>BESIDE THOSE:</strong> Draws 2 Cards.</li>
-<li><strong>BESIDE THOSE:</strong> Draws 1 Card.</li>
+<li><strong>USER:</strong> DRAWS 0 Cards.</li>
+<li><strong>EITHER SIDE OF THEM:</strong> DRAWS 3 Cards.</li>
+<li><strong>BESIDE THOSE:</strong> DRAWS 2 Cards.</li>
+<li><strong>BESIDE THOSE:</strong> DRAWS 1 Card.</li>
 </ol>
 </li>
-<li>Continue to Draw if Required.</li>
+<li>Continue to DRAW if Required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7130,8 +7131,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>In Turn Order all Players Draw 2 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>In Turn Order all Players DRAW 2 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7176,11 +7177,11 @@ type: "cards"
 <ol type="1">
 <li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
 <ol type="i">
-<li><strong>USER:</strong> Draws 0 Cards.</li>
-<li><strong>EITHER SIDE OF THEM:</strong> Draws 2 Cards.</li>
+<li><strong>USER:</strong> DRAWS 0 Cards.</li>
+<li><strong>EITHER SIDE OF THEM:</strong> DRAWS 2 Cards.</li>
 </ol>
 </li>
-<li>Continue to Draw if Required.</li>
+<li>Continue to DRAW if Required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7220,11 +7221,11 @@ type: "cards"
 <ol type="1">
 <li><strong><span style="color: var(--color-card-title);">MIASMA:</span></strong>
 <ol type="i">
-<li><strong>USER:</strong> Choose a Player to Draw 0 Cards.</li>
-<li><strong>EITHER SIDE OF THE CHOSEN PLAYER:</strong> Draws 2 Cards.</li>
+<li><strong>USER:</strong> Choose a Player to DRAW 0 Cards.</li>
+<li><strong>EITHER SIDE OF THE CHOSEN PLAYER:</strong> DRAWS 2 Cards.</li>
 </ol>
 </li>
-<li>Continue to Draw if Required.</li>
+<li>Continue to DRAW if Required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7262,8 +7263,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Draw 3 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>DRAW 3 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7300,8 +7301,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Draw 3 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>DRAW 3 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7339,8 +7340,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Choose a Player to Draw 3 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Choose a Player to DRAW 3 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7535,7 +7536,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>The User collects all Player’s Cards.</li>
-<li>Then Shuffles and Re-Deals them equally to all Players as possible, regardless of how many they had previously.</li>
+<li>Then Shuffles and RE-DEALS them equally to all Players as possible, regardless of how many they had previously.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7572,7 +7573,7 @@ type: "cards"
 <div class="discards-box">
 <strong>ACTIVATION NOTES:</strong>
 <ul>
-<li>Activate before You start a PLAYABLE TURN while facing a Stackable Draw Effect.</li>
+<li>Activate before You start a PLAYABLE TURN while facing a STACKABLE DRAW Effect.</li>
 </ul>
 </div>
 <div class="rules-box">
@@ -7582,14 +7583,14 @@ type: "cards"
 <li>Queen's Knight's Death Effect:
 <ol type="i">
 <li>Discard any Chaos Card in Your Hand.</li>
-<li>That Card now becomes a “Legally Stackable” Chaos Draw +10 Specific Targeted Card, continuing the Draw Stack in Play.</li>
-<li>Follow the Rules for the Chaos Draw +10 Specific Targeted Card.</li>
+<li>That Card now becomes a “Legally STACKABLE” <strong>"Chaos Draw +10"</strong> Specific Targeted Card, continuing the DRAW Stack in Play.</li>
+<li>Follow the Rules for the <strong>"Chaos Draw +10"</strong> Specific Targeted Card.</li>
 </ol>
 </li>
 <li>Queen's Knight's Taxes Effect:
 <ol type="i">
 <li>Discard any Coloured Card in Your Hand.</li>
-<li>That Card now becomes the Previous Draw Effect Card on the Discards.</li>
+<li>That Card now becomes the Previous DRAW Effect Card on the Discards.</li>
 <li>Follow the Rules for the Previous Card.</li>
 </ol>
 </li>
@@ -7606,12 +7607,12 @@ type: "cards"
 <div class=restriction-box>
 <strong>UNIQUE RESTRICTION NOTES:</strong>
 <ul>
-<li>You Can only use either of Queen’s Knight’s Death or Taxes Effects once per Drawing Stack [regardless of which was used].</li>
-<li>Queen’s Knight’s Death & Taxes Effect is a “Last Resort Measure”. Once You’ve used it You Cannot RESPOND IN KIND or Counter again for the current Draw Stack.
+<li>You Can only use either of Queen’s Knight’s Death or Taxes Effects once per DRAWING Stack [regardless of which was used].</li>
+<li>Queen’s Knight’s Death & Taxes Effect is a “Last Resort Measure”. Once You’ve used it You Cannot RESPOND IN KIND or Counter again for the current DRAW Stack.
 <div class="advanced-box">
 <strong>LAST RESORT MEASURE EXCEPTION:</strong>
 <ul>
-<li>You May still Play King's Knight's Effect this Draw Stack if You have not yet done so.</li>
+<li>You May still Play King's Knight's Effect this DRAW Stack if You have not yet done so.</li>
 </ul>
 </div>
 </li>
@@ -7702,7 +7703,7 @@ type: "cards"
 </div>
 <div class="discards-box">
 <ul>
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 <li>Shuffle Mercy back into the Deck.</li>
 </ul>
 </div>
@@ -7764,11 +7765,11 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNS. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+<li>If the Targeted Player has a Skip or DRAW Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -7785,7 +7786,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+<li>Targeted Players Can still RESPOND IN KIND [passing STACKED Effects onto the next Player] to DRAW Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -7812,7 +7813,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>All Players Place 1 Coloured Card [Any] and 1 Chaos Card [Any] in a Pile.</li>
-<li>The Pile is Shuffled and Dealt back to all Players one Card at a time.</li>
+<li>The Pile is Shuffled and DEALT back to all Players one Card at a time.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7868,7 +7869,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol start="3">
-<li>Continue to Draw if required.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -7961,7 +7962,7 @@ type: "cards"
 </ul>
 </div>
 </li>
-<li>The last Player to do so Draws 2 Cards.</li>
+<li>The last Player to do so DRAWS 2 Cards.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8013,9 +8014,9 @@ type: "cards"
 </ul>
 </div>
 <ol type="a">
-<li>If ANY other Player Slaps the table as well, they Must Draw 2 Cards each.</li>
-<li>If ALL other Players Slap the table, they Must Draw 3 Cards each instead.</li>
-<li>If NO other Player Slaps the table, the User Must Draw 2 Cards.</li>
+<li>If ANY other Player Slaps the table as well, they Must DRAW 2 Cards each.</li>
+<li>If ALL other Players Slap the table, they Must DRAW 3 Cards each instead.</li>
+<li>If NO other Player Slaps the table, the User Must DRAW 2 Cards.</li>
 </ol>
 </li>
 </ol>
@@ -8078,7 +8079,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ul>
-<li>Only if You Countered it, continue to Draw if required.</li>
+<li>Only if You Countered it, continue to DRAW if required.</li>
 </ul>
 </div>
 <div class="discards-box">
@@ -8135,8 +8136,8 @@ type: "cards"
 <div class="advanced-box">
 <strong>OPTIONAL ADVANCED UNIQUE EFFECT: REPARATION:</strong>
 <ol type="a">
-<li>If You Lose this Card to another Player by any means, You Must Draw 1 Card.</li>
-<li>Furthermore, if You gain this Card from another Player by any means [not including Drawing it from the Deck], You Can Discard 1 Card.</li>
+<li>If You Lose this Card to another Player by any means, You Must DRAW 1 Card.</li>
+<li>Furthermore, if You gain this Card from another Player by any means [not including DRAWING it from the Deck], You Can Discard 1 Card.</li>
 </ol>
 </div>
 <div class="restriction-box">
@@ -8166,7 +8167,7 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
@@ -8219,7 +8220,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>OPTIONAL ADVANCED UNIQUE EFFECT: RETRIBUTION:</strong>
 <ol>
-<li>If You gain this Card from another Player by any means [not including Drawing it from the Deck], You Must Draw 3 Cards.</li>
+<li>If You gain this Card from another Player by any means [not including DRAWING it from the Deck], You Must DRAW 3 Cards.</li>
 </ol>
 </div>
 <div class="restriction-box">
@@ -8249,7 +8250,7 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
@@ -8302,10 +8303,10 @@ type: "cards"
 <div class="advanced-box">
 <strong>OPTIONAL ADVANCED UNIQUE EFFECT: RECLAMATION:</strong>
 <ol>
-<li>If You gain this Card from another Player by any means [not including Drawing it from the Deck], all Players Must:
+<li>If You gain this Card from another Player by any means [not including DRAWING it from the Deck], all Players Must:
 <ol type="i">
 <li>Discard 1 Chaos Card [if able].</li>
-<li>Deal 1 Card to themselves [regardless of whether they Discarded a Chaos Card or not].</li>
+<li>DEAL 1 Card to themselves [regardless of whether they Discarded a Chaos Card or not].</li>
 </ol>
 </li>
 </ol>
@@ -8337,7 +8338,7 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNs.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
@@ -8364,7 +8365,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>If they have one, all Players Must place 1 Chaos Card of Their choice from Their Hand in a pile which is then Shuffled and Dealt back to all participating Players.</li>
+<li>If they have one, all Players Must place 1 Chaos Card of Their choice from Their Hand in a pile which is then Shuffled and DEALT back to all participating Players.</li>
 </ol>
 </div>
 <div class="note-box">
@@ -8410,8 +8411,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Draw 1 Card.</li>
-<li>Continue to Draw if required.</li>
+<li>DRAW 1 Card.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8454,8 +8455,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Choose a Player to Draw 1 Card.</li>
-<li>Continue to Draw if required.</li>
+<li>Choose a Player to DRAW 1 Card.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8520,17 +8521,17 @@ type: "cards"
 <ul>
 <li>Cannot be Countered.</li>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+<li>Targeted Players Can still RESPOND IN KIND [passing STACKED Effects onto the next Player] to DRAW Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
 </ul>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Steal Turn Stack with itself, but it also Stacks with Reverse Stun, Stun and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Steal Turn Stack with itself, but it also Stacks with Reverse Stun, Stun and other Card Effects that prevent PLAYABLE TURNS. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+<li>If the Targeted Player has a Skip or DRAW Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -8589,17 +8590,17 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+<li>Targeted Players Can still RESPOND IN KIND [passing STACKED Effects onto the next Player] to DRAW Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
 </ul>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Stun Stack with itself, but it also Stacks with Reverse Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Stun Stack with itself, but it also Stacks with Reverse Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNS. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+<li>If the Targeted Player has a Skip or DRAW Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -8635,8 +8636,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Draw 5 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>DRAW 5 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8679,8 +8680,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Choose a Player to Draw 5 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Choose a Player to DRAW 5 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8718,7 +8719,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>All Players in Play Order Draw 2 Cards each.</li>
+<li>All Players in Play Order DRAW 2 Cards each.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8802,8 +8803,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Draw 2 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>DRAW 2 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8846,8 +8847,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Choose a Player to Draw 2 Cards.</li>
-<li>Continue to Draw if required.</li>
+<li>Choose a Player to DRAW 2 Cards.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -8891,8 +8892,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>In Turn Order all Players Draw 1 Card.</li>
-<li>Continue to Draw if required.</li>
+<li>In Turn Order all Players DRAW 1 Card.</li>
+<li>Continue to DRAW if required.</li>
 </ol>
 </div>
 <div class="discards-box">
