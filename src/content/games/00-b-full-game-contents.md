@@ -22,11 +22,11 @@ type: "rules"
 <div class="expansion-name">📦 Core Game</div>
 <div class="expansion-desc">The Basics [176 Cards]
 <ul>
-<li>Plague/Dark Blue Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Toxin/Dark Green Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Stinger/Yellow Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Venom/Red Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
-<li>Poison/Dark Purple Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>26 x Plague/Dark Blue Colour Set Cards [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>26 x Toxin/Dark Green Colour Set Cards [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>26 x Stinger/Yellow Colour Set Cards [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>26 x Venom/Red Colour Set Cards [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>26 x Poison/Dark Purple Colour Set Cards [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Basic Effect Chaos Cards:
 <ul>
 <li>2 Copies of Anti-Fun</li>
@@ -60,7 +60,7 @@ type: "rules"
 <div class="expansion-name">📦 Core Extension</div>
 <div class="expansion-desc">The Basics, But Better [47 Cards]
 <ul>
-<li>Acid/Orange Colour Set [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
+<li>26 x Acid/Orange Colour Set Cards [2 Copies of all Cards. 0-9, Reverse, Skip and Draw +2]</li>
 <li>Basic to Moderate Effect Chaos Cards:
 <ul>
 <li>2 Copies of Badge Collector</li>
