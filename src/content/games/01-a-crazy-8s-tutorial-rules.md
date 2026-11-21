@@ -548,8 +548,19 @@ loading="lazy"
 </ul>
 </li>
 </ol>
-<div id="tutorial-glossary-stackable">
+<div id="crazy-8s-glossary-miss-their-turn">
 <ol start="4">
+<li><strong>MISS THEIR TURN:</strong>
+<ul>
+<li>A Card Effect that forces Players to not have a PLAYABLE TURN.</li>
+<li>Sometimes Additional Effects are added, but not always.</li>
+</ul>
+</li>
+<ul>
+</li>
+</ol>
+<div id="crazy-8s-glossary-stackable">
+<ol start="5">
 <li><strong>STACKABLE:</strong>
 <ul>
 <li>A Card that can be Played to continue and build the Effect onto another Player.</li>
@@ -558,8 +569,8 @@ loading="lazy"
 <ul>
 </li>
 </ol>
-<div id="tutorial-glossary-respond-in-kind">
-<ol start="5">
+<div id="crazy-8s-glossary-respond-in-kind">
+<ol start="6">
 <li><strong>RESPOND IN KIND:</strong>
 <ul>
 <li>The action of placing a Playable Card that allows You to STACK an Effect onto another Player.</li>

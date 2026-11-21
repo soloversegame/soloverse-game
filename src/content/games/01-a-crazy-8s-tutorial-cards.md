@@ -95,7 +95,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 2 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must Draw 2 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="compatibility-box">
@@ -171,7 +171,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>When played, the next Player Skips Their Turn.</li>
+<li>When played, the next Player They must MISS THEIR TURN.</li>
 </ol>
 </div>
 <div class="compatibility-box">
@@ -287,7 +287,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>The next Player’s Turn is Skipped.</li>
+<li>The next Playermust MISS THEIR TURN.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -371,7 +371,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must Draw 4 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -448,7 +448,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Direction of Play Reverses, and the Previous Player Must Draw 4 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -526,7 +526,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player is Skipped and the Following Player Must Draw 4 Cards and Skip Their Turn or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player must MISS THEIR TURN and the Following Player Must Draw 4 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -864,7 +864,7 @@ type: "cards"
 </div>
 <div class="discards-box">
 <ul>
-<li>After the Targeted Player’s Turn has been Skipped due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>After the Targeted Player has MISSED THEIR TURN due to this Card’s Effect, place this Card on top of the Discards.</li>
 </ul>
 </div>
 <div class="rules-box">
@@ -879,7 +879,7 @@ type: "cards"
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will MISS THEIR TURN again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -889,7 +889,7 @@ type: "cards"
 <div class="two-player-note-box">
 <strong>2 PLAYER GAME NOTES:</strong>
 <ul>
-<li>Skips Their Turn instead.</li>
+<li>They must MISS THEIR TURN instead.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -960,7 +960,7 @@ type: "cards"
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will MISS THEIR TURN again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -994,7 +994,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and the Targeted Player's Turn is Skipped.
+<li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and the Targeted Player must MISS THEIR TURN.
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
@@ -1007,7 +1007,7 @@ type: "cards"
 </div>
 <div class="discards-box">
 <ul>
-<li>After the Targeted Player’s Turn has been Skipped due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>After the Targeted Player has MISSED THEIR TURN due to this Card’s Effect, place this Card on top of the Discards.</li>
 </ul>
 </div>
 <div class="rules-box">
@@ -1029,7 +1029,7 @@ type: "cards"
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will Skip an Additional Turn per Card Effect.</li>
+<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will MISS THEIR TURN again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
