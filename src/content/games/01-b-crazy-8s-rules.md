@@ -4,7 +4,7 @@ title: "01-A Soloverse Crazy 8s Game Rules"
 type: "cards"
 ---
 
-<div class="meta-tag">👥 Ages 7+, 3-12 Players • v14.0.0</div>
+<div class="meta-tag">👥 Ages 7+, 3-10 Players • v14.0.0</div>
 
 <!-- INDEX JUMP MATRIX A-Z -->
 <nav class="matrix-toc-box" aria-label="Rulebook Table of Contents Matrix">
@@ -27,6 +27,12 @@ type: "cards"
 </li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-victory-conditions" class="matrix-link">VICTORY CONDITIONS</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-scoring" class="matrix-link">SCORING</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-scoring-winning" class="matrix-link">SCORING - WINNING THE GAME</a>
 </li>
 <li class="matrix-item-heading">
 <a href="#crazy-8s-important-notes" class="matrix-link">IMPORTANT NOTES</a>
@@ -188,6 +194,108 @@ loading="lazy"
 <a href="#crazy-8s-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
+</div>
+
+<!-- SCORING -->
+<h2 id="crazy-8s-scoring">SCORING:</h2>
+<div class="rules-box">
+<p style="margin: 0; font-style: italic; color: var(--text-muted);">
+If you feel up to it, mix things up by tracking your progress by accumulating your score as rounds progress.
+</p>
+<p style="margin: 15px 0; font-size: 1rem;">
+The first Player to get rid of all their Cards in a round receives points for all Cards left in their opponent’s Hands as follows:
+</p>
+
+<div style="overflow-x: auto; margin: 15px 0; border: 1px solid var(--text-divider); border-radius: 8px;">
+<table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+<thead>
+<tr style="background: var(--bg-main-box); border-bottom: 2px solid var(--text-divider);">
+<th style="padding: 12px; font-weight: 700; color: var(--text-primary);">Card Type</th>
+<th style="padding: 12px; font-weight: 700; color: var(--text-primary);">Point Value</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid var(--text-divider);">
+<td style="padding: 10px 12px; color: var(--text-secondary);">Number [0-9]</td>
+<td style="padding: 10px 12px; font-weight: 700; color: var(--color-link);">10 Points</td>
+</tr>
+<tr style="border-bottom: 1px solid var(--text-divider);">
+<td style="padding: 10px 12px; color: var(--text-secondary);">Action Class Cards</td>
+<td style="padding: 10px 12px; font-weight: 700; color: var(--color-link);">20 Points</td>
+</tr>
+<tr style="border-bottom: 1px solid var(--text-divider);">
+<td style="padding: 10px 12px; color: var(--text-secondary);">Standard Chaos Cards &amp; Chaos Draw +4’s</td>
+<td style="padding: 10px 12px; font-weight: 700; color: var(--color-link);">50 Points</td>
+</tr>
+<tr style="border-bottom: 1px solid var(--text-divider);">
+<td style="padding: 10px 12px; color: var(--text-secondary);">Core Game &amp; Core Game Extension Chaos Cards</td>
+<td style="padding: 10px 12px; font-weight: 700; color: var(--color-link);">100 Points</td>
+</tr>
+<tr style="border-bottom: 1px solid var(--text-divider);">
+<td style="padding: 10px 12px; color: var(--text-secondary);">Expansion Chaos Cards</td>
+<td style="padding: 10px 12px; font-weight: 700; color: var(--color-link);">150 Points</td>
+</tr>
+<tr style="border-bottom: 1px solid var(--text-divider);">
+<td style="padding: 10px 12px; color: var(--text-secondary);">Singularity Expansion Chaos Cards</td>
+<td style="padding: 10px 12px; font-weight: 700; color: var(--color-link);">200 Points</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style="text-align: right; margin-top: 10px; margin-bottom: 30px;">
+<a href="#crazy-8s-game-rules-contents" style="color: var(--color-link); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
+</div>
+
+
+<!-- SCORING: WINNING THE GAME -->
+<h2 id="crazy-8s-scoring-winning">SCORING – WINNING THE GAME:</h2>
+<div class="rules-box">
+<div class="note-box" style="margin-bottom: 20px;">
+<strong>NOTE:</strong> The number of Chaos Cards will speed up Points collection.
+</div>
+
+<div style="margin-bottom: 20px; padding-left: 12px; border-left: 3px solid var(--color-accent);">
+<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">OPTION 1: Standard Game:</strong>
+<p style="margin: 0 0 6px 0; font-size: 0.95rem; color: var(--text-secondary);">The winner is the first Player to reach 3,000 points.</p>
+<p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
+The more Players you have the longer the game takes, but the more points you’ll earn for winning. So, keeping a set Score Target allows for faster “Scoring Wins” the more Players you have, speeding up total play time.
+</p>
+</div>
+
+<div style="margin-bottom: 20px; padding-left: 12px; border-left: 3px solid var(--color-accent);">
+<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">OPTION 2: Extended Game:</strong>
+<p style="margin: 0 0 6px 0; font-size: 0.95rem; color: var(--text-secondary);">The winner is the first Player to reach 3,000-7,000 points depending on the number of Players.</p>
+<p>Starting at 3,000 for 3 Players, increase the Victory Points required by 500 for every additional player [e.g.: 4 Players will be 3,500, 5 Players will be 4,000, 6 Players will be 4,500, etc... but keep a Maximum of 7,000 even if playing with more than the recommended maximum of 10 Players].</p>
+<p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
+The more Players you have the longer the game takes, but the more points you’ll earn for winning. However, for a serious game, increasing the Score Target allows for incrementally slower “Scoring Wins” the more Players you have, extending total play time.
+</p>
+</div>
+
+<div style="margin-bottom: 20px; padding-left: 12px; border-left: 3px solid var(--color-accent);">
+<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">OPTION 3: Last Player Standing:</strong>
+<p style="margin: 0 0 8px 0; font-size: 0.95rem; color: var(--text-secondary);">There is no winner for Rounds. As play continues and Players Go Out, they are permanently exited from the game [as opposed to Remove from Game Effects of Expansion Chaos Cards (e.g. : Assassin from the Doomsday Expansion) ] until the last Player is left.</p>
+<ul style="margin: 0 0 8px 0; padding-left: 20px; font-size: 0.9rem; color: var(--text-muted); list-style-type: disc;">
+<li>A Point is given for every Player left in the game when you go out.</li>
+<li>The Last Player Standing has Points deducted based on the Number of other Players in the Game.</li>
+</ul>
+<div class="note-box" style="margin-bottom: 8px; padding: 6px 12px;">
+<strong>NOTE:</strong> Players cannot obtain a Negative Score.
+</div>
+<p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
+Play continues until a Player Scores the Required Total [the recommendation is 3 x the Number of Players in the game].
+</p>
+</div>
+
+<div style="padding-left: 12px; border-left: 3px solid var(--color-accent);">
+<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">TOURNAMENT:</strong>
+<p style="margin: 0; font-size: 0.95rem; color: var(--text-secondary);">
+The first Player to reach one of the above Point requirements earns 1 Credit. Rounds progress until one Player earns a total of 3 Credits [for the truly devoted, you could always agree to a larger figure ahead of playing].
+</p>
+</div>
+</div>
+<div style="text-align: right; margin-top: 15px; margin-bottom: 40px;">
+<a href="#crazy-8s-game-rules-contents" style="color: var(--color-link); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
 </div>
 
 <!-- IMPORTANT NOTES SECTION -->
