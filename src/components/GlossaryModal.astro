@@ -1,0 +1,83 @@
+---
+// src/components/GlossaryModal.astro
+---
+
+<dialog id="glossary-modal" class="glossary-dialog">
+  <div class="modal-header">
+    <h3 id="modal-title"></h3>
+    <button id="close-modal" aria-label="Close">✕</button>
+  </div>
+  <p id="modal-definition"></p>
+  <ul id="modal-subtypes" class="subtype-list"></ul>
+  <p id="modal-example" class="modal-example"></p>
+</dialog>
+
+<script>
+  import { glossary } from "../data/glossary";
+
+  function initGlossary() {
+    const modal = document.getElementById("glossary-modal") as HTMLDialogElement | null;
+    const titleEl = document.getElementById("modal-title");
+    const defEl = document.getElementById("modal-definition");
+    const subtypesEl = document.getElementById("modal-subtypes");
+    const exampleEl = document.getElementById("modal-example");
+    const closeBtn = document.getElementById("close-modal");
+
+    if (!modal || !titleEl || !defEl || !subtypesEl || !exampleEl) return;
+
+    document.querySelectorAll('a[href^="#glossary:"]').forEach((link) => {
+      link.classList.add("glossary-term");
+
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const termKey = (link.getAttribute("href") || "").replace("#glossary:", "");
+        const entry = glossary[termKey];
+
+        if (!entry) {
+          console.warn(`Glossary term not found: "${termKey}"`);
+          return;
+        }
+
+        titleEl.textContent = entry.title;
+        defEl.textContent = entry.definition;
+
+        // Render subtypes if present
+        subtypesEl.innerHTML = "";
+        if (entry.subtypes && entry.subtypes.length > 0) {
+          subtypesEl.style.display = "block";
+          subtypesEl.innerHTML = entry.subtypes
+            .map((sub) => {
+              const nestedHtml = sub.nested
+                ? `<ul>${sub.nested.map((item) => `<li>${item}</li>`).join("")}</ul>`
+                : "";
+              const descHtml = sub.description ? `: ${sub.description}` : ":";
+              return `<li><strong>${sub.name}</strong>${descHtml}${nestedHtml}</li>`;
+            })
+            .join("");
+        } else {
+          subtypesEl.style.display = "none";
+        }
+
+        // Render example if present
+        if (entry.example) {
+          exampleEl.style.display = "block";
+          exampleEl.innerHTML = `<em>Example:</em> ${entry.example}`;
+        } else {
+          exampleEl.style.display = "none";
+          exampleEl.innerHTML = "";
+        }
+
+        modal.showModal();
+      });
+    });
+
+    closeBtn?.addEventListener("click", () => modal.close());
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) modal.close();
+    });
+  }
+
+  // Runs on initial page load AND after Astro View Transitions
+  initGlossary();
+  document.addEventListener("astro:page-load", initGlossary);
+</script>

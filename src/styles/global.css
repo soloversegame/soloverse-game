@@ -596,7 +596,7 @@ box-sizing: border-box;
 /* 🎨 VERIFIED BACKUP PALETTE ENGINE INITIALISATION */
 .text-layer {
 /* Core Document Typography Colors */
---color-card-title: #0000ff; 
+--color-card-title: #3b82f6; 
 --color-card-class: #8cfffb; 
 --accent-heading: #3a3f54;
 --accent-subheading: #3b82f6;
@@ -735,23 +735,7 @@ font-style: normal;
 .text-layer .special-victory-condition-note-box { background-color: var(--bg-victory) !important; border: 1px solid var(--border-victory) !important; border-left: 4px solid var(--border-victory) !important; }
 .text-layer .two-player-note-box { background-color: var(--bg-two-player) !important; border: 1px solid var(--border-two-player) !important; border-left: 4px solid var(--border-two-player) !important; }
 .text-layer .advanced-box { background-color: var(--bg-advanced) !important; border: 1px solid var(--border-advanced) !important; border-left: 4px solid var(--border-advanced) !important; }
-
-/* FIXED: Scoped explicit isolation rule for Example Container background tints & text rules */
-.text-layer .example-box { 
-background-color: var(--bg-example) !important; 
-border: 1px solid var(--border-example) !important; 
-border-left: 4px solid var(--border-example) !important; 
-}
-.text-layer .example-box,
-.text-layer .example-box * {
-color: var(--text-body) !important; /* Retains clean white text profile */
-font-style: italic !important;  /* Enforces classic italics text look cleanly */
-}
-.text-layer .example-box strong,
-.text-layer .example-box strong * {
-color: #ffffff !important;
-font-weight: 700 !important;
-}
+.text-layer .example-box { background-color: var(--bg-example) !important; border: 1px solid var(--border-example) !important; border-left: 4px solid var(--border-example) !important; }
 
 /* ==========================================================================
    HUB ROOT LOGO SHIELD ENGINE (FIXES ENLARGED SIDE-SPILL ZOOM DEFECT)
@@ -788,4 +772,101 @@ height: auto !important;
 display: block !important;
 margin: 0 auto !important;
 object-fit: contain !important;
+}
+
+/* ==========================================
+   GLOSSARY TERMS & POPUP MODAL
+   ========================================== */
+.glossary-dialog {
+  background-color: #16171e;
+  color: #f3f4f6;
+  border: 1px solid #3a3f54;
+  border-left: 5px solid #3b82f6;
+  border-radius: 8px;
+  padding: 1.25rem;
+  max-width: 460px;
+  width: 90%;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+}
+
+.glossary-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2a2d3d;
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+#close-modal {
+  background: none;
+  border: none;
+  color: #a4a6b5;
+  font-size: 1.35rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+#close-modal:hover {
+  color: #ffffff;
+}
+
+.subtype-list {
+  margin-top: 0.75rem;
+  padding-left: 1.25rem;
+  line-height: 1.5;
+  color: #ced4da;
+}
+
+.subtype-list li {
+  margin-bottom: 0.4rem;
+}
+
+.subtype-list strong {
+  color: #ffffff;
+}
+
+.subtype-list ul {
+  margin-top: 0.3rem;
+  padding-left: 1.25rem;
+  list-style-type: circle;
+}
+
+.modal-example {
+  margin-top: 0.9rem;
+  padding: 0.65rem 0.85rem;
+  background-color: #0f1015;
+  border-left: 3px solid #eab308;
+  border-radius: 4px;
+  font-size: 0.92rem;
+  color: #ced4da;
+}
+
+/* ==========================================================================
+   GLOSSARY TERMS & INLINE RULEBOOK LINKS (UNIFIED - INCLUDING CALLOUT BOXES)
+   ========================================================================== */
+.text-layer a:not(.return-link):not(.matrix-link):not(.hub-link-button),
+.text-layer div[class*="-box"] a:not(.return-link):not(.matrix-link):not(.hub-link-button),
+.glossary-term {
+  color: var(--color-link) !important; /* #3b82f6 */
+  font-weight: 700 !important;
+  text-decoration: none !important; /* Change to 'none' if you prefer no underline on either */
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.text-layer a:not(.return-link):not(.matrix-link):not(.hub-link-button):hover,
+.text-layer div[class*="-box"] a:not(.return-link):not(.matrix-link):not(.hub-link-button):hover,
+.glossary-term:hover {
+  color: #60a5fa !important;
 }
