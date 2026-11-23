@@ -22,6 +22,9 @@ type: "cards"
 <li class="matrix-item-heading">
 <a href="#crazy-8s-play-to-the-side-of-the-discards" class="matrix-link">PLAY TO THE SIDE OF THE DISCARDS</a>
 </li>
+<li class="matrix-item-heading">
+<a href="#crazy-8s-recycle" class="matrix-link">RECYCLE</a>
+</li>
 </div>
 
 <div class="matrix-toc-box">
@@ -118,7 +121,7 @@ type: "cards"
 </div>
 
 <div class="matrix-toc-box">
-<h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">CARD DEFINITIONS - CARDS BEGINNING WITH:</span></h2>
+<h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">CARD DEFINITIONS - A-Z:</span></h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#crazy-8s-a" class="matrix-link">A</a>
@@ -189,78 +192,6 @@ type: "cards"
 </ul>
 </div>
 </nav>
-
-<div id="crazy-8s-direction-of-play">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">DIRECTION OF PLAY:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/0000-direction-of-play.png">
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/0000-direction-of-play-anti-clockwise.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Placed next to the Discards during Setup.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>Shows the Current Direction of Play.</li>
-<li>When You Activate a Reverse Effect, You must Flip this Card over.
-<div class="tip-box">
-<strong>TIP:</strong>
-<ul>
-<li>It helps with keeping track of whose Turn it is.</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
-</div>
-</div>
-</div>
-
-<div id="crazy-8s-play-to-the-side-of-the-discards">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">PLAY TO THE SIDE OF THE DISCARDS:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/0000-play-to-the-side-of-the-discards.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Placed next to the Discards during Setup.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol type="1">
-<li>When various Card Effects direct You to, Play Them on top of this Card beside the Discards instead of on top of the Discards.</li>
-<li>This is due to these Card Effects allowing You to Discard one or more other Cards, and the Card You Played must be the last Card Played/Discarded in order to Change the Colour.</li>
-</ol>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
-</div>
-</div>
-</div>
 
 <!-- SUB-INDEX JUMP MATRIX ARCHITECT-->
 <div id="crazy-8s-architect"></div>
@@ -750,9 +681,6 @@ type: "cards"
 <h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">RULEBOOK CONTENTS: R</span></h2>
 <ul class="matrix-toc-grid">
 <li class="matrix-item-heading">
-<a href="#crazy-8s-recycle" class="matrix-link">RECYCLE</a>
-</li>
-<li class="matrix-item-heading">
 <a href="#crazy-8s-resurrection" class="matrix-link">RESURRECTION [INSTANT TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
@@ -885,6 +813,123 @@ type: "cards"
 </div>
 </nav>
 
+<div id="crazy-8s-direction-of-play">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">DIRECTION OF PLAY:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/0000-direction-of-play.png">
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/0000-direction-of-play-anti-clockwise.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Placed next to the Discards during Setup.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>Shows the Current Direction of Play.</li>
+<li>When You Activate a Reverse Effect, You must Flip this Card over.
+<div class="tip-box">
+<strong>TIP:</strong>
+<ul>
+<li>It helps with keeping track of whose Turn it is.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-play-to-the-side-of-the-discards">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">PLAY TO THE SIDE OF THE DISCARDS:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/0000-play-to-the-side-of-the-discards.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Placed next to the Discards during Setup.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>When various Card Effects direct You to, Play Them on top of this Card beside the Discards instead of on top of the Discards.</li>
+<li>This is due to these Card Effects allowing You to Discard one or more other Cards, and the Card You Played must be the last Card Played/Discarded in order to Change the Colour.</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-recycle">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">RECYCLE [x1]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/01-core-extension-setup-recycle.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Place Next to the Deck and Discards face-up During Setup.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol>
+<li>On any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>, a Player Can choose to Activate the Recycle Chaos Card by Flipping it face-down.</li>
+<li>When they do so, they Must take the top half of the Discards [“No need to be exact, rough enough is good enough”] and Shuffle it back into the Deck and proceeds with Their Turn as normal.</li>
+</ol>
+</div>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>This Can only be done once per Game [as indicated by Turning the Recycle Chaos Card face-down. The Scavenger Chaos Card from the Core Game Can give You Options here].</li>
+<li>If an Action Class or Chaos Card is revealed, they have no Effect [however all Chaos Cards allow the user of Recycle to Choose a Colour to Continue].</li>
+</ul>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be <a href="#glossary:counter">Countered</span></strong></a>.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
 <div id="crazy-8s-the-soloversal-blueprint">
 <div class="rules-box">
 <div class="card-top-section">
@@ -906,7 +951,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
 <ul>
 <li>You May Deactivate this Card before you start any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>. To Deactivate this Card, Simply Remove it from the Game.</li>
@@ -963,7 +1008,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
 <ul>
 <li>You May Deactivate this Card before you start any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>. To Deactivate this Card, Simply Remove it from the Game.</li>
@@ -1024,7 +1069,7 @@ type: "cards"
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
 <li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>The First Time You Use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
 </ul>
 </div>
@@ -1087,7 +1132,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
 <ul>
 <li>You May Deactivate this Card before you start any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>. To Deactivate this Card, Simply Remove it from the Game.</li>
@@ -1175,7 +1220,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a Turn facing <a href="#glossary:draw">Draw Effects</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.</li>
 <li>Remove this Card from the Game once it has been Resolved.</li>
 </ul>
@@ -1235,7 +1280,7 @@ type: "cards"
 <ul>
 <li>Activate before You Start Your Turn, while facing a <a href="#glossary:draw">Draw Effect</span></strong></a>.</li>
 <li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>The First Time You Use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
 </ul>
 </div>
@@ -1293,7 +1338,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
 <ul>
 <li>You May Deactivate this Card before you start any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>. To Deactivate this Card, Simply Remove it from the Game.</li>
@@ -1361,7 +1406,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
 <ul>
 <li>You May Deactivate this Card before you start any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>. To Deactivate this Card, Simply Remove it from the Game.</li>
@@ -1433,7 +1478,7 @@ type: "cards"
 <ul>
 <li>Activate when another Player is about to Win via any Victory Condition Type.</li>
 <li>This Card Can only be Used Once in Any Game.</li>
-<li>When You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>When You Use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>Then Remove this Card from the Game.</li>
 </ul>
 </div>
@@ -1487,7 +1532,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>The First Time You Use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
 </ul>
 </div>
@@ -1558,7 +1603,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
 <ul>
 <li>You May Deactivate this Card before you start any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>. To Deactivate this Card, Simply Remove it from the Game.</li>
@@ -1620,7 +1665,7 @@ type: "cards"
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
 <li>This Card Can be Used Two Times in Any Game.</li>
-<li>The First Time You Use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>The First Time You Use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Second Time You Use this Card, resolve it's Effects then Remove this Card from the Game.</li>
 </ul>
 </div>
@@ -1673,7 +1718,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card, Flip it Face-Up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
+<li>To use this Card, Flip it face-up on the table in front of You [as proof of ownership], and resolve it's Effects.</li>
 <li>This Effect lasts for the rest of the game, or until it is Deactivated or Overwritten.
 <ul>
 <li>You May Deactivate this Card before you start any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>. To Deactivate this Card, Simply Remove it from the Game.</li>
@@ -1999,7 +2044,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li><a href="#glossary:deal">Deal</a> 1 Card to Yourself.</li>
-<li>Force all Players to set all but 1 Card in Their Handas Face-Up on the table in front of them.
+<li>Force all Players to set all but 1 Card in Their Handas face-up on the table in front of them.
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -2558,7 +2603,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>On your turn, You place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.
+<li>On your turn, You place Your Cards face-down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
@@ -5374,7 +5419,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
+<li>To use this Card's Effect, place it face-up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
 </ul>
 </div>
 <div class="rules-box">
@@ -5686,13 +5731,13 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The User Presents Their Hand Face-Down to the next Player in Play Order, who Chooses 1 Random Card from it and adds it to Their Hand.</li>
+<li>The User Presents Their Hand face-down to the next Player in Play Order, who Chooses 1 Random Card from it and adds it to Their Hand.</li>
 </ol>
 </div>
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>Shuffling Your Hand before presenting it Face-Down [without looking at it Yourself] will stop Your Opponents from guessing which Card/s You want to keep.</li>
+<li>Shuffling Your Hand before presenting it face-down [without looking at it Yourself] will stop Your Opponents from guessing which Card/s You want to keep.</li>
 </ul>
 </div>
 <div class="rules-box">
@@ -6727,7 +6772,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>All Players in Play Order Must guess the Colour of the next Face-Down Card [e.g.: any of the Coloured Sets in the Game such as Steel, Poison, Venom, Carbon, Stinger, Toxin or even Chaos (including Trap Class) ].
+<li>All Players in Play Order Must guess the Colour of the next face-down Card [e.g.: any of the Coloured Sets in the Game such as Steel, Poison, Venom, Carbon, Stinger, Toxin or even Chaos (including Trap Class) ].
 <ol type="a">
 <li>If anyone guesses correctly, they Can now Discard 1 Card.</li>
 <li>If anyone guesses incorrectly, they Must <a href="#glossary:draw">Draw</span></strong></a> 1 Card.</li>
@@ -6738,7 +6783,7 @@ type: "cards"
 </div>
 <div class="discards-box">
 <ul>
-<li>Shuffle Foresight & the revealed top Card [Face-Down] back into the Deck.</li>
+<li>Shuffle Foresight & the revealed top Card [face-down] back into the Deck.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -6831,7 +6876,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You Start a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
+<li>To use this Card's Effect, place it face-up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
 </ul>
 </div>
 <div class="rules-box">
@@ -6896,7 +6941,7 @@ type: "cards"
 <strong>ACTIVATION NOTES:</strong>
 <ul>
 <li>Activate before You start a Turn while facing a <a href="#glossary:stackable">Stackable</a> <a href="#glossary:draw">Draw</span></strong></a> or <a href="#glossary:counter">Counter Effect</span></strong></a>.</li>
-<li>To use this Card's Effect, place it Face-Up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
+<li>To use this Card's Effect, place it face-up on the table in front of You [as proof of ownership], resolve the Effects and then return it to Your Hand.</li>
 </ul>
 </div>
 <div class="rules-box">
@@ -7781,51 +7826,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-recycle">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">RECYCLE [x1]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Extension</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/01-core-extension-setup-recycle.png">
-</div>
-</div>
-<div class="discards-box">
-<ul>
-<li>Place Next to the Deck and Discards Face-Up During Setup.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol>
-<li>On any <a href="#glossary:playable-turn">Playable Turn</span></strong></a>, a Player Can choose to Activate the Recycle Chaos Card by Flipping it Face-Down.</li>
-<li>When they do so, they Must take the top half of the Discards [“No need to be exact, rough enough is good enough”] and Shuffle it back into the Deck and proceeds with Their Turn as normal.</li>
-</ol>
-</div>
-<div class="note-box">
-<strong>NOTES:</strong>
-<ul>
-<li>This Can only be done once per Game [as indicated by Turning the Recycle Chaos Card Face-Down. The Scavenger Chaos Card from the Core Game Can give You Options here].</li>
-<li>If an Action Class or Chaos Card is revealed, they have no Effect [however all Chaos Cards allow the user of Recycle to Choose a Colour to Continue].</li>
-</ul>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be <a href="#glossary:counter">Countered</span></strong></a>.</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-resurrection">
 <div class="rules-box">
 <div class="card-top-section">
@@ -8210,7 +8210,7 @@ type: "cards"
 <li>Temporarily remove Reality Bomb from the Deck.</li>
 <li>Reveal the top Card:
 <ol type="a">
-<li>If that Card is any Chaos Card [including a Face-Up Trap Class Chaos Card], the Reality Bomb has been averted, for now... Remove Said Chaos Card from the Game [the cost of survival].</li>
+<li>If that Card is any Chaos Card [including a face-up Trap Class Chaos Card], the Reality Bomb has been averted, for now... Remove Said Chaos Card from the Game [the cost of survival].</li>
 <li>If that Card is Any Other Type of Card... The Game Ends, and Everyone Loses!!! [See <a href="/01-a-crazy-8s-game-rulebook#victory-conditions-05" class="matrix-link">(01-A) Soloverse – Crazy 8’s (Game Rulebook): Victory Conditions: Rule 5].</a></li>
 </ol>
 </li>
@@ -8267,7 +8267,7 @@ type: "cards"
 <li>Choose 1 of the following Effects:
 <ol type="a">
 <li>Swap 1 Card in Your Hand for 1 random Card from any other Player [in order to collect all the Unification Class Chaos Cards to win].</li>
-<li>Swap this Face-Up Unification Card for 1 random Card from any other Player [in order to win via normal means].</li>
+<li>Swap this face-up Unification Card for 1 random Card from any other Player [in order to win via normal means].</li>
 </ol>
 </li>
 <li>Then continue Your Turn as normal.</li>
@@ -8351,7 +8351,7 @@ type: "cards"
 <li>Choose 1 of the following Effects:
 <ol type="a">
 <li>Swap 1 Card in Your Hand for 1 random Card from any other Player [in order to collect all the Unification Class Chaos Cards to win].</li>
-<li>Swap this Face-Up Unification Card for 1 random Card from any other Player [in order to win via normal means].</li>
+<li>Swap this face-up Unification Card for 1 random Card from any other Player [in order to win via normal means].</li>
 </ol>
 </li>
 <li>Then continue Your Turn as normal.</li>
@@ -8434,7 +8434,7 @@ type: "cards"
 <li>Choose 1 of the following Effects:
 <ol type="a">
 <li>Swap 1 Card in Your Hand for 1 random Card from any other Player [in order to collect all the Unification Class Chaos Cards to win].</li>
-<li>Swap this Face-Up Unification Card for 1 random Card from any other Player [in order to win via normal means].</li>
+<li>Swap this face-up Unification Card for 1 random Card from any other Player [in order to win via normal means].</li>
 </ol>
 </li>
 <li>Then continue Your Turn as normal.</li>

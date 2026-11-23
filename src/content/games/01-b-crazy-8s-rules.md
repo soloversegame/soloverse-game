@@ -80,10 +80,10 @@ type: "cards"
 </div>
 </li>
 <li>Choose who <a href="#glossary:deal">Deals</span></strong></a> first [alternate the Dealer clockwise after each game].</li>
-<li>As a group, help Shuffle the Deck, then the Dealer <a href="#glossary:deal">Deals</span></strong></a> Each Player 7 Cards Face-Down [watch out for the Face-Up Trap Class Chaos Cards – return them randomly to the Deck before continuing to <a href="#glossary:deal">Deal</span></strong></a>].</li>
-<li>Place the remainder of the Cards Face-Down as a Deck.</li>
+<li>As a group, help Shuffle the Deck, then the Dealer <a href="#glossary:deal">Deals</span></strong></a> Each Player 7 Cards face-down [watch out for the face-up Trap Class Chaos Cards – return them randomly to the Deck before continuing to <a href="#glossary:deal">Deal</span></strong></a>].</li>
+<li>Place the remainder of the Cards face-down as a Deck.</li>
 <li>Place the <strong>"Direction Of Play" [Blue/Clockwise Side]</strong> and the <strong>"Play To The Side Of The Discards"</strong> Setup Cards face-up on either side of the Discards, where everyone can see them [Remember to Flip the <strong>"Direction Of Play"</strong> Setup Card it every time a Reverse Effect Activates].</li>
-<li>If using the Core Extension, place "Recycle" Setup Card Face-Up next to the Deck and Discards, where all Players can reach it.</li>
+<li>If using the Core Extension, place "Recycle" Setup Card face-up next to the Deck and Discards, where all Players can reach it.</li>
 <li>Flip the top Card of the Deck over to begin the Discards:
 <ol type="a">
 <li>If any Action Class Cards are turned over at this stage, follow their rules.</li>
@@ -416,7 +416,7 @@ The more Players you have the longer the game takes, but the more points you’l
 <div id="crazy-8s-important-notes-06">
 <li><strong>Trap Class Chaos Card Notes:</strong>
 <ul>
-<li>All Trap Class Chaos Cards are Dual-Sided and therefore appear Face-Up in the Deck when Shuffled.</li>
+<li>All Trap Class Chaos Cards are Dual-Sided and therefore appear face-up in the Deck when Shuffled.</li>
 <li>When revealed, remove it from the Deck temporarily and follow its Effects.</li>
 <li>All are Reshuffled back into the Deck after all Effects have been resolved.</li>
 <li>If any are revealed while <a href="#glossary:deal">Dealing</span></strong></a> [including during the initial Flip to form the Discards], return them randomly to the Deck.</li>

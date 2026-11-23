@@ -391,7 +391,7 @@ loading="lazy"
 <div id="tutorial-important-notes-06">
 <li><strong>Trap Class Chaos Card Notes:</strong>
 <ul>
-<li>All Trap Class Chaos Cards are Dual-Sided and therefore appear Face-Up in the Deck when Shuffled.</li>
+<li>All Trap Class Chaos Cards are Dual-Sided and therefore appear face-up in the Deck when Shuffled.</li>
 <li>When revealed, remove it from the Deck temporarily and follow its Effects.</li>
 <li>All are Reshuffled back into the Deck after all Effects have been resolved.</li>
 <li>If any are revealed while <a href="#glossary:deal">Dealing</span></strong></a> [including during the initial Flip to form the Discards], return them randomly to the Deck.</li>

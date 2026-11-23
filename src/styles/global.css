@@ -941,7 +941,7 @@ object-fit: contain !important;
   width: 100%;
 }
 
-#soloverse-game-filter {
+.soloverse-game-filter {
   background: #16171e;
   color: #e4e6eb;
   border: 2px solid #2a2d3d;
@@ -956,12 +956,12 @@ object-fit: contain !important;
   transition: border-color 0.2s ease;
 }
 
-#soloverse-game-filter:focus,
-#soloverse-game-filter:hover {
+.soloverse-game-filter:focus,
+.soloverse-game-filter:hover {
   border-color: #3b82f6;
 }
 
-#soloverse-game-filter option {
+.soloverse-game-filter option {
   background: #16171e;
   color: #e4e6eb;
 }
@@ -988,7 +988,7 @@ object-fit: contain !important;
   opacity: 0.8;
 }
 
-#soloverse-search-input {
+.soloverse-search-input {
   flex: 1;
   background: transparent;
   border: none;
@@ -998,15 +998,15 @@ object-fit: contain !important;
   width: 100%;
 }
 
-#soloverse-search-input::placeholder {
+.soloverse-search-input::placeholder {
   color: #a4a6b5;
 }
 
-#soloverse-search-input::-webkit-search-cancel-button {
+.soloverse-search-input::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-#soloverse-search-clear {
+.soloverse-search-clear {
   background: none;
   border: none;
   color: #a4a6b5;
@@ -1015,7 +1015,7 @@ object-fit: contain !important;
   padding: 0 4px;
 }
 
-#soloverse-search-clear:hover {
+.soloverse-search-clear:hover {
   color: #ffffff;
 }
 
@@ -1099,7 +1099,7 @@ object-fit: contain !important;
     flex-direction: column;
   }
 
-  #soloverse-game-filter {
+  .soloverse-game-filter {
     max-width: 100%;
     width: 100%;
   }
