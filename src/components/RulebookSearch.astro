@@ -1,0 +1,212 @@
+---
+// src/components/RulebookSearch.astro
+---
+
+<div class="soloverse-search-wrapper">
+  <div class="search-controls-row">
+    <select id="soloverse-game-filter" aria-label="Filter by game">
+      <option value="all">All Games & Glossary</option>
+      <option value="glossary">Glossary Terms Only</option>
+    </select>
+
+    <div class="search-input-box">
+      <span class="search-icon">🔍</span>
+      <input
+        type="search"
+        id="soloverse-search-input"
+        placeholder="Search terms, cards, or rules..."
+        autocomplete="off"
+      />
+      <button id="soloverse-search-clear" aria-label="Clear search" style="display: none;">✕</button>
+    </div>
+  </div>
+
+  <div id="soloverse-search-results" class="search-results-dropdown hidden"></div>
+</div>
+
+<script>
+  import { glossary } from "../data/glossary";
+
+  interface SearchItem {
+    type: "glossary" | "section";
+    gameId: string; // "glossary" or the panel's ID (e.g., "vault-02-karma")
+    key: string;
+    title: string;
+    subtitle: string;
+    searchText: string;
+  }
+
+  let searchIndex: SearchItem[] = [];
+
+  function buildSearchIndex() {
+    const items: SearchItem[] = [];
+    const seenKeys = new Set<string>();
+    const filterSelect = document.getElementById("soloverse-game-filter") as HTMLSelectElement | null;
+
+    // 1. Index all Glossary terms from glossary.ts
+    for (const [key, entry] of Object.entries(glossary)) {
+      const plainDef = entry.definition.replace(/<[^>]*>/g, " ");
+      const subText = entry.subtypes
+        ? entry.subtypes.map((s) => `${s.name} ${s.description} ${(s.nested || []).join(" ")}`).join(" ")
+        : "";
+
+      items.push({
+        type: "glossary",
+        gameId: "glossary",
+        key,
+        title: entry.title,
+        subtitle: "Glossary Term",
+        searchText: `${entry.title} ${plainDef} ${subText}`.toLowerCase(),
+      });
+    }
+
+    // Reset dynamic game options if re-running on Astro navigation
+    if (filterSelect) {
+      filterSelect.querySelectorAll('option[data-dynamic="true"]').forEach((opt) => opt.remove());
+    }
+
+    // 2. Index all rendered Cards & Rule sections from the DOM & populate game filter dropdown
+    document.querySelectorAll(".vault-panels-holder .game-panel").forEach((panel) => {
+      const panelId = panel.id;
+      const gameHeading = panel.querySelector(".panel-accent-header h2")?.textContent || "";
+      const gameName = gameHeading.replace(" - Operational Database", "").trim();
+
+      // Add game to the filter dropdown automatically
+      if (filterSelect && panelId && gameName) {
+        const opt = document.createElement("option");
+        opt.value = panelId;
+        opt.textContent = gameName;
+        opt.setAttribute("data-dynamic", "true");
+        filterSelect.appendChild(opt);
+      }
+
+      panel.querySelectorAll("[id]").forEach((el) => {
+        const id = el.id;
+        if (!id || id.startsWith("vault-") || id.endsWith("-contents") || seenKeys.has(id)) return;
+
+        const isCard = el.querySelector(".rules-box") !== null;
+        const isBox = /-(box)$/.test(el.className);
+        const isHeading = /^H[2-4]$/.test(el.tagName);
+
+        if (!isCard && !isBox && !isHeading) return;
+
+        const headingEl = isHeading ? el : el.querySelector("h2, h3, h4, strong");
+        const rawTitle = headingEl?.textContent?.replace(/:\s*$/, "").trim() || id;
+        const bodyText = el.textContent || "";
+
+        seenKeys.add(id);
+        items.push({
+          type: "section",
+          gameId: panelId,
+          key: id,
+          title: rawTitle,
+          subtitle: isCard ? `Card • ${gameName}` : `Rule • ${gameName}`,
+          searchText: `${rawTitle} ${gameName} ${bodyText}`.toLowerCase(),
+        });
+      });
+    });
+
+    searchIndex = items;
+  }
+
+  function initSearch() {
+    buildSearchIndex();
+
+    const input = document.getElementById("soloverse-search-input") as HTMLInputElement | null;
+    const filterSelect = document.getElementById("soloverse-game-filter") as HTMLSelectElement | null;
+    const clearBtn = document.getElementById("soloverse-search-clear");
+    const resultsBox = document.getElementById("soloverse-search-results");
+
+    if (!input || !filterSelect || !clearBtn || !resultsBox) return;
+
+    function runSearch() {
+      const query = input!.value.trim().toLowerCase();
+      const selectedGame = filterSelect!.value;
+      clearBtn!.style.display = query.length > 0 ? "block" : "none";
+
+      if (query.length < 2) {
+        resultsBox!.classList.add("hidden");
+        resultsBox!.innerHTML = "";
+        return;
+      }
+
+      const matches = searchIndex
+        .filter((item) => {
+          // 1. Apply Game Filter
+          if (selectedGame === "glossary" && item.gameId !== "glossary") return false;
+          if (selectedGame !== "all" && selectedGame !== "glossary") {
+            // Show cards/rules from the chosen game + shared glossary terms
+            if (item.gameId !== selectedGame && item.gameId !== "glossary") return false;
+          }
+
+          // 2. Apply Text Query
+          return item.searchText.includes(query);
+        })
+        .sort((a, b) => {
+          const aTitle = a.title.toLowerCase().includes(query) ? 0 : 1;
+          const bTitle = b.title.toLowerCase().includes(query) ? 0 : 1;
+          return aTitle - bTitle;
+        })
+        .slice(0, 15);
+
+      if (matches.length === 0) {
+        resultsBox!.innerHTML = `<div class="search-empty">No matching rules, cards, or glossary terms found.</div>`;
+      } else {
+        resultsBox!.innerHTML = matches
+          .map(
+            (m) => `
+            <button type="button" class="search-result-item" data-type="${m.type}" data-key="${m.key}" data-title="${m.title.replace(/"/g, "&quot;")}">
+              <span class="search-result-title">${m.title}</span>
+              <span class="search-result-badge ${m.type}">${m.subtitle}</span>
+            </button>
+          `
+          )
+          .join("");
+      }
+
+      resultsBox!.classList.remove("hidden");
+    }
+
+    input.addEventListener("input", runSearch);
+    filterSelect.addEventListener("change", runSearch);
+
+    clearBtn.addEventListener("click", () => {
+      input.value = "";
+      clearBtn.style.display = "none";
+      resultsBox.classList.add("hidden");
+      resultsBox.innerHTML = "";
+      input.focus();
+    });
+
+    resultsBox.addEventListener("click", (e) => {
+      const target = e.target as HTMLElement;
+      const btn = target.closest(".search-result-item") as HTMLButtonElement | null;
+      if (!btn) return;
+
+      const type = btn.getAttribute("data-type");
+      const key = btn.getAttribute("data-key");
+      const title = btn.getAttribute("data-title") || "";
+      if (!type || !key) return;
+
+      const tempLink = document.createElement("a");
+      tempLink.href = type === "glossary" ? `#glossary:${key}` : `#card:${key}`;
+      tempLink.textContent = title;
+      tempLink.style.display = "none";
+      document.body.appendChild(tempLink);
+      tempLink.click();
+      tempLink.remove();
+
+      resultsBox.classList.add("hidden");
+    });
+
+    document.addEventListener("click", (e) => {
+      const target = e.target as HTMLElement;
+      if (!target.closest(".soloverse-search-wrapper")) {
+        resultsBox.classList.add("hidden");
+      }
+    });
+  }
+
+  initSearch();
+  document.addEventListener("astro:page-load", initSearch);
+</script>

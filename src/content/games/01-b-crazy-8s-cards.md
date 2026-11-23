@@ -841,7 +841,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be <a href="#glossary:counter">Countered</span></strong></a> <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox">Unstable Soloversal Paradox</span></strong></a>.</li>
+<li>This Can only be <a href="#glossary:counter">Countered</span></strong></a> <strong>*** At the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox">Unstable Soloversal Paradox</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -2324,13 +2324,13 @@ type: "cards"
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>If RESPONDING IN KIND with a Counter Class Chaos Card [i.e.: Nou], double the immediately previous <a href="#glossary:draw">Drawing</a> or DEALING Effect Card instead.</li>
+<li>If <a href="#glossary:respond-in-kind">Responding in Kind</a> with a Counter Class Chaos Card [i.e.: Nou], double the immediately previous <a href="#glossary:draw">Drawing</a> or DEALING Effect Card instead.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>UNIQUE RESTRICTION NOTES:</strong>
 <ul>
-<li>If RESPONDING IN KIND, by Stacking the <a href="#glossary:draw">Drawing</a> Effect, double only Your Card’s Effect.</li>
+<li>If <a href="#glossary:respond-in-kind">Responding in Kind</a>, by Stacking the <a href="#glossary:draw">Drawing</a> Effect, double only Your Card’s Effect.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -2819,7 +2819,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +2 [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +2 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -2875,7 +2875,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +2 REVERSE [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +2 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -2895,7 +2895,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Direction of Play Reverses.</li>
+<li>The Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -2932,7 +2933,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +2 SKIP [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +2 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -2952,7 +2953,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a> and the Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn.</a></li>
+<li>The Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -2989,7 +2991,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +2 SPECIFIC TARGETED [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +2 SPECIFIC TARGETED [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Warzone Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3028,7 +3030,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.</li>
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.</li>
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3040,11 +3042,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +2 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +2 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3067,7 +3069,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +3 [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +3 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3105,7 +3107,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3118,11 +3120,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3145,7 +3147,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +3 REVERSE [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +3 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3165,7 +3167,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 3 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Direction of Play Reverses.</li>
+<li>T>he Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 3 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3184,7 +3187,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3197,11 +3200,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3224,7 +3227,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +3 SKIP [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +3 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Apocalypse Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3244,7 +3247,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a> and the Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 3 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.</li>
+<li>The Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 3 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3263,7 +3267,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3276,11 +3280,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3303,7 +3307,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +3 SPECIFIC TARGETED [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +3 SPECIFIC TARGETED [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Warzone Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3342,7 +3346,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3355,11 +3359,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +3 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3382,7 +3386,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +4 [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +4 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3402,7 +3406,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 4 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Next Player Must <a href="#glossary:draw">Draw</a> 4 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3420,7 +3424,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3433,11 +3437,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3460,7 +3464,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +4 REVERSE [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +4 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3499,7 +3503,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3512,11 +3516,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3539,7 +3543,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +4 SKIP [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +4 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3578,7 +3582,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3591,11 +3595,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3657,7 +3661,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3670,11 +3674,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +4 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3697,7 +3701,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +5 [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +5 [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3735,7 +3739,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3748,11 +3752,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3775,7 +3779,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +5 REVERSE [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +5 REVERSE [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3795,7 +3799,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 5 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Direction of Play Reverses.</li>
+<li>The Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 5 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3814,7 +3819,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3827,11 +3832,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3854,7 +3859,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +5 SKIP [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +5 SKIP [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3874,7 +3879,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a> and the Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 5 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.</li>
+<li>The Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 5 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -3893,7 +3899,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3906,11 +3912,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -3933,7 +3939,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +5 SPECIFIC TARGETED [x3]:</h4>
+<h4 class="card-title">CHAOS DRAW +5 SPECIFIC TARGETED [x3]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Catastrophe Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -3972,7 +3978,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -3985,11 +3991,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +5 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -4012,7 +4018,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +10 [x1]:</h4>
+<h4 class="card-title">CHAOS DRAW +10 [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -4050,7 +4056,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -4063,11 +4069,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -4090,7 +4096,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +10 REVERSE [x1]:</h4>
+<h4 class="card-title">CHAOS DRAW +10 REVERSE [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -4110,7 +4116,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 10 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Direction of Play Reverses.</li>
+<li>The Previous Player Must <a href="#glossary:draw">Draw</span></strong></a> 10 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4129,7 +4136,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -4142,11 +4149,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -4169,7 +4176,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +10 SKIP [x1]:</h4>
+<h4 class="card-title">CHAOS DRAW +10 SKIP [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Devastation Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -4189,7 +4196,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a> and the Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 10 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.</li>
+<li>The Following Player Must <a href="#glossary:draw">Draw</span></strong></a> 10 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -4208,7 +4216,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -4221,11 +4229,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -4248,7 +4256,7 @@ type: "cards"
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">CHAOS <a href="#glossary:draw">Draw</span></strong></a> +10 SPECIFIC TARGETED [x1]:</h4>
+<h4 class="card-title">CHAOS DRAW +10 SPECIFIC TARGETED [x1]:</h4>
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Catastrophe Expansion</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
@@ -4287,7 +4295,7 @@ type: "cards"
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by RESPONDING IN KIND.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -4300,11 +4308,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding RESPONDING IN KIND].
+<li>You May Challenge a Player when You think they have charged You <a href="#glossary:draw">Draw</span></strong></a> +10 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -6760,7 +6768,7 @@ type: "cards"
 <div class=restriction-box>
 <strong>UNIQUE RESTRICTION NOTES:</strong>
 <ul>
-<li>Action Class Cards Can only be Your last Card UNLESS You’re RESPONDING IN KIND to <a href="#glossary:stackable">Stackable</a> Effects, in which case You Can <a href="#glossary:stackable">Stack</a> all Playable Cards.
+<li>Action Class Cards Can only be Your last Card UNLESS You’re <a href="#glossary:respond-in-kind">Responding in Kind</a> to <a href="#glossary:stackable">Stackable</a> Effects, in which case You Can <a href="#glossary:stackable">Stack</a> all Playable Cards.
 <div class=example-box>
 <strong>EXAMPLES:</strong>
 <ul>

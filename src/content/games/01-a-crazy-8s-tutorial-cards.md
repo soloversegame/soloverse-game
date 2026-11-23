@@ -1,5 +1,5 @@
 ---
-gameId: "01-a-crazy-8s-tutorial"
+gameId: "01-a-tutorial-tutorial"
 title: "[01-A] Crazy 8s Tutorial Card Definitions"
 type: "cards"
 ---
@@ -13,7 +13,8 @@ type: "cards"
 </nav>
 
 <div id="tutorial-card-definitions-contents"></div>
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS</h2>
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">CARD DEFINITIONS - NON-NUMBERED COLOURED ACTION CLASS:</span></h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#tutorial-draw-2" class="matrix-link">DRAW +2</a>
@@ -24,17 +25,22 @@ type: "cards"
 <li class="matrix-item-heading">
 <a href="#tutorial-skip" class="matrix-link">SKIP</a>
 </li>
+</div>
+
+<div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">CARD DEFINITIONS - CHAOS CARDS:</span></h2>
+<ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#tutorial-pure-chaos" class="matrix-link">PURE CHAOS</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#tutorial-pure-chos-reverse" class="matrix-link">PURE CHAOS REVERSE</a>
+<a href="#tutorial-pure-chaos-reverse" class="matrix-link">PURE CHAOS REVERSE</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#tutorial-pure-chos-skip" class="matrix-link">PURE CHAOS SKIP</a>
+<a href="#tutorial-pure-chaos-skip" class="matrix-link">PURE CHAOS SKIP</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#tutorial-pure-chos-shuffle-hands" class="matrix-link">PURE CHAOS SHUFFLE HANDS</a>
+<a href="#tutorial-pure-chaos-shuffle-hands" class="matrix-link">PURE CHAOS SHUFFLE HANDS</a>
 </li>
 <li class="matrix-item-heading">
 <a href="#tutorial-chaos-draw-4" class="matrix-link">CHAOS DRAW +4</a>
@@ -95,17 +101,11 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 2 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Can be Stacked with any Coloured or Chaos Draw +2 or Chaos Draw +3.</li>
-</ul>
-</div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -133,7 +133,7 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Compatible with all Reverse Symbol Cards [e.g.: the Pure Chaos Reverse or Chaos Draw +4 Reverse (after the Primary Draw Effect has been Resolved) ].</li>
+<li>Compatible with all Reverse Symbol Cards [e.g.: the <a href="#tutorial-pure-chaos-reverse">Pure Chaos Reverse</a> or <a href="#tutorial-chaos-draw-4">Chaos Draw +4 Reverse</a> (after the Primary <a href="#glossary:draw">Draw Effect</a> has been Resolved) ].</li>
 </ul>
 </div>
 <div class="two-player-note-box">
@@ -149,7 +149,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -162,6 +162,7 @@ type: "cards"
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Colour Extensions</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
 </ul>
 </div>
@@ -171,13 +172,13 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>When played, the next Player They must MISS THEIR TURN.</li>
+<li>When played, the next Player They must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.</li>
 </ol>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Compatible with all Skip Symbol Cards [e.g.: the Pure Chaos Skip or Chaos Draw +4 Skip Chaos Cards (after the Primary Draw Effect has been Resolved) ].</li>
+<li>Compatible with all Skip Symbol Cards [e.g.: the Pure Chaos Skip or Chaos Draw +4 Skip Chaos Cards (after the Primary Effects has been Resolved) ].</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -187,7 +188,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -213,7 +214,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -260,7 +261,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -287,7 +288,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>The next Playermust MISS THEIR TURN.</li>
+<li>The next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -301,7 +302,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -329,7 +330,7 @@ type: "cards"
 <div class="rules-box">
 <ol>
 <li>The User collects all Player’s Cards.</li>
-<li>Then Shuffles and Re-Deals them equally to all Players as possible, regardless of how many they had previously.</li>
+<li>Then Shuffles and <a href="#glossary:deal">Re-Deals</a> them equally to all Players as possible, regardless of how many they had previously.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -343,7 +344,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -371,7 +372,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must Draw 4 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player Must <a href="#glossary:draw">Draw</a> 4 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -382,14 +383,14 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +3, Chaos Draw +4 or Chaos Draw +5.</li>
+
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -402,11 +403,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -420,7 +421,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -448,7 +449,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Direction of Play Reverses, and the Previous Player Must Draw 4 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Direction of Play Reverses.</li>
+<li>The Previous Player Must <a href="#glossary:draw">Draw</a> 4 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -459,15 +461,14 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +3, Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Also Compatible with Reverse Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Also Compatible with <a href="#tutorial-reverse">Reverse</a> Action Class Cards after the <a href="#glossary:draw">Draw Effect</a> is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -480,11 +481,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -498,7 +499,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -526,7 +527,8 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player must MISS THEIR TURN and the Following Player Must Draw 4 Cards and MISS THEIR TURN or RESPOND IN KIND [passing Stacked Effects onto the next Player].</li>
+<li>The Next Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.</li>
+<li>The Following Player Must <a href="#glossary:draw">Draw</a> 4 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
@@ -537,15 +539,14 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can be Stacked with any Chaos Draw +3, Chaos Draw +4 or Chaos Draw +5.</li>
-<li>Also Compatible with Skip Action Class Cards after the Draw Effect is Resolved.</li>
+<li>Also Compatible with <a href="#tutorial-skip">Skip</a> Action Class Cards after the Draw Effect is Resolved.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by Responding in Kind.
+<li>You Can only play this Card legally if You do NOT have a playable Coloured Card that matches what's in play, or by <a href="#glossary:respond-in-kind">Responding in Kind</a>.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -558,11 +559,11 @@ type: "cards"
 <div class="challenge-box">
 <strong>CHALLENGE NOTES:</strong>
 <ol>
-<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding Responding in Kind].
+<li>You May Challenge a Player when You think they have charged You Draw +4 while having a matching Coloured Card [excluding <a href="#glossary:respond-in-kind">Responding in Kind</a>].
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>You Can only Challenge or RESPOND IN KIND… NOT both.</li>
+<li>You Can only Challenge or <a href="#glossary:respond-in-kind">Respond in Kind</a>… NOT both.</li>
 </ul>
 </div>
 </li>
@@ -576,7 +577,7 @@ type: "cards"
 </ol>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -610,7 +611,7 @@ type: "cards"
 <li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to Deal 5 New Cards; ending Their Turn.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -624,12 +625,12 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can be Pre-Emptively Countered, Officially, if <a href="#nou" class="return-link">NOU</a> is Played Last.</li>
+<li>This Can be Pre-Emptively Countered, Officially, if <a href="#tutorial-nou">NOU</a> is Played Last.</li>
 <li>But, there might be other, unofficial ways around it…</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -654,11 +655,11 @@ type: "cards"
 <ol type="a">
 <li>NOU's Effect:
 <ol type="i">
-<li><strong>NEXT, SPECIFIC OR COUNTER TARGETED:</strong> Play this Card to Reflect the Effects of the Chaos Card back at said User, while Reversing Play from them at the same time.</li>
-<li><strong>GROUP TARGETED:</strong> Reveal this Card to be shielded from the Effects.</li>
+<li><strong><span style="color: #3b82f6;">NEXT, SPECIFIC OR COUNTER TARGETED:</span></strong> Play this Card to Reflect the Effects of the Chaos Card back at said User, while Reversing Play from them at the same time.</li>
+<li><strong><span style="color: #3b82f6;">GROUP TARGETED:</span></strong> Reveal this Card to be shielded from the Effects.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].
+<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
@@ -679,18 +680,18 @@ type: "cards"
 <div class=compatibility-box>
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Can Counter Anti-Fun if played as Your Last Card.</li>
+<li>Can Counter <a href="#tutorial-anti-fun">Anti-Fun</a> if played as Your Last Card.</li>
 </ul>
 </div>
 <div class=restriction-box>
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot Counter Not Me.</li>
-<li>NOT compatible with Action Class Cards [such as Draw +2s].</li>
+<li>NOT compatible with Action Class Cards [such as <a href="#tutorial-draw-2">Draw +2s</a>].</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -713,7 +714,7 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>When played, it Copies the Previous Card played [be that a Chaos Draw +4, another Chaos Card or simply a Coloured Number or Action Class Card] as well as any Effects that Card might have.</li>
+<li>When played, it Copies the Previous Card played [be that a <a href="#tutorial-chaos-draw-4">Chaos Draw +4</a>, another Chaos Card or simply a Coloured Number or Action Class Card] as well as any Effects that Card might have.</li>
 <li>Follow the rules for the previous Card.</li>
 </ol>
 </div>
@@ -726,11 +727,11 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>When copying another Clone Chaos Card, redirect to the first non-Clone Chaos Card on the Discards. Can even copy the Genetic Manipulation and ,Reverse Stun, Stun and Steal Turn Chaos Cards.</li>
+<li>When copying another Clone Chaos Card, redirect to the first non-Clone Chaos Card on the Discards. Can even copy the <a href="#tutorial-reverse-stun">Reverse Stun</a>, <a href="#tutorial-stun">Stun</a> and <a href="#tutorial-steal-turn">Steal Turn</a> Chaos Cards.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -765,7 +766,7 @@ type: "cards"
 <li>Name a Colour used in the game; all Players in Play Order Discard every Card in Their Hand they have of that Colour.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#tutorial-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -777,7 +778,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -812,7 +813,7 @@ type: "cards"
 <li>All Players in Turn Order Discard every Chaos Card in Their Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#tutorial-pure-chaos" class="return-link">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].</li>
 </ol>
 </li>
 </ol>
@@ -824,7 +825,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -851,11 +852,11 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and the Direction of Play will instantly Reverse, returning to the previous Player.
+<li><a href="#glossary:targeted">Specific Target</a> any Player. When Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, this Card deactivates, and the Direction of Play will instantly Reverse, returning to the previous Player.
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>When Stacking Chaos Cards Like Reverse Stun, Stun and Steal Turn, literally Stack them on top of each other in front of the Targeted Player.</li>
+<li>When Stacking Chaos Cards Like Reverse Stun, <a href="#tutorial-reverse-stun">Stun</a> and <a href="#tutorial-steal-turn">Steal Turn</a>, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
 <li>Then when Their Turn arrives, Deactivate the Top Card.</li>
 </ul>
 </div>
@@ -864,22 +865,22 @@ type: "cards"
 </div>
 <div class="discards-box">
 <ul>
-<li>After the Targeted Player has MISSED THEIR TURN due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>After the <a href="#glossary:targeted">Targeted</a> Player has <a href="#glossary:miss-their-turn">Missed Their Turn</a> due to this Card’s Effect, place this Card on top of the Discards.</li>
 </ul>
 </div>
 <div class="rules-box">
 <ol start="2">
-<li>The Targeted Player chooses a Colour to continue.</li>
+<li>The <a href="#glossary:targeted">Targeted</a> Player chooses a Colour to continue.</li>
 </ol>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-a-crazy-8s-tutorial-rules#tutorial-important-notes-03">Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will MISS THEIR TURN again for each additional Card Effect.</li>
+<li>If the <a href="#glossary:targeted">Targeted</a> Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -889,18 +890,18 @@ type: "cards"
 <div class="two-player-note-box">
 <strong>2 PLAYER GAME NOTES:</strong>
 <ul>
-<li>They must MISS THEIR TURN instead.</li>
+<li>They must <a href="#glossary:miss-their-turn">Miss Their Turn</a> instead.</li>
 </ul>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be played as a Pure Chaos Card.</li>
-<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+<li><a href="#glossary:targeted">Targeted</a> Players Can still <a href="#glossary:respond-in-kind">Respond in Kind</a> to <a href="#glossary:draw">Draw Effects</a> by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -922,12 +923,12 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and You Steal Their Turn.
+<li>Target any Player. When Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, this Card deactivates, and You Steal Their Turn.
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>When Stacking Chaos Cards Like Reverse Stun, Stun and Steal Turn, literally Stack them on top of each other in front of the Targeted Player.</li>
-<li>Then when Their Turn arrives, Deactivate the Top Card.</li>
+<li>When Stacking Chaos Cards Like <a href="#tutorial-reverse-stun">Reverse Stun</a>, <a href="#tutorial-stun">Stun</a> and Steal Turn, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
+<li>Then when Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, Deactivate the Top Card.</li>
 </ul>
 </div>
 </li>
@@ -935,12 +936,12 @@ type: "cards"
 </div>
 <div class="discards-box">
 <ul>
-<li>After the Targeted Player’s Turn has been Stolen due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>After the <a href="#glossary:targeted">Targeted</a> Player’s Turn has been Stolen due to this Card’s Effect, place this Card on top of the Discards.</li>
 </ul>
 </div>
 <div class="rules-box">
 <ol start="2">
-<li>The Targeted Player chooses a Colour to continue.</li>
+<li>The <a href="#glossary:targeted">Targeted</a> Player chooses a Colour to continue.</li>
 <li>Take Your Turn as normal.</li>
 <li>Play Continues normally from You.</li>
 </ol>
@@ -950,24 +951,24 @@ type: "cards"
 <ul>
 <li>Cannot be Countered.</li>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+<li><a href="#glossary:targeted">Targeted</a> Players Can still <a href="#glossary:respond-in-kind">Respond in Kind</a>. to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
 </ul>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Steal Turn Stack with itself, but it also Stacks with Reverse Stun, Stun and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Steal Turn Stack with itself, but it also Stacks with <a href="#tutorial-reverse-stun">Reverse Stun</a>, <a href="#tutorial-stun">Stun</a> and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-a-crazy-8s-tutorial-rules#tutorial-important-notes-03">Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will MISS THEIR TURN again for each additional Card Effect.</li>
+<li>If the <a href="#glossary:targeted">Targeted</a> Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>
@@ -994,11 +995,11 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li>Target any Player. When Their next PLAYABLE TURN arrives, this Card deactivates, and the Targeted Player must MISS THEIR TURN.
+<li>Target any Player. When Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, this Card deactivates, and the <a href="#glossary:targeted">Targeted</a> Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>When Stacking Chaos Cards Like Stun, Reverse Stun and Steal Turn, literally Stack them on top of each other in front of the Targeted Player.</li>
+<li>When Stacking Chaos Cards Like Stun, Reverse Stun and Steal Turn, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
 <li>Then when Their Turn arrives, Deactivate the Top Card.</li>
 </ul>
 </div>
@@ -1007,29 +1008,29 @@ type: "cards"
 </div>
 <div class="discards-box">
 <ul>
-<li>After the Targeted Player has MISSED THEIR TURN due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>After the <a href="#glossary:targeted">Targeted</a> Player has <a href="#glossary:miss-their-turn">Missed Their Turn</a> due to this Card’s Effect, place this Card on top of the Discards.</li>
 </ul>
 </div>
 <div class="rules-box">
 <ol start="2">
-<li>The Targeted Player chooses a Colour to continue.</li>
+<li>The <a href="#glossary:targeted">Targeted</a> Player chooses a Colour to continue.</li>
 </ol>
 </div>
 <div class="restriction-box">
 <strong>RESTRICTION NOTES:</strong>
 <ul>
 <li>Cannot be used as a Pure Chaos Card.</li>
-<li>Targeted Players Can still RESPOND IN KIND [passing Stacked Effects onto the next Player] to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
+<li><a href="#glossary:targeted">Targeted</a> Players Can still <a href="#glossary:respond-in-kind">Respond in Kind</a> to <a href="#glossary:draw">Draw Effects</a> by continuing the <a href="#glossary:stack">Stack</a>, but Cannot use Counter Class Chaos Cards.</li>
 </ul>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Stun Stack with itself, but it also Stacks with Reverse Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNs. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Stun Stack with itself, but it also Stacks with Reverse Stun, Steal Turn and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-a-crazy-8s-tutorial-rules#tutorial-important-notes-03">Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the Targeted Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will MISS THEIR TURN again for each additional Card Effect.</li>
+<li>If the <a href="#glossary:targeted">Targeted</a> Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -1037,7 +1038,7 @@ type: "cards"
 </ul>
 </div>
 <div class="return-link-wrapper">
-<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+<a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
 </div>
 </div>
 </div>

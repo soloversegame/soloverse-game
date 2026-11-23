@@ -14,7 +14,7 @@ type: "cards"
 
 <div id="crazy-8s-game-rules-contents"></div>
 <div class="matrix-toc-box">
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
+<h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">RULEBOOK CONTENTS:</span></h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#crazy-8s-object" class="matrix-link">OBJECT</a>
@@ -52,7 +52,8 @@ type: "cards"
 <!-- OBJECT -->
 <div id="crazy-8s-object">
 <div class="rules-box">
-<h4>OBJECT</h4>
+<h4><span style="color: #3b82f6;">OBJECT</span></h4>
+<div class="rules-box">
 <ul>
 <li>This game follows the Crazy 8’s style of “Card Shedding” play.</li>
 <li>Therefore: Be the first Player to get rid of all your Cards.</li>
@@ -62,11 +63,13 @@ type: "cards"
 </div>
 </div>
 </div>
+</div>
 
 <!-- SETUP -->
 <div id="crazy-8s-setup">
 <div class="rules-box">
-<h4>SETUP</h4>
+<h4><span style="color: #3b82f6;">SETUP</span></h4>
+<div class="rules-box">
 <ol>
 <li>As a group choose whether to use the Core Game Extension and any Optional Expansion or Coloured Extension Packs.
 <div class="note-box">
@@ -93,6 +96,7 @@ type: "cards"
 </div>
 </div>
 </div>
+</div>
 
 <div class="image-container">
 <img 
@@ -106,7 +110,8 @@ loading="lazy"
 <!-- HOW TO PLAY -->
 <div id="crazy-8s-how-to-play">
 <div class="rules-box">
-<h4>HOW TO PLAY</h4>
+<h4><span style="color: #3b82f6;">HOW TO PLAY</span></h4>
+<div class="rules-box">
 <ol>
 <li>Play starts clockwise from the Dealer.</li>
 <li>On your Turn, you must play a minimum of 1 Card from your Hand by matching it to the Card on top of Discards either by Colour or Symbol, or by playing a Chaos Card [if able].
@@ -138,11 +143,13 @@ loading="lazy"
 </div>
 </div>
 </div>
+</div>
 
 <!-- VICTORY CONDITIONS -->
 <div id="crazy-8s-victory-conditions">
 <div class="rules-box">
-<h4>VICTORY CONDITIONS</h4>
+<h4><span style="color: #3b82f6;">VICTORY CONDITIONS</span></h4>
+<div class="rules-box">
 <div id="victory-conditions-01">
 <ol>
 <li>While placing your second last card, choose whether to indicate that you have one card left to the group or not by stating “Solo!”
@@ -198,16 +205,21 @@ loading="lazy"
 </div>
 </div>
 </div>
+</div>
 
 <!-- SCORING -->
-<h2 id="crazy-8s-scoring">SCORING:</h2>
+<div id="crazy-8s-scoring">
 <div class="rules-box">
-<p style="margin: 0; font-style: italic; color: var(--text-muted);">
-If you feel up to it, mix things up by tracking your progress by accumulating your score as rounds progress.
-</p>
-<p style="margin: 15px 0; font-size: 1rem;">
-The first Player to get rid of all their Cards in a round receives points for all Cards left in their opponent’s Hands as follows:
-</p>
+<h4><span style="color: #3b82f6;">SCORING</span></h4>
+<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+<li>If you feel up to it, mix things up by tracking your progress by accumulating your score as rounds progress.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ul>
+<li>The first Player to get rid of all their Cards in a round receives points for all Cards left in their opponent’s Hands as follows:
 
 <div style="overflow-x: auto; margin: 15px 0; border: 1px solid var(--text-divider); border-radius: 8px;">
 <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
@@ -245,65 +257,84 @@ The first Player to get rid of all their Cards in a round receives points for al
 </tbody>
 </table>
 </div>
+</li>
+</ul>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
-<div style="text-align: right; margin-top: 10px; margin-bottom: 30px;">
-<a href="#crazy-8s-game-rules-contents" style="color: var(--color-link); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
+</div>
+</div>
 </div>
 
 
 <!-- SCORING: WINNING THE GAME -->
-<h2 id="crazy-8s-scoring-winning">SCORING – WINNING THE GAME:</h2>
+<div id="crazy-8s-scoring-winning">
 <div class="rules-box">
-<div class="note-box" style="margin-bottom: 20px;">
+<h4><span style="color: #3b82f6;">SCORING - WINNING THE GAME</span></h4>
+<div class="rules-box">
+<div class="note-box">
 <strong>NOTE:</strong> The number of Chaos Cards will speed up Points collection.
 </div>
-
-<div style="margin-bottom: 20px; padding-left: 12px; border-left: 3px solid var(--color-accent);">
-<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">OPTION 1: Standard Game:</strong>
-<p style="margin: 0 0 6px 0; font-size: 0.95rem; color: var(--text-secondary);">The winner is the first Player to reach 3,000 points.</p>
-<p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
-The more Players you have the longer the game takes, but the more points you’ll earn for winning. So, keeping a set Score Target allows for faster “Scoring Wins” the more Players you have, speeding up total play time.
-</p>
-</div>
-
-<div style="margin-bottom: 20px; padding-left: 12px; border-left: 3px solid var(--color-accent);">
-<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">OPTION 2: Extended Game:</strong>
-<p style="margin: 0 0 6px 0; font-size: 0.95rem; color: var(--text-secondary);">The winner is the first Player to reach 3,000-7,000 points depending on the number of Players.</p>
-<p>Starting at 3,000 for 3 Players, increase the Victory Points required by 500 for every additional player [e.g.: 4 Players will be 3,500, 5 Players will be 4,000, 6 Players will be 4,500, etc... but keep a Maximum of 7,000 even if playing with more than the recommended maximum of 10 Players].</p>
-<p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
-The more Players you have the longer the game takes, but the more points you’ll earn for winning. However, for a serious game, increasing the Score Target allows for incrementally slower “Scoring Wins” the more Players you have, extending total play time.
-</p>
-</div>
-
-<div style="margin-bottom: 20px; padding-left: 12px; border-left: 3px solid var(--color-accent);">
-<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">OPTION 3: Last Player Standing:</strong>
-<p style="margin: 0 0 8px 0; font-size: 0.95rem; color: var(--text-secondary);">There is no winner for Rounds. As play continues and Players Go Out, they are permanently exited from the game [as opposed to Remove from Game Effects of Expansion Chaos Cards (e.g. : Assassin from the Doomsday Expansion) ] until the last Player is left.</p>
-<ul style="margin: 0 0 8px 0; padding-left: 20px; font-size: 0.9rem; color: var(--text-muted); list-style-type: disc;">
-<li>A Point is given for every Player left in the game when you go out.</li>
-<li>The Last Player Standing has Points deducted based on the Number of other Players in the Game.</li>
+<div class="rules-box">
+<ul>
+<li><strong>OPTION 1: Standard Game:</strong>
+<ul>
+<li>The winner is the first Player to reach 3,000 points.</li>
+<li>The more Players you have the longer the game takes, but the more points you’ll earn for winning. So, keeping a set Score Target allows for faster “Scoring Wins” the more Players you have, speeding up total play time.</li>
 </ul>
-<div class="note-box" style="margin-bottom: 8px; padding: 6px 12px;">
-<strong>NOTE:</strong> Players cannot obtain a Negative Score.
+</li>
+</ul>
 </div>
-<p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
-Play continues until a Player Scores the Required Total [the recommendation is 3 x the Number of Players in the game].
-</p>
+<div class="rules-box">
+<ul>
+<li><strong>OPTION 2: Extended Game:</strong>
+<ul>
+<li>The winner is the first Player to reach 3,000-7,000 points depending on the number of Players.</li>
+<li>Starting at 3,000 for 3 Players, increase the Victory Points required by 500 for every additional player [e.g.: 4 Players will be 3,500, 5 Players will be 4,000, 6 Players will be 4,500, etc... but keep a Maximum of 7,000 even if playing with more than the recommended maximum of 10 Players].</li>
+<li>
+The more Players you have the longer the game takes, but the more points you’ll earn for winning. However, for a serious game, increasing the Score Target allows for incrementally slower “Scoring Wins” the more Players you have, extending total play time.</li>
+</ul>
+</li>
+</ul>
 </div>
-
-<div style="padding-left: 12px; border-left: 3px solid var(--color-accent);">
-<strong style="color: var(--text-primary); display: block; margin-bottom: 4px;">TOURNAMENT:</strong>
-<p style="margin: 0; font-size: 0.95rem; color: var(--text-secondary);">
-The first Player to reach one of the above Point requirements earns 1 Credit. Rounds progress until one Player earns a total of 3 Credits [for the truly devoted, you could always agree to a larger figure ahead of playing].
-</p>
+<div class="rules-box">
+<ul>
+<li><strong>OPTION 3: Last Player Standing:</strong>
+<ul>
+<li>There is no winner for Rounds. As play continues and Players Go Out, they are permanently exited from the game [as opposed to Remove from Game Effects of Expansion Chaos Cards (e.g. : Assassin from the Doomsday Expansion) ] until the last Player is left.</li>
+<li>A Point is given for every Player left in the game when you go out.</li>
+<li>The Last Player Standing has Points deducted based on the Number of other Players in the Game.<div class="note-box">
+<strong>NOTES:</strong>
+<ul>
+</li>Players cannot obtain a Negative Score.</li>
+</ul>
+</div>
+</li>
+<li>Play continues until a Player Scores the Required Total [the recommendation is 3 x the Number of Players in the game].</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="rules-box">
+<ul>
+<li><strong>TOURNAMENT:</strong>
+<ul>
+<li>The first Player to reach one of the above Point requirements earns 1 Credit. Rounds progress until one Player earns a total of 3 Credits [for the truly devoted, you could always agree to a larger figure ahead of playing].</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
 </div>
 </div>
-<div style="text-align: right; margin-top: 15px; margin-bottom: 40px;">
-<a href="#crazy-8s-game-rules-contents" style="color: var(--color-link); text-decoration: none; font-size: 0.88rem; font-weight: 700;">🔝 Return to Index Matrix</a>
+</div>
 </div>
 
 <!-- IMPORTANT NOTES SECTION -->
 <div id="crazy-8s-important-notes">
-<h2 class="rulebook-heading">IMPORTANT NOTES:</h2>
+<div class="rules-box">
+<h4><span style="color: #3b82f6;">IMPORTANT NOTES</span></h4>
 <div class="rules-box">
 <div id="crazy-8s-important-notes-01">
 <ol>
@@ -458,7 +489,8 @@ The first Player to reach one of the above Point requirements earns 1 Credit. Ro
 
 <!-- TURN OVERVIEW DEFINITIONS SECTION -->
 <div id="crazy-8s-turn-overview-definitions">
-<h2 class="rulebook-heading">TURN OVERVIEW DEFINITIONS:</h2>
+<div class="rules-box">
+<h4><span style="color: #3b82f6;">TURN OVERVIEW DEFINITIONS</span></h4>
 <div class="rules-box">
 <div class="tip-box">
 [“These Turn Overview Definitions will almost never be needed, but in instances where disputes arise, they will come in Handy”].
@@ -537,14 +569,16 @@ The first Player to reach one of the above Point requirements earns 1 Credit. Ro
 <a href="#crazy-8s-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
 </div>
+</div>
 
 <!-- COMPATIBLE EXPANSIONS -->
 <div id="crazy-8s-compat-expansions">
 <div class="rules-box">
-<h4>COMPATIBLE EXPANSIONS</h4>
+<h4><span style="color: #3b82f6;">COMPATIBLE EXPANSIONS</span></h4>
+<div class="rules-box">
 <ul>
 <li class="matrix-item-heading">
-<a href="/games/00-b-full-game-contents" class="return-link">See Here for Full Game Contents.</a>
+<a href="/games/00-b-full-game-contents">See Here for Full Game Contents.</a>
 </li>
 <li>Core Game [176 Cards].
 <div class="image-container">
@@ -680,14 +714,16 @@ The first Player to reach one of the above Point requirements earns 1 Credit. Ro
 </div>
 </div>
 </div>
+</div>
 
 <!-- GLOSSARY NOTES SECTION -->
 <div id="crazy-8s-glossary">
-<h2 class="rulebook-heading">GLOSSARY:</h2>
+<div class="rules-box">
+<h4><span style="color: #3b82f6;">GLOSSARY</span></h4>
 <div class="rules-box">
 <div id="crazy-8s-glossary-draw">
 <ol start="1">
-<li><strong><a href="#glossary:draw">Draw</span></strong></a>:</strong>
+<li>DRAW:
 <ul>
 <li>Take Cards from the Deck, while following Trap Effects.</li>
 </ul>
@@ -696,7 +732,7 @@ The first Player to reach one of the above Point requirements earns 1 Credit. Ro
 </div>
 <div id="crazy-8s-glossary-deal">
 <ol start="2">
-<li><strong><a href="#glossary:deal">Deal</span></strong></a>:</strong>
+<li>DEAL:
 <ul>
 <li>Take Cards from the Deck, while ignoring all Trap Effects.</li>
 </ul>
@@ -705,7 +741,7 @@ The first Player to reach one of the above Point requirements earns 1 Credit. Ro
 </div>
 <div id="crazy-8s-glossary-playable-turn">
 <ol start="3">
-<li><strong><a href="#glossary:playable-turn">Playable Turn</span></strong></a>:</strong>
+<li>PLAYABLE TURN:
 <ul>
 <li>Start Your Turn while NOT facing Card Effects, allowing You to chose any Card You want to Play.</li>
 </ul>
@@ -716,8 +752,8 @@ The first Player to reach one of the above Point requirements earns 1 Credit. Ro
 <ol start="4">
 <li><strong>MISS THEIR TURN:</strong>
 <ul>
-<li>A Card Effect that forces Players to not have a <a href="#glossary:playable-turn">Playable Turn</span></strong></a>.</li>
-<li>Sometimes Additional Effects are added, but not always.</li>
+<li>A Card Effect that prevents You from Playing that Turn.</li>
+<li>Generally additional Effects like Draw Effects are added, but not always.</li>
 </ul>
 </li>
 </ol>
@@ -759,9 +795,10 @@ The first Player to reach one of the above Point requirements earns 1 Credit. Ro
 </div>
 <div id="crazy-8s-glossary-respond-in-kind">
 <ol start="7">
-<li><strong><a href="#glossary:respond-in-kind">Respond in Kind</span></strong></a>:</strong>
+<li>RESPOND IN KIND:
 <ul>
 <li>The action of placing a Playable Card that allows You to STACK an Effect onto another Player or COUNTER that Effect back at the previous Player.</li>
+<li>Responding in Kind is NOT considered a Playable Turn.</li>
 </ul>
 </li>
 </ol>

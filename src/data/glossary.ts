@@ -26,7 +26,7 @@ export const glossary: Record<string, GlossaryEntry> = {
   },
   "miss-their-turn": {
     title: "Miss Their Turn",
-    definition: "A Card Effect that forces Players to not have a Playable Turn. Sometimes Additional Effects are added, but not always."
+    definition: "A Card Effect that prevents You from Playing that Turn. Generally additional Effects like Draw Effects are added, but not always."
   },
   // Complex term with subtypes and nested lists
   "targeted": {
@@ -61,7 +61,7 @@ export const glossary: Record<string, GlossaryEntry> = {
   },
   "respond-in-kind": {
     title: "Respond in Kind",
-    definition: "The action of placing a Playable Card that allows You to STACK an Effect onto another Player or COUNTER that Effect back at the previous Player."
+    definition: 'The action of placing a Playable Card that allows You to <a href="#glossary:stack">Stack</a> an Effect onto another Player or <a href="#glossary:counter">Counter</a> that Effect back at the previous Player. Responding in Kind is NOT considered a Playable Turn.'
   },
   "counter": {
     title: "Counter",

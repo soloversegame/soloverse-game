@@ -14,7 +14,7 @@ type: "rules"
 
 <div id="tutorial-game-rules-contents"></div>
 <div class="matrix-toc-box">
-<h2 class="matrix-toc-title">📋 RULEBOOK CONTENTS A-Z</h2>
+<h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">RULEBOOK CONTENTS:</span></h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
 <a href="#tutorial-object" class="matrix-link">OBJECT</a>
@@ -43,7 +43,8 @@ type: "rules"
 <!-- OBJECT -->
 <div id="tutorial-object">
 <div class="rules-box">
-<h4>OBJECT</h4>
+<h4><span style="color: #3b82f6;">OBJECT</span></h4>
+<div class="rules-box">
 <ul>
 <li>This game follows the Crazy 8’s style of “Card Shedding” play [You might be reminded of other Hand Shedding Card Games].</li>
 <li>Therefore: Be the first Player to get rid of all your Cards.</li>
@@ -53,11 +54,13 @@ type: "rules"
 </div>
 </div>
 </div>
+</div>
 
 <!-- SETUP -->
 <div id="tutorial-setup">
 <div class="rules-box">
-<h4>SETUP</h4>
+<h4><span style="color: #3b82f6;">SETUP</span></h4>
+<div class="rules-box">
 <ol>
 <li>For this Tutorial Game, please choose and separate any 4 Colours in the Game [let's assume You chose: Blue, Red, Yellow and Green]. Each Colour Set contains 26 Cards, including 2 Copies of each of the following:
 <ol type="i">
@@ -192,9 +195,10 @@ type: "rules"
 </div>
 </div>
 </div>
+</div>
 
 <div class="image-container">
-<div class="image-caption">Image 15: Game Layout.</div>
+<div class="image-caption">Game Layout.</div>
 <img 
 src="/assets/images/layouts/hand-shedder-setup.png" 
 alt="Soloverse Deck-Builder Game Setup Grid Diagram" 
@@ -205,7 +209,8 @@ loading="lazy"
 <!-- HOW TO PLAY -->
 <div id="tutorial-how-to-play">
 <div class="rules-box">
-<h4>HOW TO PLAY</h4>
+<h4><span style="color: #3b82f6;">HOW TO PLAY</span></h4>
+<div class="rules-box">
 <ol>
 <li>Play starts clockwise from the Dealer.</li>
 <li>On your Turn, you must play a minimum of 1 Card from your Hand by matching it to the Card on top of Discards either by Colour or Symbol, or by playing a Chaos Card [if able].
@@ -237,11 +242,13 @@ loading="lazy"
 </div>
 </div>
 </div>
+</div>
 
 <!-- VICTORY CONDITIONS -->
 <div id="tutorial-victory-conditions">
 <div class="rules-box">
-<h4>VICTORY CONDITIONS</h4>
+<h4><span style="color: #3b82f6;">VICTORY CONDITIONS</span></h4>
+<div class="rules-box">
 <div id="victory-conditions-01">
 <ol>
 <li>While placing your second last card, choose whether to indicate that you have one card left to the group or not by stating “Solo!”
@@ -297,10 +304,12 @@ loading="lazy"
 </div>
 </div>
 </div>
+</div>
 
 <!-- IMPORTANT NOTES SECTION -->
 <div id="tutorial-important-notes">
-<h2 class="rulebook-heading">IMPORTANT NOTES:</h2>
+<div class="rules-box">
+<h4><span style="color: #3b82f6;">IMPORTANT NOTES</span></h4>
 <div class="rules-box">
 <div id="tutorial-important-notes-01">
 <ol>
@@ -452,10 +461,12 @@ loading="lazy"
 </div>
 </div>
 </div>
+</div>
 
 <!-- TURN OVERVIEW DEFINITIONS SECTION -->
 <div id="tutorial-turn-overview-definitions">
-<h2 class="rulebook-heading">TURN OVERVIEW DEFINITIONS:</h2>
+<div class="rules-box">
+<h4><span style="color: #3b82f6;">TURN OVERVIEW DEFINITIONS</span></h4>
 <div class="rules-box">
 <div class="tip-box">
 [“These Turn Overview Definitions will almost never be needed, but in instances where disputes arise, they will come in Handy”].
@@ -537,46 +548,47 @@ loading="lazy"
 
 <!-- GLOSSARY NOTES SECTION -->
 <div id="tutorial-glossary">
-<h2 class="rulebook-heading">GLOSSARY:</h2>
 <div class="rules-box">
-<div id="tutorialglossary-draw">
+<h4><span style="color: #3b82f6;">GLOSSARY</span></h4>
+<div class="rules-box">
+<div id="tutorial-glossary-draw">
 <ol start="1">
-<li><strong>DRAW:</strong>
+<li>DRAW:
 <ul>
 <li>Take Cards from the Deck, while following Trap Effects.</li>
 </ul>
 </li>
 </ol>
 </div>
-<div id="tutorialglossary-deal">
+<div id="tutorial-glossary-deal">
 <ol start="2">
-<li><strong>DEAL:</strong>
+<li>DEAL:
 <ul>
 <li>Take Cards from the Deck, while ignoring all Trap Effects.</li>
 </ul>
 </li>
 </ol>
 </div>
-<div id="tutorialglossary-playable-turn">
+<div id="tutorial-glossary-playable-turn">
 <ol start="3">
-<li><strong>PLAYABLE TURN:</strong>
+<li>PLAYABLE TURN:
 <ul>
 <li>Start Your Turn while NOT facing Card Effects, allowing You to chose any Card You want to Play.</li>
 </ul>
 </li>
 </ol>
 </div>
-<div id="tutorialglossary-miss-their-turn">
+<div id="tutorial-glossary-miss-their-turn">
 <ol start="4">
 <li><strong>MISS THEIR TURN:</strong>
 <ul>
-<li>A Card Effect that forces Players to not have a PLAYABLE TURN.</li>
-<li>Sometimes Additional Effects are added, but not always.</li>
+<li>A Card Effect that prevents You from Playing that Turn.</li>
+<li>Generally additional Effects like Draw Effects are added, but not always.</li>
 </ul>
 </li>
 </ol>
 </div>
-<div id="tutorialglossary-targeted">
+<div id="tutorial-glossary-targeted">
 <ol start="5">
 <li><strong>TARGETED:</strong>
 <ul>
@@ -593,13 +605,16 @@ loading="lazy"
 <ul>
 <li>Victory Targeting: This is what <strong>"Anti-Fun"</strong> uses to stop someone from Winning.</li>
 <li>Unknown Targeting: Multiple Targeting Types available.</li>
+<li>Assassin Targeting: Only Targets the Effects of the Assassin Chaos Card.</li>
+<li>Restriction Targeting: Targets the Restrictions of Chaos Cards.</li>
+<li>Conceptual Targeting: Targets the Rules of the Game.</li>
 </ul>
 </li>
 </ul>
 </li>
 </ol>
 </div>
-<div id="tutorialglossary-stackable">
+<div id="tutorial-glossary-stackable">
 <ol start="6">
 <li><strong>STACKABLE:</strong>
 <ul>
@@ -608,25 +623,26 @@ loading="lazy"
 </li>
 </ol>
 </div>
-<div id="tutorialglossary-respond-in-kind">
+<div id="tutorial-glossary-respond-in-kind">
 <ol start="7">
-<li><strong>RESPOND IN KIND:</strong>
+<li>RESPOND IN KIND:
 <ul>
 <li>The action of placing a Playable Card that allows You to STACK an Effect onto another Player or COUNTER that Effect back at the previous Player.</li>
 </ul>
 </li>
 </ol>
 </div>
-<div id="tutorialglossary-counter">
+<div id="tutorial-glossary-counter">
 <ol start="8">
 <li><strong>COUNTER:</strong>
 <ul>
 <li>A Card Effect that generally throws a COUNTERABLE Effect back at the Player that Targeted You.</li>
-<li>Some COUNTER Effects prevent certain Game Conditions.
+<li>Some COUNTER Effects prevent certain Game Conditions or Trap Effects.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li><strong>"Anti-Fun"</strong> allows You to cancel a Player's Win.</li>
+<li><strong>"ANTI-FUN"</strong> allows You to cancel a Player's Win.</li>
+<li><strong>"CURE"</strong> allows You to cancel a Trap Class Chaos Card from any of the: Bio-Hazard, Patient Zero or Pandemic Expansions and remove it from the Game.</li>
 </ul>
 </div>
 </li>

@@ -4,80 +4,217 @@
 
 <dialog id="glossary-modal" class="glossary-dialog">
   <div class="modal-header">
-    <h3 id="modal-title"></h3>
+    <div class="modal-title-group">
+      <button id="modal-back" aria-label="Go back" style="display: none;">←</button>
+      <h3 id="modal-title"></h3>
+    </div>
     <button id="close-modal" aria-label="Close">✕</button>
   </div>
   <p id="modal-definition"></p>
   <ul id="modal-subtypes" class="subtype-list"></ul>
   <p id="modal-example" class="modal-example"></p>
+  <div id="modal-card-body" class="text-layer"></div>
 </dialog>
 
 <script>
   import { glossary } from "../data/glossary";
 
-  function initGlossary() {
+  type HistoryItem = { type: "glossary" | "section"; key: string; label?: string };
+  let popupHistory: HistoryItem[] = [];
+  let currentItem: HistoryItem | null = null;
+
+  function styleRulebookLinks() {
+    document
+      .querySelectorAll('a[href^="#glossary:"], a[href^="#card:"], a[href^="/games/"]')
+      .forEach((link) => {
+        if (
+          !link.classList.contains("matrix-link") &&
+          !link.classList.contains("return-link") &&
+          !link.classList.contains("hub-link-button")
+        ) {
+          link.classList.add("glossary-term");
+        }
+      });
+  }
+
+  function extractTargetContent(targetEl: HTMLElement): { title: string; content: HTMLElement } {
+    const wrapper = document.createElement("div");
+
+    // Case A: The ID is on a heading (h2, h3, h4) -> grab everything until the next heading of same/higher level
+    if (/^H[1-6]$/.test(targetEl.tagName)) {
+      const headingLevel = parseInt(targetEl.tagName[1], 10);
+      const title = targetEl.textContent?.trim() || "Rule Reference";
+      let sibling = targetEl.nextElementSibling;
+
+      while (sibling) {
+        if (/^H[1-6]$/.test(sibling.tagName) && parseInt(sibling.tagName[1], 10) <= headingLevel) {
+          break;
+        }
+        if (!sibling.classList.contains("return-link-wrapper")) {
+          wrapper.appendChild(sibling.cloneNode(true));
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      return { title, content: wrapper };
+    }
+
+    // Case B: The ID is on a container <div> (like a card or callout box)
+    const clone = targetEl.cloneNode(true) as HTMLElement;
+    clone.removeAttribute("id");
+
+    const heading = clone.querySelector("h2, h3, h4");
+    const title = heading?.textContent?.trim() || "Rule Reference";
+    if (heading) heading.remove();
+
+    clone.querySelectorAll(".return-link-wrapper").forEach((el) => el.remove());
+    wrapper.appendChild(clone);
+
+    return { title, content: wrapper };
+  }
+
+  function openPopup(item: HistoryItem, isBackNavigation = false) {
     const modal = document.getElementById("glossary-modal") as HTMLDialogElement | null;
     const titleEl = document.getElementById("modal-title");
     const defEl = document.getElementById("modal-definition");
     const subtypesEl = document.getElementById("modal-subtypes");
     const exampleEl = document.getElementById("modal-example");
-    const closeBtn = document.getElementById("close-modal");
+    const cardBodyEl = document.getElementById("modal-card-body");
+    const backBtn = document.getElementById("modal-back");
 
-    if (!modal || !titleEl || !defEl || !subtypesEl || !exampleEl) return;
+    if (!modal || !titleEl || !defEl || !subtypesEl || !exampleEl || !cardBodyEl || !backBtn) return;
 
-    document.querySelectorAll('a[href^="#glossary:"]').forEach((link) => {
-      link.classList.add("glossary-term");
+    defEl.style.display = "none";
+    subtypesEl.style.display = "none";
+    exampleEl.style.display = "none";
+    cardBodyEl.style.display = "none";
+    cardBodyEl.innerHTML = "";
 
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const termKey = (link.getAttribute("href") || "").replace("#glossary:", "");
-        const entry = glossary[termKey];
+    if (item.type === "glossary") {
+      const entry = glossary[item.key];
+      if (!entry) {
+        console.warn(`Glossary term not found: "${item.key}"`);
+        return;
+      }
 
-        if (!entry) {
-          console.warn(`Glossary term not found: "${termKey}"`);
-          return;
-        }
+      titleEl.textContent = entry.title;
+      defEl.style.display = "block";
+      defEl.innerHTML = entry.definition;
 
-        titleEl.textContent = entry.title;
-        defEl.textContent = entry.definition;
+      if (entry.subtypes && entry.subtypes.length > 0) {
+        subtypesEl.style.display = "block";
+        subtypesEl.innerHTML = entry.subtypes
+          .map((sub) => {
+            const nestedHtml = sub.nested
+              ? `<ul>${sub.nested.map((n) => `<li>${n}</li>`).join("")}</ul>`
+              : "";
+            const descHtml = sub.description ? `: ${sub.description}` : ":";
+            return `<li><strong>${sub.name}</strong>${descHtml}${nestedHtml}</li>`;
+          })
+          .join("");
+      }
 
-        // Render subtypes if present
-        subtypesEl.innerHTML = "";
-        if (entry.subtypes && entry.subtypes.length > 0) {
-          subtypesEl.style.display = "block";
-          subtypesEl.innerHTML = entry.subtypes
-            .map((sub) => {
-              const nestedHtml = sub.nested
-                ? `<ul>${sub.nested.map((item) => `<li>${item}</li>`).join("")}</ul>`
-                : "";
-              const descHtml = sub.description ? `: ${sub.description}` : ":";
-              return `<li><strong>${sub.name}</strong>${descHtml}${nestedHtml}</li>`;
-            })
-            .join("");
-        } else {
-          subtypesEl.style.display = "none";
-        }
+      if (entry.example) {
+        exampleEl.style.display = "block";
+        exampleEl.innerHTML = `<em>Example:</em> ${entry.example}`;
+      }
+    } else if (item.type === "section") {
+      const targetEl = document.getElementById(item.key);
+      if (!targetEl) {
+        console.warn(`Target section not found: "#${item.key}"`);
+        return;
+      }
 
-        // Render example if present
-        if (entry.example) {
-          exampleEl.style.display = "block";
-          exampleEl.innerHTML = `<em>Example:</em> ${entry.example}`;
-        } else {
-          exampleEl.style.display = "none";
-          exampleEl.innerHTML = "";
-        }
+      const { title, content } = extractTargetContent(targetEl);
+      titleEl.textContent = item.label && title === "Rule Reference" ? item.label : title;
+      cardBodyEl.style.display = "block";
+      cardBodyEl.appendChild(content);
+    }
 
-        modal.showModal();
-      });
-    });
+    if (
+      !isBackNavigation &&
+      modal.open &&
+      currentItem &&
+      (currentItem.key !== item.key || currentItem.type !== item.type)
+    ) {
+      popupHistory.push(currentItem);
+    } else if (!modal.open) {
+      popupHistory = [];
+    }
 
-    closeBtn?.addEventListener("click", () => modal.close());
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) modal.close();
-    });
+    currentItem = item;
+    backBtn.style.display = popupHistory.length > 0 ? "inline-block" : "none";
+
+    styleRulebookLinks();
+
+    if (!modal.open) {
+      modal.showModal();
+    }
   }
 
-  // Runs on initial page load AND after Astro View Transitions
-  initGlossary();
-  document.addEventListener("astro:page-load", initGlossary);
+  styleRulebookLinks();
+  document.addEventListener("astro:page-load", styleRulebookLinks);
+
+  document.addEventListener("click", (e) => {
+    const target = e.target as HTMLElement;
+    const link = target.closest('a[href^="#"], a[href^="/games/"]') as HTMLAnchorElement | null;
+    if (!link) return;
+
+    if (
+      link.classList.contains("matrix-link") ||
+      link.classList.contains("return-link") ||
+      link.classList.contains("hub-link-button")
+    ) {
+      return;
+    }
+
+    const href = link.getAttribute("href") || "";
+
+    // 1. Glossary popup link (#glossary:term)
+    if (href.startsWith("#glossary:")) {
+      e.preventDefault();
+      openPopup({ type: "glossary", key: href.replace("#glossary:", "") });
+      return;
+    }
+
+    // 2. Cross-game referral link (/games/some-rulebook#section-id)
+    if (href.startsWith("/games/") && href.includes("#")) {
+      const hashId = href.split("#")[1];
+      if (hashId && document.getElementById(hashId)) {
+        e.preventDefault();
+        openPopup({
+          type: "section",
+          key: hashId,
+          label: link.textContent?.trim() || "Rule Reference",
+        });
+      }
+      return;
+    }
+
+    // 3. Same-file card/rule popup link (#card:id OR #id)
+    const rawId = href.startsWith("#card:") ? href.replace("#card:", "") : href.replace("#", "");
+    const targetEl = rawId ? document.getElementById(rawId) : null;
+
+    if (targetEl && (href.startsWith("#card:") || targetEl.querySelector(".rules-box"))) {
+      e.preventDefault();
+      openPopup({
+        type: "section",
+        key: rawId,
+        label: link.textContent?.trim() || "Rule Reference",
+      });
+    }
+  });
+
+  const modal = document.getElementById("glossary-modal") as HTMLDialogElement | null;
+  const closeBtn = document.getElementById("close-modal");
+  const backBtn = document.getElementById("modal-back");
+
+  backBtn?.addEventListener("click", () => {
+    const previous = popupHistory.pop();
+    if (previous) openPopup(previous, true);
+  });
+
+  closeBtn?.addEventListener("click", () => modal?.close());
+  modal?.addEventListener("click", (e) => {
+    if (e.target === modal) modal.close();
+  });
 </script>
