@@ -856,7 +856,7 @@ type: "cards"
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>When Stacking Chaos Cards Like Reverse Stun, <a href="#tutorial-reverse-stun">Stun</a> and <a href="#tutorial-steal-turn">Steal Turn</a>, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
+<li>When Stacking Chaos Cards Like Reverse Stun, <a href="#tutorial-stun">Stun</a> and <a href="#tutorial-steal-turn">Steal Turn</a>, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
 <li>Then when Their Turn arrives, Deactivate the Top Card.</li>
 </ul>
 </div>
@@ -876,7 +876,7 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Reverse Stun Stack with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-a-crazy-8s-tutorial-rules#tutorial-important-notes-03">Important Notes: Rule 3</a>].
+<li>Not only does Reverse Stun Stack with itself, but it also Stacks with <a href="#tutorial-stun">Stun</a>, <a href="#tutorial-steal-turn">Steal Turn</a> and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-a-crazy-8s-tutorial-rules#tutorial-important-notes-03">Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
@@ -999,7 +999,7 @@ type: "cards"
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>When Stacking Chaos Cards Like Stun, Reverse Stun and Steal Turn, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
+<li>When Stacking Chaos Cards Like Stun, <a href="#tutorial-reverse-stun">Reverse Stun</a> and <a href="#tutorial-reverse-stun">Steal Turn</a>, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
 <li>Then when Their Turn arrives, Deactivate the Top Card.</li>
 </ul>
 </div>

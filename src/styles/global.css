@@ -778,15 +778,28 @@ object-fit: contain !important;
    GLOSSARY TERMS & POPUP MODAL
    ========================================== */
 .glossary-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
   background-color: #16171e;
   color: #f3f4f6;
   border: 1px solid #3a3f54;
   border-left: 5px solid #3b82f6;
   border-radius: 8px;
   padding: 1.25rem;
-  max-width: 460px;
-  width: 90%;
+  width: min(460px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  max-height: 85dvh;
+  overflow-y: auto;
+  box-sizing: border-box;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+}
+
+/* Expand width safely when showing a full card, still locked inside 100vw */
+.glossary-dialog:has(#modal-card-body[style*="block"]) {
+  width: min(600px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  max-height: 85dvh;
 }
 
 .glossary-dialog::backdrop {
@@ -910,9 +923,6 @@ object-fit: contain !important;
   color: #60a5fa !important;
 }
 
-/* ==========================================================================
-   MASTER RULEBOOK & GLOSSARY SEARCH BAR
-   ========================================================================== */
 /* ==========================================================================
    MASTER RULEBOOK & GLOSSARY SEARCH BAR
    ========================================================================== */

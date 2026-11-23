@@ -61,11 +61,11 @@ export const glossary: Record<string, GlossaryEntry> = {
   },
   "respond-in-kind": {
     title: "Respond in Kind",
-    definition: 'The action of placing a Playable Card that allows You to <a href="#glossary:stack">Stack</a> an Effect onto another Player or <a href="#glossary:counter">Counter</a> that Effect back at the previous Player. Responding in Kind is NOT considered a Playable Turn.'
+    definition: 'The action of placing a Playable Card that allows You to <a href="#glossary:stackable">Stack</a> an Effect onto another Player or <a href="#glossary:counter">Counter</a> that Effect back at the previous Player. Responding in Kind is NOT considered a Playable Turn.'
   },
   "counter": {
     title: "Counter",
-    definition: "A Card Effect that generally throws a COUNTERABLE Effect back at the Player that Targeted You. Some COUNTER Effects prevent certain Game Conditions.",
+    definition: "A Card Effect that generally throws a Counterable Effect back at the Player that Targeted You. Some Counter Effects prevent certain Game Conditions.",
     example: '<strong>"Anti-Fun"</strong> allows You to cancel a Player\'s Win.'
   }
 };
