@@ -87,17 +87,16 @@ type: "rules"
 <li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
 <li>The Main Changes are as Follows:
 <ol type="a">
-<li>Every Number Card Played must be Sequentially Higher than the Previous one Played.</li>
-</ol>
-</li>
-</ol>
+<li>Every Number Card Played must be Sequentially Higher than the Previous one Played.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>0, 1, 2, 3, 4…</li>
 </ul>
 </div>
-<ol start="3">
+</li>
+</ol>
+</li>
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 <div class="return-link-wrapper">
@@ -114,17 +113,16 @@ type: "rules"
 <li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
 <li>The Main Changes are as Follows:
 <ol type="a">
-<li>Every Number Card Played must be Sequentially Lower than the Previous one Played.</li>
-</ol>
-</li>
-</ol>
+<li>Every Number Card Played must be Sequentially Lower than the Previous one Played.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>9, 8, 7, 6…</li>
 </ul>
 </div>
-<ol start="3">
+</li>
+</ol>
+</li>
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 <div class="return-link-wrapper">
@@ -141,17 +139,16 @@ type: "rules"
 <li>Follow all Rules for the Soloverse Game Rulebook being Played.</li>
 <li>The Main Changes are as Follows:
 <ol type="a">
-<li>Every Number Card Played must be Sequentially Higher or Lower than the Previous one Played.</li>
-</ol>
-</li>
-</ol>
+<li>Every Number Card Played must be Sequentially Higher or Lower than the Previous one Played.
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
 <li>5, 4, 5, 6, 7, 6…</li>
 </ul>
 </div>
-<ol start="3">
+</li>
+</ol>
+</li>
 <li>Any Action or Chaos Card Played are resolved as normal [e.g.: Choose a Colour to Continue after Resolving a Chaos Card], however it also Resets the Number Played, allowing any to be Played.</li>
 </ol>
 <div class="return-link-wrapper">
@@ -185,29 +182,29 @@ type: "rules"
 <h4>[07: DECEPTION]</h4>
 <ol>
 <li>Follow all Rules for [02-A] Soloverse [Karma].</li>
-<li>The Main Changes are that on your turn, you place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.</li>
-</ol>
+<li>The Main Changes are that on your turn, you place Your Cards Face-Down instead, calling out what Cards you placed and how many there were, mimicking Soloverse [Cheat]’s Rules.
 <div class="note-box">
 <strong>NOTE:</strong>
 <ul>
 <li>You do not have to tell the truth about the number of cards or their value.</li>
 </ul>
 </div>
-<ol start="3">
+</li>
 <li>Cheating is allowed. But you will be penalised for getting caught.</li>
-<li>Play continues likewise, with the next Player doing the same.</li>
-</ol>
+<li>Play continues likewise, with the next Player doing the same.
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
 <li>At any point, any other Player can call “Cheat!” At which point the last Player who put down must reveal their cards.
- <ol type="a">
+<ol type="a">
 <li>If the Player was in fact cheating, They must now pick up the entire Discards.</li>
 <li>If the Player was indeed telling the truth, the Challenging Player must pick up the entire Discards instead!</li>
- </ol>
+</ol>
 </li>
 </ul>
 </div>
+</li>
+</ol>
 <div class="return-link-wrapper">
 <a href="#variations-rulebook-contents" class="return-link">🔝 Return to Rulebook Contents List</a>
 </div>
