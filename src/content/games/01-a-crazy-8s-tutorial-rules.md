@@ -341,7 +341,7 @@ loading="lazy"
 <strong>EXAMPLES:</strong>
 <ul>
 <li>If the <strong>"Stun"</strong> Chaos Card is in play and <strong>"Vaccine"</strong> is played, the <strong>"Stun"</strong> Chaos Card cannot Deactivate [and Stun its target’s Turn] until <strong>"Vaccine"</strong> has finished.</li>
-<li>If the <strong>"Vaccine"</strong> Chaos Card is in play and its User <a href="#glossary:miss-their-turn">Misses Thier Next Turn</span></strong></a>, the <strong>"Vaccine"</strong> Chaos Card cannot Deactivate [allowing Chaos Cards to be played/activated again] due to its User not having a <a href="#glossary:playable-turn">Playable Turn</span></strong></a> that round.</li>
+<li>If the <strong>"Vaccine"</strong> Chaos Card is in play and its User <a href="#glossary:miss-their-turn">Misses Their Next Turn</span></strong></a>, the <strong>"Vaccine"</strong> Chaos Card cannot Deactivate [allowing Chaos Cards to be played/activated again] due to its User not having a <a href="#glossary:playable-turn">Playable Turn</span></strong></a> that round.</li>
 </ul>
 </div>
 </li>

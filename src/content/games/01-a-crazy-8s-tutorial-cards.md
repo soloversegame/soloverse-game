@@ -14,6 +14,17 @@ type: "cards"
 
 <div id="tutorial-card-definitions-contents"></div>
 <div class="matrix-toc-box">
+<h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">CARD DEFINITIONS - SETUP CARDS:</span></h2>
+<ul class="matrix-toc-sub-grid">
+<li class="matrix-item-heading">
+<a href="#tutorial-direction-of-play" class="matrix-link">DIRECTION OF PLAY</a>
+</li>
+<li class="matrix-item-heading">
+<a href="#tutorial-play-to-the-side-of-the-discards" class="matrix-link">PLAY TO THE SIDE OF THE DISCARDS</a>
+</li>
+</div>
+
+<div class="matrix-toc-box">
 <h2 class="matrix-toc-title">📋 <span style="color: #3b82f6;">CARD DEFINITIONS - NON-NUMBERED COLOURED ACTION CLASS:</span></h2>
 <ul class="matrix-toc-sub-grid">
 <li class="matrix-item-heading">
@@ -78,30 +89,70 @@ type: "cards"
 </ul>
 </nav>
 
-<div id="tutorial-draw-2">
+<div id="tutorial-direction-of-play">
 <div class="rules-box">
 <div class="card-top-section">
 <div class="rules-box">
-<h4 class="card-title">"COLOURED" DRAW +2 [x2 Per Colour]:</h4>
+<h4 class="card-title">DIRECTION OF PLAY:</h4>
 <ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game, Core Extension & Coloured Extensions</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Action Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Stackable</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Next Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
 </ul>
 </div>
 <div class="image-container">
-<img src="/assets/images/cards/000-1-steel-draw-2.png">
+<img src="/assets/images/cards/0000-direction-of-play.png">
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/0000-direction-of-play-anti-clockwise.png">
 </div>
 </div>
 <div class="discards-box">
 <ul>
-<li>Acts as Draw +2.</li>
+<li>Placed next to the Discards during Setup.</li>
 </ul>
 </div>
 <div class="rules-box">
 <ol type="1">
-<li>The Next Player Must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards and <a href="#glossary:miss-their-turn">Miss Their Turn</a> or <a href="#glossary:respond-in-kind">Respond in Kind</a>.</li>
+<li>Shows the Current Direction of Play.</li>
+<li>When You Activate a Reverse Effect, You must Flip this Card over.
+<div class="tip-box">
+<strong>TIP:</strong>
+<ul>
+<li>It helps with keeping track of whose Turn it is.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="return-link-wrapper">
+<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
+</div>
+</div>
+</div>
+
+<div id="tutorial-play-to-the-side-of-the-discards">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">PLAY TO THE SIDE OF THE DISCARDS:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Setup Class</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/0000-play-to-the-side-of-the-discards.png">
+</div>
+</div>
+<div class="discards-box">
+<ul>
+<li>Placed next to the Discards during Setup.</li>
+</ul>
+</div>
+<div class="rules-box">
+<ol type="1">
+<li>When various Card Effects direct You to, Play Them on top of this Card beside the Discards instead of on top of the Discards.</li>
+<li>This is due to these Card Effects allowing You to Discard one or more other Cards, and the Card You Played must be the last Card Played/Discarded in order to Change the Colour.</li>
 </ol>
 </div>
 <div class="return-link-wrapper">
