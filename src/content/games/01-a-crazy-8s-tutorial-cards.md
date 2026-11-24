@@ -244,6 +244,7 @@ type: "cards"
 </div>
 </div>
 
+<div id="tutorial-pure-chaos-any">
 <div id="tutorial-pure-chaos">
 <div class="rules-box">
 <div class="card-top-section">
@@ -396,6 +397,7 @@ type: "cards"
 </div>
 <div class="return-link-wrapper">
 <a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
+</div>
 </div>
 </div>
 </div>
@@ -662,7 +664,7 @@ type: "cards"
 <li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to Deal 5 New Cards; ending Their Turn.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#tutorial-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -817,7 +819,7 @@ type: "cards"
 <li>Name a Colour used in the game; all Players in Play Order Discard every Card in Their Hand they have of that Colour.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#tutorial-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -864,7 +866,7 @@ type: "cards"
 <li>All Players in Turn Order Discard every Chaos Card in Their Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#tutorial-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>

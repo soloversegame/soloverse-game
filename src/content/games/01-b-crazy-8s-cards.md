@@ -734,10 +734,10 @@ type: "cards"
 <a href="#crazy-8s-stinger-st" class="matrix-link">STINGER +1 [SPECIFIC TARGETED] [TRAP CLASS]</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-steal-turn" class="matrix-link">STEAL TURN</a>
+<a href="#crazy-8s-stun" class="matrix-link">STUN</a>
 </li>
 <li class="matrix-item-heading">
-<a href="#crazy-8s-stun" class="matrix-link">STUN</a>
+<a href="#crazy-8s-super-stun" class="matrix-link">SUPER STUN</a>
 </li>
 </ul>
 <div class="return-link-wrapper">
@@ -1490,7 +1490,7 @@ type: "cards"
 <div class="advanced-box">
 <strong>COUNTERING NOTES:</strong>
 <ul>
-<li>This Can only be <a href="#glossary:counter">Countered</span></strong></a> <strong>*** Only at the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox">Unstable Soloversal Paradox</span></strong></a> by the <a href="#glossary:targeted">Targeted</span></strong></a> Player.</li>
+<li>This Can only be <a href="#glossary:counter">Countered</span></strong></a> <strong>*** Only at the Moment of Activation ***</strong> by the Architect Chaos Card: <a href="#crazy-8s-unstable-soloversal-paradox">Unstable Soloversal Paradox</span></strong></a> by the <a href="#glossary:targeted">Targeted Player</a>.</li>
 </ul>
 </div>
 <div class="restriction-box">
@@ -1784,14 +1784,14 @@ type: "cards"
 </div>
 <div class="rules-box">
  <ol type="a">
-<li>Once between Your PLAYABLE TURNS, force one other Player to take Their Turn again.</li>
-<li>After any of Your PLAYABLE TURNS, decide if You will take Your Turn again or not.</li>
+<li>Once between Your <a href="#glossary:playable-turn">Playable Turns</a>, force one other Player to take Their Turn again.</li>
+<li>After any of Your <a href="#glossary:playable-turn">Playable Turns</a>, decide if You will take Your Turn again or not.</li>
 </ol>
 </div>
 <div class="note-box">
 <strong>NOTES:</strong>
 <ul>
-<li>If the <a href="#glossary:targeted">Targeted</span></strong></a> Player [including Yourself] faced Action Class or Chaos Card Effects that Turn, they MUST face them again.</li>
+<li>If the <a href="#glossary:targeted">Targeted Player</a> [including Yourself] faced Action Class or Chaos Card Effects that Turn, they MUST face them again.</li>
 <li>If the Card they faced last time was a Counter Class Chaos Card, redirect to the immediately previous Chaos Card’s Effect instead.</li>
 </ul>
 </div>
@@ -1853,7 +1853,7 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and <a href="#glossary:deal">Re-Dealt</a> according to Their Setup Rules.</li>
 </ol>
 </li>
@@ -1979,7 +1979,7 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and <a href="#glossary:deal">Re-Dealt</a> according to Their Setup Rules.</li>
 </ol>
 </li>
@@ -2124,7 +2124,7 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and <a href="#glossary:deal">Re-Dealt</a> according to Their Setup Rules.</li>
 </ol>
 </li>
@@ -2263,7 +2263,7 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and <a href="#glossary:deal">Re-Dealt</a> according to Their Setup Rules.</li>
 </ol>
 </li>
@@ -2382,7 +2382,7 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and <a href="#glossary:deal">Re-Dealt</a> according to Their Setup Rules.</li>
 </ol>
 </li>
@@ -2513,7 +2513,7 @@ type: "cards"
 <ul>
 <li><strong>User:</strong>
 <ol type="a">
-<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your PLAYABLE TURNS.</li>
+<li>At any point during another Player’s Turn, Attempt to take possession of the last Ancient Stone Class Chaos Card. This Must be Attempted Once, and only Once, between Your <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Failure to Attempt to do so or being prevented from doing so will result in all Your Ancient Stone Class Chaos Cards being Collected and <a href="#glossary:deal">Re-Dealt</a> according to Their Setup Rules.</li>
 </ol>
 </li>
@@ -4681,7 +4681,7 @@ type: "cards"
 <li>On another Player’s Turn, when they place Their last Card to win, play this Card to Counter That Player's Win and force them to <a href="#glossary:deal">Deal</a> 5 New Cards; ending Their Turn.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -5335,7 +5335,7 @@ type: "cards"
 <li>Discard a Minimum of 3 Differently Coloured Cards, no Maximum [one for any of the Coloured Sets].</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -5383,7 +5383,7 @@ type: "cards"
 <li>Then the User DEALS 5 Cards to Each Player.</li>
 </ol>
 </li>
-<li>Or Play simply as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or Play simply as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -5431,7 +5431,7 @@ type: "cards"
 <li>Choose any 2 Players to Swap Hands with [including Yourself].</li>
 </ol>
 </li>
-<li>Or Play simply as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or Play simply as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -5561,7 +5561,7 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
@@ -5919,7 +5919,7 @@ type: "cards"
 <li>Name a Colour used in the game; all Players in Play Order Discard every Card in Their Hand they have of that Colour.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -5966,7 +5966,7 @@ type: "cards"
 <li>All Players in Turn Order Discard every Chaos Card in Their Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -6519,7 +6519,7 @@ type: "cards"
 <li>Return Your entire Hand to the Deck, Shuffle it and <a href="#glossary:deal">Deal</a> the same number of Cards to Yourself.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -6564,7 +6564,7 @@ type: "cards"
 <li>Discard Half Your remaining Cards [round up the Cards You keep] from Your Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -6888,7 +6888,7 @@ type: "cards"
 <li>Play up to 3 playable Coloured Cards this Turn, one after the other [all Cards Must follow the Rules set out in this Soloverse Rulebook].</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -6954,7 +6954,7 @@ type: "cards"
 <li><strong><a href="#glossary:targeted">Group Targeted</a>:</strong> Reveal this Card to be shielded from the Effects.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -7059,7 +7059,7 @@ type: "cards"
 <li><strong><a href="#glossary:targeted">Group Targeted</a>:</strong> Reveal this Card to be shielded from the Effects.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -7591,6 +7591,7 @@ type: "cards"
 </div>
 </div>
 
+<div id="crazy-8s-pure-chaos-any">
 <div id="crazy-8s-pure-chaos">
 <div class="rules-box">
 <div class="card-top-section">
@@ -7746,6 +7747,7 @@ type: "cards"
 </div>
 </div>
 </div>
+</div>
 
 <div id="crazy-8s-queens-knight">
 <div class="rules-box">
@@ -7888,35 +7890,32 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li><a href="#glossary:targeted">Target</a> any Player. When Their next <a href="#glossary:playable-turn">Playable Turn</span></strong></a> arrives, this Card deactivates, and the Direction of Play will instantly Reverse, returning to the previous Player.
+<li><a href="#glossary:targeted">Target</a> any Player.
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>When Stacking Chaos Cards Like Reverse Stun, Stun and Steal Turn, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</span></strong></a> Player.</li>
-<li>Then when Their Turn arrives, Deactivate the Top Card.</li>
+<li>When <a href="#glossary:stackable">Stacking</a> Chaos Cards Like Reverse Stun, <a href="#crazy-8s-stun">Stun</a> and <a href="#crazy-8s-reverse-stun">Super Stun</a>, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted Player</a>.</li>
+<li>Then when Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, Deactivate the Top Card.</li>
 </ul>
 </div>
 </li>
+<li>When Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, This Card Deactivates and the Direction of Play Reverses away from the <a href="#glossary:targeted">Targeted Player</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
 <ul>
-<li>After the <a href="#glossary:targeted">Targeted</span></strong></a> Player has <a href="#glossary:miss-their-turn">Missed Their Turn</a> due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>After the Direction of Play Reverses away from the <a href="#glossary:targeted">Targeted Player</a> due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>The <a href="#glossary:targeted">Targeted Player</a> chooses a Colour to continue.</li>
 </ul>
-</div>
-<div class="rules-box">
-<ol start="2">
-<li>The <a href="#glossary:targeted">Targeted</span></strong></a> Player chooses a Colour to continue.</li>
-</ol>
 </div>
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Reverse Stun <a href="#glossary:stackable">Stack</a> with itself, but it also Stacks with Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNS. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Reverse Stun <a href="#glossary:stackable">Stack</a> with itself, but it also <a href="#glossary:stackable">Stacks</a> with <a href="#crazy-8s-stun">Stun</a>, <a href="#crazy-8s-super-stun">Super Stun</a> and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-b-crazy-8s-rules#crazy-8s-important-notes-03">Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the <a href="#glossary:targeted">Targeted</span></strong></a> Player has a Skip or <a href="#glossary:draw">Draw Effect</span></strong></a> Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
+<li>If the <a href="#glossary:targeted">Targeted Player</a> has a Skip or <a href="#glossary:draw">Draw Effect</span></strong></a> Card used on them before Reverse Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
@@ -8314,7 +8313,7 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
@@ -8397,7 +8396,7 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
@@ -8485,7 +8484,7 @@ type: "cards"
 <strong>PENALTY NOTES:</strong>
 <ul>
 <li>There are 3 Unification Class Chaos Cards in the Deck at the Start of the game. If the Deck does NOT contain the correct amount of Unification Class Chaos Cards when compared to the amount revealed, someone has played Theirs incorrectly – either by Discarding or NOT Revealing it.</li>
-<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 PLAYABLE TURNS.</li>
+<li>If someone is found to have either Illegally Discarded [e.g.: Black Hole, Discard Chaos Cards] or NOT Revealed Their Unification Class Chaos Card [during the Effect of the Call of the Soloverse Trap Class Chaos Card], they Must Forfeit Their next 5 <a href="#glossary:playable-turn">Playable Turns</a>.</li>
 <li>Then Retrieve the Unification Class Chaos Card from the Discards and give it to a Player with the Least amount of Unification Class Chaos Cards in Their Hand.</li>
 </ul>
 </div>
@@ -8625,73 +8624,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-steal-turn">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">STEAL TURN [x3]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-steal-turn.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li><a href="#glossary:targeted">Target</a> any Player. When Their next <a href="#glossary:playable-turn">Playable Turn</span></strong></a> arrives, this Card deactivates, and You Steal Their Turn.
-<div class="tip-box">
-<strong>TIP:</strong>
-<ul>
-<li>When Stacking Chaos Cards Like Reverse Stun, Stun and Steal Turn, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</span></strong></a> Player.</li>
-<li>Then when Their Turn arrives, Deactivate the Top Card.</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>After the <a href="#glossary:targeted">Targeted</span></strong></a> Player’s Turn has been Stolen due to this Card’s Effect, place this Card on top of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol start="2">
-<li>The <a href="#glossary:targeted">Targeted</span></strong></a> Player chooses a Colour to continue.</li>
-<li>Take Your Turn as normal.</li>
-<li>Play Continues normally from You.</li>
-</ol>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be <a href="#glossary:counter">Countered</span></strong></a>.</li>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li><a href="#glossary:targeted">Targeted</span></strong></a> Players Can still <a href="#glossary:respond-in-kind">Respond in Kind</a> to <a href="#glossary:draw">Draw Effects</span></strong></a> by continuing the <a href="#glossary:stackable">Stack</a>, but Cannot use Counter Class Chaos Cards.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Not only does Steal Turn <a href="#glossary:stackable">Stack</a> with itself, but it also Stacks with Reverse Stun, Stun and other Card Effects that prevent PLAYABLE TURNS. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If the <a href="#glossary:targeted">Targeted</span></strong></a> Player has a Skip or <a href="#glossary:draw">Draw Effect</span></strong></a> Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
-</div>
-</div>
-</div>
-
 <div id="crazy-8s-stun">
 <div class="rules-box">
 <div class="card-top-section">
@@ -8714,25 +8646,24 @@ type: "cards"
 </div>
 <div class="rules-box">
 <ol>
-<li><a href="#glossary:targeted">Target</a> any Player. When Their next <a href="#glossary:playable-turn">Playable Turn</span></strong></a> arrives, this Card deactivates, and the <a href="#glossary:targeted">Targeted</span></strong></a> Player must <a href="#glossary:miss-their-turn">Miss Their Turn</a>.
+<li><a href="#glossary:targeted">Target</a> any Player.
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
-<li>When Stacking Chaos Cards Like Stun, Reverse Stun and Steal Turn, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</span></strong></a> Player.</li>
-<li>Then when Their Turn arrives, Deactivate the Top Card.</li>
+<li>When <a href="#glossary:stackable">Stacking</a> Chaos Cards Like <a href="#crazy-8s-reverse-stun">Reverse Stun</a>, Stun and <a href="#crazy-8s-reverse-stun">Super Stun</a>, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted Player</a>.</li>
+<li>Then when Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, Deactivate the Top Card.</li>
 </ul>
 </div>
 </li>
+<li>When Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, This Card Deactivates and the <a href="#glossary:targeted">Targeted Player</a> <a href="#glossary:miss-their-turn">Misses Their Turn</a>.</li>
 </ol>
 </div>
 <div class="discards-box">
 <ul>
-<li>After the <a href="#glossary:targeted">Targeted</span></strong></a> Player has <a href="#glossary:miss-their-turn">Missed Their Turn</a> due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>After the <a href="#glossary:targeted">Targeted Player</a> has <a href="#glossary:miss-their-turn">Missed Their Turn</a> due to this Card’s Effect, place this Card on top of the Discards.</li>
+<li>The <a href="#glossary:targeted">Targeted Player</a> chooses a Colour to continue.</li>
 </ul>
 </div>
-<div class="rules-box">
-<ol start="2">
-<li>The <a href="#glossary:targeted">Targeted</span></strong></a> Player chooses a Colour to continue.</li>
 </ol>
 </div>
 <div class="restriction-box">
@@ -8745,15 +8676,81 @@ type: "cards"
 <div class="compatibility-box">
 <strong>COMPATIBILITY NOTES:</strong>
 <ul>
-<li>Not only does Stun <a href="#glossary:stackable">Stack</a> with itself, but it also Stacks with Reverse Stun, Steal Turn and other Card Effects that prevent PLAYABLE TURNS. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<li>Not only does Stun <a href="#glossary:stackable">Stack</a> with itself, but it also <a href="#glossary:stackable">Stacks</a> with Reverse Stun, Steal Turn and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-b-crazy-8s-rules#crazy-8s-important-notes-03">Important Notes: Rule 3</a>].
 <div class="example-box">
 <strong>EXAMPLE:</strong>
 <ul>
-<li>If the <a href="#glossary:targeted">Targeted</span></strong></a> Player has a Skip or <a href="#glossary:draw">Draw Effect</span></strong></a> Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
+<li>If the <a href="#glossary:targeted">Targeted Player</a> has a Skip or <a href="#glossary:draw">Draw Effect</span></strong></a> Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
 </ul>
 </div>
 </li>
 <li>Once Resolved, and a Colour is Chosen, the Next Player May Play any Coloured Skip Card.</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-super-stun">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">SUPER STUN [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-super-stun.png">
+</div>
+</div>
+<div class="rules-box">
+<ol start="1">
+<li><a href="#glossary:targeted">Target</a> any Player.
+<div class="tip-box">
+<strong>TIP:</strong>
+<ul>
+<li>When <a href="#glossary:stackable">Stacking</a> Chaos Cards Like <a href="#crazy-8s-reverse-stun">Reverse Stun</a>, <a href="#crazy-8s-stun">Stun</a> and Super Stun, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted Player</a>.</li>
+<li>Then when Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, Deactivate the Top Card.</li>
+</ul>
+</div>
+</li>
+<li>When Their next <a href="#glossary:playable-turn">Playable Turn</span></strong></a> arrives, this Card deactivates, and You Skip Everyone's Turns between Them and You.</li>
+</ol>
+<div class="discards-box">
+<ul>
+<li>After this Card Deactivates, place this Card on top of the Discards.</li>
+<li>The <a href="#glossary:targeted">Targeted Player</a> chooses a Colour to continue.</li>
+</ul>
+</div>
+<ol start="3">
+<li>Take Your Turn as normal.</li>
+<li>Play Continues normally from You.</li>
+</ol>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be <a href="#glossary:counter">Countered</span></strong></a>.</li>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li><a href="#glossary:targeted">Targeted</span></strong></a> Players Can still <a href="#glossary:respond-in-kind">Respond in Kind</a> to <a href="#glossary:draw">Draw Effects</span></strong></a> by continuing the <a href="#glossary:stackable">Stack</a>, but Cannot use Counter Class Chaos Cards.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Not only does Steal Turn <a href="#glossary:stackable">Stack</a> with itself, but it also <a href="#glossary:stackable">Stacks</a> with Reverse Stun, Stun and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If the <a href="#glossary:targeted">Targeted Player</a> has a Skip or <a href="#glossary:draw">Draw Effect</span></strong></a> Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
+</ul>
+</div>
+</li>
 </ul>
 </div>
 <div class="return-link-wrapper">
@@ -9098,7 +9095,7 @@ type: "cards"
 <li>All Players in Play Order secretly choose any Card from the Discards and adds it to Their Hand.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#crazy-8s-pure-chaos">Pure Chaos Card</a> [any Type].</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>

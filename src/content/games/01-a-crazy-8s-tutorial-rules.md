@@ -165,27 +165,27 @@ type: "rules"
 <img src="/assets/images/cards/00-core-game-reverse-stun.png">
 </div>
 </li>
-<li>3 x Steal Turn.
-<div class="image-container">
-<div class="image-caption">Steal Turn.</div>
-<img src="/assets/images/cards/00-core-game-steal-turn.png">
-</div>
-</li>
 <li>3 x Stun.
 <div class="image-container">
 <div class="image-caption">Stun.</div>
 <img src="/assets/images/cards/00-core-game-stun.png">
 </div>
 </li>
+<li>3 x Super Stun.
+<div class="image-container">
+<div class="image-caption">Super Stun.</div>
+<img src="/assets/images/cards/00-core-game-super-stun.png">
+</div>
+</li>
 </ol>
 </li>
-<li>Choose who <a href="#glossary:deal">Deals</span></strong></a> first [alternate the Dealer clockwise after each game].</li>
-<li>Shuffle the Deck, then the Dealer <a href="#glossary:deal">Deals</span></strong></a> Each Player 1 Card at a time until all have 7 Cards face-down [watch out for the face-up Trap Class Chaos Cards – return them randomly to the Deck before continuing to DEAL].</li>
+<li>Choose who <a href="#glossary:deal">Deals</a> first [alternate the Dealer clockwise after each game].</li>
+<li>Shuffle the Deck, then the Dealer <a href="#glossary:deal">Deals</a> Each Player 1 Card at a time until all have 7 Cards face-down [watch out for the face-up Trap Class Chaos Cards – return them randomly to the Deck before continuing to <a href="#glossary:deal">Deal</a>].</li>
 <li>Place the remainder of the Cards face-down as a Deck.</li>
-<li>Place the <strong>"Direction Of Play"</strong> [Blue/Clockwise Side] and the <strong>"Play To The Side Of The Discards"</strong> Setup Cards face-up on either side of the Discards, where everyone can see them [Remember to Flip the <strong>"Direction Of Play"</strong> Setup Card it every time a Reverse Effect Activates].</li>
+<li>Place the <a href="#tutorial-direction-of-play">Direction Of Play</a> [Blue/Clockwise Side] and the <a href="#tutorial-play-to-the-side-of-the-discards">Play To The Side Of The Discards</a> Setup Cards face-up on either side of the Discards, where everyone can see them [Remember to Flip the <a href="#tutorial-direction-of-play">Direction Of Play</a> Setup Card it every time a Reverse Effect Activates].</li>
 <li>Flip the top Card of the Deck over to begin the Discards:
 <ol type="a">
-<li>If any Action Class Cards are turned over at this stage, follow their rules.</li>
+<li>If any "Coloured" Action Class Cards are turned over at this stage, follow their rules.</li>
 <li>If any Chaos Card is turned over [including if a Trap Class Chaos Card is revealed in doing so], return it randomly to the Deck and Flip another Card.</li>
 </ol>
 </li>
@@ -221,7 +221,7 @@ loading="lazy"
 </ul>
 </div>
 </li>
-<li>If you don’t have a playable Card, as outlined above, you must <a href="#glossary:draw">Draw</span></strong></a> a Card from the Deck.
+<li>If you don’t have a playable Card, as outlined above, you must <a href="#glossary:draw">Draw</a> a Card from the Deck.
 <div class="note-box" id="pick-up-put-down">
 <strong>PICK-UP/PUT-DOWN RULE:</strong>
 <ul>
@@ -235,7 +235,7 @@ loading="lazy"
 </ul>
 </div>
 </li>
-<li>You may also choose not to play a playable Card from your Hand [such as keeping a Chaos Card up your sleeve for later]. If so, you must <a href="#glossary:draw">Draw</span></strong></a> a Card from the Deck. The Pick-Up/Put-Down Rule applies here as well; however, you may not play any other Card from your Hand after <a href="#glossary:draw">Drawing</span></strong></a>.</li>
+<li>You may also choose not to play a playable Card from your Hand [such as keeping a Chaos Card up your sleeve for later]. If so, you must <a href="#glossary:draw">Draw</a> a Card from the Deck. The Pick-Up/Put-Down Rule applies here as well; however, you may not play any other Card from your Hand after <a href="#glossary:draw">Drawing</span></strong></a>.</li>
 </ol>
 <div class="return-link-wrapper">
 <a href="#tutorial-game-rules-contents" class="return-link">🔝 Return to Rulebook Contents</a>
@@ -254,7 +254,7 @@ loading="lazy"
 <li>While placing your second last card, choose whether to indicate that you have one card left to the group or not by stating “Solo!”
 <ul>
 <li>While it is common courtesy to announce your last Card, I am not forcing a Rule to do so. Therefore, you are encouraged to use the tactic of hiding this information.</li>
-<li>However, if you do not and another Player notices before the next Player plays or DRAWS a Card, they can still call you out on it by saying “Solo!”. If they do, you must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards to yourself.</li>
+<li>However, if you do not and another Player notices before the next Player plays or <a href="#glossary:draw">Draws</a> a Card, they can still call you out on it by saying “Solo!”. If they do, you must <a href="#glossary:draw">Draw</a> 2 Cards to yourself.</li>
 </ul>
 </li>
 </ol>
@@ -263,22 +263,22 @@ loading="lazy"
 <ol start="2">
 <li>Possessing no cards at the end of your Turn.
 <ul>
-<li>If at the end of your Turn you still have no Cards, the game ends and you win!</li>
-<li>Points can be scored if desired [see: <a href="#tutorial-scoring">Scoring</a>], and play can restart if desired.</li>
+<li>If at the end of your Turn you still have no Cards, the game ends and you Win!</li>
+<li>Play can restart if desired.</li>
 </ul>
 </li>
 </ol>
 </div>
 <div id="victory-conditions-03">
 <ol start="3">
-<li>If the last card played in a round has a <a href="#glossary:draw">Draw</span></strong></a> or <a href="#glossary:deal">Deal Effect</span></strong></a>, continue play until someone is forced to <a href="#glossary:draw">Draw</span></strong></a> cards.
+<li>If the last card played in a round has a <a href="#glossary:draw">Draw</a> or <a href="#glossary:deal">Deal Effect</span></strong></a>, continue play until someone is forced to Take Cards from the Deck.
 <ul>
-<li>Someone must <a href="#glossary:draw">Draw</span></strong></a> from the last <a href="#glossary:draw">Draw</span></strong></a> or <a href="#glossary:deal">Deal Effect</span></strong></a> Card. Until that happens, your Win is not guaranteed...</li>
-<li>If you play a <a href="#glossary:draw">Draw</span></strong></a> or <a href="#glossary:deal">Deal Effect</span></strong></a> Card as your last Card and a Player/s <a href="#glossary:respond-in-kind">Respond in Kind</span></strong></a>, and in doing so, brings the <a href="#glossary:draw">Draw</span></strong></a> or <a href="#glossary:deal">Deal Effect</span></strong></a> back to you, with nothing to defend yourself with you must bear the consequences of the <a href="#glossary:draw">Draw</span></strong></a> or <a href="#glossary:deal">Deal Effect</span></strong></a> you initiated, cancelling your Win.
+<li>Someone must Take Cards from the Deck from the last <a href="#glossary:draw">Draw</a> or <a href="#glossary:deal">Deal Effect</span></strong></a> Card. Until that happens, your Win is not guaranteed...</li>
+<li>If you play a <a href="#glossary:draw">Draw</a> or <a href="#glossary:deal">Deal Effect</span></strong></a> Card as your last Card and a Player/s <a href="#glossary:respond-in-kind">Respond in Kind</span></strong></a>, and in doing so, brings the <a href="#glossary:draw">Draw</a> or <a href="#glossary:deal">Deal Effect</span></strong></a> back to you, with nothing to defend yourself with you must bear the consequences of the <a href="#glossary:draw">Draw</a> or <a href="#glossary:deal">Deal Effect</span></strong></a> you initiated, cancelling your Win.
 <div class="note-box">
 <strong>NOTE:</strong>
 <ul>
-<li>There is also the possibility of the Drawer obtaining <strong>"Anti-Fun"</strong> for example, that can still be used to negate your Win. It is also a possibility that while <a href="#glossary:draw">Drawing</span></strong></a> with certain Expansions that a Group Targeting <a href="#glossary:draw">Draw Effect</span></strong></a> Chaos Card could charge everyone, including you, Card/s that would also cancel your win.</li>
+<li>There is also the possibility of the <a href="#glossary:targeted">Targeted Player</a> obtaining <a href="#tutorial-anti-fun">Anti-Fun</a> for example, that can still be used to negate your Win. It is also a possibility that while <a href="#glossary:draw">Drawing</span></strong></a> with certain Expansions that a Group Targeting <a href="#glossary:draw">Draw Effect</span></strong></a> Chaos Card could charge everyone, including you, Card/s that would also cancel your win.</li>
 </ul>
 </div>
 </li>
@@ -562,7 +562,7 @@ loading="lazy"
 </div>
 <div id="tutorial-glossary-deal">
 <ol start="2">
-<li>DEAL:
+<li><a href="#glossary:deal">Deal</a>:
 <ul>
 <li>Take Cards from the Deck, while ignoring all Trap Effects.</li>
 </ul>
