@@ -712,7 +712,7 @@ type: "cards"
 <li><strong><span style="color: #3b82f6;">GROUP TARGETED:</span></strong> Reveal this Card to be shielded from the Effects.</li>
 </ol>
 </li>
-<li>Or simply Play as a <a href="#tutorial-pure-chaos">Pure Chaos Card</a> [any Type].
+<li>Or simply Play as any Type of <a href="#tutorial-pure-chaos-any">Pure Chaos Card</a> [any Type].
 <div class="tip-box">
 <strong>TIP:</strong>
 <ul>
