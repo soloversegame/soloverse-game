@@ -70,7 +70,7 @@
 
       panel.querySelectorAll("[id]").forEach((el) => {
         const id = el.id;
-        if (!id || id.startsWith("vault-") || id.endsWith("-contents") || seenKeys.has(id)) return;
+        if (!id || id.startsWith("vault-") || id.endsWith("-contents") || el.hasAttribute("data-no-search") || seenKeys.has(id)) return;
 
         const isCard = el.querySelector(".rules-box") !== null;
         const isBox = /-(box)$/.test(el.className);

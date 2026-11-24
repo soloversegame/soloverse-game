@@ -244,7 +244,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="tutorial-pure-chaos-any">
+<div id="tutorial-pure-chaos-any" data-no-search>
 <div id="tutorial-pure-chaos">
 <div class="rules-box">
 <div class="card-top-section">

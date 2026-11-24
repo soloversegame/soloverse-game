@@ -5383,7 +5383,7 @@ type: "cards"
 <li>Then the User DEALS 5 Cards to Each Player.</li>
 </ol>
 </li>
-<li>Or Play simply as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -5431,7 +5431,7 @@ type: "cards"
 <li>Choose any 2 Players to Swap Hands with [including Yourself].</li>
 </ol>
 </li>
-<li>Or Play simply as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
+<li>Or simply Play as any Type of <a href="#crazy-8s-pure-chaos-any">Pure Chaos Card</a>.</li>
 </ol>
 </li>
 </ol>
@@ -7591,7 +7591,7 @@ type: "cards"
 </div>
 </div>
 
-<div id="crazy-8s-pure-chaos-any">
+<div id="crazy-8s-pure-chaos-any" data-no-search>
 <div id="crazy-8s-pure-chaos">
 <div class="rules-box">
 <div class="card-top-section">
