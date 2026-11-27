@@ -8632,7 +8632,7 @@ type: "cards"
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 </ul>
 </div>
 <div class="image-container">

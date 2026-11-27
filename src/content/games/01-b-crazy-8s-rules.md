@@ -155,7 +155,7 @@ loading="lazy"
 <li>While placing your second last card, choose whether to indicate that you have one card left to the group or not by stating “Solo!”
 <ul>
 <li>While it is common courtesy to announce your last Card, I am not forcing a Rule to do so. Therefore, you are encouraged to use the tactic of hiding this information.</li>
-<li>However, if you do not and another Player notices before the next Player plays or DRAWS a Card, they can still call you out on it by saying “Solo!”. If they do, you must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards to yourself.</li>
+<li>However, if you do not and another Player notices before the next Player plays or DRAWS a Card, they can still call you out on it by saying “Solo!”. If they do, you must <a href="#glossary:draw">Draw</span></strong></a> 2 Cards.</li>
 </ul>
 </li>
 </ol>

@@ -959,73 +959,6 @@ type: "cards"
 </div>
 </div>
 
-<div id="tutorial-steal-turn">
-<div class="rules-box">
-<div class="card-top-section">
-<div class="rules-box">
-<h4 class="card-title">STEAL TURN [x3]:</h4>
-<ul>
-<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
-</ul>
-</div>
-<div class="image-container">
-<img src="/assets/images/cards/00-core-game-steal-turn.png">
-</div>
-</div>
-<div class="rules-box">
-<ol>
-<li>Target any Player. When Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, this Card deactivates, and You Steal Their Turn.
-<div class="tip-box">
-<strong>TIP:</strong>
-<ul>
-<li>When Stacking Chaos Cards Like <a href="#tutorial-reverse-stun">Reverse Stun</a>, <a href="#tutorial-stun">Stun</a> and Steal Turn, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted</a> Player.</li>
-<li>Then when Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, Deactivate the Top Card.</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-<div class="discards-box">
-<ul>
-<li>After the <a href="#glossary:targeted">Targeted</a> Player’s Turn has been Stolen due to this Card’s Effect, place this Card on top of the Discards.</li>
-</ul>
-</div>
-<div class="rules-box">
-<ol start="2">
-<li>The <a href="#glossary:targeted">Targeted</a> Player chooses a Colour to continue.</li>
-<li>Take Your Turn as normal.</li>
-<li>Play Continues normally from You.</li>
-</ol>
-</div>
-<div class="restriction-box">
-<strong>RESTRICTION NOTES:</strong>
-<ul>
-<li>Cannot be Countered.</li>
-<li>Cannot be used as a Pure Chaos Card.</li>
-<li><a href="#glossary:targeted">Targeted</a> Players Can still <a href="#glossary:respond-in-kind">Respond in Kind</a>. to Draw Effects by continuing the Stack, but Cannot use Counter Class Chaos Cards.</li>
-</ul>
-</div>
-<div class="compatibility-box">
-<strong>COMPATIBILITY NOTES:</strong>
-<ul>
-<li>Not only does Steal Turn Stack with itself, but it also Stacks with <a href="#tutorial-reverse-stun">Reverse Stun</a>, <a href="#tutorial-stun">Stun</a> and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/games/01-a-crazy-8s-tutorial-rules#tutorial-important-notes-03">Important Notes: Rule 3</a>].
-<div class="example-box">
-<strong>EXAMPLE:</strong>
-<ul>
-<li>If the <a href="#glossary:targeted">Targeted</a> Player has a Skip or Draw Effect Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="return-link-wrapper">
-<a href="#tutorial-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
-</div>
-</div>
-</div>
-
 <div id="tutorial-stun">
 <div class="rules-box">
 <div class="card-top-section">
@@ -1034,7 +967,7 @@ type: "cards"
 <ul>
 <li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
 <li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
-<li><strong><span style="color: var(--color-card-class);">Self Targeting</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
 </ul>
 </div>
 <div class="image-container">
@@ -1092,6 +1025,72 @@ type: "cards"
 </div>
 <div class="return-link-wrapper">
 <a href="#tutorial-card-definitions-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS</a>
+</div>
+</div>
+</div>
+
+<div id="crazy-8s-super-stun">
+<div class="rules-box">
+<div class="card-top-section">
+<div class="rules-box">
+<h4 class="card-title">SUPER STUN [x3]:</h4>
+<ul>
+<li><strong><span style="color: var(--color-card-class);">Core Game</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Offensive Class</span></strong></li>
+<li><strong><span style="color: var(--color-card-class);">Specific Targeting</span></strong></li>
+</ul>
+</div>
+<div class="image-container">
+<img src="/assets/images/cards/00-core-game-super-stun.png">
+</div>
+</div>
+<div class="rules-box">
+<ol start="1">
+<li><a href="#glossary:targeted">Target</a> any Player.
+<div class="tip-box">
+<strong>TIP:</strong>
+<ul>
+<li>When <a href="#glossary:stackable">Stacking</a> Chaos Cards Like <a href="#crazy-8s-reverse-stun">Reverse Stun</a>, <a href="#crazy-8s-stun">Stun</a> and Super Stun, literally Stack them on top of each other in front of the <a href="#glossary:targeted">Targeted Player</a>.</li>
+<li>Then when Their next <a href="#glossary:playable-turn">Playable Turn</a> arrives, Deactivate the Top Card.</li>
+</ul>
+</div>
+</li>
+<li>When Their next <a href="#glossary:playable-turn">Playable Turn</span></strong></a> arrives, this Card deactivates, and You Skip Everyone's Turns between Them and You.</li>
+</ol>
+<div class="discards-box">
+<ul>
+<li>After this Card Deactivates, place this Card on top of the Discards.</li>
+<li>The <a href="#glossary:targeted">Targeted Player</a> chooses a Colour to continue.</li>
+</ul>
+</div>
+<ol start="3">
+<li>Take Your Turn as normal.</li>
+<li>Play Continues normally from You.</li>
+</ol>
+</div>
+<div class="restriction-box">
+<strong>RESTRICTION NOTES:</strong>
+<ul>
+<li>Cannot be <a href="#glossary:counter">Countered</span></strong></a>.</li>
+<li>Cannot be used as a Pure Chaos Card.</li>
+<li><a href="#glossary:targeted">Targeted</span></strong></a> Players Can still <a href="#glossary:respond-in-kind">Respond in Kind</a> to <a href="#glossary:draw">Draw Effects</span></strong></a> by continuing the <a href="#glossary:stackable">Stack</a>, but Cannot use Counter Class Chaos Cards.</li>
+</ul>
+</div>
+<div class="compatibility-box">
+<strong>COMPATIBILITY NOTES:</strong>
+<ul>
+<li>Not only does Steal Turn <a href="#glossary:stackable">Stack</a> with itself, but it also <a href="#glossary:stackable">Stacks</a> with Reverse Stun, Stun and other Card Effects that prevent <a href="#glossary:playable-turn">Playable Turns</a>. When this happens, the last Card played Must be finalised before the previous one Can be [See: <a href="/00-a-universal-game-notes#important-notes-03" class="matrix-link">Universal Game Notes: Important Notes: Rule 3</a>].
+<div class="example-box">
+<strong>EXAMPLE:</strong>
+<ul>
+<li>If the <a href="#glossary:targeted">Targeted Player</a> has a Skip or <a href="#glossary:draw">Draw Effect</span></strong></a> Card used on them before Stun Can deactivate, they will <a href="#glossary:miss-their-turn">Miss Their Turn</a> again for each additional Card Effect.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="return-link-wrapper">
+<a href="#crazy-8s-cards-contents" class="return-link">🔝 Return to 📋 RULEBOOK CONTENTS A-Z</a>
 </div>
 </div>
 </div>
